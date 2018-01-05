@@ -1,49 +1,100 @@
-<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+	<meta charset = "utf-8">
+	<meta name ="viewport" 
+	content = "width=device-width,initial-scale=1,shrink-to-fit=no">
+	<title>Contact ME</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
 
-		<title>reveal.js</title>
+</head>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+<body class="home">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+<div class ="wrapper">
+	<div class="one">
+		<img src="images/logo.png" alt="logo" />
+		<h3 class="heading"><strong>Contact ME</strong></h4>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+	</div>
+		<div class="contact_form col-9 right">
+		  <form method="post" onsubmit="return validateMyForm();">
+		    <label for="name">Name</label>
+		    <input type="text" id="name" name="firstname" placeholder="NAME">
+
+		    <label for="email">Email Address</label>
+		    <input type="text" id="email" name="lastname" placeholder="Email Adress">
+
+
+		    <label for="phone">Phone Number</label>
+		    <input type="text" id="phone" name="lastname" placeholder="Mobile Phone">
+
+		    <label for="sex">Sex</label>
+		    <select id="sex" name="sex">
+		      <option value="MALE">MALE</option>
+		      <option value="FEMALE">FEMALE</option>
+		      <option value="OTHERS">DO not like to disclose</option>
+		    </select>
+		    <div class='input'>
+	    	<label for="input3"><code>Describe Youself
+	    	</code></label>
+	    	<br>
+			  <textarea  cols="100" rows="10" placeholder="Remember, be nice!" id="COMMENTS">
+			  </textarea>
 			</div>
+
+		    <input type="submit" value="Submit" >
+		  </form>
 		</div>
+		 
+   
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.11.0/fetch.min.js"></script>
+	<script type="text/javascript">
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+
+	function validateMyForm()
+		{
+		const contactform
+		= fetch('https://httpbin.org/post',{
+			method: 'POST' ,
+			credentials: 'same-origin',
+			headers: {
+			    'Accept': 'application/json',
+			    'Content-Type': 'application/json'
+			  },
+			body : JSON.stringify({
+					name : document.getElementById('name').value,
+					email : document.getElementById('email').value,
+					phone : document.getElementById('phone').value,
+					sex : document.getElementById('sex').value,
+					comments : document.getElementById('COMMENTS').value
+			})
+		})
+
+		contactform
+		.then((res) => res.json())
+		.then((data) =>{
+			console.log(data);
+
+		})
+
+		 .catch((err) => console.log(err));
+		
+		let form_details = '<p> Thank You for responding <hr>'
+
+			form_details+='<strong>You are awesome</strong>' + + document.getElementById('name').value + '.Thanks for describtion ' + document.getElementById('COMMENTS').value	+
+			 '<br> I WILL surely contact you :' 
+						+ document.getElementById('name').value + '   at your Email' + document.getElementById('email').value + '<br>If I time I will surely call you at:' +  document.getElementById('phone').value +  '<hr></p>';
+
+			document.write(form_details);
+			 
+			  document.getElementById('contact_form').reset();
+			return false;
+        
+      }
+		
+
+	</script>
+	</body>	
 </html>
