@@ -1,104 +1,36 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset = "utf-8">
-	<meta name ="viewport"
-	content = "width=device-width,initial-scale=1,shrink-to-fit=no">
-	<title>Contact ME</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <title>My Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/tribute.css">
+  </head>
+  <body>
+    <div class="container-fluid">
 
-</head>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home </a>
+                <a class="nav-item nav-link" href="#"> <span class="sr-only">(current)</span>Tribute | FOSS</a>
+                <a class="nav-item nav-link" href="index.html">Contact Me</a>
+              </div>
+            </div>
+        </nav>
 
-<body class="home">
+  </div>
 
-<div class ="grid">
-	<div class="one">
-		<img src="images/logo.png" alt="logo" />
-		<h3 class="heading"><strong>Contact ME</strong></h4>
+    <h1> WORK IS ON PROGRESS , DO FORGIVE FOR ALL shortcomings </h1>
 
-	</div>
-		
-		<div class="contact_form col-7 right">
-		  <form method="post" onsubmit="return validateMyForm();">
-		    <label for="name">Name</label>
-		    <input type="text" id="name" name="firstname" placeholder="NAME">
-
-		    <label for="email">Email Address</label>
-		    <input type="text" id="email" name="lastname" placeholder="Email Adress">
-
-
-		    <label for="phone">Phone Number</label>
-		    <input type="text" id="phone" name="lastname" placeholder="Mobile Phone">
-
-		    <label for="sex">Sex</label>
-		    <select id="sex" name="sex">
-		      <option value="MALE">MALE</option>
-		      <option value="FEMALE">FEMALE</option>
-		      <option value="OTHERS">DO not like to disclose</option>
-		    </select>
-		    <div class='input'>
-	    	<label for="input3"><code>Describe Youself
-	    	</code></label>
-	    	<br>
-			  <textarea  cols="100" rows="10" placeholder="Remember, be nice!" id="COMMENTS">
-			  </textarea>
-			</div>
-
-		    <input type="submit" value="Submit" >
-		  </form>
-
-		</div>
-
-		<footer class="foot"></footer>
-
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.11.0/fetch.min.js"></script>
-	<script type="text/javascript">
-
-
-	function validateMyForm()
-		{
-		const contactform
-		= fetch('https://httpbin.org/post',{
-			method: 'POST' ,
-			credentials: 'same-origin',
-			headers: {
-			    'Accept': 'application/json',
-			    'Content-Type': 'application/json'
-			  },
-			body : JSON.stringify({
-					name : document.getElementById('name').value,
-					email : document.getElementById('email').value,
-					phone : document.getElementById('phone').value,
-					sex : document.getElementById('sex').value,
-					comments : document.getElementById('COMMENTS').value
-			})
-		})
-
-		contactform
-		.then((res) => res.json())
-		.then((data) =>{
-			console.log(data);
-
-		})
-
-		 .catch((err) => console.log(err));
-
-		let form_details = '<p> Thank You for responding <hr>'
-
-			form_details+='<strong>You are awesome</strong>' + + document.getElementById('name').value + '.Thanks for describtion ' + document.getElementById('COMMENTS').value	+
-			 '<br> I WILL surely contact you :'
-						+ document.getElementById('name').value + '   at your Email' + document.getElementById('email').value + '<br>If I time I will surely call you at:' +  document.getElementById('phone').value +  '<hr></p>';
-
-			document.write(form_details);
-
-			  document.getElementById('contact_form').reset();
-			return false;
-
-      }
-
-
-	</script>
-	</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
