@@ -1,14 +1,14 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        KURIAN BENOY
+tagline:      An Enthusiast Programmer, Open source Enthusiast , Photographer
 baseurl:      ""
-paginate:     1
+paginate:     5
 locale:       "en"
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Kurian Benoy
+  url:        https://kurianbenoy.github.io/ 
 
 # Gems
 gems:
