@@ -1,0 +1,17 @@
+
+## Thoughts on SVD and NMF
+
+Singular-value decomposition (SVD) is a factorization of a real or complex matrix. It is the generalization of the eigendecomposition of a positive semidefinite normal matrix (for example, a symmetric matrix with positive eigenvalues) to any m × n {\displaystyle m\times n} ￼ matrix via an extension of the polar decomposition. It has many useful applications in signal processing and statistics. 
+Formally, the singular-value decomposition of an m × n {\displaystyle m\times n} ￼ real or complex matrix M {\displaystyle \mathbf {M} } ￼ is a factorization of the form U Σ V ∗ {\displaystyle \mathbf {U\Sigma V^{*}} } ￼, where U {\displaystyle \mathbf {U} } ￼ is an m × m {\displaystyle m\times m} ￼ real or complex unitary matrix, Σ {\displaystyle \mathbf {\Sigma } } ￼ is an m × n {\displaystyle m\times n} ￼ rectangular diagonal matrix with non-negative real numbers on the diagonal, and V {\displaystyle \mathbf {V} } ￼ is an n × n {\displaystyle n\times n} ￼ real or complex unitary matrix. The diagonal entries σ i {\displaystyle \sigma _{i}} ￼ of Σ {\displaystyle \mathbf {\Sigma } } ￼ are known as the singular values of M {\displaystyle \mathbf {M} } ￼. The columns of U {\displaystyle \mathbf {U} } ￼ and the columns of V {\displaystyle \mathbf {V} } ￼ are called the left-singular vectors and right-singular vectors of M {\displaystyle \mathbf {M} } ￼, respectively. 
+The singular-value decomposition can be computed using the following observations: 
+The left-singular vectors of M are a set of orthonormal eigenvectors of MM∗.
+The right-singular vectors of M are a set of orthonormal eigenvectors of M∗M.
+The non-zero singular values of M (found on the diagonal entries of Σ) are the square roots of the non-zero eigenvalues of both M∗M and MM∗.[source](https://en.wikipedia.org/wiki/Singular_value_decomposition).
+
+You maybe bored with this wikipedia definition. Yet what if I say to you Singular value decomposition is one of the most popular algorithms which have influence our society and is used in many fields like medicines, data science , Spacial science and much more like famous algorithms like fast fourier integration, Monte Carlo Integration , quick sort and much more. But according to math_rachael, the algorithm has not yet recieved the attentinon it really deserves to get.
+
+It’s basically a small equation such that:
+
+```
+A[data matrix] = U[left singular matrix] * epsilon(diagonal of singular values) * VT[right singular values)
+```
