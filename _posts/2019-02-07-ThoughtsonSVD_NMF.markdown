@@ -1,8 +1,8 @@
 
-## Thoughts on SVD and NMF
+# Thoughts on SVD and NMF
 
 Singular-value decomposition (SVD) is a factorization of a real or complex matrix. It is the generalization of the eigendecomposition of a positive semidefinite normal matrix (for example, a symmetric matrix with positive eigenvalues) to any m × n {\displaystyle m\times n} ￼ matrix via an extension of the polar decomposition. It has many useful applications in signal processing and statistics. 
-Formally, the singular-value decomposition of an m × n {\displaystyle m\times n} ￼ real or complex matrix M {\displaystyle \mathbf {M} } ￼ is a factorization of the form U Σ V ∗ {\displaystyle \mathbf {U\Sigma V^{*}} } ￼, where U {\displaystyle \mathbf {U} } ￼ is an m × m {\displaystyle m\times m} ￼ real or complex unitary matrix, Σ {\displaystyle \mathbf {\Sigma } } ￼ is an m × n {\displaystyle m\times n} ￼ rectangular diagonal matrix with non-negative real numbers on the diagonal, and V {\displaystyle \mathbf {V} } ￼ is an n × n {\displaystyle n\times n} ￼ real or complex unitary matrix. The diagonal entries σ i {\displaystyle \sigma _{i}} ￼ of Σ {\displaystyle \mathbf {\Sigma } } ￼ are known as the singular values of M {\displaystyle \mathbf {M} } ￼. The columns of U {\displaystyle \mathbf {U} } ￼ and the columns of V {\displaystyle \mathbf {V} } ￼ are called the left-singular vectors and right-singular vectors of M {\displaystyle \mathbf {M} } ￼, respectively. 
+Formally, the singular-value decomposition of an m × n real or complex matrix M ￼ is a factorization of the form U Σ V ∗ ￼, where U  ￼ is an m × m ￼ real or complex unitary matrix, Σ  ￼ is an m × n rectangular diagonal matrix with non-negative real numbers on the diagonal, and V {\displaystyle \mathbf {V} } ￼ is an n × n {\displaystyle n\times n} ￼ real or complex unitary matrix. The diagonal entries σ i {\displaystyle \sigma _{i}} ￼ of Σ {\displaystyle \mathbf {\Sigma } } ￼ are known as the singular values of M {\displaystyle \mathbf {M} } ￼. The columns of U {\displaystyle \mathbf {U} } ￼ and the columns of V {\displaystyle \mathbf {V} } ￼ are called the left-singular vectors and right-singular vectors of M {\displaystyle \mathbf {M} } ￼, respectively. 
 The singular-value decomposition can be computed using the following observations: 
 The left-singular vectors of M are a set of orthonormal eigenvectors of MM∗.
 The right-singular vectors of M are a set of orthonormal eigenvectors of M∗M.
@@ -15,3 +15,29 @@ It’s basically a small equation such that:
 ```
 A[data matrix] = U[left singular matrix] * epsilon(diagonal of singular values) * VT[right singular values)
 ```
+
+where:
+-  A is an m*n matrix
+- U is an m*n orthogonal matrix
+- S is an n*n diagonal matrix
+- V is an n*n orthogonal matrix
+
+
+Non-negative Matrix Factorization
+
+Rather than constraining our factors to be orthogonal, another idea would to constrain them to be non-negative. NMF is a factorization of a non-negative data set V: 
+` V=WH `
+into non-negative matrices W,H. Often positive factors will be more easily interpretable (and this is the reason behind NMF's popularity).
+
+NMF is a state of art feature detection algorithm. NMF is useful when there are many attributes and these attributes are weak predictabililty. By combining attributes, NMF can produce meaningful patterns, topics, or themes.
+NMF is often useful in text mining. In a text document, the same word can occur in different places with different meanings
+
+NMF is commonly used in :
+- Topic Modelling
+- Face Decomposition 
+- Audio source seperation
+- Chemistry
+- Bioinformation and much more
+
+Let’s dive more into NMF with a face decomposition examples :
+[link](https://colab.research.google.com/drive/1zADljq6LatKmORAyo1sQaTRJTuucSeFx#scrollTo=JJjEVd_BvRRn)
