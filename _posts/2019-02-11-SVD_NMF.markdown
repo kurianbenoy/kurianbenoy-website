@@ -1,5 +1,5 @@
 
-Thoughts on SVD and NMF
+ughts on SVD and NMF
 
 **Singular-value decomposition (SVD)**
 
@@ -46,3 +46,4 @@ NMF is commonly used in :
 
 Let’s dive more into NMF with a face decomposition examples :
 [link](https://colab.research.google.com/drive/1zADljq6LatKmORAyo1sQaTRJTuucSeFx#scrollTo=JJjEVd_BvRRn)
+
