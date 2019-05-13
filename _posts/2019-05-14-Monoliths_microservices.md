@@ -1,4 +1,9 @@
-## Microservice vs Monoliths - Hrishi Bhaskaran
+In this article, I will be talking about monoliths and microservice system 
+architecture. Recently [Hrishikesh Bhaskaran](https://twitter.com/_stultus) gave
+a talk on this topic at Facebook F8 meetup. This talk inspired me and changed
+my thoughts about both. So I am going to highlight some of key takeways in this
+blogpost.
+(Still not completed)
 
 Difference b/w monolith and microservice - user feed, photos, auth
 Vertical scaling - increase RAM/My of CPU service
@@ -11,15 +16,16 @@ Why Monlith is easy?
 Load balancers - imp for monoliths, Microservice is a buzz-word
 (Monolith is easy for start and is a predated technology)
 
-##Micoservices
+## Micoservices
 
 - Testing all things when project increases, agile increases
 - increase time for uptime
 - Using new technologies is easy
 - Language support is main thing like R, JS, Python
 
-Disadv: 1) Different protocols, things lke that
-2) It's a distributed computing, so there is a lot of myths is here:
+### Disadvantages:
+- Different protocols, things lke that
+- It's a distributed computing, so there is a lot of myths is here:
 - All services has same IP, the network use VPC for various microservices. The UI if made network is reliable with both Photos and videos. Then broken it creates problem
 - Assuming lattency is 0, stupid and create architecutre limitations
 - Assume bandwidth is infinity,
