@@ -3,11 +3,18 @@ architecture. Recently [Hrishikesh Bhaskaran](https://twitter.com/_stultus) gave
 a talk on this topic at Facebook F8 meetup. This talk inspired me and changed
 my thoughts about both. So I am going to highlight some of key takeways in this
 blogpost.
-(Still not completed)
 
-Difference b/w monolith and microservice - user feed, photos, auth
-Vertical scaling - increase RAM/My of CPU service
-Horizontal scaling - more replicas
+**Monoliths** can be defined as single tiered software user interface and data
+access is combined together. So taking the example of Social media all
+functionalities like userfeed, authentication, photos are all enclosed in a 
+single application.
+
+In case of **Microservices**, all the functionalities are seperated whenever 
+required so we can use the best bleeding edge technology when required.
+
+> Note: Vertical scaling - increase RAM/My of CPU service
+        Horizontal scaling - more replicas
+		Loadbalancers
 
 Why Monlith is easy?
 - easy build time
