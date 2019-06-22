@@ -1,5 +1,3 @@
-## Quotes from The Alchemist
-
 The Alchemist is written by the famous Brazilian lyricist and novelist Paulo
 Coelho. I recently finished reading his book and am sharing some of amazing
 quotes I liked from his books. The last quote made me start reading this amazing
