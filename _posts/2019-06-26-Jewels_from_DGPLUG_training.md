@@ -16,7 +16,9 @@ answered during training by experts here.
 <mbuf> django_master, if you want to survive and work in FLOSS companies
 <mbuf> django_master, again, it is important to work in a project that interests you, than be stuck in the wrong company
 
+
 > I get stuck when solving harder problems and bugs that take about 4-5 days effort. How to show perseverance when solving bigger problems and when mentors continuosly get back to you with comments?
+
 
 <mbuf> django_master, this is where the communication guidelines come into play
 <mbuf> django_master, you need to describe all the approaches you have taken to solve the problem or bug, document it, maybe in a blog post, and send it for review
@@ -24,6 +26,7 @@ answered during training by experts here.
 <mbuf> django_master, and if the mentors find that you have really put in the effort, then they may guide you or give you pointers
 <mbuf> django_master, nobody said life is easy; if you are afraid, or scared to experiment, learn and try out things, you are in the wrong industry
 <mbuf> django_master, there is a reason why engineers are paid well :) (to solve hard problems)
+
 
 > Have you given any talk proposal for Pycon India?
 
@@ -39,6 +42,7 @@ answered during training by experts here.
 <django_master> kushal, weren't you a speaker last time?
 <sayan> kushal: you just need to work harder?
 <kushal> sayan, or like a senior software engineer
+
 
 > Everyone here talks about importance of blogging. How frequently we should blog and on what topics?
 
