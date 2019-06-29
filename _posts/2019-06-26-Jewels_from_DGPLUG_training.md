@@ -2,7 +2,7 @@ Dgplug conduct awesome FOSS training every year. I have decided to participate
 this years training. The following are some of the questions which have been
 answered during training by experts here.
 
-> mbuf, what are the basics Industry expect from a Bachelors student?
+**mbuf, what are the basics Industry expect from a Bachelors student?**
 
 <mbuf> django_master, I cannot answer for the industry, but, there are two schools of thought that you should be familiar with
 
@@ -89,7 +89,7 @@ answered during training by experts here.
 
 
 
-> Everyone here talks about importance of blogging. How frequently we should blog and on what topics?
+**Everyone here talks about importance of blogging. How frequently we should blog and on what topics?**
 
 
 <mbuf> django_master, Stephen King (the writer) says the ratio of reading to writing is 10:1
