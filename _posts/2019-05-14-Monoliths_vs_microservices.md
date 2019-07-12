@@ -1,46 +1,44 @@
 In this article, I will be talking about monoliths and microservice system
 architecture. Recently [Hrishikesh Bhaskaran](https://twitter.com/_stultus) gave
-a talk on this topic at Facebook F8 meetup. This talk inspired me and changed my
+a talk on this topic at Facebook F8 meetup. Th.is talk inspired me and changed my
 thoughts about both. So I am going to highlight some of key takeways in this
 blogpost.
 
 ## Monoliths
 
-**Monoliths** can be defined as single tiered software user interface and data
-access is combined together. So taking the example of Social media all
-functionalities like userfeed, authentication, photos are all enclosed in a
+**Monoliths** can roughly be described as a big combined stack. it includes user interfaces and data access all in the same silo. So taking  Social media as an example -  all functionalities like userfeed, authentication, photos are all enclosed in a
 single application.
 
 In case of **Microservices**, all the functionalities are seperated whenever
-required so we can use the best bleeding edge technology when required.
+required so we can use the  bleeding edge technology whenever required.
 
-*Some basic terminologies*
+**Some basic terminology**
 
-```  Vertical scaling - increase RAM/My of CPU service
-     Horizontal scaling - more replicas
-     Loadbalancers - A load balancer is a device that distributes network
+Vertical scaling - *increase RAM/My of CPU service*
+Horizontal scaling - *more replicas*
+Loadbalancers - *A load balancer is a device that distributes network
 or application traffic across a cluster of servers. Load balancing improves
 responsiveness and increases availability of applications. One of the 
-easiest methods for scaling.
-```
+easiest methods for scaling.*
+
 
 #### Why Monlith are easy to build?
+
 - Less time for initial build
 - Easy installation and deployment of services
 - testing of service is very easy
 
-Next we will discuss about `Microservices`. Now **microservices** has become a
-buzz-word like *AI, Machine learning, blockchain, kubernetees*. Now docker,
-kuberneetes and all have become popular. Thus making the microserice approach
-very easy to use and a buzz word. As Hrishi said, please note `monolith is not a
-out-dated technology` as many think about it. It still always recommended to use
+Next we will discuss about `microservices`.Today microservices is a `buzz word` like AI, Machine Learning, Blockchain. This makes everyone very tempting to use microservices for whatever you make. As Hrishi said, please note *monolith is not a
+out-dated technology* as many think about it. It  recommended to use
 monoliths when you are building a stack with no previous experience in it.
 
-`Extras:`[DockervsKuberneetes:Not an or
+`Extras :`[DockervsKuberneetes:Not an or
 question](https://www.youtube.com/watch?v=2vMEQ5zs1ko)
 
 ## Micoservices
-Some of the characteristics of Microservices are:
+
+Some of the characteristics of microservices are:
+
 - Per Martin Fowler and other experts, services in a microservice architecture
   (MSA) are often processes that communicate over a network to fulfill a goal
   using technology-agnostic protocols such as HTTP.
@@ -56,19 +54,15 @@ Some of the characteristics of Microservices are:
 
 #### Disadvantages:
 
- Microservices is a distributed computing, so there is a lot of problems are
+ Microservices is  distributed computing, so there is a lot of problems are
  associated with it:
 - All services should have same IP, the network use VPC for communication of
   various  microservices to each other.
-- Assuming lattency is 0, stupid and create architecutre limitations
-- Assume bandwidth is infinity,
-- Assume network topologies are same, IP change when going to different Places
-  the ping on further cases won't be available. Else use DNS server
-- "" Network cordinators are same, IP mattan aale thapa;
-- "" internal data cost is same
+- We are assuming usually lattency is zero, bandwidth is infinity in distributed computing. This may not always hold true in real world systems.
+- Using microservice for small 2 teams is not ideal usually.
+- Various services in microservice, can communicate each other. So seperate data cost is needed for internal communication.
 
-Using Microservice for small 2 person teams is stupid Familar things are using
-microservice
+ 
 
 ## When to use Monoliths vs Microservices
 
@@ -80,7 +74,7 @@ This is actually a million dollar question according to me. Personally I had
  using a static website with everything hard coded and was deployed in less than
  1 hour.
 
-**Moral of story: Use adequate technology at adequate time**
+**Moral of story: Use the right technology at the right time**
 
 *Monolith* is ideal for new projects which are meant to be served in a
 low/medium scale with less knowledge on how to build it. 
@@ -91,4 +85,5 @@ experience on and know what exactly are the services split up needed for
 satisfying your requirement.
 
 
-Thanks for reading the article and I hope it was not prolix and boring :).
+Thanks for reading the article :).
+
