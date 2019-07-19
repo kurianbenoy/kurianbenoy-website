@@ -4,4 +4,5 @@ ones are: Ubuntu, Fedora, Redhat, Debian, Arch Linux. There are more than 1000of
 favourite. If
 you are someone new to Linux World you can use linux distributions like Ubuntu/ Fedora/Linux Mint. My personal favourite
 beginner linux variant is Linux mint as it resembles very likely to Windows. 
-I welcome all of you to Linux world :)
+
+**I welcome all of you to Linux world :)**
