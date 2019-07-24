@@ -9,4 +9,4 @@ That day: vim won the war with a large majority .
 
 I voted that day for vim, even though I didn't know Emacs then. Recently I picking up Emacs and find it really useful with lot of features. You can even call [Emacs the editor of lifetime](https://www.youtube.com/watch?v=VADudzQGvU8) as this speaker said.
 
-My Rant: Taste both Emacs and vim before you next vote
+**My Rant: Taste both Emacs and vim before you next vote**
