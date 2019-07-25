@@ -13,23 +13,27 @@ So at MEC.Conf we are having these organisations mainly:
 -  Mozilla
 -  MEC.Contrib
 -  DVC
+
 And there will be a bunch of interesting personal projects as well.
 
 ## Format
 
-Our Devsprints are planned to be held for 14 hours from 27th July,2019 to 28th July. So unlike hackathons, in Devsprints there is no prizes and biggest take away is learning importance of contributing to
-FOSS/Open source projects and even putting up a few PRs for the organisation. Unlike when you are talking and contributing to a unkwown person's project. Here we have mentors who will help you get started
-contributing to various projects.
+Our Devsprints are planned to be held for 14 hours from 27th July,2019 to 28th July. So unlike hackathons, in Devsprints there is no prizes and biggest take away is  being part of a community and help in some long term project by contribute to open source projects by putting up a few PRs for the organisation. Unlike when you are talking and contributing to a unkwown person's project. Here we have mentors who will help you get started contributing to various projects.
 
 ## Prerequisites
 
-If you are trying to come for our Devsprint and want to get a good vibe during event. Always believe in yourself and don't under-estimate your skill. If you into coding, there are a bunch of amazing projects in Devsprints organisation. Being proactive and coming setting up your project development environment is recommended. Knowing the basics of git may help you contribute quickly.
+If you are trying to come for our Devsprint and want to get a good vibe during event. Always believe in yourself and don't under-estimate your skill. If you into coding, there are a bunch of amazing projects in Devsprints organisation. Being proactive and coming setting up your interested projects development environment is recommended. Knowing the basics of git may help you contribute quickly.
 
 Hey if you are a non-coding person! You can help various organisations write documentation and in designing things.
 
 ## How to participate?
 
-Any one who have registered for the [MEC.Conf](https://conf.mec.dev/) will be able to attend devsprints.
+Anyone who have registered for the [MEC.Conf](https://conf.mec.dev/) will be able to attend devsprints.
+
+## References
+
+- https://treyhunner.com/2019/04/making-the-most-of-the-pycon-sprints/
+- https://in.pycon.org/blog/2017/understanding-dev-sprints.html
 
 
-Since it's our first time, pardon us for our mistakes. We will try
+Disclaimer: Since it is our first time, pardon us for our mistakes. We will try our level best to make this event memorable for you
