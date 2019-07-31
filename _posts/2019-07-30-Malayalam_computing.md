@@ -24,7 +24,7 @@ Santhosh challenged us to write a Hello world program in Amma Malayalam. Check o
 ഹെല്ലൊ വേൾഡ്
 ```
 
-You can even program with just `Malayalam`. See the function implementation as shown here:
+You can even program just with `Malayalam`. *Did you folks know Python3 was revamped from Python2 for unicode support?*  See the function implementation as shown here:
 
 
 ```
@@ -34,12 +34,26 @@ You can even program with just `Malayalam`. See the function implementation as s
 >>> ഗണിക്ക(3,6)
 18
 ```
-He told about some important Malayalam projects like Morphological Analyser,
-ML word predict. The unique thing is most of his project doesn't use Machine
-learning hype and created by ..
 
-Inorder to use machine learning in Malayalam, you need lot of data and infrastructure
-SO some of popular techniques in NLP like Neuro Machine Transulation cannot
+![alt text](/img/withsanthosh.jpg "Logo Title Text 1")
+
+He told about some important Malayalam projects like [Morphological Analyser](https://github.com/smc/mlmorph),
+[sentence predictor](https://gitlab.com/smc/mlpredict).
+The unique thing is most of his project doesn't use Machine
+learning hype. I am planning to understand these project and 
+explore this in depth in coming months.
+
+As an AI enthusiast. I enquired with Santhosh about the possibility of Malayalam 
+computing expanding with Machine Learning. According to Santhosh, inorder to use 
+machine learning in Malayalam, you need lot of data and infrastructure.
+So some of popular techniques in NLP like Neuro Machine Transulation cannot
 be applied for Malayalam. So most of the projects by SMC are discrete and 
-definite in nature.
+definite in nature. Instead of predicting nature in Machine Learning.
+
+Do checkout Santhosh Thottingal sir being interviewed by Sreeram Venkitesh in the 
+below link:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tr6Wxiusr54/0.jpg)](https://www.youtube.com/watch?v=Tr6Wxiusr54)
+
+
 
