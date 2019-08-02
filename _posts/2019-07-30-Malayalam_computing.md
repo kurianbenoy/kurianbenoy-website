@@ -58,3 +58,4 @@ below link:
 
 {% include disqus.html %}
 {% if page.comments %}
+{% endif %}
