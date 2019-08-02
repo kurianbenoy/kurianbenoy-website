@@ -1,5 +1,7 @@
 ---
+layout: post
 title: Seminar ideas
+comments: true
 ---
 [Draft]Final Year Project Ideas
 
@@ -26,6 +28,9 @@ and the PCAE decoder, which is just M
 constant part templates, one for each part capsule. 
 SCAE defines a new method for representation learning, where an arbitrary encoder learns viewpoint-equivariant representations by inferring parts and their poses and groups them into objects. This post provides motivation as well as high-level intuitions behind this idea, and an overview of the method. The major drawback of the method, as of now, is that the part decoder uses fixed templates, which are insufficient to model complicated real-world images. This is also an exciting avenue for future work, together with deeper hierarchies of capsules and extending capsule decoders to three-dimensional geometry. If you are interested in the details, I would encourage you to read the original paper: A. R. Kosiorek, S. Sabour, Y.W. Teh and G. E. Hinton, “Stacked Capsule Autoencoders”, arXiv 2019.
 
-Deep Learning for Classicial Japanese(seminar)
+## Deep Learning for Classicial Japanese(seminar)
 
 https://arxiv.org/abs/1812.01718
+
+{% if page.comments %}
+{% endif %}
