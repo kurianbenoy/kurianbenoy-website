@@ -1,3 +1,7 @@
+---
+layout: post
+title: FastAI lecture7 review notes
+---
 ## Lesson7
 
 #### Resnets
