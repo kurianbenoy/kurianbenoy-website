@@ -3,7 +3,6 @@ layout: post
 title: Seminar ideas
 comments: true
 ---
-[Draft]Final Year Project Ideas
 
 How closer we are to automous eyes?
 
@@ -11,9 +10,12 @@ We are currently working in projects and works with greater impact:
 - CNN(can even beat a human in Imagenet challenge)
 CNN is an architecture in my opinion which uses Max pooling to increase the image size, and use a filter to obtain the output from each layer. At the end you have fully connected layers which are capable of producing obtaining what the image is in typical CNN. fc for a single digit is 9.
 
-Stacked Capsule Encoders(suitable for the final year seminar)
+## 1. Stacked Capsule Encoders(suitable for the final year seminar)
+
 - very interesting paper, get into more details of it.
-https://akosiorek.github.io/ml/2019/06/23/stacked_capsule_autoencoders.html
+
+- [blogpost](https://akosiorek.github.io/ml/2019/06/23/stacked_capsule_autoencoders.html)
+- [research paper](https://arxiv.org/pdf/1906.06818.pdf)
 
 In summary, a Stacked Capsule Autoencoder is composed of:
 - the PCAE encoder: a CNN with attention-based pooling, 
@@ -30,7 +32,13 @@ SCAE defines a new method for representation learning, where an arbitrary encode
 
 ## Deep Learning for Classicial Japanese(seminar)
 
-https://arxiv.org/abs/1812.01718
+- [Paper](https://arxiv.org/abs/1812.01718)
+
+## Data Augmentation using Learned transformations for one-shot medical image segmentation
+
+- [paper](https://arxiv.org/pdf/1902.09383v2.pdf)
+
+Update: on August 9
 
 
 <div id="disqus_thread"></div>
