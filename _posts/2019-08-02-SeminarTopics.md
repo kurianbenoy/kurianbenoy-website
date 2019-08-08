@@ -4,15 +4,12 @@ title: Seminar ideas
 comments: true
 ---
 
-How closer we are to automous eyes?
 
 We are currently working in projects and works with greater impact:
 - CNN(can even beat a human in Imagenet challenge)
 CNN is an architecture in my opinion which uses Max pooling to increase the image size, and use a filter to obtain the output from each layer. At the end you have fully connected layers which are capable of producing obtaining what the image is in typical CNN. fc for a single digit is 9.
 
 ## 1. Stacked Capsule Encoders(suitable for the final year seminar)
-
-- very interesting paper, get into more details of it.
 
 - [blogpost](https://akosiorek.github.io/ml/2019/06/23/stacked_capsule_autoencoders.html)
 - [research paper](https://arxiv.org/pdf/1906.06818.pdf)
@@ -38,7 +35,9 @@ SCAE defines a new method for representation learning, where an arbitrary encode
 
 - [paper](https://arxiv.org/pdf/1902.09383v2.pdf)
 
-Update: on August 9
+Update: on August 7
+
+Finally the paper of Deep Learning for Classical Japenese got selected by sir. 
 
 
 <div id="disqus_thread"></div>
