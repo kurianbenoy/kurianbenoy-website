@@ -1,7 +1,11 @@
 ---
-layout: post
 title: Final Year Project Abstract
-tags: ['academic', 'capstone project']
+author: Kurian Benoy
+type: post
+url: 2019/08/07/capstoneprojectideas/
+tags: 
+- academic
+- capstone project
 ---
 
 According to our teachers before doing a project. The following premilinary

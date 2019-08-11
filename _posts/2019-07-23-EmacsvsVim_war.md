@@ -1,7 +1,14 @@
 ---
-layout:post
 title: Emacs vs VIM war
+author: Kurian Benoy
+type: post
+url: emacsvsvim/
+tags: 
+- war
+- Emacsvim
 ---
+
+
 Emacs and vim are arguably among the best text editors of all time. You may occasionally find war tweets like this:
 
 > I met one of my neighbours and we both have lot of things in common. We both use GNU Linux and use Arch Linux as well. Yet there is something big seperating us, I use emacs while my neighbour use vim.
