@@ -1,6 +1,6 @@
 ---
-title: Emacs vs Vim war
 layout:post
+title: Emacs vs VIM war
 ---
 Emacs and vim are arguably among the best text editors of all time. You may occasionally find war tweets like this:
 
