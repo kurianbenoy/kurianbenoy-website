@@ -1,7 +1,13 @@
 ---
 title: Deep Learning for Japanese Classical Literature
 author: Kurian Benoy
-layout : post
+type : post
+url: 2019/08/10/deeplearningjapan/
+tags:
+- research paper summary
+- academic
+- Deep learning
+- ML
 comments: true
 ---
 
