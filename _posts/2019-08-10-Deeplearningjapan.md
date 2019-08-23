@@ -40,9 +40,6 @@ Japanese literature). Also the baseline classification results for the same has 
 
 ### Kuzhushiji Dataset
 
-{% include image.html url="/imag/oldbook.png" description="Example of Kuzhishiji literature scroll, Genimonogatari Uta
-Awase" %}
-
 The Japanese language can be divided into two types of systems:
 
 - Logographic systems, where each character represents a word or a phrase (with thousands of characters). A prominent logographic system is Kanji, which is based on the Chinese System.
@@ -55,8 +52,6 @@ characters from 35 books from the 18th century. It includes 3 parts:
 
 a) Kuzhushiji MNIST:
 
-{% include image.html url="/img/MNIST.png" description="Kuzhushiji MNIST" %}
-
 [MNIST for handwritten digits](http://yann.lecun.com/exdb/mnist/) is one of the most popular dataset's till and is usually the hello world for Deep
 Learning. As a easy to process beginner dataset, this is consist of 10 classes with 7000 images for each. Yet there are
 fewer than 49 letters needed to fully represent Kuzhushiji Hirangana.
@@ -67,8 +62,6 @@ very less. Also there are more challenges in  [Kuzhushiji recognition](https://w
 
 b) Kuzhushiji 49: 
 
-{% include image.html url="/img/K49.png" description="Kuzhushiji 49 dataset" %}
-
 As the name suggest, it is a much larger imbalanced dataset containing 49 hirangana characters with about 266,407
 images. Both Kuzhushiji-49 and Kuzhushiji-MNIST consists of `grey images of 28*28 pixel resolution`. The training and
 test is split in ratio of 6/7 to 1/7 for each classes. There are several rare characters with small no of samples such
@@ -76,11 +69,9 @@ as (e) in hirangana has only 456 images.
 
 c) Kuzhushiji Kanji: 
 
-{% include image.html url="/img/KK.png" description="Kuzhushiji Kanji dataset" %}
-
 Kuzhushiji Kanji has a total of 3832 classes of characters  in this dataset with about 140,426 images. Kuzhushiji-Kanji
 images are are of larger 64x64 pixel resolution and the number of samples per class range from over a thousand to only
-one sample. This dataset is not created merely for classification images, i11nstead for more creative experimental task.
+one sample. This dataset is not created merely for classification images, instead for more creative experimental task.
 
 If you are interested in downloading the dataset with detailed documentation.
 
