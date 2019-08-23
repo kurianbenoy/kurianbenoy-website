@@ -23,7 +23,13 @@ National Institute of Japanese Literature(NIJL) 18 year old Kaggle Grandmaster M
 - To encourage ML researchers to produce models for Social or Cultural relevance to transcribe Kuzushiji into contemporary Japanese characters.
 - To release Kuzushiji MNIST dataset, Kuzushiji 49 and Kuzushiji-Kanji datasets to general public.
 
+## Abstract
 ## Introduction
+## Related works
+- Chinese based system
+## experiments
+## Domain Transfer architecture
+## Conclusion
 
 Historically, Japan and it's culture had been isolated from the west for a long period of time. Untill the Meiji
 restoration in 1868, when a 15 year old emperor brought unity to whole of Japan which was earlier broken down into
