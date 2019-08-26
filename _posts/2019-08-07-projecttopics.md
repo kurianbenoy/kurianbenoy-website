@@ -56,9 +56,8 @@ Currently, Aravind technicians travel to these rural areas to capture images and
 
 In this synchronous Kernels-only competition, you'll build a machine learning model to speed up disease detection. You’ll work with thousands of images collected in rural areas to help identify diabetic retinopathy automatically. If successful, you will not only help to prevent lifelong blindness, but these models may be used to detect other sorts of diseases in the future, like glaucoma and macular degeneration.
 
-Get started today!
-
-Based on Kaggle 
+Detect there what stage a disease and at what stage is the disease?
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5961805/
 
 ## How closer are we to Human eyes?
 
@@ -67,3 +66,9 @@ We are currently working in projects and works with greater impact:
 CNN is an architecture in my opinion which uses Max pooling to increase the image size, and use a filter to obtain the output from each layer. At the end you have fully connected layers which are capable of producing obtaining what the image is in typical CNN. fc for a single digit is 9.
 
 
+
+## Text to speech system for generating ADS of famous people
+Clone a voice in 5 seconds to generate arbitary speech in real-time.
+https://github.com/CorentinJ/Real-Time-Voice-Cloning
+
+[paper](https://arxiv.org/pdf/1802.08435v2.pdf)
