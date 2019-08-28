@@ -23,14 +23,6 @@ National Institute of Japanese Literature(NIJL) 18 year old Kaggle Grandmaster M
 - To encourage ML researchers to produce models for Social or Cultural relevance to transcribe Kuzushiji into contemporary Japanese characters.
 - To release Kuzushiji MNIST dataset, Kuzushiji 49 and Kuzushiji-Kanji datasets to general public.
 
-## Abstract
-## Introduction
-## Related works
-- Chinese based system
-## experiments
-## Domain Transfer architecture
-## Conclusion
-
 Historically, Japan and it's culture had been isolated from the west for a long period of time. Untill the Meiji
 restoration in 1868, when a 15 year old emperor brought unity to whole of Japan which was earlier broken down into
 regional small rulers. This caused a massive change in Japanese Language, writing and printing system. Even though
@@ -83,12 +75,27 @@ If you are interested in downloading the dataset with detailed documentation.
 
 [Go here](https://github.com/rois-codh/kmnist)
 
-### Experiments
+## Experiments
 
-**Classification Baselines**
+**Classification of Kuzushiji Characters **
 
-- gives 98% and 97.33% accuracy for dataset on using PreActResnet18 + manifold mixup
-- sketch RNN
+We try to focus on calculating the accuracy of recognising Kuzushiji
+datasets which in both Kanji and Hiragana, based on pre-processed images of
+characters from 35 books from the 18th century for datasets Kuzushiji-MNIST,
+Kuzushiji-49 and Kuzushiji Kanji, each having respectively 9, 49 and 3832 classes
+for the dataset.
+
+The following table shows the accuracy of various algorithms which is used in 
+the research paper baseline. ROIS-CODH calls out for improving the results
+on the Kuzushiji dataset and there are even interesting Kaggle competitions to
+get state of the art results for this competition.The current state of the art
+model which gives a better performance is **Resnet networks being
+ensembled over Capsule networks**.
+
+
+According to paer we get 97.33% accuracy for dataset on using PreActResnet18 + manifold mixup
+
+## Domain Transfer 
 
 **Algorithm**
 1. Train two seperate variational autoencoder on pixel version of KanjiVG and Kuzhushiji-Kanji
