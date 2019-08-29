@@ -7,7 +7,7 @@
 \usepackage{indentfirst}
 \usepackage{epsfig}
 \usepackage{fancyhdr}
-\usepackage{graphicx} 
+\usepackage{graphicx}
 \usepackage[a4paper,bindingoffset=0.2in,%
             left=1in,right=1in,top=1in,bottom=1in,%
             footskip=1cm]{geometry}
@@ -23,7 +23,7 @@
 \fancyfoot[l]{Dept. of Computer Engineering, MEC, 2019}
 \lhead{abcd}
 \renewcommand{\chaptermark}[1]{
-\markboth{\thechapter.\ #1}{}} 
+\markboth{\thechapter.\ #1}{}}
 \renewcommand{\headrulewidth}{0.1pt}
 \renewcommand{\footrulewidth}{0.1pt}
 \fancyhead[r]{\slshape \leftmark}
@@ -32,10 +32,10 @@
 \rhead{\nouppercase{\leftmark}}
 
 \graphicspath{ {images/} }
-\lhead{NumChecker}
+\lhead{Deep Learning for Classical Japanese Literature}
 
 \title {Deep Learning for Classical Japanese Literature }
-\author {MDL16CS066, 12140887, Kurian Benoy, kurian.bkk@gmail.com }
+\author {MDL16CS066,Kurian Benoy, kurian.bkk@gmail.com }
 %\maketitle
 
 \begin{titlepage}
@@ -44,14 +44,14 @@
 %\topmargin100pt
 \Huge{\textbf{Deep Learning for Classical Japanese Literature}}\\
 \vspace{.3in}
-\large{\textbf{CS 17L4 Seminar\\}}
+\large{\textbf{CS 451 Seminar}}
 \vspace{1.0in}
 
 \begin{tabbing}
 xxxxxxxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxx\=\kill
-\Large{\textbf{CSU 132 08 }}	\>\Large{\textbf{12140867}}	\>\Large{\textbf{Kurian Benoy}}\\ 
+\Large{\textbf{MDL16 CS066 }}    \>\Large{\textbf{Kurian Benoy}}\\
 \end{tabbing}
- 
+
 \Large{\textbf{B. Tech. Computer Science \& Engineering
 }}
 
@@ -60,7 +60,8 @@ xxxxxxxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxx\=\kill
 \begin{center}
 %\epsfig{width=1in, file=embN1.jpg}
 \epsfig{width=4cm, file=meclogo.png}
-% If you have access to better quality logo image, that may be used, but all the groups should use the same image
+% If you have access to better quality logo image, that may be used,
+but all the groups should use the same image
 \end{center}
 \end{figure}
 %\vspace{.2in}
@@ -89,44 +90,51 @@ http://www.mec.ac.in \\ hodcs@mec.ac.in
 \Large{\textbf{C E R T I F I C A T E}}\\
 \vspace{.1in}
 \end{center}
-This is to certify that, this report titled \textbf{\textit{ Deep Learning for Classical Japanese Literature}} is a bonafide record of the \textbf{CS 17L4 Seminar} presented by 
+This is to certify that, this report titled \textbf{\textit{ Deep
+Learning for Classical Japanese Literature}} is a bonafide record of
+the \textbf{CS 451 Seminar} presented by
 \begin{center}
  \begin{tabbing}
-   xxxxxxxxxxxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxxxxxxxx\=\kill
-\Large{\textbf{MDL16 CS066 }}	\>\Large{\textbf{12140867}}	\>\Large{\textbf{Kurian Benoy}}\\ 
-\end{tabbing} 
+   xxxxxxxxxxxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxxx\=
+xxxxxxxxxxxxxxxxxxxxxxxx\=\kill
+\Large{\textbf{MDL16 CS066 }}     \>\Large{\textbf{Kurian Benoy}}\\
+\end{tabbing}
 \end{center}
 \begin{center}
 
-Seventh Semester B. Tech. 
-Computer Science \& Engineering  \end{center} scholar, under our guidance and supervision, in partial 
- fulfillment of the requirements for the award of the degree,\textbf{ B. Tech. Computer 
+Seventh Semester B. Tech.
+Computer Science \& Engineering  \end{center} scholar, under our
+guidance and supervision, in partial
+ fulfillment of the requirements for the award of the degree,\textbf{
+B. Tech. Computer
 Science  and Engineering} of \textbf{APJ Abdul Kalam University}.
 \vspace{.2in}
 \begin{tabbing}
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= \kill
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= \kill
 
 Guide \> Coordinator
 \end{tabbing}
 \begin{tabbing}
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= \kill
-\vspace{.1in}\\	
-Anjali S  \>Jaimon Jacob\\
-Asst. Professor	\>Asst. Professor\\
-Computer Engineering	\>	Computer Engineering
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= \kill
+\vspace{.1in}\\
+Sreekumar K  \>Divya KB\\
+Asst. Professor    \>Asst. Professor\\
+Computer Engineering    \>    Computer Engineering
 \end{tabbing}
 \vspace{.08in}
 %
 \begin{tabbing}
 xxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
-\>Head of the Department 
+\>Head of the Department
 \end{tabbing}
 \begin{tabbing}
 xxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
-\vspace{.1in}\\	
-%\flushleft 
+\vspace{.1in}\\
+%\flushleft
 \today
-\>Manilal D L\\ 
+\>Manilal D L\\
 \>Associate Professor\\
 \>Computer Engineering\\
 \end{tabbing}
@@ -138,35 +146,50 @@ xxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
 \pagenumbering{roman}
 %\pagebreak
 
-\vspace{.25in}	
+\vspace{.25in}
 \begin{center}
 \Large{Acknowledgments}\\
 \end{center}
 \normalsize
 \vspace{.25in}
- I would like to express my sincere gratitude to everyone who assisted me in conducting this Seminar. My heartfelt gratitude to the coordinator Assistant Prof. Jaimon Jacob, Department of Computer Engineering, for giving me permission to commence this seminar. I express my gratitude to Principal Prof. (Dr.) V. P. Devassia and Associate Prof. Manilal D L, HOD of the Department of Computer Engineering , Model Engineering College. Special thanks to my guide Mrs. Anjali  S , Department of Computer Engineering, whose guidance and encouragement helped me through out this endeavour. 
+ I would like to express my sincere gratitude to everyone who assisted
+me in conducting
+ this Seminar. My heartfelt gratitude to the coordinator Assistant
+Professor Prof.
+ Sreekumar K, Department of Computer Engineering, for giving me
+permission to commence
+ this seminar. I express my gratitude to Principal Prof. (Dr.) Vinu Thomas and
+ Associate Professor Prof. Manilal D L, HOD of the Department of
+Computer Engineering,
+ Model Engineering College. Special thanks to lord, Jesus Christ for
+giving me all
+ energy and guidance for this endeavour.
 \vspace{.25in}
 \flushleft\textbf{Kurian Benoy}
-
-
 \end{titlepage}
 
- 
- 
+
+ % Abstract
 \begin{abstract}
 \pagenumbering{roman}
-Much of machine learning research focuses on producing models which perform
-well on benchmark tasks, in turn improving our understanding of the challenges
-associated with those tasks. From the perspective of ML researchers, the content of
-the task itself is largely irrelevant, and thus there have increasingly been calls for
-benchmark tasks to more heavily focus on problems which are of social or cultural
-relevance. In this work, we introduce Kuzushiji-MNIST, a dataset which focuses
-on
-Kuzushiji
-(cursive Japanese), as well as two larger, more challenging datasets,
-Kuzushiji-49 and Kuzushiji-Kanji. Through these datasets, we wish to engage the
-machine learning community into the world of classical Japanese literature.
 
+Deep Learning has given tremendous results in the past few years. With the
+coming of advanced deep learning algorithms and necessary
+computational resources
+, Machine can outperform humans in computer vision,
+can do image captioning, beat the world champion in Go.
+Yet much of Deep learning research focuses on producing models which perform
+well on benchmark tasks, in turn improving our understanding of the challenges
+associated with those tasks. From the perspective of ML researchers,
+the content of
+the task itself is largely irrelevant, and thus there have increasingly been
+calls for benchmark tasks to more heavily focus on problems which are of
+social or cultural relevance. We are working on transforming Kuzushiji Language
+to contemporary Japanese lanaguage and recognise Kuzushiji Language
+which is on the
+verge of extinction now. We also introduce Kuzushiji-MNIST,
+a dataset which focuses on Kuzushiji (cursive Japanese), as well as two larger,
+more challenging datasets, Kuzushiji-49 and Kuzushiji-Kanji.
 \end{abstract}
 
 \tableofcontents
@@ -176,1302 +199,629 @@ machine learning community into the world of classical Japanese literature.
 \label{intro}
 \pagenumbering{arabic}
 
-\setlength{\parindent}{10ex}Japan is the land of Samurais, beautiful Gardens, bullet trains and
-other technology. Recorded historical documents give us a peek into the past. We are able to glimpse the world before
-our time and see its culture, norms, and values to reflect on our own. Japan has very unique historical
-pathway.  Historically, Japan and its culture was relatively isolated from the West, until the Meiji
-restoration in 1868 where Japanese leaders reformed its education system to modernize its culture.
-This caused drastic changes in the Japanese language, writing and printing systems.  Due to the
-modernization of Japanese language in this era, cursive Kuzhushiji is no longer taught in the offical
-school curriculum.
+\setlength{\parindent}{10ex}Japan is the land of Samurais, beautiful
+Gardens, bullet
+trains, Earth quakes and land of high tech technologies. Recorded
+historical documents
+give us a peek into the past. We are able to glimpse the world before
+our time and see
+its culture, norms, and values to reflect on our own. Japan has a very unique
+historical pathway in that sense.
 
-Even though Kuzushiji had been used for over 1000 years there are very few fluent
-readers of Kuzushiji today (only 0.01 percent of modern Japanese natives). So now most Japan natives cannot
-read books written and published over 150 years ago. In General Catalog of National
-Books, there is over 1.7 million books and about 3 millions unregistered books yet to be found. It's estimated
-that there are around a billion historical documents written in Kuzhushiji language over a span of centuries. Most of
-this knowledge is now inaccessible to general public.
+Historically, Japan and its culture was relatively isolated from the
+West, until the
+Meiji restoration in 1868 where Japanese leaders reformed its
+education system to
+modernize its culture. This caused drastic changes in the Japanese
+language, writing
+and printing systems.  Due to the modernization of Japanese language
+in this era,
+cursive Kuzhushiji is no longer taught in the official school
+curriculum after a ruling
+in 1900 by the Emperor.
 
-Despite ongoing efforts to create digital copies of these
-documents—a safeguard against fires, earthquakes, and tsunamis—most of the knowledge, history,
-and culture contained within these texts remains inaccessible to the general public. While we have
-many digitized copies of manuscripts and books, only a small number of people with Kuzushiji
-education are able to read them and work on them, leading to a huge dataset of Japanese cultural
-works which cannot be read by non-experts
+Even though Kuzushiji had been used for over 1000 years there are very
+few fluent
+readers of Kuzushiji today (only 0.01 percent of modern Japanese
+natives).Now Kuzushiji language is almost exsist as most of Japan
+natives cannot read books written in Kuzushiji and published over 150
+years ago.
 
-\section{Detection Techniques and Limitations}
-There has been a long line of research on defending against
-control-flow modifying rootkits. Host-based rootkit detection
-techniques run inside the target they are protecting, and hence
-are called “in-the-box” techniques. For example, Rkhunter and Kstat detect the malicious kernel control-flow
-modifications by comparing the kernel text or its hash and the
-contents of critical jump tables to a previously observed clean
-state. The main problem with the “in-the-box” techniques is
-that the detection tools themselves might be tampered with by
-advanced kernel rootkits, which have high privilege and can
-access the kernel memory.
+In General Catalog of National Books, there are over 1.7 million books
+and about 3 millions unregistered books yet to be found. It's
+estimated that there are around a billion historical documents written
+in Kuzhushiji language over a span of centuries. Most of this
+knowledge is now inaccessible to general public. Despite ongoing
+efforts to create digital copies of these documents—a safeguard
+against fires, earthquakes, and tsunamis—most of the knowledge,
+history, and culture contained within these texts remains inaccessible
+to the general public.
 
-With the development of virtualization, the Virtual Machine
-Monitor (VMM) based “out-of-the-box” detection techniques
-have been widely studied. These techniques move the detection
-facilities out of the target Virtual Machine (VM) and deploy
-them in the VMM. The isolation provided by the virtualization
-environment significantly improves the tamper-resistance of the detection facilities because they are not accessible to
-rootkits inside the guest VMs.
+While we have many digitized copies of manuscripts and books, only a
+small number of people with Kuzushiji education are able to read them
+and work on them, leading to a huge dataset of Japanese cultural works
+which cannot be read by non-experts. To have the best for the future,
+it’s always very important to preserve the current generation at its
+fullest.
 
-Most of the VMM-based rootkit detection techniques observe
-the static and dynamic kernel objects of a guest VM
-at the VMM level by directly acquiring the contents of the
-physical memory. However, there is a “semantic gap” between
-the external and internal observation. To extract meaningful
-information about the guest state from the low level view of
-the physical memory state, the detection tools require detailed
-knowledge of the guest OS implementation. For example,
-to retrieve the information of a guest VM’s process list,
-the detection tools need to know where this particular data
-structure is laid out in the guest kernel memory. The location
-may vary from one implementation to another. Acquiring this
-detailed knowledge can be a tough task especially when the
-kernel source code is not available.
 
-In regards to security, because the knowledge of the guest
-OS that the detection tools rely upon is not bound to the observed
-memory state, these techniques are subject to advanced
-attacks that directly modify the layout of the guest kernel data
-structures .
+\chapter{Kuzushiji Dataset}
+Data is known as the new oil. According to Dr Yaser S. Abu  Mustaffa
+from Caltech Tech,
+If someone comes to my door and tells about an interesting idea, I
+will ask about the
+data available. Even if the problem is not so interesting, without
+data there is no
+usage.
 
-\begin{figure}[h]
-\centering
-\includegraphics{techniques.png}
-\caption{Comparison of in-the-box (a), out-of-the-box (b), and the
-proposed in-and-out-of-the-box (c) techniques.}
-\label{fig:lion}
-\end{figure}
+The Kuzushiji dataset is created by the National Institute of Japanese
+Literature(NIJL)
+and is curated by Center for Open Data in Humanities(CODH). This
+dataset includes
+characters in both Kanji and Hiragana, based on pre-processed images
+of characters from
+35 books from the 18th century. Before diving into the dataset, Let’s
+understand at bit
+about Japanese language.
 
-\section{Introducing NumChecker}
+\section{About Japanese Language}
 
-To overcome the challenges that the current “out-of-the-box”
-detection techniques face,  an “execution oriented”
-VMM-based kernel rootkit detection framework
-called NumChecker is proposed. NumChecker performs integrity checking
-at a higher level. It validates the execution of a guest kernel
-function without checking individual objects on the execution
-path. NumChecker models a kernel function with the
-number of certain hardware events that occur during the
-execution. Such hardware events include total instructions,
-branches, returns, floating point operations, etc. If the
-control-flow of a kernel function is maliciously modified,
-the number of these hardware events that occur during the
-execution will be different.
-To count the guest hardware events from the host side,
-NumChecker utilizes the Hardware Performance Counters
-(HPCs), which exist in most modern processors as a part of
-the processor’s performance monitoring unit (PMU) .
-The HPCs were originally used for performance tuning.
-NumChecker leverages them for the system security purpose.
-Because the events are automatically counted by the
-HPCs, the checking latency and the performance overhead are
-significantly reduced. Also, the security is enhanced because
-the HPCs count the events without a guest’s awareness, and
-they are inaccessible to a guest VM.
 
-A prototype of NumChecker is implemented
-on a number of real-world kernel rootkits. The results demonstrate
-that NumChecker can efficiently detect and identify all
-the kernel rootkits with very low cost. The following contributions are made :
+The Japanese language can be divided into two types of systems:
+
+
 \begin{itemize}
-\item Present a Virtual Machine Monitor based framework to
-securely and efficiently monitor the execution of system
-calls in guest VMs by leveraging exiting HPCs. A prototype
-is implemented on the Linux platform with the
-Kernel-based Virtual Machine (KVM).
-
-\item Propose an HPC-based two-phase kernel rootkit detection
-technique to detect malicious modifications to the controlflow
-of the monitored system calls.
-\item Propose a rootkit identification technique to determine
-the type of the detected kernel rootkit by measuring
-the occurrences of multiple events on the execution of
-monitored system calls. A periodic sampling on HPCs is
-presented to further improve the identification capability.
-\item Evaluate the effectiveness and efficiency of NumChecker
-rootkit detection and identification with 11 real-world
-kernel rootkits on three different Linux kernels. The
-checking latency and performance overhead are measured
-and compared with other rootkit detection techniques.
+  \item \textbf{Logographic systems:}where each character represents a
+word or a phrase (with thousands of characters). A prominent
+logographic system is Kanji, which is based on the Chinese System.
+  \item \textbf{Syllabary symbol systems:} where words are constructed
+from syllables (similar to an alphabet). A prominent syllabary system
+is Hiragana with 49 characters (Kuzushiji-49), which prior to the
+Kuzushiji standardization had several representations for each
+Hiragana character.
 \end{itemize}
 
-\chapter {Related Work}
-\section{Hardware Performance Counters}
-HPCs are a set of special-purpose registers built into a modern
-microprocessor’s PMU to store the counts of hardware related
-activities. HPCs were originally designed for performance
-debugging of complex software systems. They work
-along with event selectors which specify the certain hardware
-events, and the digital logic which increases a counter after
-a hardware event occurs. Relying on HPC-based profilers,
-the developers can easily understand the runtime behavior
-of a program and tune its performance. HPC-based profilers
-provide access to detailed performance information with much
-lower overhead than software profilers. Further, no source code
-modifications are needed.
 
-HPC-based profilers are currently built into almost every
-popular operating system . Linux Perf  is a new
-implementation of performance counter support for Linux. It
-is based on the Linux kernel subsystem Perf\_event, which
-has been built into 2.6+ systems. The user space Perf tool
-interacts with the kernel Perf\_event by invoking a system call.
-It provides users a set of commands to analyze performance
-and trace data. When running in counting modes, Perf can
-collect specified hardware.
 
-\section{Kernel-based Virtual Machine}
- KVM is used to build the virtualization environment. KVM
-is a full virtualization solution for Linux on hardware containing
-virtualization extensions (Intel Virtualization Technology
-(VT)  or AMD Secure Virtual Machine (SVM) ) that
-can run unmodified guest images.
 
-For KVM, the VMM is embedded into the host kernel as a
-kernel module. A guest VM resides in the user space running
-as a single process and is scheduled like any other normal
-process. A modified Quick Emulator (QEMU)  is used to
-emulate guest VMs’ I/O activities. The processor with hardware
-virtualization extensions has two different modes: host
-mode and guest mode. The host machine runs in host mode
-compatible with conventional non-virtualized processors. The
-guest VMs run in a de-privileged guest mode. Execution of
-virtualization-sensitive instructions in guest mode will trap to
-the host, which is called VM-exit. In this way, the host can
-manage the guests’ accesses to virtualized resources. The host
-maintains a data structure called virtual machine control block
-(VMCB) to control behaviors of guest VMs. When a guest
-VM exits to the host, all its CPU states are stored into certain
-fields located in the VMCB. These states are restored from
-the VMCB when the CPU switches back from host mode to
-guest mode.
+\section{Kuzushiji MNIST}
+
+
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{kvm.png}
-\caption{KVM in Linux - Architecture.}
-\end{figure}
-
-\section{Enhancing security with virtualization}
-The use of virtualization technologies for enhancing system security has
-been studied for a long time. Garfinkel and Rosenblum 
-first introduced virtual machine introspection to detect intrusion.
-It leverages the virtual machine monitor to isolate
-the intrusion detection service from the monitored guest. XenAccess
-, VMwatcher, and VMWall  are virtual
-machine introspection techniques using memory acquisition.
-These techniques obtain the guest states from the host side by
-accessing guest memory pages. As discussed in Section I, to
-bridge the semantic gap, accurate kernel data structure layout
-or kernel symbols are required. Lares  monitors a guest
-VM by placing its hooking component inside the guest OS and
-protecting it from the VMM. These hooks would be triggered
-whenever certain monitored events were executed by the guest
-OS. This technique requires modification to the guest OSes,
-making it not applicable to close-source OSes like Windows.
-
-\section{Execution path analysis}
-Patchfinder  is another
-closely related work that also uses execution path analysis
-for kernel rootkit detection. It counts the number of executed
-instructions by setting the processor to single step mode. In
-this mode, a debug exception (DB) will be generated by the
-processor after every execution of the instruction. The number
-counted during the execution of certain kernel functions will
-be analyzed to determine if the functions are maliciously modified.
-The vulnerability of this technique is that the counting
-and analysis facilities themselves might be manipulated by
-an advanced kernel rootkit which has the highest privilege
-and full access to kernel memory. From another perspective,
-running in the processor’s single step mode leads to very high
-performance overhead.
-
-\section{HPC-based integrity checking}
-HPCs are originally designed
-for the purposes of performance debugging. Performing
-system security analysis is a new use of HPCs and has not been
-studied much. A scheme proposed in  uses HPCs for static
-and dynamic integrity checking of programs. CFIMon 
-leverages the branch trace store mechanism in performance
-counters for the purpose of detecting attacks to control-flow,
-including classic code-injection attacks and emerging codereuse
-attacks. Both techniques target malicious modifications
-to the user space programs, and assume the OS kernel is
-trusted. The goal of the proposed design is to detect rootkits in the
-OS kernel space.  HPCs are used  to find the common
-signature of malicious actions to determine if an application
-is malware. It is not able to detect a zero-day malware
-which performs a malicious action without a known signature.
-Additionally, it requires hardware modifications to support the
-detection of malware in the kernel level. 
-
-\chapter{HPC-Based Malware Detection}
-\section{Static Checking vs. Dynamic Checking}
-\subsection{Static Checking}
-The HPC-based static checking configures and enables HPC at
-the beginning of a software module’s execution and collects the HPC values only at the
-end of the execution. The static checking can minimize the performance overhead in
-the monitored system. However, only checking the final values of the monitored HPCs
-after an execution leaves an avenue for attackers to carefully craft their malicious code
-to fool the detection tool.
-
-Consider the scenario that an advanced malware could try to modify the execution
-path of a program but keep the total occurrences of monitored hardware events un-
-changed. Specifically, the malware replaces an original function with its own malicious
-function that generates the same number of hardware events. The static HPC-based
-technique only checks the occurrences of events at the end of an execution which gives
-the attacker opportunities to manipulate the count during the execution. Another
-limitation of the static checking is monitoring programs that run for a relatively
-long time. For example, without the appropriate security patches applied, many web
-browsers are vulnerable to attacks or exploits. The attacks can be from “bad” web-
-sites or malicious plug-ins. In normal use, after launched, a web browser application
-will keep running until the user shuts it down. The runtime could vary from several
-minutes to several hours. The malicious actions may only occur at some points of the
-entire runtime. In this case, checking the total occurrences of events at the end of the
-execution cannot provide sufficient evidence indicating if any abnormal thing happens
-during the execution, because the variations in the running time and operations could
-result in a significant difference in the occurrences of monitored events.
-
-After detecting an abnormal action, another very important step is to determine
-the specific type of the malware, especially for malware that is well studied. The
-more the information konwn about the malware, the easierv it is to remove it from the
-infected program or system and mitigate the risk and damage it brings. However, only
-having the final values of HPCs from the static checking is sometimes not sufficient to
-accurately determine the details of the malware. For example, the rootkits Suckit and superkit generate very close
-HPC final values after maliciously modifying the same system calls.
-
-\subsection{Dynamic Checking}
-To overcome the limitations in static checking, dynamic
-checking with periodic sampling has been proposed. Specifically, rather than check-
-ing the HPC values only at the end of an execution,  the HPCs are sampled and  the
-occurrences of monitored hardware events  are obtained periodically during the execution. What has
-been recorded is not a single number of total events counted, but a curve showing how
-the occurrences of hardware events vary from the beginning to the end of the monitor-
-ing period. Two types of malware that have close occurrences of hardware events in a
-certain monitoring period could have very different shapes in their HPC profiles. The
-richer specification from the event curve gives more details about the execution of the
-monitored program, thus significantly increases the detection and identification capa-
-bilities. Dynamic checking can also help with monitoring the long running applications
-discussed above. The HPC profile dynamically generated along the run time is able
-to expose attacks from normal operations. For example, an installation of a malicious
-plug-in may generate a very different profile from normal browsing and downloading.
-By matching the profile with the HPC-based behavior signature in the database, the
-unintended installation will be detected. The signature could be extracted from the
-shape of each event curve or the correlation among multiple event curves.
-
-
-Unlike the static checking which only performs one-time comparison of HPC values at
-the end of executions, the dynamic checking is based on the analysis of a large number
-of samples collected. The more HPC samples are analyzed in the dynamic checking, the
-higher overhead will be introduced. A more accurate detection and identification may
-require sophisticated classifiers based on various machine learning algorithms such
-as k-Nearest Neighbors, Artificial Neural Networks, or Decision Tree. Training the
-classifiers and testing the large number of HPC samples are very compute-intensive
-tasks, which causes nonnegligible performance
-overhead.
-
-\section{Anomaly-Based Checking vs. Signature-Based Checking}
-\subsection{Anomaly-Based Checking}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{anomaly.png}
-\caption{(a) The flow of an anomaly-based checking. The HPC values of a monitored software module are
-compared with the ones of the corresponding clean module. (b) A program with multiple computation paths.
+\includegraphics[width=12cm]{MNIST.png}
+\caption{(a) A MNIST dataset with 5 hiranagana characters
 The certain computation path is determined by a specific input applied.}
 \end{figure}
 
-An anomaly-based check usually has two phases: a
-training (learning) phase and a detection (monitoring) phase, as shown in the figure.
-In the offline training phase, a clean copy of a monitored software module is executed
-on the platform with a certain HPC configuration. The corresponding HPC values
-are collected and stored as the “baseline.” At runtime, the same HPC configuration
-is applied to the platform when the monitored module is executed. The HPC values
-from the online monitoring phase are compared with those from the offline phase. A
-malicious modification will be suggested if there is an apparent difference between the
-runtime HPC values and the baseline.
+MNIST dataset which is used for recognising  handwritten digits is one
+of the most popular dataset's till and is usually the hello world for
+Deep
+Learning. As an easy to process beginner dataset, this consists of 10
+classes with 7000 images for each. Yet there are fewer than 49 letters
+needed to fully represent Kuzushiji Hiragana characters. So currently
+we choose 10 rows of Hiragana when creating dataset with 5 letter
+being stacked together to form this dataset. Each image is 28*28 pixel
+resolution. Kuzhushiji MNIST is more difficult compared to MNIST
+because for each image the chance for a human to detect characters
+correctly when a single image is of small size and is stacked together
+of 5 rows is very less.
 
 
-To reduce the false positive, the input to the monitored software module should be
-specified. A program generally has multiple computational paths in its control-flow
-graph. Some programs have an infinite number of paths due to loops. Each computation path goes through different functions (or phases) and therefore executes different code. The executions generate different vectors in terms of the
-occurrences of monitored hardware events, as shown in the figure. A computational
-path is primarily determined by the input applied to the program.
+\section{Kuzushiji-49}
 
+Kuzushiji-49, a much larger, but imbalanced dataset containing 48
+Hiragana characters and one Hiragana iteration mark with about 266,407
+images.
+ Both Kuzushiji-49 and Kuzushiji-MNIST consists of `grey images of
+28x28 pixel resolution`. The training and test is split in ratio of
+6/7 to 1/7 for each class.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=10cm]{sign.png}
-\caption{Performance counter measurements over time for 10 applications from cBench. The measurement
-for each application consists of four hardware event series and apparently differs from other applications’.
-The measurement can be used as the signature of a particular behavior of an application.}
+\includegraphics[width=12cm]{K49.png}
+\caption{A sample of dataset of Kanji-49 with all the 48 hirangana
+characters and 1 iteration mark being represented}
 \end{figure}
 
-\subsection{Signature-Based Checking}
+\section{Kuzhushiji-Kanji}
 
-
- A signature-based checking attempts to model the malicious behavior of malware and uses this model to identify malware. Regardless of how malware writers change their software, its semantics do not change significantly, and to
-accomplish a particular task there exist subtasks that cannot be radically modified. It
-could be expected that they work through a similar set of program phases . These phases, or trends in the execution, exhibit similar detectable properties in terms of hardware events. This invariance establishes the foundation of the
-Signature-based dynamic checking.
-
-Figure exhibits the HPC measurements over time for 10 applications. The measurement of each application consists of four hardware event series.
-The length of the measured series and the location and shape of all the ups and falls
-provide meaningful information that can be used to differentiate one operation from
-another, making the HPC measurement a unique signature of a particular behavior of
-an application.
-
-\section{Virtualization-Based Checking}
-For the malware which has the access to the kernel space of a system, such as a
-kernel rootkit, the HPC-based detection facility should be deployed somewhere that
-the privileged attacker cannot reach. One of the solutions is using virtualization
-technology. The virtualization system provides extra isolation between the guest OS
-and the underlying hardware. The HPCs are directly controlled by the trusted Virtual
-Machine Monitor (VMM) while the compromised guest OS has no access to them.
-An applicable example is using HPCs to detect kernel rootkits which modify system
-calls in the OS kernel to hide themselves and perform other malicious actions. In the offline profiling phase, the executions of system calls of the
-original trusted guest OS are characterized by the HPC-based profiler running in the
-underlying VMM. The measured results are stored in the VMM as the “clean copy.”
-In the online runtime checking phase, system calls of a running monitored guest OS
-are measured and compared with that of the corresponding trusted guest OS. If the
-execution flow of a system call is maliciously modified, then the measured number of
-monitored hardware events will differ from the uninfected execution.
+Kuzushiji Kanji has a total of 3832 classes of characters  in this
+dataset with about 140,426 images. Kuzushiji-Kanji images are of
+larger 64x64 pixel resolution and the number of samples per class
+range from over a thousand to only one sample. This dataset is not
+created merely for classification images, instead for more creative
+experimental task.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{hpcv.png}
-\caption{(a) The original HPC-based technique which has the malware database and performs the analysis
-locally. (b) A “sample-locally-analyze-remotely” infrastructure for malware detection and identification. The
+\includegraphics[width=12cm]{KK.png}
+\caption{(a) The original HPC-based technique which has the malware
+database and performs the analysis
+locally. (b) A “sample-locally-analyze-remotely” infrastructure for
+malware detection and identification. The
 periodically sampled HPC values are sent to a remote server for analysis.}
 \end{figure}
 
-\chapter {NumChecker Overview}
-\section{Threat Model}
-A kernel rootkit is targeted which has the highest privilege
-inside a guest VM. The rootkit has full read and write
-access to the guest VM’s memory space, so it can perform
-arbitrary malicious activities inside the guest VM’s kernel
-space. In order to hide its presence in the guest VM, the kernel
-rootkit modifies the kernel control-flow and executes its own
-malicious code. It is assumed that the VMM is trustworthy, and
-the rootkit cannot break out of the guest VM and compromise
-the underlying VMM .
+\section{Challenges in recognising Kuzushiji Characters}
+\subsection{Large number of character types}
+The total number of unique characters in the Kuzushiji dataset is over
+4300. However, the frequency distribution is very long-tailed and a
+large fraction of the characters (Kanji with very specific meaning)
+may only appear once or twice in a book. Therefore, the dataset is
+highly unbalanced.
 
-\section{System Call Analysis with HPCs}
-To detect control-flow modifying kernel rootkits, Num-
-Checker focuses on validating the execution of system calls.
-System calls are the main interface that a user program uses to
-interact with the kernel. In order to achieve stealth, a common
-action that a kernel rootkit performs is to fool the user monitoring
-utilities (such as ps, ls, netstat in Linux). These monitoring
-utilities retrieve the information about the system states by
-invoking some system calls. The rootkits usually manipulate
-the normal execution of these system calls to prevent the
-monitoring tools from obtaining the correct information. For
-example, the Linux ps command will return the status of all
-the running processes. The system calls invoked by the ps
-command include sys\_open, sys\_close, sys\_read, sys\_lseek,
-sys\_stat64, sys\_fstat64, sys\_getdents64, sys\_old\_mmap, etc. To
-hide itself and other malicious processes, a rootkit modifies
-these system calls so that the information about the malicious
-processes will not appear in the list returned by ps. The
-modifications usually result in a different number of monitored
-hardware events from the uninfected execution. They are
-measured by NumChecker.
-
-For a given system call, the number of hardware events
-that occur during the execution varies when different inputs
-are applied. To determine if an unusual number of events is
-caused by the malicious modification to the system call, the
-inputs to a monitored system call must be given. NumChecker
-invokes a monitored system call by executing a pre-generated
-test program in the guest VM. The counts of monitored events
-are then compared with those of the corresponding unmodified
-system call invoked by the same test program. By doing
-so, the noise from applying different inputs can be avoided.
-Moreover, to successfully reveal the malicious modifications,
-the test programs are carefully crafted to cover the paths in the
-system calls that are the “common targets” for kernel rootkits.
-The more different test programs are run, the higher detection
-accuracy can be achieved.
-
-Unlike the “in-the-box” techniques which perform the
-checking inside the monitored target , or the “outof-
-the-box” techniques which only depend on the observations
-from outside of the target , NumChecker performs
-an “in-and-out-of-the-box” checking :
-it first runs a test program inside the monitored guest VM.
-The test program will invoke monitored system calls (in-the-box).
-The host then accesses the HPCs to retrieve the guest
-state (counts of monitored events) from outside the guest VM
-(out-of-the-box). The combination takes advantage of both
-the meaningful information of the “in-the-box” checking and
-tamper-resistance of the “out-of-the-box” checking.
-
-Because multiple programs are running concurrently in the
-guest VM, NumChecker has to identify the test programs. To
-overcome the semantic gap of the observation from the host
-side, NumChecker adds guest-transparent identifiers to the test
-programs to relate the guest VM’s state observed from the
-outside of the guest VM and the execution inside the guest
-VM. These identifiers are updated randomly and dynamically
-by the host.
-
-\chapter {NumChecker Implementation}
-In NumChecker,  KVM is used to build the virtualization
-environment. KVM is a full virtualization solution for Linux
-on hardware containing virtualization extensions that can run
-unmodified guest images. The processor with hardware virtualization
-extensions has two different modes: host mode and
-guest mode. Execution of virtualization-sensitive instructions
-in guest mode will trap to the host, which is called VMexit.
-In this way, the host can manage the guests’ accesses
-to virtualized resources.
-
-To profile the execution of system calls in a guest VM
-using HPCs, the profiler in the host should have the following
-capabilities: \\(1) it should be aware of the occurrence of system
-calls in a guest VM; \\(2) it should be able to trigger the
-HPCs. 
-
-The existing HPC-based profiling tools cannot meet
-the design requirements because they are not able to capture
-the beginning and end of a system call in a guest VM. So the
-number of hardware events obtained by a profiling tool cannot
-be exactly pinned to the execution of a monitored system call.
-
-To resolve this issue, NumChecker connects the profiling
-tool with the VMM, which is capable of intercepting system
-calls in the guest VM. NumChecker can be implemented with
-any HPC-based profiler. The proof-of-concept design is based
-on the Linux Perf. A shown in the figure, NumChecker has
-two main components: a lightweight module (A) in the host
-kernel between the KVM kernel module and the Perf\_event
-kernel service, and a management program (B) running in
-the host user space. The kernel module of NumChecker
-performs two functions: first, it cooperates with the KVM to
-intercept monitored system calls in a guest VM (a). Second,
-it communicates with Perf\_event kernel service to initialize,
-enable/disable, read, and close HPCs (b). The counted numbers
-are output to a log file (c). The management program is used
-to dynamically configure the module of NumChecker in the
-kernel by modifying the parameters through the sysctl system
-call in the host (d). The configuration includes which system
-calls to intercept, which hardware events to count, etc.
-
-A guest VM in KVM is seen as a single process from the
-host’s point of view. For a multi-core system, when multiple
-virtual CPUs (vCPU) are assigned to a VM, each vCPU runs
-as a thread of the VM process (in Linux kernel, such a thread
-is treated as a separate process, called light-weight process).
-NumChecker calls the Perf\_event kernel service to launch a
-per-process profiling on the light-weight process of each vCPU
-and enables the HPCs only when monitored system calls are
-run in the guest VM. By doing so, the counted events are
-exactly contributed by the execution of the monitored system
-calls in the specific guest VM.
+\subsection{Hentaigana}
+One characteristic of Classical Hiragana or Hentaigana (“character
+variations'') is that many characters which can only be written a
+single way in modern Japanese can be written in many different ways in
+Kuzushiji.
+For example, this image shows that Hiragana Ha (は) can be written in a
+few different ways.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{numchecker.png}
-\caption{High-level structure of NumChecker design.}
+\includegraphics[width=12cm]{c1j.jpg}
+\caption{ applied.}
 \end{figure}
- 
- \section{System Call Interception}
- To execute privileged operations, a user process must use
-system call interface to access kernel services. System calls
-are implemented in two ways: interrupt-based system calls and
-sysenter-based system calls.
 
-Interrupt-based system calls are invoked by executing a
-software interrupt (int, with interrupt vector 0x80 for Linux
-and 0x2e for Windows) instruction, while a kernel can
-exit from the system call by executing an iret assembly
-instruction. The interception of interrupt-based system calls
-is directly supported by AMD SVM processors by setting
-certain bits in the VMCB. The int instructions and the iret
-instructions are virtualization-sensitive, and when executed in
-guest mode, will cause a VM-exit. Intel VT-extensions allow
-a guest to trap system interrupts (int with interrupt vector
-0 to 31), but cannot directly support trapping user interrupts
-(int with interrupt vector 32 and larger), such as system
-calls. Ether solves this problem by replacing the system
-call entry address with an illegal address. The illegal address
-causes a page fault that can be captured by the VMM. Nitro
-solves this problem by virtualizing the interrupt descriptor
-table (IDT).
-
-User space processes enter and exit sysenter-based system
-calls by executing sysenter and sysexit instructions
-respectively. The sysenter-based system call interception is not
-directly supported by current hardware assisted virtualization
-techniques. To implement NumChecker on such platforms,
-a simple way is to disable CPU features related to sysenter
-mode in the host OSes to force guest systems to use interruptbased
-system calls. Another method proposed in captures
-sysenter-based system calls by injecting system interrupts to
-guest VMs.
-
-An interrupt vector indicates the type of interrupts (0x00
-for divide error, 0x01 for debug, 0x80 for system call, etc.).
-To determine that a capture of an int instruction is caused by
-a system call, the interrupt vector needs to be checked. When
-a guest VM exits by executing an int instruction, the address
-of the instruction is stored in the guest VM’s eip register. By
-retrieving the address of the int instruction from the eip
-field in the VMCB,  guest memory can be accessed to get the
-interrupt vector.
-
-Besides capturing the entry and exit of a system call
-execution, the system call number should also be determined.
-A system call number is an integer stored in the guest VM’s
-eax register when a system call is invoked. This value can be
-obtained from the eax field in the VMCB.
-
-\section{Measurement of a System Call}
- Figure illustrates the procedure of measuring an interrupt based
-system call in the guest VM. The test program invokes a
-monitored system call by executing an int 0x80 instruction.
-This execution causes a VM-exit (arrow a) if
-the int instruction interception is enabled in the host. When
-the system control is transferred to the host, NumChecker is
-launched to first determine whether the current system call
-needs to be monitored. If so, NumChecker passes configuration
-parameters to the Perf\_event to initialize HPCs. These
-parameters include the counting mode, the process ID of the
-monitored guest VM, the type of hardware events, etc.
-
-After the HPCs are set up and right before entering the
-guest VM (b), NumChecker sends a signal to Perf\_event to
-turn on the HPCs (c). Then the HPCs count the specified
-events when the system call is running in the guest kernel
-until reaching the end of the execution, which is an iret
-instruction. System control is transfered to the host again (d).
-NumChecker turns off the HPCs (e) immediately after the CPU
-switches to host mode. The HPCs stop counting when the
-host code is being executed. The counted numbers are kept
-in the HPCs. NumChecker then reads the numbers through
-Perf\_event (f) and outputs them into a log file. After that, the
-control is transferred back to the guest (g), and the execution
-of the program is resumed.
-
+\subsection{Similarity between characters}
+A few characters in Kuzushiji look very similar and it is hard to tell
+what character it is without considering the above character as
+context.
+For example, in the image below the red circles show 3 types of
+characters: Ku (く), an iteration mark and Te (て).
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{syscall1.png}
-\caption{HPC-based measurement of a system call in the guest VM.}
+\includegraphics[width=12cm]{c2j.jpg}
+\caption{(a) A MNIST dataset with 5 hiranagana characters
+The certain computation path is determined by a specific input applied.}
 \end{figure}
 
-\subsection{Handling Other Interceptions}
-When a guest VM is
-in kernel mode executing a system call, other virtualization sensitive
-activities (such as I/O operations and external interrupts)
-of the guest VM may also cause a VM-exit (see
-block A in the figure). These activities interrupt the guest VM’s
-executions and will be intercepted by the host. If the HPCs
-keep counting when the VM-exit is being handled in the host,
-the events generated by the execution of the host code will
-be included in the final counts. To remove this noise, every
-time a VM-exit occurs during the execution of a guest system
-call, NumChecker suspends the HPCs (arrow h )
-by sending a disabling signal to Perf\_event before the VMM
-handles the VM-exit. The HPCs are resumed (i) when the
-handling is finished.
-
-Note that when an external interrupt returns, it also executes
-an iret instruction. So if there are external interrupts taking
-place during the execution of a system call, more than one
-iret instruction could be intercepted. It is necessary to find
-out the iret corresponding to the monitored system call.
-This can be determined by checking the value of the stack
-pointer after returning from the interrupt. The stack pointer
-points to the current topmost datum on the stack. In Linux,
-the lower 3GB memory of the total 4GB memory space of a
-process is the user space memory while the kernel memory
-space starts at virtual address 0xc0000000. If the stack
-pointer points to a location with the virtual address between
-0x00000000-0xbfffffff, the current stack is in the user
-space. Otherwise, it is in the kernel space. An external interrupt
-will return to the guest kernel space while the system call
-will return to the guest user space. So by observing the stack
-pointer after the interrupt returns, it can be identified which one
-is a system call return. the EFLAGS TF trap flags are set to
-trap the first instruction after an iret. The trap will generate
-an exception intercepted by the VMM. The guest’s CPU state,
-including the value of register esp which saves the current
-stack pointer, is stored into the VMCB. The esp filed in the
-VMCB can be directly accessed from the host.
-
-
-\subsection{Handling Kernel Preemption}
-Traditional Linux kernels
-are not preemptible. When a task is running in kernel mode, it
-cannot be switched out until its completion, even if a higher priority
-task is ready. Note that although the running task
-can still be interrupted by an external interrupt, a task switch
-cannot take place.
-
-In Linux 2.6 and later, a preemptible kernel option has
-been provided. This allows a higher-priority task to interrupt a
-running lower-priority task in the kernel. If kernel preemption
-is enabled, the HPC-based measurement becomes more complicated,
-as shown in the figure. Whenever a monitored system
-call is suspended and switched out of the processor, the HPCs
-need to be suspended as well. Fortunately, a guest task switch
-can be intercepted (arrow j ) by the VMM. When a
-task switch traps to the VMM, NumChecker disables the HPCs
-(k). It resumes the HPCs when the monitored system call is
-scheduled again (l). In this case, the execution of a system
-call is split into several “pieces.” The ESP register holds the
-descriptor pointer of the task currently running on the CPU.
-The “pieces” with the identical task descriptor pointer belong
-to the same system call.
-
+\subsection{Connectedness and overlap between characters}
+Kuzushiji was written in a cursive script, and hence in many cases,
+characters are connected or overlap which can make the recognition
+task difficult.
+In the image below, the bounding boxes in the image below show that
+characters overlap. The color of the boxes are for visualization and
+don’t contain any specific meaning.
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{preempt.png}
-\caption{Kernel preemption handling in NumChecker.}
+\includegraphics[width=12cm]{c3j.jpg}
+\caption{(a) A MNIST dataset with 5 hiranagana characters
+The certain computation path is determined by a specific input applied.}
 \end{figure}
 
-\section{Two-phase Rootkit Detection}
-NumChecker rootkit detection has two phases, shown in
-the figure: in the offline profiling phase, system calls of the
-trusted guest OSes are measured; in the online checking phase,
-system calls of a running monitored guest OS are measured
-and compared with that of the corresponding trusted OS.
-
-\subsection{Offline Profiling}
-In this phase, the test programs are
-executed in guest VMs with trusted OSes installed. The host
-logs in to the guest VM through the network between the host
-and the guest (for example, using SSH), loads executables of
-the test programs, and launches NumChecker. The configuration
-parameters specific to the monitored system call, such
-as the system call number and the type of hardware events
-measured, are passed to NumChecker. Then the test programs
-are executed in the guest VM. To improve the accuracy of
-the measurement, the execution of a test program is repeated
-several times. On the host side, the hardware events corresponding
-to the monitored system calls are counted. When
-the measurement is complete, the system call interception is
-disabled. The results are stored as the “clean copy” to be used
-at runtime.
-
-There are two factors that need to be considered when
-generating the “clean copy.” First, the same system call may
-have various implementations in the OSes with different kernel
-versions. For example, the system call sys\_open of Linux 2.6
-executes 80\% more instructions than that of Linux 2.4. Such
-a variation might be even larger than that from a malicious
-modification to the system call. Second, the occurrences of
-low level hardware events also tightly depend on the hardware
-implementation of the processor running the monitored
-system. Processors with different architectures have different
-sets of low-level events that are available for monitoring. Even
-processors with the same architecture but different models may
-have slight differences in the availability of monitoring. In
-some cases, the same hardware event, when monitored on two
-processors with different architectures, may have a different
-number of occurrences even if the running program and the
-execution environment are exactly the same.
-
-Therefore, for each particular kernel version and processor
-model,  a separate “clean copy” needs to be created by running
-the process described above. Fortunately, generating a database
-containing clean copies of all commonly used OS kernel
-versions and processor models is not a tough task because the
-number of kernel versions and processor models is limited.
-Unlike other comparison-based techniques, which take a long
-time to read large amounts of memory, for a given kernel
-version and processor model, NumChecker can profile one
-system call and create the “clean copy” in a few seconds.
-Moreover, the offline profiling only needs to be performed
-once per kernel version per processor model.
-
-\subsection{Online Checking}
-The execution path of a monitored
-system call is dynamically measured at runtime. The steps in
-this phase are similar to those in the offline profiling. The
-test programs are loaded when a guest VM is created. As
-mentioned above, to maintain consistency, the test programs
-used in the runtime checking are identical to the ones used to
-generate the “clean copy.”
-
-The system call profiling can then be dynamically invoked
-in either host-initial mode or guest-initial mode. For the hostinitial
-mode, whenever the host administrator wants to launch
-a check, the host configures and enables NumChecker. Then
-the host logs in to the guest VM and executes the test programs
-in the guest VM. When the execution is done, the host turns
-off the system call interception.
-
-Guest-initial mode is used for a guest user who wants to
-check if the OS is maliciously modified. In this mode, the guest
-user first sends a request to the host through the network. The
-management program in the host then checks the availability
-of HPCs and allocates unused ones to the guest. After the
-counters are allocated and ready to use, the host sends the
-acknowledgement to the guest. When the acknowledgement
-is received, the guest then runs the test programs to invoke
-monitored system calls.
-
+\subsection{Various Layouts}
+The layout of Kuzushiji characters (while normally arranged into
+columns) does not follow a single simple rule, so it is not always
+trivial to express the characters as a sequence. Some examples of this
+include characters being written to wrap around or even integrate into
+illustrations. Sometimes, characters are written in a diagonal line.
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{twophase.png}
-\caption{Offline profiling phase (left-hand side) and online checking
-phase (right-hand side) of NumChecker rootkit detection.}
+\includegraphics[width=12cm]{c4j.jpg}
+\caption{(a) A MNIST dataset with 5 hiranagana characters
+The certain computation path is determined by a specific input applied.}
 \end{figure}
 
-\section{HPC-based Rootkit Identification}
-After detecting malicious modifications to the system calls,
-another very important step is to determine what type of
-malware is performing the action, especially for malware that
-is well studied. The more information is known about the
-malware, the easier it can be removed from the infected system
-and mitigate the risk and damage it brings.
+\chapter{Classification of Kuzushiji Letters}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{hpc.png}
-\caption{NumChecker rootkit identification. The HPC-based signatures
-of known kernel rootkits are collected offline and stored in the
-database. When a rootkit is detected during the online phase, its HPC
-signature will be extracted and matched with the known signatures
-in the database.}
-\end{figure}
+In machine learning and statistics, classification is a supervised learning
+approach in which the computer program learns from the data input
+given to it and
+then uses this learning to classify new observation. This data set may simply be
+bi-class (like identifying whether the person is male or female or
+that the mail is
+spam or non-spam) or it may be multi-class too when more than two objects needs
+to be classifed.
 
-Different kernel rootkits compromise a system kernel in
-different ways. Specifically, different system calls might be
-targeted for the particular purposes that a kernel rootkit would
-like to achieve. For example, some kernel rootkits are only
-used to hide malicious processes and files. In this case, only the
-system calls that are relative to those actions will be modified.
-Some kernel rootkits may also try to gain the root privilege,
-then more system calls will be tampered with. Moreover, even
-if two kernel rootkits tamper with the same system calls,
-the modifications can still be very different depending on the
-specific implementations.
-
-The particular modifications from a kernel rootkit will
-be observed as a particular set of counts of the monitored
-hardware events, when the execution of the modified system
-call is measured by NumChecker. These counts can be used
-to distinguish the certain kernel rootkit from others. Let
-C(Ex; Sy) denote the count of event x from the execution
-of system call y. If m hardware events are monitored for n
-system calls with the corresponding test programs, an HPC
-vector V with $m\times $n elements can be obtained, as shown in
-Equation (1):\\
-\begin{equation}
-    V = [C(E_{1}, S_{1}),C(E_{2}, S_{1}), ...,C(E_{m}, S_{1}),
-C(E_{1}, S_{2}),C(E_{2}, S_{2}), ...,C(E_{m}, S_{n})] 
-\end{equation}
+We try to focus on calculating the accuracy of recognising Kuzushiji
+datasets which in both Kanji and Hiragana, based on pre-processed images of
+characters from 35 books from the 18th century for datasets Kuzushiji-MNIST,
+Kuzushiji-49 and Kuzushiji Kanji, each having respectively 9, 49 and
+3832 classes
+for the dataset.
 
 
-Such a vector is considered as the signature to identify a
-particular kernel rootkit. The more hardware events and system
-calls are measured, the easier a kernel rootkit can be identified.
-
-Similar to the detection technique, NumChecker rootkit
-identification has offline and online phases. As shown in
-Figure 6, in the offline phase, the HPC vector-based signature
-for any known kernel rootkit is collected and stored either in
-a local database that is maintained by the host or a remote
-database that can only be accessed from the host. Assuming
-each HPC vector contains the counts of 5 hardware events
-measured from 5 system calls, and 4 bytes are used to store
-each counted number (i.e., up to 232, which is large enough for
-the occurrences of any event from the execution of a system
-call), the storage for the HPC vector of a kernel rootkit is
-
-$4B \times $5 \times $5 = 100B , which is relatively very small.
-
-After a malicious modification is detected during the runtime,
-the online phase of NumChecker identification will be
-launched. The HPC-based signature, i.e., the HPC vector
-of the detected kernel rootkit is extracted by measuring the
-hardware events on the monitored system calls invoked by the
-corresponding test programs. Then the signature is matched
-with the ones of known kernel rootkits in the database by
-calculating the deviations. Let 
-   $ C_{test} (E_x, S_y ) $ denote the count
-of event x from the execution of system call y infected by a
-rootkit under test and $C_{ref} (E_x, S_y)$ denote the corresponding
-element in the vector of a rootkit reference. The deviation of
-the element in the tested vector from the one in the reference
-vector is presented in Equation (2):
-\[
-    $D_{test}(x,y)= \left|\frac{ C_{test} (E_x, S_y - C_{ref} (E_x, S_y) }{ C_{ref} (E_x, S_y)} \right|
-\]
-\\ $D_{test}$ is calculated for each element in the tested vector and
-the largest one $D_{test\_max}$  is determined:
-
-\subsection{Rootkit Identification with Periodic Sampling}
-In very
-few cases, two different kernel rootkits may have very close
-HPC-based signatures as defined in Equation (1), because only
-the final HPC values of a system call execution are measured.
-Considering the noise from the monitored system, a rootkit
-signature might be matched to more than one known signatures
-in the database if the above identification technique is applied.
-When such a situation is encountered, a further identification
-step will be performed by NumChecker. Specifically, rather
-than checking the HPCs values only at the end of an execution,
-NumChecker samples the HPCs and collects the number of
-monitored hardware events periodically during the execution.
-What is been recorded is not a single number of total occurrences,
-but a curve showing how the number of events
-increases from the beginning to the end of the monitoring
-period, shown in the figure Even if system calls infected by
-two different rootkits have very close occurrences of monitored
-events in the whole execution, it is impossible that they have
-exactly the same fine-grained HPC profile for each event.
-The event curve gives more details about the execution, thus
-increasing the identification capability of NumChecker.
-
-To quantify the difference, NumChecker uses the areaunder-
-curve (AUC) to measure each HPC profile. Instead of
-containing the end values of HPCs, a new vector in terms
-of the AUCs of HPC profiles on the monitored system calls
-is obtained for a rootkit. Similar to the end-value-based HPC
-vectors mentioned above, the AUC-based HPC vectors are first
-generated offline and stored in the database, but only for the
-rootkits which have the close end values. When the matching
-process fails to identify a rootkit by comparing the end-valuebased
-HPC vectors, which means more than one match is
-found, a further step of identification will be performed by
-matching the AUC-based HPC vectors.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{graph.png}
-\caption{Examples of fine-grained HPC profiles for clean and infected
-system calls. The infected profiles are distinctive and different from
-the clean profile and from each other, allowing the identification of
-kernel rootkits even if the number of total occurrences of an event is
-the same.}
-\end{figure}
-
-To periodically sample HPCs, a proper sampling interval
-should be determined. The intuitive idea is to perform the
-sampling based on clock ticks. However, since the execution
-time for a program has variation when the system state changes
-from time to time, the HPC measurement between the same
-two time-based check points of a monitored will vary from
-one execution to another. As a solution, NumChecker uses
-the number of retired instructions as the checking interval
-for measuring an execution because it is more consistent
-and robust against system disturbances. Also, because the
- hardware events selected to monitor are particular types
-of instructions in the current implementation, the correlation
-between the occurrences of monitored hardware events and
-the number of retired instructions is relatively strong, making
-the measurements more reliable.One
-of the HPCs is configured as the trigger counter to invoke a
-sampling on other HPCs when the specified number of retired
-instructions are counted.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{sampling.png}
-\caption{NumChecker periodic sampling. HPC1 is configured to run
-in sampling mode. An overflow is generated in HPC1 when every N
-retired instructions are counted. The values of the other HPCs (e.g.
-HPC2 in this figure) are read by NumChecker when an overflow
-occurs.}
-\end{figure}
-
-\subsection{Security Analysis}
-With the isolation provided by virtualization and the benefits
-of using HPCs, the “in-and-out-of-the-box” execution path
-analysis is very secure and tamper-resistant. 
-Some possible attacks are discussed and shown how they can be defended by the technique.
+It comes with a baseline based on the comparing with following
+algorithms on Kuzushiji-MNIST and Kuzushiji-49 dataset:
 \begin{enumerate}
-    \item \textbf{The rootkit may try to tamper with the
-counting process.} \\If the event counting is inside the guest
-VM, the kernel rootkit may disable the counters when its own
-code is executed and resume the counting when the controlflow
-returns to the normal execution. In this case, the malicious
-actions will not be detected since the counts remain the same
-as the unmodified execution. In the design, the hardware
-events are counted by the host. The HPCs are out of reach
-to the rootkits. Another way a rootkit could tamper with the
-counting process is by suspending the thread that runs the
-monitored system call and passing a pointer to another thread.
-The malicious code is then executed in the unmonitored thread
-where the events are not counted by NumChecker. However,
-suspending a monitored thread will cause a VM-exit that can
-be intercepted by the host. Malicious activities are suggested
-when this type of VM-exit is repeatedly observed during a
-check.
-    \item \textbf{The rootkit may tamper with the analysis
-process.} \\Even though the counters are working properly and
-count all the true numbers, a rootkit may directly manipulate
-the analysis. Consider Patchfinder, the “in-the-box” execution
-path analysis technique, as an example. Since the counts are
-stored in the memory, the kernel rootkits which have full
-access to the memory can simply modify the actual counted
-number. In the VMM-based design, the counted numbers are
-read from HPCs by the trusted host and all the analyses
-are performed by the host. The guest kernel rootkits cannot
-interfere with the analyses because they do not have access to
-the host memory.
-    \item \textbf{The rootkit may try to predict the “good”
-number.} \\Specifically, if the rootkit can predict the exact
-number of hardware events that occur during the execution
-of a system call, it could carefully modify the system call
-to generate the same number as the original one. However,
-given a system call, the number of hardware events generated
-in the execution depends on the inputs to the system call.
-In the design, the inputs to the monitored system calls are
-applied in the pre-generated test programs. A test program
-is used as the “secret key” in a particular check and is
-updated dynamically by the host. For example, the inputs of
-sys\_open are an arbitrary file in the file system and a flag
-indicating the operating mode of the targeted file, while the
-input of sys\_getdents64 is an arbitrary directory in the file
-system. When different files, flags or directories are applied
-to those system calls, a significant difference in HPC values
-is observed. Because the number of files, directories and their
-combinations in a system is enormous, the key space is very
-large. A rootkit is not able to predict and generate a valid
-number of a monitored system call in a particular check.
-    \item \textbf{The rootkit may undo modifications.} \\A
-rootkit is used by attackers to provide long-term stealth
-for malicious activities. If a clever rootkit is aware of the
-occurrence of a check, it can try to undo modifications when
-the check is performed and activate itself again when the check
-is over. In NumChecker, the detection processes are running in
-the host without a guest’s awareness. The only thing the guest
-can see is the execution of a test program. However, from
-the guest’s point of view, the execution of a test program is
-no different from the execution of other programs. Therefore
-a guest cannot tell when it is being monitored. Moreover,
-a test program can include functions of monitoring utilities.
-This will put the rootkits in a dilemma. If the modifications
-are performed, they will be detected by NumChecker; if the
-rootkits undo the modifications, the malicious processes or
-files they try to hide will be exposed by the monitoring utilities.
-Additionally, the intervals between checks can be randomized
-to avoid attackers’ prediction of the checking period.
+\item four-nearest neighbours algorithm
+\item 2-layer convolutional network
+\item an 18-layer ResNet
+\item ResNet incorporated with manifold mixup regularizer
 \end{enumerate}
 
-\chapter{Evaluation}
-\section{Detection Capability}
-To evaluate the effectiveness of NumChecker rootkit detection,
-the  technique is tested with 11 real-world kernel rootkits
-on three different guest OSes. The host runs Ubuntu 11.10
-with Linux kernel 3.0.16. The three guest OSes are Redhat 7.3
-with Linux kernel 2.4.18, Fedora core 4 with kernel 2.6.11,
-and Ubuntu 11.10 with kernel 3.0.0. Table shows the experimental
-results. For each rootkit, the modifications
-it performs to 5 system calls are checked, sys\_open, sys\_close, sys\_read,
-sys\_getdents64, and sys\_stat64, with the corresponding test
-programs. Five hardware events, retired micro-ops (UOPS),
-retired instructions (INST), retired near returns (NRET), retired
-branches instructions (BRAN), and retired taken branch
-instructions (BRNT) are monitored simultaneously for the
-execution of each system call. The percentages present the
-deviations of events counts from uninfected executions.
 
-To determine whether a system call is maliciously modified,a situation of false positives is considered. Because
-of the complexity of an OS kernel, the noise is unavoidable.
-Even though identical test programs are applied, it cannot be
-guaranteed that the number of events is exactly the same for
-every single run. This noise can be reduced by increasing the
-number of times each test program is run. In the experiment,
-each test program is repeated 500 times. Figure shows the
-false positive rate when different noise thresholds are applied.
-The experiment is performed with different CPU, memory and
-I/O workloads on the monitored system. It is observed  that the
-noise in HPC deviations is smaller than 5\% for the execution
-of a normal system call, no matter whether the system load
-is light or heavy. So the rootkit detection threshold is set
-to 5\%. A deviation of more than 5\% suggests a malicious
-modification.
+tt
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{table1.png}
-\caption{NumChecker detection capabilities.}
+\includegraphics[width=12cm]{paperbench.png}
+\caption{Fig:Test set Accuracy of various baseline models.}
 \end{figure}
+\\
+\\
+\section{Baseline Models Explained}
 
-From the table , it is seen that in order to introduce their
-own functionality, the rootkits usually significantly modify
-the original system calls. The difference in the number of
-events between normal and infected executions is very notable.
-The Superkit rootkit modifies the system calls very heavily.
-The largest deviation is from the number of branches of the
-sys\_open function, which is 1399.5\%. The test on Sebek 3.2
-gives smaller deviations. The largest deviation from the test
-on Sebek 3.2 is 18.8\%, which is still much larger than the
-noise threshold of 5\%.
+We have tried the following models one after the another and did
+recognition of the
+following Models on metric of mean-of per classes accuracy to address the class
+imbalance in this model.
 
-\section{Identification Capability}
-To demonstrate the capability of the two-phase rootkit
-identification,  first  the training HPC vector for
-each of the 11 kernel rootkits in the offline phase is generated. The
-total occurrences of the monitored hardware events during
-the execution of the monitored system calls are counted and
-averaged over repeated runs. In this experiment, the
-same set of hardware events and system calls as described in
-the previous section is used. These training HPC vectors are stored locally
-in the host as the known rootkit database. During the online
-testing phase, the runtime HPC vector of each tested kernel
-rootkit is obtained and compared with all the references in the
-rootkit database to find the best match.
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{table2.png}
-\caption{NumChecker identification capabilities.}
-\end{figure}
+\subsection{ four-nearest neigbours algorithm}
 
-As described earlier, for a tested rootkit, each
-element in its HPC vector is compared with the corresponding
-one in the vector of a rootkit reference and the deviation
-is measured. The largest deviation Dtest\_max among all the
-elements is then compared with the identification threshold.
-Considering the system disturbances that may have slight
-impacts on the HPC values for each measurement, the same
-threshold of 5\% is applied. That is, if a tested rootkit has a
-Dtest\_max smaller than 5\% on a rootkit reference, a match will
-be reported. Table II shows the Dtest\_max of the tested rootkit
-on the known rootkit references. Because a kernel rootkit
-usually targets a specific version of kernel (e.g., a Linux 2.4
-kernel rootkit, such as SucKIT 1.3b, does not work on Linux
-2.6, and vice versa), the experiment is performed separately
-on each of the three kernel versions with the corresponding
-kernel rootkits. From the experimental results, it is seen that
-the Dtest\_max of a tested rootkit on its own offline reference is
-always smaller than 5\%, while the Dtest\_max on other rootkit
-references are significantly larger, meaning a unique match is
-successfully found.
+The k-nearest neighbors algorithm (k-NN) is a non-parametric method used for
+classification and regression. In both cases, the input consists of
+the 4 closest
+training examples in the feature space.
 
-To further measure the difference from a known rootkit
-reference, for a tested rootkit the average
-deviation from the rootkit reference is also calculated , denoted as Dtest\_avg and
-the Fitting Rate (FR) on the rootkit reference, which is defined
-as follows:
-\[
-    FR =\frac {no. of elements fitted to the targeted reference}
-{no. of elements in the tested vector}
-\]
+In k-NN classification, the output is a class membership. An object is
+classified by a plurality vote of its neighbors, with the object being
+assigned to the class most common among its k nearest neighbors (k is
+a positive integer, typically small).
+
+\subsection{2-layer convolutional network}
+
+CNNs are regularized versions of multilayer perceptrons. Multilayer
+perceptrons usually refer to fully connected networks, that is, each
+neuron in one layer is connected to all neurons in the next layer. The
+"fully-connectedness" of these networks makes them prone to
+overfitting data. Typical ways of regularization include adding some
+form of magnitude measurement of weights to the loss function.
+However, CNNs take a different approach towards regularization: they
+take advantage of the hierarchical pattern in data and assemble more
+complex patterns using smaller and simpler patterns. Therefore, on the
+scale of connectedness and complexity, CNNs are on the lower extreme.
+
+A convolutional neural network consists of an input and an output
+layer, as well as multiple hidden layers. The hidden layers of a CNN
+typically consist of a series of convolutional layers that convolve
+with a multiplication or other dot product. The activation function is
+commonly a RELU layer, and is subsequently followed by additional
+convolutions such as pooling layers, fully connected layers and
+normalization layers, referred to as hidden layers because their
+inputs and outputs are masked by the activation function and final
+convolution. The final convolution, in turn, often involves
+backpropagation in order to more accurately weight the end product
+
+\subsection{Resnet}
+Resnet is a pre-trained neural networks which was founded by Microsoft Research.
+This neural networks gives state of the art result and won 1st place
+in the ILSVRC 2015 classification competition with top-5 error rate of
+3.57 percent
+(An ensemble model). When deeper networks starts converging, a
+degradation problem has been exposed: with the network depth
+increasing, accuracy gets saturated and then degrades rapidly. For
+almost all segmentation, classification and object
+detection  and even regression with tabular data, Resnet gives state of the
+art results.
+
+\subsection{PreAct Resnet with ManiFold mixup}
+
+A method for learning better representations, that acts as a
+regularizer and despite its no significant additional computation cost
+, achieves improvements over strong baselines on Supervised and
+Semi-supervised Learning tasks.
+ Manifold Mixup is that the dimensionality of the hidden states
+exceeds the number of classes, which is often the case in practice.
+
+\section{Resnet networks ensembled with Capsule networks}
+
+The best results were achieved with an ensemble of VGG and ResNet – a
+98.9\% accuracy on the test set, which is a state-of-the-art result on
+the new dataset. TO unnderstand how this model gives this much
+accuracy, it’s essential to understand about Convolutional Neural
+networks. Capsule neural networks were introduced by Jeffrey Hinton
+and his team to solve a very important important disadvantage of
+Convolutional neural networks(CNN).
+
+Internal data representation of a convolutional neural network does
+not take into account important spatial hierarchies between simple and
+complex objects. For a CNN, a mere presence of these objects can be a
+very strong indicator to consider that there is a face in the image.
+Orientational and relative spatial relationships between these
+components are not very important to a CNN. As a mere presence of 2
+eyes, a mouth and a nose in a picture does not mean there is a face,
+yet CNN always see like that.
+
+For objects in 3D representation, the relationship of various angles
+and poses are not properly mapped in a usual CNN. Yet  deep learning
+to better model hierarchical relationships inside of internal
+knowledge representation of a neural network. Intuition behind them is
+very simple and elegant. This has been now possible due to a new
+algorithm for Dynamic Routing between Capsules, for calculating
+distance between capsule.
 
 
-Here a “fitted” element means the deviation of such an
-element from the corresponding one of the rootkit reference is
-smaller than the 5\% noise threshold, indicating that the total
-occurrences of a particular event during the execution of a
-particular system call infected by the tested rootkit and the
-reference rootkit are almost the same ( the situation
-that the system call is not infected by both the tested and
-reference rootkits is excluded). From the results presented in the table, it is observed  that when a tested rootkit is compared with a reference
-of other rootkit, the average deviation is much larger than
-the threshold and the FR is very low. This means the HPC
-signature of a rootkit is usually very different from that of
-another rootkit, so can be easily identified.
+On blending our architecture with Resnets which help in converging our
+neural networks with less loss rate and using Capsule networks for
+better representation of objects. We are able to get state of art
+results for classifying Kuzushiji letters.
 
-The only weak case encountered in the experiment is
-to distinguish SucKIT 1.3b from Superkit on Linux 2.4.
-As seen in the table, although the Dtest\_max of SucKIT
-1.3b on the Superkit reference, or vice versa, is larger than
-5\%, the average deviation is very close to the threshold and
-the FR is very high (marked with “*”). For example, when
-SucKIT 1.3b is tested on the Superkit reference, the average
-deviation is 4.95\% which is even smaller than the threshold.
-The FR of 84\% means only 16\% of the elements in the
-signature vector can be used to differentiate these two rootkits.
-In some cases, a runtime signature vector may not contain
-such elements. The number of hardware events that can be
-monitored simultaneously is limited to the number of HPCs
-available on the platform. Also, a particular check may not
-run all the test programs (the more test programs are run,
-the higher performance overhead is introduced). Therefore,
-the actual runtime signature vector may be a subset of the
-complete signature vector. As a result, the tested rootkit will
-be matched to both SucKIT 1.3b and Superkit.
 
-As described earlier, when this situation is
-encountered, the periodic sampling will be applied by Num-
-Checker for a further analysis. Figure 10 presents the HPC
-profiles, which exhibit a monotonic increase in value over
-time, on the monitored system calls infected by SucKIT
-1.3b and Superkit respectively. Significant differences can be
-observed between the HPC profiles of the two rootkits even
-if they have almost the same end values. The further analysis
-performs the matching process on the AUC-based HPC vectors
-of the tested rootkit and the offline references. The results are
-presented in the table. It is observed that by comparing the AUCbased
-HPC vectors, the average deviation of SucKIT 1.3b from
-the Superkit reference, or vice versa, becomes much larger
-than that from its own reference and the FR is decreased to
-45\%, indicating a much better differentiation between these
-two kernel rootkits.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{table3.png}
-\caption{The test values of SucKIT 1.3b and Superkit on their references after applying the periodic sampling.}
-\end{figure}
 
-\section{Checking Latency}
-The experiments of the checking latency on a
-PowerSpec platform is performed with a 2.3GHz AMD Quad-Core Opteron
-1356 CPU, which has four HPCs on each core. The host
-is running 32-bit Ubuntu 11.10 (kernel version 3.0.16) with
-8GB RAM and 4-core configuration; The guest VMs are
-running 32-bit Redhat 7.3 (kernel version 2.4.18), Fedora Core
-4 (kernel version 2.6.11) and Ubuntu 11.10 (kernel version
-3.0.0), with 512MB RAM and 1-core configuration.
+\chapter {Domain Transfer  Implementation}
+
+Domain transfer focuses on pixel images, we explore instead the
+transfer from pixel images to vector images, across two different
+domains. Our proposed model aims to generate Modern Kanji versions of
+a given Kuzushiji-Kanji input, in both pixel and stroke-based formats.
+We employ KanjiVG, a font for Modern Kanji(ie the Japanese Language)
+in both pixel and stroke format. This is a various interesting
+application to bring life to a an almost extinct language with usage
+of Machine
+Learning.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{graphs.png}
-\caption{The periodically sampled HPC profiles of sys\_open (a), sys\_close (b), sys\_read (c), sys\_getdents64 (d) and sys\_stat64 (e) infected
-by SucKIT 1.3b (solid) and Superkit (dotted). The X axis is the number of samples while the Y axis indicates the occurrences of a hardware
-event.}
+\includegraphics[width=12cm]{s1.png}
+\caption{Kuzushiji Kanji 64x64 px samples(top) to Kanji images.}
 \end{figure}
 
-Since NumChecker uses an “in-and-out-of-the-box” technique,
-the detection procedure has two separate parts, in the
-guest and host respectively. The total checking latency is the
-sum of the time for executing the test programs in the guest
-VM and the time for analyzing the counted numbers in the
-host. When different test programs are applied (the monitored
-system call is invoked with different inputs), the execution time
-inside the guest VM may be different. The checking latency
-also depends on the number of test programs to be executed,
-the number of hardware events to be observed, and the specific
-guest OS version.
+\section{Related work in Chinese Language}
 
-For each monitored system call, the analysis in the host
-takes 4.86 ms when three hardware events are observed
-simultaneously. Table IV shows the execution times of each
-test program in three different guest VMs. To reduce false positives,
-each test program contains 500 iterations to repeatedly
-invoke the corresponding system call. The time is calculated
-from the total execution, and the numbers are averaged over
-20 runs. Because test programs are very simple, the execution
-time is short. The average execution time of a test program
-on Redhat 7.3, Fedora Core 4 and Ubuntu 11.10 are 45.6 ms,
-59.5 ms and 51.5 ms, respectively.
+There has been similar works in Chinese language to generate fake, but
+plausible Chinese characters, in vector .svg format from the orginal
+Kanji format of Chinese language.
 
-A typical test of NumChecker checks all of the 5 system
-calls mentioned above with 4 corresponding test programs
-(sys\_open and sys\_close are checked in one test program).
-Table V presents the checking time of NumChecker for the Fedora
-Core 4 guest, and the comparison with other techniques.
-Because some results are from others’ experiments on different
-platforms, for each implementation, the CPU frequency
-and guest memory size is listed, which are related more to checking
-latency. The first three techniques, Rkhunter 1.2.8, Chkrootkit
-0.48 , and Patchfinder, are host-based techniques running
-inside the target. MAVMM , VMwatcher, XenAccess,
-and OSck  are VMM-based techniques. For MAVMM,
-VMwatcher, and XenAccess, the checking time depends on
-the size of the memory to be examined because they require
-memory dumping. For VMwatcher, the checking time also depends
-on whether the kernel symbols are available. Examining
-a 512M raw window memory image takes 32 seconds while
-for Linux, the analysis can be finished within 500 ms.
-NumChecker takes 24.3 ms in the host (5 system calls
-are analyzed) and 238 ms in the guest (4 test programs are
-executed). The total time to finish a typical test is 262.3 ms,
-regardless of the memory size of the guest VM.
+We use a Generative Sequence Model framework as mentioned in Graves
+paper[reference it].
+To implement a  text-generation example, assuming we have a model that
+has been pre-trained already, we feed in an initial random character
+into the model that with an initially empty state. The model will use
+the state’s information along with the current input, to generate a
+probability distribution for the next character. That distribution
+will be sampled randomly (possibly we distort the sampling process by
+applying temperature), to obtain a prediction for the next character.
+The sampled character will be placed back as the next input, as well
+as the current internal state of the model.
+
+A simple model that fits this framework is the basic N-GRAM character
+modelling method. In N-GRAM, all we do is keep a record of frequencies
+of the previous N characters and use the historical table of
+frequencies as the probability distribution we can draw to generate
+the next character.
+
+\begin{figure}[h]
+\includegraphics[scale=1]{chineGSM.png}
+\caption{Generative Sequence Model Framework}
+\end{figure}
+
+This framework can also be represented by a recurrent neural network,
+where the states are the hidden states of recurrent LSTM nodes, and
+the output values of the network can be converted into a discrete
+probability distribution via applying softmax layer to the outputs. To
+train the weights of the neural network, we need a way to compare the
+predicted distribution, to the actual distribution of the training
+data. What is usually done is that cross-entropy loss function is
+usually applied, to compare the model’s predicted probabilities after
+the softmax layer, with the actual data of the entire sequence
+generated.
+
+This has been done in Graves’ sequence generation paper and
+implemented as char-rnn by Karpathy. char-rnn has been used
+successfully to generate not only Shakespeare’s text, but also bizarre
+examples such as Linux source code, LaTeX documents, wikipedia
+formatted xml articles, and music scores.
+
+They want to model different potential states and context in the data
+and be able to generate a plausible distribution of the next point
+conditional to the entire historical set of points where we can then
+draw from to generate our handwriting examples. Therefore in this MDN,
+the inputs into the network would be the most recent relative stroke
+movement, the most recent end-of-stroke signal, and the previous
+hidden state of the network, while the output of the network could be
+a set of values that parametrise the probability distribution of next
+stroke movement and the next end-of-stroke signal.
+
+On training the network to generate accurate distributions of the
+future given the historical past, we can just sample from the
+probability distribution to generate our handwriting sample. It is as
+of the neural network is dreaming up some handwriting example by
+feeding back to itself it’s previous generated stroke. In our demo, we
+used a 2-layer stacked basic-LSTM network (no peephole connections)
+with 256 nodes in each layer. Thus we are able to get fake chinese
+characters which even represent new meaning while following the
+correct meaning.
+
+
+% Like in the inverted sinusoidal data in the previous post about
+MDNs, we want to model different potential states and context in the
+data and be able to generate a plausible distribution of the next
+point conditional to the entire historical set of points where we can
+then draw from to generate our handwriting examples. Therefore in this
+MDN, the inputs into the network would be the most recent relative
+stroke movement, the most recent end-of-stroke signal, and the
+previous hidden state of the network, while the output of the network
+could be a set of values that parametrise the probability distribution
+of next stroke movement and the next end-of-stroke signal.
+
+% Once we have trained the network to generate accurate distributions
+of the future given the historical past, we can just sample from the
+probability distribution to generate our handwriting sample. It is as
+of the neural network is dreaming up some handwriting example by
+feeding back to itself it’s previous generated stroke. In our demo, we
+used a 2-layer stacked basic-LSTM network (no peephole connections)
+with 256 nodes in each layer.
+
+% Our model for the probability distribution for the future stroke
+vector would be a joint 2D normal mixture distribution, charactersised
+as a probabilistic weighted sum of 2D Normal distributions, each with
+their own means, and covariances. We used 20 mixtures in our demo, to
+be consistent with Graves’ paper, but we found actually that even 5-10
+mixtures worked well enough, however the extra number of mixtures
+didn’t really cause a huge drop in algorithm performance and didn’t
+really increase the total size of the network, as most of the weights
+were in the LSTM layers, so we just kept it at 20. If you want to
+experiment with different number of nodes, node types (RNN, GRU, etc),
+enable LSTM peep-hole connections, number of mixture distributions,
+different DropOut probabilities – all of this can be done by setting
+different flags when running train.py.
+
+% In total, we would demand 121 output values from our network, Z,
+from the MDN to infer our distribution. One of these values would be
+used as the end-of-stroke probability, 20 values would define the
+probability of each mixture, while the remaining 100 values constitute
+20 sets of 2D Normal distribution parameters. As the output values are
+real numbers that may not be bounded, we would perform a transform to
+get to the values in parameter space:
+
+% e = \frac{1}{1+ \exp(Z_{0})}
+
+
+\section{Domain Transfer Architecture}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1]{paperdomainarch.png}
+\caption{Figure: Overview of our approach (1) We first train a VAE on
+pixel version of KanjiVG and Sketch-RNN model to generate stroke
+version of KanjiVG conditioned on latent space Znew. (2) We train a
+VAE on Kuzushiji-Kanji and train a mixture Density network to predict
+P(znew|zold) and generate stroke version of Modern Kanji}
+\end{figure}
+
+Input is converted to contempary language from the old
+Kuzushiji-KanjiVG format of 64x64px resolution format.
+We employ KanjiVG, a font for Modern Kanji in a stroke-ordered format.
+Variational Autoen-coders [14,18] provide a latent space for both
+Kuzushiji-Kanji and a pixel version of KanjiVG. A Sketch-RNN  model is
+then trained to generate Modern Kanji strokes, conditioned on the
+VAE’slatent space. Predicting pixel versions of Modern Kanji using a
+VAE also aids human transcribers as the blurry regions of the output
+can be interpreted as uncertain regions to focus on.
+
+We first train two separate ConvolutionalVariational Autoencoders, one
+on the Kuzushiji-Kanji dataset, and also a second on a pixel version
+ofKanjiVG dataset rendered to 64x64 pixel resolution for consistency.
+The architecture for the VAEis identical to  and both datasets are
+compressed into their own respective 64-dimensional latentspace,Zold
+and Znew.
+
+
+
+\subsection{Algorithm}
+\begin{enumerate}
+  \item Train two seperate variational autoencoder on pixel version of
+KanjiVG and Kuzushiji-Kanji on 64x64px resolution.
+  \item Train mixture density network to mode P(Znew | Zold) as
+mixture of gaussians.
+  \item Train sketch RNN to generate Kanji VGG strokes conditioned on
+either znew or z~new ~P(Znew|Zold).
+\end{enumerate}
+
+\subsection{Components of this architecture}
+
+\\
+\textbf{Auto Encoders and Decoders}
+\\
+They are widely used unsupervised application of neural networks whose
+original purpose is to find latent lower dimensional state-spaces of
+datasets, but they are also capable of solving other problems, such as
+image denoising, enhancement or colourization.
+Variational Autoencoders is used to provide latent space of KanjiVG to
+Kuzushiji Kanji. It’s used in the architecture to finetune the input
+and provide better colourization and enhancement. It’s used in complex
+generative models.
+\\
+\\
+\textbf{Mixture Density Network:}
+\\
+Used to model density function to a new domain. It’s used for making
+the neural networks to translate from Kuzushiji Kanji to KanjiVG
+format in pixels.
+\\
+\textbf{Sketch RNN}
+\\
+It’s a decoder network which conditions the model in a new latent vector.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=12cm]{table4.png}
-\caption{Execution times of different test programs in guest VMs
-running Redhat 7.3, Fedora Core 4 and Ubuntu 11.10.}
+\includegraphics[scale=0.4]{kurian.png}
+\caption{Domain transfer process through all the components}
 \end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{table5.png}
-\caption{Checking latency of NumChecker and other rootkit
-detection techniques. }
-\end{figure}
+\subsection{Comparison with Chinese architecture}
+\begin{enumerate}
+    \item Training two VAE encoders in our algorithm gives better
+performance than single VAE encoders used.
+    \item Sketch-RNN is better than char-RNN to give a better accuracy.
+    \item Using adversarial losses as in other approaches is not necessary.
+\end{enumerate}
 
-\section{Guest Performance Overhead}
-The next experiment is to test the performance overhead
-on the guest system operations when NumChecker is invoked
-periodically. The experiment is performed in a guest VM
-running Fedora Core 4 system, and the hardware configuration
-is the same as other experiments mentioned above.
 
- 9 UnixBench benchmarks is used to calculate the guest
-system performance, and the overall presents the average.
-NumChecker is invoked every 5 and 10 seconds, respectively,
-and the results are compared to the normal guest performance
-without NumChecker. Figure 11 shows the results of the
-experiment. All the numbers are the average of 10 runs.
+\section {Why not such a system for Malayalam?}
 
-The average overhead of the guest system performance is
-2.8\% when NumChecker is invoked every 5 seconds and 1.3\%
-when NumChecker is invoked every 10 seconds. The benchmarks
-of file copy and system calls report more overhead than
-others. This is because NumChecker invokes and intercepts
-system calls. And writing the counted numbers to log files
-consumes system I/O resources. The variation in the execution
-time of a system call when different inputs are applied has
-negligible impact on the guest performance overhead.
+In  Malayalam , there are about 1200+ letters in the old dravidian
+Malayalam which was prominently.
+In 1956 a government order reduced the total plausible characters as
+120 to make it compatible with ASCII
+format.
 
-When a periodic sampling is performed, the guest performance
-overhead will increase. However, the periodic sampling
-is only run one time when a further identification is required,
-thus will not affect the runtime performance of a guest VM.
+in the current Malayalam alphabets there are not much characters.
+Yet there is no need for a domain transfer system in Malayalam all the Malayalam
+characters are mapped in Unicode format by Swanthanthra Malayalam
+community. So unlike in Japanese old and new
+letter mappings in unicode format are different while in Malayalam
+both have same unicode mapping.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=12cm]{throughput.png}
-\caption{Throughput degradation of a Fedora Core 4 guest when
-NumChecker is invoked every 5 and 10 seconds. }
-\end{figure}
+
 
 \chapter{Conclusion}
-\label {con}
-NumChecker, a VMM-based
-framework to detect and identify control-flow modifying kernel
-rootkits in guest VMs is presented. NumChecker performs the checking
-by validating the execution of system calls in the guest VM.
-The validation is based on the number of specified hardware
-events that occur during the execution of a guest system call.
-These hardware events are automatically counted by HPCs.A two-phase kernel rootkit detection and identification
-technique by leveraging HPCs is described. A prototype of NumChecker
-is implemented on Linux with the KVM virtualization environment,
-and the evaluation demonstrates its practicality and
-effectiveness.   
-   
+
+We believe the Kuzushiji datasets will not only serve as a benchmark
+to advance classificationalgorithms, but also contribute to more
+creative areas such as generative modelling, adversarialexamples,
+few-shot learning, transfer learning and domain adaptation. To foster
+community building,we plan to organize machine learning competitions
+using Kuzushiji datasets to encourage furtherdevelopment of these
+research areas. We are also working on expanding the size of the
+dataset, andby next year, the size of the full Kuzushiji dataset will
+expand to over a million character images. We hope these efforts will
+encourage further collaboration between different research fields and
+at the same time, help preserve the cultural knowledge and heritage of
+Japanese.
+
+We Explored the deep learning technique for classifying Classical
+Japanese, Kuzushiji and do the domain transfer to Contemporary
+Japanese Language and understood the various Kuzushiji datasets
+
+
+
+
+
 \begin{thebibliography}{999}
 \addcontentsline{toc}{chapter}{References}
 
 \bibitem{} 'Re-using Hardware Performance Counters to Detect
 and Identify Kernel Control-flow Modifying
-Rootkits' \\Xueyang Wang and  Ramesh Karri, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+Rootkits' \\Xueyang Wang and  Ramesh Karri, IEEE Transactions on
+Computer-Aided Design of Integrated Circuits and Systems
 \bibitem{} 'Stealthy Malware Detection Through VMM-Based
-“Out-of-the-Box” Semantic View Reconstruction' \\Xuxian Jiang, Xinyuan Wang and Dongyan Xu , IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+“Out-of-the-Box” Semantic View Reconstruction' \\Xuxian Jiang, Xinyuan
+Wang and Dongyan Xu , IEEE Transactions on Computer-Aided Design of
+Integrated Circuits and Systems
 
 \bibitem{}“Countering kernel rootkits
 with lightweight hook protection,” in Proceedings of the 16th ACM
-ConferenceZ. //Wang, X. Jiang, W. Cui, and P. Ning 
+ConferenceZ. //Wang, X. Jiang, W. Cui, and P. Ning
 
 \bibitem{}G. Hoglund and J. Butler, Rootkits: Subverting the windows kernel.
 Boston, USA: Addison Wesley
 
-\bibitem{}J. N. L. Petroni and M. Hicks, “Automated detection of persistent
-kernel control-flow attacks,” in Proceedings of 14th ACM Conference
-on Computer and Communications Security, Oct. 2007, pp. 103–115.
+\bibitem{} http://blog.otoro.net/2015/12/28/recurrent-net-dreams-up-fake-chinese-characters-in-vector-format-with-tensorflow/k
 
-\bibitem{}“Kstat - kernel security therapy anti-trolls,” [Online]: http://www.s0ftpj.
+\bibitem{}“Kstat - kernel security therapy anti-trolls,” [Online]:
+http://www.s0ftpj.
 org/en/tools.html
 \bibitem{}“Rkhunter,” [Online]: http://packetstormsecurity.org/files/44153/
 rkhunter-1.2.8.tar.gz.html.
+\bibitem{} "Graves paper Generating Sequences With Recurrent Neural
+Networks" https://arxiv.org/abs/1308.0850
+
 
 
 \end{thebibliography}
@@ -1479,6 +829,8 @@ rkhunter-1.2.8.tar.gz.html.
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Appendix}
 \setcounter{chapter}{-1}
-\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
-\chapter{Base Paper}% 
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+\chapter{Base Paper}%
+https://arxiv.org/pdf/1812.01718.pdf
 \end{document}
+
