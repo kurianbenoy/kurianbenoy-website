@@ -26,6 +26,8 @@ Kuzushiji Recognition.
 
 ## Introduction
 
+![Japan This place was so cool!](/img/japan.jpg "Philadelphia's Magic Gardens")
+
 Historically, Japan and it's culture had been isolated from the west for a long period of time. Untill the Meiji
 restoration in 1868, when a 15 year old emperor brought unity to whole of Japan which was earlier broken down into
 regional small rulers. This caused a massive change in Japanese Language, writing and printing system. Even though
@@ -105,7 +107,7 @@ get state of the art results for this competition.The current state of the art
 model which gives a better performance is **Resnet networks being
 ensembled over Capsule networks**.
 
-! insert image
+![Philadelphia's Magic Gardens. This place was so cool!](/img/paperbench.png "Philadelphia's Magic Gardens")
 
 According to paper we get 97.33% accuracy for dataset on using PreActResnet18 + manifold mixup and 98.9% accuracy for
 **Resnet Networks ensembed over Capsule Networks**. Let's take a closer look at both this architectures:
@@ -141,8 +143,6 @@ almost extinct language with usage of Machine Learning.
 ![Domain transfer architecture](/img/paperdomainarch.png "Philadelphia's Magic Gardens")
 
 ### Architecture of Domain Transfer
-
-P
 
 Input is converted to contempary language from the old Kuzushiji-KanjiVG format of 64x64px resolution format.
 We employ KanjiVG, a font for Modern Kanji in a stroke-ordered format. Variational Autoen-coders [14,18] provide a latent space for both Kuzushiji-Kanji and a pixel version of KanjiVG. A Sketch-RNN  model is then trained to generate Modern Kanji strokes, conditioned on the VAE’slatent space. Predicting pixel versions of Modern Kanji using a VAE also aids human transcribers as the blurry regions of the output can be interpreted as uncertain regions to focus on.
