@@ -1,15 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi, I am Kurian Benoy. I am currently a bachelors student at Govt. Model Engineering College. I am interested in
+computer science and an open source contributor. I was a FOSS OpenTechNights Winner and have attend International
+FOSSASIA SUmmit, Singapore, 2019. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
 
 ### my history
 
