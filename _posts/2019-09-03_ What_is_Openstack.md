@@ -1,3 +1,13 @@
+---
+title: What is the difference between Open stack and AWS EC2?
+author: Kurian Benoy
+type: post
+tags: 
+- AWS
+- Openstack
+- containers
+---
+
 Cloud computing is one of the buzz words of today. Today there are a lot of cloud operators in the market like Amazon, IBM, Google Cloud Platform and other associate technologies of each company like Amazon has EC2, ECS, CloudWatch, Lamda server and much more.
 
 Open stack is a free and open source platform for cloud computing. Open stack is an infrasturcture providing company where virtual servers, containers, bare metal are made available to customers. It controls controls large pools of compute, storage, and networking resources throughout a datacenter, all managed and provisioned through APIs with common authentication mechanisms. 
