@@ -1,7 +1,9 @@
 ---
 title: FOSSMEC Report(1/n)
 author: Kurian Benoy
-
+type: post
+tags:
+- FOSSMEC
 ---
 
 So in a land alien to me, I recieved this news about being a Chairman, FOSSMEC for the coming academeic year. Let me
