@@ -16,7 +16,7 @@ coming weeks.
 
 The various students who particpated in GSoC proposal review section and submitted a GSoC proposal for 2019 were:
 
-1st year - Pranav sridhar, Sandeep(didn't submit finally)
+1st year - Pranav sridhar, Sandeep(didn't submit proposals finally)
 2nd year - Arun Hari, Ashwin M Prabhu, Devdutt Shenoi. 
 3rd year - Kurian Benoy, Jithin James.
 
@@ -24,7 +24,7 @@ The various students who particpated in GSoC proposal review section and submitt
 Finally GSoC results came and [Ashwin M Prabhu](https://summerofcode.withgoogle.com/projects/#5444359158235136) got selected as a GSoC scholar from Moira organisation.
 
 **FOSS in 30 Days** was an awareness event conducted by FOSSMEC to learn the foundations of what is FOSS, it's core
-principles and applications. This event was co-ordinated by Sneha and various posters were designed by Priyankini,
+principles and applications. This event was co-ordinated by Sneha and various posters were designed by Priyangini,
 Ashwin G, Arun Hari, Devdutt, Joel, Nithin S(sorry if I have missed any names).
 
 
@@ -47,7 +47,7 @@ though there was no prize, there was active participation. It was amazing to hea
 learned by even finishing in the 10 th position for this challenge.
 
 **Orientation day** of FOSSMEC for first years was conducted on September 5, 2019. The session of how to prepare for GSoC
-was taken by Adarsh S and the GSoC scholars Ashwin G and Ashwin M Prabhu talked about their experience participating in 
+was taken by Adarsh S and the GSoC scholars Aswin G and Ashwin M Prabhu talked about their experience participating in 
 GSoC. Also Varun and Mohita talked about the how they got an amazing internship in first year itself. I would like to
 thank everyone from FOSSMEC team for making it a memorable day 140+ first years.
 
