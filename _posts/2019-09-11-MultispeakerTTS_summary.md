@@ -9,7 +9,6 @@ tags:
 ---
 ## Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis
 
-{% include readtime.html %}
 
 ## Introduction
 
