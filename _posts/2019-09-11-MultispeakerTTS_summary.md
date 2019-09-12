@@ -1,5 +1,5 @@
 ---
-title: Research paper- Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis
+title: Research paper Summary
 author: Kurian Benoy
 type: post
 tags:
@@ -7,6 +7,10 @@ tags:
 - Deep learning
 - Text To Speech Synthesis
 ---
+## Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis
+
+{% include readtime.html %}
+
 ## Introduction
 
 In this paper we discuss about neural network-based system for Text to Speech(TTS) synthesis that can generate speech
