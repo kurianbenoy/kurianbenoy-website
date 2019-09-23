@@ -46,7 +46,7 @@ that even though we trained the WaveNet vocoder with only 30 min-
 utes of Lombard speech, system S5 generated synthetic speech that
 was most Lombard-like among the systems compared.
 
-**COnclusion**
+**Conclusion**
 
 This paper compared different TTS models and vocoders to adapt
 the speaking style of speech synthesis from normal to Lombard.
