@@ -80,7 +80,38 @@ the utterance is reached
 
 **Adaption of Seq2Seq models**
 
+Using Adaption we are able to generate amamzing results that show models which generate
+synthetic speech of good quality using around
+30 minutes of data. In the present study, we first train a Seq2Seq-
+TTS system using a large amount of normal speech of one speaker
+and then fine-tune the learned model with normal speech of another
+speaker with limited data. Finally, using Lombard speech of the
+latter speaker, we fine-tune the model again to synthesize Lombard
+speech. We predict both mel-spectrograms and the World vocoder
+parameters as output acoustic frames. To render final speech wave-
+form, we employ both the WaveNet vocoder and the World vocoder.
+
+
 ### Experiments mentioned in the model
+
+TO experiment, the model used Blizzard Challenge 2011 speech corpus. This corpus contains utterances of 12000
+voices(which add upto 16 hours). The dataset contains voices of:
+a) Nancy (Normal)
+b) Nick (Normal)
+c) Nick(Lombard)
+
+We create five systems for this model experimentation
+The systems were different in terms of their output parameter types and the vocoder used. System S1 is the baseline system
+which uses a LSTM-type of recurrent neural network (RNN)- baseTTS system for adaptation, and synthesizes the speech waveform using the World vocoder. System S2 is built using the Seq2Seq-TTmodel, and the final waveform is rendered by the World vocodeSystems S3 and S4 have same architectures as systems S1 and S2respectively, but they use the WaveNet vocoder for synthesis. System S5 has the same architecture and vocoder as S4, but instead ousing the World vocoder parameters, it predicts the mel-spectrogram
+as the output.
+
+Two types of listening tests were conducted: 1) speaking style sim-
+ilarity test and 2) comparison category rating (CCR) test of speech
+naturalness. The goal of the similarity test is to assess whether the
+technology developed is capable of generating synthetic speech of
+different speaking styles (normal vs. Lombard) while the CCR test
+aims to evaluate how much the naturalness of speech is sacrificed
+when the speaking style is adapted. We used an evaluation setup
 
 
 
