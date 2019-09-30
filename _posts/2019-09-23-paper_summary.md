@@ -8,22 +8,19 @@ tags:
 - Adaption
 ---
 
-I am writing research paper in mind to build an advanced Text-to speech system for Malayalam, as a FOSS project for SMC.
+Please note: I am writing this research paper summaries in mind to build an advanced(State of the art) Text-to speech system for Malayalam, as a FOSS project for SMC.
 I would like to thank for all the help I have recieved from [Santhosh Thottingal](https://thottingal.in/), so far and
 suggesting me this project.
 
 **Abstract**:
 
-Currently, there are increasing interests in text-to-speech (TTS) syn-
-thesis to use sequence-to-sequence models with attention. However, in challenging speaking styles, like Lombard speech,
+Currently, there is an increasing interests in text-to-speech (TTS) synthesis to use sequence-to-sequence models with attention. However, in challenging speaking styles, like Lombard speech,
 which has higher intensity and fundamental frequency(F0) being large, cuurent approaches are not always efficent.
 In this study we
 propose a transfer learning method to adapt a sequence-to-sequence
 based TTS system of normal speaking style to Lombard style. More-
-over, we experiment with a WaveNet vocoder in synthesis of Lom-
-bard speech. We conducted subjective evaluations to assess the per-
-formance of the adapted TTS systems. The subjective evaluation re-
-sults indicated that an adaptation system with the WaveNet vocoder
+over, we experiment with a WaveNet vocoder in synthesis of Lombard speech. We conducted subjective evaluations to assess the per-
+formance of the adapted TTS systems. The subjective evaluation results indicated that an adaptation system with the WaveNet vocoder
 clearly outperformed the conventional deep neural network based
 TTS system in synthesis of Lombard speech.
 

@@ -23,8 +23,6 @@ generated for any speech on getting few seconds of untranscribed reference audio
 Here the approach is to decouple speaker modelling from speech synthesis by independently training a
 speaker-discriminative network that captures charteristics from small amount of speaker audio data.
 
-// talk about tacktron2, previous inventions, etc
-
 ## Multispeaker speach synthesis model
 
 Our system is composed of three independently trained neural networks:
