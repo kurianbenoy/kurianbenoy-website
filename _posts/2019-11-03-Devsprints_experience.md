@@ -52,5 +52,12 @@ Good lunch was served for the event! (really)
 
 We continued doing some actual work by afternoon. Installing development environment requirements in everyones laptop
 was a difficult especially with majority of laptops using windows. 
+- solved 2-3 PRS for newbie contributors
 
+
+After that one my way back to home with Abhijit. We had an amazing conversation regarding FOSS, security. As most of the
+secure stuff was not available
+- ditch gmail(forwarers etc)
+- remove unnecessary google maps
+- Fix other service, like mail client
 
