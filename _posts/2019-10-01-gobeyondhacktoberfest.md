@@ -1,4 +1,8 @@
-*How to go beyond Hacktoberfest?*
+---
+title: How to go beyond Hacktoberfest? 
+author: Kurian Benoy
+tags: ['Hacktoberfest',]
+---
 
 Lot of folks I know are Open source contributors because of one crazy reason, Hacktoberfest. It's perfectly okay to get a cool T-shirt shipped from America, grab swags and claim to be an Open source Developer.
 
