@@ -1,8 +1,11 @@
 ---
 title: First thoughts on Swift
+type: post
 author: Kurian Benoy
-tags: ['swift', 'Deep Learning']
-
+tags: 
+- Swift 
+- Deep Learning
+---
 
 According to Chris Lattner, swift is promised as an infinetely hackable language. I recently binge watched two lessons of FastAI part2 which covered about new language for Deep Learning. 
 
