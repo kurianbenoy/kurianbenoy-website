@@ -80,10 +80,7 @@ let os = Python.import("os")
 os.listdir()
 ```
 
-
->>>
-
-    ['.config', 'TutorialDatasetCSVAPI.swift', 'iris_training.csv', 'sample_data']
+['.config', 'TutorialDatasetCSVAPI.swift', 'iris_training.csv', 'sample_data']
 
 
 
@@ -99,25 +96,24 @@ for _ in 0..<10{
 f.close()
 ```
 
->>>
 
 
-    120,4,setosa,versicolor,virginica
-    6.4,2.8,5.6,2.2,2
-    5.0,2.3,3.3,1.0,1
-    4.9,2.5,4.5,1.7,2
-    4.9,3.1,1.5,0.1,0
-    5.7,3.8,1.7,0.3,0
-    4.4,3.2,1.3,0.2,0
-    5.4,3.4,1.5,0.4,0
-    6.9,3.1,5.1,2.3,2
-    6.7,3.1,4.4,1.4,1
-
-
+120,4,setosa,versicolor,virginica
+6.4,2.8,5.6,2.2,2
+5.0,2.3,3.3,1.0,1
+4.9,2.5,4.5,1.7,2
+4.9,3.1,1.5,0.1,0
+5.7,3.8,1.7,0.3,0
+4.4,3.2,1.3,0.2,0
+5.4,3.4,1.5,0.4,0
+6.9,3.1,5.1,2.3,2
+6.7,3.1,4.4,1.4,1
 
 
 
-    None
+
+
+None
 
 
 
@@ -144,11 +140,10 @@ print("Label: \(labelName)")
 print("Column names:\(columnNames)")
 
 ```
->>>
 
-    Features: ["sepal_length", "sepal_width", "petal_length", "petal_width"]
-    Label: species
-    Column names:["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
+Features: ["sepal_length", "sepal_width", "petal_length", "petal_width"]
+Label: species
+Column names:["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
 
 
 
@@ -195,49 +190,48 @@ print("First batch of features:\n \(firstTrainFeatures)")
 
 ```
 
->>>
-    First batch of features:
-     [[6.4, 2.8, 5.6, 2.2],
-     [5.0, 2.3, 3.3, 1.0],
-     [4.9, 2.5, 4.5, 1.7],
-     [4.9, 3.1, 1.5, 0.1],
-     [5.7, 3.8, 1.7, 0.3],
-     [4.4, 3.2, 1.3, 0.2],
-     [5.4, 3.4, 1.5, 0.4],
-     [6.9, 3.1, 5.1, 2.3],
-     [6.7, 3.1, 4.4, 1.4],
-     [5.1, 3.7, 1.5, 0.4],
-     [5.2, 2.7, 3.9, 1.4],
-     [6.9, 3.1, 4.9, 1.5],
-     [5.8, 4.0, 1.2, 0.2],
-     [5.4, 3.9, 1.7, 0.4],
-     [7.7, 3.8, 6.7, 2.2],
-     [6.3, 3.3, 4.7, 1.6],
-     [6.8, 3.2, 5.9, 2.3],
-     [7.6, 3.0, 6.6, 2.1],
-     [6.4, 3.2, 5.3, 2.3],
-     [5.7, 4.4, 1.5, 0.4],
-     [6.7, 3.3, 5.7, 2.1],
-     [6.4, 2.8, 5.6, 2.1],
-     [5.4, 3.9, 1.3, 0.4],
-     [6.1, 2.6, 5.6, 1.4],
-     [7.2, 3.0, 5.8, 1.6],
-     [5.2, 3.5, 1.5, 0.2],
-     [5.8, 2.6, 4.0, 1.2],
-     [5.9, 3.0, 5.1, 1.8],
-     [5.4, 3.0, 4.5, 1.5],
-     [6.7, 3.0, 5.0, 1.7],
-     [6.3, 2.3, 4.4, 1.3],
-     [5.1, 2.5, 3.0, 1.1]]
+
+First batch of features:
+[[6.4, 2.8, 5.6, 2.2],
+[5.0, 2.3, 3.3, 1.0],
+[4.9, 2.5, 4.5, 1.7],
+[4.9, 3.1, 1.5, 0.1],
+[5.7, 3.8, 1.7, 0.3],
+[4.4, 3.2, 1.3, 0.2],
+[5.4, 3.4, 1.5, 0.4],
+[6.9, 3.1, 5.1, 2.3],
+[6.7, 3.1, 4.4, 1.4],
+[5.1, 3.7, 1.5, 0.4],
+[5.2, 2.7, 3.9, 1.4],
+[6.9, 3.1, 4.9, 1.5],
+[5.8, 4.0, 1.2, 0.2],
+[5.4, 3.9, 1.7, 0.4],
+[7.7, 3.8, 6.7, 2.2],
+[6.3, 3.3, 4.7, 1.6],
+[6.8, 3.2, 5.9, 2.3],
+[7.6, 3.0, 6.6, 2.1],
+[6.4, 3.2, 5.3, 2.3],
+[5.7, 4.4, 1.5, 0.4],
+[6.7, 3.3, 5.7, 2.1],
+[6.4, 2.8, 5.6, 2.1],
+[5.4, 3.9, 1.3, 0.4],
+[6.1, 2.6, 5.6, 1.4],
+[7.2, 3.0, 5.8, 1.6],
+[5.2, 3.5, 1.5, 0.2],
+[5.8, 2.6, 4.0, 1.2],
+[5.9, 3.0, 5.1, 1.8],
+[5.4, 3.0, 4.5, 1.5],
+[6.7, 3.0, 5.0, 1.7],
+[6.3, 2.3, 4.4, 1.3],
+[5.1, 2.5, 3.0, 1.1]]
 
 
 
 ```
 print("First batch of labels: \(firstTrainLabels)")
 ```
->>>
 
-    First batch of labels: [2, 1, 2, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 2, 1, 2, 2, 2, 0, 2, 2, 0, 2, 2, 0, 1, 2, 1, 1, 1, 1]
+First batch of labels: [2, 1, 2, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 2, 1, 2, 2, 2, 0, 2, 2, 0, 2, 2, 0, 1, 2, 1, 1, 1, 1]
 
 
 
@@ -284,14 +278,11 @@ firstTrainPredictions[0..<5]
 
 ```
 
->>>
-
-
-    [[ 0.21581106,  -0.4621974,  0.25179374],
-     [ 0.03792523,  -0.6189664, 0.014299346],
-     [ 0.13903831, -0.29850948,   0.1627174],
-     [ -0.2161826, -0.80433285,  -0.2289076],
-     [ -0.2677291,  -0.8302074, -0.26013878]]
+[[ 0.21581106,  -0.4621974,  0.25179374],
+ [ 0.03792523,  -0.6189664, 0.014299346],
+ [ 0.13903831, -0.29850948,   0.1627174],
+ [ -0.2161826, -0.80433285,  -0.2289076],
+ [ -0.2677291,  -0.8302074, -0.26013878]]
 
 
 
@@ -302,15 +293,14 @@ softmax(firstTrainPredictions[0..<5])
 
 ```
 
->>>
 
 
 
-    [[0.39304087, 0.19951813, 0.40744105],
-     [ 0.4007837, 0.20779046,  0.3914258],
-     [0.37459084, 0.24184248, 0.38356668],
-     [0.39328128, 0.21841016,  0.3883085],
-     [ 0.3879857, 0.22107239, 0.39094183]]
+[[0.39304087, 0.19951813, 0.40744105],
+ [ 0.4007837, 0.20779046,  0.3914258],
+ [0.37459084, 0.24184248, 0.38356668],
+ [0.39328128, 0.21841016,  0.3883085],
+ [ 0.3879857, 0.22107239, 0.39094183]]
 
 
 
@@ -321,10 +311,10 @@ print("Prediction: \(firstTrainPredictions.argmax(squeezingAxis: 1))")
 print("    Labels: \(firstTrainLabels)")
 
 ```
->>>
 
-    Prediction: [2, 0, 2, 0, 2, 2, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 0, 0, 0]
-        Labels: [2, 1, 2, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 2, 1, 2, 2, 2, 0, 2, 2, 0, 2, 2, 0, 1, 2, 1, 1, 1, 1]
+
+Prediction: [2, 0, 2, 0, 2, 2, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 0, 0, 0]
+Labels: [2, 1, 2, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 2, 1, 2, 2, 2, 0, 2, 2, 0, 2, 2, 0, 1, 2, 1, 1, 1, 1]
 
 
 
@@ -334,9 +324,9 @@ let untrainedLoss = softmaxCrossEntropy(logits: untrainedLogits, labels: firstTr
 print("Loss test: \(untrainedLoss)")
 
 ```
->>>
 
-    Loss test: 1.147685
+
+Loss test: 1.147685
 
 
 
@@ -349,9 +339,8 @@ let (loss, grads) = model.valueWithGradient { model -> Tensor<Float> in
 print("Current loss: \(loss)")
 
 ```
->>>
 
-    Current loss: 1.147685
+Current loss: 1.147685
 
 
 
@@ -367,10 +356,9 @@ let lossAfterOneStep = softmaxCrossEntropy(logits: logitsAfterOneStep, labels: f
 print("Next loss: \(lossAfterOneStep)")
 
 ```
->>>
 
-    Next loss: 1.1295123
 
+Next loss: 1.1295123
 
 
 ```
@@ -418,18 +406,18 @@ for epoch in 1...epochCount {
 }
 
 ```
->>>
 
-    Epoch 50: Loss: 0.6417311, Accuracy: 0.6640625
-    Epoch 100: Loss: 0.4391577, Accuracy: 0.9661458
-    Epoch 150: Loss: 0.33583364, Accuracy: 0.9661458
-    Epoch 200: Loss: 0.2520119, Accuracy: 0.9635417
-    Epoch 250: Loss: 0.19547871, Accuracy: 0.9635417
-    Epoch 300: Loss: 0.16002558, Accuracy: 0.9557292
-    Epoch 350: Loss: 0.13793558, Accuracy: 0.9661458
-    Epoch 400: Loss: 0.123241246, Accuracy: 0.9739583
-    Epoch 450: Loss: 0.1116381, Accuracy: 0.9739583
-    Epoch 500: Loss: 0.104046196, Accuracy: 0.9817708
+
+Epoch 50: Loss: 0.6417311, Accuracy: 0.6640625
+Epoch 100: Loss: 0.4391577, Accuracy: 0.9661458
+Epoch 150: Loss: 0.33583364, Accuracy: 0.9661458
+Epoch 200: Loss: 0.2520119, Accuracy: 0.9635417
+Epoch 250: Loss: 0.19547871, Accuracy: 0.9635417
+Epoch 300: Loss: 0.16002558, Accuracy: 0.9557292
+Epoch 350: Loss: 0.13793558, Accuracy: 0.9661458
+Epoch 400: Loss: 0.123241246, Accuracy: 0.9739583
+Epoch 450: Loss: 0.1116381, Accuracy: 0.9739583
+Epoch 500: Loss: 0.104046196, Accuracy: 0.9817708
 
 
 
@@ -452,6 +440,7 @@ plt.show()
 <img src="Swift4TF___iris_dataset_files/Swift4TF___iris_dataset_32_0.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+     
 ![png](Swift4TF___iris_dataset_files/Swift4TF___iris_dataset_32_0.png)
 
 
@@ -484,7 +473,7 @@ for testBatch in testDataset {
 
 ```
 
-    Test batch accuracy: 0.96666664
+Test batch accuracy: 0.96666664
 
 
 
@@ -498,8 +487,9 @@ print(firstTestBatch.labels)
 
 ```
 
-    [1, 2, 0, 1, 1, 1, 0, 1, 1, 2, 2, 0, 2, 1, 1, 0, 1, 0, 0, 2, 0, 1, 2, 1, 1, 1, 0, 1, 2, 1]
-    [1, 2, 0, 1, 1, 1, 0, 2, 1, 2, 2, 0, 2, 1, 1, 0, 1, 0, 0, 2, 0, 1, 2, 1, 1, 1, 0, 1, 2, 1]
+[1, 2, 0, 1, 1, 1, 0, 1, 1, 2, 2, 0, 2, 1, 1, 0, 1, 0, 0, 2, 0, 1, 2, 1, 1, 1, 0, 1, 2, 1]
+
+[1, 2, 0, 1, 1, 1, 0, 2, 1, 2, 2, 0, 2, 1, 1, 0, 1, 0, 0, 2, 0, 1, 2, 1, 1, 1, 0, 1, 2, 1]
 
 
 
@@ -519,9 +509,11 @@ for i in 0..<unlabeledDatasetPredictions.shape[0] {
 
 ```
 
-    Example 0 prediction: Iris setosa ([      0.99242,  0.0075798077, 1.0206181e-07])
-    Example 1 prediction: Iris versicolor ([0.0015674275,    0.9790035,  0.019429056])
-    Example 2 prediction: Iris virginica ([0.0024372158,    0.2561954,   0.74136734])
+Example 0 prediction: Iris setosa ([      0.99242,  0.0075798077, 1.0206181e-07])
+
+Example 1 prediction: Iris versicolor ([0.0015674275,    0.9790035,  0.019429056])
+
+Example 2 prediction: Iris virginica ([0.0024372158,    0.2561954,   0.74136734])
 
 
 So this example showed how we can train a Classification of IRIS flowers. Training a neural network in Swift is a bit
