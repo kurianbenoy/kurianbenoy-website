@@ -30,9 +30,7 @@ I am quoting the exact wordings for Swift 4 tensorflow project on type of users 
 ## Importing library and downloading data
 
 In above tutorial, going to do a Model training of Iris 10 dataset to identify from the given image which class of Iris
-
-flower is it part of. Most of code is from
-[here](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough).
+flower is it part of. Most of code is from [here](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough).
 
 
 ```
