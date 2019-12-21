@@ -1,5 +1,8 @@
+---
+title: First thoughts on Swift
+author: Kurian Benoy
+tags: ['swift', 'Deep Learning']
 
-## Swift 4 Tensorflow
 
 According to Chris Lattner, swift is promised as an infinetely hackable language. I recently binge watched two lessons of FastAI part2 which covered about new language for Deep Learning. 
 
@@ -9,13 +12,24 @@ According to Chris Lattner, swift is promised as an infinetely hackable language
 
 Jeremy Horwards and Sylvian rewrote the entire lessons taught in Part2(Foundations of Deep Learning) in Swift. This notebook can be found in the [course repo](https://github.com/fastai/course-v3/tree/master/nbs/swift).
 
+My first impression after watching these lessons are that swift is an amazing language and in the near future it has a
+potential to capture the entire Machine Learning Landscape of Programming Languages like Python and R. It promises to go 
+underneath the current barriers of exsisting languages, make Differentiable programming possible.
+
+I am quoting the exact wordings for Swift 4 tensorflow project on type of users its expecting currently:
+
+> 1.  **Advanced ML researchers** who are limited by current ML frameworks. Swift for TensorFlow's advantages include seamless integration with a modern general-purpose language, allowing for more dynamic and sophisticated models. Fast abstractions can be developed in "user-space" (as opposed to in C/C++, aka "framework-space"), resulting in modular APIs that can be easily customized.
+
+> 2. **ML learners** who are just getting started with machine learning. Thanks to Swift's support for quality tooling (e.g. context-aware autocompletion), Swift for TensorFlow can be one of the most productive ways to start learning the fundamentals of machine learning.
 
 
-https://www.tensorflow.org/swift/tutorials/model_training_walkthrough
 
 ## Importing library and downloading data
 
-In above tutorial, going to do a Model training of Iris 10 dataset
+In above tutorial, going to do a Model training of Iris 10 dataset to identify from the given image which class of Iris
+
+flower is it part of. Most of code is from
+[here](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough).
 
 
 ```
@@ -64,7 +78,7 @@ os.listdir()
 ```
 
 
-
+>>>
 
     ['.config', 'TutorialDatasetCSVAPI.swift', 'iris_training.csv', 'sample_data']
 
@@ -81,6 +95,9 @@ for _ in 0..<10{
 }
 f.close()
 ```
+
+>>>
+
 
     120,4,setosa,versicolor,virginica
     6.4,2.8,5.6,2.2,2
@@ -124,6 +141,7 @@ print("Label: \(labelName)")
 print("Column names:\(columnNames)")
 
 ```
+>>>
 
     Features: ["sepal_length", "sepal_width", "petal_length", "petal_width"]
     Label: species
@@ -174,6 +192,7 @@ print("First batch of features:\n \(firstTrainFeatures)")
 
 ```
 
+>>>
     First batch of features:
      [[6.4, 2.8, 5.6, 2.2],
      [5.0, 2.3, 3.3, 1.0],
@@ -213,6 +232,7 @@ print("First batch of features:\n \(firstTrainFeatures)")
 ```
 print("First batch of labels: \(firstTrainLabels)")
 ```
+>>>
 
     First batch of labels: [2, 1, 2, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 2, 1, 2, 2, 2, 0, 2, 2, 0, 2, 2, 0, 1, 2, 1, 1, 1, 1]
 
@@ -261,7 +281,7 @@ firstTrainPredictions[0..<5]
 
 ```
 
-
+>>>
 
 
     [[ 0.21581106,  -0.4621974,  0.25179374],
@@ -279,6 +299,7 @@ softmax(firstTrainPredictions[0..<5])
 
 ```
 
+>>>
 
 
 
@@ -297,6 +318,7 @@ print("Prediction: \(firstTrainPredictions.argmax(squeezingAxis: 1))")
 print("    Labels: \(firstTrainLabels)")
 
 ```
+>>>
 
     Prediction: [2, 0, 2, 0, 2, 2, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 0, 0, 0]
         Labels: [2, 1, 2, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 2, 1, 2, 2, 2, 0, 2, 2, 0, 2, 2, 0, 1, 2, 1, 1, 1, 1]
@@ -309,6 +331,7 @@ let untrainedLoss = softmaxCrossEntropy(logits: untrainedLogits, labels: firstTr
 print("Loss test: \(untrainedLoss)")
 
 ```
+>>>
 
     Loss test: 1.147685
 
@@ -316,11 +339,6 @@ print("Loss test: \(untrainedLoss)")
 
 ```
 let optimizer = SGD(for: model, learningRate: 0.01)
-
-```
-
-
-```
 let (loss, grads) = model.valueWithGradient { model -> Tensor<Float> in
     let logits = model(firstTrainFeatures)
     return softmaxCrossEntropy(logits: logits, labels: firstTrainLabels)
@@ -328,6 +346,7 @@ let (loss, grads) = model.valueWithGradient { model -> Tensor<Float> in
 print("Current loss: \(loss)")
 
 ```
+>>>
 
     Current loss: 1.147685
 
@@ -345,6 +364,7 @@ let lossAfterOneStep = softmaxCrossEntropy(logits: logitsAfterOneStep, labels: f
 print("Next loss: \(lossAfterOneStep)")
 
 ```
+>>>
 
     Next loss: 1.1295123
 
@@ -395,6 +415,7 @@ for epoch in 1...epochCount {
 }
 
 ```
+>>>
 
     Epoch 50: Loss: 0.6417311, Accuracy: 0.6640625
     Epoch 100: Loss: 0.4391577, Accuracy: 0.9661458
@@ -425,14 +446,10 @@ plt.show()
 
 ```
 
-
+<img src="Swift4TF___iris_dataset_files/Swift4TF___iris_dataset_32_0.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 ![png](Swift4TF___iris_dataset_files/Swift4TF___iris_dataset_32_0.png)
-
-
-
-
-
-    None
 
 
 
@@ -509,3 +526,10 @@ harder at the first insight than Python.
 
 But as **Chris Lattner** said, the promise of Swift having a infinitely hackable language is just wonderful in my
 opinion.
+
+## Ending Notes on Swift
+
+- The swift syntax is a bit blocker to develop anything now for me. CamelCase is such a nice good thing
+- Yet It’s so rich. But but hard for understanding the syntax.
+- Thinks like Protocol, struct are not so intuitive after coming from Python background. Yet maybe people who come from Java background
+- If you get your hands wet with iOS development you will learn how much those features are useful.
