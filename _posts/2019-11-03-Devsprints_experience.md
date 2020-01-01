@@ -4,10 +4,7 @@ author: Kurian Benoy
 tags: ['beginner', 'community']
 ---
 
-- talk about event orgs
-- Introduction of hacking
-- DVC mentoring experience
-- Fun activites were cancelled
+
 
 Devsprints is an event unlike in Hackathon, you start working in established projects which are usally FOSS/Open source.
 @MEC our Devsprints was planned to be a one day event on November 3, even though we would have loved to make the event
