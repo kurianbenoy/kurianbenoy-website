@@ -1,3 +1,9 @@
+---
+layout: post
+title: Attending an Aws meetup
+author: kurianbenoy
+---
+
 I recently attended AWS re: Invent reCap organised by AWS User Group Kochi. One of the exciting announcements during the program was about AWS Inferentia chips which is being developed by Annapurna Labs(which unlike it's name is an Israel based company).
 
 
@@ -16,3 +22,5 @@ Right now Amazon EC2 Inf1 is already being used by Alexa team to considerably re
 
 
 #machinelearning #aws #datascience #reinvent2019
+
+Got some AWS goodies and got connected with AWS speaker Sumanth Debnath

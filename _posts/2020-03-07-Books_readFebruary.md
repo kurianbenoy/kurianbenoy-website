@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Books- January and February
 author: kurianbenoy
 ---
@@ -37,3 +38,7 @@ christanity in this book.
 - Fluent Python
 - Swift in Depth
 - A no excuse guide to blogging
+- Permanent Record, Snowden
+
+This format is inspired from Jishnu's blog. Thanks for reading
+
