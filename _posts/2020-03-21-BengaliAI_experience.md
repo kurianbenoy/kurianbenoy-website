@@ -2,6 +2,7 @@
 layout: post
 title: Bengali AI Competition Experience
 author: kurianbenoy
+---
 
 Thanks to Kaggle and Bengali AI for organising this competition. I would like to congratulate all the winners of this competition.
 
