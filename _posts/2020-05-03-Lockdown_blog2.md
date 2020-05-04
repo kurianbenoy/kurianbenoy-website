@@ -3,7 +3,7 @@ title: Day 2, Assignments, Beef and Kaggle
 type: post
 ---
 
-**Beef** is like one of best food items's which everyone in my family buys, and after 2 weeks of Easter, we finally
+**ബീഫ്** is like one of best food items's which everyone in my family buys, and after 2 weeks of Easter, we finally
 bought it. The curry and Kappa biryani which my Amma cooked was so awesome and it made my day.
 
 
