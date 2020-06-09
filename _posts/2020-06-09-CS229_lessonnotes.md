@@ -3,6 +3,9 @@ title: CS229 - Lesson Notes
 type: post
 ---
 
+> This is just a post for myself to write notes while watching videos, so it may contain lot
+of typos and some mistakes. 
+
 Pre-requisities:
 
 - Understanding basic programming
