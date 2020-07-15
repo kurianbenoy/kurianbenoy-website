@@ -1,6 +1,7 @@
 ---
 title: Books read in 2020
 type: post
+author: kurianbenoy
 ---
 
 The books I have read so far in 2020 are:
