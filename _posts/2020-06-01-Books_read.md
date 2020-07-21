@@ -13,8 +13,9 @@ The books I have read so far in 2020 are:
 5. The 7 habits of highly effective people - Stephen R. Covey
 6. Six days of War
 7. No Exuse guide to blogging
+8. Keralism by Santhosh George
 
 Books currently reading:
 - Python tricks
-- Keralism by Santhosh George
+- Approaching almost an machine learning problem(Abhishek thakur)
 - Cracking the Coding Interviews
