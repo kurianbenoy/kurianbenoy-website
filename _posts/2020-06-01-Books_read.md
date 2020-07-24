@@ -14,8 +14,9 @@ The books I have read so far in 2020 are:
 6. Six days of War
 7. No Exuse guide to blogging
 8. Keralism by Santhosh George
+9. ബാൾടിക് ഡയറി
 
 Books currently reading:
-- Python tricks
-- Approaching almost an machine learning problem(Abhishek thakur)
+- Python tricks(currently on 6th chapter of Beautiful Iterators)
+- Approaching almost an machine learning problem(on evaluation metric)
 - Cracking the Coding Interviews
