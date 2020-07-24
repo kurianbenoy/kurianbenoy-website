@@ -13,7 +13,7 @@ The books I have read so far in 2020 are:
 5. The 7 habits of highly effective people - Stephen R. Covey
 6. Six days of War
 7. No Exuse guide to blogging
-8. Keralism by Santhosh George
+8.  കേരളയിസംby  Santhosh George
 9. ബാൾടിക് ഡയറി
 
 Books currently reading:
