@@ -7,40 +7,25 @@ My new year resolution is to work more harder and be more organised. In this pos
 my goals for new year.
 
 
-** Particpate in 3 Kaggle competitions and write more kernels
+1. Particpate in 3 Kaggle competitions and write more kernels. Get 2 medals
 
-** Become a Kaggle 1x master, 4x Kaggle Expert, participate in 5 competitions actively
+2. Become a Kaggle 1x master, 4x Kaggle Expert, participate in 5 competitions actively
 
-** Strengthen the fundamental knowledge of CS subjects
+3. Strengthen the fundamental knowledge of CS subjects
 
-** Read 12 books(mainly technical)
+4. Read 12 books - 7 technical books
 
-** Complete reading Cracking CTCI, Read EPI
+5. Complete reading Cracking CTCI, Read EPI
 
-** complete euler 100 challenge
+6. complete euler 100 challenge(Python, Swift)
 
-** Complete making Malayalam text-to-speech system
+7. Complete making Malayalam text-to-speech system
 
-** Write two research papers
+8. Write two research papers
 
-** Speak in two conferences and conduct a ML study group
-
-** Read some self help books
-
-** Get selected for GSoC 2020
+9. Speak in two conferences and conduct a ML study group
 
 
-Some of things which I have achieved in the past 6 months are:
-
-** Became a Kaggle expert in Kernels
-
-** Contributed to open source through DVC and conducted two dev-sprints
-
-** Gave a talk in Pycon India 2019, about ML models and dataset versioning
-
-** Practised lot of technical problems
-
-** Got first job offer from Gadgeon
 
 
 **Showerthoughts**
