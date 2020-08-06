@@ -12,11 +12,14 @@ The books I have read so far in 2020 are:
 4. Confessions - Leo Tolstoy
 5. The 7 habits of highly effective people - Stephen R. Covey
 6. Six days of War
-7. No Exuse guide to blogging
+7. No Exuse guide to blPythgging
 8.  കേരളയിസംby  Santhosh George
 9. ബാൾടിക് ഡയറി
+10. Python Trick - Dan Bader
+11. Mind Master - Vishy Anand
+12. Surely you're joking - Richard Feyman
+13. ML engineering rules
 
 Books currently reading:
-- Python tricks(currently on 6th chapter of Beautiful Iterators)
 - Approaching almost an machine learning problem(on evaluation metric)
 - Cracking the Coding Interviews
