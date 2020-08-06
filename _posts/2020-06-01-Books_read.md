@@ -23,3 +23,5 @@ The books I have read so far in 2020 are:
 Books currently reading:
 - Approaching almost an machine learning problem(on evaluation metric)
 - Cracking the Coding Interviews
+- Atomic Habits
+- DL4CV starter pack
