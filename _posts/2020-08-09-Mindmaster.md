@@ -1,13 +1,18 @@
 ---
-title: Noteble quotes from Mind master - Vishwanathan Anand
+title: Noteble quotes from Mind master - Viswanathan Anand 
 type: post
 author: kurianbenoy
 ---
 
-Hello all, I am back with a few noteble quotes from Mind Master by Vishwanathan Anand. I am not an
-expert in chess, and just know some of the basic moves. For me the best thing in this book was how
-a 5 time world champion approaches games, state of AI in chess, pure inspiration material was available in 
-this book.
+Hello all, I am back with a few noteble quotes from Mind Master by Viswanathan Anand. I am not an
+expert in chess, and just know some of the basic moves. I recently picked up chess, after seeing Pranav Sridhar and Joel
+playing chess after Inout Hackathon, Bangalore - 2019. The only chess player most of Indians know is Viswanathan Anand and
+maybe Magnus Carlsen too after bitter 2013 World Championship loss in Chennai.
+
+This book is not merely a chess book. According to me the best thing in this book was how
+a 5 time world champion approaches games and his winning mentality. He talks about state of AI in chess, attitude needed
+for any winners in any field, how to grab your advantage and lot of life advices are there. I am sharing a few
+intersting parts in this book
 
 
 > The way I see it, talent is a lot like a plant. When it’s watered with hard
@@ -22,7 +27,7 @@ peak.
 
 ```
 State of AI in chess:
-- Gary Kasprov moment when IBM computer beat him was not key
+- Gary Kasprov moment when IBM computer beat him was not a  key advancement
 - More opportunities to learn and get itself used
 - Understand the potential moves, like vishy did in 2007 chess tournament
 - Adapting to change
@@ -72,15 +77,15 @@ from a volcanic ash cloud and the disruption of travel plans to the
 rumours of the ‘super’ weapon in the opponent’s hands – with minimum
 fuss and maximum practicability.
 
-(so true, it's at the end of the day effort only matters ...)
+(So true, So true ...)
 
-Resilience is the only answer to adversity. When tough situations arise –
+> Resilience is the only answer to adversity. When tough situations arise –
 and they sometimes arrive like a hailstorm – your primary focus should
 be on accepting that although it is not the way you would want things to
 be, it is what you have to deal with, and then tackle it with practicality.
 It’s also important to remember that no matter what you’re up against.
 
-Some degree of visualization at the emotional level might reduce this
+> Some degree of visualization at the emotional level might reduce this
 feeling of hopelessness. For instance, in difficult times, some people like
 to focus on life events or situations that are pleasant. They think about
 winning, climbing on to a podium, picture themselves with a medal
@@ -106,8 +111,6 @@ lowest point, they will offer a handy start to hitting the road to recovery.
 
 
 Hope this pieces from the book which I jotted down when I was reading the book will be helpful for you
-in whatever pursuits you are aiming for. 
-
-I am planning to be consistently write a blogpost a week. See you then.
+in whatever pursuits you are aiming for. I am planning to be consistently write a blogpost every week. 
 
 `:wq`
