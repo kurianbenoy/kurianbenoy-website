@@ -5,7 +5,7 @@ author: kurianbenoy
 ---
 
 Hello all, I am back with a few noteble quotes from Mind Master by Viswanathan Anand. I am not an
-expert in chess, and just know some of the basic moves. I recently picked up chess, after seeing Pranav Sridhar and Joel
+expert in chess, and just know some of the basic moves. I recently picked up chess, after seeing Pranav Shridhar and Joel
 playing chess after Inout Hackathon, Bangalore - 2019. The only chess player most of Indians know is Viswanathan Anand and
 maybe Magnus Carlsen too after bitter 2013 World Championship loss in Chennai.
 
