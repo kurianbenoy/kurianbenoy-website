@@ -27,12 +27,12 @@ peak.
 
 ```
 State of AI in chess:
-- Gary Kasprov moment when IBM computer beat him was not a  key advancement
-- More opportunities to learn and get itself used
-- Understand the potential moves, like vishy did in 2007 chess tournament
-- Adapting to change
-- Practise moves which required like weeks of preparation by team for four can be done by computer in
-like 20 minutes
+- Gary Kasprov moment when IBM computers beat was not a key advancement.
+- There are more opportunities to learn and get itself used in the board.
+- Understand the potential moves, like vishy did in 2007 World chess championship.
+- Adapting to change is necessary.
+- Practise moves which required like weeks of preparation by team for four in 1990s can be done
+by computer in like few  minutes.
 ```
 
 > In any situation in life, being adaptable is the only way to grow and
