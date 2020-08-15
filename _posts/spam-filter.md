@@ -1,5 +1,5 @@
 ---
-title: Building a spam classifier
+title: Things I didn't thought when making a spam classifier
 type: post
 author: kurianbenoy
 ---
@@ -8,6 +8,7 @@ author: kurianbenoy
 collect data, how do you decide words which are spam, then talk about modelling part. Deploying the application etc.
 
 
+// lot more things to learn before build a classifier
 talk about bloom filter
 => It basically a DB with hashing. You hash the input keys and if there is a collision, store the result in a DB
 
