@@ -35,4 +35,6 @@ of prodigies from people like Adarsh S, Jithin, Shahul, Joel, Anusree, Meenakshi
 many more. The person with whom I have travelled most is obiviously Joel, he is a chill
 and one of the best person I have met ever.
 
-
+College is not about academics, it's about the peer group in the college. Once you go to college it enlarges your
+dreams, creates new friends, makes you travel to places where you could never imagine before you actually reach there.
+Academics and attendance are not always necessary
