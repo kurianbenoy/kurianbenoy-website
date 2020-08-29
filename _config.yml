@@ -35,6 +35,8 @@ avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
+readtime: true
+head-extra: ehead.html
 
 # --- Footer options --- #
 
