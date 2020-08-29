@@ -1,7 +1,8 @@
 ---
+layout: post
 title: Noteble quotes from Mind master - Viswanathan Anand 
-type: post
 author: kurianbenoy
+tags: [books, test]
 ---
 
 Hello all, I am back with a few noteble quotes from Mind Master by Viswanathan Anand. I am not an
