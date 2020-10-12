@@ -2,7 +2,7 @@
 layout: post
 title: Noteble quotes from Mind master - Viswanathan Anand 
 author: kurianbenoy
-tags: [books, test]
+tags: [books]
 readtime: true
 ---
 
