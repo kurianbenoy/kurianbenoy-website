@@ -19,12 +19,15 @@ The books I have read so far in 2020 are:
 11. Mind Master - Vishy Anand
 12. Surely you're joking - Richard Feyman
 13. ML engineering rules
+14. Rich Dad Poor Dad
+15. Approaching almost an machine learning problem
 
 Books currently reading:
-- Approaching almost an machine learning problem(on evaluation metric)
-- Atomic Habits
-- DL4CV starter pack
+
+- High performance python programming
 
 On the shelf:
 
 - Cracking the coding interview
+- Atomic Habits
+- DL4CV starter pack
