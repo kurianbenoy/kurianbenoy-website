@@ -2,6 +2,7 @@
 title: My Visual Studio Setup 
 type: post
 tags: [coding, life]
+readtime: true
 ---
 
 It's 1PM in the morning, and I am about to call it for the night. I realize if I don't write this piece, it's never going 
