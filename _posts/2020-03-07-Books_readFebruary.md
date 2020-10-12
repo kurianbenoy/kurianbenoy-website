@@ -2,6 +2,8 @@
 layout: post
 title: Books- January and February
 author: kurianbenoy
+tags: [books]
+readtime: true
 ---
 
 ## The 7 habits of highly effective people - Stephen R. Covey
