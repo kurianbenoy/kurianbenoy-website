@@ -9,8 +9,8 @@ It's 1PM in the morning, and I am about to call it for the night. I realize if I
 to be in my blog ever. We all know Inspiration dies!
 
 I have used a lot of Editors from trying out Atom, sublime text, then moving away from these IDEs to text based terminal based
-IDEs in linux like first vim, then to emacs world, then back again to VIM. Yet when writing code, I felt I was missing something
-which is very important. That's when I turned to visual studio code. So far it's great and I am planning to continue only using 
+IDEs in linux like first vim, then to emacs world, then back again to VIM. Yet when writing code, I felt I was missing code completion which is something
+very important. That's when I turned to visual studio code. So far my usage experience is so far great and I am planning to continue only using 
 VSCODE for atleast the next 6 months.
 
 My current VSCode setup looks like this:
@@ -25,7 +25,7 @@ I use a **Default Light** colour scheme. I use the following extensions to make 
 - YAML
 - Anaconda extension pack(cause I now use conda as my package manager)
 
-I always love to have my line highlighted with settings change:
+I always love to have my line highlighted with the below settings change:
 
 ```
     "workbench.colorCustomizations": {
