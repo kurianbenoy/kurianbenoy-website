@@ -5,7 +5,7 @@ tags: [coding, life]
 readtime: true
 ---
 
-It's 1PM in the morning, and I am about to call it for the night. I realize if I don't write this piece, it's never going 
+It's 1AM in the morning, and I am about to call it for the night. I realize if I don't write this piece, it's never going 
 to be in my blog ever. We all know Inspiration dies!
 
 I have used a lot of Editors from trying out Atom, sublime text, then moving away from these IDEs to text based terminal based
