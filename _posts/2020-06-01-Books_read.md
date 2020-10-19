@@ -22,11 +22,12 @@ The books I have read so far in 2020 are:
 12. Surely you're joking - Richard Feyman
 13. ML engineering rules
 14. Rich Dad Poor Dad
-15. Approaching almost an machine learning problem
+15. Approaching almost any machine learning problem - Abhishek Thakur
 
 Books currently reading:
 
 - High performance python programming
+- Deep Work
 
 On the shelf:
 
