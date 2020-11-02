@@ -16,8 +16,9 @@ Check my Github Portfolio- https://github.com/kurianbenoy
 Check my Kaggle Portfolio- https://kaggle.com/kurianbenoy
 
 Connect with me:
-• Twitter handle - https://twitter.com/kurianbenoy2
+
+* Twitter handle - https://twitter.com/kurianbenoy2
 
 * Email - kurian.bkk@gmail.com
 
-• Website - https://kurianbenoy.github.io/
+* Website - https://kurianbenoy.github.io/
