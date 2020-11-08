@@ -1,7 +1,3 @@
----
-title: My weight loss journey 
----
-
 - tell why I started?
 - exercising
 - food control(vellanty plan)
