@@ -1,20 +1,19 @@
 ---
 layout: post
-title: Noteble quotes from Mind master - Viswanathan Anand 
+title: Notable quotes from Mind master - Viswanathan Anand 
 author: kurianbenoy
 tags: [books]
 readtime: true
 ---
 
-Hello all, I am back with a few noteble quotes from Mind Master by Viswanathan Anand. I am not an
-expert in chess, and just know some of the basic moves. I recently picked up chess, after seeing Pranav Shridhar and Joel
-playing chess after Inout Hackathon, Bangalore - 2019. The only chess player most of Indians know is Viswanathan Anand and
+Hello all, I am back with a few notable quotes from Mind Master by Viswanathan Anand. I am not a chess expert and know some of the basic moves. I recently picked up chess, after seeing Pranav Shridhar and Joel
+playing chess after In out Hackathon, Bangalore - 2019. The only chess player, most of Indians, know is Viswanathan Anand and
 maybe Magnus Carlsen too after bitter 2013 World Championship loss in Chennai.
 
-This book is not merely a chess book. According to me the best thing in this book was how
-a 5 time world champion approaches games and his winning mentality. He talks about state of AI in chess, attitude needed
-for any winners in any field, how to grab your advantage and lot of life advices are there. I am sharing a few
-intersting parts in this book
+This book is not merely a chess book. In my opinion, the best thing in this book was how
+a 5-time world champion approaches games and winning mentality. Anand talks about the state of AI in chess, attitude needed
+for any winners in any field, how to grab your advantage and lot of life advice are there. I am sharing a few
+exciting parts in this book
 
 
 > The way I see it, talent is a lot like a plant. When it’s watered with hard
