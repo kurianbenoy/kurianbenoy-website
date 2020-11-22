@@ -23,6 +23,8 @@ The books I have read so far in 2020 are:
 13. ML engineering rules
 14. Rich Dad Poor Dad
 15. Approaching almost any machine learning problem - Abhishek Thakur
+16. അറബി കഥക്ൾ
+17. Illustrated Biography of Bhagat Singh
 
 Books currently reading:
 
