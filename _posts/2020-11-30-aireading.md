@@ -9,21 +9,30 @@ Reading like AI is a python package inspired from the below meme:
 
 What if AI systems could count numbers?
 
-So then the numbers will be prounced as
+
+So then the numbers will be pronounced as
+
 
 1999 - Nineteen Ninty Nine
 
-1888 - Eighteen Eighty Eight
+
+1888 - Eighteen Eighty-Eight
+
 
 1111 - Eleven Hundred Eleven,
 
-No folks, AI is more cooler. It's => Eleventeen Onety One
+
+No folks, AI is cooler. It's => Eleventeen Onety One
+
 
 ## Installation
 
+
 `python -m pip install numbersai==0.0.1`
 
+
 ## Usage
+
 
 ```
 >> from nosai.numbers import spell
@@ -31,10 +40,14 @@ No folks, AI is more cooler. It's => Eleventeen Onety One
 'Eleventeen Onety one'
 ```
 
+
 ## Technology used
+
 
 This package is build based one of the [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml)
 
-ie Rule #7: Turn heuristics into features, or handle them externally.
 
-We didn't require any complex models which was trained for ten thousand hours, all it required was a few if loops
+*I.e. Rule #7*: Turn heuristics into features, or handle them externally.
+
+
+We didn't require any complex models which was trained for ten thousand hours, all it needed was a few if loops.
