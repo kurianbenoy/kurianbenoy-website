@@ -8,7 +8,7 @@ readtime: true
 
 The books I have read so far in 2020 are:
 
-1. Alchemist
+1. Alchemist(reread again in December)
 2. The C programming language
 3. Dharmarajyam by Bhasheer
 4. Confessions - Leo Tolstoy
@@ -25,10 +25,10 @@ The books I have read so far in 2020 are:
 15. Approaching almost any machine learning problem - Abhishek Thakur
 16. അറബി കഥക്ൾ
 17. Illustrated Biography of Bhagat Singh
+18. High performance python programming
 
 Books currently reading:
 
-- High performance python programming
 - Deep Work
 
 On the shelf:
