@@ -2,6 +2,7 @@
 title: 3 Python libraries to make your code more pythonic
 type: post
 tags: [coding, Python]
+readtime: true
 ---
 
 Python is one of the most used programming libraries. It is important to follow proper decorum while coding
