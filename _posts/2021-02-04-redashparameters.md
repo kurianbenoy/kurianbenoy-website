@@ -31,6 +31,6 @@ As a side note, Datasette recently implemented this parameter feature. Datasette
 
 ## References
 
-- https://redash.io/help/user-guide/querying/query-filters
-- https://redash.io/help/user-guide/querying/query-parameters
-- https://simonwillison.net/2020/Nov/14/personal-data-warehouses/
+- [Redash query filters](https://redash.io/help/user-guide/querying/query-filters)
+- [Redash query parameters](https://redash.io/help/user-guide/querying/query-parameters)
+- [More about Datasette](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
