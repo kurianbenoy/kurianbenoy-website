@@ -14,6 +14,10 @@ This a continution where, I jot down the books I have read so far:
 
 ## Currently Reading
 
+- Drive
+- Python cookbook
+
+
 ## On the shelf:
 
 - Cracking the coding interview
@@ -21,3 +25,4 @@ This a continution where, I jot down the books I have read so far:
 ## Wish List
 
 - Pragmatic Programmer
+- EPI
