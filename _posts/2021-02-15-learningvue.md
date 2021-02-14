@@ -1,6 +1,7 @@
 ---
 title: Learning Vue.js Part1
 type: post
+tags: [javascript, frontend, coding]
 readtime: true
 ---
 
