@@ -1,0 +1,98 @@
+---
+title: Learning Vue.js Part1
+type: post
+readtime: true
+---
+
+Why learning Vue.js?
+JavaScript is a language which I always wanted to learn. Yet recently when I was asked to learn as part of my day job, that's when I started thinking about learning it seriously. It always important to learn some new languages/frameworks from time to time. Since it's a new year, let's plan to learn more tech topics in this year.
+Before Learning Vue.js - learn JS first
+To learn the Vue.js, first it is essential to learn the basics of JavaScript, HTML, CSS etc. first. 
+It is very  important to  get the fundamentals of JavaScript right.
+Read what Nadia has to say 👇
+
+
+Promises
+Promises consist of both producers and consumers. The producers can consist of resolve and reject statements. While consumers can consist of statements with then, finally and catch statements embedded in it. Check the below article to learn more:
+
+
+
+
+Arrow function
+This is a easy hack designed in ES6, and is a widely used feature in most of the codebases.
+test = (a,b) => {
+// Return function details
+}
+
+Nullish Coalescing Operator
+The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+Taken from MDN Docs
+Consider the expression a ?? b. This evaluates to b if a is null or undefined, otherwise, it evaluates to a
+Destructing
+It's a short way to get elements of array into variables or get properties of object into variables.
+const user = {
+    name: 'Bhanu Teja',
+    blogs: 3,
+    timeSpan: 2.
+}
+
+const {name, blogs, timeSpan} = user
+console.log(name);
+console.log(blogs);
+console.log(timeSpan);
+Arrays 
+Like any languages, a list of like elements is represented using Arrays which are equivalent to lists in Python. Some of the common array operators which are a bit unique are:
+map - The process of transforming an existing arrays to some other new form. 
+const names = [
+    { firstName: 'Casey ', lastName: 'Jones' },
+    { firstName: 'Phil', lastName: 'Lesh'},
+    { firstName: 'Brad', lastName: 'Traversy'},
+    { firstName: 'August', lastName: 'West'}
+]
+
+names.map(name=> `${name.firstName} ${name.lastName}`)
+Reduce - The array reduce method reduces the array of values into a single value. It executes the callback function for each value of the array.
+const values = [2, 4, 6, 7, 8]
+
+const initialValue = 0
+values.reduce((total, currentValue) => total + currentValue, initialValue)
+Splice - This method is used to add or remove elements in an array.
+Fetching APIs
+To fetch we usually use libraries like axios to do API request manipulation. It would be a good idea to learn more about it and let me share how to use these APIs in case of vuejs in the below cookbook example.
+
+
+Event Loops
+continuously running programs without waiting, so the web browser wont' be waiting infinitely long for a process to end. The concept of Javascript concept - Event loop.
+let a = true
+
+setTimeout(() => {
+    a = false;
+}, 2000);
+
+while(a) {
+    console.log(a);
+    }
+The reason why it continuously runs the code even after 2 seconds is because of the concept of event loops, since javascript is single threaded language and setTimeout runs in a seperate thread, the value of a as false can't be replaced as the while loop is still getting run.
+A very interesting talk on this topic is by Phillip Roberts titled - What the heck is the eventloop anyways?
+
+Another interesting concept is to exit from this for 
+let c = 0
+
+let id = setIntreval(() => {
+    console.log(c++);
+}, 1000)
+
+setTimeout(() => {
+    clearIntreval(id);
+}, 2000);
+setTimeout and setIntreval
+setTimeout is a function to run a specific function once for a period of milliseconds specified.
+setIntreval is a function which runs periodically during a time intreval
+clearIntreval is a function to exit from this setIntreval on passing the function
+
+We haven't started Vue yet
+We haven't even touched the meat of our matter where we want to learn VUEJS. I would highly suggest you to do yourself a favor by read Vue.js getting started guide for this week and checkout the sample project which we have created. We will continue our VueJs series for next week as well.
+
+Sample Vuejs application
+
+
