@@ -7,12 +7,12 @@ readtime: true
 
 *Why learning Vue.js?*
 
-JavaScript is a language which I always wanted to learn. Yet recently when I was asked to learn as part of my day job, that's when I started thinking about learning it seriously. It always important to learn some new languages/frameworks from time to time. Since it's a new year, let's plan to learn more tech topics in this year.
+JavaScript is a language which I always wanted to learn. Yet recently when I was asked to learn as part of my day job, that's when I started thinking about learning it seriously. It is always important to learn some new languages/frameworks from time to time. Since it's a new year, let's plan to learn more tech topics in this year.
 
 *Before Learning Vue.js - learn JS first*
 
-To learn the Vue.js, first it is essential to learn the basics of JavaScript, HTML, CSS etc. first. 
-It is very  important to  get the fundamentals of JavaScript right.
+To learn the Vue.js, first, it is essential to learn the basics of JavaScript, HTML, CSS etc. 
+It is very important to get the fundamentals of JavaScript right.
 Read what Nadia has to say 👇
 
 ![image](https://user-images.githubusercontent.com/24592806/107968479-6dc04880-6fd4-11eb-89d1-c3fba9c88b01.png)
@@ -33,7 +33,7 @@ Promises consist of both producers and consumers. The producers can consist of r
 
 *Arrow function*
 
-This is a easy hack designed in ES6, and is a widely used feature in most of the codebases.
+This is an easy hack designed in ES6 and is a widely used feature in most of the codebases.
 ```
 test = (a,b) => {
 // Return function details
@@ -42,7 +42,7 @@ test = (a,b) => {
 
 *Nullish Coalescing Operator*
 
-The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined and otherwise returns its left-hand side operand.
 
 Taken from MDN Docs
 
@@ -53,7 +53,7 @@ Consider the expression `a ?? b`.
 
 *Destructing*
 
-It's a short way to get elements of array into variables or get properties of object into variables.
+It's a short way to get elements of an array into variables or get properties of an object into variables.
 
 ```
 const user = {
@@ -74,7 +74,7 @@ console.log(timeSpan);
 
 Like any languages, a list of like elements is represented using Arrays which are equivalent to lists in Python. Some of the common array operators which are a bit unique are:
 
-> map - The process of transforming an existing arrays to some other new form. 
+> map - The process of transforming an existing array to some other new form. 
 
 ```
 const names = [
@@ -99,14 +99,14 @@ values.reduce((total, currentValue) => total + currentValue, initialValue)
 
 *Fetching APIs*
 
-To fetch we usually use libraries like axios to do API request manipulation. It would be a good idea to learn more about it and let me share how to use these APIs in case of vuejs in the below cookbook example.
+To fetch we usually use libraries like axios to do API request manipulation. It would be a good idea to learn more about it and let me share how to use these APIs in case of Vue.js in the below cookbook example.
 
 [Using Axios to Consume APIs](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
 
 
 *Event Loops*
 
-continuously running programs without waiting, so the web browser wont' be waiting infinitely long for a process to end. The concept of Javascript concept - Event loop.
+continuously running programs without waiting, so the web browser won't' be waiting infinitely long for a process to end. The concept of Javascript concept - Event loop.
 ```
 let a = true
 
@@ -119,22 +119,26 @@ while(a) {
     }
 ```
 
-The reason why it continuously runs the code even after 2 seconds is because of the concept of event loops, since javascript is single threaded language and setTimeout runs in a seperate thread, the value of a as false can't be replaced as the while loop is still getting run.
-A very interesting talk on this topic is by Phillip Roberts titled - What the heck is the eventloop anyways?
+The reason why it continuously runs the code even after 2 seconds is because of the concept of event loops since javascript is single-threaded language and setTimeout runs in a separate thread, the value of a as false can't be replaced as the while loop is still getting run.
+
+A very interesting talk on this topic is by Phillip Roberts titled - What the heck is the event loop anyway?
+
+[![](http://img.youtube.com/vi/8aGhZQkoFbQ/0.jpg)](http://www.youtube.com/watch?v=8aGhZQkoFbQ "")
 
 
 *setTimeout and setIntreval*
 
 setTimeout is a function to run a specific function once for a period of milliseconds specified.
-setIntreval is a function which runs periodically during a time intreval
-clearIntreval is a function to exit from this setIntreval on passing the function
+setIntreval is a function which runs periodically during a time interval
+clearIntreval is a function to exit from this set interval on passing the function
 
 *We haven't started Vue yet*
 
-We haven't even touched the meat of our matter where we want to learn VUEJS. I would highly suggest you to do yourself a favor by read Vue.js getting started guide for this week and checkout the sample project which we have created. We will continue our VueJs series for next week as well.
+We haven't even touched the meat of our matter where we want to learn VUEJS. I would highly suggest you do yourself a favour by reading Vue.js getting started guide for this week and check out the sample project which we have created. We will continue our VueJs series for next week as well.
 
 [Sample Vuejs application](https://github.com/kurianbenoy-aot/vuejs-101)
 
 
 Signing Off, 
+
 ~ Kurian
