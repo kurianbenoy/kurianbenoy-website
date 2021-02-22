@@ -35,3 +35,32 @@ existing projects. If you have read the getting started guide, you may have real
 6. Using components and using bind statements and passing prop
 7. Vue components are similar to web components and is inpired and modelled with Slot APi
 
+The above points are a brief gist of about getting started guide about Vue.js. We made a small todo list with the above getting started guide:
+
+[TODO list Code pen](https://codepen.io/kurianbenoy-aot/pen/poNWNpM)
+
+
+If you look at the source code inside <script> tag:
+
+```
+export default {
+  data() {
+  .....
+  },
+  methods: {
+  ....
+    functions to be used for Various usecases
+  },
+  computed: {
+    ...
+  }
+```
+
+- *data*: used for deciding properties of vue.js application
+- *methods*: Used for various methods, like what functionality to occur when a button is click
+- *computed*: Used for calculating values based on predefined data. There are both getters and setters functionality with this method
+
+<style> contains the functionality for using CSS to make your application look great
+  
+
+
