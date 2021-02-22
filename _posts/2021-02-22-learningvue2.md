@@ -71,9 +71,9 @@ export default {
 - *computed*: Used for calculating values based on predefined data. There are both getters and setters functionality with this method
 
 
-<style> contains the functionality for using CSS to make your application look great
+style contains the functionality for using CSS to make your application look great
   
-<template> is the special place where all the vuejs magic comes in place. In generally most of the folks use Vue.js with templates,
+template is the special place where all the vuejs magic comes in place. In generally most of the folks use Vue.js with templates,
   even though there is [Vue render functions](https://vuejs.org/v2/guide/render-function.html) which I guess is used in React. In case
   of template, when you are using with v-(suffix) it always is something special. It can be something like binding variables, methods, 
   for looops, etc.
