@@ -8,10 +8,15 @@ readtime: true
 
 This a continution where, I jot down the books I have read so far:
 
-1. I want 2 do project. tell me wat 2 do - Shakthi Kannan
-2. Lets Talk Money - Monika Halan
-3. Drive - The Surpring Truth about what motivates us
-4. ന്റുപ്പുപ്പാക്കൊരാനേണ്ടാർന്ന് - Basheer
+-  I want 2 do project. tell me wat 2 do - Shakthi Kannan
+- Lets Talk Money - Monika Halan
+- Drive - The Surpring Truth about what motivates us
+-  ന്റുപ്പുപ്പാക്കൊരാനേണ്ടാർന്ന് - Basheer 
+
+This book talks about the story of a young Muslim girl and captures her drama, with a mix of things
+which reveal a lot about Muslim lives, Kozhikodden or north kerala malayalam slang. The book is having
+the flow and the climax is when KunnuPathu realises her boasted about the elephant, but it was just a small fly
+they owned during their grandpas time.
 
 ## Currently Reading
 
