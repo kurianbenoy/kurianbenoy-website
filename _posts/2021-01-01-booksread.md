@@ -15,12 +15,15 @@ This a continution where, I jot down the books I have read so far:
 
 ## Currently Reading
 
-- Python cookbook
+
 
 
 ## On the shelf:
 
 - Cracking the coding interview
+- Python cookbook
+- PyImage Search Computer Vision
+- Machine learning Pipelines
 
 ## Wish List
 
