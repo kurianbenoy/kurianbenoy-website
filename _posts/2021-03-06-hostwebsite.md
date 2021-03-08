@@ -4,7 +4,7 @@ type: post
 readtime: true
 ---
 
-*Disclaimer: This may not just be the first blog post on this topic, but this is going you not just to host your website, but also on how do web hosting working and the why part which will delve a bit into some theoretical portions like DNS.*
+*Disclaimer: This may not just be the first blog post on this topic, yet we are not merely talking how to do it only but also why part which will delve a bit into some theoretical portions like DNS, webhosting etc.*
 
 I am discussing in this article how to host a self domain with GitHub:
 
@@ -43,7 +43,7 @@ for creating A records in DNS providing servicer.
 - A record is the most important record type and it holds a 32 bit IP address for some host. Every Internet host must have at least one IP address to communicate with others.
 
 
-Tada, your site is hosted like mine - https://kurianbenoy.com/
+Tada, your site is hosted like mine -[kurianbenoy.com](https://kurianbenoy.com/)
 
 
 **DNS is used to map a specific name into an associated IP address**, an application program called library procedure called a **resolver**. Domain names were initially created specifically for solving the problem in ARPNET to understand which all nodes were there in the system. In those days they used a text file named hosts.txt to keep track of all hostnames and update every night. Yet as time progressed, things started changing for good, and the Domain name system was bought in place.
@@ -60,16 +60,15 @@ b) **Country-level domain names** - which maps domain names based on the associa
 A domain name can be mapped to one or more associated servers. So even though when calling google.com, it can be mapped to multiple servers in various locations of the world
 
 
-Besides these **top-level domain names**, there are second-level domains which is the name which you want to assign for your individual domain name. Also,**subdomains** can be used to map domain names to certain specific or other sites by adding a word followed by a dot. For example, if you want to create a specific blogging website in my domain name - you can easily add:
+Besides these top-level domain names, there are **second-level domains** which is the name which you want to assign for your individual domain name. Also,**subdomains** can be used to map domain names to certain specific or other sites by adding a word followed by a dot. For example, if you want to create a specific blogging website in my domain name - you can easily add:
 
 > blog.kurianbenoy.com
 
 
-Another interesting thing about domain names can only be in ASCII, even though with certain software some certain Unicode words can be used for domain names. The business of **Domain name registries who are accredited with ICANN** sell the various domain names and are responsible for providing basic functionalities like name server for our use case. Domain names are considered like real estates, the shorter and attractive it is. The more money it costs.
+Another interesting thing about domain names is they can only be in ASCII, even though with certain software some certain Unicode words can be used for domain names. The business of **Domain name registries who are accredited with ICANN** sell the various domain names and are responsible for providing basic functionalities like name server for our use case. Domain names are considered like real estates, the shorter and attractive it is. The more money it costs.
 
 
-The domain name is a component of a uniform resource locator (URL) used to access web sites, for example: [4]
-
+The domain name is a component of a uniform resource locator (URL) used to access web sites(this is a common question in computer networks theory class), for example: [4]
 
 URL: http://www.example.net/index.html
 Top-level domain: net
