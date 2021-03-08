@@ -4,7 +4,7 @@ type: post
 readtime: true
 ---
 
-*Disclaimer: This may not just be the first blog post on this topic, but this is going you not just to host your website, but also on how does web hosting working and the why part which will delve a bit into some theoretical portions like DNS.*
+*Disclaimer: This may not just be the first blog post on this topic, but this is going you not just to host your website, but also on how do web hosting working and the why part which will delve a bit into some theoretical portions like DNS.*
 
 I am discussing in this article how to host a self domain with GitHub:
 
@@ -22,17 +22,16 @@ I am discussing in this article how to host a self domain with GitHub:
 
 ![image](https://user-images.githubusercontent.com/24592806/110369070-d9478400-806f-11eb-8424-9a7f1dc1b7a1.png)
 
-Now on clicking Mange DNS create an A record, which is used to point four name servers hosted by github. First and
+Now on clicking Manage DNS create an A record, which is used to point to four name servers hosted by GitHub. First and
 foremost create a CNAME record that points your subdomain to the default domain for your site. For example, if you want to use the subdomain www.example.com for your user site, create a CNAME record that points www.example.com to <user>.github.io
   
 ![image](https://user-images.githubusercontent.com/24592806/110369506-828e7a00-8070-11eb-9b89-fadd282e0374.png)
 
 **So what is a CNAME record?**
 
-- It's a record type in resource records which allows alias to be created. It is a macro definiition which helps in redirecting, from one 
-website to another. So really we are actually mapping server of kurianbenoy.github.io to kurianbenoy.com.
+- It's a record type in resource records that allows an alias to be created. It is a macro definition that helps in redirecting, from one website to another. So really we are actually mapping the server of kurianbenoy.github.io to kurianbenoy.com.
 
-The next step is to create an A record in DNS management system. In docs for [Configuring a custom domain for your GitHub Pages site - GitHub Docs](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site), it's mentioned the various IPs used
+The next step is to create an A record in the DNS management system. In docs for [Configuring a custom domain for your GitHub Pages site - GitHub Docs](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site), it's mentioned the various IPs used
 for creating A records in DNS providing servicer.
 
 ![image](https://user-images.githubusercontent.com/24592806/110370904-4a883680-8072-11eb-8af8-231907f1f115.png)
@@ -41,7 +40,7 @@ for creating A records in DNS providing servicer.
 **What is A Record**
 
 - It is used to point your apex domain to the default domain for your site. 
-- A record is the most important record type and it holds a 32 bit IP address for some host. Every Internet host must have atleast one IP address to communicate with others.
+- A record is the most important record type and it holds a 32 bit IP address for some host. Every Internet host must have at least one IP address to communicate with others.
 
 
 Tada, your site is hosted like mine - https://kurianbenoy.com/
@@ -77,8 +76,8 @@ Top-level domain: net
 Second-level domain: example
 Hostname: www
 
-**Resource Records** are associated for single host or top level domain names. The real function of DNS is to map domain names into resource records. The resource
-records are five tuple format as follows:
+**Resource Records** are associated with a single host or top-level domain names. The real function of DNS is to map domain names into resource records. The resource
+records are five-tuple format as follows:
 
 - Domain_name
 - Time_to_live
@@ -86,14 +85,14 @@ records are five tuple format as follows:
 - Type
 - Value
 
-I know it is not a proper ending, just let me know in comments if I have missed anything. It's always to better to do something than doing nothing.
-That's why I am continuing my weekly ramlings even though it's not perfect
+I know it is not a proper ending, just let me know in the comments if I have missed anything. It's always to better to do something than doing nothing.
+That's why I am continuing my weekly ramblings even though it's not perfect
 
 ~ Kurian Benoy
 
 ### References
 
 1. Github docs
-2. how to host your website on github pages-medium
+2. how to host your website on GitHub pages-medium
 3. Computer Networks, Andrew S Tanenbaum
-4. Use in website hosting-Domain Name, wikipedia
+4. Use in website hosting-Domain Name, Wikipedia
