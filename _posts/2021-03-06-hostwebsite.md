@@ -90,7 +90,7 @@ That's why I am continuing my weekly ramblings even though it's not perfect
 
 ~ Kurian Benoy
 
-📢 Resource: I found this awesome cartoon comic which explains how DNS works really -https://howdns.works/episodes/
+**📢 Resource alert** I found this awesome cartoon comic which explains [how DNS works](https://howdns.works/episodes/)
 
 ### References
 
