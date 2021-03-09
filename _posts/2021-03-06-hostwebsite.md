@@ -1,5 +1,5 @@
 ---
-title: Hosting my website with Github pages
+title: Hosting your website  🌐 with Github pages
 type: post
 readtime: true
 ---
@@ -45,6 +45,7 @@ for creating A records in DNS providing servicer.
 
 Tada, your site is hosted like mine -[kurianbenoy.com](https://kurianbenoy.com/)
 
+>Now to the theory portion. I also had hosted my domain earlier following the above steps more than once and it simply worked. Yet how it worked and why we needed black box was a big mystery to me, which I am trying to demystify with this article.
 
 **DNS is used to map a specific name into an associated IP address**, an application program called library procedure called a **resolver**. Domain names were initially created specifically for solving the problem in ARPNET to understand which all nodes were there in the system. In those days they used a text file named hosts.txt to keep track of all hostnames and update every night. Yet as time progressed, things started changing for good, and the Domain name system was bought in place.
 
@@ -88,6 +89,8 @@ I know it is not a proper ending, just let me know in the comments if I have mis
 That's why I am continuing my weekly ramblings even though it's not perfect
 
 ~ Kurian Benoy
+
+📢 Resource: I found this awesome cartoon comic which explains how DNS works really -https://howdns.works/episodes/
 
 ### References
 
