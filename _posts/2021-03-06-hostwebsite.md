@@ -2,6 +2,7 @@
 title: Hosting your website  🌐 with Github pages
 type: post
 readtime: true
+tags: [coding, frontend, webdevelopment, hosting]
 ---
 
 *Disclaimer: This may not just be the first blog post on this topic, yet we are not merely talking how to do it only but also why part which will delve a bit into some theoretical portions like DNS, webhosting etc.*
