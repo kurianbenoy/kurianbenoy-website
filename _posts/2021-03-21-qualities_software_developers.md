@@ -31,6 +31,7 @@ I remember this quote hiring rounds from one of the prominent company which is a
 We as programmers need to realize and achieve the task required for the product. There may be a hard task that may seem tedious and difficult at first. But start working on it early and don't make it slip deadlines. Any task is doable once we put the necessary effort into it.
 
 ![pexels-anete-lusina-4792729](https://user-images.githubusercontent.com/24592806/111893560-90a5a880-8a29-11eb-8b8d-cf2978f624f2.jpg)
+[Image from Pexels]
 
 ## Deep understanding of their programming stack
 
@@ -46,10 +47,10 @@ Most of the best folks I met are humble and are always willing to help. They hav
 
 It's also important to realize the review comments developers pass has nothing to do with you, but it is with your codebase and code quality. Personally, I need to work gaining more depth on python like the async function, generators, and revising the knowledge gained with the book High-performance Computing in practice in the coming days.
 
-Also in the end of each blog posts, I am going to share my three links for the week from now onwards
+Also in the end of each weekly blog posts, I am going to start sharing three links for this week onwards.
 
 **Three Links for this week 👉:**
 
 - How Netflix recommendation engines work for [Learning a Personalized home page](https://netflixtechblog.com/learning-a-personalized-homepage-aa8ec670359a)
 - Top 5 Lessons learned from being Netflix CEO - [Reed Hastings](https://www.youtube.com/watch?v=BH-Dq50Cz8Q)
-- A long chat about [git and few of the common commands like commit, stash and their git mental with Nabarun, Sayan and Jason](https://janusworx.com/blog/a-rambling-only-slightly-coherent-chat-around-git/)
+- A long chat about [git and few of the common commands like commit, stash and their git mental model with Nabarun, Sayan and Jason](https://janusworx.com/blog/a-rambling-only-slightly-coherent-chat-around-git/)
