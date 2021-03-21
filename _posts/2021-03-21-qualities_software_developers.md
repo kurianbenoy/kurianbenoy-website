@@ -2,6 +2,7 @@
 title: 5 qualities I learned from great software developers
 type: post
 tags: [coding, life]
+readtime: true
 ---
 
 I am pretty new to the field of software engineering and my journey as a developer has just begun. Yet in my short time, I have got to work with awesome developers both in open-source space and in my workplace.
