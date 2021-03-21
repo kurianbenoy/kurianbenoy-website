@@ -6,6 +6,7 @@ tags: [coding, life]
 
 I am pretty new to the field of software engineering and my journey as a developer has just begun. Yet in my short time, I have got to work with awesome developers both in open-source space and in my workplace.
 
+
 ## Technical architecture and Reusability
 
 Some of the best developers when working on any project care not just about getting and satisfying requirements. They care about how various technical architecture should be built and has a good grasp of various technologies required for the successful execution of any program. The problem of building and choosing technical architecture can't be done by any automation software or any language models like GPT3 (which can write good code). This is why it's so important to be good at it and build that skillset.
@@ -28,6 +29,8 @@ I remember this quote hiring rounds from one of the prominent company which is a
 
 We as programmers need to realize and achieve the task required for the product. There may be a hard task that may seem tedious and difficult at first. But start working on it early and don't make it slip deadlines. Any task is doable once we put the necessary effort into it.
 
+![pexels-anete-lusina-4792729](https://user-images.githubusercontent.com/24592806/111893560-90a5a880-8a29-11eb-8b8d-cf2978f624f2.jpg)
+
 ## Deep understanding of their programming stack
 
 
@@ -44,7 +47,7 @@ It's also important to realize the review comments developers pass has nothing t
 
 Also in the end of each blog posts, I am going to share my three links for the week from now onwards
 
-> 3 Links for this week 👉:
+**Three Links for this week 👉:**
 
 - How Netflix recommendation engines work for [Learning a Personalized home page](https://netflixtechblog.com/learning-a-personalized-homepage-aa8ec670359a)
 - Top 5 Lessons learned from being Netflix CEO - [Reed Hastings](https://www.youtube.com/watch?v=BH-Dq50Cz8Q)
