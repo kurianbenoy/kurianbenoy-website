@@ -9,7 +9,7 @@ It was a casual Saturday morning, and I was waiting in front of
 an Akshaya Center to get my Aadhar Card photo updated. Even
 after one hour, the line hadn't moved much. So I sort of decided to start reading one of my kindle E-books on my phone.
 
-The book was Deep work written by Cal Newport.I had purchased this book, for more than 2-3 months, yet I didn't make
+The book was Deep work written by Cal Newport. I had purchased this book, for more than 2-3 months, yet I didn't make
 much progress in reading this book. I had almost completed 30% of the book when I left it earlier. So I 
 continued slowly reading through the book in a chair with five people surrounded 
 around me.
@@ -17,8 +17,8 @@ around me.
 The book first explains why Deep work is valuable, and later talks about
 how to achieve deep work. So on resuming reading in a queue, I stumbled upon the idea of having a Shutdown routine.
 I have to admit that, I am not good so far at managing work and life. 
-Let me admit that writing this blog post took this much time, because of this.
-There have been days when few of my colleagues have told it late and rest now, Kurian in the midnight.
+Let me admit that writing this blog post completed only on Tuesday, because of this.
+There have been days when few of my colleagues have told it late and rest now at the midnight.
 It is always important to have a proper balance between life and work. 
 
 Let me introduce to you Kenneth Reitz, who is the author of famous python libraries like Request, Pipenv, Maya etc.
@@ -71,4 +71,4 @@ I will update the article after seeing how my progress goes in the coming days.
 - Compound interest is often considered the eighth wonder in the world. [Check out this
 SIP Calculator which gives an idea of the return of investment given the return ratio and inflation rate with monthly investment](https://sony-mathew.com/projects/sip-calculator)
 - [Interview with Sid Tobias on creating digital transformation leaders](https://www.cascadia.report/sid-tobias/)
-- [How Zerodha India's largest stock brokerage uses FOSS in their tech stack by CTO Kailash Nadh](https://www.youtube.com/watch?v=V-sqMIG7wg)
+- [How Zerodha India's largest stock brokerage uses FOSS in their tech stack by CTO Kailash Nadh](https://youtu.be/V-sqMIG7wgg)
