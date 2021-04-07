@@ -4,6 +4,7 @@ answered during training by experts here.
 
 **mbuf, what are the basics Industry expect from a Bachelors student?**
 
+```
 <mbuf> django_master, I cannot answer for the industry, but, there are two schools of thought that you should be familiar with
 
 
@@ -30,11 +31,12 @@ answered during training by experts here.
 
 <mbuf> django_master, again, it is important to work in a project that interests you, than be stuck in the wrong company
 
-
+```
 
 **I get stuck when solving harder problems and bugs that take about 4-5 days effort. How to show perseverance when solving bigger problems and when mentors continuosly get back to you with comments?**
 
 
+```
 <mbuf> django_master, this is where the communication guidelines come into play
 
 
@@ -47,10 +49,11 @@ answered during training by experts here.
 <mbuf> django_master, nobody said life is easy; if you are afraid, or scared to experiment, learn and try out things, you are in the wrong industry
 
 <mbuf> django_master, there is a reason why engineers are paid well :) (to solve hard problems)
-
+```
 
 **Have you given any talk proposal for Pycon India?**
 
+```
 
 <sayan> django_master: nope!
 
@@ -86,12 +89,12 @@ answered during training by experts here.
 
 
 <kushal> sayan, or like a senior software engineer
-
+```
 
 
 **Everyone here talks about importance of blogging. How frequently we should blog and on what topics?**
 
-
+```
 <mbuf> django_master, Stephen King (the writer) says the ratio of reading to writing is 10:1
 
 
@@ -120,6 +123,4 @@ answered during training by experts here.
 
 
 <mbuf> documentation is as important as writing code, and we emphasize that a lot; so, if you have good writing habits, you will do well here andtra in life; otherwise, start working on it
-
-
-<mbuf> next
+```
