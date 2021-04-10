@@ -46,11 +46,10 @@ head-extra: ehead.html
 social-network-links:
   email: "kurian.bkk@gmail.com"
   github: kurianbenoy
-  gitlab: kurianbenoy
   twitter: kurianbenoy2
   rss: true
 #  reddit: yourname
- linkedin: "kurianbenoy"
+  linkedin: "kurianbenoy"
 #  xing: yourname
   stackoverflow: "7185185/kurian-benoy"
 #  snapchat: deanat78
