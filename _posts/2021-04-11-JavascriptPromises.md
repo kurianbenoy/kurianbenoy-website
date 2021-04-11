@@ -34,3 +34,10 @@ export const getformHistoryApi = (ApiUrl: string, applicationId: string,  token:
 
 I was thinnking of taking that idiot thing and then parse it. But on parsing with then it didn't work, why though
 
+
+Three links for this week -> :
+
+- [History of linked list and why it's asked in interviews](https://www.hillelwayne.com/post/linked-lists/)
+- [Why I write blogs by Sahil Dhiman](https://blog.sahilister.in/2020/10/why-i-write-blogs/)
+- []()
+
