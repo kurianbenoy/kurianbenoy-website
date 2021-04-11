@@ -34,11 +34,11 @@ Promises consist of both producers and consumers. The producers can consist of r
 *Arrow function*
 
 This is an easy hack designed in ES6 and is a widely used feature in most of the codebases.
-```
+{% highlight javascript linenos %}
 test = (a,b) => {
 // Return function details
 }
-```
+{% endhighlight %}
 
 *Nullish Coalescing Operator*
 
@@ -55,7 +55,7 @@ Consider the expression `a ?? b`.
 
 It's a short way to get elements of an array into variables or get properties of an object into variables.
 
-```
+{% highlight javascript linenos %}
 const user = {
     name: 'Bhanu Teja',
     blogs: 3,
@@ -66,8 +66,8 @@ const {name, blogs, timeSpan} = user
 console.log(name);
 console.log(blogs);
 console.log(timeSpan);
-```
-
+{}
+{% endhighlight %}
 
 *Arrays*
 
@@ -76,7 +76,7 @@ Like any languages, a list of like elements is represented using Arrays which ar
 
 > map - The process of transforming an existing array to some other new form. 
 
-```
+{% highlight javascript linenos %}
 const names = [
     { firstName: 'Casey ', lastName: 'Jones' },
     { firstName: 'Phil', lastName: 'Lesh'},
@@ -85,7 +85,8 @@ const names = [
 ]
 
 names.map(name=> `${name.firstName} ${name.lastName}`)
-```
+{% endhighlight %}
+
 > Reduce - The array reduce method reduces the array of values into a single value. It executes the callback function for each value of the array.
 
 ```
@@ -107,7 +108,8 @@ To fetch we usually use libraries like axios to do API request manipulation. It 
 *Event Loops*
 
 continuously running programs without waiting, so the web browser won't' be waiting infinitely long for a process to end. The concept of Javascript concept - Event loop.
-```
+
+{% highlight javascript linenos %}
 let a = true
 
 setTimeout(() => {
@@ -117,7 +119,7 @@ setTimeout(() => {
 while(a) {
     console.log(a);
     }
-```
+{% endhighlight %}
 
 The reason why it continuously runs the code even after 2 seconds is because of the concept of event loops since javascript is single-threaded language and setTimeout runs in a separate thread, the value of a as false can't be replaced as the while loop is still getting run.
 
