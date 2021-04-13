@@ -3,6 +3,7 @@ title: An Issue I had with fetching data with Axios
 type: post
 readtime: true
 tags: [coding, javascript]
+published: false
 ---
 
 
@@ -40,8 +41,7 @@ export const getformHistoryApi = (ApiUrl: string, applicationId: string,  token:
 ```
 
 Yet it doesn't work. On realising why it doesn't work is because bought me 
-me to look at the previous works realise instead of working on that method, I called the
-
+me to look at the previous works realise instead of working on that method, I called th
 ```javascript
 export const getformHistoryApi = (ApiUrl: string, applicationId: string,  token: string) => {
   return httpGETRequest(ApiUrl+"/application/"+applicationId+"/history",{}, token)
