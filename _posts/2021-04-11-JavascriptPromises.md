@@ -1,7 +1,8 @@
 ---
 title: An Issue I had with fetching data with Axios
 type: post
-published: false
+readtime: true
+tags: [coding, javascript]
 ---
 
 
