@@ -32,6 +32,18 @@ export const getformHistoryApi = (ApiUrl: string, applicationId: string,  token:
 
 I was thinnking of taking that idiot thing and then parse it. But on parsing with then it didn't work, why though
 
+Axios is a promise based client for HTTP client. So on promising , I am doubtful only getUrl 
+-> pauutmo , pattilayo
+
+https://axios-http.com/docs/post_example/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+then , catch methods, nested chaining ,
+Promise all example
+
+What are prototypes?
+
+
 
 > An investment in knowledge always pays the best interest ~Benjamin Franklin
 
