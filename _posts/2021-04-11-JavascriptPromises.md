@@ -7,10 +7,10 @@ published: false
 ---
 
 
-I was working on building [Camunda- formio Tasklist](https://github.com/kurianbenoy-aot/camunda-formio-tasklist-vue) as part of my work. In Javascript, lot of people use axios library to work with
-fetching data from APIs. There are lot of other ways also to fetch data like Ajax calls, using fetch API etc.
+I was working on building [Camunda- formio Tasklist](https://github.com/kurianbenoy-aot/camunda-formio-tasklist-vue) as part of my work. In Javascript ecosystem, a lot of folks
+use axios library to work with fetching data from APIs. There are lot of other ways also to fetch data like Ajax calls, using fetch API etc as well.
 
-So let me talk you about my problem. I wrote the below snipped to fetch a GET request data on passing the API url,
+So let me talk you about my problem. I wrote the below snipped to fetch a GET request API data on passing the API url,
 parametrised data, token which I am passing will return the data.
 
 ```javascript
@@ -50,9 +50,7 @@ export const getformHistoryApi = (ApiUrl: string, applicationId: string,  token:
 
 
 getformHistoryApi("https://kurianbenoy.com", 250, alasdfjadf). then((result) => {
-
 // fetch API data object
-
 })
 .catch((error)=> {
 //in case of any errors
@@ -62,7 +60,7 @@ getformHistoryApi("https://kurianbenoy.com", 250, alasdfjadf). then((result) => 
 This solved my issue. But I was curious about the why part. Then I looked into the documentation of axios, and it starts with
 the tagline:
 
-> axios: Promise based HTTP client for the browser and node.js.
+> axios: Promise based HTTP client for the browser and node.js. It was not knowing axios used promises which caused me the issue.
 
 ### What are Promises?
 
@@ -99,7 +97,7 @@ Why ? If we keep with our waiter exemple, we say to the kitchen : Hey, I have a 
 
 How do we access the value then ?
 
-Do you remember the MDN definition ? It allows you to associate handlers, the keywords here is handlers. Let's go back to our previous exemple, but let's get it to work for real this time.
+It allows you to associate handlers, the keywords here is handlers. Let's go back to our previous exemple, but let's get it to work for real this time.
 
 const preparingDishes = new Promise((resolve, reject) => {
   // See the code above
@@ -140,8 +138,10 @@ If you look at MDN documentation, there are three states of promises that is:
 I will also recommend you to check out the end section of Chandelier Axels article on Promises about the async/await methods.
 
 ----
-
 I have started reading the Pragmatic Programmer and I am sharing few of the notes with you folks:
+
+![pexels-kurian-benoy-7499104](https://user-images.githubusercontent.com/24592806/114697081-17088e00-9d3b-11eb-87ee-96b52374a7d9.jpg)
+
 
 > An investment in knowledge always pays the best interest ~Benjamin Franklin
 
