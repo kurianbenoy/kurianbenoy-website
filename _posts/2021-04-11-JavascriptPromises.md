@@ -138,7 +138,7 @@ If you look at MDN documentation, there are three states of promises that is:
 I will also recommend you to check out the end section of Chandelier Axels article on Promises about the async/await methods.
 
 ----
-I have started reading the Pragmatic Programmer and I am sharing few of the notes with you folks:
+I and my Tux have started reading the Pragmatic Programmer and I am sharing few of the notes with you folks:
 
 ![pexels-kurian-benoy-7499104](https://user-images.githubusercontent.com/24592806/114697081-17088e00-9d3b-11eb-87ee-96b52374a7d9.jpg)
 
