@@ -1,7 +1,6 @@
 ---
-title: Some Financial Lessons
+title: Untitled: Some Financial Lessons
 type: post
-published: false
 tags: [life, finance]
 ---
 
@@ -15,7 +14,7 @@ b) I will give you 50 lakhs today
 If you said option (a) like 90% of the people. You don't understand the concept of Inflation. The reason is simple, the 10 lakhs
 of today will never be the same amount in 5 years, it's going to be even lesser.
 
-Let me talk about the 7 baby steps created by Dave Ramsey:
+Let me talk about the 7 baby steps created by [Dave Ramsey throughout his journey](https://www.youtube.com/watch?v=r1NJzEYARlM):
 
 1. Save $1,000 for your starter emergency fund.
 2. Pay off all debt (except the house) using the debt snowball.
