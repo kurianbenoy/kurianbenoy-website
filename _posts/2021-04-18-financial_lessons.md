@@ -1,5 +1,5 @@
 ---
-title: Untitled: Some Financial Lessons
+title: Some Financial Lessons(not advisory)
 type: post
 tags: [life, finance]
 ---
