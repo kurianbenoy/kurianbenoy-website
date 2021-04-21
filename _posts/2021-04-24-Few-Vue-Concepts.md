@@ -9,9 +9,17 @@ tags: coding
 Example of Vue Event bus
 - https://www.digitalocean.com/community/tutorials/vuejs-global-event-bus
 
+https://www.thepolyglotdeveloper.com/2018/04/access-change-parent-variables-child-component-vuejs/
+
 Vue splitting as components
 
 Mixins
+
+(very interesting concept)
+
+What is async and await
+
+https://www.telerik.com/blogs/how-to-emit-data-in-vue-beyond-the-vuejs-documentation
 
 
 
