@@ -18,11 +18,10 @@ which reveal a lot about Muslim lives, Kozhikodden or north kerala malayalam sla
 the flow and the climax is when KunnuPathu realises her boasted about the elephant, but it was just a small fly
 they owned during their grandpas time.
 - Pragmatic Programmer : A coding book for you coder, your future colleagues and coder's in 2500 also.
-- 
+- Clean Coder: Thank you Uncle Bob for teaching all these hard earned lessons to make me a professional programmer.
 
 ## Currently Reading
 
-- Clean Coder
 
 
 ## On the shelf:
