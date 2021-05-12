@@ -23,21 +23,17 @@ they owned during their grandpas time.
 ## Currently Reading
 
 
-
 ## On the shelf:
 
 - Cracking the coding interview
 - Python cookbook
 - PyImage Search Computer Vision
 - Machine learning Pipelines
+ - On Writing: A Memoir of the Craft - Stephen King
 
 ## Wish List
 
-- Pragmatic Programmer
 - EPI
-- Clean Coder - Robert C Martin
-- Clean Code
-- On Writing: A Memoir of the Craft - Stephen King
 - How to win friends and Influence People
 - High sschool English grammar and Composition
 - Good English - How to writie it
