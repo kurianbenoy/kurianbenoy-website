@@ -38,3 +38,4 @@ they owned during their grandpas time.
 - High sschool English grammar and Composition
 - Good English - How to writie it
 - Make it Stick: The Science of Successful Learning https://www.goodreads.com/book/show/18770267-make-it-stick
+- The Juggling Act: Bringing Balance to Your Faith, Family, and Work (Pat Gelsinger)
