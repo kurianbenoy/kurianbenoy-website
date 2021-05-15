@@ -22,14 +22,14 @@ they owned during their grandpas time.
 
 ## Currently Reading
 
+- On Writing: A Memoir of the Craft - Stephen King
+- Machine Learning Pipeline
 
 ## On the shelf:
 
 - Cracking the coding interview
 - Python cookbook
 - PyImage Search Computer Vision
-- Machine learning Pipelines
- - On Writing: A Memoir of the Craft - Stephen King
 
 ## Wish List
 
@@ -37,3 +37,4 @@ they owned during their grandpas time.
 - How to win friends and Influence People
 - High sschool English grammar and Composition
 - Good English - How to writie it
+- Make it Stick: The Science of Successful Learning https://www.goodreads.com/book/show/18770267-make-it-stick
