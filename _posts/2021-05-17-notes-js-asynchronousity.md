@@ -22,14 +22,15 @@ to be completed when my work is being done. It is up to the programming environm
 2. It won't function, as the operation to fill canvas is still running, and only on completion the alert button is shown.
 
 - JavaScript also has threads with Web Workers for using threads. It can help when you have a computer with multiple cores.
-- The issue with threads comes when one task you run depends on another, so multiple threads needn't  help.
-- In such situations there is a system like Promises as based on the language construct.
+- The issue with threads comes when one task you run depends on another, so multiple threads needn't help always to improve speed.
+- In such situations there is a system like Promises in JavaScript language construct.
+
 Main thread: Task A                   Task B
     Promise:      |__async operation__|
 
 - In case of JavaScript to implement asynchronous programming, it is usually implemented with the help of concept **Event Loop**:
 
-Coming on that topic, there is an excellent talk by Phillip Roberts about "What the heck is event loop
+Coming on that topic of Event Loop, there is an excellent talk by Phillip Roberts about "What the heck is event loop
 anyways?". It's the most watched video for a particular reason.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
