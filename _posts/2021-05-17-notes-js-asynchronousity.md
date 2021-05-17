@@ -1,5 +1,5 @@
 ---
-title: Notes onJavascript Asynchronicity
+title: Notes on Javascript Asynchronicity
 type: post
 author: Kurian Benoy
 ---
@@ -73,6 +73,9 @@ Now as [MDN concludes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript
 
 *In its most basic form, JavaScript is a synchronous, blocking, single-threaded language, in which only one operation can be in progress at a time. But web browsers define functions and APIs that allow us to register functions that should not be executed synchronously, and should instead be invoked asynchronously when some kind of event occurs (the passage of time, the user's interaction with the mouse, or the arrival of data over the network, for example). This means that you can let your code do several things at the same time without stopping or blocking your main thread.*
 
+Also before including, the link of this week:
+
+1. Did you know that [switch/case statements are not available in Python?](https://docs.python.org/3/faq/design.html?highlight=case%20switch#why-isn-t-there-a-switch-or-case-statement-in-python)
 
 **References:**
 
