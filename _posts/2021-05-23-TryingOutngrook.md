@@ -8,7 +8,7 @@ readtime: true
 [ngrok](https://ngrok.com/) is a cross-platform application software for enabling developers to deploy or expose their web applications from locally with 
 a associated website url. This works due to the SSH tunnelling.
 
-So this weekend I was trying out ngrok with few of the projects I have work:
+So this weekend I was trying out ngrok with few of the projects I have worked:
 
 - [Project 1: Cartoonizer](https://github.com/Toon-It/Cartoonizer)
 
@@ -19,7 +19,7 @@ my library to fetch and cartoonize image.
 
 - [Project 2: Camunda-formio-tasklist-vue](https://github.com/AOT-Technologies/forms-flow-ai-extensions/tree/master/camunda-formio-tasklist-vue)
 
-Since this is a Vue application, I was expecting to easily use along ngrok. So to use ngrok, instead of using any packages this time. I [created an account
+Since this is a Vue application, I was expecting to easily use along ngrok. Instead of using any packages this time, [I created an account
 in ngrok](https://ngrok.com/) and downloaded the client for the operating system. Then on authenicating with my token and running the command:
 
 `ngrok http 3000`
