@@ -10,14 +10,14 @@ a associated website url. This works due to the SSH tunnelling.
 
 So this weekend I was trying out ngrok with few of the projects I have work:
 
-1. [Project 1: Cartoonizer](https://github.com/Toon-It/Cartoonizer)
+- [Project 1: Cartoonizer](https://github.com/Toon-It/Cartoonizer)
 
 Hosting Cartoonizer is a long pending issue for me. The cartoonizer to use with ngrok. I downloaded the package: `flask-ngrok`. Just making a few 
 changes as [mentioned in the below article](https://www.geeksforgeeks.org/how-to-run-python-flask-app-online-using-ngrok/) got the application up and running
 with a https url. The application was up and running, yet when I tried uploading an image to cartoonize, it failed to work due to the usage of os module in
 my library to fetch and cartoonize image.
 
-2. [Project 2: Camunda-formio-tasklist-vue](https://github.com/AOT-Technologies/forms-flow-ai-extensions/tree/master/camunda-formio-tasklist-vue)
+- [Project 2: Camunda-formio-tasklist-vue](https://github.com/AOT-Technologies/forms-flow-ai-extensions/tree/master/camunda-formio-tasklist-vue)
 
 Since this is a Vue application, I was expecting to easily use along ngrok. So to use ngrok, instead of using any packages this time. I [created an account
 in ngrok](https://ngrok.com/) and downloaded the client for the operating system. Then on authenicating with my token and running the command:
@@ -28,10 +28,13 @@ I was expecting my application to be up. Yet, I faced an error message:
 
 > Invalid Host Header 
 
-On googling a bit, I stumbled upon a solution once I ran the command: `ngrok http 3000 -host-header="localhost:3000`. So my application
-was up and running after a 20-30 seconds page delay(which I  am curious why though?)
+On googling a bit, I stumbled upon a solution once I ran the command: 
 
-3. [Project 3: Augmentation Web App library](https://github.com/kurianbenoy/Augmentation-web-app-library)
+`ngrok http 3000 -host-header="localhost:3000`
+
+So my application was up and running after a 20-30 seconds page delay(which I  am curious why though?)
+
+- [Project 3: Augmentation Web App library](https://github.com/kurianbenoy/Augmentation-web-app-library)
 
 Since this was a streamlit application. When I tried installing in windows, it gave me some SocketIO connection error, which didn't run my application.
 So then I used wsl to run the project and on running it up, it was not getting pointed to an internal IP address instead of localhost. So when I ran ngrok,
