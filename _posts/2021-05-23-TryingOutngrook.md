@@ -5,7 +5,7 @@ author: kurianbenoy
 readtime: true
 ---
 
-ngrok is a cross-platform application software for enabling developers to deploy or expose their web applications from locally with 
+[ngrok](https://ngrok.com/) is a cross-platform application software for enabling developers to deploy or expose their web applications from locally with 
 a associated website url. This works due to the SSH tunnelling.
 
 So this weekend I was trying out ngrok with few of the projects I have work:
