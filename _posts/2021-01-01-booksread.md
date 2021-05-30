@@ -19,6 +19,14 @@ the flow and the climax is when KunnuPathu realises her boasted about the elepha
 they owned during their grandpas time.
 - Pragmatic Programmer : A coding book for you coder, your future colleagues and coder's in the year 2500 also.
 - Clean Coder: Thank you Uncle Bob for teaching all these hard earned lessons to make me a professional programmer.
+- Deep Work: Cal Newport
+
+Cal produced high quality work as a professor in MIT by working deeply and specifically on selected topics. He produced 2 peer journals
+every year in MIT, completed a postdoc and even got a professorship. When he never mostly worked in weekends, and completed most of work
+by evenings. 4-5 deep hours is all you need.
+
+- Suppandi Back to Work
+- Leonardo Da Vinci- A life from beginning to End
 
 ## Currently Reading
 
