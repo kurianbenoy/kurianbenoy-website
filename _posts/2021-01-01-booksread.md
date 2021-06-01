@@ -27,17 +27,19 @@ by evenings. 4-5 deep hours is all you need.
 
 - Suppandi Back to Work
 - Leonardo Da Vinci- A life from beginning to End
+- Twinkle Digest 
 
 ## Currently Reading
 
 - On Writing: A Memoir of the Craft - Stephen King
-- Machine Learning Pipeline
+- High Performance Python Computing (rereading)
 
 ## On the shelf:
 
 - Cracking the coding interview
 - Python cookbook
 - PyImage Search Computer Vision
+- Machine Learning Pipelines
 
 ## Wish List
 
@@ -47,3 +49,4 @@ by evenings. 4-5 deep hours is all you need.
 - Good English - How to writie it
 - Make it Stick: The Science of Successful Learning https://www.goodreads.com/book/show/18770267-make-it-stick
 - The Juggling Act: Bringing Balance to Your Faith, Family, and Work (Pat Gelsinger)
+- Deep Learning Book Fastai color book
