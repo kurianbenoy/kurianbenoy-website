@@ -18,8 +18,8 @@ When I watched this video, I was remembered about the oath doctors take and *Unc
 The human body is too complex to understand in it’s entirety and take years of expertise to specialize in something, but doctors
 still take an oath to do no harm. New viruses can comes with lot of new novelty like Nipah, Covid-19, yet doctors still adhere to there oath of doing no harm.
 
-For Coders like you and me, we also need to be take this simple oath. I am sharing why Uncle Bobs suggests all of us to take this oath by
-sharing one of his failures in a project he was working:
+I am sharing why Uncle Bobs suggest coders like you and me to take this oath of `DO NO HARM`. Uncle Bob is
+sharing the story of one of his software failures:
 
 
 >On one occasion I shipped a new release to several dozen customers. “Ship” is exactly the right word. I wrote the software onto tapes and shipped those tapes to the customers. The customers loaded the tapes and then rebooted the systems. 
@@ -35,16 +35,19 @@ sharing one of his failures in a project he was working:
 >Upon reflection I realized that shipping without testing the routine had been irresponsible. The reason I neglected the test was so I could say I had shipped on time. It was about me saving face. I had not been concerned about the customer, nor about my employer. I had only been concerned about my own reputation. I should have taken responsibility early and told Tom that the tests weren’t complete and that I was not prepared to ship the software on time. That would have been hard, and Tom would have been upset. But no customers would have lost data, and no service managers would have called.
 
 
-**Now Uncle Bob says why we also need to take this simple oath as coders:**
+**Now Uncle Bob says why we should take this simple oath as coders:**
+
+![image](https://user-images.githubusercontent.com/24592806/120883409-99565580-c5fa-11eb-91e2-d185d5b4535b.png)
+
 
 ## Do No Harm
 
-So how do we take responsibility? There are some principles. Drawing from the Hippocratic oath may seem arrogant, but what better source is there? And, indeed, doesn’t it make sense that the first responsibility, and first goal, of an aspiring professional is to use his or her powers for good? What harm can a software developer do? From a purely software point of view, he or she can do harm to both the function and structure of the software. We’ll explore how to avoid doing just that.
+>So how do we take responsibility? There are some principles. Drawing from the Hippocratic oath may seem arrogant, but what better source is there? And, indeed, doesn’t it make sense that the first responsibility, and first goal, of an aspiring professional is to use his or her powers for good? What harm can a software developer do? From a purely software point of view, he or she can do harm to both the function and structure of the software. We’ll explore how to avoid doing just that.
 
 ### Do No Harm to Function
-Clearly, we want our software to work. Indeed, most of us are programmers today because we got something to work once and we want that feeling again. But we aren’t the only ones who want the software to work. Our customers and employers want it to work too. Indeed, they are paying us to create software that works just the way they want it to. We harm the function of our software when we create bugs. Therefore, in order to be professional, we must not create bugs. “But wait!” I hear you say. “That’s not reasonable. Software is too complex to create without bugs.
+>Clearly, we want our software to work. Indeed, most of us are programmers today because we got something to work once and we want that feeling again. But we aren’t the only ones who want the software to work. Our customers and employers want it to work too. Indeed, they are paying us to create software that works just the way they want it to. We harm the function of our software when we create bugs. Therefore, in order to be professional, we must not create bugs. “But wait!” I hear you say. “That’s not reasonable. Software is too complex to create without bugs.
 
-Of course you are right. Software is too complex to create without bugs. Unfortunately that doesn’t let you off the hook. The human body is too complex to understand in it’s entirety, but doctors still take an oath to do no harm. If they don’t take themselves off a hook like that, how can we? “Are you telling us we must be perfect?” Do I hear you object? No, I’m telling you that you must be responsible for your imperfections. The fact that bugs will certainly occur in your code does not mean you aren’t responsible for them. The fact that the task to write perfect software is virtually impossible does not mean you aren’t responsible for the imperfection. It is the lot of a professional to be accountable for errors even though errors are virtually certain. So, my aspiring professional, the first thing you must practice is apologizing. Apologies are necessary, but insufficient. You cannot simply keep making the same errors over and over. As you mature in your profession, your error rate should rapidly decrease towards the asymptote of zero. It won’t ever get to zero, but it is your responsibility to get as close as possible to it.
+>Of course you are right. Software is too complex to create without bugs. Unfortunately that doesn’t let you off the hook. The human body is too complex to understand in it’s entirety, but doctors still take an oath to do no harm. If they don’t take themselves off a hook like that, how can we? “Are you telling us we must be perfect?” Do I hear you object? No, I’m telling you that you must be responsible for your imperfections. The fact that bugs will certainly occur in your code does not mean you aren’t responsible for them. The fact that the task to write perfect software is virtually impossible does not mean you aren’t responsible for the imperfection. It is the lot of a professional to be accountable for errors even though errors are virtually certain. So, my aspiring professional, the first thing you must practice is apologizing. Apologies are necessary, but insufficient. You cannot simply keep making the same errors over and over. As you mature in your profession, your error rate should rapidly decrease towards the asymptote of zero. It won’t ever get to zero, but it is your responsibility to get as close as possible to it.
 
 
 `:wq`
