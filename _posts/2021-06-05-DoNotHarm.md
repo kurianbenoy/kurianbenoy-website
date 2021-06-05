@@ -1,5 +1,5 @@
 ---
-title: Do no harm - Professional Code of Conduct for programmers
+title: Do no harm - COC for programmers
 type: post
 readtime: true
 ---
