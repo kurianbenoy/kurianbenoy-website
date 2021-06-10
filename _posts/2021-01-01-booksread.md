@@ -34,6 +34,7 @@ by evenings. 4-5 deep hours is all you need.
 
 - High Performance Python Computing (rereading)
 - The Great Train Journey  - Ruskin Bond
+- introduction to deep learning, fastai, and PyTorch : Jeremy Howards & Sylvain Gugger (reading along with Study group for FastBook)
 
 
 ## Wish List
