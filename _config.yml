@@ -20,6 +20,7 @@ title: Kurian Benoy
 
 # List of links in the navigation bar
 navbar-links:
+  Talks: "talks"
   About Me: "aboutme"
   Contact Me:
     - Linkedin : "https://www.linkedin.com/in/kurian-benoy-75642b120/"
