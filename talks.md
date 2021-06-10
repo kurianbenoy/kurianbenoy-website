@@ -6,8 +6,9 @@ subtitle: Few of my talks and presentations.
 
 
 > I like to frequently attend conferences, meetups, devsprints and workshops to learn and 
-interact with awesome people. These contain the Slides photos and video links for few of the
-talks which I have delivered.
+interact with awesome people. 
+
+These contain the Slides photos and video links for few of the talks which I have delivered.
 
 | # | Topic | Venue | Event | Date | Slides | Relevant Links |
 | :--- |:------ |:---| :--- | :--- | :--- | :---|
