@@ -1,8 +1,15 @@
-## Talks
+---
+layout: page
+title: My Talks
+subtitle: Few of my talks and presentations.
+---
+
 
 I like to frequently attend conferences, meetups, devsprints and workshops to learn and 
-interact with awesome people to learn from the expert.
+interact with awesome people. These contain the Slides photos and video links for few of the
+talks which I have delivered.
 
+| # | Topic | Venue | Event | Slides | Relevant Links |
 1. Project Showcase - ToonIt project, TFUG India - September 6, 2020. [Talk Video](https://youtu.be/qi1cVGTa3sg?t=9618)
 2. Tinkerhub Learning class- Python for beginners, February-March, 2020 - [Talk Video](https://www.youtube.com/watch?v=2RzImb5JwMA)
 3. Machine Learning Models and Dataset Versioning, Pycon India , Chennai, October 13, 2019 [Talk Video](https://www.youtube.com/watch?v=Ipzf6oQqQpo)
