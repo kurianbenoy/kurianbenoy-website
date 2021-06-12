@@ -1,5 +1,5 @@
 ---
-title: Learning FastBook along with study group, Log #0
+title: Log #0 Learning FastBook along with study group
 type: post
 published: true
 ---
