@@ -2,6 +2,8 @@
 title: Log 0- Learning FastBook along with study group
 type: post
 published: true
+tag: [fastbook, myself]
+readtime: true
 ---
 
 
