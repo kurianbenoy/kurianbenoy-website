@@ -2,6 +2,7 @@
 title: Mentoring ML students in Tinkerhub
 type: post
 published: false
+tags: [Tinkerhub, ML, Deep learning]
 ---
 
 Hello world...
