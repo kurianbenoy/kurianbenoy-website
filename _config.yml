@@ -85,7 +85,7 @@ url-pretty: "kurianbenoy.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#1a5a96"
+navbar-col: "#ca6328"
 navbar-text-col: "#ffffff"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
