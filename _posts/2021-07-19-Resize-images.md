@@ -5,9 +5,9 @@ tags: [TIL, Python]
 author: 'Kurian Benoy'
 ---
 
-Resizing images to smaller dimension to meet size requirements is needed for most of application processes in India like Entrance Exams.
-It has been needed recently to resize some images for this website, when writing articles.  always relied some online tools to resize, which is full of ads.
-Recently I tried to do it with Python and pretty easy to do it.
+Resizing images to smaller dimension to satisfy the file size or height/width requirements is something we have faced multiple times.
+Most of the online tools which I previously used were full of advertisments, and even required to login which is something I hated a lot.
+Today I learned to do this tedious job with python and it's pretty easy also.
 
 Library used: Pillow
 
