@@ -33,3 +33,27 @@ Save file as `resize.py` and run the script with:
 
 > python3 resize.py image.jpg
 
+Thanks to [Jishnu](https://twitter.com/jishnu7) and [Rajeesh](https://twitter.com/rajeeshknambiar), I learned there is another tool called ImageMagick. It can
+also resize images, along with a ton more other cool stuff.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Try image magic, I think it is built into most distros (if not, easy to install via system package manager) and supports more than 200 formats. Easy to use as well.</p>&mdash; Jishnu (@jishnu7) <a href="https://twitter.com/jishnu7/status/1417363498120605696?ref_src=twsrc%5Etfw">July 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**To Install ImageMagick in your debian based distro:**
+
+```
+sudo apt install imagemagick
+```
+
+To resize images with height, width use the option:
+
+```
+convert -resize 300x720 image.jpg resized_image.jpg
+```
+
+You can resize also based on the quality as follows:
+
+```
+convert -quality 50 image.jpg resized_image.jpg
+```
+
+
