@@ -1,5 +1,5 @@
 ---
-title: Why are popular npm packages are very small in sizes like less than 1MB?
+title: Why should NPM packages be as small as possible?
 type: post
 tags: [TIL, JavaScript]
 show-avatar: false
