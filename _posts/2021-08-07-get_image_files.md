@@ -3,6 +3,10 @@ title: Understanding get_image_files in fastai
 type: post
 published: true
 tags: [TIL, Python, fastai]
+show-avatar: false
+share-description: get_image_files is used in fastai library to get all image files corresponding to a folder path. Let's look how it's actually fetchinging all image_files by looking into source, and understanding what it's actually doing.
+share-img: /img/fastai.png
+gh-repo: fastai/fastai
 ---
 
 In **fastai library** we use Datablocks like the below example for loading datasets, and to train models.
@@ -22,7 +26,7 @@ In this Datablock `get_items`, we are using the `get_image_files` to load the im
 I was curious how to see how `get_image_files` worked under the hood to return all the
 image files in a dataset. As [Jeremy](https://twitter.com/jeremyphoward) always suggests,
 I started looking into source code by handy question mark functionality in Jupyter Notebooks.
- The source code for get_image_files can be found in [fastai repo here](https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py). The source code for `get_image_files` function:
+ The source code for `get_image_files` can be found in [fastai repo here](https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py). The source code for `get_image_files` function:
 
 {% highlight python linenos %}
 def get_image_files(path, recurse=True, folders=None):
@@ -219,7 +223,7 @@ pointing to various filenames.
 ```
 
 This is how the `get_image_files`, returns a L object based on fastcore for any object.
-For the BIWI Dataset, the output of `get_image_files` and `get_files` is as following:
+For the [BIWI Dataset](https://www.kaggle.com/kmader/biwi-kinect-head-pose-database), the output of `get_image_files` and `get_files` is as following:
 
 ![image](https://user-images.githubusercontent.com/24592806/128119162-41abebab-dda4-4d8b-b781-2d81d501b8aa.png)
 
@@ -234,7 +238,9 @@ reach out to me [@kurianbenoy2](https://twitter.com/kurianbenoy2).
 ### References
 
 [1] [Fastai source code](https://github.com/fastai/fastai)
+
 [2] [Python os module](https://docs.python.org/3/library/os.html#os.listdir)
+
 [3] [Deep Learning for Coders with Fastai and Pytorch: AI Applications Without a PhD
 ](https://github.com/fastai/fastbook)
 
