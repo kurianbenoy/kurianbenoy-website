@@ -2,6 +2,7 @@
 title: Understanding get_image_files in fastai
 type: post
 published: true
+readtime: true
 tags: [TIL, Python, fastai]
 show-avatar: false
 share-description: get_image_files is used in fastai library to get all image files corresponding to a folder path. Let's look how it's actually fetchinging all image_files by looking into source, and understanding what it's actually doing.
@@ -26,7 +27,7 @@ In this Datablock `get_items`, we are using the `get_image_files` to load the im
 I was curious how to see how `get_image_files` worked under the hood to return all the
 image files in a dataset. As [Jeremy](https://twitter.com/jeremyphoward) always suggests,
 I started looking into source code by handy question mark functionality in Jupyter Notebooks.
- The source code for `get_image_files` can be found in [fastai repo here](https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py). The source code for `get_image_files` function:
+ The source code for `get_image_files` can be found in [fastai repo here](https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py). The source code for `get_image_files` function is:
 
 {% highlight python linenos %}
 def get_image_files(path, recurse=True, folders=None):
@@ -34,7 +35,7 @@ def get_image_files(path, recurse=True, folders=None):
     return get_files(path, extensions=image_extensions, recurse=recurse, folders=folders)
 {% endhighlight %}
 
-You can see it's expecting the `path` to the folder where files are present in the image folder.
+You can see it's expecting the path to the folder where files are present in the image folder.
 Also the function signature, consists of `recurse=True` and `folder=None` by default.
 
 You can see `get_image_files` function is calling `get_files(path, extensions=image_extensions, recurse=recurse, folders=folders)` on passing with
@@ -50,7 +51,8 @@ image_extensions = set(k for k,v in mimetypes.types_map.items() if v.startswith(
 
 The `image extensions` is just a variable returning a set
 of images from the [mimetypes](https://docs.python.org/3/library/mimetypes.html),
-which is part of Python standard library to map filenames to MIME types. You can check out the output to see it returns a whole list of image type extensions.
+which is part of Python standard library to map filenames to MIME types. Let's see `image_extensions` output to
+see whole set of image type extensions.
 
 ```
 >>> image_extensions
@@ -126,10 +128,12 @@ file structure.
 
 ![image](https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png)
 
-`os.scandir` returns an iterator of Directory objects. In Python `os` module, there is an `os.listdir(path='.')` which does the same functionality as `scandir` which gives a
-better performance for many common use cases. [1]
+`os.scandir` returns an iterator of Directory objects. In Python `os` module, there is an `os.listdir(path='.')` which does the same functionality as
+`scandir`. Yet `scandir` gives a better performance for most of common use cases. [1]
 
-> f = [o.name for o in os.scandir(path) if o.is_file()]
+```
+f = [o.name for o in os.scandir(path) if o.is_file()]
+```
 
 It returns a list of file extensions as shown below with list comprehensions, where `is_file()` returns, if it's a file or whether it's pointing to a directory with `followlinks`.
 
@@ -188,12 +192,16 @@ and associate file path as a list. This is being passed to `_get_files(p, f, ext
 ./logs/refs/heads ['master']
 ```
 
-Just to summarise how the `get_files` function is working it will be useful to look at the below
-illustration:
+Just to summarise how the `get_files` function is working it will be useful to look at the below illustration:
 
 ![WhatsApp Image 2021-08-09 at 8 12 10 AM](https://user-images.githubusercontent.com/24592806/128655593-d9027327-fd2f-46f4-aebb-140fa9b14e02.jpeg)
 
-When `recurse=False`, for path bears. It returns just README as a list excluding (.gitignore) and directories.
+When `recurse=False`, for path bears. It returns just returns file README excluding (.gitignore) and directories.
+
+```
+>>> get_files(path, recurse=False)
+['README']
+```
 
 While `recurse=True`, for path bears. It returns all valid files inside the root directory as well as 
 in folders such grizzly, black, teddy, details, folder etc.
