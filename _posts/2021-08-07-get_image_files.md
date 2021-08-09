@@ -1,11 +1,13 @@
 ---
-title: Understanding get_image_files in fastai codebase
+title: Understanding get_image_files in fastai
 type: post
 published: true
 tags: [TIL, Python, fastai]
 ---
 
-In fastai, in chapter 2 for loading the Bear dataset, after downloading. We used the following `DataBlock` to load the dataset:
+In **fastai library** we use Datablocks like the below example for loading datasets, and to train models.
+The below code is DataBlock, which is used to load a dataset of various types of bears to split
+into train and validation datasets along and to resize images to size 128*128. For a detailed explanation, check on From Data to DataLoaders section in [Chapter 2 of Fastbook](From Data to DataLoaders).
 
 ```
 bears = DataBlock(
@@ -16,35 +18,48 @@ bears = DataBlock(
     item_tfms=Resize(128))
 ```
 
-In the get_items, we are using the `get_image_files` to load the images. I was curious how to see how get_image_files worked under
-the hood to return the image files in a particular directory. The source for [get_image_files can be found in fastai repo](https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py).
+In this Datablock `get_items`, we are using the `get_image_files` to load the images.
+I was curious how to see how `get_image_files` worked under the hood to return all the
+image files in a dataset. As [Jeremy](https://twitter.com/jeremyphoward) always suggests,
+I started looking into source code by handy question mark functionality in Jupyter Notebooks.
+ The source code for get_image_files can be found in [fastai repo here](https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py). The source code for `get_image_files` function:
 
-If you look at the get_image_files function:
-
-{% highlight python %}
+{% highlight python linenos %}
 def get_image_files(path, recurse=True, folders=None):
     "Get image files in `path` recursively, only in `folders`, if specified."
     return get_files(path, extensions=image_extensions, recurse=recurse, folders=folders)
 {% endhighlight %}
 
-You can see it's expecting where the files are present in the image folder. Also it's calling another function called `get_files` on passing with
-extensions `image_extensions`. The `image extensions` is just a variable returning a set of images from the [mimetypes](https://docs.python.org/3/library/mimetypes.html),
-which is part of python standard library to map filenames to MIME types. You can checkout the output to see it returns a whole list of image type extensions.
+You can see it's expecting the `path` to the folder where files are present in the image folder.
+Also the function signature, consists of `recurse=True` and `folder=None` by default.
 
-```
+You can see `get_image_files` function is calling `get_files(path, extensions=image_extensions, recurse=recurse, folders=folders)` on passing with
+extensions set as `image_extensions`. 
+
+> What is image_extensions doing?
+
+{% highlight python linenos %}
 import mimetypes
 
 image_extensions = set(k for k,v in mimetypes.types_map.items() if v.startswith('image/'))
+{% endhighlight %}
+
+The `image extensions` is just a variable returning a set
+of images from the [mimetypes](https://docs.python.org/3/library/mimetypes.html),
+which is part of Python standard library to map filenames to MIME types. You can check out the output to see it returns a whole list of image type extensions.
+
+```
+>>> image_extensions
+{'.jpg', '.svg', '.pgm', '.png', '.xbm', '.jpe', '.pbm', '.pnm', '.rgb', '.tiff', '.xpm', '.jpeg', '.ras', '.ico', '.tif', '.ppm', '.xwd', '.gif', '.bmp', '.ief'}
 ```
 
-![image](https://user-images.githubusercontent.com/24592806/128119066-1a898e9f-1fd8-4e90-9cb4-25b5591af430.png)
-
 `mimetypes.types_map.items()` returns a dictionary items. It consists of key, value pair and we 
-are selecting value pairs starting with the word `image/` to return a set of image_extensions.
+are selecting value pairs starting with the word `image/` to return a set of image_extensions
+as shown in the above output.
 
 
-Now let's look at `get_files` function, which returns a list of files, based on extensions passed in folder path. Let's look into that function
-as well:
+Now let's look at `get_files` function, which returns a list of files, based on extensions passed, folders. Let's look into the source code of `get_files(path, extensions=None, recurse=True, folders=None, followlinks=True`
+ function as well:
 
 {% highlight python linenos %}
 def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True):
@@ -66,8 +81,7 @@ def get_files(path, extensions=None, recurse=True, folders=None, followlinks=Tru
     return L(res)
 {% endhighlight %}
 
-Let's understand what the function `get_files(path, extensions=None, recurse=True, folders=None, followlinks=True)` is doing line by line.
-Let's look at first few lines of code.
+Let's understand what the function `get_files(path, extensions=None, recurse=True, folders=None, followlinks=True)` is doing line by line.Let's look at the first few lines of code.
 
 ```
 from fastcore.all import L, setify
@@ -81,19 +95,16 @@ def get_files(path, extensions=None, recurse=True, folders=None, followlinks=Tru
     extensions = {e.lower() for e in extensions}
 ```
 
-We are converting the path provided to us into a Pathlib object, and folders is converted
-to special Python like list called (L) based on `fastcore` library. The extensions are converted to a 
-set, if it's being passed as list. All the extensions are converted to lower case characters, if any
-extension is in uppper case.
+We are converting the path provided to us into a Pathlib object, and folders are converted
+to a special Python-like list called (L) based on the `fastcore` library. The extensions are converted to a 
+set if it's being passed as a list, range, string etc. using `setify`. All the extensions are converted to lower case characters if any extension is in upper case. To read more about the `setify` function check
+[the fastcore docs](https://fastcore.fast.ai/basics.html#setify).
 
-If function definition, we have by default passed `recurse=True`. If it's True, it goes through all the 
-files in File path we have passed as well as going inside various folders inside the File Path 
-recursively. Else if `recurse=False`, we just goes through all files in the File Path we have passed
-without going inside various folder.
+If function definition, we have by default passed `recurse=True`. If it's True, it goes through all the files in the File path we have passed as well as going inside various folders inside the File Path recursively. Else if `recurse=False`, we just go through all files in the File Path we have passed
+without going inside various folders.
 
 ```
-from fastcore.all import L, setify
-from pathlib import Path
+import os
 
 def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True):
     ...
@@ -111,25 +122,83 @@ file structure.
 
 ![image](https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png)
 
-`os.scandir` returns an iterator of Directory objects. In Python `os` module, there is a `os.listdir(path='.')` which does the exact same functionality as `scandir` which gives a
+`os.scandir` returns an iterator of Directory objects. In Python `os` module, there is an `os.listdir(path='.')` which does the same functionality as `scandir` which gives a
 better performance for many common use cases. [1]
 
 > f = [o.name for o in os.scandir(path) if o.is_file()]
 
-It returns a list of file extensions as shown below with list compreheneshions, where `is_file()` returns, if it's actually file or whether it's pointing to a directory with followlinks.
+It returns a list of file extensions as shown below with list comprehensions, where `is_file()` returns, if it's a file or whether it's pointing to a directory with `followlinks`.
 
 ```
->>> [o.name for o in os.scandir(t) if o.is_file()]
+>>> path=Path('.git')
+>>> [o.name for o in os.scandir(path) if o.is_file()]
 ['index', 'HEAD', 'packed-refs', 'config', 'description']
 ```
 
-If `recurse=True`, it goes through all the directories and work on files
-recursively. Let's look at the sources code and try to understand more
+If `recurse=True`, it goes through all the directories and works on files
+recursively. Let's look at the sources code and try to understand more.
 
- After that it's passed to `_get_files` function, which return the list of filenames to a list
+{% highlight python linenos %}
+import os
+
+def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True):
+    ...
+    ...
+    if recurse:
+        res = []
+        for i,(p,d,f) in enumerate(os.walk(path, followlinks=followlinks)): # returns (dirpath, dirnames, filenames)
+            if len(folders) !=0 and i==0: d[:] = [o for o in d if o in folders]
+            else:                         d[:] = [o for o in d if not o.startswith('.')]
+            if len(folders) !=0 and i==0 and '.' not in folders: continue
+            res += _get_files(p, f, extensions)
+    else:
+        f = [o.name for o in os.scandir(path) if o.is_file()]
+        res = _get_files(path, f, extensions)
+{% endhighlight %}
+
+I would highly recommend the functionality of `os.walk`  by checking this [article](https://www.pythonforbeginners.com/code-snippets-source-code/python-os-walk).
+You can see that on iterating through `os.walk()`, we can get the directory path,
+and associate file path as a list. This is being passed to `_get_files(p, f, extension)` function.
+
+```
+>>> for i,(p,d,f) in enumerate(os.walk(path, followlinks=True)): # returns (dirpath, dirnames, filenames):
+...     print(p, f)
+...
+. ['index', 'HEAD', 'packed-refs', 'config', 'description', '.env']
+./.gitignore []
+./branches []
+./hooks ['fsmonitor-watchman.sample', 'update.sample', 'pre-applypatch.sample', 'pre-push.sample', 'pre-receive.sample', 'applypatch-msg.sample', 'pre-commit.sample', 'prepare-commit-msg.sample', 'commit-msg.sample', 'post-update.sample', 'pre-rebase.sample']
+./objects []
+./objects/pack ['pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.pack', 'pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.idx']
+./objects/info []
+./info ['exclude']
+./refs []
+./refs/tags []
+./refs/remotes []
+./refs/remotes/origin ['HEAD']
+./refs/heads ['master']
+./logs ['HEAD']
+./logs/refs []
+./logs/refs/remotes []
+./logs/refs/remotes/origin ['HEAD']
+./logs/refs/heads ['master']
+```
+
+Just to summarise how the `get_files` function is working it will be useful to look at the below
+illustration:
+
+![WhatsApp Image 2021-08-09 at 8 12 10 AM](https://user-images.githubusercontent.com/24592806/128655593-d9027327-fd2f-46f4-aebb-140fa9b14e02.jpeg)
+
+When `recurse=False`, for path bears. It returns just README as a list excluding (.gitignore) and directories.
+
+While `recurse=True`, for path bears. It returns all valid files inside the root directory as well as 
+in folders such grizzly, black, teddy, details, folder etc.
+
+
+ After that, it's passed to `_get_files` function, which returns the list of filenames to a list
  of pathlib Path of various filenames. 
 
-{% highlight python %}
+{% highlight python linenos %}
 def _get_files(p, fs, extensions=None):
     p = Path(p)
     res = [p/f for f in fs if not f.startswith('.')
@@ -137,10 +206,12 @@ def _get_files(p, fs, extensions=None):
     return res
 {% endhighlight %}
 
-`fs`, the list of files returned. We are not passing files which are starting with `.` like `.gitignore or env` as it's not usually very useful for our dataset to get as files. Also it's not returning
+`fs`, the list of files returned. We are not passing files that are starting with `.` like `.gitignore or .env` as it's not usually very useful for our dataset to get as files. Also, it's not returning
 file extensions passed or `f'.{f.split(".")[-1].lower()}'` in extensions.
 
-res on passing `p/f` for the list of files will become a list of paths.
+res on passing `p/f` for the list of files will become a list of paths as shown in the below result.
+Transforming from a list of file names, we are transforming it to a list of Pathlib module Path,
+pointing to various filenames.
 
 ```
 >> get_files(Path('.'))
@@ -154,14 +225,16 @@ For the BIWI Dataset, the output of `get_image_files` and `get_files` is as foll
 
 ### Conclusion
 
-I hope with this blogpost, you now have understood how `get_image_files`, fetches
+I hope with this blog post, you now have understood how `get_image_files`, fetch
 the list of images under the hood by looking into the source code. 
 
 In case, if I have missed something or to provide feedback, please feel free to
-reach out to me [@kurianbenoy](https://twitter.com/kurianbenoy2).
+reach out to me [@kurianbenoy2](https://twitter.com/kurianbenoy2).
 
 ### References
 
-[1] https://docs.python.org/3/library/os.html#os.listdir
-
+[1] [Fastai source code](https://github.com/fastai/fastai)
+[2] [Python os module](https://docs.python.org/3/library/os.html#os.listdir)
+[3] [Deep Learning for Coders with Fastai and Pytorch: AI Applications Without a PhD
+](https://github.com/fastai/fastbook)
 
