@@ -29,11 +29,14 @@ by evenings. 4-5 deep hours is all you need.
 - Leonardo Da Vinci- A life from beginning to End
 - Twinkle Digest 
 - On Writing: A Memoir of the Craft - Stephen King
+- The Great Train Journey  - Ruskin Bond
+- So Good They can't ignore you - Cal Newport
+
+
 
 ## Currently Reading
 
 - High Performance Python Computing (rereading)
-- The Great Train Journey  - Ruskin Bond
 - introduction to deep learning, fastai, and PyTorch : Jeremy Howards & Sylvain Gugger (reading along with Study group for FastBook)
 
 
