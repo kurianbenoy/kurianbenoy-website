@@ -2,6 +2,9 @@
 title: Conversation with Vue.js Core Developer Ben Hong
 type: post
 tags: [Vue, Vue3, Interview]
+readtime: True
+cover-img: "/img/ben.jpg"
+share-img: "/img/ben.jpg"
 ---
 
 **1. Will class based components supported in Vue3? What is support of it?**
