@@ -19,6 +19,8 @@ Really good(adipoli) - Sema
 Kallai Vanakkam - Good Morning
 Nandri  - Thank you
 Romba / Nerya - More
+nal - days
+romba nal achu eppadi irikkenga -
 ```
 
 In malayalam, we have different slangs and it's obviously difficult to understand few of words like
