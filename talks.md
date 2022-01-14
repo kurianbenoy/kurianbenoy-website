@@ -12,7 +12,7 @@ These contain the Slides photos and video links for few of the talks which I hav
 
 | # | Topic | Venue | Event | Date | Slides | Links |
 | :-- |:---- |:----| :---- | :---- | :--- | :---|
-|1. | Demystifying Async & Await in Python & JavaScript | Online using Hoppin | Pycon India | September 19, 2021 | [Slide Link](https://speakerdeck.com/kurianbenoy/demysitfying-async-and-await-in-python-and-javascript)| Will be available soon |
+|1. | Demystifying Async & Await in Python & JavaScript | Online using Hoppin | Pycon India | September 19, 2021 | [Slide Link](https://speakerdeck.com/kurianbenoy/demysitfying-async-and-await-in-python-and-javascript)| [Talk Video](https://youtu.be/ZRtnuGK-e7Y) |
 |2. | Machine Learning Models and Dataset Versioning | Chennai Trade Center ,Chennai, India | Pycon India | October 13, 2019 | [Slide Link](https://speakerdeck.com/kurianbenoy/ml-models-and-dataset-versioning)| [Talk Video](https://www.youtube.com/watch?v=Ipzf6oQqQpo) |
 |3. | At the Eye of Flood - Keralarescue.in | Life Long Learning Institue, Singapore  | FOSSASIA Summit  | 17 March 2019 |  [Slide Link](https://speakerdeck.com/kurianbenoy/at-the-eye-of-flood-keralarescue-dot-in)  | [Talk Video](https://www.youtube.com/watch?v=2RzImb5JwMA) |
 |4. | Project Showcase - ToonIt project | Online | Tensorflow UserGroup India Summit 2020| September 6, 2020 |  [Slide Link](https://speakerdeck.com/kurianbenoy/tensorflow-user-groups-tfug-india-summit) | [Talk Video](https://youtu.be/qi1cVGTa3sg?t=9618) |
