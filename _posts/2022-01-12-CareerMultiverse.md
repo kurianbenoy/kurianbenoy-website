@@ -68,6 +68,15 @@ Asynchrnous nature of job: Yes prefer it, I don't like anyone to push me on cruc
 - Become a senior Software engineer
 - Build an open source project with 1000+ stars
 - Earn 50LPA
+- Travel 5 countries
+
+10 year goals:
+- Become a principal developer or be in like CTO role
+- Work in Faang company probably
+
+How can I achieve my goals?
+
+
 
 
 
