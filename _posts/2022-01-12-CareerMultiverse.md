@@ -73,6 +73,7 @@ Asynchrnous nature of job: Yes prefer it, I don't like anyone to push me on cruc
 10 year goals:
 - Become a principal developer or be in like CTO role
 - Work in Faang company probably
+- Until 10 yrs being a full stack developer gives you more opportunities Kurian to explore and be in a good position(Sankar)
 
 How can I achieve my goals?
 
