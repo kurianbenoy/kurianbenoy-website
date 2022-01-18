@@ -50,5 +50,65 @@ Hours per week - 60
 Stess level of job - less
 Enjoyment level in job - getting less and less
 
+SDT Patterns (Feel part of community, need autonomy etc.)
+
+Am I working on the tech stack I like: (Not exactly, I like to try out FastAPI etc)
+Remote nature: prefer it more
+Asynchrnous nature of job: Yes prefer it, I don't like anyone to push me on crucial decisions and deliver stuff on time
+
+**Level 3**
+
+1 year goals:
+
+- Become from mediumly proficient in Python to being advanced user
+- Then make my DSA knowledge from 20/100 to 70/100
+
+5 year goals:
+
+- Become a senior Software engineer
+- Build an open source project with 1000+ stars
+- Earn 50LPA
+
+
+
+See Salil pattern of progress:
+
+```
+ I went from having no offers to 4 high paying offers, all of which were 3x to 10x the average package in my college.
+
+This wouldn't have been possible had I not stood out from the college crowd.
+
+Here are a few things that worked for me. 
+
+1. I learnt on my own.
+Since my freshman year, I spent more time learning on the internet than in the classrooms. The internet allowed me to learn what I'm passionate about. 
+
+2. Focused on the skills that mattered to me.
+I didn't get carried away by trends and hypes. Instead, I focused on improving my frontend development, UI/UX and leadership skills. 
+
+3. Built a lot of projects
+I built more client projects than personal projects.
+
+Though this allowed me to build a reputation & skills and earn handsome money, I would suggest building personal projects over client projects as the latter comes with long term responsibilities. 
+
+4. Surrounded me with the right people.
+Can't stress enough how important this is, especially if you are from tier 3 college. Being with people better than me helped me grow and learn a lot. I met most of them on Twitter or through open-source programs, hackathons & fellowships 
+
+5. Knowing my worth.
+I would have accepted my very first offer had I not known my worth. It was a pretty good package, probably the best in the history of my college. But I knew I could do better and was aware of what I brought to the table. 
+
+But that's not the whole story. I discussed my offers with my friends who were already doing better than me and they too influenced my decisions. So you see, being with the right people helps. 
+
+6. Internships and fellowships.
+I did a lot of internships. And honestly, each of my internships lasted more than the relationships these days. Internships coupled with client projects put a lot of weight on the experience section in my resume. My skills improved a lot. 
+
+Fellowships are the best place to network with ambitious and driven people. I got to learn the latest stuff from the best mentors in a fun way. You should definitely check out Devfolio fellowships. 
+
+7. Result-driven work
+Hard work without positive results can be very disappointing. I always started things with an end goal in mind and then worked hard to reach the goal. This worked pretty well for me as I achieved a lot by following this strategy. 
+
+These are some of the things that helped me stand out from the rest and hopefully, it will help you too.
+```
+
 
 
