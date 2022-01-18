@@ -23,11 +23,11 @@ navbar-links:
   Talks: "talks"
   About Me: "aboutme"
   TIL: "https://til.kurianbenoy.com/"
+  Github: "https://github.com/kurianbenoy"
+  Kaggle: "https://www.kaggle.com/kurianbenoy"
+  Linkedin: "https://www.linkedin.com/in/kurianbenoy/"
   Contact Me:
-    - Linkedin : "https://www.linkedin.com/in/kurian-benoy-75642b120/"
     - Twitter : "https://twitter.com/kurianbenoy2"
-    - Github : "https://github.com/kurianbenoy"
-    - Kaggle : "https://www.kaggle.com/kurianbenoy"
 
 # --- Logo --- #
 
