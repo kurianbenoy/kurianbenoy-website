@@ -3,7 +3,7 @@ title: Understanding get_image_files in fastai
 type: post
 published: true
 readtime: true
-tags: [TIL, Python, fastai]
+tags: [TIL, Python, fastai, fastbook]
 show-avatar: false
 share-description: get_image_files is used in fastai library to get all image files corresponding to a folder path. Let's look how it's actually fetchinging all image_files by looking into source, and understanding what it's actually doing.
 share-img: /img/fastai.png
