@@ -2,6 +2,8 @@
 title: Starting an open source project - Malayalam Text Classifier
 type: post
 tags: [malayalamtextmodels, malayalam, NLP , opensource, ML, Deep learning]
+readtime: true
+published: false
 ---
 
 > TLDR: Kurian has commited to start an open source project for Text classification task in Malayalam which is going to be build as open source under [SMC community](https://smc.org.in/). 
@@ -27,11 +29,11 @@ Very few people seems to have applied techniques in deep learning in Malayalam, 
 
 I beleive working on task like `Text classification` is way more difficult when we are working in low-resource languages like Malayalam. Yet when working in problems like this, you realize what are things you take granted in English language.
 
-In English language, there are plenty of labelled datasets on any problem set you want. Lot of articles and blogs have written on how to apply various NLP techniques in English. When it comes to Malayalam, there are just handful of people who have tried learning this language, and trying applying this in Malayalam.
+In English language, there are plenty of labelled datasets on any problem set you want. Lot of articles and blogs have written on how to apply various NLP techniques in English. When it comes to Malayalam, there are just handful of people who have tried and applied this in Malayalam.
 
 > Note to myself: Will is more important than Skill and it's important to tenatious here.
 
-I believe this is here, it's very important to believe in one's tenacity and try out new things in a field where there is very less research happening, and there is no proper open datasets for researchers to work. This is why I feel this project can be challenging, and my approach is to see if the latest transformer approaches can do something or not. I will blog continuously while I work on this project.
+I believe this is here, it's very important to believe in one's tenacity and try out new things in a field where very less research happening, and there is no proper open datasets for researchers to work. This is why I feel this project can be challenging, and my approach is to see if the latest transformer approaches can do something or not.
 
 ## Previous  work: Vaaku2Vec
 
@@ -41,9 +43,9 @@ According to their github README:
 
 > We trained a Malayalam language model on the Wikipedia article dump from Oct, 2018. The Wikipedia dump had 55k+ articles. The difficuly in training a Malayalam language model is text tokenization, since Malayalam is a highly inflectional and agglutinative language. In the current model, we are using nltk tokenizer (will try better alternative in the future) and the vocab size is 30k. The language model was used to train a classifier which classifies a news into 5 categories (India, Kerala, Sports, Business, Entertainment). Our classifier came out with a whooping 92% accuracy in the classification task.
 
-> youtube: https://youtu.be/rgCXWaKzMKU
-
 It was revolutionary at that time, to see deep learning techniques applied to get SOTA in Malayalam. IndicNLP as an organisation did a lot of work, from working on projects like Word2vec, Vaakk2vec etc. They worked on creating a Named entity recognition dataset for Malayalam etc. They conducted Devsprints in colleges like Model Engineering colleges, and presented their work in Pycon India and Kochi Python. Most of work was done by [Adam Shamsudeen](https://www.linkedin.com/in/adamshamsudeen/) and [Kamal K Raj](https://www.linkedin.com/in/kamalkraj/).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rgCXWaKzMKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## What's the plan for project?
 
@@ -57,7 +59,7 @@ When I was looking for where I want to create this open source project, I choose
 
 
 - I feel SMC as an organization played a pivotal part in revolutionizing Malayalam computing and has strong community presence. They have made lot of work by creating fonts, helping in internationalization efforts, ...
-- People like [Santhosh Thottingal](https://thottingal.in/) and [Kavya Manohar](https://kavyamanohar.com/) has helped me a lot in my previous failed attempts\ to do [TTS with  deep learning in Malayalam](https://github.com/kurianbenoy/MTTS).
+- People like [Santhosh Thottingal](https://thottingal.in/) and [Kavya Manohar](https://kavyamanohar.com/) has helped me a lot in my previous failed attempt to [build TTS with  deep learning in Malayalam](https://github.com/kurianbenoy/MTTS).
 - Some of the open source projects made by SMC still survives like website of [Malayalam Speech Corpus](https://msc.smc.org.in/) which is impressive to me.
 
 I would like to thank the following people for all the support and motivation they have given me in starting this open source project in this occasion:
