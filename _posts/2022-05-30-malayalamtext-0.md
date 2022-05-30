@@ -1,9 +1,10 @@
 ---
 title: Starting an open-source project - Malayalam Text Classifier
 type: post
-tags: [malayalamtextmodels, malayalam, NLP , opensource, ML, Deep learning]
+tags: [malayalamtextmodels, malayalam, NLP , opensource, ML, Deep learning, SMC]
 readtime: true
 published: true
+comments: true
 ---
 
 > TLDR: Kurian has committed to start an open-source project for Text classification tasks in Malayalam which is going to build as an open-source project under [SMC community](https://smc.org.in/). 
