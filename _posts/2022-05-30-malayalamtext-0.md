@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-> TLDR: Kurian has committed to start an open-source project for Text classification tasks in Malayalam which is going to build as an open-source project under [SMC community](https://smc.org.in/). 
+> TLDR: Kurian has committed to start an [open-source project for Text classification](https://github.com/smc/malayalam-text-classifier) tasks in Malayalam which is going to build as an open-source project under [SMC community](https://smc.org.in/). 
 
 ## Why I am starting this project?
 
