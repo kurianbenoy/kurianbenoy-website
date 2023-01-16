@@ -1,0 +1,25 @@
+---
+title: "Welcome To My Quarto Website"
+author: ["Tristan O'Malley", "Kurian Benoy"]
+date: "2022-12-18"
+categories: [news]
+---
+
+![](thumbnail.jpg)
+
+This is my first post in a Quarto blog. Welcome everyone to my new blog.
+
+I have been wanting for a long time to unify [my existing Machine learning blog](https://github.com/kurianbenoy/ml-blog) based on fast-pages
+together with [my main blog website](https://github.com/kurianbenoy/kurianbenoy.github.io/tree/4b5246ada3190dbdd73dc96d266a5ade7ef078a3).
+
+The unification process is a bit challenging:
+
+1. All my previous blog post in main website was written with [beautiful jekyll](https://github.com/daattali/beautiful-jekyll) format using markdown.
+2. Need support for jupyter-notebook, which beautiful jekyll doesn't support
+
+This is where Quarto comes as a saviour. It has wide support for various formats like markdown, jupyter notebook, rmarkdown. The goal, JJ and team
+is looking to have a single source of publication is really interesting. I was already familiar with nbdev with few of the projects I previously made.
+
+I converted all of my existing blog post in markdown to fastpages markdown format. Then I leveraged [nbdev 1 migration scripts](https://nbdev.fast.ai/migrating.html)
+to move it to quarto.
+
