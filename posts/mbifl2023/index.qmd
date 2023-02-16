@@ -1,12 +1,12 @@
 ---
-title: "Attending MBIFL, a literature festival"
+title: "Attending MBIFL 2023, a literature festival"
 author: ["Kurian Benoy"]
 date: "2023-02-05"
 categories: [Life,literature, writing]
 ---
 
 Since I am a frequent book purchaser from Mathrubhumi book, in January I got a notification to buy early bird tickets
-for [MBIFL 2023](https://www.mbifl.com/speakers-2023/). I immediately bought 4 days' tickets to attend the literature festival. When it came to February, I realised
+for [MBIFL 2023](https://www.mbifl.com/speakers-2023/). I immediately bought 4 day's tickets to attend the literature festival. When it came to February, I realised
 due to some commitments at home and work, I couldn't attend all the days of this literature festival despite having a ticket.
 
 MBIFL had almost 300+ speakers, with famous speakers like Nobel prize winners, Brooker prize winners, politicians etc.
@@ -39,7 +39,6 @@ Vinu V John, who is the star anchor of Asianet news(who kindly reminded me he is
 After that, I attended the talk with Aparna Balamurali and Captian GR Gopinath. Shashi Tharoor talked about his book Pride, Prejudice and Punditry.
 Seeing Tharoor answer a question to a student reminded me of India's former people's president APJ. I wish him all the success as a politician.
 
-![Session by Shashi Tharoor](/posts/mbifl2023/tharoor.jpg)
 
 One of the last sessions I attended that day was by Polish author Justi Guziak on  Know yourself to express yourself. 
 This session talked about improvising and was a hands-on workshop to learn this art. During the session, the speakers
@@ -53,3 +52,5 @@ with Karun.
 
 That winded up MBIFL 2023, a literature festival for me a data scientist who doesn't have anything related to it. It was 
 cool to interact and meet with so many cool people. I am looking forward to MBIFL 2024 soon...
+
+![Session by Shashi Tharoor](/posts/mbifl2023/tharoor.jpg)
