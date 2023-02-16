@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-07-04">
+
+<title>Kurian Benoy - How to selectively allow multiple URL origins in flask?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How to selectively allow multiple URL origins in flask?</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">coding</div>
+                <div class="quarto-category">experience</div>
+                <div class="quarto-category">Python</div>
+                <div class="quarto-category">Flask</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 4, 2021</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><img src="../../posts/images/CORSsharing960.jpg" class="img-fluid"></p>
+<p>If you already don’t know what is <em>Cross-Origin Resource Sharing(CORS)</em>. Please check out the below links:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://www.youtube.com/watch?v=Ka8vG5miErk" title="Video Title"><img src="http://img.youtube.com/vi/Ka8vG5miErk/0.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">IMAGE ALT TEXT</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://www.youtube.com/watch?v=tcLW5d0KAYE" title="Video Title"><img src="http://img.youtube.com/vi/tcLW5d0KAYE/0.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">IMAGE ALT TEXT</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS MDN DOCS</a></li>
+</ul>
+<p>You may have understood the following:</p>
+<p>It’s a mechanism to allow communication of one resource to another resource in a different domain. It sets the header, <code>Access-Control-Allow-Origin</code> which can have the following values - <code>*, &lt;origin&gt;, null</code>.</p>
+<p>To implement CORS simply in flask, there are a bunch of different ways:</p>
+<ol type="1">
+<li><a href="#to-use-flask-cors-library">To use flask-cors library</a></li>
+<li><a href="#to-use-a-decorator-on-your-own">To use a decorator on your own</a></li>
+<li><a href="#others">Others</a></li>
+</ol>
+<section id="to-use-flask-cors-library" class="level2">
+<h2 class="anchored" data-anchor-id="to-use-flask-cors-library">To use flask-cors library</h2>
+<p>flask-cors is a library that is like an extension used for handling CORS. It helps in enabling CORS in multiple ways like:</p>
+<p>The default way to use <code>flask_cors</code> for all resources in all domains is as follows:</p>
+<p>{% highlight python linenos %} from flask import Flask from flask_cors import CORS</p>
+<p>app = Flask(<strong>name</strong>) CORS(app)</p>
+<p><span class="citation" data-cites="app.route">@app.route</span>(“/”) def helloWorld(): return “Hello, cross-origin-world!” {% endhighlight %}</p>
+</section>
+<section id="to-use-a-decorator-on-your-own" class="level2">
+<h2 class="anchored" data-anchor-id="to-use-a-decorator-on-your-own">To use a decorator on your own</h2>
+<p>{% highlight python %} # -<em>- coding: utf-8 -</em>- from <strong>future</strong> import unicode_literals</p>
+<p>from datetime import timedelta from flask import make_response, request, current_app from functools import update_wrapper</p>
+<p>def crossdomain( origin=None, methods=None, headers=None, expose_headers=None, max_age=21600, attach_to_all=True, automatic_options=True, credentials=False, ): ““” http://flask.pocoo.org/snippets/56/ ““” if methods is not None: methods = “,”.join(sorted(x.upper() for x in methods)) if headers is not None and not isinstance(headers, str): headers = “,”.join(x.upper() for x in headers) if expose_headers is not None and not isinstance(expose_headers, str): expose_headers = “,”.join(x.upper() for x in expose_headers) if not isinstance(origin, str): origin = “,”.join(origin) if isinstance(max_age, timedelta): max_age = max_age.total_seconds()</p>
+<pre><code>def get_methods():
+    if methods is not None:
+        return methods
+
+    options_resp = current_app.make_default_options_response()
+    return options_resp.headers["allow"]
+
+def decorator(f):
+    def wrapped_function(*args, **kwargs):
+        if automatic_options and request.method == "OPTIONS":
+            resp = current_app.make_default_options_response()
+        else:
+            resp = make_response(f(*args, **kwargs))
+        if not attach_to_all and request.method != "OPTIONS":
+            return resp
+
+        h = resp.headers
+
+        h["Access-Control-Allow-Origin"] = origin
+        h["Access-Control-Allow-Methods"] = get_methods()
+        h["Access-Control-Max-Age"] = str(max_age)
+        if credentials:
+            h["Access-Control-Allow-Credentials"] = "true"
+        if headers is not None:
+            h["Access-Control-Allow-Headers"] = headers
+        if expose_headers is not None:
+            h["Access-Control-Expose-Headers"] = expose_headers
+        return resp
+
+    f.provide_automatic_options = False
+    return update_wrapper(wrapped_function, f)
+
+return decorator</code></pre>
+<p>{% endhighlight %}</p>
+<p>I will prefer to use this implementation if my use case was to just enable CORS instead of importing a third-party library.</p>
+<p>Let’s look into some of the headers used in this method:</p>
+<ul>
+<li><code>Access-Control-Allow-Origin</code>: It indicates whether the response can be shared with requesting code from the given origin.</li>
+<li><code>Access-Control-Allow-Headers</code>: It is used in response to a preflight request which includes the Access-Control-Request-Headers to indicate which HTTP headers can be used during the actual request.</li>
+<li><code>Access-Control-Allow-Methods</code>: It specifies the method or methods allowed when accessing the resource in response to a preflight request.</li>
+</ul>
+<p>To use this decorator, just import it and use it over any resources in Flask as following:</p>
+<pre><code>@app.route("/predict/tree", methods=["POST", "GET"])
+@crossdomain(origin='*')
+def predict_tree():</code></pre>
+<p>Yet both the above approaches are defaulting to set Access-Control-Allow-Origin: <code>*</code> or <code>&lt;origin&gt;</code> as per the HTTP standards.</p>
+<section id="others" class="level3">
+<h3 class="anchored" data-anchor-id="others">Others</h3>
+<p>There maybe a ton of other options as well the writer may not know 😅. Just wanted to put that straight out and I am aware flask-restx cors method is just the code script mentioned in method2.</p>
+<p><strong>Yet our issue in plain English is to allow just a small list of allowed origins for our API endpoint. For that, we need to check if the requested resource that is to be shared is part of our list of allowed origins. If yes, set header <code>Access-control-allow-Origin</code> with that requested resource URL.</strong></p>
+</section>
+<section id="trying-to-implement-with-flask-cors-library" class="level3">
+<h3 class="anchored" data-anchor-id="trying-to-implement-with-flask-cors-library">Trying to implement with flask-cors library</h3>
+<p>In <a href="https://flask-cors.readthedocs.io/en/latest/configuration.html">configuration docs of flask-cors</a>. It’s defined that Origin can be set as a string, List, regex pattern too. When passed as a string, the entire string of whitelist URLs was being set for the header Access-control-Allow-Origins. So this solution doesn’t work, as expected as our requirement.</p>
+</section>
+<section id="tada-finally-the-solution" class="level3">
+<h3 class="anchored" data-anchor-id="tada-finally-the-solution">TADA finally the solution 🤗</h3>
+<p>For solving the issue, we had to finally rely <code>after_request</code> function. It’s a function used to run after each request. It should always take response as a parameter and should return a new response object or the same one passed. The after_request method doesn’t pass requests in case of any exceptions in program. Check the link if you are interested to know more about <a href="https://pythonise.com/series/learning-flask/python-before-after-request">flask after_request and it’s friends</a>.</p>
+<p>{% highlight python linenos %} from flask import request</p>
+<p><span class="citation" data-cites="app.after_request">@app.after_request</span> def cors_origin(response): allowed_origins = [‘https://kurianbenoy.com’, ‘https://beautifuljekyll.com/’] if allowed_origins == “<em>”: response.headers[‘Access-Control-Allow-Origin’] = ”</em>” else: assert request.headers[‘Host’] if request.headers.get(“Origin”): response.headers[“Access-Control-Allow-Origin”] = request.headers[“Origin”] else: for origin in allowed_origins: if origin.find(request.headers[“Host”]) != -1: response.headers[“Access-Control-Allow-Origin”] = origin return response {% endhighlight %}</p>
+<p>On checking multiple websites, I have noticed sometimes some websites don’t have the header <code>Origin</code> or <code>Referer</code> header always. So we first check if there, such an Origin exist, if it exists set the <code>Access-Control-Allow-Origin</code> header as the Origin value, else check if the URL matches the <code>request. headers['Host']</code>, if yes set that URL in the <code>Access-Control-Allow-Origin</code> header.</p>
+<p>If not implemented CORS properly, there is a possibility for using CORS misconfigurations <a href="https://portswigger.net/research/exploiting-cors-misconfigurations-for-bitcoins-and-bounties">for cracking your website like what was done to a few bitcoin brokers</a>. We all should understand that <a href="https://tools.ietf.org/html/rfc6454">Same Origin Security Policy</a> is a bedrock of web application security.</p>
+<p>Some of the exploitable misconfigurations with CORS are:</p>
+<ol type="1">
+<li>Reflected Origin in Access-Control-Allow-Origin - Most of the real attacks require <code>Access-Control-Allow-Credentials</code> to be set True, which is a cause of this vulnerability too. Since developers are setting Access-Control-Allow-Origin dynamical they simply copy the value of Origin header. So this vulnerability can be exposed sometimes when developer checks for domain(victimdomain.com) in Allowed Origin header, then attacker use (attackervictimdomain.com) to steal confediential information.</li>
+<li>Setting as null origin - The specification mentions it being triggered by redirects, and a few stackoverflow posts show that local HTML files also get it. Perhaps due to the association with local files,it’s commonly used by developers and it can be used to sandbox iframe.</li>
+</ol>
+<p>More exploitations and misconfigurations with CORS can be found in these links:</p>
+<p><a href="https://book.hacktricks.xyz/pentesting-web/cors-bypass">link1</a></p>
+<p><a href="https://portswigger.net/research/exploiting-cors-misconfigurations-for-bitcoins-and-bounties">link 2</a></p>
+<p>Hello dear reader! I have been trying to learn Flask and solve this issue(because I am working on a project with it). I’ve written a few hundred lines of code in Flask over the past 2 years, but honestly, I’m pretty bad at it and don’t know the internal workings yet. So my goal with this approach was to learn enough while not getting confused a lot.</p>
+<p>I am sharing my learnings on things which I have struggled inspired by <a href="https://jvns.ca/blog/2021/05/24/blog-about-what-you-ve-struggled-with/">Julia Evans</a>. Please let me know if there is any better approach for this. Thanks for reading 🙏.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kurian Benoy">
+<meta name="dcterms.date" content="2022-05-28">
+
+<title>Kurian Benoy - Installing Python Packages &amp; setting up libraries for Data Science - the right way</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../blog.xml"><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Installing Python Packages &amp; setting up libraries for Data Science - the right way</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">fastaicourse</div>
+                <div class="quarto-category">terminal</div>
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">setup</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kurian Benoy </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 28, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#whats-terminal-how-to-work-with-it" id="toc-whats-terminal-how-to-work-with-it" class="nav-link" data-scroll-target="#whats-terminal-how-to-work-with-it">🚖 What’s terminal, how to work with it?</a>
+  <ul class="collapse">
+  <li><a href="#terminal-vs-shell" id="toc-terminal-vs-shell" class="nav-link" data-scroll-target="#terminal-vs-shell">Terminal vs Shell</a></li>
+  <li><a href="#installing-terminal-shell" id="toc-installing-terminal-shell" class="nav-link" data-scroll-target="#installing-terminal-shell">Installing Terminal &amp; Shell</a></li>
+  <li><a href="#handy-tips" id="toc-handy-tips" class="nav-link" data-scroll-target="#handy-tips">Handy Tips</a></li>
+  <li><a href="#keyboard-shortcuts" id="toc-keyboard-shortcuts" class="nav-link" data-scroll-target="#keyboard-shortcuts">Keyboard shortcuts</a></li>
+  </ul></li>
+  <li><a href="#how-to-install-python-packages-for-datascience" id="toc-how-to-install-python-packages-for-datascience" class="nav-link" data-scroll-target="#how-to-install-python-packages-for-datascience">🔰 How to install Python Packages for datascience</a>
+  <ul class="collapse">
+  <li><a href="#installation-with-mamba" id="toc-installation-with-mamba" class="nav-link" data-scroll-target="#installation-with-mamba">Installation with mamba</a></li>
+  <li><a href="#uninstalling-mambaconda" id="toc-uninstalling-mambaconda" class="nav-link" data-scroll-target="#uninstalling-mambaconda">🐛 Uninstalling mamba/conda</a></li>
+  <li><a href="#using-fastsetup" id="toc-using-fastsetup" class="nav-link" data-scroll-target="#using-fastsetup">Using fastsetup</a></li>
+  <li><a href="#my-question-to-jeremy" id="toc-my-question-to-jeremy" class="nav-link" data-scroll-target="#my-question-to-jeremy">My question to Jeremy</a></li>
+  <li><a href="#installing-datascience-packages---pytorch-and-jupyter" id="toc-installing-datascience-packages---pytorch-and-jupyter" class="nav-link" data-scroll-target="#installing-datascience-packages---pytorch-and-jupyter">Installing datascience packages - pytorch and jupyter</a></li>
+  <li><a href="#installing-packages-with-fastchan" id="toc-installing-packages-with-fastchan" class="nav-link" data-scroll-target="#installing-packages-with-fastchan">Installing packages with fastchan</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p><a href="https://forums.fast.ai/u/jeremy">Jeremy</a> has been conducting these official course walk-thrus which started on May 27, 2022 for students of <a href="https://itee.uq.edu.au/event/2022/practical-deep-learning-coders-uq-fastai">fastaiv5 course</a>. The idea of these course walk-thrus were “going to explain exactly how to do every step, and why we do things the way we do”.</p>
+<p>We in the sense <code>fastai</code> approach of development. It was very useful to me and it covered answers to some of things which I was searching for a long time. I will use it again and again, so thought of writing it down to refer later. The first walk thrus was on the topic: <code>Introduction to the terminal. How to install Python and libraries</code> and I felt I got more value out of these walk-thrus than some of lessons in course</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The right way here means the way Jeremy does stuff. Obiviously there as thousand of way to do thing, yet going through each ways has it’s own pros/cons.</p>
+</div>
+</div>
+</section>
+<section id="whats-terminal-how-to-work-with-it" class="level2">
+<h2 class="anchored" data-anchor-id="whats-terminal-how-to-work-with-it">🚖 What’s terminal, how to work with it?</h2>
+<section id="terminal-vs-shell" class="level3">
+<h3 class="anchored" data-anchor-id="terminal-vs-shell">Terminal vs Shell</h3>
+<p>A terminal is a program which can display console window to run program. Yet thing inside is not strictly a terminal, but called a shell. The black coloured stuff, which you see in movies used by hackers is Terminal as shown in image below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/170852543-17bdb268-7ace-43c6-b1a0-a2b5b0a9ac43.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">image</figcaption><p></p>
+</figure>
+</div>
+<p>Usually in a <strong>terminal there can be multiple shells</strong>, which can have different colours, shells etc. So terminal and shell are totally different in meaning. You can think shell as the a ship which does main things it’s supposed to do like running program, while terminal is like the a group of ships which is usually controlled by a parent like a corporal.</p>
+<p>In a windows terminal it can start no of shells like <code>PowerShell, Command Prompt, Ubuntu</code> etc… Most of the time we use both terminal and shell interchangebly which is ok.</p>
+</section>
+<section id="installing-terminal-shell" class="level3">
+<h3 class="anchored" data-anchor-id="installing-terminal-shell">Installing Terminal &amp; Shell</h3>
+<p>You can install terminal in Windows by downloading <a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&amp;gl=US">Windows terminal</a>. In case of linux/MacOS, you can just search for terminal as it will come with a terminal pre-installed.</p>
+<p>In Windows, Jeremy recommends to use <a href="https://docs.microsoft.com/en-us/windows/wsl/install">WSL</a>, which install a linux distribution within windows and then install <a href="https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV">Ubuntu from Microsoft Store</a>.</p>
+</section>
+<section id="handy-tips" class="level3">
+<h3 class="anchored" data-anchor-id="handy-tips">Handy Tips</h3>
+<p>It’s a good idea to change the default shell from <code>Power shell to Ubuntu</code> for easy usage. Also learn some keyboard shortcuts.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Learning Keyboard shortcuts can be immensely valuable.</p>
+</div>
+</div>
+</section>
+<section id="keyboard-shortcuts" class="level3">
+<h3 class="anchored" data-anchor-id="keyboard-shortcuts">Keyboard shortcuts</h3>
+<p>Some of the useful keyboard shortcuts shared during lesson and in forums are as follows:</p>
+<p><strong>Shared by <a href="https://forums.fast.ai/u/jeremy/summary">Jeremy</a></strong></p>
+<p><kbd>Ctrl+Shift+1</kbd> - Open shell set for default profile.</p>
+<p><kbd>Ctrl+Shift+3</kbd> - Open shell listed as number 3 in WSL.</p>
+<p><kbd>Alt+Enter</kbd> - Enter terminal in full screen.</p>
+<p><kbd> Ctrl + r </kbd> - Recursvie back search to search the previous typed commands.</p>
+<p><kbd>Ctrl-a</kbd> - Move to the start of the current line.</p>
+<p><kbd>Ctrl-e</kbd> - Move to the end of the line.</p>
+<p><kbd>Tab</kbd> Autocomplete.</p>
+<p><strong>Shared by <a href="https://forums.fast.ai/u/miwojc/summary">miwojc</a></strong></p>
+<p><kbd>Ctrl-f</kbd> - Move forward a character.</p>
+<p><kbd>Ctrl-b</kbd> - Move back a character.</p>
+<p><kbd>Alt-f</kbd> - Move forward to the end of the next word. Words are alphanumeric.</p>
+<p><kbd>Alt-b</kbd> - Move back to the start of the current or previous word. Words are alphanumeric.</p>
+<p><kbd>Ctrl-l</kbd> - Clear the screen.</p>
+<p><kbd>Ctrl-p</kbd> - Fetch the previous command from the history list (same as up but easier to reach).</p>
+<p><kbd>Ctrl-n</kbd> - Fetch the next command from the history list (same as down).</p>
+<p><kbd>Ctrl-r</kbd> - Search backward through history.</p>
+<p><kbd>Ctrl-d</kbd> - Delete the character under the cursor.</p>
+<p><kbd>Ctrl-k </kbd> - Kill (cut) forwards to the end of the line.</p>
+<p><kbd>Ctrl-u</kbd> - Kill (cut) backwards to the start of the line.</p>
+<p><kbd>Alt-d</kbd> - Kill (cut) forwards to the end of the current word.</p>
+<p><kbd>Ctrl-w</kbd> - Kill(cut) backwards to the start of the current word.</p>
+<p><strong>Shared by <a href="https://forums.fast.ai/u/kurianbenoy/summary">Kurian</a></strong></p>
+<p><kbd>Alt Shift + </kbd> - Open a new vertical pane</p>
+<p><kbd>Alt Shift -</kbd> - Open a new horizontal pane</p>
+<p><kbd>Ctrl Shift w</kbd> - Closing a Pane</p>
+</section>
+</section>
+<section id="how-to-install-python-packages-for-datascience" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-install-python-packages-for-datascience">🔰 How to install Python Packages for datascience</h2>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Never use the python which comes by default with operating system, always use a differnt python to work on stuff you want, else it will become really messy… ⚠️.</p>
+</div>
+</div>
+<section id="installation-with-mamba" class="level3">
+<h3 class="anchored" data-anchor-id="installation-with-mamba">Installation with mamba</h3>
+<p>To follow this advice, this let’s go ahead and install python seperately with packaging manager called <a href="https://github.com/mamba-org/mamba">mamba</a> which is a Fast Cross-Platform Package Manager. It’s aka. faster version of conda.</p>
+<p>So go to the <a href="https://github.com/conda-forge/miniforge#mambaforge">mambaforge installer</a>. Based on your operating system, download the shell script to install with:</p>
+<pre><code>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+bash Mambaforge-Linux-x86_64.sh</code></pre>
+<p>After downloading and installation is complete. To refresh terminal either close and reopen terminal or typing below command:</p>
+<pre><code>. ~/.bashrc</code></pre>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jeremy recommends to install popular libraries which are supported in conda from mamba. If it’s not there in conda, or something which requires editable install use pip.</p>
+</div>
+</div>
+</section>
+<section id="uninstalling-mambaconda" class="level3">
+<h3 class="anchored" data-anchor-id="uninstalling-mambaconda">🐛 Uninstalling mamba/conda</h3>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you are a beginner, working with virtual environments is intimidating. So jeremy recommends whenever you face any issues as a beginner, it’s important to know how to delete your setup.</p>
+</div>
+</div>
+<p>These are steps to see if conda/mamba is properly uninstalled in a linux environment:</p>
+<ul>
+<li>Check if ipython, jupyter is installed. If yes, first uninstall it.</li>
+</ul>
+<p><strong>Note: You can uninstall via:</strong></p>
+<pre><code>pip uninstall jupyter
+pip uninstall ipython3</code></pre>
+<p><strong>You can check the path of program by typing the command, to see if was installed by system python or mamba</strong></p>
+<pre><code>(base) kurianbenoy@Lap-34:~/blog/ml-blog$ which jupyter
+/home/kurianbenoy/mambaforge/bin/jupyter</code></pre>
+<ul>
+<li>Then remove mamabaforge folder. In linux usually, mambaforge is installed in /home/username.</li>
+</ul>
+<p>So to delete the mambaforge package:</p>
+<pre><code>(base) kurianbenoy@Lap-34:~$ ls
+blog  downloads  mambaforge
+(base) kurianbenoy@Lap-34:~$ rm -rf mambaforge/</code></pre>
+<ul>
+<li>Then delete conda package also.</li>
+</ul>
+</section>
+<section id="using-fastsetup" class="level3">
+<h3 class="anchored" data-anchor-id="using-fastsetup">Using fastsetup</h3>
+<p><a href="github.com/fastai/fastsetup">Goto github repository</a> and download the <a href="https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh">setup-conda.sh file</a>.</p>
+<pre><code>wget https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh</code></pre>
+<p>This is a normal shell script, so just run the shellscript to install mamba as follows:</p>
+<pre><code>source setup-conda.sh
+. ~/.bashrc
+conda install -yq mamba</code></pre>
+</section>
+<section id="my-question-to-jeremy" class="level3">
+<h3 class="anchored" data-anchor-id="my-question-to-jeremy">My question to Jeremy</h3>
+<p>❓I asked to Jeremy about: which version of python is using and how to use for a different python version</p>
+<p>Jeremy on checking Mambaforge repository, realised that python version which we are using now is python 3.9. It’s always a good idea to know, which kind of python versions are near their end of life and <a href="https://endoflife.date/python">can be here</a>. At the time of writing any version above python 3.7 to python3.10 is recommended to use. Yet according to Jeremy, he usually prefers to use latest python only 1 year after it’s released, but fastai do support the latest version.</p>
+<p><a href="https://twitter.com/radekosmulski/">Radek</a> who is a engineer at Nvidia, told he usually prefer mamba because with just one line of code you can switch to any python version you want. Afer the session in forums, Radek shared how to do this as shown in below screenshot.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/170855465-1f74f66e-8238-43a2-b9f3-dcbff67a547b.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">image</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="installing-datascience-packages---pytorch-and-jupyter" class="level3">
+<h3 class="anchored" data-anchor-id="installing-datascience-packages---pytorch-and-jupyter">Installing datascience packages - pytorch and jupyter</h3>
+<p>Since for fastai course, we are using pytorch. Let’s install pytorch based on <a href="https://pytorch.org/">official page instructions</a>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/170853841-9ed4763c-4969-40fd-9db9-01b6f06e612e.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">image</figcaption><p></p>
+</figure>
+</div>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>One of the advantages of installing libraries like pytorch in Anaconda is that if you are using conda, it install all the packages and drivers for GPU setup as well. In a normal pip based installation, there are lot more steps required for installing correctly in GPU.</p>
+</div>
+</div>
+<p><strong>Go ahead and install python packages in this manner, by just replacing conda with mamba.</strong></p>
+<pre><code>mamba install pytorch torchvision torchaudio cpuonly -c pytorch</code></pre>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It’s always a good idea to google and find the correct conda packages before installation, as conda requires some specifications like setting the correct channel to install.</p>
+</div>
+</div>
+<p><strong>Now let’s install <code>jupyter lab</code> to do our experiments quickly:</strong></p>
+<pre><code>mamba install jupyterlab</code></pre>
+<p>Then run the jupyter lab, with the following command:</p>
+<pre><code>jupyter lab --no-browser</code></pre>
+<p>This opens up jupyterlab in localhost:8888</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/170855155-67d3167c-e635-40a6-a0cb-bd12d6d81d0d.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">image</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="installing-packages-with-fastchan" class="level3">
+<h3 class="anchored" data-anchor-id="installing-packages-with-fastchan">Installing packages with fastchan</h3>
+<p>Even though Jeremy didn’t cover this topic during walk-thrus. I came to know about <code>fastchan</code> when I wanted to install <code>pytorch and huggingface transformers</code> in a gpu based system. What is fastchan and the problem it solves is covered by <a href="https://wandb.ai/wandb_fc/pytorch-image-models/reports/A-faster-way-to-get-working-and-up-to-date-conda-environments-using-fastchan---Vmlldzo2ODIzNzA">detailed blogpost</a> by the <a href="https://wandb.ai/aarora">Aman Arora</a>.</p>
+<p>To install both <code>pytorch and huggingface transformers</code> in a GPU, I used the following command:</p>
+<pre><code>mamba install pytorch transformers cudatoolkit=11.4 -c fastchan</code></pre>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>One of fastai students, during the start of lesson talked about the need of a quick setup, which just works as expected. One of biggest takeaways for me, personally is a quick and fastsetup to do my experiments in DataScience. Sometimes installing packages in data science can take hours of effort, and that’s why I really loved this setup.</p>
+<p>Thanks to <a href="twitter.com/jeremyphoward/">Jeremy Howard</a> for creating this quick setup and for starting the project <a href="https://www.fast.ai/2021/07/15/fastconda/">fastchan</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

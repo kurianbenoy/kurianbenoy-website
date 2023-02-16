@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-08-07">
+
+<title>Kurian Benoy - Understanding get_image_files in fastai</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Understanding get_image_files in fastai</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">TIL</div>
+                <div class="quarto-category">Python</div>
+                <div class="quarto-category">fastai</div>
+                <div class="quarto-category">fastbook</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 7, 2021</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><img src="../../posts/images/fastai.png" class="img-fluid"></p>
+<p>In <strong>fastai library</strong> we use Datablocks like the below example for loading datasets, and to train models. The below code is DataBlock, which is used to load a dataset of various types of bears to split into train and validation datasets along and to resize images to size 128*128. For a detailed explanation, check on From Data to DataLoaders section in <a href="From Data to DataLoaders">Chapter 2 of Fastbook</a>.</p>
+<pre><code>bears = DataBlock(
+    blocks=(ImageBlock, CategoryBlock), 
+    get_items=get_image_files, 
+    splitter=RandomSplitter(valid_pct=0.2, seed=42),
+    get_y=parent_label,
+    item_tfms=Resize(128))</code></pre>
+<p>In this Datablock <code>get_items</code>, we are using the <code>get_image_files</code> to load the images. I was curious how to see how <code>get_image_files</code> worked under the hood to return all the image files in a dataset. As <a href="https://twitter.com/jeremyphoward">Jeremy</a> always suggests, I started looking into source code by handy question mark functionality in Jupyter Notebooks. The source code for <code>get_image_files</code> can be found in <a href="https://github.com/fastai/fastai/blob/master/fastai/data/transforms.py">fastai repo here</a>. The source code for <code>get_image_files</code> function is:</p>
+<p>{% highlight python linenos %} def get_image_files(path, recurse=True, folders=None): “Get image files in <code>path</code> recursively, only in <code>folders</code>, if specified.” return get_files(path, extensions=image_extensions, recurse=recurse, folders=folders) {% endhighlight %}</p>
+<p>You can see it’s expecting the path to the folder where files are present in the image folder. Also the function signature, consists of <code>recurse=True</code> and <code>folder=None</code> by default.</p>
+<p>You can see <code>get_image_files</code> function is calling <code>get_files(path, extensions=image_extensions, recurse=recurse, folders=folders)</code> on passing with extensions set as <code>image_extensions</code>.</p>
+<blockquote class="blockquote">
+<p>What is image_extensions doing?</p>
+</blockquote>
+<p>{% highlight python linenos %} import mimetypes</p>
+<p>image_extensions = set(k for k,v in mimetypes.types_map.items() if v.startswith(‘image/’)) {% endhighlight %}</p>
+<p>The <code>image extensions</code> is just a variable returning a set of images from the <a href="https://docs.python.org/3/library/mimetypes.html">mimetypes</a>, which is part of Python standard library to map filenames to MIME types. Let’s see <code>image_extensions</code> output to see whole set of image type extensions.</p>
+<pre><code>&gt;&gt;&gt; image_extensions
+{'.jpg', '.svg', '.pgm', '.png', '.xbm', '.jpe', '.pbm', '.pnm', '.rgb', '.tiff', '.xpm', '.jpeg', '.ras', '.ico', '.tif', '.ppm', '.xwd', '.gif', '.bmp', '.ief'}</code></pre>
+<p><code>mimetypes.types_map.items()</code> returns a dictionary items. It consists of key, value pair and we are selecting value pairs starting with the word <code>image/</code> to return a set of image_extensions as shown in the above output.</p>
+<p>Now let’s look at <code>get_files</code> function, which returns a list of files, based on extensions passed, folders. Let’s look into the source code of <code>get_files(path, extensions=None, recurse=True, folders=None, followlinks=True</code> function as well:</p>
+<p>{% highlight python linenos %} def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True): “Get all the files in <code>path</code> with optional <code>extensions</code>, optionally with <code>recurse</code>, only in <code>folders</code>, if specified.” path = Path(path) folders=L(folders) extensions = setify(extensions) extensions = {e.lower() for e in extensions} if recurse: res = [] for i,(p,d,f) in enumerate(os.walk(path, followlinks=followlinks)): # returns (dirpath, dirnames, filenames) if len(folders) !=0 and i==0: d[:] = [o for o in d if o in folders] else: d[:] = [o for o in d if not o.startswith(‘.’)] if len(folders) !=0 and i==0 and ‘.’ not in folders: continue res += _get_files(p, f, extensions) else: f = [o.name for o in os.scandir(path) if o.is_file()] res = _get_files(path, f, extensions) return L(res) {% endhighlight %}</p>
+<p>Let’s understand what the function <code>get_files(path, extensions=None, recurse=True, folders=None, followlinks=True)</code> is doing line by line.Let’s look at the first few lines of code.</p>
+<pre><code>from fastcore.all import L, setify
+from pathlib import Path
+
+def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True):
+    "Get all the files in `path` with optional `extensions`, optionally with `recurse`, only in `folders`, if specified."
+    path = Path(path)
+    folders=L(folders)
+    extensions = setify(extensions)
+    extensions = {e.lower() for e in extensions}</code></pre>
+<p>We are converting the path provided to us into a Pathlib object, and folders are converted to a special Python-like list called (L) based on the <code>fastcore</code> library. The extensions are converted to a set if it’s being passed as a list, range, string etc. using <code>setify</code>. All the extensions are converted to lower case characters if any extension is in upper case. To read more about the <code>setify</code> function check <a href="https://fastcore.fast.ai/basics.html#setify">the fastcore docs</a>.</p>
+<p>If function definition, we have by default passed <code>recurse=True</code>. If it’s True, it goes through all the files in the File path we have passed as well as going inside various folders inside the File Path recursively. Else if <code>recurse=False</code>, we just go through all files in the File Path we have passed without going inside various folders.</p>
+<pre><code>import os
+
+def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True):
+    ...
+    ...
+    if recurse:
+        ...
+        ...
+    else:
+        f = [o.name for o in os.scandir(path) if o.is_file()]
+        res = _get_files(path, f, extensions)</code></pre>
+<p>For the sake of understanding, let’s take an example a <code>.git</code> directory, with the following file structure.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">image</figcaption><p></p>
+</figure>
+</div>
+<p><code>os.scandir</code> returns an iterator of Directory objects. In Python <code>os</code> module, there is an <code>os.listdir(path='.')</code> which does the same functionality as <code>scandir</code>. Yet <code>scandir</code> gives a better performance for most of common use cases. [1]</p>
+<pre><code>f = [o.name for o in os.scandir(path) if o.is_file()]</code></pre>
+<p>It returns a list of file extensions as shown below with list comprehensions, where <code>is_file()</code> returns, if it’s a file or whether it’s pointing to a directory with <code>followlinks</code>.</p>
+<pre><code>&gt;&gt;&gt; path=Path('.git')
+&gt;&gt;&gt; [o.name for o in os.scandir(path) if o.is_file()]
+['index', 'HEAD', 'packed-refs', 'config', 'description']</code></pre>
+<p>If <code>recurse=True</code>, it goes through all the directories and works on files recursively. Let’s look at the sources code and try to understand more.</p>
+<p>{% highlight python linenos %} import os</p>
+<p>def get_files(path, extensions=None, recurse=True, folders=None, followlinks=True): … … if recurse: res = [] for i,(p,d,f) in enumerate(os.walk(path, followlinks=followlinks)): # returns (dirpath, dirnames, filenames) if len(folders) !=0 and i==0: d[:] = [o for o in d if o in folders] else: d[:] = [o for o in d if not o.startswith(‘.’)] if len(folders) !=0 and i==0 and ‘.’ not in folders: continue res += _get_files(p, f, extensions) else: f = [o.name for o in os.scandir(path) if o.is_file()] res = _get_files(path, f, extensions) {% endhighlight %}</p>
+<p>I would highly recommend the functionality of <code>os.walk</code> by checking this <a href="https://www.pythonforbeginners.com/code-snippets-source-code/python-os-walk">article</a>. You can see that on iterating through <code>os.walk()</code>, we can get the directory path, and associate file path as a list. This is being passed to <code>_get_files(p, f, extension)</code> function.</p>
+<pre><code>&gt;&gt;&gt; for i,(p,d,f) in enumerate(os.walk(path, followlinks=True)): # returns (dirpath, dirnames, filenames):
+...     print(p, f)
+...
+. ['index', 'HEAD', 'packed-refs', 'config', 'description', '.env']
+./.gitignore []
+./branches []
+./hooks ['fsmonitor-watchman.sample', 'update.sample', 'pre-applypatch.sample', 'pre-push.sample', 'pre-receive.sample', 'applypatch-msg.sample', 'pre-commit.sample', 'prepare-commit-msg.sample', 'commit-msg.sample', 'post-update.sample', 'pre-rebase.sample']
+./objects []
+./objects/pack ['pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.pack', 'pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.idx']
+./objects/info []
+./info ['exclude']
+./refs []
+./refs/tags []
+./refs/remotes []
+./refs/remotes/origin ['HEAD']
+./refs/heads ['master']
+./logs ['HEAD']
+./logs/refs []
+./logs/refs/remotes []
+./logs/refs/remotes/origin ['HEAD']
+./logs/refs/heads ['master']</code></pre>
+<p>Just to summarise how the <code>get_files</code> function is working it will be useful to look at the below illustration:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/128655593-d9027327-fd2f-46f4-aebb-140fa9b14e02.jpeg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">WhatsApp Image 2021-08-09 at 8 12 10 AM</figcaption><p></p>
+</figure>
+</div>
+<p>When <code>recurse=False</code>, for path bears. It returns just returns file README excluding (.gitignore) and directories.</p>
+<pre><code>&gt;&gt;&gt; get_files(path, recurse=False)
+['README']</code></pre>
+<p>While <code>recurse=True</code>, for path bears. It returns all valid files inside the root directory as well as in folders such grizzly, black, teddy, details, folder etc.</p>
+<p>After that, it’s passed to <code>_get_files</code> function, which returns the list of filenames to a list of pathlib Path of various filenames.</p>
+<p>{% highlight python linenos %} def _get_files(p, fs, extensions=None): p = Path(p) res = [p/f for f in fs if not f.startswith(‘.’) and ((not extensions) or f’.{f.split(“.”)[-1].lower()}’ in extensions)] return res {% endhighlight %}</p>
+<p><code>fs</code>, the list of files returned. We are not passing files that are starting with <code>.</code> like <code>.gitignore or .env</code> as it’s not usually very useful for our dataset to get as files. Also, it’s not returning file extensions passed or <code>f'.{f.split(".")[-1].lower()}'</code> in extensions.</p>
+<p>res on passing <code>p/f</code> for the list of files will become a list of paths as shown in the below result. Transforming from a list of file names, we are transforming it to a list of Pathlib module Path, pointing to various filenames.</p>
+<pre><code>&gt;&gt; get_files(Path('.'))
+[Path('index'), Path('HEAD'), Path('packed-refs'), Path('config'), Path('description'), Path('hooks/fsmonitor-watchman.sample'), Path('hooks/update.sample'), Path('hooks/pre-applypatch.sample'), Path('hooks/pre-push.sample'), Path('hooks/pre-receive.sample'), Path('hooks/applypatch-msg.sample'), Path('hooks/pre-commit.sample'), Path('hooks/prepare-commit-msg.sample'), Path('hooks/commit-msg.sample'), Path('hooks/post-update.sample'), Path('hooks/pre-rebase.sample'), Path('objects/pack/pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.pack'), Path('objects/pack/pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.idx'), Path('info/exclude'), Path('refs/remotes/origin/HEAD'), Path('refs/heads/master'), Path('logs/HEAD'), Path('logs/refs/remotes/origin/HEAD'), Path('logs/refs/heads/master')]</code></pre>
+<p>This is how the <code>get_image_files</code>, returns a L object based on fastcore for any object. For the <a href="https://www.kaggle.com/kmader/biwi-kinect-head-pose-database">BIWI Dataset</a>, the output of <code>get_image_files</code> and <code>get_files</code> is as following:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/128119162-41abebab-dda4-4d8b-b781-2d81d501b8aa.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">image</figcaption><p></p>
+</figure>
+</div>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>I hope with this blog post, you now have understood how <code>get_image_files</code>, fetch the list of images under the hood by looking into the source code.</p>
+<p>In case, if I have missed something or to provide feedback, please feel free to reach out to me <a href="https://twitter.com/kurianbenoy2"><span class="citation" data-cites="kurianbenoy2">@kurianbenoy2</span></a>.</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>[1] <a href="https://github.com/fastai/fastai">Fastai source code</a></p>
+<p>[2] <a href="https://docs.python.org/3/library/os.html#os.listdir">Python os module</a></p>
+<p>[3] <a href="https://github.com/fastai/fastbook">Deep Learning for Coders with Fastai and Pytorch: AI Applications Without a PhD</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

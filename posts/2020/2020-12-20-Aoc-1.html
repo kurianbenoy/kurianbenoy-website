@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kurian Benoy">
+<meta name="dcterms.date" content="2020-12-20">
+
+<title>Kurian Benoy - Advent of Code - Day 1 to Day 5</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Advent of Code - Day 1 to Day 5</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">coding</div>
+                <div class="quarto-category">puzzles</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kurian Benoy </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 20, 2020</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Advent of Code is a yearly contest for programming puzzles which is being held every year. I would like to thank Eric Wastl for making <a href="https://youtu.be/CFWuwNDOnIo">Advent of Code quite awesoeme</a>.</p>
+<p>PS: Spoilers ahead, please don’t read ahead if haven’t solved puzzles Day 1-5 already 🤞.</p>
+<p>I would be trying to write and optimise my code for readability, and avoid use of any external libraries(except python standard library).</p>
+<section id="day-1" class="level2">
+<h2 class="anchored" data-anchor-id="day-1">Day 1</h2>
+<pre><code>## Part1
+input = []
+with open('input1.txt') as f:
+    for k in f.readlines():
+        input.append(int(k.strip()))
+
+for i in input:
+    for j in input:
+            print(i,j)
+            if (i+j)==2020:
+                print(i*j)
+                exit()  
+
+## Part 2
+
+for i in input:
+    for j in input:
+        for k in input:
+            print(i,j,k)
+            if (i+j+k)==2020:
+                print(i*j*k)</code></pre>
+<p>The part 2 is super slow and takes a lot of time to run</p>
+</section>
+<section id="day2" class="level2">
+<h2 class="anchored" data-anchor-id="day2">day2</h2>
+<pre><code>from collections import Counter
+
+texts = []
+valid = 0
+with open('input/input2.txt') as f:
+    for k in f.readlines():
+        text = (k.split(':')[1]).strip()
+        texts.append(text)
+        a = k.split(':')[0]
+        key = a.split()[1]
+        ans = a.split()[0]
+        start = a.split('-')[0]
+        end = ans.split('-')[1]
+
+        ans_counter = Counter(text)
+
+        if int(start)&lt;=ans_counter[key]&lt;=int(end):
+            # if (text[int(start)-1]==key)^(text[int(end-1]==key):
+                valid += 1
+
+    print(f"No of valid passwords: {valid}")</code></pre>
+</section>
+<section id="day3" class="level2">
+<h2 class="anchored" data-anchor-id="day3">day3</h2>
+<pre><code>lines = []
+
+with open('input/input3.txt') as f:
+    for data in f.readlines():
+        lines.append(data)
+
+print(len(lines), len(lines[0]))
+SLOPES = [3, 1]
+trees = 0
+i,j = 0,0
+l = 0
+for _ in range(len(lines)-1):
+    i = i +1
+    j = j+3
+    print(j%len(lines[i]))
+    if lines[i][j%len(lines[i])-1]=="#":
+        trees += 1
+
+print("No of trees", trees)</code></pre>
+<pre><code>## Part 2
+import fileinput
+from utils import aoc_timer
+
+# def solution():
+slopes = [(1,1), (3,1), (5,1), (7,1), (1,2)]
+
+pattern = []
+for line in fileinput.input("input/input3.txt"):
+    pattern.append(list(line.strip()))
+
+ans =1 
+for (dc, dr) in slopes:
+    r = 0
+    c = 0
+    score = 0
+    while r&lt; len(pattern):
+        c += dc
+        r += dr
+
+        if r&lt;len(pattern) and pattern[r][c%len(pattern[r])] == "#":
+            score +=1 
+
+    ans *= score
+
+    print(f"Tree with slope:{dc,dr} with {score}")
+
+print(f"part2 answer: {ans}")</code></pre>
+</section>
+<section id="day4" class="level2">
+<h2 class="anchored" data-anchor-id="day4">day4</h2>
+<pre><code>import re
+from utils import aoc_timer
+
+def textinput():
+    with open("input/input4.txt") as file:
+        line = [x.strip() for x in file.readlines()]
+        return line
+
+@aoc_timer(4,1,2020)
+def solve_valid_passport(passport_dump):
+    p1 = 0
+    p2 = 0
+    passport = {}
+    count = 0
+    
+    for x in passport_dump:
+        if x != "":
+            for p in x.split():
+                key, value = p.split(":")
+                passport[key] = value
+        else:
+            count += 1
+            valid = True
+
+            for field in ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']:
+                if field not in passport:
+                    valid = False
+
+            if valid:
+                p1 +=1
+            
+            # print(f"Pass1: all fields {valid}")
+            if not (1920&lt;=int(passport['byr'])&lt;=2002):
+                valid = False
+            
+            if not (2010&lt;=int(passport['iyr'])&lt;=2020):
+                valid = False
+
+            if not (2020&lt;=(int(passport['eyr']))&lt;=2030):
+                valid = False
+             
+            # print(passport['hgt']) # check for cm/inch
+
+            if passport['hgt']:
+                if passport['hgt'].endswith('cm'):
+                    val = int(passport['hgt'][0:passport['hgt'].find('cm')])
+                    if not (150&lt;=val&lt;=193):
+                        valid = False
+
+                elif passport['hgt'].endswith('in'):
+                    val = int(passport['hgt'][0:passport['hgt'].find('in')])
+                    if (val&lt;59) and (val&gt;76):
+                        valid = False
+
+            # print(f"Pass2 - height &amp; eyr&amp;byr&amp;iry: {valid}")
+
+            if(passport['ecl'] not in ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth']):
+                valid = False
+
+            if(passport['hcl'].startswith("#")==False) or (len(passport['hcl'])!=7):
+                valid = False
+
+            elif(passport['hcl'].startswith("#")==True):
+                p = re.compile("[0-9a-f]")
+                if p.match(passport['hcl'].strip("#"))==None:
+                    valid =False
+
+            # print(f"Pass3 - after Eye colour &amp; Hair colour:{valid}")
+            pid = passport['pid']
+            if len(pid) != 9 or any([c not in '0123456789' for c in pid]):
+                valid = False
+            # print(f"Pass4 - after pid:{valid}")
+            if valid:
+                p2 += 1
+    print("Answer:1", p1)
+    print("Answer: 2", p2)
+    
+    return p1,p2
+
+
+if __name__ == "__main__":
+    passport_dump = textinput()
+    print(solve_valid_passport(passport_dump))
+</code></pre>
+</section>
+<section id="day-5" class="level2">
+<h2 class="anchored" data-anchor-id="day-5">Day 5</h2>
+<pre><code>import fileinput
+from utils import aoc_timer
+
+
+def seat_matrix_transform(seat_matrix):
+    seat_ids = []
+    for seat in seat_matrix:
+        b1 = str.replace(seat[:7], "F", "0")
+        b2 = str.replace(b1, "B", "1")
+        row = int(b2, 2)
+
+        b3 = str.replace(seat[7:], "R", "1")
+        b4 = str.replace(b3, "L", "0")
+        col = int(b4, 2)
+
+        seatid = row * 8 + col
+        seat_ids.append(seatid)
+
+    return seat_ids
+
+
+@aoc_timer(day=5, part=1, year=2020)
+def solve1():
+    seat_matrix = list(x.strip("\n") for x in fileinput.input("input/input5.txt"))
+    seat_ids = seat_matrix_transform(seat_matrix)
+    print("Maximum seat id:", max(seat_ids))
+
+
+@aoc_timer(day=5, part=2, year=2020)
+def solve_part2():
+    seat_matrix = list(x.strip("\n") for x in fileinput.input("input/input5.txt"))
+    seat_ids = seat_matrix_transform(seat_matrix)
+    # print(seat_ids)
+    seat_ids.sort()
+
+    for i, d in enumerate(seat_ids):
+        if(seat_ids[i]-seat_ids[i-1]==2):
+            print("Our seat", d-1)
+
+
+
+
+if __name__ == "__main__":
+    solve1()
+    solve_part2()
+</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

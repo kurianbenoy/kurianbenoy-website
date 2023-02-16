@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kurian Benoy">
+<meta name="dcterms.date" content="2019-08-10">
+
+<title>Kurian Benoy - Deep Learning for Japanese Classical Literature-Paper Review</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Deep Learning for Japanese Classical Literature-Paper Review</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">research paper summary</div>
+                <div class="quarto-category">academic</div>
+                <div class="quarto-category">Deep learning</div>
+                <div class="quarto-category">ML</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kurian Benoy </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 10, 2019</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>This blogpost is a short summary of the <a href="https://arxiv.org/abs/1812.01718">research paper</a> authored by Tarin Clanuwat, Mikel Bober-Irizar(18 y.o Kaggle grandmaster), Asanobu Kitamoto, Alex Lamb, Kazuaki Yamamoto, David Ha. This research paper was presented in NeurIPS 2018.</p>
+<p>Japan is an amazing place and my knowledge of the land of Samurais, bullets trains has increased after I started learning about this my paper which was mentioned as a must read materials for Kaggle competition of Kuzushiji Recognition.</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<ul>
+<li>To encourage ML researchers to produce models for Social or Cultural relevance to transcribe Kuzushiji into contemporary Japanese characters.</li>
+<li>To release Kuzushiji MNIST dataset, Kuzushiji 49 and Kuzushiji-Kanji datasets to general public.</li>
+</ul>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figure class="figure">
+<img src="../../posts/images/japan.jpg" title="Philadelphia's Magic Gardens" class="img-fluid figure-img">
+</figure>
+<p></p><figcaption class="figure-caption">Japan This place was so cool!</figcaption><p></p>
+</figure>
+</div>
+<p>Historically, Japan and it’s culture had been isolated from the west for a long period of time. Untill the Meiji restoration in 1868, when a 15 year old emperor brought unity to whole of Japan which was earlier broken down into regional small rulers. This caused a massive change in Japanese Language, writing and printing system. Even though Kuzushiji had been used for over 1000 years there are very few fluent readers of Kuzushiji today (only 0.01% of modern Japanese natives). So now most Japan natives cannot read books written and published over 150 years ago. In General Catalog of National Books, there is over 1.7 million books and about 3 millions unregistered books yet to be found. It’s estimated that there are around a billion historical documents written in Kuzhushiji language over a span of centuries. Most of this knowledge is now inaccessible to general public.</p>
+<p>With this research paper, three easy to use pre-processed datasets has been released for Machine learning research to help in Recognising Kuzhushiji, domain transfer of contents from unseen Kuzhushiji Kanji to Modern Kanji(classical Japanese literature). Also the baseline classification results for the same has been mentioned in this paper.</p>
+<p><img src="../../posts/images/oldbook.png" class="img-fluid"></p>
+</section>
+<section id="kuzhushiji-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="kuzhushiji-dataset">Kuzhushiji Dataset</h2>
+<p>The Japanese language can be divided into two types of systems:</p>
+<ul>
+<li><p>Logographic systems, where each character represents a word or a phrase (with thousands of characters). A prominent logographic system is Kanji, which is based on the Chinese System.</p></li>
+<li><p>Syllabary symbol systems, where words are constructed from syllables (similar to an alphabet). A prominent syllabary system is Hiragana with 49 characters (Kuzushiji-49), which prior to the Kuzushiji standardization had several representations for each Hiranaga character.</p></li>
+</ul>
+<p>The Kuzhushiji dataset is created by National Institute of Japanese Literature(NIJL) and is curated by Center for Open Data in Humanities(CODH). This dataset includes characters in both Kanji and Hiranaga, based on pre-processed images of characters from 35 books from the 18th century. It includes 3 parts:</p>
+<p>a)<strong>Kuzhushiji MNIST:</strong></p>
+<p><a href="http://yann.lecun.com/exdb/mnist/">MNIST for handwritten digits</a> is one of the most popular dataset’s till and is usually the hello world for Deep Learning. As a easy to process beginner dataset, this is consist of 10 classes with 7000 images for each. Yet there are fewer than 49 letters needed to fully represent Kuzhushiji Hirangana. So currently we choose 10 rows of Hirangana when creating dataset with 5 letter being stacked together to form this dataset. Each image is <code>28*28</code> pixel resolution. Kuzhushiji MNIST is more difficult compared to MNIST because for each image the chance for a human to detect characters correctly when a single image is of small size and is stacked together of 5 rows is very less. Also there are more challenges in <a href="https://www.kaggle.com/c/kuzushiji-recognition/overview/about-kuzushiji">Kuzhushiji recognition</a>.</p>
+<ol start="2" type="a">
+<li><strong>Kuzhushiji 49:</strong></li>
+</ol>
+<p>As the name suggest, it is a much larger imbalanced dataset containing 49 hirangana characters with about 266,407 images. Both Kuzhushiji-49 and Kuzhushiji-MNIST consists of <code>grey images of 28*28 pixel resolution</code>. The training and test is split in ratio of 6/7 to 1/7 for each classes. There are several rare characters with small no of samples such as (e) in hirangana has only 456 images.</p>
+<p>c)<strong>Kuzhushiji Kanji:</strong></p>
+<p>Kuzhushiji Kanji has a total of 3832 classes of characters in this dataset with about 140,426 images. Kuzhushiji-Kanji images are are of larger 64x64 pixel resolution and the number of samples per class range from over a thousand to only one sample. This dataset is not created merely for classification images, instead for more creative experimental task.</p>
+<p>If you are interested in downloading the dataset with detailed documentation.</p>
+<p><a href="https://github.com/rois-codh/kmnist">Go here</a></p>
+</section>
+<section id="experiments" class="level2">
+<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
+<section id="classification-of-kuzushiji-characters" class="level3">
+<h3 class="anchored" data-anchor-id="classification-of-kuzushiji-characters">Classification of Kuzushiji Characters</h3>
+<p>In machine learning and statistics, classification is a supervised learning approach in which the computer program learns from the data input given to it and then uses this learning to classify new observation. This data set may simply be bi-class (like identifying whether the person is male or female or that the mail is spam or non-spam) or it may be multi-class too when more than two objects needs to be classifed.</p>
+<p>We try to focus on calculating the accuracy of recognising Kuzushiji datasets which in both Kanji and Hiragana, based on pre-processed images of characters from 35 books from the 18th century for datasets Kuzushiji-MNIST, Kuzushiji-49 and Kuzushiji Kanji, each having respectively 9, 49 and 3832 classes for the dataset.</p>
+<p>The following table shows the accuracy of various algorithms which is used in the research paper baseline. ROIS-CODH calls out for improving the results on the Kuzushiji dataset and there are even interesting Kaggle competitions to get state of the art results for this competition.The current state of the art model which gives a better performance is <strong>Resnet networks being ensembled over Capsule networks</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../posts/images/papergithub.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Philadelphia’s Magic Gardens. This place was so cool!</figcaption><p></p>
+</figure>
+</div>
+<p>According to paper we get 97.33% accuracy for dataset on using PreActResnet18 + manifold mixup and 98.9% accuracy for <strong>Resnet Networks ensembed over Capsule Networks</strong>. Let’s take a closer look at both this architectures:</p>
+<ul>
+<li>PreAct Resnet with Manifold mixup</li>
+</ul>
+<p>A method for learning better representations, that acts as a regularizer and despite its no significant additional computation cost , achieves improvements over strong baselines on Supervised and Semi-supervised Learning tasks. Manifold Mixup is that the dimensionality of the hidden states exceeds the number of classes, which is often the case in practice.</p>
+<p>When deeper networks starts converging, a degradation problem has been exposed: with the network depth increasing, accuracy gets saturated and then degrades rapidly. For almost all segmentation, classification and object detection and even regression with tabular data, Resnet gives state of the art results.</p>
+<ul>
+<li>Resnet networks ensembled with Capsule networks</li>
+</ul>
+<p>The best results were achieved with an ensemble of VGG and ResNet – a 98.9% accuracy on the test set, which is a state-of-the-art result on the new dataset. TO unnderstand how this model gives this much accuracy, it’s essential to understand about Convolutional Neural networks. Capsule neural networks were introduced by Jeffrey Hinton and his team to solve a very important important disadvantage of Convolutional neural networks(CNN).</p>
+<p>Internal data representation of a convolutional neural network does not take into account important spatial hierarchies between simple and complex objects. For a CNN, a mere presence of these objects can be a very strong indicator to consider that there is a face in the image. Orientational and relative spatial relationships between these components are not very important to a CNN. As a mere presence of 2 eyes, a mouth and a nose in a picture does not mean there is a face, yet CNN always see like that.</p>
+<p>For objects in 3D representation, the relationship of various angles and poses are not properly mapped in a usual CNN. Yet deep learning to better model hierarchical relationships inside of internal knowledge representation of a neural network. Intuition behind them is very simple and elegant. This has been now possible due to a new algorithm for Dynamic Routing between Capsules, for calculating distance between capsule.</p>
+<p>On blending our architecture with Resnets which help in converging our neural networks with less loss rate and using Capsule networks for better representation of objects. We are able to get state of art results for classifying Kuzushiji letters.</p>
+</section>
+</section>
+<section id="domain-transfer" class="level2">
+<h2 class="anchored" data-anchor-id="domain-transfer">Domain Transfer</h2>
+<p>Domain transfer focuses on pixel images, we explore instead the transfer from pixel images to vector images, across two different domains ie from Kuzushiji japanese to contemporary Japanese. Our proposed model aims to generate Modern Kanji versions of a given Kuzushiji-Kanji input, in both pixel and stroke-based formats. We employ KanjiVG, a font for Modern Kanji (ie the Japanese Language) in both pixel and stroke format. This is a various interesting application to bring life to an almost extinct language with usage of Machine Learning.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../posts/images/paperdomainarch.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Domain transfer architecture</figcaption><p></p>
+</figure>
+</div>
+<section id="architecture-of-domain-transfer" class="level3">
+<h3 class="anchored" data-anchor-id="architecture-of-domain-transfer">Architecture of Domain Transfer</h3>
+<p>Input is converted to contempary language from the old Kuzushiji-KanjiVG format of 64x64px resolution format. We employ KanjiVG, a font for Modern Kanji in a stroke-ordered format. Variational Autoen-coders [14,18] provide a latent space for both Kuzushiji-Kanji and a pixel version of KanjiVG. A Sketch-RNN model is then trained to generate Modern Kanji strokes, conditioned on the VAE’slatent space. Predicting pixel versions of Modern Kanji using a VAE also aids human transcribers as the blurry regions of the output can be interpreted as uncertain regions to focus on.</p>
+<p>We first train two separate ConvolutionalVariational Autoencoders, one on the Kuzushiji-Kanji dataset, and also a second on a pixel version ofKanjiVG dataset rendered to 64x64 pixel resolution for consistency. The architecture for the VAEis identical to and both datasets are compressed into their own respective 64-dimensional latentspace,Zold and Znew.</p>
+</section>
+<section id="components-of-this-model" class="level3">
+<h3 class="anchored" data-anchor-id="components-of-this-model">Components of this model</h3>
+<ul>
+<li>Auto-encoder and decoder</li>
+</ul>
+<p>They are widely used unsupervised application of neural networks whose original purpose is to find latent lower dimensional state-spaces of datasets, but they are also capable of solving other problems, such as image denoising, enhancement or colourization. Variational Autoencoders is used to provide latent space of KanjiVG to Kuzushiji Kanji. It’s used in the architecture to finetune the input and provide better colourization and enhancement. It’s used in complex generative models.</p>
+<ul>
+<li>Mixture Density Networks</li>
+</ul>
+<p>Used to model density function to a new domain. It’s used for making the neural networks to translate from Kuzushiji Kanji to KanjiVG format in pixels.</p>
+<ul>
+<li>Sketch RNN</li>
+</ul>
+<p>It’s a decoder network which conditions the model in a new latent vector.</p>
+<p><strong>Algorithm</strong> 1. Train two seperate variational autoencoder on pixel version of KanjiVG and Kuzhushiji-Kanji 2. Train mixture density network to mode P(Znew | Zold) as mixture of gaussians. 3. Train sketch RNN to generate Kanji VGG strokes conditioned on either znew or z~new ~P(Znew|Zold)</p>
+</section>
+</section>
+<section id="why-not-such-a-system-for-malayalam" class="level2">
+<h2 class="anchored" data-anchor-id="why-not-such-a-system-for-malayalam">Why Not such a system for Malayalam?</h2>
+<p>In Malayalam , there are about 1200+ letters in the old Dravidian Malayalam which was prominently. In 1956 a government order reduced the total plausible characters as 120 to make it compatible with ASCII format.</p>
+<p>in the current Malayalam alphabets there are not much characters. Yet there is no need for a domain transfer system in Malayalam all the Malayalam characters are mapped in Unicode format by Swanthanthra Malayalam community. So unlike in Japanese old and new letter mappings in unicode format are different while in Malayalam both have same unicode mapping.</p>
+<p><strong>Fin.</strong></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
