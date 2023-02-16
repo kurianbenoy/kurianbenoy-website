@@ -1,1 +1,1 @@
-Sitemap: https://kurianbenoy.github.io/sitemap.xml
+Sitemap: https://github.com/kurianbenoy/kurianbenoy.github.io/sitemap.xml
