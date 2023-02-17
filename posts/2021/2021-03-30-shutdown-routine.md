@@ -2,7 +2,6 @@
 aliases:
 - /2021/03/30/shutdown-routine
 categories:
-- Experience
 - life
 - work
 date: '2021-03-30'

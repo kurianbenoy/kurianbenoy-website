@@ -3,7 +3,6 @@ aliases:
 - /2021/09/24/messy-git-commits-tale
 categories:
 - git
-- github
 date: '2021-09-24'
 layout: post
 title: Messy git commit relation with master and develop branches

@@ -3,7 +3,7 @@ aliases:
 - /2021/07/25/jspackagessize
 categories:
 - TIL
-- JavaScript
+- javascript
 date: '2021-07-25'
 layout: post
 show-avatar: false

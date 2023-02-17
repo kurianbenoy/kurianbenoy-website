@@ -4,6 +4,7 @@ aliases:
 categories:
 - coding
 - Vue
+- javascript
 date: '2021-04-24'
 layout: post
 title: Few Vue concepts

@@ -2,7 +2,7 @@
 title: "Attending MBIFL 2023, a literature festival"
 author: ["Kurian Benoy"]
 date: "2023-02-05"
-categories: [Life,literature, writing]
+categories: [Life, Travel, conference]
 ---
 
 Since I am a frequent book purchaser from Mathrubhumi book, in January I got a notification to buy early bird tickets
