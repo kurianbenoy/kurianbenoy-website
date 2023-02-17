@@ -58,8 +58,8 @@
 
  ]]></description>
   <category>Life</category>
-  <category>literature</category>
-  <category>writing</category>
+  <category>Travel</category>
+  <category>conference</category>
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/mbifl2023/index.html</guid>
   <pubDate>Sun, 05 Feb 2023 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/mbifl2023/book.jpg" medium="image" type="image/jpeg"/>
@@ -88,7 +88,7 @@
 
 
  ]]></description>
-  <category>news</category>
+  <category>TIL</category>
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/welcome/index.html</guid>
   <pubDate>Sun, 18 Dec 2022 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
@@ -1210,7 +1210,7 @@ Note
  ]]></description>
   <category>fastaicourse</category>
   <category>terminal</category>
-  <category>python</category>
+  <category>Python</category>
   <category>setup</category>
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-05-28-fastai-walthrus1.html</guid>
   <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
@@ -3871,7 +3871,6 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <category>ML</category>
   <category>Deep learning</category>
   <category>fastai</category>
-  <category>journey</category>
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</guid>
   <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" medium="image" type="image/jpeg"/>
