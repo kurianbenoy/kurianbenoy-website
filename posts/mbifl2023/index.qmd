@@ -15,14 +15,14 @@ Yet I had just one wish. [Benyamin](https://en.wikipedia.org/wiki/Benyamin_(writ
 അൽ - അറേബ്യൻ നോവൽ ഫാക്‌ടറി  and മുല്ലപ്പു നിറമുള്ള പകലുകൾ(which is a dual novel) along with the famous ആടു ജീവിതം(Goat Days). I just wanted to meet
 him in person and get an autograph on my copy of my favourite novel.
 
-![My favourite novel](/posts/mbifl2023/book.jpg){fig-align="left"}
+![My favourite novel](/posts/mbifl2023/book.jpg){width=300 fig-align="left"}
 
 I travelled early morning from my house and reached the venue by almost 10:30 AM. During this time, there was 
 a conversational session about  പ്രവാസിയുടെ അക്ഷരകാലം with P Sreeramkrishan, Benyamin, Shabini Vasudev and KV Mohan Kumar. After the session, there
 was a huge fan base to meet author Benyamin. I first went to get a signature from another author KV Mohan Kumar in the panel, and then waited
 in the queue to get a signature from Benyamin.
 
-![Session on പ്രവാസിയുടെ അക്ഷരകാലം](/posts/mbifl2023/benyamin_session.jpg){width=300}
+![Session on പ്രവാസിയുടെ അക്ഷരകാലം](/posts/mbifl2023/benyamin_session.jpg){width=300 fig-align="left"}
 
 After lot of books were signed by Benyamin which was bought by his fans with some of his famous works like ആടു ജീവിതം, മാന്തളിരിലെ ഇരുപത് കമ്മ്യൂണിസ്ററ് വർഷങ്ങൾ,
 അൽ - അറേബ്യൻ നോവൽ ഫാക്‌ടറി. I got my copy also signed with a salutation of snehattode(with love). I just asked my
@@ -34,7 +34,7 @@ Sameera Parveen like Najeeb in ആടു ജീവിതം.
 My mission was just completed in one hour and I got a few more signatures like Shabini Vasudev who is an author from Bahrain and from
 Vinu V John, who is the star anchor of Asianet news(who kindly reminded me he is not famous to be giving autograph).
 
-![All the signature I got](/posts/mbifl2023/book_signature.jpg){width=300}
+![All the signature I got](/posts/mbifl2023/book_signature.jpg){width=300 fig-align="left"}
 
 After that, I attended the talk with Aparna Balamurali and Captian GR Gopinath. Shashi Tharoor talked about his book Pride, Prejudice and Punditry.
 Seeing Tharoor answer a question to a student reminded me of India's former people's president APJ. I wish him all the success as a politician.
@@ -53,4 +53,4 @@ with Karun.
 That winded up MBIFL 2023, a literature festival for me a data scientist who doesn't have anything related to it. It was 
 cool to interact and meet with so many cool people. I am looking forward to MBIFL 2024 soon...
 
-![Session by Shashi Tharoor](/posts/mbifl2023/tharoor.jpg){width=500}
+![Session by Shashi Tharoor](/posts/mbifl2023/tharoor.jpg){width=500 fig-align="left"}
