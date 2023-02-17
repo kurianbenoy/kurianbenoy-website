@@ -3,9 +3,9 @@ aliases:
 - /Deep Learning/linux/python/2019/07/14/Brownie_points_on_SSD
 author: Kurian Benoy
 categories:
-- python
+- Python
 - linux
-- Deep Learning
+- Deep learning
 date: '2019-07-14'
 layout: post
 title: Brownie points on Single Shot Multibox Detector

@@ -4,7 +4,7 @@ aliases:
 author: Kurian Benoy
 categories:
 - Swift
-- Deep Learning
+- Deep learning
 date: '2019-12-19'
 layout: post
 title: First thoughts on Swift

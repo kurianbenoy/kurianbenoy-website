@@ -2,7 +2,7 @@
 title: "Welcome To My Quarto Website"
 author: ["Tristan O'Malley", "Kurian Benoy"]
 date: "2022-12-18"
-categories: [news]
+categories: [TIL]
 ---
 
 ![](thumbnail.jpg)

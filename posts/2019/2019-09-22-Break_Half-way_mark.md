@@ -3,7 +3,6 @@ aliases:
 - /kaggle/kernels/2019/09/22/Break_Half-way_mark
 categories:
 - kaggle
-- kernels
 date: '2019-09-22'
 layout: post
 title: Break the Half-way mark(0.52 LB score)

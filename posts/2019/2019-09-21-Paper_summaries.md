@@ -2,9 +2,7 @@
 aliases:
 - /Audio/Final Year projects/TTS/Wavenet/2019/09/21/Paper_summaries
 categories:
-- Final Year projects
 - TTS
-- Wavenet
 - Audio
 date: '2019-09-21'
 layout: post

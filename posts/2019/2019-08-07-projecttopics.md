@@ -4,7 +4,6 @@ aliases:
 author: Kurian Benoy
 categories:
 - academic
-- capstone project
 date: '2019-08-07'
 layout: post
 title: Final Year Project Abstract

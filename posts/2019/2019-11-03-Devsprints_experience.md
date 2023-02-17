@@ -3,13 +3,14 @@ aliases:
 - /beginner/community/fossmec/2019/11/03/Devsprints_experience
 author: Kurian Benoy
 categories:
-- beginner
 - community
 - fossmec
 date: '2019-11-03'
 title: Devsprints Experience
 
 ---
+
+![Genearated image with stable diffusion 1.5 with prompot community-of-practice](/posts/images/community-of-practice.png)
 
 Devsprints is an event unlike in Hackathon, you start working in established projects which are usally FOSS/Open source.
 @MEC our Devsprints was planned to be a one day event on November 3, even though we would have loved to make the event
@@ -59,6 +60,7 @@ was a difficult especially with majority of laptops using windows.
 
 After that one my way back to home with Abhijit. We had an amazing conversation regarding FOSS, security. As most of the
 secure stuff was not available
+
 - ditch gmail(forwarers etc)
 - remove unnecessary google maps
 - Fix other service, like mail client

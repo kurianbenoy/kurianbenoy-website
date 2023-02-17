@@ -3,8 +3,8 @@ aliases:
 - /c/python/2019/09/17/Precision_values
 author: Kurian Benoy
 categories:
-- python
-- c
+- Python
+- C
 date: '2019-09-17'
 layout: post
 title: Float/decimal points precision in C++ and python3

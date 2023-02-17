@@ -5,6 +5,7 @@ author: Kurian Benoy
 categories:
 - conference
 - fossasia
+- Travel
 date: '2019-03-13'
 layout: post
 title: FOSSASIA Summit - Day 1

@@ -4,7 +4,6 @@ aliases:
 author: Kurian Benoy
 categories:
 - Image classifier
-- Medium
 date: '2019-09-29'
 title: Pinch of old project
 

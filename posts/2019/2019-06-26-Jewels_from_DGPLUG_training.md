@@ -3,8 +3,7 @@ aliases:
 - /Conference/Life/dgplug/linux/python/2019/06/26/Jewels_from_DGPLUG_training
 author: Kurian Benoy
 categories:
-- Conference
-- python
+- Python
 - linux
 - Life
 - dgplug

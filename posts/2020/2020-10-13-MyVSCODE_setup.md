@@ -4,6 +4,7 @@ aliases:
 categories:
 - coding
 - life
+- setup
 date: '2020-10-13'
 layout: post
 readtime: true
@@ -21,7 +22,7 @@ VSCODE for atleast the next 6 months.
 
 My current VSCode setup looks like this:
 
-![image](https://user-images.githubusercontent.com/24592806/95785319-29a1fc00-0cf3-11eb-8dc3-b726e07a5bd6.png)
+![My VSCODE](https://user-images.githubusercontent.com/24592806/95785319-29a1fc00-0cf3-11eb-8dc3-b726e07a5bd6.png)
 
 I use a **Default Light** colour scheme. I use the following extensions to make my life easier:
 

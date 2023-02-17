@@ -3,9 +3,8 @@ aliases:
 - /Deep learning/Text To Speech Synthesis/audio/2019/09/11/MultispeakerTTS_summary
 author: Kurian Benoy
 categories:
-- audio
-- Deep learning
-- Text To Speech Synthesis
+- Audio
+- TTS
 date: '2019-09-11'
 layout: post
 title: Research paper Summary
