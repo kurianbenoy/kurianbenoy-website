@@ -3,7 +3,7 @@ aliases:
 - /coding/life/2020/10/13/MyVSCODE_setup
 categories:
 - coding
-- life
+- Life
 - setup
 date: '2020-10-13'
 layout: post

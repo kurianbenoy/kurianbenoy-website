@@ -3,7 +3,7 @@ aliases:
 - /Image classifier/Medium/2019/09/29/projectreview
 author: Kurian Benoy
 categories:
-- Image classifier
+- Deep Learning
 date: '2019-09-29'
 title: Pinch of old project
 

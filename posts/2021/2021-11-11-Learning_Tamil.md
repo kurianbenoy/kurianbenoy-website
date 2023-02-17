@@ -4,7 +4,7 @@ aliases:
 author: Kurian Benoy
 categories:
 - tamil
-- life
+- Life
 date: '2021-11-11'
 layout: post
 title: Learning Tamil and weird things in Malayalam

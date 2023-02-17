@@ -3,7 +3,6 @@ aliases:
 - /Emacsvim/war/2019/07/23/EmacsvsVim_war
 author: Kurian Benoy
 categories:
-- war
 - Emacsvim
 date: '2019-07-23'
 layout: post

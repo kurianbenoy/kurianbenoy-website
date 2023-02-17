@@ -2,7 +2,7 @@
 aliases:
 - /2021/08/07/iiitcourse
 categories:
-- life
+- Life
 - myself
 date: '2021-08-07'
 layout: post

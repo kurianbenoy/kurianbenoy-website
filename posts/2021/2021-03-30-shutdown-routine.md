@@ -2,7 +2,7 @@
 aliases:
 - /2021/03/30/shutdown-routine
 categories:
-- life
+- Life
 - work
 date: '2021-03-30'
 layout: post

@@ -2,7 +2,7 @@
 aliases:
 - /2021/04/18/financial_lessons
 categories:
-- life
+- Life
 - finance
 date: '2021-04-18'
 layout: post

@@ -3,7 +3,7 @@ aliases:
 - /2021/03/21/qualities_software_developers
 categories:
 - coding
-- life
+- Life
 date: '2021-03-21'
 layout: post
 readtime: true
