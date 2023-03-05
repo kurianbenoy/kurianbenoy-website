@@ -56,9 +56,9 @@ cool to interact and meet with so many cool people. I am looking forward to MBIF
 ![Session by Shashi Tharoor](/posts/mbifl2023/tharoor.jpg){width=500 fig-align="left"}
 
 
-**Update 1(March 5, 2023):**
+*Update 1(March 5, 2023)*
 
 I found a very cool video in 360 degree which showed how the MBIFL 2023 venue atmosphere is. It was a very cool video and I 
 thought of including this also with this blogpost.
 
-{{< video https://youtu.be/ZrbFzIFu-d0 width="600" height="300" >}}
+{{< video https://youtu.be/ZrbFzIFu-d0 >}}
