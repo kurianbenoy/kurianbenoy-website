@@ -1,0 +1,274 @@
+---
+title: "Assignment-Set2"
+format: pdf
+editor: visual
+author: Kurian Benoy
+---
+
+# Assignment- Set2
+
+## About Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Imported Libraries
+
+```{r}
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+```
+
+## Assignment question 1
+
+You can consider a hypothetical scenario of a retail store that has recorded the sales figures for various products over the past year. The dataset could consist of the following variables:
+
+\
+- Product: The name of the product.\
+- Month and Year: The month and Year for which the sales figures are recorded.\
+- Sales: The total sales figure for that product in that month.
+
+1.  What is the overall trend in sales for Product A over the past year?
+
+2.  In which month did Product B experience the highest sales figure?
+
+3.  How do the sales figures for Product C compare to those of Product D over the past year?
+
+4.  Are there any notable fluctuations or dips in sales figures for Product E during the year?
+
+5.  How do the sales figures for Product F in the first half of the year compare to those in the second half of the year?
+
+6.  In which year did the company experience the highest growth in sales?
+
+7.  What was the range of sales figures from the lowest to the highest?
+
+8.  Were there any outliers in the data, and if so, in which year?
+
+9.  How would you interpret the graph of the sales figures over the 5-year period? (consider sales from 1999-2023)
+
+10. What recommendations would you make to the company based on this data?
+
+```{r}
+p_name=c("P_001A", "P_001A", "P_001A", "P_001A", "P_002A", "P_002A","P_002B", "P_002B", "P_002C", "P_002C","P_002C", "P_002C", "P_002D", "P_002D","P_002D", "P_002D", "P_002E", "P_002E","P_002E", "P_002E")
+month=c("Jan", "Feb", "Mar", "Apr","Jan", "Feb", "Mar", "Apr", "Jan", "Feb", "Mar", "Apr", "Jan", "Feb", "Mar", "Apr",  "Jan", "Feb", "Mar", "Apr")
+year=c(1999, 2000, 2001,2002, 1999, 2000, 2001, 2002, 1999, 2000, 2001, 2002, 1999, 2000, 2001, 2002, 1999, 2000, 2001, 2002)
+sales=c(400, 500, 300,700, 1000, 3000, 700, 600, 300, 400, 500, 600, 1000, 500, 200, 2000, 100, 120, 140, 160)
+
+df=tibble(Product=p_name, Month=month, Year=year, Sales=sales)
+head(df)
+```
+
+Separte data Product into categories like product A, B, C etc.
+
+```{r}
+df_new <- df %>%
+  separate(Product, into = c("Product_name", "Category_name"), sep = "_") %>%   mutate(Product_name = paste0(substr(Product_name, 1, 1), substr(Category_name, 0,3)), Category_name=substr(Category_name, 4,4))
+
+
+head(df_new)
+
+```
+
+**What is the overall trend in sales for Product A over the past year?**
+
+```{r}
+df_product_a = df_new %>% filter(Category_name=="A")
+head(df_product_a)
+ggplot(df_product_a, aes(x=Year, y=Sales)) + geom_line() + labs(title = "Sales of Product A over years")
+```
+
+**In which month did Product B experience the highest sales figure?**
+
+```{r}
+df_productb = df_new %>% filter(Category_name=="B") %>% filter(Sales==max(Sales))
+head(df_productb)
+```
+
+So in month of March we had highest Sales
+
+**How do the sales figures for Product C compare to those of Product D over the past year?**
+
+```{r}
+df_productb = df_new %>% filter(Category_name=="C"|Category_name=="D") %>% filter(Year==2002)
+ggplot(df_productb, aes(x=Year, y=Sales, color=Category_name, shape=Category_name)) + geom_point() + labs(title = "sales figures for Product C compare to those of Product D over past year")
+```
+
+**Are there any notable fluctuations or dips in sales figures for Product E during the year?**
+
+```{r}
+df_productb = df_new %>% filter(Category_name=="E")
+ggplot(df_productb, aes(x=Year, y=Sales)) + geom_line()
+```
+
+There is no notable fluctations, and we can see the graph is constantly improving.
+
+**In which year did the company experience the highest growth in sales?**
+
+```{r}
+growth = df_new %>%
+  group_by(Year) %>%
+  summarise(Sales = sum(Sales)) %>%
+  arrange(Year) %>%
+  mutate(Growth = 100*(Sales-lag(Sales))/lag(Sales))
+head(growth)
+```
+
+```{r}
+x<-growth %>% slice(which.max(Growth))
+x$Year
+```
+
+## Assignment Question 2
+
+Consider the 'diamonds' dataset, which is built-in in ggplot2 package in R. This dataset contains information about diamonds, including their cut, color, clarity, and price.\
+\
+1. What is the distribution of diamond cuts in the 'diamonds' dataset?\
+2. How does the average price of diamonds vary by their cut\
+3. What is the distribution of diamond colors in the 'diamonds' dataset?\
+4. How does the average price of diamonds vary by their color?\
+5. What is the distribution of diamond clarities in the 'diamonds' dataset?\
+6. How does the average price of diamonds vary by their clarity?\
+7. How does the average carat weight of diamonds vary by their cut?\
+8. How does the average carat weight of diamonds vary by their color?\
+9. How does the average carat weight of diamonds vary by their clarity?\
+10. What is the distribution of diamond prices in the 'diamonds' dataset?
+
+```{r}
+data(diamonds)
+head(diamonds)
+```
+
+1.  **To get the distribution of diamond cuts in the 'diamonds' dataset, we can use the following R code:\
+    **
+
+    ```{r}
+    ggplot(diamonds, aes(x = cut)) + 
+      geom_bar() +
+      labs(title = "Distribution of Diamond Cuts")
+    ```
+
+2.  **How does the average price of diamonds vary by their cut\
+    **
+
+    ```{r}
+    x <- diamonds %>%
+      group_by(cut) %>%
+      summarize(mean_price = mean(price)) %>%
+      arrange(desc(mean_price))
+    x
+    ```
+
+3.  **What is the distribution of diamond colors in the 'diamonds' dataset?\
+    \
+    **
+
+    ```{r}
+    ggplot(diamonds, aes(x = color)) + 
+      geom_bar() +
+      labs(title = "Distribution of Diamond Colors")
+    ```
+
+4.  **How does the average price of diamonds vary by their color?\
+    \
+    **
+
+    ```{r}
+    x <- diamonds %>%
+      group_by(color) %>%
+      summarize(mean_price = mean(price)) %>%
+      arrange(desc(mean_price))
+    ```
+
+<!-- -->
+
+5.  **What is the distribution of diamond clarities in the 'diamonds' dataset?\
+    \
+    **
+
+    ```{r}
+    ggplot(diamonds, aes(x = clarity)) + 
+      geom_bar() +
+      labs(title = "Distribution of Diamond Clarities")
+
+    ```
+
+6.  **How does the average price of diamonds vary by their clarity?\
+    \
+    **
+
+    ```{r}
+    diamonds %>%
+      group_by(clarity) %>%
+      summarize(mean_price = mean(price)) %>%
+      arrange(desc(mean_price))
+
+    ```
+
+7.  **How does the average carat weight of diamonds vary by their cut?\
+    **
+
+    This will give us a table that shows the average carat weight of diamonds in each cut category, sorted in descending order by carat.
+
+    ```{r}
+    diamonds %>%
+      group_by(cut) %>%
+      summarize(mean_carat = mean(carat)) %>%
+      arrange(desc(mean_carat))
+
+
+    ```
+
+8.  **How does the average carat weight of diamonds vary by their color?\
+    \
+    **
+
+    ```{r}
+    diamonds %>%
+      group_by(color) %>%
+      summarize(mean_carat = mean(carat)) %>%
+      arrange(desc(mean_carat))
+
+
+    ```
+
+9.  **How does the average carat weight of diamonds vary by their clarity\
+    \
+    **
+
+    ```{r}
+    diamonds %>%
+      group_by(clarity) %>%
+      summarize(mean_carat = mean(carat)) %>%
+      arrange(desc(mean_carat))
+
+
+    ```
+
+10. **What is the distribution of diamond prices in the 'diamonds' dataset?**
+
+```{r}
+ggplot(diamonds, aes(x = price)) + 
+geom_histogram(fill = "lightblue", binwidth = 1000) +
+scale_x_continuous()+
+scale_y_continuous()+
+labs(x="Price", y="Frequency count", title="Distribution of Diamond Prices")
+```
+
+## Assignment Question 3
+
+Q3. Consider the 'diamonds' dataset, which is built-in in ggplot2\
+package in R and perform the following\
+1. How does the genre of movies distributed by year on a stackbar\
+chart in ggplot?\
+2. What is the proportion of box office earnings by rating for\
+movies in the 'movies' dataset using a stackbar chart in ggplot?\
+3. Can you create a stackbar chart in ggplot to show the\
+distribution of movies by their production company and genre?\
+4. How does the length of movies vary by genre in the 'movies'\
+dataset as shown in a stackbar chart using ggplot?\
+5. Is there any relationship between the genre of movies and the\
+number of awards won, as depicted on a stackbar chart using\
+ggplot from the 'movies' dataset?\
+\
+
+No dataset found in ggplot named `diamonds` with attributes listed.
