@@ -14,7 +14,7 @@
 <item>
   <title>Attending MBIFL 2023, a literature festival</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/mbifl2023/index.html</link>
+  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/mbifl2023/index.html</link>
   <description><![CDATA[ 
 
 
@@ -60,7 +60,7 @@
   <category>Life</category>
   <category>Travel</category>
   <category>conference</category>
-  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/mbifl2023/index.html</guid>
+  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/mbifl2023/index.html</guid>
   <pubDate>Sun, 05 Feb 2023 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/mbifl2023/book.jpg" medium="image" type="image/jpeg"/>
 </item>
@@ -68,13 +68,13 @@
   <title>Welcome To My Quarto Website</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/welcome/index.html</link>
+  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/welcome/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>This is my first post in a Quarto blog. Welcome everyone to my new blog.</p>
 <p>I have been wanting for a long time to unify <a href="https://github.com/kurianbenoy/ml-blog">my existing Machine learning blog</a> based on fast-pages together with <a href="https://github.com/kurianbenoy/kurianbenoy.github.io/tree/4b5246ada3190dbdd73dc96d266a5ade7ef078a3">my main blog website</a>.</p>
 <p>The unification process is a bit challenging:</p>
@@ -89,9 +89,9 @@
 
  ]]></description>
   <category>TIL</category>
-  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/welcome/index.html</guid>
+  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/welcome/index.html</guid>
   <pubDate>Sun, 18 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Paddy Disease Classification competition</title>
@@ -3836,46 +3836,6 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/music.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>Practical Deep Learning for Coders Course - Lesson 0</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" class="img-fluid"></p>
-<p>Last few weeks, I enrolled for the live cohort of Deep Learning For Coders with fastai Couse which is going to be taken by Jeremy Howard. It’s’ a previlege at the same time, a dream come true moment for me, as a fastai student who took some part of fast.ai from the year 2018.</p>
-<p>Whatever I have done in ML can be partly attributed to the way and the Jeremy motivated students to be world class researchers. The fastai course has seen lot of success stories from folks like Aman Arora, Deoldify creator, Sanyam Bhutani, Even Oldrige, Jason Antic Radek, Zach Mueller, Wayde Gilliam and much more. Jeremy has inspired and enabled multiple people to be practitioners in Deep Learning. {bhuvani an example}</p>
-<p>I still feel I am a late boomer, and due to pursuing a work along with academics. I am in a position to be extremely careful with what I spend time with and things I do.</p>
-<p>I will do following:</p>
-<ol type="1">
-<li>Try out every notebook given by Jeremy during class and writes in Kaggle</li>
-<li>breath and look through pytorch tutorials</li>
-<li>Write blogpost every week with lesson summary and occasionally on new things I learning during course.</li>
-<li>Participate in NLP competition provided by jeremy link</li>
-</ol>
-<p>I won’t do:</p>
-<ol type="1">
-<li>Won’t read Pytorch book(even though it’s very tempting to do)</li>
-<li>Be active in twitter during course</li>
-<li>Read EDA notebooks</li>
-<li>Won’t write any notebooks in tensorflow :)</li>
-</ol>
-
-
-
- ]]></description>
-  <category>fastbook</category>
-  <category>myself</category>
-  <category>ML</category>
-  <category>Deep learning</category>
-  <category>fastai</category>
-  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</guid>
-  <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>Practical Deep Learning for Coders Course - Lesson 1</title>
   <dc:creator>Kurian Benoy</dc:creator>
   <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-51.html</link>
@@ -4019,6 +3979,46 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-51.html</guid>
   <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/jeremy.png" medium="image" type="image/png" height="53" width="144"/>
+</item>
+<item>
+  <title>Practical Deep Learning for Coders Course - Lesson 0</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" class="img-fluid"></p>
+<p>Last few weeks, I enrolled for the live cohort of Deep Learning For Coders with fastai Couse which is going to be taken by Jeremy Howard. It’s’ a previlege at the same time, a dream come true moment for me, as a fastai student who took some part of fast.ai from the year 2018.</p>
+<p>Whatever I have done in ML can be partly attributed to the way and the Jeremy motivated students to be world class researchers. The fastai course has seen lot of success stories from folks like Aman Arora, Deoldify creator, Sanyam Bhutani, Even Oldrige, Jason Antic Radek, Zach Mueller, Wayde Gilliam and much more. Jeremy has inspired and enabled multiple people to be practitioners in Deep Learning. {bhuvani an example}</p>
+<p>I still feel I am a late boomer, and due to pursuing a work along with academics. I am in a position to be extremely careful with what I spend time with and things I do.</p>
+<p>I will do following:</p>
+<ol type="1">
+<li>Try out every notebook given by Jeremy during class and writes in Kaggle</li>
+<li>breath and look through pytorch tutorials</li>
+<li>Write blogpost every week with lesson summary and occasionally on new things I learning during course.</li>
+<li>Participate in NLP competition provided by jeremy link</li>
+</ol>
+<p>I won’t do:</p>
+<ol type="1">
+<li>Won’t read Pytorch book(even though it’s very tempting to do)</li>
+<li>Be active in twitter during course</li>
+<li>Read EDA notebooks</li>
+<li>Won’t write any notebooks in tensorflow :)</li>
+</ol>
+
+
+
+ ]]></description>
+  <category>fastbook</category>
+  <category>myself</category>
+  <category>ML</category>
+  <category>Deep learning</category>
+  <category>fastai</category>
+  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</guid>
+  <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Building a fine-tuned translation system for English-Malayalam</title>
