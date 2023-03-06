@@ -10,7 +10,36 @@
 <atom:link href="https://github.com/kurianbenoy/kurianbenoy.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Sun, 05 Feb 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 06 Mar 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>My daily fitness routine</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/fitness_journey/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/fitness_journey/https:/user-images.githubusercontent.com/24592806/223161083-1a5cfc9b-03f0-4425-a1d6-ebc398542727.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Stable diffusion image generated with prompt Very muscular man, photograph quality, ultra detailed</figcaption><p></p>
+</figure>
+</div>
+<p>Hello everyone, I just thought of sharing my daily fitness routine which I have been following for the past 1 month. Previously I had written about <a href="https://kurianbenoy.com/posts/2020/2020-11-22-weightloss.html">How I lost almost 4Kgs in 3 weeks - my wegiht loss Journey</a>. I want to continue this journey, even though just after writing that post I gained a lot of kilos and I couldn’t follow everything I mentioned in that article.</p>
+<p>So this time, I am with a new routine:</p>
+<p>During morning I go to gym and do High Intensity Interval Training (HIIT) for 30-45 minutes. In the gym I go, this usually consists of 8 stations of 3 minutes exercises followed by 30 seconds rest. The first four stations are vary day after day, followed by a challenge which changes every week. After this I do boxing, followed by two more stations of 3 minutes exercises which usually are floor exercises.</p>
+<p>In evening I go for a walk for 45-60 minutes after my work. I usually try to walk almost 4 kilometers and monitor my progress in Strava app. I usually walk in the roads near my home till a paddy field and then return back. My usual pace is 4.5-6 km/h and I cover one kilometer in approximately 11-12 minutes.</p>
+<p>Some of you might be wondering why I am sharing this, well I am sharing this as I want to document my fitness progress. Looking back, I myself can look at things I did and see how I progressed. I also want to share this with others who are interested.</p>
+
+
+
+ ]]></description>
+  <category>myself</category>
+  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/fitness_journey/index.html</guid>
+  <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://user-images.githubusercontent.com/24592806/223161083-1a5cfc9b-03f0-4425-a1d6-ebc398542727.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>Attending MBIFL 2023, a literature festival</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -5764,35 +5793,6 @@ Using amp half precision backend
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-02-27-questionansweringwithhf.html</guid>
   <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/question_answering.png" medium="image" type="image/png" height="75" width="144"/>
-</item>
-<item>
-  <title>First Vacation Experience</title>
-  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-02-16-first_vacation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I had taken my longest vacation from work in past week for four days. It was really enjoyable, and I was planning to do that for a long time. Yet due to Covid lockdown and bunch of other things it was late.Also the planning part for the vaction was really interesting at the same time hectic. My initial plan was to visit a old palace ie Padmnapuram palace in Thuckalay, Tamil Naidu. Unfortunately, it didn’t work out.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/vaction.webp" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">image</figcaption><p></p>
-</figure>
-</div>
-<p>So I pivoted my plan to stay in any hotel/resort. Before telling about the experience let me tell, what motivated me to take my vacation at the first place. It was an article by Randy Au who gave a <a href="https://counting.substack.com/p/vacation-is-the-power-say-no-by-not">really useful insight why taking vacation is important with a realistic angle</a>. In the article the lessons on why we are not important to any organization and planning aspect is well covered. <a href="https://twitter.com/Randy_Au/status/1494339578567663631">Randy Au answered my question</a> on how to treat travelling as a hobby as well when I asked in a Twitter AMA.</p>
-<p>I applied for four days of leave well in advance before planning where I am going to plan. Then I started my journey of hunting the perfect place to stay. After almost 20+ hotel enquiries and also trying to accomodate everyone in my family to come with me. The outcome was kind of final. Unfortunately not everyone in my family was willing to come with me except my mother. After a lot of searching we decided to book the hotel at Mango Meadows and set aside one day to travel with my family in Kochi(by spending time on shopping &amp; a buffet dinner).</p>
-<p>About the resort I stayed. Mango meadows resort is an excellent place and is an agricultural themed park. The place is filled with natural beauty and bought me closer to nature during the stay. Unlike typical resorts where you have just one small area, here you have 30 acres of land with lot of facilities like a amusment park. For me some of the memorable experiences during two day stay at Mango Meadows was swimming in pay pool, then cycling followed by bumpy ride in london metro. Staff were excellent and 5 stars review for the resort.</p>
-<p>So was all the travelling really worth it? Back to work next day back I had lot of messages and 70+ emails to answer. This proved everything Randy said, and slowly one day I will also get better at vacationing. Also we started planning for our next big trip to Armenia which will materialize one day hopefully.</p>
-
-
-
- ]]></description>
-  <category>Travel</category>
-  <category>Life</category>
-  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-02-16-first_vacation.html</guid>
-  <pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/vaction.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
