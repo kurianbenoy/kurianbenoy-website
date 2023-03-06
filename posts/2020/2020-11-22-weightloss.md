@@ -7,6 +7,8 @@ title: How I lost almost 4Kgs in 3 weeks - my wegiht loss Journey
 
 ---
 
+![Stable diffusion image generated with prompt: two stickman,  the left is very chubby, while n the right is very lean ,in full body display, smile.](https://user-images.githubusercontent.com/24592806/223161100-4717389d-2bde-48be-9de8-94a7d16510a4.png)
+
 Haven't you all seen advertisements which say you can lose 6 kilograms per week. Today I am going to share
 my journey on how I lost nearly 4 kilograms in 3 weeks and lost another 3 kilograms in past 
 4 months. So in total, I lost about from 83 Kg to my current weight which usually falls in the range of 76.5-77.3 Kgs
