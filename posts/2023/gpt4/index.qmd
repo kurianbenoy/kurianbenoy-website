@@ -1,0 +1,92 @@
+---
+title: "GPT-4 and the beginning of something new"
+author: ["Kurian Benoy"]
+date: "2023-03-15"
+categories: ["Deep learning", "NLP", "coding"]
+---
+
+There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott,
+a youtuber recently published a video on how he used ChatGPT to fix a problem
+in his email backup program. He said it's beginning of something new like
+how internet had literally changed everything 20-30 years back.
+
+{{< video https://www.youtube.com/embed/jPhJbKBuNnA >}}
+
+When I was writing this article, I forget the syntax of how to embed youtube videos in quarto
+markdown. I solved this issue by asking this [question to  Quarto Help Bot](https://quarto-bot.onrender.com/) which was made by [Hamel Husain](https://hamel.dev/).
+
+I have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be
+honest. You can ask it literally anything and these Large Language models are becoming incredibly
+useful. Hamel had used [LangChain](https://github.com/hwchase17/langchain/) which is like
+a framework for building applications with LLMs specifically for quarto.
+
+## GPT-4 Release
+
+The GPT-4 model was released by OpenAI today IST. It's been a hectic week already TBH, with
+so many releases already.
+
+{{< tweet user=iScienceLuvr id=1635747429839671300 >}}
+
+The initial reaction to this model has been awesome, and lot of people have been hyping
+about this.
+
+{{< tweet user=Suhail id=1635704809725767680 >}}
+
+You can read more about this release here:
+
+[Research document](https://openai.com/research/gpt-4)
+
+[Product details](https://openai.com/product/gpt-4)
+
+{{< video https://www.youtube.com/embed/--khbXchTeE >}}
+
+Check out the summary of what was highlights of GPT-4 and it's developer livestream in this tweet
+thread by FSDL.
+
+{{< tweet user=full_stack_dl id=1635734384463745024 >}}
+
+## How can we try GPT-4 now?
+
+According to OpenAI, you can try the latest GPT-4 via Chat GPT Plus Membership.
+
+Two more options seems to be available for normal users without mulimodal search:
+
+1. BingGPT
+2. Poe App from Quora
+
+## Is BingGPT really using  GPT-4?
+
+To be honest, at the moment we can't be really sure about that. Even though as
+Microsoft [Bing team confirmed today that they are using GPT-4](https://blogs.bing.com/search/march_2023/Confirmed-the-new-Bing-runs-on-OpenAI%E2%80%99s-GPT-4).
+
+In lot of user tests, it doesn't really seem to be the same. I tested a trick question:
+
+> Which is heavier, two pounds of brick or one pound of feathers?
+
+GPT-4 seems to give the correct answer at time of writing.
+
+{{< tweet user=charles_irl id=1635699547023482880 >}}
+
+Bing-GPT seems to give wrong answer.
+
+{{< tweet user=kurianbenoy2 id=1636066002843627523 >}}
+
+Chat-GPT seems to now give correct answer, it was previously giving wrong answer.
+
+{{< tweet user=1littlecoder id=1636069386699022336 >}}
+
+Charles seems to have come with an explaination to this problem, at the time I was writing this article.
+
+*"GPT-4" is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can't've launched with that checkpoint and likely has branched off in the intervening weeks."*
+
+{{< tweet user=charles_irl id=1636071852593549312 >}}
+
+## How has the AI landscape been going in the past one year?
+
+Personally I have been following ML/AI for the past five years atleast. Last
+year really was hyped up. Initially there was this releases in DALL-E and it's
+open source alternative Craiyon(then named DALLE mini) being viral.
+
+One month back, I started seeing my cousins, parents etc. discussing about
+ChatGPT and how awesome it is. Some of the application apps like [Roamaround.ai](https://www.roamaround.io) is being discussed. The final nail was last Sunday, when my grandfather called
+me to read about ChatGPT article in news.
