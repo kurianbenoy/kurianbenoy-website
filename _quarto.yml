@@ -5,7 +5,7 @@ project:
     port: 4900 
 website:
   title: "Kurian Benoy"
-  body-footer: Made by [Kurian Benoy](https://kurianbenoy.com/). See the [code.](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
+  body-footer: See the [code.](https://github.com/kurianbenoy/kurianbenoy.github.io)
   navbar:
     right:
       - text: "Blog"
