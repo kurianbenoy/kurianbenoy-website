@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kurian Benoy">
-<meta name="dcterms.date" content="2019-07-14">
+<meta name="dcterms.date" content="2023-03-15">
 
-<title>Kurian Benoy - Brownie points on Single Shot Multibox Detector</title>
+<title>Kurian Benoy - GPT-4 and the beginning of something new</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Kurian Benoy</span>
     </a>
   </div>
@@ -82,11 +82,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../../blog.html">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks.html">
+    <a class="nav-link" href="../../../talks.html">
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../../blog.xml"><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -123,11 +123,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Brownie points on Single Shot Multibox Detector</h1>
+      <h1 class="title">GPT-4 and the beginning of something new</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Python</div>
-                <div class="quarto-category">linux</div>
                 <div class="quarto-category">Deep learning</div>
+                <div class="quarto-category">NLP</div>
+                <div class="quarto-category">coding</div>
               </div>
                   </div>
   </div>
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 14, 2019</p>
+        <p class="date">March 15, 2023</p>
       </div>
     </div>
     
@@ -163,33 +163,53 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In this article, I am going to talk about Single Shot Multibox Detector(SSD) which one of the algorithms which does object detection. SSD is known for detecting objects in real time faster compared to other algorithms.</p>
-<p><em>If you are new to object detection, it can be simply defined as understanding what all are the objects in an frame. There are number of other algorithms like RCNN, fast RCNN, faster RCNN which perform object detection. Yet the problem is usually most of algorithms suck in real time performance.</em></p>
-<ul>
-<li>Extremely good in detecting objects of large size in real time</li>
-<li>creates anchors through forward pass and obtains the result in the sufficient ways</li>
-<li>8732 boxes on building on base network of vgg16</li>
-<li>According to original research paper, we are able to obtain 74% mAP at 59 FPS for PASCALVOCC2007 test</li>
-<li>It created by single shot, multi box, detector</li>
-<li>loss = confidence loss + location loss</li>
-<li>Always classification loss should be small</li>
-<li>quite fast detection results</li>
-<li>SSD-500 and SSD-300 are of two types. The difference between both models are that: SSD300 uses 300px size images while SSD500 uses 512px size.</li>
-<li>a real time detector compared to faster R-CNN, faster RCNN, fast RCNN</li>
-<li>SSD architecture builds on the venerable VGG-16 architecture, but discards the fully connected layers. The reason VGG-16 was used as the base network is because of its strong performance in high quality image classification tasks and its popularity for problems where transfer learning helps in improving results. Instead of the original VGG fully connected layers, a set of auxiliary convolution layers (from conv6 onwards) were added, thus enabling to extract features at multiple scales and progressively decrease the size of the input to each subsequent layer.</li>
-<li>Multi Box an Inception-style convolution network is used. The 1x1 convolutions that you see below help in dimensionality reduction since the number of dimensions will go down (but “width” and “height” will remain the same).</li>
-<li>confidence loss is computed by cross-entropy</li>
-<li>The major difference between SSD and other detector algorithms, is the usage of region proposals which uses ground truth information which needs to be assigned to specific outputs in fixed set of Detector algorithms.</li>
-<li>For each default box, we predict both shape offsets and confidences for all object categories</li>
-<li>For a feature layer of size m*n where the kernel is applied, it produce an o/p layer which uses <code>3*3*p</code> small kernels.</li>
-<li>For each feature maps, it creates a set of kernels which can do unprecedented things, like understanding the relationship of what object needs to be recognised in Internet</li>
-</ul>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References</h3>
-<ul>
-<li><a href="https://arxiv.org/abs/1512.02325">SSD Original Paper</a></li>
-<li><a href="https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-851a94607d11">Review-SSD</a></li>
-</ul>
+<p>There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott, a youtuber recently published a video on how he used ChatGPT to fix a problem in his email backup program. He said it’s beginning of something new like how internet had literally changed everything 20-30 years back.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/jPhJbKBuNnA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>When I was writing this article, I forget the syntax of how to embed youtube videos in quarto markdown. I solved this issue by asking this <a href="https://quarto-bot.onrender.com/">question to Quarto Help Bot</a> which was made by <a href="https://hamel.dev/">Hamel Husain</a>.</p>
+<p>I have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be honest. You can ask it literally anything and these Large Language models are becoming incredibly useful. Hamel had used <a href="https://github.com/hwchase17/langchain/">LangChain</a> which is like a framework for building applications with LLMs specifically for quarto.</p>
+<section id="gpt-4-release" class="level2">
+<h2 class="anchored" data-anchor-id="gpt-4-release">GPT-4 Release</h2>
+<p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
+<p></p>
+<p>The initial reaction to this model has been awesome, and lot of people have been hyping about this.</p>
+<p></p>
+<p>You can read more about this release here:</p>
+<p><a href="https://openai.com/research/gpt-4">Research document</a></p>
+<p><a href="https://openai.com/product/gpt-4">Product details</a></p>
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/–khbXchTeE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
+<p></p>
+</section>
+<section id="how-can-we-try-gpt-4-now" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
+<p>According to OpenAI, you can try the latest GPT-4 via Chat GPT Plus Membership.</p>
+<p>Two more options seems to be available for normal users without mulimodal search:</p>
+<ol type="1">
+<li>BingGPT</li>
+<li>Poe App from Quora</li>
+</ol>
+</section>
+<section id="is-binggpt-really-using-gpt-4" class="level2">
+<h2 class="anchored" data-anchor-id="is-binggpt-really-using-gpt-4">Is BingGPT really using GPT-4?</h2>
+<p>To be honest, at the moment we can’t be really sure about that. Even though as Microsoft <a href="https://blogs.bing.com/search/march_2023/Confirmed-the-new-Bing-runs-on-OpenAI%E2%80%99s-GPT-4">Bing team confirmed today that they are using GPT-4</a>.</p>
+<p>In lot of user tests, it doesn’t really seem to be the same. I tested a trick question:</p>
+<blockquote class="blockquote">
+<p>Which is heavier, two pounds of brick or one pound of feathers?</p>
+</blockquote>
+<p>GPT-4 seems to give the correct answer at time of writing.</p>
+<p></p>
+<p>Bing-GPT seems to give wrong answer.</p>
+<p></p>
+<p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
+<p></p>
+<p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
+<p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
+<p></p>
+</section>
+<section id="how-has-the-ai-landscape-been-going-in-the-past-one-year" class="level2">
+<h2 class="anchored" data-anchor-id="how-has-the-ai-landscape-been-going-in-the-past-one-year">How has the AI landscape been going in the past one year?</h2>
+<p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral.</p>
+<p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> is being discussed. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 
 
 </section>
