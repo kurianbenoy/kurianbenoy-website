@@ -1,5 +1,5 @@
 ---
-title: "Everything is going to be change and launch of GPT-4"
+title: "Everything is going to be changed and launch of GPT-4"
 author: ["Kurian Benoy"]
 date: "2023-03-15"
 categories: ["Deep learning", "NLP", "coding"]
