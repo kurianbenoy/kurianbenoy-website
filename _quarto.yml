@@ -5,7 +5,8 @@ project:
     port: 4900 
 website:
   title: "Kurian Benoy"
-  body-footer: See the [code.](https://github.com/kurianbenoy/kurianbenoy.github.io)
+  twitter-card: true
+  site-url: https://kurianbenoy.com
   navbar:
     right:
       - text: "Blog"
