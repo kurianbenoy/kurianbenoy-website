@@ -12,7 +12,7 @@
 <generator>quarto-1.2.335</generator>
 <lastBuildDate>Wed, 15 Mar 2023 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>GPT-4 and the beginning of something new</title>
+  <title>Things are going to be changed and launch of GPT-4</title>
   <dc:creator>Kurian Benoy</dc:creator>
   <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/gpt4/index.html</link>
   <description><![CDATA[ 
@@ -20,10 +20,33 @@
 
 
 
+<section id="everything-is-about-to-change" class="level2">
+<h2 class="anchored" data-anchor-id="everything-is-about-to-change">Everything is about to change</h2>
 <p>There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott, a youtuber recently published a video on how he used ChatGPT to fix a problem in his email backup program. He said it’s beginning of something new like how internet had literally changed everything 20-30 years back.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/jPhJbKBuNnA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<blockquote class="blockquote">
+<p>AI is the new electricity</p>
+</blockquote>
 <p>When I was writing this article, I forget the syntax of how to embed youtube videos in quarto markdown. I solved this issue by asking this <a href="https://quarto-bot.onrender.com/">question to Quarto Help Bot</a> which was made by <a href="https://hamel.dev/">Hamel Husain</a>.</p>
 <p>I have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be honest. You can ask it literally anything and these Large Language models are becoming incredibly useful. Hamel had used <a href="https://github.com/hwchase17/langchain/">LangChain</a> which is like a framework for building applications with LLMs specifically for quarto.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/gpt4/https:/www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">An Image from gsb.stanford.edu article on AndrewNG</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="how-has-the-ai-landscape-been-going-in-the-past-one-year" class="level2">
+<h2 class="anchored" data-anchor-id="how-has-the-ai-landscape-been-going-in-the-past-one-year">How has the AI landscape been going in the past one year?</h2>
+<p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
+<p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
+<blockquote class="blockquote">
+<p>This wave of ML advances feels different than all others before it. Usually, lots of people sleep on it or just pay lip service to ML. This time, people are rushing to ship ML products, and successfully doing so at breakneck speed.</p>
+</blockquote>
+<ul>
+<li><a href="https://twitter.com/HamelHusain/status/1636513242041442305">Hamel Hussein</a></li>
+</ul>
+</section>
 <section id="gpt-4-release" class="level2">
 <h2 class="anchored" data-anchor-id="gpt-4-release">GPT-4 Release</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
@@ -62,11 +85,6 @@
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
 <p></p>
-</section>
-<section id="how-has-the-ai-landscape-been-going-in-the-past-one-year" class="level2">
-<h2 class="anchored" data-anchor-id="how-has-the-ai-landscape-been-going-in-the-past-one-year">How has the AI landscape been going in the past one year?</h2>
-<p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral.</p>
-<p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> is being discussed. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 
 
 </section>
@@ -77,6 +95,7 @@
   <category>coding</category>
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2023/gpt4/index.html</guid>
   <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs" medium="image"/>
 </item>
 <item>
   <title>My daily fitness routine</title>
@@ -3935,6 +3954,46 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/music.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
+  <title>Practical Deep Learning for Coders Course - Lesson 0</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" class="img-fluid"></p>
+<p>Last few weeks, I enrolled for the live cohort of Deep Learning For Coders with fastai Couse which is going to be taken by Jeremy Howard. It’s’ a previlege at the same time, a dream come true moment for me, as a fastai student who took some part of fast.ai from the year 2018.</p>
+<p>Whatever I have done in ML can be partly attributed to the way and the Jeremy motivated students to be world class researchers. The fastai course has seen lot of success stories from folks like Aman Arora, Deoldify creator, Sanyam Bhutani, Even Oldrige, Jason Antic Radek, Zach Mueller, Wayde Gilliam and much more. Jeremy has inspired and enabled multiple people to be practitioners in Deep Learning. {bhuvani an example}</p>
+<p>I still feel I am a late boomer, and due to pursuing a work along with academics. I am in a position to be extremely careful with what I spend time with and things I do.</p>
+<p>I will do following:</p>
+<ol type="1">
+<li>Try out every notebook given by Jeremy during class and writes in Kaggle</li>
+<li>breath and look through pytorch tutorials</li>
+<li>Write blogpost every week with lesson summary and occasionally on new things I learning during course.</li>
+<li>Participate in NLP competition provided by jeremy link</li>
+</ol>
+<p>I won’t do:</p>
+<ol type="1">
+<li>Won’t read Pytorch book(even though it’s very tempting to do)</li>
+<li>Be active in twitter during course</li>
+<li>Read EDA notebooks</li>
+<li>Won’t write any notebooks in tensorflow :)</li>
+</ol>
+
+
+
+<p>See the <a href="https://github.com/kurianbenoy/kurianbenoy.github.io">code.</a></p> ]]></description>
+  <category>fastbook</category>
+  <category>myself</category>
+  <category>ML</category>
+  <category>Deep learning</category>
+  <category>fastai</category>
+  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</guid>
+  <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Practical Deep Learning for Coders Course - Lesson 1</title>
   <dc:creator>Kurian Benoy</dc:creator>
   <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-51.html</link>
@@ -4078,46 +4137,6 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-51.html</guid>
   <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/jeremy.png" medium="image" type="image/png" height="53" width="144"/>
-</item>
-<item>
-  <title>Practical Deep Learning for Coders Course - Lesson 0</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" class="img-fluid"></p>
-<p>Last few weeks, I enrolled for the live cohort of Deep Learning For Coders with fastai Couse which is going to be taken by Jeremy Howard. It’s’ a previlege at the same time, a dream come true moment for me, as a fastai student who took some part of fast.ai from the year 2018.</p>
-<p>Whatever I have done in ML can be partly attributed to the way and the Jeremy motivated students to be world class researchers. The fastai course has seen lot of success stories from folks like Aman Arora, Deoldify creator, Sanyam Bhutani, Even Oldrige, Jason Antic Radek, Zach Mueller, Wayde Gilliam and much more. Jeremy has inspired and enabled multiple people to be practitioners in Deep Learning. {bhuvani an example}</p>
-<p>I still feel I am a late boomer, and due to pursuing a work along with academics. I am in a position to be extremely careful with what I spend time with and things I do.</p>
-<p>I will do following:</p>
-<ol type="1">
-<li>Try out every notebook given by Jeremy during class and writes in Kaggle</li>
-<li>breath and look through pytorch tutorials</li>
-<li>Write blogpost every week with lesson summary and occasionally on new things I learning during course.</li>
-<li>Participate in NLP competition provided by jeremy link</li>
-</ol>
-<p>I won’t do:</p>
-<ol type="1">
-<li>Won’t read Pytorch book(even though it’s very tempting to do)</li>
-<li>Be active in twitter during course</li>
-<li>Read EDA notebooks</li>
-<li>Won’t write any notebooks in tensorflow :)</li>
-</ol>
-
-
-
-<p>See the <a href="https://github.com/kurianbenoy/kurianbenoy.github.io">code.</a></p> ]]></description>
-  <category>fastbook</category>
-  <category>myself</category>
-  <category>ML</category>
-  <category>Deep learning</category>
-  <category>fastai</category>
-  <guid>https://github.com/kurianbenoy/kurianbenoy.github.io/posts/2022-04-26-fastai-50.html</guid>
-  <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/kurianbenoy/kurianbenoy.github.io/posts/images/lesson0.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Building a fine-tuned translation system for English-Malayalam</title>
