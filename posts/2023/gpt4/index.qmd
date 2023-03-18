@@ -3,6 +3,9 @@ title: "Everything is going to be change and launch of GPT-4"
 author: ["Kurian Benoy"]
 date: "2023-03-15"
 categories: ["Deep learning", "NLP", "coding"]
+format:
+  html:
+    toc: true
 ---
 
 ## Everything is about to change
@@ -15,6 +18,7 @@ how internet had literally changed everything 20-30 years back.
 {{< video https://www.youtube.com/embed/jPhJbKBuNnA >}}
 
 > AI is the new electricity
+> - Andrew NG
 
 When I was writing this article, I forget the syntax of how to embed youtube videos in quarto
 markdown. I solved this issue by asking this [question to  Quarto Help Bot](https://quarto-bot.onrender.com/) which was made by [Hamel Husain](https://hamel.dev/).
@@ -24,7 +28,7 @@ honest. You can ask it literally anything and these Large Language models are be
 useful. Hamel had used [LangChain](https://github.com/hwchase17/langchain/) which is like
 a framework for building applications with LLMs specifically for quarto.
 
-![An Image from gsb.stanford.edu article on AndrewNG](https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs)
+![An Image from gsb.stanford.edu article on Andrew NG remark](https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs)
 
 ## How has the AI landscape been going in the past one year?
 
@@ -38,24 +42,26 @@ ChatGPT and how awesome it is. Some of the application apps like [Roamaround.ai]
 build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called
 me to read about ChatGPT article in news.
 
-> This wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML. This time, people are rushing to ship ML products, and successfully doing so at breakneck speed.
+I have seen people get hyped up about advances in ML. Yet I have never heard about the 
+new technology being discussed by my family member like this. Hamel Hussein put this really well in his tweet about 
+what is different in this wave of ML advances.
 
-- [Hamel Hussein](https://twitter.com/HamelHusain/status/1636513242041442305)
+{{< tweet user=HamelHusain id=1636513242041442305 >}}
 
 
-## GPT-4 Release
+## Release of GPT-4
 
 The GPT-4 model was released by OpenAI today IST. It's been a hectic week already TBH, with
 so many releases already.
 
 {{< tweet user=iScienceLuvr id=1635747429839671300 >}}
 
-The initial reaction to this model has been awesome, and lot of people have been hyping
+The initial reaction to this model has been awesome, and lot of people have been reacting
 about this.
 
 {{< tweet user=Suhail id=1635704809725767680 >}}
 
-You can read more about this release here:
+You can read more about this release in below resources:
 
 [Research document](https://openai.com/research/gpt-4)
 
