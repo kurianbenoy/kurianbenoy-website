@@ -67,7 +67,7 @@ You can read more about this release in below resources:
 
 [Product details](https://openai.com/product/gpt-4)
 
-{{< video https://www.youtube.com/embed/--khbXchTeE >}}
+{{< video https://www.youtube.com/embed/oc6RV5c1yd0 >}}
 
 Check out the summary of what was highlights of GPT-4 and it's developer livestream in this tweet
 thread by FSDL.
