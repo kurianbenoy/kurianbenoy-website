@@ -6,6 +6,8 @@ project:
 website:
   title: "Kurian Benoy"
   twitter-card: true
+  favicon: favicon.ico
+  open-graph: true
   site-url: https://kurianbenoy.com
   navbar:
     right:
