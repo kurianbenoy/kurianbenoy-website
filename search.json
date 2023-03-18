@@ -501,21 +501,21 @@
     "href": "posts/2023/gpt4/index.html",
     "title": "Everything is going to be change and launch of GPT-4",
     "section": "",
-    "text": "There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott, a youtuber recently published a video on how he used ChatGPT to fix a problem in his email backup program. He said it’s beginning of something new like how internet had literally changed everything 20-30 years back.\n\n\nAI is the new electricity\n\nWhen I was writing this article, I forget the syntax of how to embed youtube videos in quarto markdown. I solved this issue by asking this question to Quarto Help Bot which was made by Hamel Husain.\nI have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be honest. You can ask it literally anything and these Large Language models are becoming incredibly useful. Hamel had used LangChain which is like a framework for building applications with LLMs specifically for quarto.\n\n\n\nAn Image from gsb.stanford.edu article on AndrewNG"
+    "text": "There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott, a youtuber recently published a video on how he used ChatGPT to fix a problem in his email backup program. He said it’s beginning of something new like how internet had literally changed everything 20-30 years back.\n\n\nAI is the new electricity - Andrew NG\n\nWhen I was writing this article, I forget the syntax of how to embed youtube videos in quarto markdown. I solved this issue by asking this question to Quarto Help Bot which was made by Hamel Husain.\nI have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be honest. You can ask it literally anything and these Large Language models are becoming incredibly useful. Hamel had used LangChain which is like a framework for building applications with LLMs specifically for quarto.\n\n\n\nAn Image from gsb.stanford.edu article on Andrew NG remark"
   },
   {
     "objectID": "posts/2023/gpt4/index.html#how-has-the-ai-landscape-been-going-in-the-past-one-year",
     "href": "posts/2023/gpt4/index.html#how-has-the-ai-landscape-been-going-in-the-past-one-year",
     "title": "Everything is going to be change and launch of GPT-4",
     "section": "How has the AI landscape been going in the past one year?",
-    "text": "How has the AI landscape been going in the past one year?\nPersonally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.\nOne month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like Roamaround.ai build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.\n\nThis wave of ML advances feels different than all others before it. Usually, lots of people sleep on it or just pay lip service to ML. This time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\n\n\nHamel Hussein"
+    "text": "How has the AI landscape been going in the past one year?\nPersonally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.\nOne month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like Roamaround.ai build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.\nI have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances."
   },
   {
-    "objectID": "posts/2023/gpt4/index.html#gpt-4-release",
-    "href": "posts/2023/gpt4/index.html#gpt-4-release",
+    "objectID": "posts/2023/gpt4/index.html#release-of-gpt-4",
+    "href": "posts/2023/gpt4/index.html#release-of-gpt-4",
     "title": "Everything is going to be change and launch of GPT-4",
-    "section": "GPT-4 Release",
-    "text": "GPT-4 Release\nThe GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.\n\nThe initial reaction to this model has been awesome, and lot of people have been hyping about this.\n\nYou can read more about this release here:\nResearch document\nProduct details\n\nCheck out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL."
+    "section": "Release of GPT-4",
+    "text": "Release of GPT-4\nThe GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.\n\nThe initial reaction to this model has been awesome, and lot of people have been reacting about this.\n\nYou can read more about this release in below resources:\nResearch document\nProduct details\n\nCheck out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL."
   },
   {
     "objectID": "posts/2023/gpt4/index.html#how-can-we-try-gpt-4-now",
