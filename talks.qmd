@@ -1,6 +1,7 @@
 ---
 title: "Talks"
 subtitle: Few of my talks and presentations.
+comments: false
 ---
 
 
