@@ -18,6 +18,7 @@ about:
     - text: Blog
       url: "blog.html"
 page-layout: full
+comments: false
 ---
 
 ## About Me
