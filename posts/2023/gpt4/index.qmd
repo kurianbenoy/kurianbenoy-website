@@ -1,5 +1,5 @@
 ---
-title: "Everything is going to be changed and launch of GPT-4"
+title: "Everything is about to be changed and launch of GPT-4"
 author: ["Kurian Benoy"]
 date: "2023-03-15"
 categories: ["Deep learning", "NLP", "coding"]
@@ -8,7 +8,7 @@ format:
     toc: true
 ---
 
-## Everything is about to change
+## Buzz about ChatGPT
 
 There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott,
 a youtuber recently published a video on how he used ChatGPT to fix a problem
@@ -43,7 +43,7 @@ build on top of ChatGPT was being used. The final nail was last Sunday, when my 
 me to read about ChatGPT article in news.
 
 I have seen people get hyped up about advances in ML. Yet I have never heard about the 
-new technology being discussed by my family member like this. Hamel Hussein put this really well in his tweet about 
+new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about 
 what is different in this wave of ML advances.
 
 {{< tweet user=HamelHusain id=1636513242041442305 >}}
