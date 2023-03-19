@@ -19,3 +19,4 @@ These contain the Slides photos and video links for few of the talks which I hav
 |5. | Tinkerhub Learning class- Python for beginners | Online | Learn From Home Program |  February-March, 2020 | N/A |[Talk Video](https://www.youtube.com/watch?v=2RzImb5JwMA) |
 |6. | Introduction to Django2 | Kochi |  Kochi Python Meetiup | July 07, 2018 | [Slides](https://speakerdeck.com/kurianbenoy/the-hitchikers-guide-to-django2) | N/A |
 |7. | Pitfalls, Glamour and Valuable advice from an AI/ML Expert | Online |  Innovate At MEC Podcast | 7th January, 2021 | N/A |  [Podcast Link](https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80NmRkNzdhMC9wb2RjYXN0L3Jzcw&ep=14) |
+|8. | Human Library - Introduction to Datascience and ML | Govt. Model Engineering College | Kochi Foss | October 15, 2022 | N/A | [link](https://indiafoss.net/Kochi/2022) |
