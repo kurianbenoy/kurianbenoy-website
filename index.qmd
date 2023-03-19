@@ -21,11 +21,9 @@ page-layout: full
 comments: false
 ---
 
-## About Me
+## Hi, I'm Kurian Benoy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-Hello everyone!
-
-Hi, I am a Machine Learning Engineer working in [Sentient.io](https://www.sentient.io/en/), a startup based in Singapore.
+I am a Machine Learning Engineer working in [Sentient.io](https://www.sentient.io/en/), a startup based in Singapore.
 
 I have multiple years of experience in Python and Machine learning experience, where I am now
 looking more into the MLOPs side. I have contributed to various open source organizations like Keras,
