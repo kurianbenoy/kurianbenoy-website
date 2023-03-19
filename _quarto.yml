@@ -33,3 +33,14 @@ format:
     css: styles.css
 execute:
   freeze: auto
+  
+comments:
+  giscus: 
+    repo: kurianbenoy/kurianbenoy-website
+    repo-id: MDEwOlJlcG9zaXRvcnkxMDY1MzAxNzQ
+    category: Q&A
+    category-id: DIC_kwDOBlmFfs4CU-J4
+    mapping: url
+    loading: lazy
+    input-position: top
+    reactions-enabled: 1
