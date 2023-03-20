@@ -10,7 +10,34 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Wed, 15 Mar 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 20 Mar 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>🐦Learning more about birds and bird calls with Merlin app</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/BirdCLEF2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I recently went for a bird watching adventure in <a href="https://en.wikipedia.org/wiki/Salim_Ali_Bird_Sanctuary">Salim Ali Bird Sanctuary</a>, Thattekad Kerala, India. During that time, my guide was very proficient in identifying birds by just hearing sounds. In Salim Ali bird sanctuary itself there are almost 300 species of land birds and another 100+ species of water birds.</p>
+<p>I was genuinely curious, how they learned about all these birds and memorized all these. This is when my guide talked about the Merlin app, which can help in learning more about various species of bird.</p>
+<p><a href="https://youtu.be/xmSUOLxyatY">Video Explaining functionality of Merlin</a></p>
+<p>You can download it from <a href="https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673">Apple App store</a> or <a href="https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app&amp;hl=en&amp;gl=US">Google Playstore</a> for your android phones. Learn more about Merlin app in this <a href="https://merlin.allaboutbirds.org/.">link</a></p>
+<p><img src="https://kurianbenoy.com/posts/2023/BirdCLEF2023/https:/www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fc0fa9ac858406ddcc9f644fc53054642%2FWhatsApp%20Image%202023-03-20%20at%209.25.36%20AM.jpeg?generation=1679301145365560&amp;alt=media" width="400"></p>
+<p><a href="https://en.wikipedia.org/wiki/Sri_Lanka_frogmouth">The below image is Ceylon Frougmouth which is a rare bird in my region</a></p>
+<p><img src="https://kurianbenoy.com/posts/2023/BirdCLEF2023/https:/www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F2e84ee1ef3b246d9bcee2cd5757f4a05%2FWhatsApp%20Image%202023-03-20%20at%209.25.45%20AM.jpeg?generation=1679301247043893&amp;alt=media" width="400"></p>
+<p>All the best for all the competitors. I hope it will be used to improve the bird recognizing capabilities of Merlin your awesome models.</p>
+
+
+
+ ]]></description>
+  <category>kaggle</category>
+  <category>experience</category>
+  <category>Travel</category>
+  <guid>https://kurianbenoy.com/posts/2023/BirdCLEF2023/index.html</guid>
+  <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Everything is about to be changed and launch of GPT-4</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -41,19 +68,19 @@
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-18863"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-18863").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-27184"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27184").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-20222"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-20222").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-22964"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22964").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-59589"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-59589").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-44583"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-44583").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-17322"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"Full Stack Deep Learning","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; Full Stack Deep Learning (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-17322").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-25348"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"Full Stack Deep Learning","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; Full Stack Deep Learning (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-25348").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -72,14 +99,14 @@
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-28625"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28625").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-76561"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-76561").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-97385"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97385").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-95369"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-95369").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-74259"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-74259").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-81446"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-81446").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-45213"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-45213").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-46915"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-46915").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -408,9 +435,9 @@ Important
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-83772"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-83772").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-58675"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-58675").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-92702"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-92702").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-23205"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-23205").innerHTML = tweet["html"];</script><p></p>
 
 
 
@@ -3935,7 +3962,7 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>We trained a ML model which can identify with 54.4% accuracy to classify in a music file which genre it is. It’s not so bad for a baseline model. Dien Hoa Truong has shared some techniques which he learned during Kaggle competition with music genres.</p>
-<p></p><div id="tweet-86582"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-86582").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-79812"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-79812").innerHTML = tweet["html"];</script><p></p>
 <p>Thanks for reading :pray:</p>
 
 
@@ -4132,761 +4159,6 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <guid>https://kurianbenoy.com/posts/2022-04-26-fastai-51.html</guid>
   <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/images/jeremy.png" medium="image" type="image/png" height="53" width="144"/>
-</item>
-<item>
-  <title>Building a fine-tuned translation system for English-Malayalam</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-03-13-hfenml-translate.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="building-a-fine-tuned-translation-system-for-english-malayalam" class="level1">
-<h1>Building a fine-tuned translation system for English-Malayalam</h1>
-<p>Hey, everyone. We all are familiar with translation systems like using google translate. So today, let’s build a fine tuned translation system for converting text from english to malayalam. It’s built using Blurr library - built on top of Hugging face and fast.ai made by <a href="https://twitter.com/waydegilliam">Wayde Gilliam</a>. Also our translation system is going to be fine tuned on <a href="https://huggingface.co/datasets/kde4">top of KDE specific dataset</a>. You can find the trained model <a href="https://huggingface.co/kurianbenoy/kde_en_ml_translation_model">here</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/translate.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">image</figcaption><p></p>
-</figure>
-</div>
-<p><strong>Installation</strong></p>
-<div class="cell" data-outputid="f35998f1-0e57-4361-cf42-24092a950dc4" data-execution_count="1">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">!</span> python3 <span class="op" style="color: #5E5E5E;">-</span>m pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq datasets<span class="op" style="color: #5E5E5E;">==</span> fastai<span class="op" style="color: #5E5E5E;">==</span><span class="fl" style="color: #AD0000;">2.6.3</span></span>
-<span id="cb1-2"><span class="op" style="color: #5E5E5E;">!</span> python3 <span class="op" style="color: #5E5E5E;">-</span>m pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq transformers[sentencepiece]</span>
-<span id="cb1-3"><span class="op" style="color: #5E5E5E;">!</span> python3 <span class="op" style="color: #5E5E5E;">-</span>m pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq ohmeow<span class="op" style="color: #5E5E5E;">-</span>blurr<span class="op" style="color: #5E5E5E;">==</span><span class="fl" style="color: #AD0000;">1.0.5</span></span>
-<span id="cb1-4"><span class="op" style="color: #5E5E5E;">!</span> python3 <span class="op" style="color: #5E5E5E;">-</span>m pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq nltk</span>
-<span id="cb1-5"><span class="op" style="color: #5E5E5E;">!</span> python3 <span class="op" style="color: #5E5E5E;">-</span>m pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq sacrebleu</span>
-<span id="cb1-6"><span class="op" style="color: #5E5E5E;">!</span> python3 <span class="op" style="color: #5E5E5E;">-</span>m pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq  git<span class="op" style="color: #5E5E5E;">+</span>https:<span class="op" style="color: #5E5E5E;">//</span>github.com<span class="op" style="color: #5E5E5E;">/</span>huggingface<span class="op" style="color: #5E5E5E;">/</span>huggingface_hub<span class="co" style="color: #5E5E5E;">#egg=huggingface-hub["fastai"]</span></span></code></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>ERROR: Could not find a version that satisfies the requirement datasets== (from versions: 0.0.9, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.2.0, 1.2.1, 1.3.0, 1.4.0, 1.4.1, 1.5.0, 1.6.0, 1.6.1, 1.6.2, 1.7.0, 1.8.0, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.13.3, 1.14.0, 1.15.0, 1.15.1, 1.16.0, 1.16.1, 1.17.0, 1.18.0, 1.18.1, 1.18.2, 1.18.3, 1.18.4, 2.0.0, 2.1.0, 2.2.0)
-ERROR: No matching distribution found for datasets==</code></pre>
-</div>
-</div>
-<section id="loading-data" class="level2">
-<h2 class="anchored" data-anchor-id="loading-data">Loading Data</h2>
-<p>A translation system is an example of <a href="https://huggingface.co/course/chapter1/7?fw=pt">sequence to sequence models</a>, which is usually used for tasks which involves generating new data. Translation usually needs datasets in both the source language and target language (the language to which it needs to be translated).</p>
-<p>We are using <a href="https://huggingface.co/datasets/kde4">KDE4 datasets</a>, and choose both source language and translation language as english and malayalam respectively. Usually these datasets are curated by community volunteers to their native language, and this was probably done by KDE community volunteers in Kerala. When someone is localizing these texts into there in local languague, usually computer science specific terms are still written in english.</p>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;">import</span> pandas</span>
-<span id="cb3-2"><span class="im" style="color: #00769E;">from</span> datasets <span class="im" style="color: #00769E;">import</span> load_dataset</span></code></pre></div>
-</div>
-<div class="cell" data-outputid="a2970d8a-4b94-4fd7-aad6-f6b62b674b38" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">raw_datasets <span class="op" style="color: #5E5E5E;">=</span> load_dataset(<span class="st" style="color: #20794D;">"kde4"</span>, lang1<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"en"</span>, lang2<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"ml"</span>, split<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"train[:1000]"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Using custom data configuration en-ml-lang1=en,lang2=ml
-Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang2=ml/0.0.0/243129fb2398d5b0b4f7f6831ab27ad84774b7ce374cf10f60f6e1ff331648ac)</code></pre>
-</div>
-</div>
-<p>Most of translation dataset is in form of id and translation json output - with both <code>en</code> and <code>ml</code> as objects.</p>
-<div class="cell" data-outputid="0b86dbb4-4cac-41ab-e1cc-acddf66cc928" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">raw_datasets[<span class="dv" style="color: #AD0000;">0</span>]</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="4">
-<pre><code>{'id': '0',
- 'translation': {'en': 'Add Feed to Akregator',
-  'ml': 'അക്രിഗേറ്ററില്\u200d ഫീഡ് കൂട്ടിച്ചേര്\u200dക്കുക'}}</code></pre>
-</div>
-</div>
-</section>
-<section id="transforming-data-into-dataloaders" class="level2">
-<h2 class="anchored" data-anchor-id="transforming-data-into-dataloaders">Transforming data into DataLoaders</h2>
-<section id="importing-libraries-and-get-hugging-face-objects" class="level3">
-<h3 class="anchored" data-anchor-id="importing-libraries-and-get-hugging-face-objects">Importing libraries and get hugging-face objects</h3>
-<div class="cell" data-outputid="8d89be36-0c1c-48bb-b9af-1f0e25837947" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="im" style="color: #00769E;">from</span> blurr.text.data.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb8-2"><span class="im" style="color: #00769E;">from</span> blurr.text.modeling.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb8-3"><span class="im" style="color: #00769E;">from</span> blurr.text.utils <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb8-4"></span>
-<span id="cb8-5"><span class="im" style="color: #00769E;">from</span> fastai.data.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb8-6"><span class="im" style="color: #00769E;">from</span> fastai.callback.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb8-7"><span class="im" style="color: #00769E;">from</span> fastai.learner <span class="im" style="color: #00769E;">import</span> load_learner, Learner</span>
-<span id="cb8-8"><span class="im" style="color: #00769E;">from</span> fastai.optimizer <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb8-9"><span class="im" style="color: #00769E;">from</span> transformers <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span></code></pre></div>
-</div>
-<div class="cell" data-outputid="9703cb05-b8db-45d9-cd7a-f177191bc0ba" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">pretrained_model_name <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"Helsinki-NLP/opus-mt-en-ml"</span></span>
-<span id="cb9-2">model_cls <span class="op" style="color: #5E5E5E;">=</span> AutoModelForSeq2SeqLM</span>
-<span id="cb9-3">hf_arch, hf_config, hf_tokenizer, hf_model <span class="op" style="color: #5E5E5E;">=</span> get_hf_objects(</span>
-<span id="cb9-4">    pretrained_model_name, model_cls<span class="op" style="color: #5E5E5E;">=</span>model_cls</span>
-<span id="cb9-5">)</span>
-<span id="cb9-6"></span>
-<span id="cb9-7">hf_arch, <span class="bu" style="color: null;">type</span>(hf_config), <span class="bu" style="color: null;">type</span>(hf_tokenizer), <span class="bu" style="color: null;">type</span>(hf_model)</span></code></pre></div>
-</div>
-<div class="cell" data-outputid="2957c1fd-93f7-479c-b7cd-6610db09b0eb" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">translation_df <span class="op" style="color: #5E5E5E;">=</span> pd.DataFrame(raw_datasets[<span class="st" style="color: #20794D;">"translation"</span>], columns<span class="op" style="color: #5E5E5E;">=</span>[<span class="st" style="color: #20794D;">"en"</span>, <span class="st" style="color: #20794D;">"ml"</span>])</span>
-<span id="cb10-2">translation_df.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-
-<div>
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>en</th>
-      <th>ml</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Add Feed to Akregator</td>
-      <td>അക്രിഗേറ്ററില്‍ ഫീഡ് കൂട്ടിച്ചേര്‍ക്കുക</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Add Feeds to Akregator</td>
-      <td>അക്രിഗേറ്ററില്‍ ഫീഡുകള്‍ കൂട്ടിച്ചേര്‍ക്കുക</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Add All Found Feeds to Akregator</td>
-      <td>എല്ലാ ഫീഡുകളും അക്രിഗേറ്ററില്‍ കൂട്ടിച്ചേര്‍ക്കുക</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Subscribe to site updates (using news feed)</td>
-      <td>സൈറ്റുകളിലെ പുതുമകളറിയാന്‍ വരിക്കാരനാകുക (വാര്‍ത്താ ഫീഡുകള്‍ ഉപയോഗിച്ചു്)</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Imported Feeds</td>
-      <td>എടുത്ത ഫീഡുകള്‍</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">blocks <span class="op" style="color: #5E5E5E;">=</span> (Seq2SeqTextBlock(hf_arch, hf_config, hf_tokenizer, hf_model), noop)</span>
-<span id="cb11-2">dblock <span class="op" style="color: #5E5E5E;">=</span> DataBlock(</span>
-<span id="cb11-3">    blocks<span class="op" style="color: #5E5E5E;">=</span>blocks,</span>
-<span id="cb11-4">    get_x<span class="op" style="color: #5E5E5E;">=</span>ColReader(<span class="st" style="color: #20794D;">"en"</span>),</span>
-<span id="cb11-5">    get_y<span class="op" style="color: #5E5E5E;">=</span>ColReader(<span class="st" style="color: #20794D;">"ml"</span>),</span>
-<span id="cb11-6">    splitter<span class="op" style="color: #5E5E5E;">=</span>RandomSplitter(),</span>
-<span id="cb11-7">)</span></code></pre></div>
-</div>
-<div class="cell" data-outputid="5df2d528-999e-40c3-c4a7-8b8452118cbe" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">dls <span class="op" style="color: #5E5E5E;">=</span> dblock.dataloaders(translation_df, bs<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">16</span>)</span>
-<span id="cb12-2">dls.show_batch(dataloaders<span class="op" style="color: #5E5E5E;">=</span>dls, max_n<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">2</span>, input_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">100</span>, target_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">250</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>text</th>
-      <th>target</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>A▁version▁control▁history▁entry▁consists of▁several▁lines.▁Specify the▁regular▁expression▁to▁detect</td>
-      <td>ഒരു ഭാഷാന്തര നിയന്ത്രണത്തിന്റെ നാള്വഴി ചേര്ക്കുന്നതില് പല വരികളുണ്ടാകും. ആദ്യത്തെ വരി കണ്ടുപിടിക്കാനുള്ള നിത്യഭാവം നിര്ദ്ദേശിക്കുക (മുന്നിലെ വിശദീകരണം കൂടാതെ). ഇനം തിരിക്കാനുപയോഗിക്കുന്ന കീകളെ ഒന്നിച്ചാക്കാന് ബ്രാക്കറ്റുകള് ഉപയോഗിക്കുക. ഒഴിച്ചു വിട്ട</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>▁Mailody▁can▁store▁all▁attchements of▁all▁messages in▁a▁certain▁folder.▁Then▁you▁never▁have▁to▁save▁</td>
-      <td>എല്ലാ സന്ദേശങ്ങളുടേയും എല്ലാ അനുബന്ധങ്ങളും ഒരു പ്രത്യേക അറയില് സൂക്ഷിക്കാന് മെയിലഡിക്ക് കഴിയും. നിങ്ങള്ക്കവയെ സന്ദേശങ്ങളില്നിന്ന് പ്രത്യേകം സൂക്ഷിക്കേണ്ടതില്ല. അവ അറയില് ഉണ്ടായിരിക്കും. പ്രത്യേകം ശ്രദ്ധിക്കുക, ഈ അറ ഇടക്കിടക്ക് കാലിയാക്കിക്കൊണ്ടിരിക്ക</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</section>
-</section>
-<section id="training-fine-tuned-translation-system" class="level2">
-<h2 class="anchored" data-anchor-id="training-fine-tuned-translation-system">Training fine-tuned translation system</h2>
-<section id="using-blurr-high-level-api" class="level3">
-<h3 class="anchored" data-anchor-id="using-blurr-high-level-api">Using blurr High-level API</h3>
-<p>Bugs in ohmeow v1.0.4 has been fixed by the <a href="https://github.com/ohmeow/">open-source maintainer</a>.</p>
-<div class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="im" style="color: #00769E;">from</span> blurr.text.utils <span class="im" style="color: #00769E;">import</span> BlurrText</span>
-<span id="cb13-2"></span>
-<span id="cb13-3">NLP <span class="op" style="color: #5E5E5E;">=</span> BlurrText()</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="11">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">learn <span class="op" style="color: #5E5E5E;">=</span> BlearnerForTranslation.from_data(</span>
-<span id="cb14-2">    translation_df,</span>
-<span id="cb14-3">    pretrained_model_name,</span>
-<span id="cb14-4">    src_lang_name<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"English"</span>,</span>
-<span id="cb14-5">    src_lang_attr<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"en"</span>,</span>
-<span id="cb14-6">    trg_lang_name<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"Malayalam"</span>,</span>
-<span id="cb14-7">    trg_lang_attr<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"ml"</span>,</span>
-<span id="cb14-8">    dl_kwargs<span class="op" style="color: #5E5E5E;">=</span>{<span class="st" style="color: #20794D;">"bs"</span>: <span class="dv" style="color: #AD0000;">16</span>},</span>
-<span id="cb14-9">)</span></code></pre></div>
-</div>
-<div class="cell" data-outputid="b19c8d45-ed6d-4d15-b6d3-05d5449fcf6c" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">metrics_cb <span class="op" style="color: #5E5E5E;">=</span> BlearnerForTranslation.get_metrics_cb()</span>
-<span id="cb15-2">learn.fit_one_cycle(<span class="dv" style="color: #AD0000;">1</span>, lr_max<span class="op" style="color: #5E5E5E;">=</span><span class="fl" style="color: #AD0000;">4e-5</span>, cbs<span class="op" style="color: #5E5E5E;">=</span>[metrics_cb])</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>[nltk_data] Downloading package wordnet to /home/nltk_data...
-[nltk_data]   Package wordnet is already up-to-date!
-[nltk_data] Downloading package punkt to /home/nltk_data...
-[nltk_data]   Package punkt is already up-to-date!
-[nltk_data] Downloading package omw-1.4 to /home/nltk_data...
-[nltk_data]   Package omw-1.4 is already up-to-date!</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th>epoch</th>
-      <th>train_loss</th>
-      <th>valid_loss</th>
-      <th>bleu</th>
-      <th>meteor</th>
-      <th>sacrebleu</th>
-      <th>time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>5.512897</td>
-      <td>4.821253</td>
-      <td>0.023251</td>
-      <td>0.158193</td>
-      <td>4.086147</td>
-      <td>00:19</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-<div class="cell" data-outputid="ef232a13-fe25-47bf-f688-16970c2fa37a" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">learn.show_results(learner<span class="op" style="color: #5E5E5E;">=</span>learn, input_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">500</span>, target_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">250</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>text</th>
-      <th>target</th>
-      <th>prediction</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>▁Mailody▁is▁able▁to▁convert▁your▁plain▁message▁to▁a▁html▁message▁and▁include▁that in the▁outgoing▁message.▁This▁means the▁receiver▁will▁also▁have▁clickable▁links▁and▁colored▁quote▁levels.</td>
-      <td>നിങ്ങളുടെ സാദാ സന്ദേശം എച്ച്ടിഎംഎല് സന്ദേശമാക്കി മാറ്റി അത് പുറത്തേക്ക് അയക്കുന്ന സന്ദേശത്തില് ഉള്പ്പെടുത്താന് മെയിലഡിക്കു കഴിയും. അതായത് ഞൊട്ടാവുന്ന കണ്ണികളും വര്ണ്ണ ഉദ്ധരണി തലവും സ്വീകര്ത്താവിനുകൂടി ലഭ്യമാവും</td>
-      <td>[നിങ്ങളുടെ സമ്പാദന സന്ദേശം ഒരു html സന്ദേശമാക്കി മാറ്റുവാനും പുറത്തുള്ള സന്ദേശത്തിൽ ഉൾ ക്കൊള്ളുന്ന സന്ദേശത്തിൽ ഉൾപ്പെടുത്തുവാനും Middiയ്ക്കു് കഴിയും. ഇതിനർത്ഥം റിക്കോർഡ് ചെയ്യാവുന്ന കണ്ണികള്ക്കും നിറങ്ങള്ക്കും വലക്കെട്ടുകളും നിറങ്ങള്ക്കു്., പതിപ്പ് നിയന്ത്രിത ചരിത്രത്തിന്റെ പ്രാരംഭമായതിന്റെ സാധാരണ പ്രയോഗം. സാധാരണയായി ഈ വരിയിൽ "$2Loux" കീവാതകം ഉണ്ട്. സ്വതവേയുള്ള മൂല്ല്യം: description from play played for play play for play for play play play for filme cout fillulume for for courtyourtime fume time ck., തുടങ്ങുന്നതിനായി, "പുതിയ" തെരഞ്ഞെടുത്ത് ആദ്യം ഒരു പുതിയ ഒപ്പ് ഉണ്ടാക്കുക. അപ്പോൾ നിങ്ങൾക്കു് തിരുത്താനും ഒപ്പുകളുടെ ശേഖരം സംരക്ഷിക്കാനും സാധിക്കും., തിരുത്ത് ചെയ്ത ഫയൽ സൂക്ഷിയ്ക്കുമ്പോൾ വരിയുടെ അവസാനങ്ങൾ സജ്ജീകരിയ്ക്കുന്നു. ഡോഎസ്/ ജാലകങ്ങൾ: CRS+LLF; യുഎഫ്: LRIFX; ഒപ്പം CRL++D=0, LRD=0A, LRFAA +0A, മുൻകാഴ്ചകൾ പരിശോധിക്കൽ പരാജയം. ഈ കമാൻഡ് പരിശോധിയ്ക്കുക:% 1 എന്ന ആജ്ഞ ഇപ്പോൾ പ്രവർത്തനരഹിതമായിരിക്കും., "Subject" അല്ലെങ്കിൽ 'suck' ഒരു ആഴത്തിലുള്ള അവസ്ഥയാണ്, സിസ്റ്റം പൂർണ്ണമായും അധികാരത്തിൽ കൊണ്ടുവരുന്നു, സസ്പെൻഡ് ഒരു നിദ്രാ സംസ്ഥാനമാണ്, സിസ്റ്റം ഊർജ്ജം കുറയ്ക്കുമ്പോള് മാത്രം ഊർജ്ജം സംഭരിക്കുക മാത്രമേ ഉള്ളൂ., ഈ മുൻകരുതൽ ലൈനിംഗ് ലൈനിംഗ് ലൈനിംഗ് വേളയിൽ മാത്രമേ ഉപയോഗമുള്ളു. ( വിശദാംശങ്ങൾക്ക് ഡോക്സ് കാണുക.), ഫയലിന്റെ പകർപ്പ് പ്രക്രിയയില് പിശക്: വായനയ്ക്കുള്ള ഫയൽ തുറക്കുന്നതിൽ പരാജയം:% 1, ▪ മാമോദീസ തുറന്നു നോക്കുകയും അടയ് ക്കുകയും ചെയ്യുന്നത് ക്രമമായ പ്രയോഗത്തിൽ ചേരുകയില്ല., എല്ലാ ഉപയോക്താക്കൾക്കും ആപ്പിൾട്ടുകൾ ഇൻസ്റ്റോൾ ചെയ്യുകയോ നീക്കം ചെയ്യുകയോ ചെയ്യുക., ഫയലിന്റെ പകർപ്പ് പ്രക്രിയയില് പിശക്: വായന പരാജയപ്പെട്ടു:% 1, വൈരുദ്ധ്യങ്ങളുടെ എണ്ണം സംബന്ധിച്ച് ഒരു സംവാദം കാണിക്കുക., നിങ്ങൾ ബാറ്ററി അധികാരത്തിൽ നിന്നും ഓടി രക്ഷപെടാൻ പോവുകയാണ്, ഇപ്പോൾ ഒന്നും ചെയ്യാനില്ല., വിലാസങ്ങള് ചേർത്തിട്ടില്ല. അയയ്ക്കുന്നതിന് മുമ്പ് കുറഞ്ഞത് ഒന്നെങ്കിലും ചേർക്കൂ., ക്ഷമിക്കണം, നിങ്ങളുടെ ഫോണൺ പതിപ്പ് പിന്തുണയ്ക്കുന്നില്ല.]</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="using-mid-level-of-blurr-apis" class="level3">
-<h3 class="anchored" data-anchor-id="using-mid-level-of-blurr-apis">Using mid-level of blurr APIs</h3>
-<div class="cell" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1">b <span class="op" style="color: #5E5E5E;">=</span> dls.one_batch()</span></code></pre></div>
-</div>
-<div class="cell" data-outputid="b4319724-837b-42f2-83e6-b1e8a1ac619d" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><span class="bu" style="color: null;">len</span>(b), b[<span class="dv" style="color: #AD0000;">0</span>][<span class="st" style="color: #20794D;">"input_ids"</span>].shape, b[<span class="dv" style="color: #AD0000;">1</span>].shape</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="16">
-<pre><code>(2, torch.Size([16, 72]), torch.Size([16, 114]))</code></pre>
-</div>
-</div>
-<div class="cell" data-outputid="6dbfeaa9-a0c9-4f66-db5c-ef0855d91172" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1">dls.show_batch(dataloaders<span class="op" style="color: #5E5E5E;">=</span>dls, input_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">250</span>, target_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">250</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>text</th>
-      <th>target</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>A▁version▁control▁history▁entry▁consists of▁several▁lines.▁Specify the▁regular▁expression▁to▁detect the▁first▁line (without the▁leading▁comment).▁Use▁parentheses▁to▁group the▁keys▁you▁want▁to▁use▁for▁sorting.▁If▁left▁empty,▁then▁KDiff3▁assumes▁that▁e</td>
-      <td>ഒരു ഭാഷാന്തര നിയന്ത്രണത്തിന്റെ നാള്വഴി ചേര്ക്കുന്നതില് പല വരികളുണ്ടാകും. ആദ്യത്തെ വരി കണ്ടുപിടിക്കാനുള്ള നിത്യഭാവം നിര്ദ്ദേശിക്കുക (മുന്നിലെ വിശദീകരണം കൂടാതെ). ഇനം തിരിക്കാനുപയോഗിക്കുന്ന കീകളെ ഒന്നിച്ചാക്കാന് ബ്രാക്കറ്റുകള് ഉപയോഗിക്കുക. ഒഴിച്ചു വിട്ട</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>▁There▁is▁no▁Inbox▁found in▁any▁resource.▁Starting▁a▁new▁message▁will▁cause the▁message▁to▁be▁lost▁after▁you▁have▁sent▁it.▁You▁will▁not▁have▁a▁local▁copy▁anymore.▁If▁you▁want▁a▁copy,▁one▁way▁to▁do▁this▁is▁to▁add▁yourself▁as▁a CC▁to the▁message.&lt;pad&gt;&lt;</td>
-      <td>വിഭവങ്ങളിലൊന്നും ഒരു ഇന്ബോക്സ് കാണുന്നില്ല. ഒരു പുതിയ സന്ദേശം തുടങ്ങുന്നത് അത് അയച്ച ശേഷം നഷ്ടപ്പെടാന് കാരണമാകും. പ്രാദേശിക പകര്പ്പുകളൊന്നും ഒരിക്കലും ലഭ്യമല്ലാതാവും. ഉദാഹരണമായി ഒരു പകര്പ്പ് ആവശ്യമുണ്ടെങ്കില് ഒരു കാര്ബണ് പതിപ്പുകൂടി കൂട്ടിച്ചേര്ത്തതാ</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>▁To▁prevent▁data▁loss▁or▁other▁damage,▁you▁can▁have the▁system suspend▁or▁hibernate,▁so▁you▁do▁not▁accidentally▁run▁out of▁battery▁power.▁Configure the▁number of▁minutes▁below▁which the▁machine▁will▁run the▁configured▁action.&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;</td>
-      <td>വിവരനഷ്ടമോ ഹാനിയോ തടയാന്, സിസ്റ്റം മയങ്ങുകയോ ശിശിരനിദ്രയിലാകുകയോചെയ്യാവുന്നതാണ്, അങ്ങനെ ആകസ്മികമായിട്ടുപോലും ബാറ്ററി ഊര്ജ്ജം തീരാതിരിയ്ക്കും. ക്രമീകരിച്ച നടപടിയുമായി മുന്നോട്ടു് പോകേണ്ടതു് എത്ര മിനിറ്റുകളില് താഴെയാകുമ്പോഴാണെന്നു് താഴെ ക്രമീകരിയ്ക്കുക</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>▁AutoSync▁is▁a▁feature▁from MP3tunes▁which▁allows▁you▁to▁automatically▁move▁your▁music▁between▁computers▁and▁devices.▁You▁can▁upload▁music▁from▁one▁location▁and▁have▁it▁download▁instantly▁to▁other▁locations.&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pa</td>
-      <td>Enable harmony</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>▁Regular▁expression▁for▁lines▁where▁KDiff3▁should▁automatically▁choose▁one▁source.▁When▁a▁line▁with▁a▁conflict▁matches the▁regular▁expression▁then -▁if▁available - C,▁otherwise B▁will▁be▁chosen.&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;</td>
-      <td>കെഡിഫ്3 സ്വതന്ത്രമായി ഒരു സ്രോതസ്സ് തെരഞ്ഞെടുക്കുന്നിടത്ത് വരികള്ക്കുള്ള നിത്യഭാവം. സംഘട്ടനമുള്ള വരി ചേര്ന്നുവരുമ്പോള് അതിന്റെ നിത്യഭാവം - സി ഉണ്ടെങ്കില് അത്, അല്ലെങ്കില് ബി തെരഞ്ഞെടുക്കപ്പെടും.</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>▁Loading▁external▁images▁gives▁spammers the▁acknowledgement▁that▁you▁received▁this▁message▁so▁they▁will▁use▁your▁email▁address▁to▁spam▁you.▁So▁you▁should▁only▁continue▁for▁very▁trusted▁messages.&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;</td>
-      <td>പുറമെനിന്നൊരു ചിത്രം കയറ്റുന്നത് നിങ്ങള്ക്ക് ഈ സന്ദേശം ലഭിച്ചെന്ന മടക്കരശീതി ചവറയയ്ക്കുന്നവര്ക്ക് ലഭിച്ചേക്കാം. അവര് നിങ്ങളുട ഇതപാല് വിലാസം നിങ്ങള്ക്കു് നേരേയും ചവറയയ്ക്കാനുപയോഗിച്ചേക്കാം. അതുകൊണ്ട് വളരെ വിശ്വസ്ത സന്ദേശങ്ങള് മാത്രം തുടര്ന്നാല് മതി.</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>▁Mailody▁is▁able▁to▁convert▁your▁plain▁message▁to▁a▁html▁message▁and▁include▁that in the▁outgoing▁message.▁This▁means the▁receiver▁will▁also▁have▁clickable▁links▁and▁colored▁quote▁levels.&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pa</td>
-      <td>നിങ്ങളുടെ സാദാ സന്ദേശം എച്ച്ടിഎംഎല് സന്ദേശമാക്കി മാറ്റി അത് പുറത്തേക്ക് അയക്കുന്ന സന്ദേശത്തില് ഉള്പ്പെടുത്താന് മെയിലഡിക്കു കഴിയും. അതായത് ഞൊട്ടാവുന്ന കണ്ണികളും വര്ണ്ണ ഉദ്ധരണി തലവും സ്വീകര്ത്താവിനുകൂടി ലഭ്യമാവും</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>▁You▁have▁clicked▁on▁a▁link▁which▁might▁not▁indicate▁correctly▁where▁you▁are▁really▁going▁to.▁Please▁check▁if▁you▁really▁want▁to▁view▁a▁page▁on▁this▁server:▁%1▁Do▁you▁want▁to▁go▁there?&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;</td>
-      <td>നിങ്ങള് ഒരു കണ്ണിയില് ഞൊട്ടിയത് നിങ്ങളെവിടേക്കാണ് വാസ്തവത്തില് പോകുന്നത് എന്ന് കൃത്യമായി സൂചിപ്പിക്കുന്നില്ല. ഇ സേവകന്റെ താളിലേക്കു തന്നെ യാണോ പോകേണ്ടതെന്ന് പരിശോധിക്കുക:% 1 നിങ്ങള്ക്കിവിടെ പോകണോ?</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>▁Try▁to▁align B▁and C▁when▁comparing▁or▁merging▁three input▁files.▁Not▁recommended▁for▁merging▁because▁merge▁might▁get▁more▁complicated. (Default▁is▁off.)&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;pad&gt;&lt;</td>
-      <td>അകത്തുവിടാനുള്ള 3ഫയലുകള് താരതമ്യമ് ചെയ്യുമ്പോഴോ ലയനം നടത്തുമ്പോഴോബിയും സിയും നിരഒപ്പിക്കാന് ശ്രമിക്കണം. കൂടുതല് കുഴപ്പം പിടിച്ചതായതുകൊണ്ട് ലയനത്തിന്റെ കാര്യത്തില് അത് ശുപാര്ശ ചെയ്തിട്ടില്ല. (ഓഫ് ആണ് സഹജം.)</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-<div class="cell" data-outputid="c3827f61-c90c-4bfe-88bd-90c04b3e3acd" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1">seq2seq_metrics <span class="op" style="color: #5E5E5E;">=</span> {</span>
-<span id="cb22-2">    <span class="st" style="color: #20794D;">"bleu"</span>: {<span class="st" style="color: #20794D;">"returns"</span>: <span class="st" style="color: #20794D;">"bleu"</span>},</span>
-<span id="cb22-3">    <span class="st" style="color: #20794D;">"meteor"</span>: {<span class="st" style="color: #20794D;">"returns"</span>: <span class="st" style="color: #20794D;">"meteor"</span>},</span>
-<span id="cb22-4">    <span class="st" style="color: #20794D;">"sacrebleu"</span>: {<span class="st" style="color: #20794D;">"returns"</span>: <span class="st" style="color: #20794D;">"score"</span>},</span>
-<span id="cb22-5">}</span>
-<span id="cb22-6"></span>
-<span id="cb22-7">model <span class="op" style="color: #5E5E5E;">=</span> BaseModelWrapper(hf_model)</span>
-<span id="cb22-8">learn_cbs <span class="op" style="color: #5E5E5E;">=</span> [BaseModelCallback]</span>
-<span id="cb22-9">fit_cbs <span class="op" style="color: #5E5E5E;">=</span> [Seq2SeqMetricsCallback(custom_metrics<span class="op" style="color: #5E5E5E;">=</span>seq2seq_metrics)]</span>
-<span id="cb22-10"></span>
-<span id="cb22-11">learn <span class="op" style="color: #5E5E5E;">=</span> Learner(</span>
-<span id="cb22-12">    dls,</span>
-<span id="cb22-13">    model,</span>
-<span id="cb22-14">    opt_func<span class="op" style="color: #5E5E5E;">=</span>partial(Adam),</span>
-<span id="cb22-15">    loss_func<span class="op" style="color: #5E5E5E;">=</span>PreCalculatedCrossEntropyLoss(),  <span class="co" style="color: #5E5E5E;"># CrossEntropyLossFlat()</span></span>
-<span id="cb22-16">    cbs<span class="op" style="color: #5E5E5E;">=</span>learn_cbs,</span>
-<span id="cb22-17">    splitter<span class="op" style="color: #5E5E5E;">=</span>partial(blurr_seq2seq_splitter, arch<span class="op" style="color: #5E5E5E;">=</span>hf_arch),</span>
-<span id="cb22-18">)</span>
-<span id="cb22-19"></span>
-<span id="cb22-20">learn.freeze()</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>[nltk_data] Downloading package wordnet to /home/nltk_data...
-[nltk_data]   Package wordnet is already up-to-date!
-[nltk_data] Downloading package punkt to /home/nltk_data...
-[nltk_data]   Package punkt is already up-to-date!
-[nltk_data] Downloading package omw-1.4 to /home/nltk_data...
-[nltk_data]   Package omw-1.4 is already up-to-date!</code></pre>
-</div>
-</div>
-<div class="cell" data-outputid="62277fb8-a4bd-45f4-9eab-a193f828ff46" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1">learn.lr_find(suggest_funcs<span class="op" style="color: #5E5E5E;">=</span>[minimum, steep, valley, slide])</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display" data-execution_count="19">
-<pre><code>SuggestedLRs(minimum=0.00010000000474974513, steep=2.75422871709452e-06, valley=0.00013182566908653826, slide=0.2089296132326126)</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-03-13-hfenml-translate_files/figure-html/cell-19-output-4.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="cell" data-outputid="655a9a61-3ebe-4442-8b04-dc814d181196" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">learn.fit_one_cycle(<span class="dv" style="color: #AD0000;">15</span>, lr_max<span class="op" style="color: #5E5E5E;">=</span><span class="fl" style="color: #AD0000;">5e-4</span>, cbs<span class="op" style="color: #5E5E5E;">=</span>fit_cbs)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th>epoch</th>
-      <th>train_loss</th>
-      <th>valid_loss</th>
-      <th>bleu</th>
-      <th>meteor</th>
-      <th>sacrebleu</th>
-      <th>time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>5.345715</td>
-      <td>4.811335</td>
-      <td>0.038182</td>
-      <td>0.183787</td>
-      <td>5.607312</td>
-      <td>00:15</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>4.658613</td>
-      <td>4.272337</td>
-      <td>0.058925</td>
-      <td>0.206963</td>
-      <td>3.932045</td>
-      <td>00:32</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>4.196794</td>
-      <td>4.031921</td>
-      <td>0.069354</td>
-      <td>0.167185</td>
-      <td>4.876618</td>
-      <td>00:25</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>3.826715</td>
-      <td>4.102871</td>
-      <td>0.071109</td>
-      <td>0.122637</td>
-      <td>4.639123</td>
-      <td>00:18</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>3.551352</td>
-      <td>4.046614</td>
-      <td>0.080512</td>
-      <td>0.202187</td>
-      <td>6.996449</td>
-      <td>00:26</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>3.329875</td>
-      <td>3.928597</td>
-      <td>0.054780</td>
-      <td>0.179460</td>
-      <td>3.403195</td>
-      <td>00:53</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>3.197556</td>
-      <td>3.818610</td>
-      <td>0.109263</td>
-      <td>0.212960</td>
-      <td>9.055532</td>
-      <td>00:21</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>3.034615</td>
-      <td>3.821332</td>
-      <td>0.100355</td>
-      <td>0.200819</td>
-      <td>8.208149</td>
-      <td>00:20</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>2.900438</td>
-      <td>3.807550</td>
-      <td>0.101014</td>
-      <td>0.222323</td>
-      <td>7.221607</td>
-      <td>00:35</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>2.820454</td>
-      <td>3.813579</td>
-      <td>0.111548</td>
-      <td>0.219794</td>
-      <td>9.026264</td>
-      <td>00:29</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>2.756891</td>
-      <td>3.791952</td>
-      <td>0.107236</td>
-      <td>0.223636</td>
-      <td>9.965611</td>
-      <td>00:31</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>2.740331</td>
-      <td>3.809624</td>
-      <td>0.115999</td>
-      <td>0.239258</td>
-      <td>10.261043</td>
-      <td>00:24</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>2.685602</td>
-      <td>3.804891</td>
-      <td>0.126693</td>
-      <td>0.234446</td>
-      <td>11.131677</td>
-      <td>00:22</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>2.653799</td>
-      <td>3.800799</td>
-      <td>0.119988</td>
-      <td>0.227742</td>
-      <td>10.985718</td>
-      <td>00:23</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>2.636473</td>
-      <td>3.801427</td>
-      <td>0.124357</td>
-      <td>0.229134</td>
-      <td>10.967688</td>
-      <td>00:25</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-<div class="cell" data-outputid="e5301994-a323-4eff-f28f-6f2c9b88169f" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1">learn.show_results(learner<span class="op" style="color: #5E5E5E;">=</span>learn, input_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">500</span>, target_trunc_at<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">500</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>text</th>
-      <th>target</th>
-      <th>prediction</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>▁With▁a▁dynamic▁playlist, Amarok▁becomes▁your▁own▁personal▁dj,▁automatically▁selecting▁tracks▁for▁you,▁based▁on▁a▁number of▁parameters▁that▁you▁select.</td>
-      <td>Turn dynamic mode on</td>
-      <td>[Username for logins to disabled, format: Artist - Track (Album), from the currently playlist column name and token for playlist layouts, വരികളിലെ അക്ഷരങ്ങളുടെ അവസ്ഥ വിഗണിക്കുക. (മുന്നിലെ വിവരങ്ങളുമായി താരതമ്യം ചെയ്യാനും സിമുലേറ്ററിക്ക് കഴിയും.), ഒരു ടാബ് മാത്രമേ ഉപയോഗിക്കൂ. ഒരു ചെറിയ ടാബ് ബാറ്ററിയില്ലാതെ സ്വയം ടാബ് ബാറ്ററി യാന്ത്രികമായി മറയ്ക്കുന്നു. ഒരു ടാബ് മാത്രമേ ഉപയോഗിക്കൂ., ഇത്തരം പ്രകടനം തുടങ്ങുമ്പോള്꠱, മെയിലഡികളിൽ ചിരിച്ചതായി സ്വയമേവ ലയിപ്പിക്കുക. ഉദാഹരണമായി ഒരു അക്ഷരരൂപം പരിശോധിക്കുന്നുണ്ടോയെന്ന് പരിശോധിക്കാതെ സ്വയം ചിരിച്ചുകൊണ്ടാവും., മുന്꠱ജ്ജ് ഉപയോഗിച്ചുകൊണ്ട് പരാജയപ്പെട്ടു. ഈ ആജ്ഞ പരിശോധിക്കൂ:% 1 മുന്꠱നടപടി ആജ്ഞ ഇപ്പോൾ പ്രവര് പശ്ചാത്തപിക്കുകത്തനരഹിതമാക്കും., പുറമെനിന്ന്- മിച്ചമുള്ള മട്ടും പ്രാവർത്തികമാക്കുന്നു. വലിയ ഫയലുകളെക്കുറിച്ചുള്ള പരിശോധകന്റെ പരിശോധകനുഭവം വളരെ പതുക്കെയാവും., ഈ സ്ലൈഡനുപയോഗിച്ചു്, സിസ്റ്റം സോക്കറ്റ് പുറത്തേയ്ക്കു് പതിക്കുന്നു, പുറത്താക്കുവാനുള്ള മെയിലഡിഭാഗം ലഭ്യമല്ല, ദയവായി അത് അയക്കുന്നതിന് മുമ്പായി ക്രമീകരിയ്ക്കുക, ഈ മുന്꠱ പൂര്꠱വ്വ പ്രക്രിയയ്ക്കുള്ള സമയത്ത് വരിയില്꠱ മാത്രമേ ഉപയോഗിക്കൂ. (വിശദീകരണങ്ങള്ക്ക് പ്രമാണപത്രം നോക്കുക.), ഫയല്꠱ പകര്꠱പ്പെടുക്കുമ്പോള്꠱ പിശക്: ഫയലില്♬ വായനയ്ക്കുള്ള ഫയല്꠱ തുറക്കുന്നത് പരാജയപ്പെട്ടു. ഫയല് പശ്ചാത്തപിക്കുക നാമം:% 1, നിങ്ങളുപയോഗിക്കുന്ന ബീഗിള്꠱ ബാക്കെന് പശ്ചാത്തപിക്കുകഡുകള്꠱ തെരഞ്ഞെടുക്കുക., ഉപയോക്താവ്നാമം തിരിച്ചറിഞ്ഞിട്ടില്ല, അല്ലെങ്കിൽ പാറ്റേണുകളിലെ അടയാളമിടുക., അനുബന്ധങ്ങളുടെ അളവ്% 1 is new name for translate is the filter, representing the playlist column name and token for playlist layouts, ബാറ്ററികളിലെത്തിച്ചേരുമ്പോള്꠱ ശോഭ നിയന്ത്രിക്കുന്നു, ("ഒഴിഞ്ഞ ഇടങ്ങള്꠱ കാണിയ്ക്കുക" പ്രവര്꠱ത്തമരഹിതമാക്കിയാല് പശ്ചാത്തപിക്കുക ഒഴിഞ്ഞ ഇടങ്ങളുടെ വ്യ അല്ലാഹുക്കള്꠱ ഒഴിവാക്കും.), മാതാപിതാക്കൾ തുറക്കുന്നതും അടയ്ക്കുന്നതും ലയിപ്പിക്കുന്നതും ലയിപ്പിക്കുക.]</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="now-lets-translate-with-our-trained-models" class="level2">
-<h2 class="anchored" data-anchor-id="now-lets-translate-with-our-trained-models">Now let’s translate with our trained models</h2>
-<section id="blurr-top-3-translation-predictions" class="level3">
-<h3 class="anchored" data-anchor-id="blurr-top-3-translation-predictions">blurr top 3 translation predictions</h3>
-<div class="cell" data-outputid="b8da2fae-a739-4fb1-8033-9e8c37030991" data-execution_count="22">
-<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1">test_text <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"How are you doing"</span></span>
-<span id="cb28-2"></span>
-<span id="cb28-3"></span>
-<span id="cb28-4">outputs <span class="op" style="color: #5E5E5E;">=</span> learn.blurr_generate(</span>
-<span id="cb28-5">    test_text, key<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"translation_texts"</span>, num_return_sequences<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">3</span></span>
-<span id="cb28-6">)</span>
-<span id="cb28-7">outputs</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="22">
-<pre><code>[{'translation_texts': ['എന്തൊക്കെയുണ്ട്?',
-   'എങ്ങനെയുണ്ട്?',
-   'എന്തൊക്കെയുണ്ട്.']}]</code></pre>
-</div>
-</div>
-</section>
-<section id="saving-trained-ml-model" class="level3">
-<h3 class="anchored" data-anchor-id="saving-trained-ml-model">Saving trained ML model</h3>
-<div class="cell" data-execution_count="23">
-<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1">export_fname <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"saved_model"</span></span>
-<span id="cb30-2"></span>
-<span id="cb30-3"></span>
-<span id="cb30-4">learn.metrics <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">None</span></span>
-<span id="cb30-5">learn.export(fname<span class="op" style="color: #5E5E5E;">=</span><span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>export_fname<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.pkl"</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><span class="im" style="color: #00769E;">from</span> huggingface_hub <span class="im" style="color: #00769E;">import</span> push_to_hub_fastai</span>
-<span id="cb31-2"></span>
-<span id="cb31-3">push_to_hub_fastai(</span>
-<span id="cb31-4">    learn,</span>
-<span id="cb31-5">    <span class="st" style="color: #20794D;">"kurianbenoy/kde_en_ml_translation_model"</span>,</span>
-<span id="cb31-6">    commit_message<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"New version with 15 epoch of training"</span>,</span>
-<span id="cb31-7">)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/kde_en_ml_translation_model is already a clone of https://huggingface.co/kurianbenoy/kde_en_ml_translation_model. Make sure you pull the latest changes with `repo.git_pull()`.
-W0511 16:57:02.992604 140162781013824 repository.py:685] /home/kurianbenoy/kde_en_ml_translation_model is already a clone of https://huggingface.co/kurianbenoy/kde_en_ml_translation_model. Make sure you pull the latest changes with `repo.git_pull()`.</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"01955814005849b0b5318dc34ee191d3","version_major":2,"version_minor":0}
-</script>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>remote: Enforcing permissions...        
-remote: Allowed refs: all        
-To https://huggingface.co/kurianbenoy/kde_en_ml_translation_model
-   62f36f9..766c8a0  main -&gt; main
-
-W0511 16:58:04.917035 140162781013824 repository.py:1144] remote: Enforcing permissions...        
-remote: Allowed refs: all        
-To https://huggingface.co/kurianbenoy/kde_en_ml_translation_model
-   62f36f9..766c8a0  main -&gt; main
-</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="24">
-<pre><code>'https://huggingface.co/kurianbenoy/kde_en_ml_translation_model/commit/766c8a06c07bb6352d0537ac1972d3c70360fd53'</code></pre>
-</div>
-</div>
-</section>
-<section id="prediction-with-our-trained-model" class="level3">
-<h3 class="anchored" data-anchor-id="prediction-with-our-trained-model">Prediction with our trained model</h3>
-<section id="correct-prediction" class="level4">
-<h4 class="anchored" data-anchor-id="correct-prediction">Correct Prediction</h4>
-<div class="cell" data-outputid="2c91e3f8-2099-4b06-ab38-19ba1744eb6d" data-execution_count="25">
-<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1">test_text <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"How are you doing"</span></span>
-<span id="cb35-2"></span>
-<span id="cb35-3">inf_learn <span class="op" style="color: #5E5E5E;">=</span> load_learner(fname<span class="op" style="color: #5E5E5E;">=</span><span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>export_fname<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.pkl"</span>)</span>
-<span id="cb35-4">inf_learn.blurr_translate(test_text)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="25">
-<pre><code>[{'translation_texts': 'എന്തൊക്കെയുണ്ട്?'}]</code></pre>
-</div>
-</div>
-<div class="cell" data-outputid="f26663cb-38fc-4fa7-8742-63f7f675a2e2" data-execution_count="26">
-<div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1">test_text1 <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"Add All Found Feeds to Akregator."</span></span>
-<span id="cb37-2"></span>
-<span id="cb37-3">inf_learn <span class="op" style="color: #5E5E5E;">=</span> load_learner(fname<span class="op" style="color: #5E5E5E;">=</span><span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>export_fname<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.pkl"</span>)</span>
-<span id="cb37-4">inf_learn.blurr_translate(test_text1)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="26">
-<pre><code>[{'translation_texts': 'എല്ലാ ഫീഡുകളും അക്രിഗേറ്ററില്꠱ കൂട്ടിച്ചേര് പശ്ചാത്തപിക്കുകക്കുക.'}]</code></pre>
-</div>
-</div>
-</section>
-<section id="wrong-prediction" class="level4">
-<h4 class="anchored" data-anchor-id="wrong-prediction">Wrong Prediction</h4>
-<div class="cell" data-outputid="af05d344-d92e-482f-fac7-53f1de3e3e9a" data-execution_count="27">
-<div class="sourceCode cell-code" id="cb39" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1">test_text2 <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"Subscribe to site updates (using news feed)."</span></span>
-<span id="cb39-2"></span>
-<span id="cb39-3">inf_learn <span class="op" style="color: #5E5E5E;">=</span> load_learner(fname<span class="op" style="color: #5E5E5E;">=</span><span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>export_fname<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.pkl"</span>)</span>
-<span id="cb39-4">inf_learn.blurr_translate(test_text2)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="27">
-<pre><code>[{'translation_texts': 'സൈറ്റുകളിലെ പുതുമകളറിയാന്꠱ വരിക്കാരനാകുക (വാര്꠱ത്താ ഫീഡുകള്♬ ഉപയോഗിച്ചു്).'}]</code></pre>
-</div>
-</div>
-<p>Expected: ’സൈറ്റുകളിലെ പുതുമകളറിയാന്00d വരിക്കാരനാകുക (വാര്00dത്താ ഫീഡുകള്00d ഉപയോഗിച്ചു്</p>
-</section>
-</section>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<ul>
-<li>Wayde Gilliam - for creating blurr, and helping with doubts in translation bits</li>
-<li>Kevin Bird - for helping in editing the article.</li>
-<li>Ashwin Jayaprakash - for trying out notebook and reporting issues which was later fixed by Wayde in blurr.</li>
-</ul>
-<p>fin.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>huggingface</category>
-  <category>translation</category>
-  <category>fine tuning</category>
-  <category>malayalam</category>
-  <guid>https://kurianbenoy.com/posts/2022-03-13-hfenml-translate.html</guid>
-  <pubDate>Sun, 13 Mar 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/translate.png" medium="image" type="image/png" height="83" width="144"/>
 </item>
 </channel>
 </rss>
