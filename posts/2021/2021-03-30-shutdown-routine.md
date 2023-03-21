@@ -15,6 +15,8 @@ It was a casual Saturday morning, and I was waiting in front of
 an Akshaya Center to get my Aadhar Card photo updated. Even
 after one hour, the line hadn't moved much. So I sort of decided to start reading one of my kindle E-books on my phone.
 
+![Shutting Down](https://csultimates.net/wp-content/uploads/2018/08/Windows-10-Shutdown.jpg){width=300 fig-align="left"}
+
 The book was Deep work written by Cal Newport. I had purchased this book, for more than 2-3 months, yet I didn't make
 much progress in reading this book. I had almost completed 30% of the book when I left it earlier. So I 
 continued slowly reading through the book in a chair with five people surrounded 
