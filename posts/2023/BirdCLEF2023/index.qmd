@@ -7,9 +7,11 @@ categories: ["kaggle", "experience", "Travel"]
 
 I recently went for a bird watching adventure in [Salim Ali Bird Sanctuary](https://en.wikipedia.org/wiki/Salim_Ali_Bird_Sanctuary), Thattekad Kerala, India. During that time, my guide was very proficient in identifying birds by just hearing sounds. In Salim Ali bird sanctuary itself there are almost 300 species of land birds and another 100+ species of water birds.
 
-I was genuinely curious, how they learned about all these birds and memorized all these. This is when my guide talked about the Merlin app, which can help in learning more about various species of bird. 
+I was genuinely curious, how they learned about all these birds and memorized all these. This is when my guide talked about the Merlin app, which can help in learning more about various species of bird.
 
-[Video Explaining functionality of Merlin](https://youtu.be/xmSUOLxyatY)
+{{< video https://youtu.be/xmSUOLxyatY >}}
+
+Video Explaining functionality of Merlin
 
 You can download it from [Apple App store](https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673) or [Google Playstore](https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app&hl=en&gl=US) for your android phones. Learn more about Merlin app in this [link](https://merlin.allaboutbirds.org/.)
 
@@ -20,4 +22,4 @@ You can download it from [Apple App store](https://apps.apple.com/us/app/merlin-
 
 ![Ceylon Frogmouth](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F2e84ee1ef3b246d9bcee2cd5757f4a05%2FWhatsApp%20Image%202023-03-20%20at%209.25.45%20AM.jpeg?generation=1679301247043893&alt=media){width=300 fig-align="left"}
 
-All the best for all the competitors. I hope it will be used to improve the bird recognizing capabilities of Merlin your awesome models.
+Note: This article was originally published in [Kaggle discussion here](https://www.kaggle.com/competitions/birdclef-2023/discussion/396029#2188836)
