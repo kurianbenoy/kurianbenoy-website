@@ -17,7 +17,7 @@ title: Starting an open-source project - Malayalam Text Classifier
 
 ---
 
-![malayalam letters](./images/malayalam.png)
+![malayalam letters](/posts/images/malayalam.png)
 
 > TLDR: Kurian has committed to start an [open-source project for Text classification](https://github.com/smc/malayalam-text-classifier) tasks in Malayalam which is going to build as an open-source project under [SMC community](https://smc.org.in/). 
 
