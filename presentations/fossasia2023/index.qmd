@@ -1,7 +1,8 @@
 ---
-title: OpenAI whisper and magic of finetuning
+title: OpenAI Whisper and it's amazing power to do finetuning.
 author: Kurian Benoy
 format: revealjs
+description: Presented in FOSSASIA Summit
 ---
 
 ## Getting up
