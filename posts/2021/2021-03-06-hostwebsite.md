@@ -1,7 +1,7 @@
 ---
 title: Hosting your website  🌐 with Github pages
 layout: post
-categories: [coding, frontend]
+categories: [coding, frontend, Webdev]
 date: '2021-03-06'
 ---
 

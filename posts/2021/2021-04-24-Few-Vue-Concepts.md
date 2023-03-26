@@ -5,6 +5,7 @@ categories:
 - coding
 - Vue
 - javascript
+- Webdev
 date: '2021-04-24'
 layout: post
 title: Few Vue concepts

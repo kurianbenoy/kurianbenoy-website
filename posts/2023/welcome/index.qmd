@@ -1,8 +1,8 @@
 ---
 title: "Welcome To My Quarto Website"
 author: ["Tristan O'Malley", "Kurian Benoy"]
-date: "2022-12-18"
-categories: [TIL]
+date: "2023-01-16"
+categories: ["TIL", "coding", "Webdev"]
 ---
 
 ![](thumbnail.jpg)
