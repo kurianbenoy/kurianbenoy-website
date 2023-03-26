@@ -9,7 +9,7 @@
 <link>https://kurianbenoy.com/blog.html</link>
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
-<generator>quarto-1.2.335</generator>
+<generator>quarto-1.2.475</generator>
 <lastBuildDate>Mon, 20 Mar 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>🐦Learning more about birds and bird calls with Merlin app</title>
@@ -80,19 +80,19 @@
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-75053"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-75053").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-60209"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-60209").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-40416"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-40416").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-11750"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-11750").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-30149"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-30149").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-29638"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-29638").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-15132"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"Full Stack Deep Learning","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; Full Stack Deep Learning (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15132").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-83479"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"Full Stack Deep Learning","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; Full Stack Deep Learning (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-83479").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -111,14 +111,14 @@
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-91258"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-91258").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-86668"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-86668").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-19950"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-19950").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-51189"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51189").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-45222"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-45222").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-56181"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-56181").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-29575"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-29575").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-28286"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28286").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -248,7 +248,7 @@
 <item>
   <title>Practical Deep Learning for Coders Course - Paddy Disease Classification competition</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-08-04-fastai56.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-08-04-fastai56.html</link>
   <description><![CDATA[ 
 
 
@@ -259,7 +259,7 @@
 <p>There are four notebook covering Paddy Disease Competition, and I feel each of these notebooks are excellent:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/paddy.JPG" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/paddy.JPG" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -276,7 +276,7 @@
 <p>At the start of lesson 7, Jeremy said some kind words to Nick and me which can be found in below youtube video. I am extremely lucky to learn from such a great teacher. Without these four notebooks and <a href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM">Jeremy’s live-coding sessions</a>, it wouldn’t have been possible.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/jeremy_class_shoutout.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/jeremy_class_shoutout.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Jeremy showing leaderboard in class</figcaption><p></p>
 </figure>
 </div>
@@ -289,14 +289,14 @@
  ]]></description>
   <category>fastai</category>
   <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022-08-04-fastai56.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-08-04-fastai56.html</guid>
   <pubDate>Thu, 04 Aug 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/paddy.JPG" medium="image"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/paddy.JPG" medium="image"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Tabular Models (Linear Regression &amp; Random Forests)</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-07-28-fastai55.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-07-28-fastai55.html</link>
   <description><![CDATA[ 
 
 
@@ -311,7 +311,7 @@
 <p>Before getting started with this lesson, let’s remind ourselves <strong>What is matrix &amp; vector?</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/182064940-f5723473-d393-4a16-ab86-a7baf1ed0f8b.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/182064940-f5723473-d393-4a16-ab86-a7baf1ed0f8b.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -378,14 +378,14 @@ Note
  ]]></description>
   <category>fastai</category>
   <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022-07-28-fastai55.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-07-28-fastai55.html</guid>
   <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://user-images.githubusercontent.com/24592806/182064940-f5723473-d393-4a16-ab86-a7baf1ed0f8b.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>A strange bug when using fastai library with Weights &amp; Biases</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-07-26-wandbbug.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-07-26-wandbbug.html</link>
   <description><![CDATA[ 
 
 
@@ -394,7 +394,7 @@ Note
 <p>After attending an introduction to using weights &amp; biases along with fastai session conducted by <a href="https://twitter.com/capetorch">Thomas Capaballe</a>. I was excited to use weights and biases library along with a few of my hobby projects. I was working on training an Image classification models on the Kaggle competition dataset <a href="https://www.kaggle.com/competitions/tpu-getting-started">Petal to Metal</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/wblogo.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/wblogo.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image info</figcaption><p></p>
 </figure>
 </div>
@@ -447,21 +447,21 @@ Important
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-25069"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-25069").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-71093"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-71093").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-62453"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-62453").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-51063"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51063").innerHTML = tweet["html"];</script><p></p>
 
 
 
  ]]></description>
   <category>fastai</category>
-  <guid>https://kurianbenoy.com/posts/2022-07-26-wandbbug.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-07-26-wandbbug.html</guid>
   <pubDate>Tue, 26 Jul 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/wblogo.png" medium="image" type="image/png" height="76" width="144"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/wblogo.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Getting featured in Spaces of the week and my latest two gradio spaces</title>
-  <link>https://kurianbenoy.com/posts/2022-07-06-gradio_spaces.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-07-06-gradio_spaces.html</link>
   <description><![CDATA[ 
 
 
@@ -470,7 +470,7 @@ Important
 <p>I recently created two gradio based webapps, and one of my spaces - Paddy Doctor got featured in list of hugging face Spaces of the week.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/177607850-eed39c76-51b5-4b00-aad1-804e699540d2.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/177607850-eed39c76-51b5-4b00-aad1-804e699540d2.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -485,14 +485,14 @@ Important
   <category>huggingface</category>
   <category>Deep learning</category>
   <category>fastai</category>
-  <guid>https://kurianbenoy.com/posts/2022-07-06-gradio_spaces.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-07-06-gradio_spaces.html</guid>
   <pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://user-images.githubusercontent.com/24592806/177607850-eed39c76-51b5-4b00-aad1-804e699540d2.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>How to approach learning Vim - tips from two monks</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-06-27-tipstolearnvim.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-06-27-tipstolearnvim.html</link>
   <description><![CDATA[ 
 
 
@@ -573,14 +573,14 @@ Important
   <category>opensource</category>
   <category>fastaicourse</category>
   <category>terminal</category>
-  <guid>https://kurianbenoy.com/posts/2022-06-27-tipstolearnvim.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-06-27-tipstolearnvim.html</guid>
   <pubDate>Mon, 27 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/monk.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/monk.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Building a baseline model for Malayalam Text Classification</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-06-04-baselinemodel.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-06-04-baselinemodel.html</link>
   <description><![CDATA[ 
 
 
@@ -982,7 +982,7 @@ Please also refer to the documentation for alternative solver options:
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/171474436-2e9a25d5-5e62-41a0-b249-e65a2df57585.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/171474436-2e9a25d5-5e62-41a0-b249-e65a2df57585.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -997,7 +997,7 @@ Please also refer to the documentation for alternative solver options:
 <p>One of the best things about using simple models to train is also that you can use it for data labelling efforts. To be honest, I am still learning more about data-annotation and labelling. My friend Alex is an expert though here and checkout his awesome blog <a href="https://blog.zenml.io/data-labelling-annotation">How to get the most out of data annotation</a>. I really loved this image showing 5 steps of datalabelling.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/171987028-11d5e564-f292-4478-8273-749c5d280045.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/171987028-11d5e564-f292-4478-8273-749c5d280045.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -1015,13 +1015,13 @@ Please also refer to the documentation for alternative solver options:
   <category>ML</category>
   <category>Deep learning</category>
   <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2022-06-04-baselinemodel.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-06-04-baselinemodel.html</guid>
   <pubDate>Sat, 04 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://user-images.githubusercontent.com/24592806/171474436-2e9a25d5-5e62-41a0-b249-e65a2df57585.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Starting an open-source project - Malayalam Text Classifier</title>
-  <link>https://kurianbenoy.com/posts/2022-05-30-malayalamtext-0.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-30-malayalamtext-0.html</link>
   <description><![CDATA[ 
 
 
@@ -1029,7 +1029,7 @@ Please also refer to the documentation for alternative solver options:
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/malayalam.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/malayalam.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">malayalam letters</figcaption><p></p>
 </figure>
 </div>
@@ -1103,14 +1103,14 @@ Please also refer to the documentation for alternative solver options:
   <category>ML</category>
   <category>Deep learning</category>
   <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-30-malayalamtext-0.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-30-malayalamtext-0.html</guid>
   <pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/malayalam.png" medium="image" type="image/png" height="103" width="144"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/malayalam.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Installing Python Packages &amp; setting up libraries for Data Science - the right way</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-05-28-fastai-walthrus1.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-28-fastai-walthrus1.html</link>
   <description><![CDATA[ 
 
 
@@ -1141,7 +1141,7 @@ Important
 <p>A terminal is a program which can display console window to run program. Yet thing inside is not strictly a terminal, but called a shell. The black coloured stuff, which you see in movies used by hackers is Terminal as shown in image below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/170852543-17bdb268-7ace-43c6-b1a0-a2b5b0a9ac43.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170852543-17bdb268-7ace-43c6-b1a0-a2b5b0a9ac43.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -1290,7 +1290,7 @@ conda install -yq mamba</code></pre>
 <p><a href="https://twitter.com/radekosmulski/">Radek</a> who is a engineer at Nvidia, told he usually prefer mamba because with just one line of code you can switch to any python version you want. Afer the session in forums, Radek shared how to do this as shown in below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/170855465-1f74f66e-8238-43a2-b9f3-dcbff67a547b.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170855465-1f74f66e-8238-43a2-b9f3-dcbff67a547b.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -1300,7 +1300,7 @@ conda install -yq mamba</code></pre>
 <p>Since for fastai course, we are using pytorch. Let’s install pytorch based on <a href="https://pytorch.org/">official page instructions</a>:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/170853841-9ed4763c-4969-40fd-9db9-01b6f06e612e.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170853841-9ed4763c-4969-40fd-9db9-01b6f06e612e.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -1339,7 +1339,7 @@ Note
 <p>This opens up jupyterlab in localhost:8888</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/170855155-67d3167c-e635-40a6-a0cb-bd12d6d81d0d.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170855155-67d3167c-e635-40a6-a0cb-bd12d6d81d0d.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -1364,14 +1364,14 @@ Note
   <category>terminal</category>
   <category>Python</category>
   <category>setup</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-28-fastai-walthrus1.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-28-fastai-walthrus1.html</guid>
   <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
   <media:content url="https://user-images.githubusercontent.com/24592806/170852543-17bdb268-7ace-43c6-b1a0-a2b5b0a9ac43.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Quickly trying out a NLP model for Kaggle Competition</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-05-23-nlpkagglecomp.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-23-nlpkagglecomp.html</link>
   <description><![CDATA[ 
 
 
@@ -1380,7 +1380,7 @@ Note
 <p>This is my attempt to see how well we can build a NLP model for <a href="https://www.kaggle.com/competitions/nlp-getting-started/overview">Natural Language Processing with Disaster Tweets</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/nlp_random.jpeg" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/nlp_random.jpeg" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">NLP random competition</figcaption><p></p>
 </figure>
 </div>
@@ -1922,14 +1922,14 @@ Training completed. Do not forget to share your model on huggingface.co/models =
   <category>fastaicourse</category>
   <category>NLP</category>
   <category>huggingface</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-23-nlpkagglecomp.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-23-nlpkagglecomp.html</guid>
   <pubDate>Mon, 23 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/nlp_random.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/nlp_random.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Lesson 4</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-05-19-fastai-54.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54.html</link>
   <description><![CDATA[ 
 
 
@@ -2268,13 +2268,13 @@ Note
 <div class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">show_corr(df, <span class="st" style="color: #20794D;">"MedInc"</span>, <span class="st" style="color: #20794D;">"AveRooms"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-19-fastai-54_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">show_corr(df[df.AveRooms <span class="op" style="color: #5E5E5E;">&lt;</span> <span class="dv" style="color: #AD0000;">15</span>], <span class="st" style="color: #20794D;">"MedInc"</span>, <span class="st" style="color: #20794D;">"AveRooms"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-19-fastai-54_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <p>If you look at two graphs, once we removed the Average room &lt;15. We notice a huge difference in r value which denotes the <code>pearson coefficent</code> are sensitive to outliers. Thus we got an intutive feeling of what the metrics is doing, and how it’s being affected by outliers. Even if you make small error in some of predictions you will notice a hugh bump in leaderboard which affects your position, as pearson correlation penalizes heavily for wrong predictions.</p>
@@ -2286,14 +2286,14 @@ Note
  ]]></description>
   <category>fastai</category>
   <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-19-fastai-54.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54.html</guid>
   <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/monsoon.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/monsoon.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Lesson 3</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-05-10-fastai-53.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-10-fastai-53.html</link>
   <description><![CDATA[ 
 
 
@@ -2315,7 +2315,7 @@ Note
 <p>This week, Jeremy showcased the various students projects based on those who got highest number of votes in <a href="https://forums.fast.ai/t/share-your-work-here/96015">share your work here topic in fastai forums</a>. My work also got featured 🙂 in the lesson.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/https:/user-images.githubusercontent.com/24592806/168640845-07859116-bf6b-48c7-af61-5ff8a65dc2fb.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/168640845-07859116-bf6b-48c7-af61-5ff8a65dc2fb.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -3009,14 +3009,14 @@ Important
  ]]></description>
   <category>fastai</category>
   <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-10-fastai-53.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-10-fastai-53.html</guid>
   <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
   <media:content url="https://user-images.githubusercontent.com/24592806/168640845-07859116-bf6b-48c7-af61-5ff8a65dc2fb.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Lesson 2</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-05-03-fastai-52.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-03-fastai-52.html</link>
   <description><![CDATA[ 
 
 
@@ -3138,7 +3138,7 @@ Important
 <p>Jeremy pointed to tanishq tutorial on <a href="https://tmabraham.github.io/blog/gradio_hf_spaces_tutorial">Gradio + HuggingFace Spaces</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/fastailesson2.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/fastailesson2.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -3226,14 +3226,14 @@ Important
  ]]></description>
   <category>fastai</category>
   <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-03-fastai-52.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-03-fastai-52.html</guid>
   <pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/fastailesson2.png" medium="image" type="image/png" height="67" width="144"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/fastailesson2.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Music genre classifier using fast.ai</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-05-01-audiocnndemo.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-05-01-audiocnndemo.html</link>
   <description><![CDATA[ 
 
 
@@ -3557,7 +3557,7 @@ Name: genre, dtype: int64</code></pre>
 <div class="cell" data-execution_count="16">
 <div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">dls.show_batch()</span></code></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-01-AudioCNNDemo_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-execution_count="17">
@@ -3650,7 +3650,7 @@ Name: genre, dtype: int64</code></pre>
 <span id="cb29-11">)</span>
 <span id="cb29-12">dls.show_batch()</span></code></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-01-AudioCNNDemo_files/figure-html/cell-22-output-1.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-22-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
@@ -3684,7 +3684,7 @@ Name: genre, dtype: int64</code></pre>
 <pre><code>SuggestedLRs(valley=0.0008317637839354575)</code></pre>
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-01-AudioCNNDemo_files/figure-html/cell-24-output-4.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-24-output-4.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-execution_count="31">
@@ -3908,7 +3908,7 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-01-AudioCNNDemo_files/figure-html/cell-28-output-3.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-28-output-3.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-execution_count="37">
@@ -3951,7 +3951,7 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022-05-01-AudioCNNDemo_files/figure-html/cell-29-output-5.png" class="img-fluid"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-29-output-5.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
@@ -3974,7 +3974,7 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>We trained a ML model which can identify with 54.4% accuracy to classify in a music file which genre it is. It’s not so bad for a baseline model. Dien Hoa Truong has shared some techniques which he learned during Kaggle competition with music genres.</p>
-<p></p><div id="tweet-62911"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-62911").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-22499"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22499").innerHTML = tweet["html"];</script><p></p>
 <p>Thanks for reading :pray:</p>
 
 
@@ -3983,14 +3983,14 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
  ]]></description>
   <category>fastai</category>
   <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022-05-01-audiocnndemo.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-05-01-audiocnndemo.html</guid>
   <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/music.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/music.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Lesson 0</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-04-26-fastai-50.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-04-26-fastai-50.html</link>
   <description><![CDATA[ 
 
 
@@ -4023,14 +4023,14 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
   <category>ML</category>
   <category>Deep learning</category>
   <category>fastai</category>
-  <guid>https://kurianbenoy.com/posts/2022-04-26-fastai-50.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-04-26-fastai-50.html</guid>
   <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/images/lesson0.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Practical Deep Learning for Coders Course - Lesson 1</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022-04-26-fastai-51.html</link>
+  <link>https://kurianbenoy.com/posts/2022/2022-04-26-fastai-51.html</link>
   <description><![CDATA[ 
 
 
@@ -4040,7 +4040,7 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 <p>Then lecture of Jeremy starts, seeing his face the chatbox is in delight.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/jeremy.png" class="img-fluid figure-img"></p>
+<p><img src="https://kurianbenoy.com/posts/2022/images/jeremy.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">image</figcaption><p></p>
 </figure>
 </div>
@@ -4168,9 +4168,9 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
  ]]></description>
   <category>fastaicourse</category>
   <category>fastbook</category>
-  <guid>https://kurianbenoy.com/posts/2022-04-26-fastai-51.html</guid>
+  <guid>https://kurianbenoy.com/posts/2022/2022-04-26-fastai-51.html</guid>
   <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/jeremy.png" medium="image" type="image/png" height="53" width="144"/>
+  <media:content url="https://kurianbenoy.com/posts/2022/images/jeremy.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>
