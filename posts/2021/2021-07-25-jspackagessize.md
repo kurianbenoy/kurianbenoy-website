@@ -14,6 +14,8 @@ title: Why should NPM packages be as small as possible?
 Most of the popular NPM packages are very small in size, as it's a crucial thing
 that affects the npm packages. Let's look at why it's a crucial thing:
 
+![npm](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/800px-Npm-logo.svg.png)
+
 One is the performance factor of the applications you are building. Most
 of the applications you are working on are to be highly performant, and should
 work even in low bandwidth settings.

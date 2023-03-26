@@ -7,7 +7,7 @@ categories:
 date: '2021-08-07'
 layout: post
 title: New adventure begins with MTech
-
+image: /posts/images/adventure.jpg
 ---
 
 I will be starting my persual for a [3 year MTech for Working Professionals](https://www.iiitkottayam.ac.in/#!/mtech_home)
