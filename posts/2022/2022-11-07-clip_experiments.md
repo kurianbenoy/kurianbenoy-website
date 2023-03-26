@@ -9,6 +9,7 @@ categories:
 date: '2022-11-07'
 layout: post
 title: How well does CLIP models classify corn seeds?
+image: /posts/images/clip.png
 ---
 
 The OpenAI CLIP model are really impressive and how it's a foundation for stuff like stable diffusion is awesome. The thing about
