@@ -17,7 +17,7 @@ planning part for the vaction was really interesting at the same time hectic.
 My initial plan was to visit a old palace ie Padmnapuram palace in Thuckalay, Tamil Naidu.
 Unfortunately, it didn't work out.
 
-![image](./images/vaction.webp)
+![image](/posts/images/vaction.webp)
 
 So I pivoted my plan to stay in any hotel/resort. Before telling
 about the experience let me tell, what motivated me to take my vacation
