@@ -1,19 +1,12 @@
 ---
 title: OpenAI Whisper and it's amazing power to do finetuning.
 author: Kurian Benoy
-format: revealjs
 description: Presented in FOSSASIA Summit
+format:
+  revealjs:
+    incremental: true 
+    footer: "[kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/presentations/fossasia2023/index.html)"
 ---
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
-## Going to sleep
-
-- Get in bed
-- Count sheep
 
 ## OpenAI Whisper
 
@@ -27,7 +20,7 @@ A Transformer sequence-to-sequence model is trained on various speech processing
 
 ## Whisper Models
 
-There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs. Below are the names of the available models and their approximate memory requirements and relative speed. 
+There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs. 
 
 
 |  Size  | Parameters | English-only model | Multilingual model | Required VRAM | Relative speed |
@@ -38,4 +31,31 @@ There are five model sizes, four with English-only versions, offering speed and 
 | medium |   769 M    |    `medium.en`     |      `medium`      |     ~5 GB     |      ~2x       |
 | large  |   1550 M   |        N/A         |      `large`       |    ~10 GB     |       1x       |
 
+## Whisper Models
+
+Below are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.
+
 The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.
+
+::: {.notes}
+Rewrite this
+:::
+
+## Text
+
+:::: {.columns}
+
+::: {.column width="60%"}
+Left column
+
+Hello
+
+- x
+- y
+:::
+
+::: {.column width="40%"}
+Right column
+:::
+
+::::
