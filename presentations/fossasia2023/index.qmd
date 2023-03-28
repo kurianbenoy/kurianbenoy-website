@@ -11,6 +11,16 @@ format:
     slide-number: true
 ---
 
+## Outline
+
+- OpenAI Whisper(under appreciated model) - 1littecoder video
+- Why it's awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)
+- What is fine tuning? (Jeremy way of explaining)
+- Fine tuning whisper in my language
+- Results on fine tuning
+- Fine tuned models
+- You can also achieve SOT in your language
+
 ## OpenAI Whisper
 
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
