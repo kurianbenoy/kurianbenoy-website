@@ -1,1 +1,2 @@
-Sitemap: https://kurianbenoy.com/sitemap.xml
+User-agent: ChatGPT-User
+Disallow: /
