@@ -1,10 +1,13 @@
 ---
 title: OpenAI Whisper and it's amazing power to do finetuning.
 author: Kurian Benoy
-description: Presented in FOSSASIA Summit
+subtitle: To be presented in FOSSASIA Summit, Singapore
+date: 2023-04-15
+date-format: full
 format:
   revealjs:
     incremental: true 
+    theme: solarized
     footer: "[kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/presentations/fossasia2023/index.html)"
 ---
 
@@ -38,7 +41,7 @@ Below are the names of the available models and their approximate memory require
 The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.
 
 ::: {.notes}
-Rewrite this
+Rewrite this.
 :::
 
 ## Text
