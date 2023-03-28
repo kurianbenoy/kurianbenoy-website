@@ -8,6 +8,7 @@ format:
   revealjs:
     theme: solarized
     footer: "[kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/presentations/fossasia2023/index.html)"
+    slide-number: true
 ---
 
 ## OpenAI Whisper
