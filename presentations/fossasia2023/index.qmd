@@ -18,10 +18,23 @@ format:
 - What is fine tuning? (Jeremy way of explaining)
 - Fine tuning whisper in my language
 - Results on fine tuning
-- Fine tuned models
-- You can also achieve SOT in your language
+- You can also achieve SOTA in your language
 
-## OpenAI Whisper
+## Outline
+
+- OpenAI Whisper and it's awesome features
+- What is fine-tuning and how to fine-tune Whisper?
+- Results on fine-tuning whisper in Malayalam(my mother tounge)
+- Conclusion
+
+## $whoami
+
+- ML Engineer & Team Lead @ Sentient.io
+- Volunteer @ Swathanthra Malayalam Computing(SMC)
+- Open-source enthusiast
+
+
+## OpenAI Whisper {background-color="black" }
 
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
 
@@ -30,7 +43,7 @@ The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervi
 :::
 
 
-## About model {background-color="black" }
+## About model
 
 A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.
 
@@ -59,12 +72,13 @@ Rewrite this.
 
 ## OpenAI Whisper Features
 
+::: {.notes}
 - English Speech Recognition
 - Multi-lingual speech recognition
 - Support for multiple tasks
 - Can run in almost any devices with whisper.cpp
 - Awesome community plugins
-
+:::
 
 ## English Speech Recognition
 
@@ -75,7 +89,9 @@ Rewrite this.
 - Whisper supports 99 languages
 - It really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.
 
+::: {.notes}
 Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
+:::
 
 ## Multiple tasks
 
@@ -94,18 +110,49 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 - [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
 - [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
 
+::: {.notes}
 [Thanks to Ramsri Goutham](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
+:::
 
-## What is fine tuning?
+## What is fine tuning? {background-color="black" }
 
-Given a pre-trained model, in a very small dataset we will train
-and improve the model to work really well in our specific tasks.
+Given a pre-trained model, which is a large model which is trained
+on a very specific task. If we want to fit it into our specific dataset we will train
+and use the pre-trained model to build a new model which works very well for our task.
+
+![Steps in finetuning](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png)
+
+## Fine tuning is still relevant
+
+{{< tweet waydegilliam 1641228571611123712 >}}
+
+## Why fine-tune Whisper?
 
 Whisper is developed as a robust speech recognition system which is
 intented to work in out of distribution dataset. While most of previous
 approaches relied on training in a few open-source dataset and using them.
 
-## Fine tuning is still relevant
+If we are working on a language/dataset domain where the out-of distribution
+Whisper model doesn't give good result we can use whisper to get good
+results.
 
-{{< tweet waydegilliam 1641228571611123712 >}}
+## What are steps for fine-tuning Whisper?
+
+[Well explained in this article](https://huggingface.co/blog/fine-tune-whisper)
+
+## Fine tuning whisper in Malayalam {background-color="black" }
+
+The base-whisper model was trained on Malayalam:
+
+- but just half an hour dataset was used to train the model
+
+## Results in Common Voice dataset
+
+## Results in MSC dataset
+
+## Result improvement from whisper base model
+
+## Conclusion {background-color="black" }
+
+
 
