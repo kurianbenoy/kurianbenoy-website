@@ -33,17 +33,26 @@ Originial Idea
 - ML Engineer & Team Lead @ Sentient.io
 - Volunteer @ Swathanthra Malayalam Computing(SMC)
 - Open-source enthusiast
+- Not affiliated to OpenAI
 
-## Whisper
+## OpenAI Whisper
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
 
-- Whisper is one of the most under-rated models from OpenAI team.
+- Whisper is the most `under-rated models` released by OpenAI.
+- It open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.
 
 ::: aside
-The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.
+According to [research paper](https://cdn.openai.com/papers/whisper.pdf) pp.2, the name Whisper is an abbrevation for WSPR:
+
+`Web-scale Supervised Pretraining for Speech Recognition`.
 :::
 
+## About OpenAI Whisper Model
+
+- The model is robust general purpose speech recognition system aka ASR.
+- It is trained on large dataset of 680,000 hours of audio recordings
+- Hence sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection
 
 ::: {.notes}
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
@@ -53,25 +62,20 @@ A Transformer sequence-to-sequence model is trained on various speech processing
 
 ## Whisper Models {.scrollable}
 
-There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs. 
-
 
 |  Size  | Parameters | English-only model | Multilingual model | Required VRAM | Relative speed |
-|:------:|:----------:|:------------------:|:------------------:|:-------------:|:--------------:|
+|------:|----------:|------------------:|:------------------:|:-------------:|:--------------:|
 |  tiny  |    39 M    |     `tiny.en`      |       `tiny`       |     ~1 GB     |      ~32x      |
 |  base  |    74 M    |     `base.en`      |       `base`       |     ~1 GB     |      ~16x      |
 | small  |   244 M    |     `small.en`     |      `small`       |     ~2 GB     |      ~6x       |
 | medium |   769 M    |    `medium.en`     |      `medium`      |     ~5 GB     |      ~2x       |
 | large  |   1550 M   |        N/A         |      `large`       |    ~10 GB     |       1x       |
 
-## Whisper Models
 
+::: {.notes}
 Below are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.
 
 The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.
-
-::: {.notes}
-Rewrite this.
 :::
 
 ## OpenAI Whisper Features
@@ -104,8 +108,16 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 
 ## Runs in almost any device
 
-- Whisper.cpp developed by  Georgi Gerganov 
-- https://github.com/ggerganov/whisper.cpp
+- Since Whisper followed the open source route, [Whisper.cpp](https://github.com/ggerganov/whisper.cpp) developed by  Georgi Gerganov which is a port of Port of OpenAI's Whisper model in C/C++.
+- It supports the below platforms:
+
+1. Mac OS (Intel and ARM)
+2. iOS
+3. Android
+4. Linux/Free BSD
+5. Web Assembly
+6. Windows
+7. Raspberry Pi
 
 ## Awesome community plugins
 
