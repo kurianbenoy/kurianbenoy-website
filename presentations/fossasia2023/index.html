@@ -348,19 +348,12 @@ Kurian Benoy
 <h2>Outline</h2>
 <ul>
 <li>OpenAI Whisper and it’s awesome features</li>
-<li>What is fine-tuning and how to fine-tune Whisper?</li>
+<li>Fine-tuning and how to fine-tune Whisper?</li>
 <li>Results on fine-tuning whisper in Malayalam(my mother tounge)</li>
 <li>Conclusion</li>
 </ul>
 <aside class="notes">
-<ul>
-<li>OpenAI Whisper(under appreciated model) - 1littecoder video</li>
-<li>Why it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)</li>
-<li>What is fine tuning? (Jeremy way of explaining)</li>
-<li>Fine tuning whisper in my language</li>
-<li>Results on fine tuning</li>
-<li>You can also achieve SOTA in your language</li>
-</ul>
+<p>Originial Idea - OpenAI Whisper(under appreciated model) - 1littecoder video - Why it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer) - What is fine tuning? (Jeremy way of explaining) - Fine tuning whisper in my language - Results on fine tuning - You can also achieve SOTA in your language</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -379,36 +372,63 @@ Kurian Benoy
 <li>ML Engineer &amp; Team Lead @ Sentient.io</li>
 <li>Volunteer @ Swathanthra Malayalam Computing(SMC)</li>
 <li>Open-source enthusiast</li>
+<li>Not affiliated to OpenAI</li>
 </ul>
 </section>
-<section id="openai-whisper" class="slide level2" data-background-color="black">
+<section id="openai-whisper" class="slide level2">
 <h2>OpenAI Whisper</h2>
-<p>Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png" width="500"></p>
+</figure>
+</div>
+<ul>
+<li>Whisper is the most <code>under-rated models</code> released by OpenAI.</li>
+<li>It open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</li>
+</ul>
 
 <aside><div>
-<p>The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.</p>
+<p>According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> pp.2, the name Whisper is an abbrevation for WSPR:</p>
+<p><code>Web-scale Supervised Pretraining for Speech Recognition</code>.</p>
 </div></aside></section>
-<section id="about-model" class="slide level2">
-<h2>About model</h2>
+<section id="about-openai-whisper-model" class="slide level2">
+<h2>About OpenAI Whisper Model</h2>
+<ul>
+<li>The model is robust general purpose speech recognition system aka ASR.</li>
+<li>It is trained on large dataset of 680,000 hours of audio recordings</li>
+<li>Hence sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection</li>
+</ul>
+<aside class="notes">
+<p>Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.</p>
 <p>A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="whisper-models" class="slide level2 scrollable">
 <h2>Whisper Models</h2>
-<p>There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs.</p>
 <table>
 <colgroup>
-<col style="width: 8%">
-<col style="width: 13%">
+<col style="width: 7%">
+<col style="width: 12%">
 <col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 16%">
+<col style="width: 22%">
 <col style="width: 17%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Size</th>
-<th style="text-align: center;">Parameters</th>
-<th style="text-align: center;">English-only model</th>
+<th style="text-align: right;">Size</th>
+<th style="text-align: right;">Parameters</th>
+<th style="text-align: right;">English-only model</th>
 <th style="text-align: center;">Multilingual model</th>
 <th style="text-align: center;">Required VRAM</th>
 <th style="text-align: center;">Relative speed</th>
@@ -416,54 +436,50 @@ Kurian Benoy
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">tiny</td>
-<td style="text-align: center;">39 M</td>
-<td style="text-align: center;"><code>tiny.en</code></td>
+<td style="text-align: right;">tiny</td>
+<td style="text-align: right;">39 M</td>
+<td style="text-align: right;"><code>tiny.en</code></td>
 <td style="text-align: center;"><code>tiny</code></td>
 <td style="text-align: center;">~1 GB</td>
 <td style="text-align: center;">~32x</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">base</td>
-<td style="text-align: center;">74 M</td>
-<td style="text-align: center;"><code>base.en</code></td>
+<td style="text-align: right;">base</td>
+<td style="text-align: right;">74 M</td>
+<td style="text-align: right;"><code>base.en</code></td>
 <td style="text-align: center;"><code>base</code></td>
 <td style="text-align: center;">~1 GB</td>
 <td style="text-align: center;">~16x</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">small</td>
-<td style="text-align: center;">244 M</td>
-<td style="text-align: center;"><code>small.en</code></td>
+<td style="text-align: right;">small</td>
+<td style="text-align: right;">244 M</td>
+<td style="text-align: right;"><code>small.en</code></td>
 <td style="text-align: center;"><code>small</code></td>
 <td style="text-align: center;">~2 GB</td>
 <td style="text-align: center;">~6x</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">medium</td>
-<td style="text-align: center;">769 M</td>
-<td style="text-align: center;"><code>medium.en</code></td>
+<td style="text-align: right;">medium</td>
+<td style="text-align: right;">769 M</td>
+<td style="text-align: right;"><code>medium.en</code></td>
 <td style="text-align: center;"><code>medium</code></td>
 <td style="text-align: center;">~5 GB</td>
 <td style="text-align: center;">~2x</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">large</td>
-<td style="text-align: center;">1550 M</td>
-<td style="text-align: center;">N/A</td>
+<td style="text-align: right;">large</td>
+<td style="text-align: right;">1550 M</td>
+<td style="text-align: right;">N/A</td>
 <td style="text-align: center;"><code>large</code></td>
 <td style="text-align: center;">~10 GB</td>
 <td style="text-align: center;">1x</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="whisper-models-1" class="slide level2">
-<h2>Whisper Models</h2>
+<aside class="notes">
 <p>Below are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.</p>
 <p>The <code>.en</code> models for English-only applications tend to perform better, especially for the <code>tiny.en</code> and <code>base.en</code> models. We observed that the difference becomes less significant for the <code>small.en</code> and <code>medium.en</code> models.</p>
-<aside class="notes">
-<p>Rewrite this.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -532,9 +548,18 @@ Kurian Benoy
 <section id="runs-in-almost-any-device" class="slide level2">
 <h2>Runs in almost any device</h2>
 <ul>
-<li>Whisper.cpp developed by Georgi Gerganov</li>
-<li>https://github.com/ggerganov/whisper.cpp</li>
+<li>Since Whisper followed the open source route, <a href="https://github.com/ggerganov/whisper.cpp">Whisper.cpp</a> developed by Georgi Gerganov which is a port of Port of OpenAI’s Whisper model in C/C++.</li>
+<li>It supports the below platforms:</li>
 </ul>
+<ol type="1">
+<li>Mac OS (Intel and ARM)</li>
+<li>iOS</li>
+<li>Android</li>
+<li>Linux/Free BSD</li>
+<li>Web Assembly</li>
+<li>Windows</li>
+<li>Raspberry Pi</li>
+</ol>
 </section>
 <section id="awesome-community-plugins" class="slide level2">
 <h2>Awesome community plugins</h2>
@@ -558,14 +583,14 @@ Kurian Benoy
           display:block!important;
       }</style></aside>
 </section>
-<section id="what-is-fine-tuning" class="slide level2" data-background-color="black">
+<section id="what-is-fine-tuning" class="slide level2">
 <h2>What is fine tuning?</h2>
 <p>Given a pre-trained model, which is a large model which is trained on a very specific task. If we want to fit it into our specific dataset we will train and use the pre-trained model to build a new model which works very well for our task.</p>
 
 <img data-src="https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png" class="r-stretch quarto-figure-center"><p class="caption">Steps in finetuning</p></section>
 <section id="fine-tuning-is-still-relevant" class="slide level2">
 <h2>Fine tuning is still relevant</h2>
-<p></p><div id="tweet-45647"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-45647").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-56934"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-56934").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="why-fine-tune-whisper" class="slide level2">
 <h2>Why fine-tune Whisper?</h2>
@@ -576,7 +601,7 @@ Kurian Benoy
 <h2>What are steps for fine-tuning Whisper?</h2>
 <p><a href="https://huggingface.co/blog/fine-tune-whisper">Well explained in this article</a></p>
 </section>
-<section id="fine-tuning-whisper-in-malayalam" class="slide level2" data-background-color="black">
+<section id="fine-tuning-whisper-in-malayalam" class="slide level2">
 <h2>Fine tuning whisper in Malayalam</h2>
 <p>The base-whisper model was trained on Malayalam:</p>
 <ul>
@@ -654,7 +679,7 @@ Kurian Benoy
 <li>https://github.com/kurianbenoy/malayalam_asr_benchmarking</li>
 </ul>
 </section>
-<section id="conclusion" class="slide level2" data-background-color="black">
+<section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
 <p>According to whisper in future work section:</p>
 <p><strong>Studying fine-tuning </strong></p>

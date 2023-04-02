@@ -11,42 +11,35 @@
     "href": "presentations/fossasia2023/index.html#outline",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Outline",
-    "text": "Outline\n\nOpenAI Whisper and it’s awesome features\nWhat is fine-tuning and how to fine-tune Whisper?\nResults on fine-tuning whisper in Malayalam(my mother tounge)\nConclusion\n\n\n\nOpenAI Whisper(under appreciated model) - 1littecoder video\nWhy it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)\nWhat is fine tuning? (Jeremy way of explaining)\nFine tuning whisper in my language\nResults on fine tuning\nYou can also achieve SOTA in your language"
+    "text": "Outline\n\nOpenAI Whisper and it’s awesome features\nFine-tuning and how to fine-tune Whisper?\nResults on fine-tuning whisper in Malayalam(my mother tounge)\nConclusion\n\n\nOriginial Idea - OpenAI Whisper(under appreciated model) - 1littecoder video - Why it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer) - What is fine tuning? (Jeremy way of explaining) - Fine tuning whisper in my language - Results on fine tuning - You can also achieve SOTA in your language"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#whoami",
     "href": "presentations/fossasia2023/index.html#whoami",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "$whoami",
-    "text": "$whoami\n\nML Engineer & Team Lead @ Sentient.io\nVolunteer @ Swathanthra Malayalam Computing(SMC)\nOpen-source enthusiast"
+    "text": "$whoami\n\nML Engineer & Team Lead @ Sentient.io\nVolunteer @ Swathanthra Malayalam Computing(SMC)\nOpen-source enthusiast\nNot affiliated to OpenAI"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#openai-whisper",
     "href": "presentations/fossasia2023/index.html#openai-whisper",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "OpenAI Whisper",
-    "text": "OpenAI Whisper\nWhisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.\n\n\nThe name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition."
+    "text": "OpenAI Whisper\n\n\n\n\n\n\nWhisper is the most under-rated models released by OpenAI.\nIt open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.\n\n\n\nAccording to research paper pp.2, the name Whisper is an abbrevation for WSPR:\nWeb-scale Supervised Pretraining for Speech Recognition."
   },
   {
-    "objectID": "presentations/fossasia2023/index.html#about-model",
-    "href": "presentations/fossasia2023/index.html#about-model",
+    "objectID": "presentations/fossasia2023/index.html#about-openai-whisper-model",
+    "href": "presentations/fossasia2023/index.html#about-openai-whisper-model",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "About model",
-    "text": "About model\nA Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets."
+    "section": "About OpenAI Whisper Model",
+    "text": "About OpenAI Whisper Model\n\nThe model is robust general purpose speech recognition system aka ASR.\nIt is trained on large dataset of 680,000 hours of audio recordings\nHence sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection\n\n\nWhisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.\nA Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets."
   },
   {
     "objectID": "presentations/fossasia2023/index.html#whisper-models",
     "href": "presentations/fossasia2023/index.html#whisper-models",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Whisper Models",
-    "text": "Whisper Models\nThere are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs.\n\n\n\n\n\n\n\n\n\n\n\nSize\nParameters\nEnglish-only model\nMultilingual model\nRequired VRAM\nRelative speed\n\n\n\n\ntiny\n39 M\ntiny.en\ntiny\n~1 GB\n~32x\n\n\nbase\n74 M\nbase.en\nbase\n~1 GB\n~16x\n\n\nsmall\n244 M\nsmall.en\nsmall\n~2 GB\n~6x\n\n\nmedium\n769 M\nmedium.en\nmedium\n~5 GB\n~2x\n\n\nlarge\n1550 M\nN/A\nlarge\n~10 GB\n1x"
-  },
-  {
-    "objectID": "presentations/fossasia2023/index.html#whisper-models-1",
-    "href": "presentations/fossasia2023/index.html#whisper-models-1",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Whisper Models",
-    "text": "Whisper Models\nBelow are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.\nThe .en models for English-only applications tend to perform better, especially for the tiny.en and base.en models. We observed that the difference becomes less significant for the small.en and medium.en models.\n\nRewrite this."
+    "text": "Whisper Models\n\n\n\n\n\n\n\n\n\n\n\nSize\nParameters\nEnglish-only model\nMultilingual model\nRequired VRAM\nRelative speed\n\n\n\n\ntiny\n39 M\ntiny.en\ntiny\n~1 GB\n~32x\n\n\nbase\n74 M\nbase.en\nbase\n~1 GB\n~16x\n\n\nsmall\n244 M\nsmall.en\nsmall\n~2 GB\n~6x\n\n\nmedium\n769 M\nmedium.en\nmedium\n~5 GB\n~2x\n\n\nlarge\n1550 M\nN/A\nlarge\n~10 GB\n1x\n\n\n\n\nBelow are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.\nThe .en models for English-only applications tend to perform better, especially for the tiny.en and base.en models. We observed that the difference becomes less significant for the small.en and medium.en models."
   },
   {
     "objectID": "presentations/fossasia2023/index.html#openai-whisper-features",
@@ -81,7 +74,7 @@
     "href": "presentations/fossasia2023/index.html#runs-in-almost-any-device",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Runs in almost any device",
-    "text": "Runs in almost any device\n\nWhisper.cpp developed by Georgi Gerganov\nhttps://github.com/ggerganov/whisper.cpp"
+    "text": "Runs in almost any device\n\nSince Whisper followed the open source route, Whisper.cpp developed by Georgi Gerganov which is a port of Port of OpenAI’s Whisper model in C/C++.\nIt supports the below platforms:\n\n\nMac OS (Intel and ARM)\niOS\nAndroid\nLinux/Free BSD\nWeb Assembly\nWindows\nRaspberry Pi"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#awesome-community-plugins",
