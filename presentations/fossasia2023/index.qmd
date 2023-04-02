@@ -185,7 +185,7 @@ largev2 - 103.2
 
 - https://github.com/kurianbenoy/malayalam_asr_benchmarking
 
-## Conclusion {background-color="black" }
+## Conclusion
 
 
 According to whisper in future work section:
