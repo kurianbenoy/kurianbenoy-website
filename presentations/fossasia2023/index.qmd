@@ -14,11 +14,12 @@ format:
 ## Outline
 
 - OpenAI Whisper and it's awesome features
-- What is fine-tuning and how to fine-tune Whisper?
+- Fine-tuning and how to fine-tune Whisper?
 - Results on fine-tuning whisper in Malayalam(my mother tounge)
 - Conclusion
 
 ::: {.notes}
+Originial Idea
 - OpenAI Whisper(under appreciated model) - 1littecoder video
 - Why it's awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)
 - What is fine tuning? (Jeremy way of explaining)
@@ -33,19 +34,22 @@ format:
 - Volunteer @ Swathanthra Malayalam Computing(SMC)
 - Open-source enthusiast
 
+## Whisper
 
-## OpenAI Whisper {background-color="black" }
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png)
 
-Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
+- Whisper is one of the most under-rated models from OpenAI team.
 
 ::: aside
 The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.
 :::
 
 
-## About model
+::: {.notes}
+Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
 
 A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.
+:::
 
 ## Whisper Models {.scrollable}
 
@@ -114,7 +118,7 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 [Thanks to Ramsri Goutham](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
 :::
 
-## What is fine tuning? {background-color="black" }
+## What is fine tuning?
 
 Given a pre-trained model, which is a large model which is trained
 on a very specific task. If we want to fit it into our specific dataset we will train
@@ -140,7 +144,7 @@ results.
 
 [Well explained in this article](https://huggingface.co/blog/fine-tune-whisper)
 
-## Fine tuning whisper in Malayalam {background-color="black" }
+## Fine tuning whisper in Malayalam
 
 The base-whisper model was trained on Malayalam:
 
