@@ -1,7 +1,7 @@
 ---
 title: OpenAI Whisper and it's amazing power to do finetuning.
 author: Kurian Benoy
-subtitle: To be presented in FOSSASIA Summit, Singapore
+subtitle: FOSSASIA Summit, Singapore
 date: 2023-04-15
 date-format: full
 format:
@@ -25,15 +25,12 @@ format:
 
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
 
-- Green ^[A footnote]
-- Hello
-
 ::: aside
 The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.
 :::
 
 
-## About model {background-color="black" background-image="https://placekitten.com/100/100" }
+## About model {background-color="black" }
 
 A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.
 
@@ -60,25 +57,6 @@ The `.en` models for English-only applications tend to perform better, especiall
 Rewrite this.
 :::
 
-## Text
-
-:::: {.columns}
-
-::: {.column width="60%"}
-Left column
-
-Hello
-
-- x
-- y
-:::
-
-::: {.column width="40%"}
-Right column
-:::
-
-::::
-
 ## OpenAI Whisper Features
 
 - English Speech Recognition
@@ -90,7 +68,7 @@ Right column
 
 ## English Speech Recognition
 
-
+![Whisper is competitive with state of art commercial and open source systems](./Whisper_english.png)
 
 ## Multi-lingual Speech recognition
 
@@ -111,15 +89,10 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 
 ## Awesome community plugins
 
-- 1. WhisperX — Word-level time stamps with Whisper
-- . Fine-Tune Whisper For Multilingual ASR with HuggingFace Transformers
-- Speaker diarization
-
-https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition
-
-- Audio classification using OpenAI’s Whisper
-
-https://github.com/jumon/zac
+- Word-level time stamps with [whisperX](https://github.com/m-bain/whisperX)
+- Fine-Tune Whisper is achieving SOTA in lot of languages
+- [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
+- [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
 
 [Thanks to Ramsri Goutham](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
 
