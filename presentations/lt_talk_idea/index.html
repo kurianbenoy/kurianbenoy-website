@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.2.475">
 
   <meta name="author" content="Kurian Benoy">
-  <title>Kurian Benoy - OpenAI Whisper and it’s amazing power to do finetuning.</title>
+  <title>Kurian Benoy - You too should speak here</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -319,11 +319,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Kurian Benoy - OpenAI Whisper and it’s amazing power to do finetuning.">
-<meta property="og:description" content="To be presented in FOSSASIA Summit, Singapore">
+<meta property="og:title" content="Kurian Benoy - You too should speak here">
+<meta property="og:description" content="Just a lightning talk idea">
 <meta property="og:site-name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - OpenAI Whisper and it’s amazing power to do finetuning.">
-<meta name="twitter:description" content="To be presented in FOSSASIA Summit, Singapore">
+<meta name="twitter:title" content="Kurian Benoy - You too should speak here">
+<meta name="twitter:description" content="Just a lightning talk idea">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
@@ -331,8 +331,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">OpenAI Whisper and it’s amazing power to do finetuning.</h1>
-  <p class="subtitle">To be presented in FOSSASIA Summit, Singapore</p>
+  <h1 class="title">You too should speak here</h1>
+  <p class="subtitle">Just a lightning talk idea</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -342,199 +342,36 @@ Kurian Benoy
 </div>
 </div>
 
-  <p class="date">Saturday, April 15, 2023</p>
 </section>
-<section id="outline" class="slide level2">
-<h2>Outline</h2>
-<ul>
-<li>OpenAI Whisper(under appreciated model) - 1littecoder video</li>
-<li>Why it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)</li>
-<li>What is fine tuning? (Jeremy way of explaining)</li>
-<li>Fine tuning whisper in my language</li>
-<li>Results on fine tuning</li>
-<li>Fine tuned models</li>
-<li>You can also achieve SOT in your language</li>
-</ul>
-</section>
-<section id="openai-whisper" class="slide level2">
-<h2>OpenAI Whisper</h2>
-<p>Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.</p>
-<ul>
-<li>Green <sup>1</sup></li>
-<li>Hello</li>
-</ul>
+<section class="slide level2">
 
-<aside><div>
-<p>The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.</p>
-</div><ol class="aside-footnotes"><li id="fn1"><p>A footnote</p></li></ol></aside></section>
-<section id="about-model" class="slide level2" data-background-color="black" data-background-image="https://placekitten.com/100/100">
-<h2>About model</h2>
-<p>A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.</p>
-</section>
-<section id="whisper-models" class="slide level2 scrollable">
-<h2>Whisper Models</h2>
-<p>There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs.</p>
-<table>
-<colgroup>
-<col style="width: 8%">
-<col style="width: 13%">
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 16%">
-<col style="width: 17%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Size</th>
-<th style="text-align: center;">Parameters</th>
-<th style="text-align: center;">English-only model</th>
-<th style="text-align: center;">Multilingual model</th>
-<th style="text-align: center;">Required VRAM</th>
-<th style="text-align: center;">Relative speed</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">tiny</td>
-<td style="text-align: center;">39 M</td>
-<td style="text-align: center;"><code>tiny.en</code></td>
-<td style="text-align: center;"><code>tiny</code></td>
-<td style="text-align: center;">~1 GB</td>
-<td style="text-align: center;">~32x</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">base</td>
-<td style="text-align: center;">74 M</td>
-<td style="text-align: center;"><code>base.en</code></td>
-<td style="text-align: center;"><code>base</code></td>
-<td style="text-align: center;">~1 GB</td>
-<td style="text-align: center;">~16x</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">small</td>
-<td style="text-align: center;">244 M</td>
-<td style="text-align: center;"><code>small.en</code></td>
-<td style="text-align: center;"><code>small</code></td>
-<td style="text-align: center;">~2 GB</td>
-<td style="text-align: center;">~6x</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">medium</td>
-<td style="text-align: center;">769 M</td>
-<td style="text-align: center;"><code>medium.en</code></td>
-<td style="text-align: center;"><code>medium</code></td>
-<td style="text-align: center;">~5 GB</td>
-<td style="text-align: center;">~2x</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">large</td>
-<td style="text-align: center;">1550 M</td>
-<td style="text-align: center;">N/A</td>
-<td style="text-align: center;"><code>large</code></td>
-<td style="text-align: center;">~10 GB</td>
-<td style="text-align: center;">1x</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="whisper-models-1" class="slide level2">
-<h2>Whisper Models</h2>
-<p>Below are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.</p>
-<p>The <code>.en</code> models for English-only applications tend to perform better, especially for the <code>tiny.en</code> and <code>base.en</code> models. We observed that the difference becomes less significant for the <code>small.en</code> and <code>medium.en</code> models.</p>
-<aside class="notes">
-<p>Rewrite this.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="text" class="slide level2">
-<h2>Text</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Left column</p>
-<p>Hello</p>
 <ul>
-<li>x</li>
-<li>y</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p>Right column</p>
-</div>
-</div>
-</section>
-<section id="openai-whisper-features" class="slide level2">
-<h2>OpenAI Whisper Features</h2>
-<ul>
-<li>English Speech Recognition</li>
-<li>Multi-lingual speech recognition</li>
-<li>Support for multiple tasks</li>
-<li>Can run in almost any devices with whisper.cpp</li>
-<li>Awesome community plugins</li>
+<li>My personal background (experience in speaking five conference)</li>
 </ul>
 </section>
-<section id="english-speech-recognition" class="slide level2">
-<h2>English Speech Recognition</h2>
-</section>
-<section id="multi-lingual-speech-recognition" class="slide level2">
-<h2>Multi-lingual Speech recognition</h2>
+<section id="what-i-expected-if-speak-in-conferences" class="slide level2">
+<h2>What I expected if speak in conferences</h2>
 <ul>
-<li>Whisper supports 99 languages</li>
-<li>It really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.</li>
-</ul>
-<p>Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.</p>
-</section>
-<section id="multiple-tasks" class="slide level2">
-<h2>Multiple tasks</h2>
-<ul>
-<li>Like Language recognition</li>
-<li>Translation of audio from X-&gt; en</li>
+<li>Being a rockstar</li>
+<li>Getting a lot of job offers and companies queing behind me</li>
 </ul>
 </section>
-<section id="runs-in-almost-any-device" class="slide level2">
-<h2>Runs in almost any device</h2>
+<section id="what-actually-happend" class="slide level2">
+<h2>What actually happend?</h2>
 <ul>
-<li>Whisper.cpp developed by Georgi Gerganov</li>
-<li>https://github.com/ggerganov/whisper.cpp</li>
+<li>I was able to share my expertise</li>
+<li>Made tons of friends and mentors</li>
+<li>Visit lot of unique places in India and Abroad</li>
 </ul>
-</section>
-<section id="awesome-community-plugins" class="slide level2">
-<h2>Awesome community plugins</h2>
-<ul>
-<li><ol type="1">
-<li>WhisperX — Word-level time stamps with Whisper</li>
-</ol></li>
-<li>. Fine-Tune Whisper For Multilingual ASR with HuggingFace Transformers</li>
-<li>Speaker diarization</li>
-</ul>
-<p>https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition</p>
-<ul>
-<li>Audio classification using OpenAI’s Whisper</li>
-</ul>
-<p>https://github.com/jumon/zac</p>
-<p><a href="https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76">Thanks to Ramsri Goutham</a></p>
-</section>
-<section id="what-is-fine-tuning" class="slide level2">
-<h2>What is fine tuning?</h2>
-<p>Given a pre-trained model, in a very small dataset we will train and improve the model to work really well in our specific tasks.</p>
-<p>Whisper is developed as a robust speech recognition system which is intented to work in out of distribution dataset. While most of previous approaches relied on training in a few open-source dataset and using them.</p>
-</section>
-<section id="fine-tuning-is-still-relevant" class="slide level2">
-<h2>Fine tuning is still relevant</h2>
-<p></p><div id="tweet-68867"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-68867").innerHTML = tweet["html"];</script><p></p>
+<blockquote>
+<p>“You are never too young to share” “You are never too old to learn”</p>
+</blockquote>
+<p>That’s five minute, see you speak in the next conference</p>
 
 <div class="footer footer-default">
-<p><a href="https://kurianbenoy.com/presentations/fossasia2023/index.html">kurianbenoy.com/presentations/fossasia2023/index.html</a></p>
+
 </div>
 </section>
-
     </div>
   </div>
 
@@ -882,5 +719,4 @@ Kurian Benoy
     </script>
     
 
-<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
