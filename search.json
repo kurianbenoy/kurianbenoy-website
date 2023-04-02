@@ -11,14 +11,21 @@
     "href": "presentations/fossasia2023/index.html#outline",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Outline",
-    "text": "Outline\n\nOpenAI Whisper(under appreciated model) - 1littecoder video\nWhy it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)\nWhat is fine tuning? (Jeremy way of explaining)\nFine tuning whisper in my language\nResults on fine tuning\nFine tuned models\nYou can also achieve SOT in your language"
+    "text": "Outline\n\nOpenAI Whisper and it’s awesome features\nWhat is fine-tuning and how to fine-tune Whisper?\nResults on fine-tuning whisper in Malayalam(my mother tounge)\nConclusion\n\n\n\nOpenAI Whisper(under appreciated model) - 1littecoder video\nWhy it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)\nWhat is fine tuning? (Jeremy way of explaining)\nFine tuning whisper in my language\nResults on fine tuning\nYou can also achieve SOTA in your language"
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#whoami",
+    "href": "presentations/fossasia2023/index.html#whoami",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "$whoami",
+    "text": "$whoami\n\nML Engineer & Team Lead @ Sentient.io\nVolunteer @ Swathanthra Malayalam Computing(SMC)\nOpen-source enthusiast"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#openai-whisper",
     "href": "presentations/fossasia2023/index.html#openai-whisper",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "OpenAI Whisper",
-    "text": "OpenAI Whisper\nWhisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.\n\nGreen 1\nHello\n\n\n\nThe name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.\nA footnote"
+    "text": "OpenAI Whisper\nWhisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.\n\n\nThe name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition."
   },
   {
     "objectID": "presentations/fossasia2023/index.html#about-model",
@@ -42,32 +49,25 @@
     "text": "Whisper Models\nBelow are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.\nThe .en models for English-only applications tend to perform better, especially for the tiny.en and base.en models. We observed that the difference becomes less significant for the small.en and medium.en models.\n\nRewrite this."
   },
   {
-    "objectID": "presentations/fossasia2023/index.html#text",
-    "href": "presentations/fossasia2023/index.html#text",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Text",
-    "text": "Text\n\n\nLeft column\nHello\n\nx\ny\n\n\nRight column"
-  },
-  {
     "objectID": "presentations/fossasia2023/index.html#openai-whisper-features",
     "href": "presentations/fossasia2023/index.html#openai-whisper-features",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "OpenAI Whisper Features",
-    "text": "OpenAI Whisper Features\n\nEnglish Speech Recognition\nMulti-lingual speech recognition\nSupport for multiple tasks\nCan run in almost any devices with whisper.cpp\nAwesome community plugins"
+    "text": "OpenAI Whisper Features\n\n\nEnglish Speech Recognition\nMulti-lingual speech recognition\nSupport for multiple tasks\nCan run in almost any devices with whisper.cpp\nAwesome community plugins"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#english-speech-recognition",
     "href": "presentations/fossasia2023/index.html#english-speech-recognition",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "English Speech Recognition",
-    "text": "English Speech Recognition"
+    "text": "English Speech Recognition\n\nWhisper is competitive with state of art commercial and open source systems"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#multi-lingual-speech-recognition",
     "href": "presentations/fossasia2023/index.html#multi-lingual-speech-recognition",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Multi-lingual Speech recognition",
-    "text": "Multi-lingual Speech recognition\n\nWhisper supports 99 languages\nIt really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.\n\nAfrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh."
+    "text": "Multi-lingual Speech recognition\n\nWhisper supports 99 languages\nIt really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.\n\n\nAfrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh."
   },
   {
     "objectID": "presentations/fossasia2023/index.html#multiple-tasks",
@@ -88,21 +88,77 @@
     "href": "presentations/fossasia2023/index.html#awesome-community-plugins",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Awesome community plugins",
-    "text": "Awesome community plugins\n\n\nWhisperX — Word-level time stamps with Whisper\n\n. Fine-Tune Whisper For Multilingual ASR with HuggingFace Transformers\nSpeaker diarization\n\nhttps://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition\n\nAudio classification using OpenAI’s Whisper\n\nhttps://github.com/jumon/zac\nThanks to Ramsri Goutham"
+    "text": "Awesome community plugins\n\nWord-level time stamps with whisperX\nFine-Tune Whisper is achieving SOTA in lot of languages\nSpeaker diarization\nAudio classification using OpenAI’s Whisper\n\n\nThanks to Ramsri Goutham"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#what-is-fine-tuning",
     "href": "presentations/fossasia2023/index.html#what-is-fine-tuning",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "What is fine tuning?",
-    "text": "What is fine tuning?\nGiven a pre-trained model, in a very small dataset we will train and improve the model to work really well in our specific tasks.\nWhisper is developed as a robust speech recognition system which is intented to work in out of distribution dataset. While most of previous approaches relied on training in a few open-source dataset and using them."
+    "text": "What is fine tuning?\nGiven a pre-trained model, which is a large model which is trained on a very specific task. If we want to fit it into our specific dataset we will train and use the pre-trained model to build a new model which works very well for our task.\n\nSteps in finetuning"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#fine-tuning-is-still-relevant",
     "href": "presentations/fossasia2023/index.html#fine-tuning-is-still-relevant",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Fine tuning is still relevant",
-    "text": "Fine tuning is still relevant\n\n\n\nkurianbenoy.com/presentations/fossasia2023/index.html"
+    "text": "Fine tuning is still relevant"
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#why-fine-tune-whisper",
+    "href": "presentations/fossasia2023/index.html#why-fine-tune-whisper",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Why fine-tune Whisper?",
+    "text": "Why fine-tune Whisper?\nWhisper is developed as a robust speech recognition system which is intented to work in out of distribution dataset. While most of previous approaches relied on training in a few open-source dataset and using them.\nIf we are working on a language/dataset domain where the out-of distribution Whisper model doesn’t give good result we can use whisper to get good results."
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#what-are-steps-for-fine-tuning-whisper",
+    "href": "presentations/fossasia2023/index.html#what-are-steps-for-fine-tuning-whisper",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "What are steps for fine-tuning Whisper?",
+    "text": "What are steps for fine-tuning Whisper?\nWell explained in this article"
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#fine-tuning-whisper-in-malayalam",
+    "href": "presentations/fossasia2023/index.html#fine-tuning-whisper-in-malayalam",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Fine tuning whisper in Malayalam",
+    "text": "Fine tuning whisper in Malayalam\nThe base-whisper model was trained on Malayalam:\n\nbut just half an hour dataset was used to train the model\n\n\nThanks to Whisper event."
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#results-in-common-voice-dataset",
+    "href": "presentations/fossasia2023/index.html#results-in-common-voice-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Results in Common Voice dataset",
+    "text": "Results in Common Voice dataset\n\nThennal model got the best results:\n11.560000 WER, then rest of models got 21-40+ models."
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#results-in-msc-dataset",
+    "href": "presentations/fossasia2023/index.html#results-in-msc-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Results in MSC dataset",
+    "text": "Results in MSC dataset\n\nThennal model got the best results:\nGot model with 1 WER\nOther models"
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#result-improvement-from-whisper-base-model",
+    "href": "presentations/fossasia2023/index.html#result-improvement-from-whisper-base-model",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Result improvement from whisper base model",
+    "text": "Result improvement from whisper base model\n\nin WER Malayalam CommonVoice9 dataset:\ntiny - 102.7 base - 122.9 small - 104.8 medium - 137.8 large - 107.1 largev2 - 103.2"
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#tools-for-benchmarkings",
+    "href": "presentations/fossasia2023/index.html#tools-for-benchmarkings",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Tools for benchmarkings",
+    "text": "Tools for benchmarkings\n\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking"
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#conclusion",
+    "href": "presentations/fossasia2023/index.html#conclusion",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Conclusion",
+    "text": "Conclusion\nAccording to whisper in future work section:\nStudying fine-tuning \n\nIn this work, we have focused on the robustness properties of speech processing systems and as a result only studied the zero-shot transfer performance of Whisper. While this is a crucial setting to study due to it being representative of general reliability, for many domains where high-quality supervised speech data does exist, it is likely that results can be improved further by fine-tuning. An additional benefit of studying fine-tuning is that it allows for direct comparisons with prior work since it is a much more common evaluation setting.\n\n\nYou maybe able to achieve SOTA in your own language with Whisper\n\n\n\nkurianbenoy.com/presentations/fossasia2023/index.html"
   },
   {
     "objectID": "presentations/lt_talk_idea/index.html#what-i-expected-if-speak-in-conferences",
@@ -116,7 +172,14 @@
     "href": "presentations/lt_talk_idea/index.html#what-actually-happend",
     "title": "You too should speak here",
     "section": "What actually happend?",
-    "text": "What actually happend?\n\nI was able to share my expertise\nMade tons of friends and mentors\nVisit lot of unique places in India and Abroad\n\n\n“You are never too young to share” “You are never too old to learn”\n\nThat’s five minute, see you speak in the next conference"
+    "text": "What actually happend?\n\nI was able to share my expertise\nMade tons of friends and mentors\nVisit lot of unique places in India and Abroad"
+  },
+  {
+    "objectID": "presentations/lt_talk_idea/index.html#ending-note",
+    "href": "presentations/lt_talk_idea/index.html#ending-note",
+    "title": "You too should speak here",
+    "section": "Ending Note",
+    "text": "Ending Note\n\n“You are never too young to share” “You are never too old to learn”\n\nThat’s five minute, see you speak in the next conference"
   },
   {
     "objectID": "talks.html",

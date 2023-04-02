@@ -320,10 +320,10 @@
     }
   </style>
 <meta property="og:title" content="Kurian Benoy - OpenAI Whisper and it’s amazing power to do finetuning.">
-<meta property="og:description" content="To be presented in FOSSASIA Summit, Singapore">
+<meta property="og:description" content="FOSSASIA Summit, Singapore">
 <meta property="og:site-name" content="Kurian Benoy">
 <meta name="twitter:title" content="Kurian Benoy - OpenAI Whisper and it’s amazing power to do finetuning.">
-<meta name="twitter:description" content="To be presented in FOSSASIA Summit, Singapore">
+<meta name="twitter:description" content="FOSSASIA Summit, Singapore">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
@@ -332,7 +332,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">OpenAI Whisper and it’s amazing power to do finetuning.</h1>
-  <p class="subtitle">To be presented in FOSSASIA Summit, Singapore</p>
+  <p class="subtitle">FOSSASIA Summit, Singapore</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -347,27 +347,48 @@ Kurian Benoy
 <section id="outline" class="slide level2">
 <h2>Outline</h2>
 <ul>
+<li>OpenAI Whisper and it’s awesome features</li>
+<li>What is fine-tuning and how to fine-tune Whisper?</li>
+<li>Results on fine-tuning whisper in Malayalam(my mother tounge)</li>
+<li>Conclusion</li>
+</ul>
+<aside class="notes">
+<ul>
 <li>OpenAI Whisper(under appreciated model) - 1littecoder video</li>
 <li>Why it’s awesome(whisper.cpp, long form transcription, lot of languages, whisper_normalizer)</li>
 <li>What is fine tuning? (Jeremy way of explaining)</li>
 <li>Fine tuning whisper in my language</li>
 <li>Results on fine tuning</li>
-<li>Fine tuned models</li>
-<li>You can also achieve SOT in your language</li>
+<li>You can also achieve SOTA in your language</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="whoami" class="slide level2">
+<h2>$whoami</h2>
+<ul>
+<li>ML Engineer &amp; Team Lead @ Sentient.io</li>
+<li>Volunteer @ Swathanthra Malayalam Computing(SMC)</li>
+<li>Open-source enthusiast</li>
 </ul>
 </section>
-<section id="openai-whisper" class="slide level2">
+<section id="openai-whisper" class="slide level2" data-background-color="black">
 <h2>OpenAI Whisper</h2>
 <p>Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.</p>
-<ul>
-<li>Green <sup>1</sup></li>
-<li>Hello</li>
-</ul>
 
 <aside><div>
 <p>The name Whisper comes from abbrevation WSPR, which stands for Web-scale Supervised Pretraining for Speech Recognition.</p>
-</div><ol class="aside-footnotes"><li id="fn1"><p>A footnote</p></li></ol></aside></section>
-<section id="about-model" class="slide level2" data-background-color="black" data-background-image="https://placekitten.com/100/100">
+</div></aside></section>
+<section id="about-model" class="slide level2">
 <h2>About model</h2>
 <p>A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.</p>
 </section>
@@ -455,23 +476,9 @@ Kurian Benoy
           display:block!important;
       }</style></aside>
 </section>
-<section id="text" class="slide level2">
-<h2>Text</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Left column</p>
-<p>Hello</p>
-<ul>
-<li>x</li>
-<li>y</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p>Right column</p>
-</div>
-</div>
-</section>
 <section id="openai-whisper-features" class="slide level2">
 <h2>OpenAI Whisper Features</h2>
+<aside class="notes">
 <ul>
 <li>English Speech Recognition</li>
 <li>Multi-lingual speech recognition</li>
@@ -479,17 +486,41 @@ Kurian Benoy
 <li>Can run in almost any devices with whisper.cpp</li>
 <li>Awesome community plugins</li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="english-speech-recognition" class="slide level2">
 <h2>English Speech Recognition</h2>
-</section>
+
+<img data-src="./Whisper_english.png" class="r-stretch quarto-figure-center"><p class="caption">Whisper is competitive with state of art commercial and open source systems</p></section>
 <section id="multi-lingual-speech-recognition" class="slide level2">
 <h2>Multi-lingual Speech recognition</h2>
 <ul>
 <li>Whisper supports 99 languages</li>
 <li>It really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.</li>
 </ul>
+<aside class="notes">
 <p>Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="multiple-tasks" class="slide level2">
 <h2>Multiple tasks</h2>
@@ -508,33 +539,146 @@ Kurian Benoy
 <section id="awesome-community-plugins" class="slide level2">
 <h2>Awesome community plugins</h2>
 <ul>
-<li><ol type="1">
-<li>WhisperX — Word-level time stamps with Whisper</li>
-</ol></li>
-<li>. Fine-Tune Whisper For Multilingual ASR with HuggingFace Transformers</li>
-<li>Speaker diarization</li>
+<li>Word-level time stamps with <a href="https://github.com/m-bain/whisperX">whisperX</a></li>
+<li>Fine-Tune Whisper is achieving SOTA in lot of languages</li>
+<li><a href="https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition">Speaker diarization</a></li>
+<li><a href="https://github.com/jumon/zac">Audio classification using OpenAI’s Whisper</a></li>
 </ul>
-<p>https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition</p>
-<ul>
-<li>Audio classification using OpenAI’s Whisper</li>
-</ul>
-<p>https://github.com/jumon/zac</p>
+<aside class="notes">
 <p><a href="https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76">Thanks to Ramsri Goutham</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="what-is-fine-tuning" class="slide level2">
+<section id="what-is-fine-tuning" class="slide level2" data-background-color="black">
 <h2>What is fine tuning?</h2>
-<p>Given a pre-trained model, in a very small dataset we will train and improve the model to work really well in our specific tasks.</p>
-<p>Whisper is developed as a robust speech recognition system which is intented to work in out of distribution dataset. While most of previous approaches relied on training in a few open-source dataset and using them.</p>
-</section>
+<p>Given a pre-trained model, which is a large model which is trained on a very specific task. If we want to fit it into our specific dataset we will train and use the pre-trained model to build a new model which works very well for our task.</p>
+
+<img data-src="https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png" class="r-stretch quarto-figure-center"><p class="caption">Steps in finetuning</p></section>
 <section id="fine-tuning-is-still-relevant" class="slide level2">
 <h2>Fine tuning is still relevant</h2>
-<p></p><div id="tweet-68867"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-68867").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-45647"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-45647").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="why-fine-tune-whisper" class="slide level2">
+<h2>Why fine-tune Whisper?</h2>
+<p>Whisper is developed as a robust speech recognition system which is intented to work in out of distribution dataset. While most of previous approaches relied on training in a few open-source dataset and using them.</p>
+<p>If we are working on a language/dataset domain where the out-of distribution Whisper model doesn’t give good result we can use whisper to get good results.</p>
+</section>
+<section id="what-are-steps-for-fine-tuning-whisper" class="slide level2">
+<h2>What are steps for fine-tuning Whisper?</h2>
+<p><a href="https://huggingface.co/blog/fine-tune-whisper">Well explained in this article</a></p>
+</section>
+<section id="fine-tuning-whisper-in-malayalam" class="slide level2" data-background-color="black">
+<h2>Fine tuning whisper in Malayalam</h2>
+<p>The base-whisper model was trained on Malayalam:</p>
+<ul>
+<li>but just half an hour dataset was used to train the model</li>
+</ul>
+<aside class="notes">
+<p>Thanks to Whisper event.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="results-in-common-voice-dataset" class="slide level2">
+<h2>Results in Common Voice dataset</h2>
+<aside class="notes">
+<p>Thennal model got the best results:</p>
+<p>11.560000 WER, then rest of models got 21-40+ models.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="results-in-msc-dataset" class="slide level2">
+<h2>Results in MSC dataset</h2>
+<aside class="notes">
+<p>Thennal model got the best results:</p>
+<p>Got model with 1 WER</p>
+<p>Other models</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="result-improvement-from-whisper-base-model" class="slide level2">
+<h2>Result improvement from whisper base model</h2>
+<aside class="notes">
+<p>in WER Malayalam CommonVoice9 dataset:</p>
+<p>tiny - 102.7 base - 122.9 small - 104.8 medium - 137.8 large - 107.1 largev2 - 103.2</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tools-for-benchmarkings" class="slide level2">
+<h2>Tools for benchmarkings</h2>
+<ul>
+<li>https://github.com/kurianbenoy/malayalam_asr_benchmarking</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level2" data-background-color="black">
+<h2>Conclusion</h2>
+<p>According to whisper in future work section:</p>
+<p><strong>Studying fine-tuning </strong></p>
+<blockquote>
+<p>In this work, we have focused on the robustness properties of speech processing systems and as a result only studied the zero-shot transfer performance of Whisper. While this is a crucial setting to study due to it being representative of general reliability, for many domains where high-quality supervised speech data does exist, it is likely that results can be improved further by fine-tuning. An additional benefit of studying fine-tuning is that it allows for direct comparisons with prior work since it is a much more common evaluation setting.</p>
+</blockquote>
+<aside class="notes">
+<p>You maybe able to achieve SOTA in your own language with Whisper</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <div class="footer footer-default">
 <p><a href="https://kurianbenoy.com/presentations/fossasia2023/index.html">kurianbenoy.com/presentations/fossasia2023/index.html</a></p>
 </div>
 </section>
-
     </div>
   </div>
 
