@@ -1,0 +1,54 @@
+---
+title: Four super powers of Jeremy Howard
+subtitle: In an interview by Jeremy Howard hosted in [Sources & Methods podcast](https://www.sourcesandmethods.com/) he shared a few key techniques he found common
+author: ["Kurian Benoy"]
+date: "2023-04-04"
+categories: [fastai, Life, myself]
+---
+
+## About Podcast interview
+
+I recently stumbled upon a podcast interview with Jeremy Howard hosted by one
+of my fast.ai friends Alex Strick van Linschoten, around 4 years back. I am
+a big fan of interview featuring Jeremy and some unique question were asked by the interviewer.
+
+I would defenitely recommend everyone to [give a watch to the podcast interview](https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard). In this interview,
+Jeremy shared four super powers which he learned over the years. I am going to briefly summarize
+them.
+
+![Jeremy Howard](https://images.squarespace-cdn.com/content/v1/53e7b388e4b0b09d128a62b1/1561718846748-5KLJ2OZF4ZFVQOG9UNU3/jh-head.jpg?format=500w){fig-align=left fig-alt="Jeremy Howard"}
+
+## Four super powers
+
+1. Spaced Repetition and learning how to learn
+
+2. Doing Regular exercises
+
+Ten years back Jeremy suffered a injury because of which he lost almost 6 months.
+After that he is doing regular yoga and exercises.
+
+3. Note taking
+
+Lot of times Jeremy have seen whenever someone is discussing about a particular topic,
+or issue. Those who take the notes on the topic immediately are the one to follow
+up even later and perform much better. Exceptional people take a lot of notes. Less exceptional people assume they’re going to remember. 
+
+Taking notes in class is kind of a waste of time. I don’t really see the point of going to class most of the time honestly, it’s probably being videotaped
+
+4. Tenacity
+
+People who are successful practitioners in deep learning are the ones who have
+highest level of tenacity. He has found lot of people stopping midway and people
+who are world-class practitioners are always tenatious.
+
+## Two critical skills in AI era
+
+The two critical skills going forward is:
+
+- One is knowing how to use machine learning. 
+- And the other is knowing how to interact with and care for human beings.
+
+Because the latter one can’t be replaced by AI. The former one will gradually replace everything.
+
+Thanks to [Alex Strick van Linschoten](forums.fast.ai/u/strickvl/) who posted it in fast.ai forums and for writing [wonderful
+show notes](https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard), some of which I have used in this post.
