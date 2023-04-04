@@ -3,6 +3,7 @@ title: You too should speak here
 author: Kurian Benoy
 subtitle: Just a lightning talk idea
 date-format: full
+comments: false
 format:
   revealjs:
     theme: solarized
