@@ -22,6 +22,18 @@ them.
 
 1. Spaced Repetition and learning how to learn
 
+Alex was very curious about how Jeremy learned chinese and his approach to learning. Jeremy answered as following:
+
+I started learning Chinese not because I had any interest in Chinese, but because I was such a bad language learner in highschool. I did six months of French, I got 28% and I quit. When I wanted to dig into machine learning, I thought one of the things that might be better to understand was human learning, so I used myself as a subject. A hopeless subject. If I can come up with a way that even I can learn a language, that would be great. And to make sure that was challenging enough, I tried to pick the hardest language I could. So according to according to CIA guidelines, Arabic and Chinese are the hardest languages for people to pick up. Then I spent three months studying learning theory, and language learning theory, and then software to help me with that process. 
+
+It turns out that even I can learn Chinese. After a year of this - by no means a full time thing, an hour or two a day - I went to China to a top language learning program and based on the results of my exam got placed with all these language PhDs, and I thought wow. Studying smart is important. It’s all about how you do it. 
+
+Spaced repetition is such an easy thing that anyone can do, for free, you can start using it.[Jeremy’s amazing Anki talk](https://www.youtube.com/watch?v=HwH7bJibmdM)
+
+If you’re not using Anki, you’re many orders of magnitude less likely to remember a piece of vocab. So you come away like I did, thinking you can’t learn a language. But once you learn vocab, the rest is really not that hard. Don’t try to learn grammar, just spend all your time reading. 
+
+> Recently, Rachel Thomas wrote a blog post about [How to remember anything](https://rachel.fast.ai/posts/2023-02-21-anki/).
+
 2. Doing Regular exercises
 
 Ten years back Jeremy suffered a injury because of which he lost almost 6 months.
@@ -48,7 +60,7 @@ The two critical skills going forward is:
 - One is knowing how to use machine learning. 
 - And the other is knowing how to interact with and care for human beings.
 
-Because the latter one can’t be replaced by AI. The former one will gradually replace everything.
+Because the latter one can’t be replaced by AI. The former one will gradually replace everything. Back in the early days of the commercial internet, being an internet expert was extremely useful and you could have a job as an internet expert and be in a company of internet experts, and sell yourself as an internet expert company. Today, very few people do that, because on the whole the internet is what it is, and there’s a relatively few number of people who need such a level of expertise that they can go in and change the way your router operates and such. I think we’re going to see the same thing with AI. 
 
 Thanks to [Alex Strick van Linschoten](forums.fast.ai/u/strickvl/) who posted it in fast.ai forums and for writing [wonderful
 show notes](https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard), some of which I have used in this post.
