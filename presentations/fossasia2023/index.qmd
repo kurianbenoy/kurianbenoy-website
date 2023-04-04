@@ -4,6 +4,7 @@ author: Kurian Benoy
 subtitle: FOSSASIA Summit, Singapore
 date: 2023-04-15
 date-format: full
+comments: false
 format:
   revealjs:
     theme: solarized
@@ -52,7 +53,8 @@ According to [research paper](https://cdn.openai.com/papers/whisper.pdf) pp.2, t
 
 - The model is robust general purpose speech recognition system aka ASR.
 - It is trained on large dataset of 680,000 hours of audio recordings
-- Hence sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection
+- Whisper is a computer program which can listen to people talking and write down what they say
+- Whisper can understand people speaking different languages and can even translate what they say into English
 
 ::: {.notes}
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
