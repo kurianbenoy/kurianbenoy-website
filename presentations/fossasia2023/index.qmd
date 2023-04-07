@@ -7,8 +7,7 @@ date-format: full
 comments: false
 format:
   revealjs:
-    theme: solarized
-    footer: "[kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/presentations/fossasia2023/index.html)"
+    footer: "You can access slides @ [kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/presentations/fossasia2023/index.html)"
     slide-number: true
 ---
 
@@ -68,9 +67,9 @@ A Transformer sequence-to-sequence model is trained on various speech processing
 
 
 |  Size  | Parameters |Required VRAM | Relative speed |
-|------:|----------:|:-------------:|:--------------:|
-|  tiny  |    39 M    |     ~1 GB     |      ~32x      |
-|  base  |    74 M    |     ~1 GB     |      ~16x      |
+|------:|----------:|:----------:|:------------:|
+|  tiny  |    39 M    |     ~1 GB    |      ~32x      |
+|  base  |    74 M    |     ~1 GB    |      ~16x      |
 | small  |   244 M    |    ~2 GB     |      ~6x       |
 | medium |   769 M    |    ~5 GB     |      ~2x       |
 | large  |   1550 M   |   ~10 GB     |       1x       |
@@ -125,7 +124,7 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 
 ## Awesome community plugins
 
-- Word-level time stamps with [whisperX](https://github.com/m-bain/whisperX)
+- Word-level time stamps with [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped),[whisperX](https://github.com/m-bain/whisperX)
 - Fine-Tune Whisper is achieving SOTA in lot of languages
 - [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
 - [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
