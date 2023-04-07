@@ -172,11 +172,17 @@ Thanks to Whisper event.
 
 ## Results in Common Voice dataset
 
+![WER in Common Voice-9](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
+
 ::: {.notes}
 Thennal model got the best results:
 
 11.560000 WER, then rest of models got 21-40+ models. 
 :::
+
+## CER in Common Voice dataset
+
+![CER in Common Voice-9](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
 
 ## Results in MSC dataset
 
