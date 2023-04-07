@@ -169,6 +169,10 @@ The base-whisper model was trained on Malayalam:
 Thanks to Whisper event.
 :::
 
+## Results on benechmarking in Common Voice dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
+
 ## Results in Common Voice dataset
 
 ![WER in Common Voice-9](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
@@ -183,7 +187,7 @@ Thennal model got the best results:
 
 ![CER in Common Voice-9](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
 
-## Results in MSC dataset
+## Results in Malayalam Speech Corpus Dataset
 
 ::: {.notes}
 Thennal model got the best results:
