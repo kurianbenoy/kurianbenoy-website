@@ -187,15 +187,23 @@ Thennal model got the best results:
 
 ![CER in Common Voice-9](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
 
-## Results in Malayalam Speech Corpus Dataset
+## Results on benechmarking in Malayalam Speech Corpus dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png)
+
+## Results in Malayalam Speech Corpus dataset
+
+![WER in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
 
 ::: {.notes}
 Thennal model got the best results:
 
-Got model with 1 WER
-
-Other models
+11.560000 WER, then rest of models got 21-40+ models. 
 :::
+
+## CER in Malayalam Speech Corpus
+
+![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
 
 ## Result improvement from whisper base model
 
