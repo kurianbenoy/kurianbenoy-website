@@ -1925,11 +1925,25 @@
     "text": "CER in Common Voice dataset\n\nCER in Common Voice-9"
   },
   {
+    "objectID": "presentations/fossasia2023/index.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
+    "href": "presentations/fossasia2023/index.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Results on benechmarking in Malayalam Speech Corpus dataset",
+    "text": "Results on benechmarking in Malayalam Speech Corpus dataset\n\nOutput from benchmarking tool"
+  },
+  {
     "objectID": "presentations/fossasia2023/index.html#results-in-malayalam-speech-corpus-dataset",
     "href": "presentations/fossasia2023/index.html#results-in-malayalam-speech-corpus-dataset",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Results in Malayalam Speech Corpus Dataset",
-    "text": "Results in Malayalam Speech Corpus Dataset\n\nThennal model got the best results:\nGot model with 1 WER\nOther models"
+    "section": "Results in Malayalam Speech Corpus dataset",
+    "text": "Results in Malayalam Speech Corpus dataset\n\nWER in MSC\nThennal model got the best results:\n11.560000 WER, then rest of models got 21-40+ models."
+  },
+  {
+    "objectID": "presentations/fossasia2023/index.html#cer-in-malayalam-speech-corpus",
+    "href": "presentations/fossasia2023/index.html#cer-in-malayalam-speech-corpus",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "CER in Malayalam Speech Corpus",
+    "text": "CER in Malayalam Speech Corpus\n\nCharacter Error rate in MSC"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#result-improvement-from-whisper-base-model",
