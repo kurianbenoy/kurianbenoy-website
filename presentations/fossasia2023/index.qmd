@@ -35,6 +35,8 @@ Originial Idea
 - Open-source enthusiast
 - Not affiliated to OpenAI
 
+## OpenAI Whisper and it's awesome features
+
 ## OpenAI Whisper
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
@@ -43,7 +45,7 @@ Originial Idea
 - It open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.
 
 ::: aside
-According to [research paper](https://cdn.openai.com/papers/whisper.pdf) pp.2, the name Whisper is an abbrevation for WSPR:
+According to [research paper](https://cdn.openai.com/papers/whisper.pdf) p.2, the name Whisper is an abbrevation for WSPR:
 
 `Web-scale Supervised Pretraining for Speech Recognition`.
 :::
@@ -81,7 +83,9 @@ Below are the names of the available models and their approximate memory require
 The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.
 :::
 
-## OpenAI Whisper Features
+## English Speech Recognition
+
+![Whisper is competitive with state of art commercial and open source systems. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](./Whisper_english.png)
 
 ::: {.notes}
 - English Speech Recognition
@@ -91,23 +95,16 @@ The `.en` models for English-only applications tend to perform better, especiall
 - Awesome community plugins
 :::
 
-## English Speech Recognition
-
-![Whisper is competitive with state of art commercial and open source systems](./Whisper_english.png)
-
 ## Multi-lingual Speech recognition
 
-- Whisper supports 99 languages
-- It really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.
+- Whisper model is trained on 99 languages
+- OpenAI Whisper API supports just 57 languages as some languages performance are not really good.
+- Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.9)
 
 ::: {.notes}
+- Room for fine-tuning models to improve
 Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
 :::
-
-## Multiple tasks
-
-- Like Language recognition
-- Translation of audio from X-> en
 
 ## Runs in almost any device
 
@@ -118,9 +115,7 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 2. iOS
 3. Android
 4. Linux/Free BSD
-5. Web Assembly
-6. Windows
-7. Raspberry Pi
+5. Web Assembly etc.
 
 ## Awesome community plugins
 
@@ -133,13 +128,15 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 [Thanks to Ramsri Goutham](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
 :::
 
+## Fine-tuning and how to fine-tune Whisper?
+
 ## What is fine tuning?
 
 Given a pre-trained model, which is a large model which is trained
 on a very specific task. If we want to fit it into our specific dataset we will train
 and use the pre-trained model to build a new model which works very well for our task.
 
-![Steps in finetuning](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png)
+![Steps in finetuning a text classifier model (picture from fast.ai course lesson)](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png){width=300 fig-align="center"}
 
 ## Fine tuning is still relevant
 
@@ -147,6 +144,7 @@ and use the pre-trained model to build a new model which works very well for our
 
 ## Why fine-tune Whisper?
 
+::: {.notes}
 Whisper is developed as a robust speech recognition system which is
 intented to work in out of distribution dataset. While most of previous
 approaches relied on training in a few open-source dataset and using them.
@@ -154,10 +152,45 @@ approaches relied on training in a few open-source dataset and using them.
 If we are working on a language/dataset domain where the out-of distribution
 Whisper model doesn't give good result we can use whisper to get good
 results.
+:::
 
 ## What are steps for fine-tuning Whisper?
 
-[Well explained in this article](https://huggingface.co/blog/fine-tune-whisper)
+![[Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)](./blogpost_image.png){width=700 fig-align="center"}
+
+## What are steps for fine-tuning Whisper?
+
+1. Preparing Environment
+2. Load dataset
+3. Prepare Feature Extractor, Tokenizer and Data
+4. Training and evaluation
+5. Building a demo(optional)
+
+## Whisper Event
+
+- HuggingFace Team conducted a whisper event on fine tuning Whisper model to achieve the State of the art results performance for various languages.
+- Competitors where provided access to A100 GPUs for a limited time by LambdaLabs in association with HuggingFace.
+During this competitions lot of models where evaluated on dataset like Common Voice.
+
+## About Whisper Event and models in whisper event
+
+- For the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:
+
+![Malayalam models in whisper event](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png)
+
+## Finetuning models in Malayalam
+
+## Why I was not satisified with Whisper event?
+
+::: {.notes}
+- I was sceptical about the results of the event
+- The 10% WER was breath taking. In Malayalam there is not even a single yard stick to
+compare.
+- Most of evaluation in properietary datasets are not open source. So can't validate results
+:::
+## Tools for benchmarkings
+
+- https://github.com/kurianbenoy/malayalam_asr_benchmarking
 
 ## Fine tuning whisper in Malayalam
 
@@ -205,8 +238,6 @@ Thennal model got the best results:
 
 ![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
 
-## Result improvement from whisper base model
-
 ::: {.notes}
 in WER Malayalam CommonVoice9 dataset:
 
@@ -217,10 +248,6 @@ medium - 137.8
 large - 107.1
 largev2 - 103.2
 :::
-
-## Tools for benchmarkings
-
-- https://github.com/kurianbenoy/malayalam_asr_benchmarking
 
 ## Conclusion
 
@@ -244,4 +271,6 @@ more common evaluation setting.
 You maybe able to achieve SOTA in your own language with Whisper
 :::
 
+## Tributes to Areeb Jamal
 
+![Source: [Areeb Jamal Forever in our Hearts and our Memory](https://blog.fossasia.org/areeb-jamal-forever-in-our-hearts-and-our-memory/) - FOSSASIA blog](https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2021/04/lastslide.png?w=1920&ssl=1)
