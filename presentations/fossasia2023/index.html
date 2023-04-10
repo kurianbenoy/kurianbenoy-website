@@ -375,6 +375,9 @@ Kurian Benoy
 <li>Not affiliated to OpenAI</li>
 </ul>
 </section>
+<section id="openai-whisper-and-its-awesome-features" class="slide level2">
+<h2>OpenAI Whisper and it’s awesome features</h2>
+</section>
 <section id="openai-whisper" class="slide level2">
 <h2>OpenAI Whisper</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -388,7 +391,7 @@ Kurian Benoy
 </ul>
 
 <aside><div>
-<p>According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> pp.2, the name Whisper is an abbrevation for WSPR:</p>
+<p>According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> p.2, the name Whisper is an abbrevation for WSPR:</p>
 <p><code>Web-scale Supervised Pretraining for Speech Recognition</code>.</p>
 </div></aside></section>
 <section id="about-openai-whisper-model" class="slide level2">
@@ -474,9 +477,10 @@ Kurian Benoy
           display:block!important;
       }</style></aside>
 </section>
-<section id="openai-whisper-features" class="slide level2">
-<h2>OpenAI Whisper Features</h2>
-<aside class="notes">
+<section id="english-speech-recognition" class="slide level2">
+<h2>English Speech Recognition</h2>
+
+<img data-src="./Whisper_english.png" class="r-stretch quarto-figure-center"><p class="caption">Whisper is competitive with state of art commercial and open source systems. Diagram from <a href="[research paper](https://cdn.openai.com/papers/whisper.pdf)">whisper research paper</a> p.9</p><aside class="notes">
 <ul>
 <li>English Speech Recognition</li>
 <li>Multi-lingual speech recognition</li>
@@ -496,18 +500,17 @@ Kurian Benoy
           display:block!important;
       }</style></aside>
 </section>
-<section id="english-speech-recognition" class="slide level2">
-<h2>English Speech Recognition</h2>
-
-<img data-src="./Whisper_english.png" class="r-stretch quarto-figure-center"><p class="caption">Whisper is competitive with state of art commercial and open source systems</p></section>
 <section id="multi-lingual-speech-recognition" class="slide level2">
 <h2>Multi-lingual Speech recognition</h2>
 <ul>
-<li>Whisper supports 99 languages</li>
-<li>It really supports just 57 languages really well though, as these languages are provided in OpenAI Whisper API.</li>
+<li>Whisper model is trained on 99 languages</li>
+<li>OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</li>
+<li>Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. (<a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> p.9)</li>
 </ul>
 <aside class="notes">
-<p>Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.</p>
+<ul>
+<li>Room for fine-tuning models to improve Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -520,13 +523,6 @@ Kurian Benoy
           display:block!important;
       }</style></aside>
 </section>
-<section id="multiple-tasks" class="slide level2">
-<h2>Multiple tasks</h2>
-<ul>
-<li>Like Language recognition</li>
-<li>Translation of audio from X-&gt; en</li>
-</ul>
-</section>
 <section id="runs-in-almost-any-device" class="slide level2">
 <h2>Runs in almost any device</h2>
 <ul>
@@ -538,9 +534,7 @@ Kurian Benoy
 <li>iOS</li>
 <li>Android</li>
 <li>Linux/Free BSD</li>
-<li>Web Assembly</li>
-<li>Windows</li>
-<li>Raspberry Pi</li>
+<li>Web Assembly etc.</li>
 </ol>
 </section>
 <section id="awesome-community-plugins" class="slide level2">
@@ -565,23 +559,91 @@ Kurian Benoy
           display:block!important;
       }</style></aside>
 </section>
+<section id="fine-tuning-and-how-to-fine-tune-whisper" class="slide level2">
+<h2>Fine-tuning and how to fine-tune Whisper?</h2>
+</section>
 <section id="what-is-fine-tuning" class="slide level2">
 <h2>What is fine tuning?</h2>
 <p>Given a pre-trained model, which is a large model which is trained on a very specific task. If we want to fit it into our specific dataset we will train and use the pre-trained model to build a new model which works very well for our task.</p>
 
-<img data-src="https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png" class="r-stretch quarto-figure-center"><p class="caption">Steps in finetuning</p></section>
+<img data-src="https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png" width="300" class="r-stretch quarto-figure-center"><p class="caption">Steps in finetuning a text classifier model (picture from fast.ai course lesson)</p></section>
 <section id="fine-tuning-is-still-relevant" class="slide level2">
 <h2>Fine tuning is still relevant</h2>
-<p></p><div id="tweet-16953"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-16953").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-43446"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43446").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="why-fine-tune-whisper" class="slide level2">
 <h2>Why fine-tune Whisper?</h2>
+<aside class="notes">
 <p>Whisper is developed as a robust speech recognition system which is intented to work in out of distribution dataset. While most of previous approaches relied on training in a few open-source dataset and using them.</p>
 <p>If we are working on a language/dataset domain where the out-of distribution Whisper model doesn’t give good result we can use whisper to get good results.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="what-are-steps-for-fine-tuning-whisper" class="slide level2">
 <h2>What are steps for fine-tuning Whisper?</h2>
-<p><a href="https://huggingface.co/blog/fine-tune-whisper">Well explained in this article</a></p>
+
+<img data-src="./blogpost_image.png" width="700" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://huggingface.co/blog/fine-tune-whisper">Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers</a></p></section>
+<section id="what-are-steps-for-fine-tuning-whisper-1" class="slide level2">
+<h2>What are steps for fine-tuning Whisper?</h2>
+<ol type="1">
+<li>Preparing Environment</li>
+<li>Load dataset</li>
+<li>Prepare Feature Extractor, Tokenizer and Data</li>
+<li>Training and evaluation</li>
+<li>Building a demo(optional)</li>
+</ol>
+</section>
+<section id="whisper-event" class="slide level2">
+<h2>Whisper Event</h2>
+<ul>
+<li>HuggingFace Team conducted a whisper event on fine tuning Whisper model to achieve the State of the art results performance for various languages.</li>
+<li>Competitors where provided access to A100 GPUs for a limited time by LambdaLabs in association with HuggingFace. During this competitions lot of models where evaluated on dataset like Common Voice.</li>
+</ul>
+</section>
+<section id="about-whisper-event-and-models-in-whisper-event" class="slide level2">
+<h2>About Whisper Event and models in whisper event</h2>
+<ul>
+<li>For the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:</li>
+</ul>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png" class="r-stretch quarto-figure-center"><p class="caption">Malayalam models in whisper event</p></section>
+<section id="finetuning-models-in-malayalam" class="slide level2">
+<h2>Finetuning models in Malayalam</h2>
+</section>
+<section id="why-i-was-not-satisified-with-whisper-event" class="slide level2">
+<h2>Why I was not satisified with Whisper event?</h2>
+<aside class="notes">
+<ul>
+<li>I was sceptical about the results of the event</li>
+<li>The 10% WER was breath taking. In Malayalam there is not even a single yard stick to compare.</li>
+<li>Most of evaluation in properietary datasets are not open source. So can’t validate results</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tools-for-benchmarkings" class="slide level2">
+<h2>Tools for benchmarkings</h2>
+<ul>
+<li>https://github.com/kurianbenoy/malayalam_asr_benchmarking</li>
+</ul>
 </section>
 <section id="fine-tuning-whisper-in-malayalam" class="slide level2">
 <h2>Fine tuning whisper in Malayalam</h2>
@@ -654,10 +716,7 @@ Kurian Benoy
 <section id="cer-in-malayalam-speech-corpus" class="slide level2">
 <h2>CER in Malayalam Speech Corpus</h2>
 
-<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p></section>
-<section id="result-improvement-from-whisper-base-model" class="slide level2">
-<h2>Result improvement from whisper base model</h2>
-<aside class="notes">
+<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p><aside class="notes">
 <p>in WER Malayalam CommonVoice9 dataset:</p>
 <p>tiny - 102.7 base - 122.9 small - 104.8 medium - 137.8 large - 107.1 largev2 - 103.2</p>
 <style type="text/css">
@@ -671,12 +730,6 @@ Kurian Benoy
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
-<section id="tools-for-benchmarkings" class="slide level2">
-<h2>Tools for benchmarkings</h2>
-<ul>
-<li>https://github.com/kurianbenoy/malayalam_asr_benchmarking</li>
-</ul>
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
@@ -698,8 +751,12 @@ Kurian Benoy
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="tributes-to-areeb-jamal" class="slide level2">
+<h2>Tributes to Areeb Jamal</h2>
 
-<div class="footer footer-default">
+
+<img data-src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2021/04/lastslide.png?w=1920&amp;ssl=1" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://blog.fossasia.org/areeb-jamal-forever-in-our-hearts-and-our-memory/">Areeb Jamal Forever in our Hearts and our Memory</a> - FOSSASIA blog</p><div class="footer footer-default">
 <p>You can access slides @ <a href="https://kurianbenoy.com/presentations/fossasia2023/index.html">kurianbenoy.com/presentations/fossasia2023/index.html</a></p>
 </div>
 </section>
