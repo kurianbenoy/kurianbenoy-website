@@ -30,7 +30,7 @@ Originial Idea
 
 ## $whoami
 
-- ML Engineer & Team Lead @ Sentient.io
+- AI Engineer & Team Lead @ Sentient.io
 - Volunteer @ Swathanthra Malayalam Computing(SMC)
 - Open-source enthusiast
 - Not affiliated to OpenAI
