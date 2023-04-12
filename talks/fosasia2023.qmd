@@ -7,7 +7,7 @@ date-format: full
 comments: false
 format:
   revealjs:
-    footer: "You can access slides @ [kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/presentations/fossasia2023/index.html)"
+    footer: "You can access slides @ [kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/talks/fossasia2023.html)"
     slide-number: true
 ---
 
@@ -85,7 +85,7 @@ The `.en` models for English-only applications tend to perform better, especiall
 
 ## English Speech Recognition
 
-![Whisper is competitive with state of art commercial and open source systems. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](./Whisper_english.png)
+![Whisper is competitive with state of art commercial and open source systems. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](fossasia2023/Whisper_english.png)
 
 ::: {.notes}
 - English Speech Recognition
@@ -156,7 +156,7 @@ results.
 
 ## What are steps for fine-tuning Whisper?
 
-![[Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)](./blogpost_image.png){width=700 fig-align="center"}
+![[Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)](fossasia2023/blogpost_image.png){width=700 fig-align="center"}
 
 ## What are steps for fine-tuning Whisper?
 
