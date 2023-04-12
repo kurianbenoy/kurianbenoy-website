@@ -7,6 +7,7 @@ date-format: full
 comments: false
 format:
   revealjs:
+    theme: solarized
     footer: "You can access slides @ [kurianbenoy.com/talks/fossasia2023.html](https://kurianbenoy.com/talks/fossasia2023.html)"
     slide-number: true
 ---
