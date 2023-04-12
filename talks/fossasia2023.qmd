@@ -195,7 +195,8 @@ results.
 
 ## Winning models in Malayalam in Whisper Event
 
-- The winning model was thennal/whisper-medium-ml in Common Voice dataset subsection of Malayalam testt split.
+- The winning model for Common voice: `thennal/whisper-medium-ml`
+- The winning model for Fleurs: `parambharath/whisper-small-ml`
 
 ::: {.notes}
 - I was sceptical about the results of the event
@@ -203,6 +204,23 @@ results.
 compare.
 - Most of evaluation in properietary datasets are not open source. So can't validate results
 :::
+
+## I was not convinced
+
+I was sceptical about the winning models becuase of:
+
+1. Achieving 10% WER in Malayalam is breath taking.
+2. In Malayalam there is not even a single yard stick to compare. Most of
+previous works were done in proprietary datasets and not open-sourced.
+3. Malyalam is a incredibly morpohologically complex language. So even achieving 30% WER
+is a big deal.
+
+## I was not convinced
+
+4. Didn't trust the Hugging Face way of evaluating models.
+
+![thennal/whisper-medium-ml model card readme]()
+
 ## Tools for benchmarkings
 
 - https://github.com/kurianbenoy/malayalam_asr_benchmarking
