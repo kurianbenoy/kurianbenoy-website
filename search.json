@@ -1792,13 +1792,6 @@
     "text": "$whoami\n\nAI Engineer & Team Lead @ Sentient.io\nVolunteer @ Swathanthra Malayalam Computing(SMC)\nOpen-source enthusiast\nNot affiliated to OpenAI"
   },
   {
-    "objectID": "talks/fossasia2023.html#openai-whisper-and-its-awesome-features",
-    "href": "talks/fossasia2023.html#openai-whisper-and-its-awesome-features",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "OpenAI Whisper and it’s awesome features",
-    "text": "OpenAI Whisper and it’s awesome features"
-  },
-  {
     "objectID": "talks/fossasia2023.html#openai-whisper",
     "href": "talks/fossasia2023.html#openai-whisper",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
@@ -1846,13 +1839,6 @@
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Awesome community plugins",
     "text": "Awesome community plugins\n\nWord-level time stamps with whisper-timestamped,whisperX\nFine-Tune Whisper is achieving SOTA in lot of languages\nSpeaker diarization\nAudio classification using OpenAI’s Whisper\n\n\nThanks to Ramsri Goutham"
-  },
-  {
-    "objectID": "talks/fossasia2023.html#fine-tuning-and-how-to-fine-tune-whisper",
-    "href": "talks/fossasia2023.html#fine-tuning-and-how-to-fine-tune-whisper",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Fine-tuning and how to fine-tune Whisper?",
-    "text": "Fine-tuning and how to fine-tune Whisper?"
   },
   {
     "objectID": "talks/fossasia2023.html#what-is-fine-tuning",
@@ -1972,6 +1958,13 @@
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Conclusion",
     "text": "Conclusion\nAccording to whisper in future work section:\nStudying fine-tuning \n\nIn this work, we have focused on the robustness properties of speech processing systems and as a result only studied the zero-shot transfer performance of Whisper. While this is a crucial setting to study due to it being representative of general reliability, for many domains where high-quality supervised speech data does exist, it is likely that results can be improved further by fine-tuning. An additional benefit of studying fine-tuning is that it allows for direct comparisons with prior work since it is a much more common evaluation setting.\n\n\nYou maybe able to achieve SOTA in your own language with Whisper"
+  },
+  {
+    "objectID": "talks/fossasia2023.html#thanks-to",
+    "href": "talks/fossasia2023.html#thanks-to",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Thanks to",
+    "text": "Thanks to\n\nOpenAI team\nHuggingFace\nAlec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nAbdulMajedRaja RS\nGeorgi Gerganov\nRamsri Goutham"
   },
   {
     "objectID": "talks/fossasia2023.html#tributes-to-areeb-jamal",
