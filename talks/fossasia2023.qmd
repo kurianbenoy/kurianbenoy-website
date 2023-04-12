@@ -7,7 +7,7 @@ date-format: full
 comments: false
 format:
   revealjs:
-    footer: "You can access slides @ [kurianbenoy.com/presentations/fossasia2023/index.html](https://kurianbenoy.com/talks/fossasia2023.html)"
+    footer: "You can access slides @ [kurianbenoy.com/talks/fossasia2023.html](https://kurianbenoy.com/talks/fossasia2023.html)"
     slide-number: true
 ---
 
@@ -142,7 +142,9 @@ and use the pre-trained model to build a new model which works very well for our
 
 {{< tweet waydegilliam 1641228571611123712 >}}
 
-## Why fine-tune Whisper?
+## Why try fine-tuning in Whisper?
+
+- In your problem domain, the open source Whisper model doesn't give good results.
 
 ::: {.notes}
 Whisper is developed as a robust speech recognition system which is
@@ -171,11 +173,15 @@ results.
 - HuggingFace Team conducted a whisper fine tuning event for 2 weeks from Decemeber 5th to December 9th.
 - The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣
 
-## About Whisper Event and models in whisper event
+## Malayalam Speech Recognition models in Whisper Event
 
 - For the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:
 
-![Malayalam models in whisper event](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png)
+![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png)
+
+## Winning models in Malayalam in Whisper Event
+
+- The winning model was thennal/whisper-medium-ml in Common Voice dataset subsection of Malayalam testt split.
 
 ::: {.notes}
 - I was sceptical about the results of the event
