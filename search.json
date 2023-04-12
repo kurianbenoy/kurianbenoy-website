@@ -312,7 +312,7 @@
     "href": "posts/2022/2022-06-27-tipstolearnvim.html#showing-the-power-of-vim",
     "title": "How to approach learning Vim - tips from two monks",
     "section": "💪Showing the power of Vim",
-    "text": "💪Showing the power of Vim\nThe monk then went ahead and showed how he made Youtube chapter markers from the posts as shown below. The monk wanted to convert this comment to a format which is suitable for youtube to add chapter markers, so folks can easily watch it in future.\n00:00 Create a total empty notebook\n- How to be lazy and a great programmer? 03:02\n\n\n04:13 Create an empty notebook and symlink from persistence storage\n-  Why open a new window to use jupyter lab? to keep paperspace interface for shutting down when finished\n-  Why should you read paperspace docs? What did Jeremy find out? 05:16\n-  What are the interesting folders inside the root directory?\n-  How is storage folder different from notebooks directory? Why both of them exist for good reason? 06:32\n-  Should we worry about using pip install when paperspace uses conda a lot? 08:02\n-  How to pip upgrade packages into the home directory with --user? pip install -U --user fastcore 13:14\n-  What folder we want to be there next time when we open notebook? .local/\n-  How to save this .local/ into persistence storage? mv .local /storage/\n\n19:24 Create pre-run.sh from scratch to automate .local symlink from storage\n\n\n-  How to create a python file to setup the symlink first before running jupyter lab \n-  Does Jeremy think paperspace is the way to have easy to use GPU for fastai in \n-  How to make a symlink from /storage/ back to this notebook’s /notebooks director\n-  What does this step above do? to link the /storage/ folder back into /notebook\n-  Why to access the /storage/ folder inside notebooks is useful?\n-  How to create a text file, edit it and save it inside /storage/ with jupyter lab?\n\nThe monk opened his Vim editor and showed a bunch of ways he can easily do this task very quickly with ex commands as shown in the gif below.\nFinally, the output will be like in this format:\n00:00 Create an notebook\n04:13 Symlink from persistence storage\n19:24 Create pre-run.sh from scratch to automate .local symlink from storage\nIf you are curious to learn the trick, follow the below three steps:\nStep 1: To delete and move to the start of the next digit type d /^tep 2: Then move down a row using j (or down arrow) and type dot ‘.’ to repeat the movement: j.\nStep3: When it’s almost over with no more chapter markers, type dG to delete till the end of the file."
+    "text": "💪Showing the power of Vim\nThe monk then went ahead and showed how he made Youtube chapter markers from the posts as shown below. The monk wanted to convert this comment to a format which is suitable for youtube to add chapter markers, so folks can easily watch it in future.\n00:00 Create a total empty notebook\n- How to be lazy and a great programmer? 03:02\n\n\n04:13 Create an empty notebook and symlink from persistence storage\n-  Why open a new window to use jupyter lab? to keep paperspace interface for shutting down when finished\n-  Why should you read paperspace docs? What did Jeremy find out? 05:16\n-  What are the interesting folders inside the root directory?\n-  How is storage folder different from notebooks directory? Why both of them exist for good reason? 06:32\n-  Should we worry about using pip install when paperspace uses conda a lot? 08:02\n-  How to pip upgrade packages into the home directory with --user? pip install -U --user fastcore 13:14\n-  What folder we want to be there next time when we open notebook? .local/\n-  How to save this .local/ into persistence storage? mv .local /storage/\n\n19:24 Create pre-run.sh from scratch to automate .local symlink from storage\n\n\n-  How to create a python file to setup the symlink first before running jupyter lab \n-  Does Jeremy think paperspace is the way to have easy to use GPU for fastai in \n-  How to make a symlink from /storage/ back to this notebook’s /notebooks director\n-  What does this step above do? to link the /storage/ folder back into /notebook\n-  Why to access the /storage/ folder inside notebooks is useful?\n-  How to create a text file, edit it and save it inside /storage/ with jupyter lab?\n\nThe monk opened his Vim editor and showed a bunch of ways he can easily do this task very quickly with ex commands as shown in the gif below.\nFinally, the output will be like in this format:\n00:00 Create an notebook\n04:13 Symlink from persistence storage\n19:24 Create pre-run.sh from scratch to automate .local symlink from storage\nIf you are curious to learn the trick, follow the below three steps:\n\nTo delete and move to the start of the next digit type d /^\\d\nThen move down a row using j (or down arrow) and type dot ‘.’ to repeat the movement: j.\nWhen it’s almost over with no more chapter markers, type dG to delete till the end of the file."
   },
   {
     "objectID": "posts/2022/2022-06-27-tipstolearnvim.html#disciple-asks-how-to-approach-learning-vim",
@@ -1908,35 +1908,21 @@
     "href": "presentations/fossasia2023/index.html#whisper-event",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Whisper Event",
-    "text": "Whisper Event\n\nHuggingFace Team conducted a whisper event on fine tuning Whisper model to achieve the State of the art results performance for various languages.\nCompetitors where provided access to A100 GPUs for a limited time by LambdaLabs in association with HuggingFace. During this competitions lot of models where evaluated on dataset like Common Voice."
+    "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from Decemeber 5th to December 9th.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#about-whisper-event-and-models-in-whisper-event",
     "href": "presentations/fossasia2023/index.html#about-whisper-event-and-models-in-whisper-event",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "About Whisper Event and models in whisper event",
-    "text": "About Whisper Event and models in whisper event\n\nFor the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:\n\n\nMalayalam models in whisper event"
-  },
-  {
-    "objectID": "presentations/fossasia2023/index.html#finetuning-models-in-malayalam",
-    "href": "presentations/fossasia2023/index.html#finetuning-models-in-malayalam",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Finetuning models in Malayalam",
-    "text": "Finetuning models in Malayalam"
-  },
-  {
-    "objectID": "presentations/fossasia2023/index.html#why-i-was-not-satisified-with-whisper-event",
-    "href": "presentations/fossasia2023/index.html#why-i-was-not-satisified-with-whisper-event",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Why I was not satisified with Whisper event?",
-    "text": "Why I was not satisified with Whisper event?\n\n\nI was sceptical about the results of the event\nThe 10% WER was breath taking. In Malayalam there is not even a single yard stick to compare.\nMost of evaluation in properietary datasets are not open source. So can’t validate results"
+    "text": "About Whisper Event and models in whisper event\n\nFor the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:\n\n\nMalayalam models in whisper event\n\nI was sceptical about the results of the event\nThe 10% WER was breath taking. In Malayalam there is not even a single yard stick to compare.\nMost of evaluation in properietary datasets are not open source. So can’t validate results"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#tools-for-benchmarkings",
     "href": "presentations/fossasia2023/index.html#tools-for-benchmarkings",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Tools for benchmarkings",
-    "text": "Tools for benchmarkings\n\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking"
+    "text": "Tools for benchmarkings\n\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking\n\n\nIn Malayalam, the winners were:\n\nCommonVoice 11.0 - thennal/whisper-medium-ml\nFleurs - parambharath/whisper-small-ml"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#fine-tuning-whisper-in-malayalam",
@@ -1957,14 +1943,14 @@
     "href": "presentations/fossasia2023/index.html#results-in-common-voice-dataset",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Results in Common Voice dataset",
-    "text": "Results in Common Voice dataset\n\nWER in Common Voice-9\nThennal model got the best results:\n11.560000 WER, then rest of models got 21-40+ models."
+    "text": "Results in Common Voice dataset\n\nWER in Common Voice-9 test split\nThennal model got the best results:\n11.560000 WER, then rest of models got 21-40+ models."
   },
   {
     "objectID": "presentations/fossasia2023/index.html#cer-in-common-voice-dataset",
     "href": "presentations/fossasia2023/index.html#cer-in-common-voice-dataset",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "CER in Common Voice dataset",
-    "text": "CER in Common Voice dataset\n\nCER in Common Voice-9"
+    "text": "CER in Common Voice dataset\n\nCER in Common Voice-9 test split"
   },
   {
     "objectID": "presentations/fossasia2023/index.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
