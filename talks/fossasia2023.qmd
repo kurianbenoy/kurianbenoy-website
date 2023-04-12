@@ -35,8 +35,6 @@ Originial Idea
 - Open-source enthusiast
 - Not affiliated to OpenAI
 
-## OpenAI Whisper and it's awesome features
-
 ## OpenAI Whisper
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
@@ -108,7 +106,7 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 
 ## Runs in almost any device
 
-- Since Whisper followed the open source route, [Whisper.cpp](https://github.com/ggerganov/whisper.cpp) developed by  Georgi Gerganov which is a port of Port of OpenAI's Whisper model in C/C++.
+- Since Whisper followed the open source route, [Whisper.cpp](https://github.com/ggerganov/whisper.cpp) developed by [Georgi Gerganov](https://github.com/ggerganov) which is a port of Port of OpenAI's Whisper model in C/C++.
 - It supports the below platforms:
 
 1. Mac OS (Intel and ARM)
@@ -127,8 +125,6 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 ::: {.notes}
 [Thanks to Ramsri Goutham](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
 :::
-
-## Fine-tuning and how to fine-tune Whisper?
 
 ## What is fine tuning?
 
@@ -278,6 +274,16 @@ more common evaluation setting.
 ::: {.notes}
 You maybe able to achieve SOTA in your own language with Whisper
 :::
+
+## Thanks to
+
+1. [OpenAI team](https://openai.com/)
+2. [HuggingFace](https://huggingface.co/)
+3. Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
+4. [AbdulMajedRaja RS](https://www.youtube.com/@1littlecoder)
+5. [Georgi Gerganov](https://github.com/ggerganov)
+6. [Ramsri Goutham](https://ramsri.ai/)
+
 
 ## Tributes to Areeb Jamal
 
