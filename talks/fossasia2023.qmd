@@ -215,11 +215,13 @@ previous works were done in proprietary datasets and not open-sourced.
 3. Malyalam is a incredibly morpohologically complex language. So even achieving 30% WER
 is a big deal.
 
-## I was not convinced
+## I was not convinced {.scrollable}
 
 4. Didn't trust the Hugging Face way of evaluating models.
 
-![thennal/whisper-medium-ml model card readme]()
+![thennal/whisper-medium-ml model card readme](fossasia2023/thennal_model_card.png)
+
+![Last commit in thennal/whisper-medium-ml](fossasia2023/thennal_commit.png)
 
 ## Tools for benchmarkings
 
