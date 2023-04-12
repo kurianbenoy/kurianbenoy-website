@@ -99,7 +99,11 @@ A list of ideas for how to use Whisper in your own applications.
 
 - Whisper model is trained on 99 languages
 - OpenAI Whisper API supports just 57 languages as some languages performance are not really good.
+
+::: aside
+- More details can be found in Section 3.4 of [Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) pp.9.
 - Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.9)
+:::
 
 ::: {.notes}
 - Room for fine-tuning models to improve
@@ -127,8 +131,8 @@ Whisper model in C/C++.
 - [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
 - [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
 
-::: {.notes}
-[Thanks to Ramsri Goutham](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
+::: aside
+[Thanks to Ramsri Goutham article on 7 must know libraries and addons on Whisper](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
 :::
 
 ## What is fine tuning?
