@@ -177,10 +177,6 @@ results.
 
 ![Malayalam models in whisper event](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png)
 
-## Finetuning models in Malayalam
-
-## Why I was not satisified with Whisper event?
-
 ::: {.notes}
 - I was sceptical about the results of the event
 - The 10% WER was breath taking. In Malayalam there is not even a single yard stick to
@@ -190,6 +186,13 @@ compare.
 ## Tools for benchmarkings
 
 - https://github.com/kurianbenoy/malayalam_asr_benchmarking
+
+::: {.notes}
+In Malayalam, the winners were:
+
+- CommonVoice 11.0 - thennal/whisper-medium-ml
+- Fleurs - parambharath/whisper-small-ml
+:::
 
 ## Fine tuning whisper in Malayalam
 
