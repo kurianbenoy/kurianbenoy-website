@@ -132,7 +132,7 @@ Whisper model in C/C++.
 - [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
 
 ::: aside
-[Thanks to Ramsri Goutham article on 7 must know libraries and addons on Whisper](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
+[Thanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
 :::
 
 ## What is fine tuning?
@@ -141,7 +141,7 @@ Given a pre-trained model, which is a large model which is trained
 on a very specific task. If we want to fit it into our specific dataset we will train
 and use the pre-trained model to build a new model which works very well for our task.
 
-![Steps in finetuning a text classifier model (picture from fast.ai course lesson)](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png){width=300 fig-align="center"}
+![Picture from [fast.lesson](course.fast.ai/) covering steps in finetuning a text classifier model](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png){width=300 fig-align="center"}
 
 ## Fine tuning is still relevant
 
@@ -182,6 +182,10 @@ results.
 
 - HuggingFace Team conducted a whisper fine tuning event for 2 weeks from Decemeber 5th to December 9th.
 - The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣
+
+::: aside
+[Whisper Event huggingface page](https://huggingface.co/whisper-event)
+:::
 
 ## Malayalam Speech Recognition models in Whisper Event
 
