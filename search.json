@@ -1911,11 +1911,18 @@
     "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\n\n\nthennal/whisper-medium-ml model card readme\n\n\n\n\n\nLast commit in thennal/whisper-medium-ml"
   },
   {
-    "objectID": "talks/fossasia2023.html#tools-for-benchmarkings",
-    "href": "talks/fossasia2023.html#tools-for-benchmarkings",
+    "objectID": "talks/fossasia2023.html#i-wanted-to-build-something",
+    "href": "talks/fossasia2023.html#i-wanted-to-build-something",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Tools for benchmarkings",
-    "text": "Tools for benchmarkings\n\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking\n\n\nIn Malayalam, the winners were:\n\nCommonVoice 11.0 - thennal/whisper-medium-ml\nFleurs - parambharath/whisper-small-ml"
+    "section": "I wanted to build something",
+    "text": "I wanted to build something\n\nTime for a new adventure\nIn Malayalam, the winners were:\n\nCommonVoice 11.0 - thennal/whisper-medium-ml\nFleurs - parambharath/whisper-small-ml"
+  },
+  {
+    "objectID": "talks/fossasia2023.html#kavya-tweet",
+    "href": "talks/fossasia2023.html#kavya-tweet",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "Kavya tweet",
+    "text": "Kavya tweet"
   },
   {
     "objectID": "talks/fossasia2023.html#fine-tuning-whisper-in-malayalam",
@@ -1978,7 +1985,7 @@
     "href": "talks/fossasia2023.html#thanks-to",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Thanks to",
-    "text": "Thanks to\n\nOpenAI team\nHuggingFace\nAlec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nAbdulMajedRaja RS\nGeorgi Gerganov\nRamsri Goutham"
+    "text": "Thanks to\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar and other members in Swathanthra Malayalam Computing community.\nAbdulMajedRaja RS\nGeorgi Gerganov\nRamsri Goutham"
   },
   {
     "objectID": "talks/fossasia2023.html#tributes-to-areeb-jamal",
