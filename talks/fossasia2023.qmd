@@ -220,13 +220,14 @@ is a big deal.
 
 4. Didn't trust the Hugging Face way of evaluating models.
 
-![thennal/whisper-medium-ml model card readme](fossasia2023/thennal_model_card.png)
+![thennal/whisper-medium-ml model card readme](fossasia2023/thennal_model_card.png){.absolute top=200 left=0 width="350" height="500"}
 
-![Last commit in thennal/whisper-medium-ml](fossasia2023/thennal_commit.png)
+![Last commit in thennal/whisper-medium-ml](fossasia2023/thennal_commit.png){.absolute top=200 right=50 width="350" height="300"}
 
-## Tools for benchmarkings
+## I wanted to build something
 
-- https://github.com/kurianbenoy/malayalam_asr_benchmarking
+![Time for a new adventure](fossasia2023/adventure_talk.jpg)
+
 
 ::: {.notes}
 In Malayalam, the winners were:
@@ -234,6 +235,10 @@ In Malayalam, the winners were:
 - CommonVoice 11.0 - thennal/whisper-medium-ml
 - Fleurs - parambharath/whisper-small-ml
 :::
+
+## Kavya tweet
+
+{{< tweet kavya_manohar 1633755478818959372 >}}
 
 ## Fine tuning whisper in Malayalam
 
@@ -316,9 +321,9 @@ You maybe able to achieve SOTA in your own language with Whisper
 
 ## Thanks to
 
-1. [OpenAI team](https://openai.com/)
-2. [HuggingFace](https://huggingface.co/)
-3. Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
+1. [OpenAI team](https://openai.com/) - Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
+2. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
+3. [Kavya Manohar](https://kavyamanohar.com/) and other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
 4. [AbdulMajedRaja RS](https://www.youtube.com/@1littlecoder)
 5. [Georgi Gerganov](https://github.com/ggerganov)
 6. [Ramsri Goutham](https://ramsri.ai/)
