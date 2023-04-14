@@ -209,10 +209,10 @@ compare.
 
 I was sceptical about the winning models becuase of:
 
-1. Achieving 10% WER in Malayalam is breath taking.
+1. Achieving 10% WER in Malayalam is astonishing.
 2. In Malayalam there is not even a single yard stick to compare. Most of
 previous works were done in proprietary datasets and not open-sourced.
-3. Malyalam is a incredibly morpohologically complex language. So even achieving 30% WER
+3. Malyalam is [incredibly morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
 is a big deal.
 
 ## I was not convinced {.scrollable}
