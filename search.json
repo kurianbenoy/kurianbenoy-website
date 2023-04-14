@@ -1901,7 +1901,7 @@
     "href": "talks/fossasia2023.html#i-was-not-convinced",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "I was not convinced",
-    "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\nAchieving 10% WER in Malayalam is breath taking.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is a incredibly morpohologically complex language. So even achieving 30% WER is a big deal."
+    "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\nAchieving 10% WER in Malayalam is astonishing.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is incredibly morpohologically complex language. So even achieving 30% WER is a big deal."
   },
   {
     "objectID": "talks/fossasia2023.html#i-was-not-convinced-1",
