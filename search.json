@@ -1883,11 +1883,11 @@
     "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from Decemeber 5th to December 9th.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣\n\n\n\nWhisper Event huggingface page"
   },
   {
-    "objectID": "talks/fossasia2023.html#malayalam-speech-recognition-models-in-whisper-event",
-    "href": "talks/fossasia2023.html#malayalam-speech-recognition-models-in-whisper-event",
+    "objectID": "talks/fossasia2023.html#malayalam-models-in-whisper-event",
+    "href": "talks/fossasia2023.html#malayalam-models-in-whisper-event",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Malayalam Speech Recognition models in Whisper Event",
-    "text": "Malayalam Speech Recognition models in Whisper Event\n\nFor the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:\n\n\nMalayalam models performance in whisper event according to leaderboard"
+    "section": "Malayalam models in Whisper Event",
+    "text": "Malayalam models in Whisper Event\n\nFor the language Malayalam, the results are as follows:\n\n\nMalayalam models performance in whisper event according to leaderboard"
   },
   {
     "objectID": "talks/fossasia2023.html#winning-models-in-malayalam-in-whisper-event",
@@ -1911,25 +1911,18 @@
     "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\n\n\nthennal/whisper-medium-ml model card readme\n\n\n\n\n\nLast commit in thennal/whisper-medium-ml"
   },
   {
-    "objectID": "talks/fossasia2023.html#i-wanted-to-build-something",
-    "href": "talks/fossasia2023.html#i-wanted-to-build-something",
+    "objectID": "talks/fossasia2023.html#i-wanted-to-build-something-new",
+    "href": "talks/fossasia2023.html#i-wanted-to-build-something-new",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "I wanted to build something",
-    "text": "I wanted to build something\n\nTime for a new adventure\nIn Malayalam, the winners were:\n\nCommonVoice 11.0 - thennal/whisper-medium-ml\nFleurs - parambharath/whisper-small-ml"
+    "section": "I wanted to build something new",
+    "text": "I wanted to build something new\n\nNew github project for Malayalam ASR Benchmarking\n\n\nTime for a new adventure\nIn Malayalam, the winners were:\n\nCommonVoice 11.0 - thennal/whisper-medium-ml\nFleurs - parambharath/whisper-small-ml"
   },
   {
-    "objectID": "talks/fossasia2023.html#kavya-tweet",
-    "href": "talks/fossasia2023.html#kavya-tweet",
+    "objectID": "talks/fossasia2023.html#results-on-benchmarking-in-malayalam",
+    "href": "talks/fossasia2023.html#results-on-benchmarking-in-malayalam",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Kavya tweet",
-    "text": "Kavya tweet"
-  },
-  {
-    "objectID": "talks/fossasia2023.html#fine-tuning-whisper-in-malayalam",
-    "href": "talks/fossasia2023.html#fine-tuning-whisper-in-malayalam",
-    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
-    "section": "Fine tuning whisper in Malayalam",
-    "text": "Fine tuning whisper in Malayalam\nThe base-whisper model was trained on Malayalam:\n\nbut just half an hour dataset was used to train the model\n\n\nThanks to Whisper event."
+    "section": "Results on Benchmarking in Malayalam",
+    "text": "Results on Benchmarking in Malayalam\n\nStarted with 6 fine-tuned models in Malayalam\n\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam\n\n\nCompared it with 6 model versions released by OpenAI."
   },
   {
     "objectID": "talks/fossasia2023.html#results-on-benechmarking-in-common-voice-dataset",
@@ -1978,7 +1971,7 @@
     "href": "talks/fossasia2023.html#conclusion",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Conclusion",
-    "text": "Conclusion\nAccording to whisper in future work section:\nStudying fine-tuning \n\nIn this work, we have focused on the robustness properties of speech processing systems and as a result only studied the zero-shot transfer performance of Whisper. While this is a crucial setting to study due to it being representative of general reliability, for many domains where high-quality supervised speech data does exist, it is likely that results can be improved further by fine-tuning. An additional benefit of studying fine-tuning is that it allows for direct comparisons with prior work since it is a much more common evaluation setting.\n\n\nYou maybe able to achieve SOTA in your own language with Whisper"
+    "text": "Conclusion\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nWe seems to have build really good ASR suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language.\n\n\nYou maybe able to achieve SOTA in your own language with Whisper"
   },
   {
     "objectID": "talks/fossasia2023.html#thanks-to",
