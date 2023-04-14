@@ -127,7 +127,7 @@ Whisper model in C/C++.
 
 ## Awesome community plugins
 
-- Word-level time stamps with [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped),[whisperX](https://github.com/m-bain/whisperX)
+- Word-level time stamps with [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped),[whisperX](https://github.com/m-bain/whisperX) etc.
 - Fine-Tune Whisper is achieving SOTA in lot of languages
 - [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
 - [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
@@ -327,6 +327,7 @@ You maybe able to achieve SOTA in your own language with Whisper
 4. [AbdulMajedRaja RS](https://www.youtube.com/@1littlecoder)
 5. [Georgi Gerganov](https://github.com/ggerganov)
 6. [Ramsri Goutham](https://ramsri.ai/)
+7. [Jarvis Labs](cloud.jarvislabs.ai/)
 
 
 ## Tributes to Areeb Jamal
