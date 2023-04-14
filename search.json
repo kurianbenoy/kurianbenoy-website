@@ -1838,7 +1838,7 @@
     "href": "talks/fossasia2023.html#awesome-community-plugins",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Awesome community plugins",
-    "text": "Awesome community plugins\n\nWord-level time stamps with whisper-timestamped,whisperX\nFine-Tune Whisper is achieving SOTA in lot of languages\nSpeaker diarization\nAudio classification using OpenAI’s Whisper\n\n\n\nThanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper"
+    "text": "Awesome community plugins\n\nWord-level time stamps with whisper-timestamped,whisperX etc.\nFine-Tune Whisper is achieving SOTA in lot of languages\nSpeaker diarization\nAudio classification using OpenAI’s Whisper\n\n\n\nThanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper"
   },
   {
     "objectID": "talks/fossasia2023.html#what-is-fine-tuning",
@@ -1985,7 +1985,7 @@
     "href": "talks/fossasia2023.html#thanks-to",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Thanks to",
-    "text": "Thanks to\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar and other members in Swathanthra Malayalam Computing community.\nAbdulMajedRaja RS\nGeorgi Gerganov\nRamsri Goutham"
+    "text": "Thanks to\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar and other members in Swathanthra Malayalam Computing community.\nAbdulMajedRaja RS\nGeorgi Gerganov\nRamsri Goutham\nJarvis Labs"
   },
   {
     "objectID": "talks/fossasia2023.html#tributes-to-areeb-jamal",
