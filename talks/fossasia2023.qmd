@@ -188,11 +188,11 @@ results.
 [Whisper Event huggingface page](https://huggingface.co/whisper-event)
 :::
 
-## Malayalam Speech Recognition models in Whisper Event
+## Malayalam models in Whisper Event
 
-- For the language Malayalam, the results are as follows in Common Voice dataset subsection of Malayalam:
+- For the language Malayalam, the results are as follows:
 
-![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png)
+![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
 
 ## Winning models in Malayalam in Whisper Event
 
@@ -220,11 +220,13 @@ is a big deal.
 
 4. Didn't trust the Hugging Face way of evaluating models.
 
-![thennal/whisper-medium-ml model card readme](fossasia2023/thennal_model_card.png){.absolute top=200 left=0 width="350" height="500"}
+![thennal/whisper-medium-ml model card readme](fossasia2023/thennal_model_card.png)
 
-![Last commit in thennal/whisper-medium-ml](fossasia2023/thennal_commit.png){.absolute top=200 right=50 width="350" height="300"}
+![Last commit in thennal/whisper-medium-ml](fossasia2023/thennal_commit.png)
 
-## I wanted to build something
+## I wanted to build something new
+
+- New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
 
 ![Time for a new adventure](fossasia2023/adventure_talk.jpg)
 
@@ -236,19 +238,26 @@ In Malayalam, the winners were:
 - Fleurs - parambharath/whisper-small-ml
 :::
 
-## Kavya tweet
+##
+
+{{< tweet kurianbenoy2 1633647128059969536 >}}
+
+##
 
 {{< tweet kavya_manohar 1633755478818959372 >}}
 
-## Fine tuning whisper in Malayalam
+## Results on Benchmarking in Malayalam
 
-The base-whisper model was trained on Malayalam:
+- Started with 6 fine-tuned models in Malayalam
 
-- but just half an hour dataset was used to train the model
+1. thennal/whisper-medium-ml
+2. parambharat/whisper-tiny-ml
+3. parambharat/whisper-base-ml
+4. parambharat/whisper-small-ml
+5. anuragshas/whisper-large-v2-ml
+6. DrishtiSharma/whisper-large-v2-malayalam
 
-::: {.notes}
-Thanks to Whisper event.
-:::
+- Compared it with [6 model versions released by OpenAI](https://github.com/openai/whisper).
 
 ## Results on benechmarking in Common Voice dataset
 
@@ -299,21 +308,9 @@ largev2 - 103.2
 
 ## Conclusion
 
-
-According to whisper in future work section:
-
-**Studying fine-tuning **
-
->In this work, we have focused on
-the robustness properties of speech processing systems and
-as a result only studied the zero-shot transfer performance
-of Whisper. While this is a crucial setting to study due to it
-being representative of general reliability, for many domains
-where high-quality supervised speech data does exist, it is
-likely that results can be improved further by fine-tuning.
-An additional benefit of studying fine-tuning is that it allows
-for direct comparisons with prior work since it is a much
-more common evaluation setting.
+- In Malayalam we have achieved phenomenal results for fine tuned whisper models.
+- We seems to have build really good ASR suitable for production use-cases.
+- You can also do it in your own language especially if it is a low resource language.
 
 ::: {.notes}
 You maybe able to achieve SOTA in your own language with Whisper
