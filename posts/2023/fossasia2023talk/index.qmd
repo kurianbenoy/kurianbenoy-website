@@ -6,6 +6,7 @@ date: 2023-04-15
 date-format: full
 categories: [conference, fossasia, Audio, Deep learning, SMC]
 lang: en
+image: IMG_20230415_094452682_HDR.jpg
 comments: false
 format:
   html:
@@ -19,11 +20,20 @@ format:
 
 - [Slides](https://kurianbenoy.com/talks/fossasia2023.html)
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
+
+Please note mine was the first session of the day.
+
 - [Session Details in FOSSASIA Website](https://eventyay.com/e/7cfe0771/session/8074)
 
 ## Pictures from Session
 
-![A snap from live stream session of my talks](youtube_livestream.png)
+![During the talk](IMG_20230415_094452682_HDR.jpg){width=800 fig-align="left"}
+
+![Last minute preparation before talk](IMG_20230415_090740256_HDR.jpg){width=800 fig-align="left"}
+
+![Volunteers helping me with the talk](IMG_20230415_092949649.jpg){width=800 fig-align="left"}
+
+![A snap from live stream session of my talks](youtube_livestream.png){width=800 fig-align="left"}
 
 ## Talk in 30 seconds
 
@@ -32,3 +42,12 @@ importance of finetuning Whisper in low-resource language like Malayalam which i
 almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where
 calculated with a new github project called [malayalam_asr_benchmarking created by me](https://github.com/kurianbenoy/malayalam_asr_benchmarking).
 
+
+## Thanks to
+
+In my talk I mentioned [the following people and organizations](https://kurianbenoy.com/talks/fossasia2023.html#/thanks-to). Beyond that first of all, I would like to thank FOSSASIA team for giving me this opportunity to talk in FOSSASIA Summit 2023. I would like to thank [Abhijit PA](https://abhijithpa.me/) for taking pictures of my talk and Thorsen for moderating my session.
+
+## Questions received
+
+1. Someone was curious to know the relationship between Malayalam language
+and the Sanskrit language. I told him that Malayalam is a Dravidian language and there is another class called Devanagiri languages which according to my knowledge is originated from Sanskrit.
