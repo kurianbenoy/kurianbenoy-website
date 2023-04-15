@@ -10,7 +10,81 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Tue, 04 Apr 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 15 Apr 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>OpenAI Whisper and it’s amazing power to do finetuning (FOSSASIA 2023 Talk Page)</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/fossasia2023talk/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="links-to-talk" class="level2">
+<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
+<ul>
+<li><a href="https://kurianbenoy.com/talks/fossasia2023.html">Slides</a></li>
+<li><a href="https://www.youtube.com/live/sGWiXzsLGtI">Youtube live video stream</a></li>
+</ul>
+<p>Please note mine was the first session of the day.</p>
+<ul>
+<li><a href="https://eventyay.com/e/7cfe0771/session/8074">Session Details in FOSSASIA Website</a></li>
+</ul>
+</section>
+<section id="pictures-from-session" class="level2">
+<h2 class="anchored" data-anchor-id="pictures-from-session">Pictures from Session</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" class="img-fluid figure-img" width="800"></p>
+<p></p><figcaption class="figure-caption">During the talk</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_090740256_HDR.jpg" class="img-fluid figure-img" width="800"></p>
+<p></p><figcaption class="figure-caption">Last minute preparation before talk</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_092949649.jpg" class="img-fluid figure-img" width="800"></p>
+<p></p><figcaption class="figure-caption">Volunteers helping me with the talk</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/youtube_livestream.png" class="img-fluid figure-img" width="800"></p>
+<p></p><figcaption class="figure-caption">A snap from live stream session of my talks</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="talk-in-30-seconds" class="level2">
+<h2 class="anchored" data-anchor-id="talk-in-30-seconds">Talk in 30 seconds</h2>
+<p>I talked about what is OpenAI whisper and some of it’s amazing feature. I highlighted the importance of finetuning Whisper in low-resource language like Malayalam which is able to get almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where calculated with a new github project called <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking created by me</a>.</p>
+</section>
+<section id="thanks-to" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
+<p>In my talk I mentioned <a href="https://kurianbenoy.com/talks/fossasia2023.html#/thanks-to">the following people and organizations</a>. Beyond that first of all, I would like to thank FOSSASIA team for giving me this opportunity to talk in FOSSASIA Summit 2023. I would like to thank <a href="https://abhijithpa.me/">Abhijit PA</a> for taking pictures of my talk and Thorsen for moderating my session.</p>
+</section>
+<section id="questions-received" class="level2">
+<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
+<ol type="1">
+<li>Someone was curious to know the relationship between Malayalam language and the Sanskrit language. I told him that Malayalam is a Dravidian language and there is another class called Devanagiri languages which according to my knowledge is originated from Sanskrit.</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>conference</category>
+  <category>fossasia</category>
+  <category>Audio</category>
+  <category>Deep learning</category>
+  <category>SMC</category>
+  <guid>https://kurianbenoy.com/posts/2023/fossasia2023talk/index.html</guid>
+  <pubDate>Sat, 15 Apr 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Four super powers of Jeremy Howard</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -150,19 +224,19 @@
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-18661"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-18661").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-72832"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-72832").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-40204"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-40204").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-40032"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-40032").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-70594"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-70594").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-15808"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15808").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-97776"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"Full Stack Deep Learning","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; Full Stack Deep Learning (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97776").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-31008"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"Full Stack Deep Learning","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; Full Stack Deep Learning (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-31008").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -181,14 +255,14 @@
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-79906"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-79906").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-71995"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-71995").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-96214"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-96214").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-85465"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-85465").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-33414"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-33414").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-27886"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27886").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-45713"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-45713").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-32220"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-32220").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -620,9 +694,9 @@ Important
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-22903"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22903").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-37711"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-37711").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-87193"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-87193").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-53306"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-53306").innerHTML = tweet["html"];</script><p></p>
 
 
 
@@ -3405,763 +3479,6 @@ Important
   <guid>https://kurianbenoy.com/posts/2022/2022-05-03-fastai-52.html</guid>
   <pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/images/fastailesson2.png" medium="image" type="image/png" height="67" width="144"/>
-</item>
-<item>
-  <title>Music genre classifier using fast.ai</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-05-01-audiocnndemo.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>UPDATE - This project got featured in some of the cool project Jeremy Howard shared in lesson3 of fastaiv5 course.</p>
-<p>During first lesson of Practical Deep Learning for Coders course, Jeremy had mentioned how using simple computer vision model we can build even a model to classify audio with image classification model itself.</p>
-<p>Recently Kaggle grandmaster <a href="https://www.kaggle.com/robikscube">Rob Mulla</a> conducted a challenge to classify music according to what genre it was. At stakes there was a RTX 3080 Ti GPU. Let’s look how we can classify music genres using a simple computer vision model which was taught in the first lesson of fast.ai.</p>
-</section>
-<section id="downloading-packages-and-importing-libraries" class="level2">
-<h2 class="anchored" data-anchor-id="downloading-packages-and-importing-libraries">Downloading packages and importing libraries</h2>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I had already installed fastai, pytorch for training this model before hand.</p>
-</div>
-</div>
-<div class="cell" data-execution_count="1">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">!</span> pip install <span class="op" style="color: #5E5E5E;">-</span>Uqq kaggle git<span class="op" style="color: #5E5E5E;">+</span>https:<span class="op" style="color: #5E5E5E;">//</span>github.com<span class="op" style="color: #5E5E5E;">/</span>huggingface<span class="op" style="color: #5E5E5E;">/</span>huggingface_hub<span class="co" style="color: #5E5E5E;">#egg=huggingface-hub["fastai"]</span></span></code></pre></div>
-</details>
-</div>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;">from</span> fastai.data.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb2-2"><span class="im" style="color: #00769E;">from</span> fastai.imports <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb2-3"><span class="im" style="color: #00769E;">from</span> fastai.vision.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb2-4"></span>
-<span id="cb2-5"><span class="im" style="color: #00769E;">from</span> huggingface_hub <span class="im" style="color: #00769E;">import</span> push_to_hub_fastai</span></code></pre></div>
-</div>
-</section>
-<section id="collecting-data" class="level2">
-<h2 class="anchored" data-anchor-id="collecting-data">Collecting Data</h2>
-<p>In this piece of code, I will show you how you can download datasets from Kaggle in general and the datasets I had used for training model. Inorder to train models in audio, first convert the audio to a spectogram and throw an image model. Check this tweet from <a href="https://twitter.com/DienhoaT">Dien Hoa Truong</a> who won a NVIDIA RTX 3080 Ti GPU in this competition.</p>
-<blockquote class="blockquote">
-<p>twitter: https://twitter.com/DienhoaT/status/1519785308715462656</p>
-</blockquote>
-<p>For this competition you need two datasets:</p>
-<ol type="1">
-<li><a href="https://www.kaggle.com/competitions/kaggle-pog-series-s01e02/data">The competition data</a></li>
-<li><a href="https://www.kaggle.com/datasets/dienhoa/music-genre-spectrogram-pogchamps">Image data generated from converting audio to melspectograms in form of images</a></li>
-</ol>
-<p>The data provided here are over 20,000 royalty free song samples (30 second clips) and their musical genres. Your task is to create a machine learning algorithm capable of predicting the genres of unlabeled music files. Create features, design architectures, do whatever it takes to predict them the best.</p>
-<p><a href="https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners">The code for downloading data from kaggle has been adopted from Jeremy’s notebook</a></p>
-<div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">creds <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">""</span></span>
-<span id="cb3-2"></span>
-<span id="cb3-3"><span class="im" style="color: #00769E;">from</span> pathlib <span class="im" style="color: #00769E;">import</span> Path</span>
-<span id="cb3-4"></span>
-<span id="cb3-5">cred_path <span class="op" style="color: #5E5E5E;">=</span> Path(<span class="st" style="color: #20794D;">"~/.kaggle/kaggle.json"</span>).expanduser()</span>
-<span id="cb3-6"><span class="cf" style="color: #003B4F;">if</span> <span class="kw" style="color: #003B4F;">not</span> cred_path.exists():</span>
-<span id="cb3-7">    cred_path.parent.mkdir(exist_ok<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>)</span>
-<span id="cb3-8">    cred_path.write_text(creds)</span>
-<span id="cb3-9">    cred_path.chmod(<span class="bn" style="color: #AD0000;">0o600</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">path <span class="op" style="color: #5E5E5E;">=</span> Path(<span class="st" style="color: #20794D;">"../input/kaggle-pog-series-s01e02"</span>)</span>
-<span id="cb4-2">path.ls()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="5">
-<pre><code>(#6) [Path('input/kaggle-pog-series-s01e02/genres.csv'),Path('input/kaggle-pog-series-s01e02/sample_submission.csv'),Path('input/kaggle-pog-series-s01e02/test.csv'),Path('input/kaggle-pog-series-s01e02/test'),Path('input/kaggle-pog-series-s01e02/train.csv'),Path('input/kaggle-pog-series-s01e02/train')]</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="im" style="color: #00769E;">from</span> zipfile <span class="im" style="color: #00769E;">import</span> ZipFile</span>
-<span id="cb6-2"><span class="im" style="color: #00769E;">from</span> kaggle <span class="im" style="color: #00769E;">import</span> api</span>
-<span id="cb6-3"></span>
-<span id="cb6-4"><span class="cf" style="color: #003B4F;">if</span> <span class="kw" style="color: #003B4F;">not</span> path.exists():</span>
-<span id="cb6-5">    api.competition_download_cli(<span class="bu" style="color: null;">str</span>(path))</span>
-<span id="cb6-6">    ZipFile(<span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>path<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.zip"</span>).extractall(path)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Downloading kaggle-pog-series-s01e02.zip to /home</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>100%|██████████| 9.05G/9.05G [07:54&lt;00:00, 20.5MB/s]</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code></code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code></code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="op" style="color: #5E5E5E;">!</span> kaggle datasets download <span class="op" style="color: #5E5E5E;">-</span>d dienhoa<span class="op" style="color: #5E5E5E;">/</span>music<span class="op" style="color: #5E5E5E;">-</span>genre<span class="op" style="color: #5E5E5E;">-</span>spectrogram<span class="op" style="color: #5E5E5E;">-</span>pogchamps</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Downloading music-genre-spectrogram-pogchamps.zip to /home
-100%|█████████████████████████████████████▉| 6.80G/6.80G [07:00&lt;00:00, 14.7MB/s]
-100%|██████████████████████████████████████| 6.80G/6.80G [07:00&lt;00:00, 17.4MB/s]</code></pre>
-</div>
-</div>
-</section>
-<section id="quick-eda-and-data-cleaning" class="level2">
-<h2 class="anchored" data-anchor-id="quick-eda-and-data-cleaning">Quick EDA and Data Cleaning</h2>
-<div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">df_train <span class="op" style="color: #5E5E5E;">=</span> pd.read_csv(<span class="st" style="color: #20794D;">"../input/kaggle-pog-series-s01e02/train.csv"</span>)</span>
-<span id="cb13-2">df_train.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="17">
-
-<div>
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>song_id</th>
-      <th>filename</th>
-      <th>filepath</th>
-      <th>genre_id</th>
-      <th>genre</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>10150</td>
-      <td>010150.ogg</td>
-      <td>train/010150.ogg</td>
-      <td>7</td>
-      <td>Instrumental</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>7358</td>
-      <td>007358.ogg</td>
-      <td>train/007358.ogg</td>
-      <td>2</td>
-      <td>Punk</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20573</td>
-      <td>020573.ogg</td>
-      <td>train/020573.ogg</td>
-      <td>5</td>
-      <td>Folk</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>11170</td>
-      <td>011170.ogg</td>
-      <td>train/011170.ogg</td>
-      <td>12</td>
-      <td>Old-Time / Historic</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>16662</td>
-      <td>016662.ogg</td>
-      <td>train/016662.ogg</td>
-      <td>1</td>
-      <td>Rock</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">df_train[<span class="st" style="color: #20794D;">"filepath"</span>] <span class="op" style="color: #5E5E5E;">=</span> df_train[<span class="st" style="color: #20794D;">"filepath"</span>].<span class="bu" style="color: null;">str</span>.replace(<span class="st" style="color: #20794D;">"ogg"</span>, <span class="st" style="color: #20794D;">"png"</span>)</span></code></pre></div>
-</div>
-<p><strong>Shows a highly imbalanced dataset</strong></p>
-<div class="cell" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">df_train[<span class="st" style="color: #20794D;">"genre"</span>].value_counts()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="19">
-<pre><code>Rock                   3097
-Electronic             3073
-Punk                   2584
-Experimental           1801
-Hip-Hop                1761
-Folk                   1215
-Chiptune / Glitch      1181
-Instrumental           1045
-Pop                     945
-International           814
-Ambient Electronic      796
-Classical               495
-Old-Time / Historic     408
-Jazz                    306
-Country                 142
-Soul-RnB                 94
-Spoken                   94
-Blues                    58
-Easy Listening           13
-Name: genre, dtype: int64</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">df_train.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="20">
-
-<div>
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>song_id</th>
-      <th>filename</th>
-      <th>filepath</th>
-      <th>genre_id</th>
-      <th>genre</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>10150</td>
-      <td>010150.ogg</td>
-      <td>train/010150.png</td>
-      <td>7</td>
-      <td>Instrumental</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>7358</td>
-      <td>007358.ogg</td>
-      <td>train/007358.png</td>
-      <td>2</td>
-      <td>Punk</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20573</td>
-      <td>020573.ogg</td>
-      <td>train/020573.png</td>
-      <td>5</td>
-      <td>Folk</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>11170</td>
-      <td>011170.ogg</td>
-      <td>train/011170.png</td>
-      <td>12</td>
-      <td>Old-Time / Historic</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>16662</td>
-      <td>016662.ogg</td>
-      <td>train/016662.png</td>
-      <td>1</td>
-      <td>Rock</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1">df_train <span class="op" style="color: #5E5E5E;">=</span> df_train.set_index(<span class="st" style="color: #20794D;">"song_id"</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="22">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><span class="co" style="color: #5E5E5E;"># I noticed some of images are missing music-genre-spectrogram-pogchamps images which are in training data. So removed it</span></span>
-<span id="cb19-2">df_train <span class="op" style="color: #5E5E5E;">=</span> df_train.drop(</span>
-<span id="cb19-3">    [</span>
-<span id="cb19-4">        <span class="dv" style="color: #AD0000;">23078</span>,</span>
-<span id="cb19-5">        <span class="dv" style="color: #AD0000;">3137</span>,</span>
-<span id="cb19-6">        <span class="dv" style="color: #AD0000;">4040</span>,</span>
-<span id="cb19-7">        <span class="dv" style="color: #AD0000;">15980</span>,</span>
-<span id="cb19-8">        <span class="dv" style="color: #AD0000;">11088</span>,</span>
-<span id="cb19-9">        <span class="dv" style="color: #AD0000;">9963</span>,</span>
-<span id="cb19-10">        <span class="dv" style="color: #AD0000;">24899</span>,</span>
-<span id="cb19-11">        <span class="dv" style="color: #AD0000;">16312</span>,</span>
-<span id="cb19-12">        <span class="dv" style="color: #AD0000;">22698</span>,</span>
-<span id="cb19-13">        <span class="dv" style="color: #AD0000;">17940</span>,</span>
-<span id="cb19-14">        <span class="dv" style="color: #AD0000;">22295</span>,</span>
-<span id="cb19-15">        <span class="dv" style="color: #AD0000;">3071</span>,</span>
-<span id="cb19-16">        <span class="dv" style="color: #AD0000;">13954</span>,</span>
-<span id="cb19-17">    ]</span>
-<span id="cb19-18">)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="23">
-<div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1">df_train.shape</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="23">
-<pre><code>(19909, 4)</code></pre>
-</div>
-</div>
-</section>
-<section id="loading-data-using-fastai-dataloaders" class="level2">
-<h2 class="anchored" data-anchor-id="loading-data-using-fastai-dataloaders">Loading Data using fastai DataLoaders</h2>
-<p>For creating this notebook, I spend a major portion of my time in cleaning and sorting out appropriate datablocks/dataloaders for training image models using fast.ai. This is something which you as a practitioner experience, compared to learning all the theory and backpropogation algorithm.</p>
-<p>So let’s see how we load this data using fast.ai. There are two approaches which we will discuss below. Both the approaches of loading data works, but the first approach as a disadvantage, which I will tell in a moment.</p>
-<p><strong>Approach 1. Using DataBlock and loading images</strong></p>
-<ul>
-<li>Create a data frame <code>temp_train</code> and create new column <code>is_valid</code></li>
-<li><code>is_valid</code> is default column named created for using <a href="https://docs.fast.ai/data.transforms.html#ColSplitter">ColSplitter</a></li>
-<li>Now set <code>get_x</code> which specifies the path of files for inputting data which is set as base_path+filename path: <em>lambda o:f’{path}/’+o.path</em></li>
-<li>Now set <code>get_y</code> which specifies the variable to predict, ie the genre of music</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1">temp_train <span class="op" style="color: #5E5E5E;">=</span> df_train</span>
-<span id="cb22-2">temp_train.loc[:<span class="dv" style="color: #AD0000;">15000</span>, <span class="st" style="color: #20794D;">"is_valid"</span>] <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">True</span></span>
-<span id="cb22-3">temp_train.loc[<span class="dv" style="color: #AD0000;">15000</span>:, <span class="st" style="color: #20794D;">"is_valid"</span>] <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">False</span></span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1">path <span class="op" style="color: #5E5E5E;">=</span> Path(<span class="st" style="color: #20794D;">"../input/music-genre-spectrogram-pogchamps/spectograms/"</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1">dblock <span class="op" style="color: #5E5E5E;">=</span> DataBlock(</span>
-<span id="cb24-2">    blocks<span class="op" style="color: #5E5E5E;">=</span>(ImageBlock, CategoryBlock),</span>
-<span id="cb24-3">    splitter<span class="op" style="color: #5E5E5E;">=</span>ColSplitter(),</span>
-<span id="cb24-4">    get_x<span class="op" style="color: #5E5E5E;">=</span><span class="kw" style="color: #003B4F;">lambda</span> o: <span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>path<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">/"</span> <span class="op" style="color: #5E5E5E;">+</span> o.path,</span>
-<span id="cb24-5">    get_y<span class="op" style="color: #5E5E5E;">=</span><span class="kw" style="color: #003B4F;">lambda</span> o: o.genre,</span>
-<span id="cb24-6">    item_tfms<span class="op" style="color: #5E5E5E;">=</span>Resize(<span class="dv" style="color: #AD0000;">224</span>),</span>
-<span id="cb24-7">    batch_tfms<span class="op" style="color: #5E5E5E;">=</span>aug_transforms(),</span>
-<span id="cb24-8">)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1">dls <span class="op" style="color: #5E5E5E;">=</span> dblock.dataloaders(temp_train)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">dls.show_batch()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><span class="co" style="color: #5E5E5E;"># Can be used for debugging</span></span>
-<span id="cb27-2"><span class="co" style="color: #5E5E5E;"># dblock.summary(df_train)</span></span></code></pre></div>
-</div>
-<p>This worked really well, and with this approach I was even able to train a ML model which got 50% accuracy.</p>
-<blockquote class="blockquote">
-<p>twitter: https://twitter.com/kurianbenoy2/status/1520470393760272384</p>
-</blockquote>
-<p>Yet when it came to export models, due to usage of <strong>lamda method in DataBlock</strong>. I got <a href="https://gist.github.com/kurianbenoy/e672bf20831d14af47436300a4951fd5">Pickling error</a> as the model was not able to be exported with <code>learn.export()</code> method.</p>
-<p><strong>2. Using DataLoaders methods with loading from dataframe method</strong></p>
-<p>This issue got me into using approach that using <code>ImageDataLoaders.from_df</code> in fastai. Let’s first take a look at our <code>df_train</code> dataframe:</p>
-<div class="cell" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1">df_train.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="24">
-
-<div>
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>filename</th>
-      <th>filepath</th>
-      <th>genre_id</th>
-      <th>genre</th>
-    </tr>
-    <tr>
-      <th>song_id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>10150</th>
-      <td>010150.ogg</td>
-      <td>train/010150.png</td>
-      <td>7</td>
-      <td>Instrumental</td>
-    </tr>
-    <tr>
-      <th>7358</th>
-      <td>007358.ogg</td>
-      <td>train/007358.png</td>
-      <td>2</td>
-      <td>Punk</td>
-    </tr>
-    <tr>
-      <th>20573</th>
-      <td>020573.ogg</td>
-      <td>train/020573.png</td>
-      <td>5</td>
-      <td>Folk</td>
-    </tr>
-    <tr>
-      <th>11170</th>
-      <td>011170.ogg</td>
-      <td>train/011170.png</td>
-      <td>12</td>
-      <td>Old-Time / Historic</td>
-    </tr>
-    <tr>
-      <th>16662</th>
-      <td>016662.ogg</td>
-      <td>train/016662.png</td>
-      <td>1</td>
-      <td>Rock</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-</div>
-<p>If you look at the dataframe, we know that on appending to the path, the filepath column. - This is the exact value for <code>get_x</code> method in fastai <code>fn_col = 1</code> which specifies the column name <code>filepath</code> at position 1. - label or <code>get_y</code> is specified by the column name <code>genre</code> at position 3. - valid_pct (ensure what percentage of data to be used for validation) - y_block=CategoryBlock to ensure it’s used for normal classification only and not multi-label</p>
-<div class="cell" data-execution_count="28">
-<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1">dls <span class="op" style="color: #5E5E5E;">=</span> ImageDataLoaders.from_df(</span>
-<span id="cb29-2">    df_train,</span>
-<span id="cb29-3">    path,</span>
-<span id="cb29-4">    valid_pct<span class="op" style="color: #5E5E5E;">=</span><span class="fl" style="color: #AD0000;">0.2</span>,</span>
-<span id="cb29-5">    seed<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">34</span>,</span>
-<span id="cb29-6">    y_block<span class="op" style="color: #5E5E5E;">=</span>CategoryBlock,</span>
-<span id="cb29-7">    item_tfms<span class="op" style="color: #5E5E5E;">=</span>Resize(<span class="dv" style="color: #AD0000;">460</span>),</span>
-<span id="cb29-8">    batch_tfms<span class="op" style="color: #5E5E5E;">=</span>aug_transforms(size<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">224</span>),</span>
-<span id="cb29-9">    fn_col<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">1</span>,</span>
-<span id="cb29-10">    label_col<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">3</span>,</span>
-<span id="cb29-11">)</span>
-<span id="cb29-12">dls.show_batch()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-22-output-1.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-<section id="training-fastai-model" class="level2">
-<h2 class="anchored" data-anchor-id="training-fastai-model">Training fastai model</h2>
-<p>I trained using a <code>resnet18 model</code> at first, later we stepped up to use <code>resnet50</code> model.</p>
-<div class="cell" data-execution_count="29">
-<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1">learn <span class="op" style="color: #5E5E5E;">=</span> vision_learner(dls, resnet50, metrics<span class="op" style="color: #5E5E5E;">=</span>error_rate)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="30">
-<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1">learn.lr_find()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display" data-execution_count="30">
-<pre><code>SuggestedLRs(valley=0.0008317637839354575)</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-24-output-4.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="cell" data-execution_count="31">
-<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1">learn.fine_tune(<span class="dv" style="color: #AD0000;">10</span>, <span class="fl" style="color: #AD0000;">0.0008317637839354575</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th>epoch</th>
-      <th>train_loss</th>
-      <th>valid_loss</th>
-      <th>error_rate</th>
-      <th>time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>2.869285</td>
-      <td>2.171426</td>
-      <td>0.616428</td>
-      <td>01:43</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th>epoch</th>
-      <th>train_loss</th>
-      <th>valid_loss</th>
-      <th>error_rate</th>
-      <th>time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>2.312176</td>
-      <td>1.843815</td>
-      <td>0.558654</td>
-      <td>02:07</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2.102361</td>
-      <td>1.719162</td>
-      <td>0.539061</td>
-      <td>02:08</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>1.867139</td>
-      <td>1.623988</td>
-      <td>0.527003</td>
-      <td>02:08</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>1.710557</td>
-      <td>1.527913</td>
-      <td>0.507661</td>
-      <td>02:07</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>1.629478</td>
-      <td>1.456836</td>
-      <td>0.479779</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>1.519305</td>
-      <td>1.433036</td>
-      <td>0.474253</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>1.457465</td>
-      <td>1.379757</td>
-      <td>0.464456</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>1.396283</td>
-      <td>1.369344</td>
-      <td>0.457925</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>1.359388</td>
-      <td>1.367973</td>
-      <td>0.453655</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>1.364363</td>
-      <td>1.368887</td>
-      <td>0.456167</td>
-      <td>02:04</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-<div class="cell" data-execution_count="32">
-<div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1">learn.export(<span class="st" style="color: #20794D;">"model.pkl"</span>)</span></code></pre></div>
-</div>
-</section>
-<section id="pushing-models-to-hugging-face" class="level2">
-<h2 class="anchored" data-anchor-id="pushing-models-to-hugging-face">Pushing models to hugging face</h2>
-<p><code>huggingface_hub</code> has released two new functions to easily push fastai models to <a href="https://huggingface.co/models">Huggingface Hub</a>.</p>
-<ul>
-<li>Using <code>push_to_hub_fastai</code> you can easily push the fastai Learner to huggingface.</li>
-<li>Additionally, you can load any fastai Learner from the Hub using <code>from_pretrained_fastai</code></li>
-</ul>
-<p><a href="https://twitter.com/espejelomar">Omar Espejel</a> had shared a fantastic notebook on <a href="https://colab.research.google.com/gist/omarespejel/9ba054ce74c7a4d4408085b611124bdf">these new functionalities in huggingface here</a>.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You should install git-lfs and login to huggingface account with token before pushing</p>
-</div>
-</div>
-<div class="cell" data-execution_count="33">
-<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><span class="im" style="color: #00769E;">from</span> huggingface_hub <span class="im" style="color: #00769E;">import</span> push_to_hub_fastai</span>
-<span id="cb35-2"></span>
-<span id="cb35-3">push_to_hub_fastai(</span>
-<span id="cb35-4">    learn,</span>
-<span id="cb35-5">    <span class="st" style="color: #20794D;">"kurianbenoy/music_genre_classification_baseline"</span>,</span>
-<span id="cb35-6">    commit_message<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"Resnet50 with 10 epochs of training"</span>,</span>
-<span id="cb35-7">)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/music_genre_classification_baseline is already a clone of https://huggingface.co/kurianbenoy/music_genre_classification_baseline. Make sure you pull the latest changes with `repo.git_pull()`.</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"a0f99139c5ff4081b04d1cca65f16492","version_major":2,"version_minor":0}
-</script>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>To https://huggingface.co/kurianbenoy/music_genre_classification_baseline
-   390320d..3605083  main -&gt; main
-</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="33">
-<pre><code>'https://huggingface.co/kurianbenoy/music_genre_classification_baseline/commit/360508311005aefeb3ca29933f2173202afe4f30'</code></pre>
-</div>
-</div>
-<p>If you want to load this model in fastai and use it directly for inference just <code>from_pretrain_fastai</code> as shown in the below screenshot:</p>
-<pre><code>from huggingface_hub import from_pretrained_fastai
-
-learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline")</code></pre>
-<!-- ![image](https://user-images.githubusercontent.com/24592806/166294010-f996f9e1-588c-4bdc-9466-e4e8b8fb7148.png) -->
-</section>
-<section id="taking-a-look-at-results" class="level2">
-<h2 class="anchored" data-anchor-id="taking-a-look-at-results">Taking a look at results</h2>
-<div class="cell" data-execution_count="36">
-<div class="sourceCode cell-code" id="cb40" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1">learn.show_results()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-28-output-3.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="cell" data-execution_count="37">
-<div class="sourceCode cell-code" id="cb41" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1">interp <span class="op" style="color: #5E5E5E;">=</span> Interpretation.from_learner(learn)</span>
-<span id="cb41-2">interp.plot_top_losses(<span class="dv" style="color: #AD0000;">9</span>, figsize<span class="op" style="color: #5E5E5E;">=</span>(<span class="dv" style="color: #AD0000;">15</span>, <span class="dv" style="color: #AD0000;">10</span>))</span></code></pre></div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display">
-
-<style>
-    /* Turns off some styling */
-    progress {
-        /* gets rid of default border in Firefox and Opera. */
-        border: none;
-        /* Needs to be in here for Safari polyfill so background images work as expected. */
-        background-size: auto;
-    }
-    .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
-        background: #F44336;
-    }
-</style>
-</div>
-<div class="cell-output cell-output-display">
-
-</div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-01-AudioCNNDemo_files/figure-html/cell-29-output-5.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-<section id="inference-function" class="level2">
-<h2 class="anchored" data-anchor-id="inference-function">Inference function</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb42" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><span class="im" style="color: #00769E;">from</span> fastai.vision.<span class="bu" style="color: null;">all</span> <span class="im" style="color: #00769E;">import</span> <span class="op" style="color: #5E5E5E;">*</span></span>
-<span id="cb42-2"><span class="im" style="color: #00769E;">from</span> huggingface_hub <span class="im" style="color: #00769E;">import</span> from_pretrained_fastai</span>
-<span id="cb42-3"></span>
-<span id="cb42-4">learn <span class="op" style="color: #5E5E5E;">=</span> from_pretrained_fastai(<span class="st" style="color: #20794D;">"kurianbenoy/music_genre_classification_baseline"</span>)</span>
-<span id="cb42-5"></span>
-<span id="cb42-6"></span>
-<span id="cb42-7"><span class="kw" style="color: #003B4F;">def</span> predict(img):</span>
-<span id="cb42-8">    img <span class="op" style="color: #5E5E5E;">=</span> PILImage.create(img)</span>
-<span id="cb42-9">    _pred, _pred_w_idx, probs <span class="op" style="color: #5E5E5E;">=</span> learn.predict(img)</span>
-<span id="cb42-10">    labels_probs <span class="op" style="color: #5E5E5E;">=</span> {labels[i]: <span class="bu" style="color: null;">float</span>(probs[i]) <span class="cf" style="color: #003B4F;">for</span> i, _ <span class="kw" style="color: #003B4F;">in</span> <span class="bu" style="color: null;">enumerate</span>(labels)}</span>
-<span id="cb42-11">    <span class="cf" style="color: #003B4F;">return</span> labels_probs</span></code></pre></div>
-</div>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>We trained a ML model which can identify with 54.4% accuracy to classify in a music file which genre it is. It’s not so bad for a baseline model. Dien Hoa Truong has shared some techniques which he learned during Kaggle competition with music genres.</p>
-<p></p><div id="tweet-10134"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-10134").innerHTML = tweet["html"];</script><p></p>
-<p>Thanks for reading :pray:</p>
-
-
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-05-01-audiocnndemo.html</guid>
-  <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/music.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
