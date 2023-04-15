@@ -33,12 +33,12 @@ Please note mine was the first session of the day.
 
 ![Volunteers helping me with the talk](IMG_20230415_092949649.jpg){width=800 fig-align="left"}
 
-![A snap from live stream session of my talks](youtube_livestream.png){width=800 fig-align="left"}
+![A snap from live stream session of my talk](youtube_livestream.png){width=800 fig-align="left"}
 
 ## Talk in 30 seconds
 
 I talked about what is OpenAI whisper and some of it's amazing feature. I highlighted the
-importance of finetuning Whisper in low-resource language like Malayalam which is able to get
+importance of fine-tuning Whisper in low-resource language like Malayalam which is able to get
 almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where
 calculated with a new github project called [malayalam_asr_benchmarking created by me](https://github.com/kurianbenoy/malayalam_asr_benchmarking).
 
@@ -50,4 +50,4 @@ In my talk I mentioned [the following people and organizations](https://kurianbe
 ## Questions received
 
 1. Someone was curious to know the relationship between Malayalam language
-and the Sanskrit language. I told him that Malayalam is a Dravidian language and there is another class called Devanagiri languages which according to my knowledge is originated from Sanskrit.
+and the Sanskrit language. I told him that Malayalam is a Dravidian language and there is another class called Devanagari languages which according to my knowledge is originated from Sanskrit.
