@@ -1,0 +1,29 @@
+---
+title: OpenAI Whisper and it's amazing power to do finetuning (FOSSASIA 2023 Talk Page)
+author: Kurian Benoy
+subtitle: FOSSASIA Summit, Singapore
+date: 2023-04-15
+date-format: full
+categories: [conference, fossasia, Audio, Deep learning, SMC]
+lang: en
+comments: false
+format:
+  html:
+    highlight-style: a11y
+    theme:
+      light: flatly
+      dark: darkly
+---
+
+## Abstract
+
+Whisper is an automatic speech recognition (ASR) system trained on 680,000 hours of multilingual and multitask supervised data collected from the web and was released in opensource around October, 2022.
+In this talk, I will be covering what is the capabilities of Whisper model, and the various features of whisper model. This will serve as an introduction to whisper model.
+
+One of the key things, I want to highlight with this talk, the fine tuning capabilities of Whisper model in any language as whisper support close to 90+ languages with the base model. We have got great results on fine-tuning a Malayalam base whisper model with reported accuracy of a WER of 108% we were able to fine tune to reach a WER of close to 10%(approx 90 percentage accuracy).
+
+## Links to talk
+
+- [Slides](https://kurianbenoy.com/talks/fossasia2023.html)
+- [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
+
