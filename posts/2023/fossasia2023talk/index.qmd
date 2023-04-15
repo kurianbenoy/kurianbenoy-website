@@ -15,15 +15,20 @@ format:
       dark: darkly
 ---
 
-## Abstract
-
-Whisper is an automatic speech recognition (ASR) system trained on 680,000 hours of multilingual and multitask supervised data collected from the web and was released in opensource around October, 2022.
-In this talk, I will be covering what is the capabilities of Whisper model, and the various features of whisper model. This will serve as an introduction to whisper model.
-
-One of the key things, I want to highlight with this talk, the fine tuning capabilities of Whisper model in any language as whisper support close to 90+ languages with the base model. We have got great results on fine-tuning a Malayalam base whisper model with reported accuracy of a WER of 108% we were able to fine tune to reach a WER of close to 10%(approx 90 percentage accuracy).
-
 ## Links to talk
 
 - [Slides](https://kurianbenoy.com/talks/fossasia2023.html)
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
+- [Session Details in FOSSASIA Website](https://eventyay.com/e/7cfe0771/session/8074)
+
+## Pictures from Session
+
+![A snap from live stream session of my talks](youtube_livestream.png)
+
+## Talk in 30 seconds
+
+I talked about what is OpenAI whisper and some of it's amazing feature. I highlighted the
+importance of finetuning Whisper in low-resource language like Malayalam which is able to get
+almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where
+calculated with a new github project called [malayalam_asr_benchmarking created by me](https://github.com/kurianbenoy/malayalam_asr_benchmarking).
 
