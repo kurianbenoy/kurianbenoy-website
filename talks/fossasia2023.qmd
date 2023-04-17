@@ -325,6 +325,7 @@ You maybe able to achieve SOTA in your own language with Whisper
 5. [Georgi Gerganov](https://github.com/ggerganov)
 6. [Ramsri Goutham](https://ramsri.ai/)
 7. [Jarvis Labs](cloud.jarvislabs.ai/)
+8. [Wayde Gilliam](https://twitter.com/waydegilliam)
 
 
 ## Tributes to Areeb Jamal
