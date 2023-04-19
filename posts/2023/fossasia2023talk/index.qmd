@@ -20,15 +20,6 @@ format:
 
 - [Slides](../../../talks/fossasia2023.html)
 
-
-<div>
-
-```{=html}
-<iframe class="slide-deck" src="../../../talks/fossasia2023.html"></iframe>
-```
-
-</div>
-
 - Scheduled Time: Saturday, April 15, 2023, 9:30 AM SGT
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
 
