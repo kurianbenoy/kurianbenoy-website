@@ -18,12 +18,24 @@ format:
 
 ## Links to talk
 
-- [Slides](https://kurianbenoy.com/talks/fossasia2023.html)
+- [Slides](../../../talks/fossasia2023.html)
+
+
+<div>
+
+```{=html}
+<iframe class="slide-deck" src="../../../talks/fossasia2023.html"></iframe>
+```
+
+</div>
+
+- Scheduled Time: Saturday, April 15, 2023, 9:30 AM SGT
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
 
-Please note mine was the first session of the day.
+> Please note mine was the first session of the day.
 
-- [Session Details in FOSSASIA Website](https://eventyay.com/e/7cfe0771/session/8074)
+- Talk Page: [Session Details](https://eventyay.com/e/7cfe0771/session/8074)
+- [Malayalam ASR Benchmarking project](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
 
 ## Pictures from Session
 
@@ -50,4 +62,4 @@ In my talk I mentioned [the following people and organizations](https://kurianbe
 ## Questions received
 
 1. Someone was curious to know the relationship between Malayalam language
-and the Sanskrit language. I told him that Malayalam is a Dravidian language and there is another class called Devanagari languages which according to my knowledge is originated from Sanskrit.
+and the Sanskrit language?
