@@ -8,6 +8,10 @@ format:
     toc: true
 ---
 
+> Update: April 20, 2023
+
+> I found this [brillant article](https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a) on not to be too afraid of latest AI advances by David Heinemeir Hanson who is the creator of Ruby on Rails and co-owner of Basecamp. I think it's a must read for anyone who is a bit worried about latest changes as well as for anyone who is excited about the changes.
+
 ## Buzz about ChatGPT
 
 There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott,
