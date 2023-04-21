@@ -187,14 +187,6 @@ is a big deal.
 
 ![Time for a new adventure](fossasia2023/adventure_talk.jpg)
 
-
-::: {.notes}
-In Malayalam, the winners were:
-
-- CommonVoice 11.0 - thennal/whisper-medium-ml
-- Fleurs - parambharath/whisper-small-ml
-:::
-
 ##
 
 {{< tweet kurianbenoy2 1633647128059969536 >}}
@@ -224,12 +216,6 @@ In Malayalam, the winners were:
 
 ![WER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
 
-::: {.notes}
-Thennal model got the best results:
-
-11.560000 WER, then rest of models got 21-40+ models. 
-:::
-
 ## CER in Common Voice dataset
 
 ![CER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
@@ -241,12 +227,6 @@ Thennal model got the best results:
 ## Results in Malayalam Speech Corpus dataset
 
 ![WER in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
-
-::: {.notes}
-Thennal model got the best results:
-
-11.560000 WER, then rest of models got 21-40+ models. 
-:::
 
 ## CER in Malayalam Speech Corpus
 
@@ -268,10 +248,6 @@ largev2 - 103.2
 - In Malayalam we have achieved phenomenal results for fine tuned whisper models.
 - We seems to have build really good ASR suitable for production use-cases.
 - You can also do it in your own language especially if it is a low resource language.
-
-::: {.notes}
-You maybe able to achieve SOTA in your own language with Whisper
-:::
 
 ## Thanks to
 
