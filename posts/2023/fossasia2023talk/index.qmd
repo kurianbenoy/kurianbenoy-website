@@ -49,6 +49,8 @@ calculated with a new github project called [malayalam_asr_benchmarking created 
 ## Thanks to
 
 In my talk I mentioned [the following people and organizations](https://kurianbenoy.com/talks/fossasia2023.html#/thanks-to). Beyond that first of all, I would like to thank FOSSASIA team for giving me this opportunity to talk in FOSSASIA Summit 2023. I would like to thank [Abhijit PA](https://abhijithpa.me/) for taking pictures of my talk and Thorsen for moderating my session.
+[Karuankar Vanama](https://www.linkedin.com/in/karunakar-vanama-182702145/) pointed out a typo in a slide which was corrected. I got a lot of support after
+this talk when I posted in [LinkedIn](https://www.linkedin.com/posts/kurianbenoy_fossasia-activity-7052803823953739776-KmkL?utm_source=share&utm_medium=member_desktop) and [Twitter](https://twitter.com/kurianbenoy2/status/1647246814410682368) and few folks reached out to me after this talk. I am really thankful to all of you.
 
 ## Questions received
 
