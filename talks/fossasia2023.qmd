@@ -251,14 +251,23 @@ largev2 - 103.2
 
 ## Thanks to
 
+:::: {.columns}
+
+::: {.column width="70%"}
 1. [OpenAI team](https://openai.com/) - Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
 2. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
 3. [Kavya Manohar](https://kavyamanohar.com/) and other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
+:::
+
+::: {.column width="30%"}
 4. [AbdulMajedRaja RS](https://www.youtube.com/@1littlecoder)
 5. [Georgi Gerganov](https://github.com/ggerganov)
 6. [Ramsri Goutham](https://ramsri.ai/)
-7. [Jarvis Labs](cloud.jarvislabs.ai/)
-8. [Wayde Gilliam](https://twitter.com/waydegilliam)
+7. [Wayde Gilliam](https://twitter.com/waydegilliam)
+8. [Jarvis Labs](cloud.jarvislabs.ai/)
+:::
+
+::::
 
 
 ## Tributes to Areeb Jamal
