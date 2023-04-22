@@ -23,7 +23,7 @@ format:
 - Scheduled Time: Saturday, April 15, 2023, 9:30 AM SGT
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
 
-> Please note mine was the first session of the day.
+> Please note mine was the first session of the day. I noticed there was a audio issue at the start of talk, so you can [start listening from 2:30 minutes](https://www.youtube.com/live/sGWiXzsLGtI?feature=share&t=149).
 
 - Talk Page: [Session Details](https://eventyay.com/e/7cfe0771/session/8074)
 - [Malayalam ASR Benchmarking project](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
