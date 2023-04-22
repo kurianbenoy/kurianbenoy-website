@@ -1922,7 +1922,7 @@
     "href": "talks/fossasia2023.html#whisper-event",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "Whisper Event",
-    "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from Decemeber 5th to December 9th.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣\n\n\n\nWhisper Event huggingface page"
+    "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣\n\n\n\nWhisper Event huggingface page"
   },
   {
     "objectID": "talks/fossasia2023.html#malayalam-models-in-whisper-event",
@@ -1943,14 +1943,21 @@
     "href": "talks/fossasia2023.html#i-was-not-convinced",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "I was not convinced",
-    "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\nAchieving 10% WER in Malayalam is astonishing.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is incredibly morpohologically complex language. So even achieving 30% WER is a big deal."
+    "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\nAchieving 10% WER in Malayalam is astonishing.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is a morpohologically complex language. So even achieving 30% WER is a big deal."
   },
   {
     "objectID": "talks/fossasia2023.html#i-was-not-convinced-1",
     "href": "talks/fossasia2023.html#i-was-not-convinced-1",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
     "section": "I was not convinced",
-    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\n\n\nthennal/whisper-medium-ml model card readme\n\n\n\n\n\nLast commit in thennal/whisper-medium-ml"
+    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nthennal/whisper-medium-ml model card readme"
+  },
+  {
+    "objectID": "talks/fossasia2023.html#i-was-not-convinced-2",
+    "href": "talks/fossasia2023.html#i-was-not-convinced-2",
+    "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
+    "section": "I was not convinced",
+    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nLast commit in thennal/whisper-medium-ml"
   },
   {
     "objectID": "talks/fossasia2023.html#i-wanted-to-build-something-new",
