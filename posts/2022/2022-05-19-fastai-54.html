@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,9 +20,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -49,43 +50,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -132,11 +103,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Kurian Benoy - Practical Deep Learning for Coders Course - Lesson 4">
-<meta property="og:description" content="This blog-post series captures my weekly notes while I attend the [fastaiv5 course conducted by University of Queensland with fast.ai](https://itee.uq.edu.">
+<meta property="og:description" content="This blog-post series captures my weekly notes while I attend the fastaiv5 course conducted by University of Queensland with fast.ai. So off to week 4, where we will get started with NLP and transformers">
 <meta property="og:image" content="https://kurianbenoy.com/posts/images/monsoon.jpg">
 <meta property="og:site-name" content="Kurian Benoy">
 <meta name="twitter:title" content="Kurian Benoy - Practical Deep Learning for Coders Course - Lesson 4">
-<meta name="twitter:description" content="This blog-post series captures my weekly notes while I attend the [fastaiv5 course conducted by University of Queensland with fast.ai](https://itee.uq.edu.">
+<meta name="twitter:description" content="This blog-post series captures my weekly notes while I attend the fastaiv5 course conducted by University of Queensland with fast.ai. So off to week 4, where we will get started with NLP and transformers">
 <meta name="twitter:image" content="https://kurianbenoy.com/posts/images/monsoon.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -152,45 +123,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <span class="navbar-title">Kurian Benoy</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks.html">
+    <a class="nav-link" href="../../talks.html" rel="" target="">
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://til.kurianbenoy.com/">
+    <a class="nav-link" href="https://til.kurianbenoy.com/" rel="" target="">
  <span class="menu-text">TIL</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/kurianbenoy" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -276,12 +249,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="why-using-a-different-framework---transformers" class="level2">
 <h2 class="anchored" data-anchor-id="why-using-a-different-framework---transformers">Why using a different framework - Transformers</h2>
 <p>Since this course is fastai, it may feel a bit weird when we are today going to use a different library called <code>transformers</code>.</p>
-<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Important
 </div>
 </div>
@@ -289,12 +262,12 @@ Important
 <p>As practitioners, it’s important for us to learn more than one framework.</p>
 </div>
 </div>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -313,12 +286,12 @@ Note
 <section id="whats-a-pretrained-model-and-what-is-finetuning" class="level3">
 <h3 class="anchored" data-anchor-id="whats-a-pretrained-model-and-what-is-finetuning"><strong>What’s a pretrained model and what is finetuning?</strong></h3>
 <p>Consider finetuning, as tweaking functions in such a way when if you are already some values of a, b lever are good and optimal for a particular function. Then tweaking value of c is easier right?</p>
-<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Important
 </div>
 </div>
@@ -346,12 +319,12 @@ Important
 <li>matplotlib</li>
 <li>Pytorch</li>
 </ol>
-<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Important
 </div>
 </div>
@@ -369,12 +342,12 @@ Important
 <li>Numericalization is the process of converting these tokens to numbers for models to train</li>
 </ul>
 <p>We used <code>deberta-v3</code> as base model as some models are always found to give good results. Yet there are lot of pretrained models available in public which can just found by searching like Patent for patent models in <a href="https://huggingface.co/models">Huggingface models hub</a>.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -391,12 +364,12 @@ Note
 <li>Validation set</li>
 <li>Training set</li>
 </ol>
-<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Important
 </div>
 </div>
@@ -412,12 +385,12 @@ Important
 <p>With the validation set, we are measuring some metrics like accuracy which tell how good our ML model is. In Kaggle for every competition there is a metric available to optimize based on.</p>
 <section id="why-metrics-is-different-from-loss" class="level3">
 <h3 class="anchored" data-anchor-id="why-metrics-is-different-from-loss">Why metrics is different from loss?</h3>
-<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Important
 </div>
 </div>
@@ -432,12 +405,12 @@ Important
 <section id="pearson-coefficient" class="level2">
 <h2 class="anchored" data-anchor-id="pearson-coefficient">Pearson Coefficient</h2>
 <p>Understanding metrics is very key, especially in Kaggle competitons. According to this Kaggle competition page: “Submissions are evaluated on the Pearson correlation coefficient between the predicted and actual similarity scores.”</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -456,87 +429,88 @@ Note
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df[<span class="st">"data"</span>].join(df[<span class="st">"target"</span>]).sample(<span class="dv">1000</span>, random_state<span class="op">=</span><span class="dv">52</span>)</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
-
 <div>
 
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>MedInc</th>
-      <th>HouseAge</th>
-      <th>AveRooms</th>
-      <th>AveBedrms</th>
-      <th>Population</th>
-      <th>AveOccup</th>
-      <th>Latitude</th>
-      <th>Longitude</th>
-      <th>MedHouseVal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>7506</th>
-      <td>3.0550</td>
-      <td>37.0</td>
-      <td>5.152778</td>
-      <td>1.048611</td>
-      <td>729.0</td>
-      <td>5.062500</td>
-      <td>33.92</td>
-      <td>-118.28</td>
-      <td>1.054</td>
-    </tr>
-    <tr>
-      <th>4720</th>
-      <td>3.0862</td>
-      <td>35.0</td>
-      <td>4.697897</td>
-      <td>1.055449</td>
-      <td>1159.0</td>
-      <td>2.216061</td>
-      <td>34.05</td>
-      <td>-118.37</td>
-      <td>3.453</td>
-    </tr>
-    <tr>
-      <th>12888</th>
-      <td>2.5556</td>
-      <td>24.0</td>
-      <td>4.864905</td>
-      <td>1.129222</td>
-      <td>1631.0</td>
-      <td>2.395007</td>
-      <td>38.66</td>
-      <td>-121.35</td>
-      <td>1.057</td>
-    </tr>
-    <tr>
-      <th>13344</th>
-      <td>3.0057</td>
-      <td>32.0</td>
-      <td>4.212687</td>
-      <td>0.936567</td>
-      <td>1378.0</td>
-      <td>5.141791</td>
-      <td>34.05</td>
-      <td>-117.64</td>
-      <td>0.969</td>
-    </tr>
-    <tr>
-      <th>7173</th>
-      <td>1.9083</td>
-      <td>42.0</td>
-      <td>3.888554</td>
-      <td>1.039157</td>
-      <td>1535.0</td>
-      <td>4.623494</td>
-      <td>34.05</td>
-      <td>-118.19</td>
-      <td>1.192</td>
-    </tr>
-  </tbody>
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">MedInc</th>
+<th data-quarto-table-cell-role="th">HouseAge</th>
+<th data-quarto-table-cell-role="th">AveRooms</th>
+<th data-quarto-table-cell-role="th">AveBedrms</th>
+<th data-quarto-table-cell-role="th">Population</th>
+<th data-quarto-table-cell-role="th">AveOccup</th>
+<th data-quarto-table-cell-role="th">Latitude</th>
+<th data-quarto-table-cell-role="th">Longitude</th>
+<th data-quarto-table-cell-role="th">MedHouseVal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">7506</td>
+<td>3.0550</td>
+<td>37.0</td>
+<td>5.152778</td>
+<td>1.048611</td>
+<td>729.0</td>
+<td>5.062500</td>
+<td>33.92</td>
+<td>-118.28</td>
+<td>1.054</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">4720</td>
+<td>3.0862</td>
+<td>35.0</td>
+<td>4.697897</td>
+<td>1.055449</td>
+<td>1159.0</td>
+<td>2.216061</td>
+<td>34.05</td>
+<td>-118.37</td>
+<td>3.453</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12888</td>
+<td>2.5556</td>
+<td>24.0</td>
+<td>4.864905</td>
+<td>1.129222</td>
+<td>1631.0</td>
+<td>2.395007</td>
+<td>38.66</td>
+<td>-121.35</td>
+<td>1.057</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13344</td>
+<td>3.0057</td>
+<td>32.0</td>
+<td>4.212687</td>
+<td>0.936567</td>
+<td>1378.0</td>
+<td>5.141791</td>
+<td>34.05</td>
+<td>-117.64</td>
+<td>0.969</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">7173</td>
+<td>1.9083</td>
+<td>42.0</td>
+<td>3.888554</td>
+<td>1.039157</td>
+<td>1535.0</td>
+<td>4.623494</td>
+<td>34.05</td>
+<td>-118.19</td>
+<td>1.192</td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
@@ -576,12 +550,12 @@ Note
 </div>
 <p>When I ran through this code I was thinking about how [0,1] element in this corelation matrix is 0.12, when value of relation_matrix returns something as 0.11658535. I asked this simple doubt in the forum and after a while, I got answer from one of the <a href="https://forums.fast.ai/u/n-e-w/summary">course TAs Nick(n-e-w)</a>.</p>
 <!-- ![image](https://user-images.githubusercontent.com/24592806/169845219-4915b78d-8be4-4972-bd37-40476d1b6f4c.png) -->
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -641,9 +615,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -708,6 +696,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

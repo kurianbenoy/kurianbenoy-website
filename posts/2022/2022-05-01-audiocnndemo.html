@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,9 +20,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -49,43 +50,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -157,45 +128,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <span class="navbar-title">Kurian Benoy</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks.html">
+    <a class="nav-link" href="../../talks.html" rel="" target="">
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://til.kurianbenoy.com/">
+    <a class="nav-link" href="https://til.kurianbenoy.com/" rel="" target="">
  <span class="menu-text">TIL</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/kurianbenoy2"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/kurianbenoy"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/kurianbenoy" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -273,12 +246,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="downloading-packages-and-importing-libraries" class="level2">
 <h2 class="anchored" data-anchor-id="downloading-packages-and-importing-libraries">Downloading packages and importing libraries</h2>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -339,20 +312,15 @@ Note
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    api.competition_download_cli(<span class="bu">str</span>(path))</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    ZipFile(<span class="ss">f"</span><span class="sc">{</span>path<span class="sc">}</span><span class="ss">.zip"</span>).extractall(path)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Downloading kaggle-pog-series-s01e02.zip to /home</code></pre>
+<pre><code>Downloading kaggle-pog-series-s01e02.zip to /home
+</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>100%|██████████| 9.05G/9.05G [07:54&lt;00:00, 20.5MB/s]</code></pre>
 </div>
-<div class="cell-output cell-output-stdout">
-<pre><code></code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code></code></pre>
-</div>
 </div>
 <div class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> kaggle datasets download <span class="op">-</span>d dienhoa<span class="op">/</span>music<span class="op">-</span>genre<span class="op">-</span>spectrogram<span class="op">-</span>pogchamps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> kaggle datasets download <span class="op">-</span>d dienhoa<span class="op">/</span>music<span class="op">-</span>genre<span class="op">-</span>spectrogram<span class="op">-</span>pogchamps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Downloading music-genre-spectrogram-pogchamps.zip to /home
 100%|█████████████████████████████████████▉| 6.80G/6.80G [07:00&lt;00:00, 14.7MB/s]
@@ -363,75 +331,76 @@ Note
 <section id="quick-eda-and-data-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="quick-eda-and-data-cleaning">Quick EDA and Data Cleaning</h2>
 <div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> pd.read_csv(<span class="st">"../input/kaggle-pog-series-s01e02/train.csv"</span>)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_train.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> pd.read_csv(<span class="st">"../input/kaggle-pog-series-s01e02/train.csv"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df_train.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="17">
-
 <div>
 
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>song_id</th>
-      <th>filename</th>
-      <th>filepath</th>
-      <th>genre_id</th>
-      <th>genre</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>10150</td>
-      <td>010150.ogg</td>
-      <td>train/010150.ogg</td>
-      <td>7</td>
-      <td>Instrumental</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>7358</td>
-      <td>007358.ogg</td>
-      <td>train/007358.ogg</td>
-      <td>2</td>
-      <td>Punk</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20573</td>
-      <td>020573.ogg</td>
-      <td>train/020573.ogg</td>
-      <td>5</td>
-      <td>Folk</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>11170</td>
-      <td>011170.ogg</td>
-      <td>train/011170.ogg</td>
-      <td>12</td>
-      <td>Old-Time / Historic</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>16662</td>
-      <td>016662.ogg</td>
-      <td>train/016662.ogg</td>
-      <td>1</td>
-      <td>Rock</td>
-    </tr>
-  </tbody>
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">song_id</th>
+<th data-quarto-table-cell-role="th">filename</th>
+<th data-quarto-table-cell-role="th">filepath</th>
+<th data-quarto-table-cell-role="th">genre_id</th>
+<th data-quarto-table-cell-role="th">genre</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>10150</td>
+<td>010150.ogg</td>
+<td>train/010150.ogg</td>
+<td>7</td>
+<td>Instrumental</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>7358</td>
+<td>007358.ogg</td>
+<td>train/007358.ogg</td>
+<td>2</td>
+<td>Punk</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>20573</td>
+<td>020573.ogg</td>
+<td>train/020573.ogg</td>
+<td>5</td>
+<td>Folk</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>11170</td>
+<td>011170.ogg</td>
+<td>train/011170.ogg</td>
+<td>12</td>
+<td>Old-Time / Historic</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>16662</td>
+<td>016662.ogg</td>
+<td>train/016662.ogg</td>
+<td>1</td>
+<td>Rock</td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
 <div class="cell" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">"filepath"</span>] <span class="op">=</span> df_train[<span class="st">"filepath"</span>].<span class="bu">str</span>.replace(<span class="st">"ogg"</span>, <span class="st">"png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">"filepath"</span>] <span class="op">=</span> df_train[<span class="st">"filepath"</span>].<span class="bu">str</span>.replace(<span class="st">"ogg"</span>, <span class="st">"png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>Shows a highly imbalanced dataset</strong></p>
 <div class="cell" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">"genre"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df_train[<span class="st">"genre"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="19">
 <pre><code>Rock                   3097
 Electronic             3073
@@ -456,93 +425,94 @@ Name: genre, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df_train.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df_train.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="20">
-
 <div>
 
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>song_id</th>
-      <th>filename</th>
-      <th>filepath</th>
-      <th>genre_id</th>
-      <th>genre</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>10150</td>
-      <td>010150.ogg</td>
-      <td>train/010150.png</td>
-      <td>7</td>
-      <td>Instrumental</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>7358</td>
-      <td>007358.ogg</td>
-      <td>train/007358.png</td>
-      <td>2</td>
-      <td>Punk</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20573</td>
-      <td>020573.ogg</td>
-      <td>train/020573.png</td>
-      <td>5</td>
-      <td>Folk</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>11170</td>
-      <td>011170.ogg</td>
-      <td>train/011170.png</td>
-      <td>12</td>
-      <td>Old-Time / Historic</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>16662</td>
-      <td>016662.ogg</td>
-      <td>train/016662.png</td>
-      <td>1</td>
-      <td>Rock</td>
-    </tr>
-  </tbody>
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">song_id</th>
+<th data-quarto-table-cell-role="th">filename</th>
+<th data-quarto-table-cell-role="th">filepath</th>
+<th data-quarto-table-cell-role="th">genre_id</th>
+<th data-quarto-table-cell-role="th">genre</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>10150</td>
+<td>010150.ogg</td>
+<td>train/010150.png</td>
+<td>7</td>
+<td>Instrumental</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>7358</td>
+<td>007358.ogg</td>
+<td>train/007358.png</td>
+<td>2</td>
+<td>Punk</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>20573</td>
+<td>020573.ogg</td>
+<td>train/020573.png</td>
+<td>5</td>
+<td>Folk</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>11170</td>
+<td>011170.ogg</td>
+<td>train/011170.png</td>
+<td>12</td>
+<td>Old-Time / Historic</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>16662</td>
+<td>016662.ogg</td>
+<td>train/016662.png</td>
+<td>1</td>
+<td>Rock</td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
 <div class="cell" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> df_train.set_index(<span class="st">"song_id"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> df_train.set_index(<span class="st">"song_id"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="22">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># I noticed some of images are missing music-genre-spectrogram-pogchamps images which are in training data. So removed it</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> df_train.drop(</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    [</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>        <span class="dv">23078</span>,</span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>        <span class="dv">3137</span>,</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>        <span class="dv">4040</span>,</span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>        <span class="dv">15980</span>,</span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>        <span class="dv">11088</span>,</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>        <span class="dv">9963</span>,</span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>        <span class="dv">24899</span>,</span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>        <span class="dv">16312</span>,</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>        <span class="dv">22698</span>,</span>
-<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>        <span class="dv">17940</span>,</span>
-<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>        <span class="dv">22295</span>,</span>
-<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>        <span class="dv">3071</span>,</span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>        <span class="dv">13954</span>,</span>
-<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># I noticed some of images are missing music-genre-spectrogram-pogchamps images which are in training data. So removed it</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> df_train.drop(</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>        <span class="dv">23078</span>,</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>        <span class="dv">3137</span>,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>        <span class="dv">4040</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>        <span class="dv">15980</span>,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>        <span class="dv">11088</span>,</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>        <span class="dv">9963</span>,</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>        <span class="dv">24899</span>,</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>        <span class="dv">16312</span>,</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>        <span class="dv">22698</span>,</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>        <span class="dv">17940</span>,</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>        <span class="dv">22295</span>,</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>        <span class="dv">3071</span>,</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>        <span class="dv">13954</span>,</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="23">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df_train.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df_train.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="23">
 <pre><code>(19909, 4)</code></pre>
 </div>
@@ -560,35 +530,35 @@ Name: genre, dtype: int64</code></pre>
 <li>Now set <code>get_y</code> which specifies the variable to predict, ie the genre of music</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>temp_train <span class="op">=</span> df_train</span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>temp_train.loc[:<span class="dv">15000</span>, <span class="st">"is_valid"</span>] <span class="op">=</span> <span class="va">True</span></span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>temp_train.loc[<span class="dv">15000</span>:, <span class="st">"is_valid"</span>] <span class="op">=</span> <span class="va">False</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>temp_train <span class="op">=</span> df_train</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>temp_train.loc[:<span class="dv">15000</span>, <span class="st">"is_valid"</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>temp_train.loc[<span class="dv">15000</span>:, <span class="st">"is_valid"</span>] <span class="op">=</span> <span class="va">False</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> Path(<span class="st">"../input/music-genre-spectrogram-pogchamps/spectograms/"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> Path(<span class="st">"../input/music-genre-spectrogram-pogchamps/spectograms/"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>dblock <span class="op">=</span> DataBlock(</span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    blocks<span class="op">=</span>(ImageBlock, CategoryBlock),</span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    splitter<span class="op">=</span>ColSplitter(),</span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    get_x<span class="op">=</span><span class="kw">lambda</span> o: <span class="ss">f"</span><span class="sc">{</span>path<span class="sc">}</span><span class="ss">/"</span> <span class="op">+</span> o.path,</span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    get_y<span class="op">=</span><span class="kw">lambda</span> o: o.genre,</span>
-<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    item_tfms<span class="op">=</span>Resize(<span class="dv">224</span>),</span>
-<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    batch_tfms<span class="op">=</span>aug_transforms(),</span>
-<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>dblock <span class="op">=</span> DataBlock(</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    blocks<span class="op">=</span>(ImageBlock, CategoryBlock),</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    splitter<span class="op">=</span>ColSplitter(),</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>    get_x<span class="op">=</span><span class="kw">lambda</span> o: <span class="ss">f"</span><span class="sc">{</span>path<span class="sc">}</span><span class="ss">/"</span> <span class="op">+</span> o.path,</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    get_y<span class="op">=</span><span class="kw">lambda</span> o: o.genre,</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    item_tfms<span class="op">=</span>Resize(<span class="dv">224</span>),</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    batch_tfms<span class="op">=</span>aug_transforms(),</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> dblock.dataloaders(temp_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> dblock.dataloaders(temp_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>dls.show_batch()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>dls.show_batch()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <p><img src="2022-05-01-AudioCNNDemo_files/figure-html/cell-19-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Can be used for debugging</span></span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># dblock.summary(df_train)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Can be used for debugging</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co"># dblock.summary(df_train)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>This worked really well, and with this approach I was even able to train a ML model which got 50% accuracy.</p>
 <blockquote class="blockquote">
@@ -598,83 +568,84 @@ Name: genre, dtype: int64</code></pre>
 <p><strong>2. Using DataLoaders methods with loading from dataframe method</strong></p>
 <p>This issue got me into using approach that using <code>ImageDataLoaders.from_df</code> in fastai. Let’s first take a look at our <code>df_train</code> dataframe:</p>
 <div class="cell" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>df_train.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df_train.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="24">
-
 <div>
 
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th></th>
-      <th>filename</th>
-      <th>filepath</th>
-      <th>genre_id</th>
-      <th>genre</th>
-    </tr>
-    <tr>
-      <th>song_id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>10150</th>
-      <td>010150.ogg</td>
-      <td>train/010150.png</td>
-      <td>7</td>
-      <td>Instrumental</td>
-    </tr>
-    <tr>
-      <th>7358</th>
-      <td>007358.ogg</td>
-      <td>train/007358.png</td>
-      <td>2</td>
-      <td>Punk</td>
-    </tr>
-    <tr>
-      <th>20573</th>
-      <td>020573.ogg</td>
-      <td>train/020573.png</td>
-      <td>5</td>
-      <td>Folk</td>
-    </tr>
-    <tr>
-      <th>11170</th>
-      <td>011170.ogg</td>
-      <td>train/011170.png</td>
-      <td>12</td>
-      <td>Old-Time / Historic</td>
-    </tr>
-    <tr>
-      <th>16662</th>
-      <td>016662.ogg</td>
-      <td>train/016662.png</td>
-      <td>1</td>
-      <td>Rock</td>
-    </tr>
-  </tbody>
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">filename</th>
+<th data-quarto-table-cell-role="th">filepath</th>
+<th data-quarto-table-cell-role="th">genre_id</th>
+<th data-quarto-table-cell-role="th">genre</th>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">song_id</th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10150</td>
+<td>010150.ogg</td>
+<td>train/010150.png</td>
+<td>7</td>
+<td>Instrumental</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7358</td>
+<td>007358.ogg</td>
+<td>train/007358.png</td>
+<td>2</td>
+<td>Punk</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">20573</td>
+<td>020573.ogg</td>
+<td>train/020573.png</td>
+<td>5</td>
+<td>Folk</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11170</td>
+<td>011170.ogg</td>
+<td>train/011170.png</td>
+<td>12</td>
+<td>Old-Time / Historic</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16662</td>
+<td>016662.ogg</td>
+<td>train/016662.png</td>
+<td>1</td>
+<td>Rock</td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
 <p>If you look at the dataframe, we know that on appending to the path, the filepath column. - This is the exact value for <code>get_x</code> method in fastai <code>fn_col = 1</code> which specifies the column name <code>filepath</code> at position 1. - label or <code>get_y</code> is specified by the column name <code>genre</code> at position 3. - valid_pct (ensure what percentage of data to be used for validation) - y_block=CategoryBlock to ensure it’s used for normal classification only and not multi-label</p>
 <div class="cell" data-execution_count="28">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> ImageDataLoaders.from_df(</span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    df_train,</span>
-<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    path,</span>
-<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    valid_pct<span class="op">=</span><span class="fl">0.2</span>,</span>
-<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    seed<span class="op">=</span><span class="dv">34</span>,</span>
-<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    y_block<span class="op">=</span>CategoryBlock,</span>
-<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    item_tfms<span class="op">=</span>Resize(<span class="dv">460</span>),</span>
-<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    batch_tfms<span class="op">=</span>aug_transforms(size<span class="op">=</span><span class="dv">224</span>),</span>
-<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    fn_col<span class="op">=</span><span class="dv">1</span>,</span>
-<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>    label_col<span class="op">=</span><span class="dv">3</span>,</span>
-<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>dls.show_batch()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> ImageDataLoaders.from_df(</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    df_train,</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    path,</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>    valid_pct<span class="op">=</span><span class="fl">0.2</span>,</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    seed<span class="op">=</span><span class="dv">34</span>,</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    y_block<span class="op">=</span>CategoryBlock,</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    item_tfms<span class="op">=</span>Resize(<span class="dv">460</span>),</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    batch_tfms<span class="op">=</span>aug_transforms(size<span class="op">=</span><span class="dv">224</span>),</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    fn_col<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>    label_col<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>dls.show_batch()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <p><img src="2022-05-01-AudioCNNDemo_files/figure-html/cell-22-output-1.png" class="img-fluid"></p>
 </div>
@@ -684,10 +655,10 @@ Name: genre, dtype: int64</code></pre>
 <h2 class="anchored" data-anchor-id="training-fastai-model">Training fastai model</h2>
 <p>I trained using a <code>resnet18 model</code> at first, later we stepped up to use <code>resnet50</code> model.</p>
 <div class="cell" data-execution_count="29">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(dls, resnet50, metrics<span class="op">=</span>error_rate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(dls, resnet50, metrics<span class="op">=</span>error_rate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-execution_count="30">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>learn.lr_find()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>learn.lr_find()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
 <style>
@@ -714,7 +685,7 @@ Name: genre, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="31">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">10</span>, <span class="fl">0.0008317637839354575</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">10</span>, <span class="fl">0.0008317637839354575</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
 <style>
@@ -731,26 +702,25 @@ Name: genre, dtype: int64</code></pre>
 </style>
 </div>
 <div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th>epoch</th>
-      <th>train_loss</th>
-      <th>valid_loss</th>
-      <th>error_rate</th>
-      <th>time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>2.869285</td>
-      <td>2.171426</td>
-      <td>0.616428</td>
-      <td>01:43</td>
-    </tr>
-  </tbody>
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">epoch</th>
+<th data-quarto-table-cell-role="th">train_loss</th>
+<th data-quarto-table-cell-role="th">valid_loss</th>
+<th data-quarto-table-cell-role="th">error_rate</th>
+<th data-quarto-table-cell-role="th">time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>2.869285</td>
+<td>2.171426</td>
+<td>0.616428</td>
+<td>01:43</td>
+</tr>
+</tbody>
 </table>
 </div>
 <div class="cell-output cell-output-display">
@@ -769,94 +739,93 @@ Name: genre, dtype: int64</code></pre>
 </style>
 </div>
 <div class="cell-output cell-output-display">
-
-<table class="dataframe table table-sm table-striped">
-  <thead>
-    <tr>
-      <th>epoch</th>
-      <th>train_loss</th>
-      <th>valid_loss</th>
-      <th>error_rate</th>
-      <th>time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>2.312176</td>
-      <td>1.843815</td>
-      <td>0.558654</td>
-      <td>02:07</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2.102361</td>
-      <td>1.719162</td>
-      <td>0.539061</td>
-      <td>02:08</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>1.867139</td>
-      <td>1.623988</td>
-      <td>0.527003</td>
-      <td>02:08</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>1.710557</td>
-      <td>1.527913</td>
-      <td>0.507661</td>
-      <td>02:07</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>1.629478</td>
-      <td>1.456836</td>
-      <td>0.479779</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>1.519305</td>
-      <td>1.433036</td>
-      <td>0.474253</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>1.457465</td>
-      <td>1.379757</td>
-      <td>0.464456</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>1.396283</td>
-      <td>1.369344</td>
-      <td>0.457925</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>1.359388</td>
-      <td>1.367973</td>
-      <td>0.453655</td>
-      <td>02:05</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>1.364363</td>
-      <td>1.368887</td>
-      <td>0.456167</td>
-      <td>02:04</td>
-    </tr>
-  </tbody>
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">epoch</th>
+<th data-quarto-table-cell-role="th">train_loss</th>
+<th data-quarto-table-cell-role="th">valid_loss</th>
+<th data-quarto-table-cell-role="th">error_rate</th>
+<th data-quarto-table-cell-role="th">time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>2.312176</td>
+<td>1.843815</td>
+<td>0.558654</td>
+<td>02:07</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>2.102361</td>
+<td>1.719162</td>
+<td>0.539061</td>
+<td>02:08</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>1.867139</td>
+<td>1.623988</td>
+<td>0.527003</td>
+<td>02:08</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>1.710557</td>
+<td>1.527913</td>
+<td>0.507661</td>
+<td>02:07</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>1.629478</td>
+<td>1.456836</td>
+<td>0.479779</td>
+<td>02:05</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>1.519305</td>
+<td>1.433036</td>
+<td>0.474253</td>
+<td>02:05</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>1.457465</td>
+<td>1.379757</td>
+<td>0.464456</td>
+<td>02:05</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>1.396283</td>
+<td>1.369344</td>
+<td>0.457925</td>
+<td>02:05</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>1.359388</td>
+<td>1.367973</td>
+<td>0.453655</td>
+<td>02:05</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>1.364363</td>
+<td>1.368887</td>
+<td>0.456167</td>
+<td>02:04</td>
+</tr>
+</tbody>
 </table>
 </div>
 </div>
 <div class="cell" data-execution_count="32">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>learn.export(<span class="st">"model.pkl"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>learn.export(<span class="st">"model.pkl"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="pushing-models-to-hugging-face" class="level2">
@@ -867,12 +836,12 @@ Name: genre, dtype: int64</code></pre>
 <li>Additionally, you can load any fastai Learner from the Hub using <code>from_pretrained_fastai</code></li>
 </ul>
 <p><a href="https://twitter.com/espejelomar">Omar Espejel</a> had shared a fantastic notebook on <a href="https://colab.research.google.com/gist/omarespejel/9ba054ce74c7a4d4408085b611124bdf">these new functionalities in huggingface here</a>.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -881,25 +850,23 @@ Note
 </div>
 </div>
 <div class="cell" data-execution_count="33">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> push_to_hub_fastai</span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>push_to_hub_fastai(</span>
-<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    learn,</span>
-<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"kurianbenoy/music_genre_classification_baseline"</span>,</span>
-<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>    commit_message<span class="op">=</span><span class="st">"Resnet50 with 10 epochs of training"</span>,</span>
-<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> push_to_hub_fastai</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>push_to_hub_fastai(</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    learn,</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"kurianbenoy/music_genre_classification_baseline"</span>,</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    commit_message<span class="op">=</span><span class="st">"Resnet50 with 10 epochs of training"</span>,</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/music_genre_classification_baseline is already a clone of https://huggingface.co/kurianbenoy/music_genre_classification_baseline. Make sure you pull the latest changes with `repo.git_pull()`.</code></pre>
+<pre><code>/home/kurianbenoy/music_genre_classification_baseline is already a clone of https://huggingface.co/kurianbenoy/music_genre_classification_baseline. Make sure you pull the latest changes with `repo.git_pull()`.
+To https://huggingface.co/kurianbenoy/music_genre_classification_baseline
+   390320d..3605083  main -&gt; main
+</code></pre>
 </div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"a0f99139c5ff4081b04d1cca65f16492","version_major":2,"version_minor":0}
+{"model_id":"a0f99139c5ff4081b04d1cca65f16492","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
 </script>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>To https://huggingface.co/kurianbenoy/music_genre_classification_baseline
-   390320d..3605083  main -&gt; main
-</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="33">
 <pre><code>'https://huggingface.co/kurianbenoy/music_genre_classification_baseline/commit/360508311005aefeb3ca29933f2173202afe4f30'</code></pre>
@@ -914,7 +881,7 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 <section id="taking-a-look-at-results" class="level2">
 <h2 class="anchored" data-anchor-id="taking-a-look-at-results">Taking a look at results</h2>
 <div class="cell" data-execution_count="36">
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>learn.show_results()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>learn.show_results()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
 <style>
@@ -938,8 +905,8 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 </div>
 </div>
 <div class="cell" data-execution_count="37">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>interp <span class="op">=</span> Interpretation.from_learner(learn)</span>
-<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>interp.plot_top_losses(<span class="dv">9</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>interp <span class="op">=</span> Interpretation.from_learner(learn)</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>interp.plot_top_losses(<span class="dv">9</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
 <style>
@@ -984,23 +951,23 @@ learn = from_pretrained_fastai("kurianbenoy/music_genre_classification_baseline"
 <section id="inference-function" class="level2">
 <h2 class="anchored" data-anchor-id="inference-function">Inference function</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastai.vision.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span>
-<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> from_pretrained_fastai</span>
-<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> from_pretrained_fastai(<span class="st">"kurianbenoy/music_genre_classification_baseline"</span>)</span>
-<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict(img):</span>
-<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> PILImage.create(img)</span>
-<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>    _pred, _pred_w_idx, probs <span class="op">=</span> learn.predict(img)</span>
-<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>    labels_probs <span class="op">=</span> {labels[i]: <span class="bu">float</span>(probs[i]) <span class="cf">for</span> i, _ <span class="kw">in</span> <span class="bu">enumerate</span>(labels)}</span>
-<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> labels_probs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastai.vision.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> from_pretrained_fastai</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> from_pretrained_fastai(<span class="st">"kurianbenoy/music_genre_classification_baseline"</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict(img):</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    img <span class="op">=</span> PILImage.create(img)</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    _pred, _pred_w_idx, probs <span class="op">=</span> learn.predict(img)</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>    labels_probs <span class="op">=</span> {labels[i]: <span class="bu">float</span>(probs[i]) <span class="cf">for</span> i, _ <span class="kw">in</span> <span class="bu">enumerate</span>(labels)}</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> labels_probs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>We trained a ML model which can identify with 54.4% accuracy to classify in a music file which genre it is. It’s not so bad for a baseline model. Dien Hoa Truong has shared some techniques which he learned during Kaggle competition with music genres.</p>
-<p></p><div id="tweet-11701"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-11701").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-71222"></div><script>tweet={"url":"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281","author_name":"Dien Hoa Truong","author_url":"https:\/\/twitter.com\/DienhoaT","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E[Machine Learning] Speed up your experiment so that you can try out a lot of ideas and find what works best for your problem. Below ⬇️ is what I have learned during the Kaggle competition with music genre\uD83C\uDFB6:\u003C\/p\u003E&mdash; Dien Hoa Truong (@DienhoaT) \u003Ca href=\"https:\/\/twitter.com\/DienhoaT\/status\/1520511289822433281?ref_src=twsrc%5Etfw\"\u003EApril 30, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-71222").innerHTML = tweet["html"];</script><p></p>
 <p>Thanks for reading :pray:</p>
 
 
@@ -1034,9 +1001,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1101,6 +1082,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

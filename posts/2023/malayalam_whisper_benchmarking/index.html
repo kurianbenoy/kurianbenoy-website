@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kurian Benoy">
+
+<title>Kurian Benoy - Benchmarking Malayalam models</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Kurian Benoy - Benchmarking Malayalam models">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://kurianbenoy.com/posts/2023/malayalam_whisper_benchmarking/IMG_20230415_094452682_HDR.jpg">
+<meta property="og:site-name" content="Kurian Benoy">
+<meta name="twitter:title" content="Kurian Benoy - Benchmarking Malayalam models">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://kurianbenoy.com/posts/2023/malayalam_whisper_benchmarking/IMG_20230415_094452682_HDR.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../talks.html" rel="" target="">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/" rel="" target="">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Benchmarking Malayalam models</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">conference</div>
+                <div class="quarto-category">fossasia</div>
+                <div class="quarto-category">Audio</div>
+                <div class="quarto-category">Deep learning</div>
+                <div class="quarto-category">SMC</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kurian Benoy </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Saturday, April 15, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This has to be my favourite talk so far. I was really excited to see the talk on results of benchmarking model and the audience response was fantastic.</p>
+<p>The talk also had lot of audience attending in-person and in-venue as well.</p>
+</section>
+<section id="talk" class="level2">
+<h2 class="anchored" data-anchor-id="talk">Talk</h2>
+<p>Slide contents</p>
+</section>
+<section id="openai-whisper" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="openai-whisper">OpenAI Whisper</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png" class="img-fluid figure-img" width="500"></p>
+</figure>
+</div>
+<ul>
+<li>Whisper is the most <code>under-rated models</code> released by OpenAI.</li>
+<li>It open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> p.2, the name Whisper is an abbrevation for WSPR:</p>
+<p><code>Web-scale Supervised Pretraining for Speech Recognition</code>.</p>
+</div></div></section>
+<section id="about-openai-whisper-model" class="level2">
+<h2 class="anchored" data-anchor-id="about-openai-whisper-model">About OpenAI Whisper Model</h2>
+<ul>
+<li>Whisper is a computer program which can listen to people talking and write down what they say.</li>
+<li>Whisper can understand people speaking different languages and can even translate what they say into English.</li>
+</ul>
+</section>
+<section id="whisper-models" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="whisper-models">Whisper Models</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Size</th>
+<th style="text-align: right;">Parameters</th>
+<th style="text-align: center;">Required VRAM</th>
+<th style="text-align: center;">Relative speed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">tiny</td>
+<td style="text-align: right;">39 M</td>
+<td style="text-align: center;">~1 GB</td>
+<td style="text-align: center;">~32x</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">base</td>
+<td style="text-align: right;">74 M</td>
+<td style="text-align: center;">~1 GB</td>
+<td style="text-align: center;">~16x</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">small</td>
+<td style="text-align: right;">244 M</td>
+<td style="text-align: center;">~2 GB</td>
+<td style="text-align: center;">~6x</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">medium</td>
+<td style="text-align: right;">769 M</td>
+<td style="text-align: center;">~5 GB</td>
+<td style="text-align: center;">~2x</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">large</td>
+<td style="text-align: right;">1550 M</td>
+<td style="text-align: center;">~10 GB</td>
+<td style="text-align: center;">1x</td>
+</tr>
+</tbody>
+</table>
+<div class="notes">
+<p>Below are the names of the available models and their approximate memory requirements and relative speed. Large itself has two version: large-v1 and large-v2.</p>
+<p>The <code>.en</code> models for English-only applications tend to perform better, especially for the <code>tiny.en</code> and <code>base.en</code> models. We observed that the difference becomes less significant for the <code>small.en</code> and <code>medium.en</code> models.</p>
+</div>
+</section>
+<section id="english-speech-recognition" class="level2">
+<h2 class="anchored" data-anchor-id="english-speech-recognition">English Speech Recognition</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fossasia2023/Whisper_english.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Whisper is competitive with state of art commercial and open source systems. Diagram from <a href="[research paper](https://cdn.openai.com/papers/whisper.pdf)">whisper research paper</a> p.9</figcaption>
+</figure>
+</div>
+<div class="notes">
+<p>A list of ideas for how to use Whisper in your own applications. - English Speech Recognition - Multi-lingual speech recognition - Support for multiple tasks - Can run in almost any devices with whisper.cpp - Awesome community plugins</p>
+</div>
+</section>
+<section id="multi-lingual-speech-recognition" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="multi-lingual-speech-recognition">Multi-lingual Speech recognition</h2>
+<ul>
+<li>Whisper model is trained on 99 languages</li>
+<li>OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<ul>
+<li>More details can be found in Section 3.4 of <a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> pp.6 - 8.</li>
+<li>Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. (<a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> p.7)</li>
+</ul>
+</div></div></section>
+<section id="runs-in-almost-any-device" class="level2">
+<h2 class="anchored" data-anchor-id="runs-in-almost-any-device">Runs in almost any device</h2>
+<ul>
+<li><p>Since Whisper followed the open source route, <a href="https://github.com/ggerganov/whisper.cpp">whisper.cpp</a> developed by <a href="https://github.com/ggerganov">Georgi Gerganov</a> which is a port of OpenAI’s Whisper model in C/C++.</p></li>
+<li><p>It supports the below platforms:</p></li>
+</ul>
+<ol type="1">
+<li>Mac OS (Intel and ARM)</li>
+<li>iOS</li>
+<li>Android</li>
+<li>Linux/Free BSD</li>
+<li>Web Assembly etc.</li>
+</ol>
+</section>
+<section id="awesome-community-plugins" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="awesome-community-plugins">Awesome community plugins</h2>
+<ul>
+<li>Word-level time stamps with <a href="https://github.com/linto-ai/whisper-timestamped">whisper-timestamped</a>,<a href="https://github.com/m-bain/whisperX">whisperX</a> etc.</li>
+<li>Fine-Tune Whisper is achieving SOTA in lot of languages</li>
+<li><a href="https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition">Speaker diarization</a></li>
+<li><a href="https://github.com/jumon/zac">Audio classification using OpenAI’s Whisper</a></li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76">Thanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper</a></p>
+</div></div></section>
+<section id="what-is-fine-tuning" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-fine-tuning">What is fine tuning?</h2>
+<p>Given a pre-trained model, which is a large model which is trained on a very specific task. If we want to fit it into our specific dataset we will train and use the pre-trained model to build a new model which works very well for our task.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png" class="img-fluid figure-img" width="300"></p>
+<figcaption class="figure-caption">Picture from <a href="course.fast.ai/">fast.lesson</a> covering steps in finetuning a text classifier model</figcaption>
+</figure>
+</div>
+</section>
+<section id="fine-tuning-is-still-relevant" class="level2">
+<h2 class="anchored" data-anchor-id="fine-tuning-is-still-relevant">Fine tuning is still relevant</h2>
+<p></p><div id="tweet-64159"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-64159").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="why-try-fine-tuning-in-whisper" class="level2">
+<h2 class="anchored" data-anchor-id="why-try-fine-tuning-in-whisper">Why try fine-tuning in Whisper?</h2>
+<ul>
+<li>In your problem, the open source Whisper model doesn’t give good results.</li>
+</ul>
+</section>
+<section id="what-are-steps-for-fine-tuning-whisper" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-steps-for-fine-tuning-whisper">What are steps for fine-tuning Whisper?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fossasia2023/blogpost_image.png" class="img-fluid figure-img" width="700"></p>
+<figcaption class="figure-caption"><a href="https://huggingface.co/blog/fine-tune-whisper">Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="what-are-steps-for-fine-tuning-whisper-1" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="what-are-steps-for-fine-tuning-whisper-1">What are steps for fine-tuning Whisper?</h2>
+<ol type="1">
+<li>Preparing Environment</li>
+<li>Load dataset</li>
+<li>Prepare Feature Extractor, Tokenizer and Data</li>
+<li>Training and evaluation</li>
+<li>Building a demo(optional)</li>
+</ol>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<ul>
+<li>Based on article <a href="https://huggingface.co/blog/fine-tune-whisper">Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers</a></li>
+<li><a href="https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event">More details on fine tuning Whisper</a></li>
+</ul>
+</div></div></section>
+<section id="whisper-event" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="whisper-event">Whisper Event</h2>
+<ul>
+<li>HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</li>
+<li>The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="https://huggingface.co/whisper-event">Whisper Event huggingface page</a></p>
+</div></div></section>
+<section id="malayalam-models-in-whisper-event" class="level2">
+<h2 class="anchored" data-anchor-id="malayalam-models-in-whisper-event">Malayalam models in Whisper Event</h2>
+<ul>
+<li>For the language Malayalam, the results are as follows:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png" class="img-fluid figure-img" width="700"></p>
+<figcaption class="figure-caption">Malayalam models performance in whisper event according <a href="https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&amp;config=ml&amp;split=test">to leaderboard</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="winning-models-in-malayalam-in-whisper-event" class="level2">
+<h2 class="anchored" data-anchor-id="winning-models-in-malayalam-in-whisper-event">Winning models in Malayalam in Whisper Event</h2>
+<ul>
+<li>The winning model for Common voice: <code>thennal/whisper-medium-ml</code></li>
+<li>The winning model for Fleurs: <code>parambharath/whisper-small-ml</code></li>
+</ul>
+</section>
+<section id="i-was-not-convinced" class="level2">
+<h2 class="anchored" data-anchor-id="i-was-not-convinced">I was not convinced</h2>
+<p>I was sceptical about the winning models becuase of:</p>
+<ol type="1">
+<li>Achieving 10% WER in Malayalam is astonishing.</li>
+<li>In Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.</li>
+<li>Malyalam is a <a href="https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf">morpohologically complex language</a>. So even achieving 30% WER is a big deal.</li>
+</ol>
+</section>
+<section id="i-was-not-convinced-1" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="i-was-not-convinced-1">I was not convinced</h2>
+<ol start="4" type="1">
+<li>Didn’t trust the Hugging Face way of evaluating models.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fossasia2023/thennal_model_card.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">thennal/whisper-medium-ml model card readme</figcaption>
+</figure>
+</div>
+</section>
+<section id="i-was-not-convinced-2" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="i-was-not-convinced-2">I was not convinced</h2>
+<ol start="4" type="1">
+<li>Didn’t trust the Hugging Face way of evaluating models.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fossasia2023/thennal_commit.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Last commit in thennal/whisper-medium-ml</figcaption>
+</figure>
+</div>
+</section>
+<section id="i-wanted-to-build-something-new" class="level2">
+<h2 class="anchored" data-anchor-id="i-wanted-to-build-something-new">I wanted to build something new</h2>
+<ul>
+<li>New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fossasia2023/adventure_talk.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Time for a new adventure</figcaption>
+</figure>
+</div>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<p></p><div id="tweet-43866"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43866").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1"></h2>
+<p></p><div id="tweet-32519"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-32519").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="results-on-benchmarking-in-malayalam" class="level2">
+<h2 class="anchored" data-anchor-id="results-on-benchmarking-in-malayalam">Results on Benchmarking in Malayalam</h2>
+<ul>
+<li>Started with 6 fine-tuned models in Malayalam</li>
+</ul>
+<ol type="1">
+<li>thennal/whisper-medium-ml</li>
+<li>parambharat/whisper-tiny-ml</li>
+<li>parambharat/whisper-base-ml</li>
+<li>parambharat/whisper-small-ml</li>
+<li>anuragshas/whisper-large-v2-ml</li>
+<li>DrishtiSharma/whisper-large-v2-malayalam</li>
+</ol>
+<ul>
+<li>Compared it with <a href="https://github.com/openai/whisper">6 model versions released by OpenAI</a>.</li>
+</ul>
+</section>
+<section id="results-on-benechmarking-in-common-voice-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="results-on-benechmarking-in-common-voice-dataset">Results on benechmarking in Common Voice dataset</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Output from benchmarking tool</figcaption>
+</figure>
+</div>
+</section>
+<section id="results-in-common-voice-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="results-in-common-voice-dataset">Results in Common Voice dataset</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">WER in Common Voice-9 test split</figcaption>
+</figure>
+</div>
+</section>
+<section id="cer-in-common-voice-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="cer-in-common-voice-dataset">CER in Common Voice dataset</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">CER in Common Voice-9 test split</figcaption>
+</figure>
+</div>
+</section>
+<section id="results-on-benechmarking-in-malayalam-speech-corpus-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="results-on-benechmarking-in-malayalam-speech-corpus-dataset">Results on benechmarking in Malayalam Speech Corpus dataset</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Output from benchmarking tool</figcaption>
+</figure>
+</div>
+</section>
+<section id="results-in-malayalam-speech-corpus-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="results-in-malayalam-speech-corpus-dataset">Results in Malayalam Speech Corpus dataset</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">WER in MSC</figcaption>
+</figure>
+</div>
+</section>
+<section id="cer-in-malayalam-speech-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="cer-in-malayalam-speech-corpus">CER in Malayalam Speech Corpus</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Character Error rate in MSC</figcaption>
+</figure>
+</div>
+<div class="notes">
+<p>in WER Malayalam CommonVoice9 dataset:</p>
+<p>tiny - 102.7 base - 122.9 small - 104.8 medium - 137.8 large - 107.1 largev2 - 103.2</p>
+</div>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<ul>
+<li>In Malayalam we have achieved phenomenal results for fine tuned whisper models.</li>
+<li>We seems to have build really good ASR suitable for production use-cases.</li>
+<li>You can also do it in your own language especially if it is a low resource language.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="kurianbenoy/kurianbenoy-website" data-repo-id="MDEwOlJlcG9zaXRvcnkxMDY1MzAxNzQ" data-category="Q&amp;A" data-category-id="DIC_kwDOBlmFfs4CU-J4" data-mapping="url" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="https://platform.twitter.com/widgets.js"></script>
+</body></html>
