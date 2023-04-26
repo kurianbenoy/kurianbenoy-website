@@ -1,13 +1,12 @@
 ---
 title: Benchmarking Malayalam models
 author: Kurian Benoy
-subtitle: FOSSASIA Summit, Singapore
+draft: true
 date: 2023-04-15
 date-format: full
 categories: [conference, fossasia, Audio, Deep learning, SMC]
 lang: en
 image: IMG_20230415_094452682_HDR.jpg
-comments: false
 format:
   html:
     highlight-style: a11y
