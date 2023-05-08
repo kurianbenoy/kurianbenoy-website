@@ -1,0 +1,33 @@
+---
+title: "Visiting main campus of Indian Institute of Information Technology, Kottayam"
+author: Kurian Benoy
+date: 2023-05-08
+comments: false
+image: campus.jpeg
+categories: [myself]
+format:
+  html:
+    highlight-style: a11y
+    theme:
+      light: flatly
+      dark: darkly
+---
+
+I have been staying in Indian Institute of Information Technology (IIIT), Kottayam for
+the past three days to attend my 4th semester exams in M.Tech. I absolutely loved my stay 
+in campus. During my stay I had some interesting conversations with facilities, students
+who are doing PHD, UG and my fellow professional classmates who are pursuing MTech program.
+Some of these conversations were around latest advances of AI, the works they are doing in
+and how people learn things in this field. The campus is great and facilities are really good. I am 
+also thankful to all the smiles and kindness received from everyone in campus specifically the 
+ex-jawans who are posted there.
+
+![Early morning selfie with mist in background](morning.jpeg){width=300 fig-align="left"}
+
+![Full campus view. [credits](https://www.iiitkottayam.ac.in/#!/home)](campus.jpeg){width=800 fig-align="left"}
+
+![Campus buildings being constructed](campus1.jpeg){width=500 fig-align="left"}
+
+![Class-mates attending tea party hosted by our class-rep](classmates.jpeg){width=500 fig-align="left"}
+
+![](tea.jpeg){width=500 fig-align="left"}
