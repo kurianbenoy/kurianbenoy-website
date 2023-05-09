@@ -14,13 +14,14 @@ format:
 ---
 
 I have been staying in Indian Institute of Information Technology (IIIT), Kottayam for
-the past three days to attend my 4th semester exams in M.Tech. I absolutely loved my stay 
-in campus. During my stay I had some interesting conversations with facilities, students
+the past three days in order to partake in my 4th semester M.Tech exams. I absolutely loved my stay 
+in campus.
+
+ During my stay I had some interesting conversations with facilities, students
 who are doing PHD, UG and my fellow professional classmates who are pursuing MTech program.
-Some of these conversations were around latest advances of AI, the works they are doing in
-and how people learn things in this field. The campus is great and facilities are really good. I am 
-also thankful to all the smiles and kindness received from everyone in campus specifically the 
-ex-jawans who are posted there.
+Some of these conversations were around latest advances of AI, AI hype etc.
+
+The campus boasts excellent amenities. I am thankful to all the warm smiles and kindness received from everyone in campus specifically the ex-jawans who are working there.
 
 ![Early morning selfie with mist in background](morning.jpeg){width=300 fig-align="left"}
 
