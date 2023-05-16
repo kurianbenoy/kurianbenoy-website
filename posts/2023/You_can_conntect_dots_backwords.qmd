@@ -1,0 +1,25 @@
+---
+title: You Can connect the dots looking backwards only
+author: ["Kurian Benoy"]
+date: "2023-04-04"
+categories: [fastai, Life, myself]
+toc: true
+draft: true
+---
+
+During the FOSSASIA Summit 2023, I was given an unique opportunity to introduce
+speakers in Database track on morning Session of Day 2 by Hong Phuc Dang who is the FOSSASIA co-founder. I was very excited to do this
+as I was doing this responsibility for the first time. I prepared a small introduction
+for all the speakers and introduced them with location they are coming from.
+
+There were speakers from Singapore, Malaysia, Russia, Taiwan etc. I was delighted to meet them in person.
+Speakers from one company named Oracle were from different locations like Singapore, Malaysia, Taiwan etc. Since this company had most no of speakers, I got a chance to interact with 
+developers working there.
+
+[Talk about my experience interviewing for Oracle previously, person who smiled at me and served delicious food]
+
+[Now I make a living working in AI and I have spoken in International conferences like FOSSASIA as an expert in my field. Looking back it was pretty lucky for me.
+
+Failed lot of interviews in my campus placement time. Almost 25 interviews I got just one job offer.
+]
+
