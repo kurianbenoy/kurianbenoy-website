@@ -60,10 +60,10 @@ who are world-class practitioners are always tenatious.
 The two critical skills going forward is:
 
 - One is knowing how to use machine learning. 
-- And the other is knowing how to interact with and care for human beings.
+- And the other is knowing how to interact with it and care for human beings.
 
 Because the latter one can’t be replaced by AI. The former one will gradually replace everything. Back in the early days of the commercial internet, being an internet expert was extremely useful and you could have a job as an internet expert and be in a company of internet experts, and sell yourself as an internet expert company. Today, very few people do that, because on the whole the internet is what it is, and there’s a relatively few number of people who need such a level of expertise that they can go in and change the way your router operates and such. I think we’re going to see the same thing with AI. 
 
 
 
-> Thanks to [Alex Strick van Linschoten](forums.fast.ai/u/strickvl/) who posted it in fast.ai forums and for writing [wonderful show notes](https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard), some of which I have used in this post.
+> Thanks to [Alex Strick van Linschoten](https://forums.fast.ai/u/strickvl/) who posted it in fast.ai forums and for writing [wonderful show notes](https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard), some of which I have used in this post.
