@@ -35,6 +35,62 @@
     "text": "Ending Note\n\n“You are never too young to share” “You are never too old to learn”\n\nThat’s five minute, see you speak in the next conference"
   },
   {
+    "objectID": "talks/delft-fastai/index.html#outline",
+    "href": "talks/delft-fastai/index.html#outline",
+    "title": "Sharing Session.",
+    "section": "Outline",
+    "text": "Outline\n\nWhy I love nbdev?\nmalayalam_asr_benchmarking nbdev project\nvegam-whisper-medium Malayalam Release"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#why-i-love-nbdev",
+    "href": "talks/delft-fastai/index.html#why-i-love-nbdev",
+    "title": "Sharing Session.",
+    "section": "Why I love nbdev?",
+    "text": "Why I love nbdev?\n\nI love Jupyter notebook\nwebsite + pypi + anaconda + github project\nI love Quarto"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#nbdev-is-a-secret-weapon-for-productivity",
+    "href": "talks/delft-fastai/index.html#nbdev-is-a-secret-weapon-for-productivity",
+    "title": "Sharing Session.",
+    "section": "Nbdev is a secret weapon for productivity",
+    "text": "Nbdev is a secret weapon for productivity\n\nI have build one company project and two python packages with nbdev so far:\n\n\nmalayalam_asr_benchmarking\nwhisper_normalizer"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#nbdev-opinion-by-hamel",
+    "href": "talks/delft-fastai/index.html#nbdev-opinion-by-hamel",
+    "title": "Sharing Session.",
+    "section": "Nbdev opinion by Hamel",
+    "text": "Nbdev opinion by Hamel\n\nimageFrom Hamel answer in Nbdev for production code topic"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#my-favourite-nbdev-project",
+    "href": "talks/delft-fastai/index.html#my-favourite-nbdev-project",
+    "title": "Sharing Session.",
+    "section": "My favourite nbdev project",
+    "text": "My favourite nbdev project\n\nfastai\nnbdev\nSveltish"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#quarto",
+    "href": "talks/delft-fastai/index.html#quarto",
+    "title": "Sharing Session.",
+    "section": "Quarto",
+    "text": "Quarto\n\nnbdev builds on giant shoulders of quarto\nLearning quarto is like a new programming language."
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#quarto-1",
+    "href": "talks/delft-fastai/index.html#quarto-1",
+    "title": "Sharing Session.",
+    "section": "Quarto",
+    "text": "Quarto"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#my-favourite-quarto-projects",
+    "href": "talks/delft-fastai/index.html#my-favourite-quarto-projects",
+    "title": "Sharing Session.",
+    "section": "My favourite quarto projects",
+    "text": "My favourite quarto projects\n\nQuarto website\nWasim Website\nMy personal website\n\n\n\nYou can access slides @ kurianbenoy.com/talks/delft-fastai/index.html"
+  },
+  {
     "objectID": "talks/fossasia2023.html#outline",
     "href": "talks/fossasia2023.html#outline",
     "title": "OpenAI Whisper and it’s amazing power to do finetuning.",
