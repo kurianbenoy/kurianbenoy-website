@@ -1,0 +1,59 @@
+---
+title: Sharing Session.
+author: Kurian Benoy
+subtitle: Delft-Fastai checking sessions
+date: 2023-04-15
+date-format: full
+comments: false
+format:
+  revealjs:
+    theme: solarized
+    slide-number: true
+    footer: "You can access slides @ [kurianbenoy.com/talks/delft-fastai/index.html](https://kurianbenoy.com/talks/delft-fastai/index.html)"
+---
+
+## Outline
+
+- Why I love nbdev?
+- malayalam_asr_benchmarking nbdev project
+- vegam-whisper-medium Malayalam Release
+
+## Why I love nbdev?
+
+- I love Jupyter notebook
+- website + pypi + anaconda + github project
+- I love Quarto
+
+## Nbdev is a secret weapon for productivity
+
+- I have build one company project and two python packages with nbdev so far:
+
+1. malayalam_asr_benchmarking
+2. whisper_normalizer
+
+## Nbdev opinion by Hamel
+
+![image](https://user-images.githubusercontent.com/24592806/239686246-18b3494a-4daf-446e-b7f6-475cb9d53846.png)
+
+[From Hamel answer in Nbdev for production code topic](https://forums.fast.ai/t/nbdev-for-use-with-production-code/103110/2?u=kurianbenoy)
+
+## My favourite nbdev project
+
+- [fastai](https://github.com/fastai/fastai)
+- [nbdev](https://github.com/fastai/nbdev)
+- [Sveltish](https://fredguth.github.io/sveltish/)
+
+## Quarto
+
+- nbdev builds on giant shoulders of quarto
+- Learning quarto is like a new programming language.
+
+## Quarto 
+
+## My favourite quarto projects
+
+- [Quarto website](https://quarto.org/)
+- [Wasim Website](https://wasimlorgat.com/)
+- [My personal website](https://kurianbenoy.com/)
+
+
