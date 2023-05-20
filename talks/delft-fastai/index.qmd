@@ -2,7 +2,7 @@
 title: Sharing Session.
 author: Kurian Benoy
 subtitle: Delft-Fastai checking sessions
-date: 2023-04-15
+date: 2023-05-28
 date-format: full
 comments: false
 format:
@@ -49,6 +49,8 @@ format:
 - Learning quarto is like a new programming language.
 
 ## Quarto 
+
+{{< video https://youtu.be/nllKcuX7rEc width="1400" height="600" >}}
 
 ## My favourite quarto projects
 
