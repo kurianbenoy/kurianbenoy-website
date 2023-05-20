@@ -1,0 +1,16 @@
+---
+title: Releasing Vegam-whisper-medium-ml models
+subtitle: I am really excited to share two speech to text ASR models and a huggingace space which demonstrates running int.
+draft: true
+author: ["Kurian Benoy"]
+date: "2023-05-21"
+categories: [Audio, Deep learning, SMC, Malayalam]
+toc: true
+---
+
+I am excited to release [Vegam-whisper]
+
+I am working on something interesting for malayalam computing. So have one more cool stuff regarding using CTranslate2 to generate faster-whisper models.
+
+https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml
+https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16
