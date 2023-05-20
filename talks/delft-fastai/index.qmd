@@ -56,6 +56,6 @@ format:
 
 - [Quarto website](https://quarto.org/)
 - [Wasim Website](https://wasimlorgat.com/)
-- [My personal website](https://kurianbenoy.com/)
+- [fastai course website](https://course.fast.ai/)
 
 
