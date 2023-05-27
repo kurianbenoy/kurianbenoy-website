@@ -9,10 +9,9 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.353">
+  <meta name="generator" content="quarto-1.3.357">
 
-  <meta name="author" content="Kurian Benoy">
-  <title>Kurian Benoy - Sharing Session.</title>
+  <title>Kurian Benoy - Malayalam Project</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -320,11 +319,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Kurian Benoy - Sharing Session.">
-<meta property="og:description" content="Delft-Fastai checking sessions">
+<meta property="og:title" content="Kurian Benoy - Malayalam Project">
+<meta property="og:description" content="Delft-Fastai check-in sessions">
 <meta property="og:site-name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - Sharing Session.">
-<meta name="twitter:description" content="Delft-Fastai checking sessions">
+<meta name="twitter:title" content="Kurian Benoy - Malayalam Project">
+<meta name="twitter:description" content="Delft-Fastai check-in sessions">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
@@ -332,15 +331,10 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Sharing Session.</h1>
-  <p class="subtitle">Delft-Fastai checking sessions</p>
+  <h1 class="title">Malayalam Project</h1>
+  <p class="subtitle">Delft-Fastai check-in sessions</p>
 
 <div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Kurian Benoy 
-</div>
-</div>
 </div>
 
   <p class="date">Sunday, May 28, 2023</p>
@@ -348,10 +342,139 @@ Kurian Benoy
 <section id="outline" class="slide level2">
 <h2>Outline</h2>
 <ul>
-<li>Why I love nbdev?</li>
+<li>About Malayalam</li>
 <li>malayalam_asr_benchmarking nbdev project</li>
 <li>vegam-whisper-medium Malayalam Release</li>
+<li>Deploying it to end-users</li>
 </ul>
+</section>
+<section id="about-malayalam" class="slide level2">
+<h2>About Malayalam</h2>
+<ul>
+<li>Malayalam is my mother tongue</li>
+<li><span style="color:blue">Native speakers: 38+ million</span></li>
+<li>Spoken in: Kerala, Lakshadweep, Puducherry, wherever Malayali is living .</li>
+</ul>
+</section>
+<section id="malayalam_asr_benchmarking-project" class="slide level2">
+<h2>Malayalam_asr_benchmarking project</h2>
+</section>
+<section id="whisper-event" class="slide level2">
+<h2>Whisper Event</h2>
+<ul>
+<li>HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</li>
+<li>The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣</li>
+</ul>
+
+<aside><div>
+<p><a href="https://huggingface.co/whisper-event">Whisper Event huggingface page</a></p>
+</div></aside></section>
+<section id="malayalam-models-in-whisper-event" class="slide level2">
+<h2>Malayalam models in Whisper Event</h2>
+<ul>
+<li>For the language Malayalam, the results are as follows:</li>
+</ul>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png" width="700" class="r-stretch quarto-figure-center"><p class="caption">Malayalam models performance in whisper event according <a href="https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&amp;config=ml&amp;split=test">to leaderboard</a></p></section>
+<section id="winning-models-in-malayalam-in-whisper-event" class="slide level2">
+<h2>Winning models in Malayalam in Whisper Event</h2>
+<ul>
+<li>The winning model for Common voice: <code>thennal/whisper-medium-ml</code></li>
+<li>The winning model for Fleurs: <code>parambharath/whisper-small-ml</code></li>
+</ul>
+</section>
+<section id="i-was-not-convinced" class="slide level2">
+<h2>I was not convinced</h2>
+<p>I was sceptical about the winning models becuase of:</p>
+<ol type="1">
+<li>Achieving 10% WER in Malayalam is astonishing.</li>
+<li>In Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.</li>
+<li>Malyalam is a <a href="https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf">morpohologically complex language</a>. So even achieving 30% WER is a big deal.</li>
+</ol>
+</section>
+<section id="i-was-not-convinced-1" class="slide level2 scrollable">
+<h2>I was not convinced</h2>
+<ol start="4" type="1">
+<li>Didn’t trust the Hugging Face way of evaluating models.</li>
+</ol>
+
+<img data-src="../fossasia2023/thennal_model_card.png" class="r-stretch quarto-figure-center"><p class="caption">thennal/whisper-medium-ml model card readme</p></section>
+<section id="i-was-not-convinced-2" class="slide level2 scrollable">
+<h2>I was not convinced</h2>
+<ol start="4" type="1">
+<li>Didn’t trust the Hugging Face way of evaluating models.</li>
+</ol>
+
+<img data-src="../fossasia2023/thennal_commit.png" class="r-stretch quarto-figure-center"><p class="caption">Last commit in thennal/whisper-medium-ml</p></section>
+<section id="i-wanted-to-build-something-new" class="slide level2">
+<h2>I wanted to build something new</h2>
+<ul>
+<li>New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></li>
+</ul>
+
+<img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p></p><div id="tweet-37159"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-37159").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<p></p><div id="tweet-86246"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-86246").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="results-on-benchmarking-in-malayalam" class="slide level2">
+<h2>Results on Benchmarking in Malayalam</h2>
+<ul>
+<li>Started with 6 fine-tuned models in Malayalam</li>
+</ul>
+<ol type="1">
+<li>thennal/whisper-medium-ml</li>
+<li>parambharat/whisper-tiny-ml</li>
+<li>parambharat/whisper-base-ml</li>
+<li>parambharat/whisper-small-ml</li>
+<li>anuragshas/whisper-large-v2-ml</li>
+<li>DrishtiSharma/whisper-large-v2-malayalam</li>
+</ol>
+<ul>
+<li>Compared it with <a href="https://github.com/openai/whisper">6 model versions released by OpenAI</a>.</li>
+</ul>
+</section>
+<section id="results-on-benechmarking-in-common-voice-dataset" class="slide level2">
+<h2>Results on benechmarking in Common Voice dataset</h2>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png" class="r-stretch quarto-figure-center"><p class="caption">Output from benchmarking tool</p></section>
+<section id="results-in-common-voice-dataset" class="slide level2">
+<h2>Results in Common Voice dataset</h2>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png" class="r-stretch quarto-figure-center"><p class="caption">WER in Common Voice-9 test split</p></section>
+<section id="cer-in-common-voice-dataset" class="slide level2">
+<h2>CER in Common Voice dataset</h2>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png" class="r-stretch quarto-figure-center"><p class="caption">CER in Common Voice-9 test split</p></section>
+<section id="results-on-benechmarking-in-malayalam-speech-corpus-dataset" class="slide level2">
+<h2>Results on benechmarking in Malayalam Speech Corpus dataset</h2>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png" class="r-stretch quarto-figure-center"><p class="caption">Output from benchmarking tool</p></section>
+<section id="results-in-malayalam-speech-corpus-dataset" class="slide level2">
+<h2>Results in Malayalam Speech Corpus dataset</h2>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png" class="r-stretch quarto-figure-center"><p class="caption">WER in MSC</p></section>
+<section id="cer-in-malayalam-speech-corpus" class="slide level2">
+<h2>CER in Malayalam Speech Corpus</h2>
+
+<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p><aside class="notes">
+<p>in WER Malayalam CommonVoice9 dataset:</p>
+<p>tiny - 102.7 base - 122.9 small - 104.8 medium - 137.8 large - 107.1 largev2 - 103.2</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="why-i-love-nbdev" class="slide level2">
 <h2>Why I love nbdev?</h2>
@@ -404,7 +527,7 @@ Kurian Benoy
 </ul>
 
 <div class="footer footer-default">
-<p>You can access slides @ <a href="https://kurianbenoy.com/talks/delft-fastai/index.html">kurianbenoy.com/talks/delft-fastai/index.html</a></p>
+<p>Kurian Benoy | You can access slides @ <a href="https://kurianbenoy.com/talks/delft-fastai/index.html">kurianbenoy.com/talks/delft-fastai/index.html</a></p>
 </div>
 </section>
     </div>
@@ -766,4 +889,5 @@ Kurian Benoy
     </script>
     
 
+<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
