@@ -50,7 +50,7 @@ unless explicitly marked, or in a screenshot from an LLM
 Quantitative Linguistics 5(3), 206–213 (1998)
 
 [2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of
-languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014
+languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)
 :::
 
 :::
@@ -87,8 +87,7 @@ TTR = 7 \div 9
 
 ##
 
-![Comparison of Malayalam TTR with that of European Union Consti-
-tution Corpus and DoE-CIIL Corpus from K. Manohar et al.](morphology2.png)
+![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](morphology_ttr.png)
 
 ::: aside
 Information from [Quantitative Analysis of the Morphological
