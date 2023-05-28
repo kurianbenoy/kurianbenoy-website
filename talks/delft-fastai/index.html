@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -368,31 +433,37 @@
 </section>
 <section id="about-malayalam-1" class="slide level2">
 <h2>About Malayalam</h2>
+<div>
 <ul>
-<li><span style="color:red">Malayalam is my mother tongue.</span></li>
-<li><span style="color:blue">Native speakers: 38+ million.</span></li>
-<li><span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span></li>
+<li class="fragment"><span style="color:red">Malayalam is my mother tongue.</span></li>
+<li class="fragment"><span style="color:blue">Native speakers: 38+ million.</span></li>
+<li class="fragment"><span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span></li>
 </ul>
+</div>
 </section>
 <section id="malayalam-is-a-morphologically-complex-language" class="slide level2">
 <h2>Malayalam is a morphologically complex language</h2>
+<div>
 <ul>
-<li><span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span></li>
-<li><span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span></li>
+<li class="fragment"><span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span></li>
+<li class="fragment"><span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span></li>
 </ul>
 
+</div>
 <aside><div>
 <p>[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)</p>
 <p>[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014</p>
 </div></aside></section>
 <section id="types-and-tokens" class="slide level2">
 <h2>Types and Tokens</h2>
+<div>
 <ul>
-<li><span style="color:red">To be or not to be is question</span></li>
-<li><span style="color:blue">Type count: 7</span></li>
-<li><code>Token count: 9</code></li>
-<li><span style="color:green">TTR = Type count / Token count</span></li>
+<li class="fragment"><span style="color:red">To be or not to be is question</span></li>
+<li class="fragment"><span style="color:blue">Type count: 7</span></li>
+<li class="fragment"><code>Token count: 9</code></li>
+<li class="fragment"><span style="color:green">TTR = Type count / Token count</span></li>
 </ul>
+</div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
@@ -415,10 +486,12 @@
 </section>
 <section id="whisper-event" class="slide level2">
 <h2>Whisper Event</h2>
+<div>
 <ul>
-<li><span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span></li>
-<li><span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span></li>
+<li class="fragment"><span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span></li>
+<li class="fragment"><span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span></li>
 </ul>
+</div>
 
 <aside><div>
 <p><a href="https://huggingface.co/whisper-event">Whisper Event huggingface page</a></p>
@@ -430,7 +503,7 @@
 </ul>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png" width="700" class="r-stretch quarto-figure-center"><p class="caption">Malayalam models performance in whisper event according <a href="https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&amp;config=ml&amp;split=test">to leaderboard</a></p></section>
-<section id="winning-models-in-malayalam-in-whisper-event" class="slide level2">
+<section id="winning-models-in-malayalam-in-whisper-event" class="slide level2 nonincremental">
 <h2>Winning models in Malayalam in Whisper Event</h2>
 <ul>
 <li><span style="color:red">The winning model for Common voice</span>: <code>thennal/whisper-medium-ml</code></li>
@@ -440,11 +513,13 @@
 <section id="i-was-not-convinced" class="slide level2">
 <h2>I was not convinced</h2>
 <p><span style="color:red">I was sceptical about the winning models becuase of</span>:</p>
+<div>
 <ol type="1">
-<li>Achieving 10% WER in Malayalam is astonishing.</li>
-<li>In Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.</li>
-<li>Malyalam is a <a href="https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf">morpohologically complex language</a>. So even achieving 30% WER is a big deal.</li>
+<li class="fragment">Achieving 10% WER in Malayalam is astonishing.</li>
+<li class="fragment">In Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.</li>
+<li class="fragment">Malyalam is a <a href="https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf">morpohologically complex language</a>. So even achieving 30% WER is a big deal.</li>
 </ol>
+</div>
 </section>
 <section id="i-was-not-convinced-1" class="slide level2 scrollable">
 <h2>I was not convinced</h2>
@@ -469,11 +544,11 @@
 <img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-60141"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-60141").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-15931"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15931").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-89644"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-89644").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-13867"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-13867").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="benchmarked-models" class="slide level2">
 <h2>Benchmarked models</h2>
@@ -493,8 +568,8 @@
 <h2>Results on benechmarking in Common Voice dataset</h2>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png" class="r-stretch quarto-figure-center"><p class="caption">Output from benchmarking tool</p></section>
-<section id="results-in-common-voice-dataset" class="slide level2">
-<h2>Results in Common Voice dataset</h2>
+<section id="wer-in-common-voice-dataset" class="slide level2">
+<h2>WER in Common Voice dataset</h2>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png" class="r-stretch quarto-figure-center"><p class="caption">WER in Common Voice-9 test split</p></section>
 <section id="cer-in-common-voice-dataset" class="slide level2">
@@ -505,28 +580,14 @@
 <h2>Results on benechmarking in Malayalam Speech Corpus dataset</h2>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png" class="r-stretch quarto-figure-center"><p class="caption">Output from benchmarking tool</p></section>
-<section id="results-in-malayalam-speech-corpus-dataset" class="slide level2">
-<h2>Results in Malayalam Speech Corpus dataset</h2>
+<section id="wer-in-malayalam-speech-corpus" class="slide level2">
+<h2>WER in Malayalam Speech Corpus</h2>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png" class="r-stretch quarto-figure-center"><p class="caption">WER in MSC</p></section>
 <section id="cer-in-malayalam-speech-corpus" class="slide level2">
 <h2>CER in Malayalam Speech Corpus</h2>
 
-<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p><aside class="notes">
-<p>in WER Malayalam CommonVoice9 dataset:</p>
-<p>tiny - 102.7 base - 122.9 small - 104.8 medium - 137.8 large - 107.1 largev2 - 103.2</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p></section>
 <section id="end-goal" class="slide level2">
 <h2>End Goal</h2>
 <ul>
@@ -540,10 +601,12 @@
 </section>
 <section id="inspired-by" class="slide level2">
 <h2>Inspired by</h2>
+<div>
 <ul>
-<li><span style="color:red"><a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> is a reimplementation of OpenAI’s Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span></li>
-<li><span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span></li>
+<li class="fragment"><span style="color:red"><a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> is a reimplementation of OpenAI’s Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span></li>
+<li class="fragment"><span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span></li>
 </ul>
+</div>
 
 <aside><div>
 <p>Information from <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper github README</a></p>
@@ -553,7 +616,9 @@
 <ul>
 <li><span style="color:red">It had this utility for converting any <code>whisper</code> based model to faster-whisper like models.</span></li>
 </ul>
-<pre><code>ct2-transformers-converter --model openai/whisper-tiny --output_dir whisper-tiny-ct2</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>ct2-transformers-converter \</span>
+<span id="cb1-2"><a href="#cb1-2"></a> --model openai/whisper-tiny \</span>
+<span id="cb1-3"><a href="#cb1-3"></a> --output_dir whisper-tiny-ct2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="vegam-whisper-models-released" class="slide level2">
 <h2>Vegam Whisper models released</h2>
@@ -576,6 +641,10 @@
 <li>GPU-based microservice (coming soon.)</li>
 </ol>
 </section>
+<section id="spaces-for-pallaku" class="slide level2">
+<h2>🤗 spaces for Pallaku</h2>
+
+<img data-src="pallakku.png" class="r-stretch"></section>
 <section id="thanks-to" class="slide level2">
 <h2>Thanks to</h2>
 <div class="columns">
