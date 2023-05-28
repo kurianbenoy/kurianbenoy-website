@@ -62,8 +62,23 @@ languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014
 - <span style="color:red">To be or not to be is question</span>
 - <span style="color:blue">Type count: 7</span>
 - `Token count: 9`
-- <span style="color:green">TTR = Type count / Token count</span>
 :::
+
+## Type Token Ratio (TTR)
+
+```{=tex}
+\begin{gather*}
+TTR = \frac{\text{Type count}}{\text{Token count}}
+\end{gather*}
+```
+
+- <span style="color:red">To be or not to be is question</span>
+
+```{=tex}
+\begin{gather*}
+TTR = 7 \div 9
+\end{gather*}
+```
 
 ##
 
@@ -84,10 +99,8 @@ Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com
 
 ## Whisper Event
 
-::: {.incremental}
 - <span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span>
 - <span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span>
-:::
 
 ::: aside
 [Whisper Event huggingface page](https://huggingface.co/whisper-event)
@@ -235,14 +248,15 @@ ct2-transformers-converter \
 ::: {.column width="70%"}
 1. [OpenAI team](https://openai.com/) - Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
 2. Creators of [CTranslate2](https://opennmt.net/CTranslate2) and [faster-whisper](https://github.com/guillaumekln/faster-whisper) - [Guillaume Klein](https://github.com/guillaumekln)
-3. [Kavya Manohar](https://kavyamanohar.com/)
-4. [Santhosh Thottingal](https://thottingal.in/)
+3. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
+4. [Kavya Manohar](https://kavyamanohar.com/)
+5. [Santhosh Thottingal](https://thottingal.in/)
 :::
 
 ::: {.column width="30%"}
-5. [Thennal D K](https://huggingface.co/thennal)
-6. [Alex Strick van Linschoten](https://mlops.systems/)
-7. [Jarvis Labs](cloud.jarvislabs.ai/)
+6. [Thennal D K](https://huggingface.co/thennal)
+7. Other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
+8. [Jarvis Labs](cloud.jarvislabs.ai/)
 :::
 ::::
 
