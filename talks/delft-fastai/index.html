@@ -9,9 +9,9 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.357">
+  <meta name="generator" content="quarto-1.3.361">
 
-  <title>Kurian Benoy - Malayalam Project</title>
+  <title>Kurian Benoy - Malayalam Project I am working at the moment!</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -319,10 +319,10 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Kurian Benoy - Malayalam Project">
+<meta property="og:title" content="Kurian Benoy - Malayalam Project I am working at the moment!">
 <meta property="og:description" content="Delft-Fastai check-in sessions">
 <meta property="og:site-name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - Malayalam Project">
+<meta name="twitter:title" content="Kurian Benoy - Malayalam Project I am working at the moment!">
 <meta name="twitter:description" content="Delft-Fastai check-in sessions">
 <meta name="twitter:card" content="summary">
 </head>
@@ -331,7 +331,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Malayalam Project</h1>
+  <h1 class="title">Malayalam Project I am working at the moment!</h1>
   <p class="subtitle">Delft-Fastai check-in sessions</p>
 
 <div class="quarto-title-authors">
@@ -344,26 +344,80 @@
 <ul>
 <li>About Malayalam</li>
 <li>malayalam_asr_benchmarking nbdev project</li>
-<li>vegam-whisper-medium Malayalam Release</li>
-<li>Deploying it to end-users</li>
+<li>vegam-whisper-medium ml model and Pallakku</li>
 </ul>
+</section>
+<section id="whoami" class="slide level2">
+<h2>$whoami</h2>
+<ul>
+<li>AI Engineer &amp; Team Lead @ Sentient.io</li>
+<li>Volunteer @ Swathanthra Malayalam Computing(SMC)</li>
+<li>Open-source enthusiast</li>
+<li>Not affiliated to OpenAI</li>
+</ul>
+</section>
+<section id="disclaimer" class="slide level2">
+<h2>Disclaimer</h2>
+<ul>
+<li><span style="color:red">Nothing in this talk is generated.</span></li>
+</ul>
+<p>unless explicitly marked, or in a screenshot from an LLM</p>
 </section>
 <section id="about-malayalam" class="slide level2">
 <h2>About Malayalam</h2>
+</section>
+<section id="about-malayalam-1" class="slide level2">
+<h2>About Malayalam</h2>
 <ul>
-<li>Malayalam is my mother tongue</li>
-<li><span style="color:blue">Native speakers: 38+ million</span></li>
-<li>Spoken in: Kerala, Lakshadweep, Puducherry, wherever Malayali is living .</li>
+<li><span style="color:red">Malayalam is my mother tongue.</span></li>
+<li><span style="color:blue">Native speakers: 38+ million.</span></li>
+<li><span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span></li>
 </ul>
 </section>
+<section id="malayalam-is-a-morphologically-complex-language" class="slide level2">
+<h2>Malayalam is a morphologically complex language</h2>
+<ul>
+<li><span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span></li>
+<li><span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span></li>
+</ul>
+
+<aside><div>
+<p>[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)</p>
+<p>[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014</p>
+</div></aside></section>
+<section id="types-and-tokens" class="slide level2">
+<h2>Types and Tokens</h2>
+<ul>
+<li><span style="color:red">To be or not to be is question</span></li>
+<li><span style="color:blue">Type count: 7</span></li>
+<li><code>Token count: 9</code></li>
+<li><span style="color:green">TTR = Type count / Token count</span></li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="morphology1.png" class="r-stretch quarto-figure-center"><p class="caption">TTGR and TTR plot of Malayalam for SMC Corpus of Wikipedia text from K. Manohar et al.</p></section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="morphology2.png"></p>
+<figcaption>Comparison of Malayalam TTR with that of European Union Consti- tution Corpus and DoE-CIIL Corpus from K. Manohar et al.</figcaption>
+</figure>
+</div>
+
+<aside><div>
+<p>Information from <a href="https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7">Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al.</a></p>
+</div></aside></section>
 <section id="malayalam_asr_benchmarking-project" class="slide level2">
 <h2>Malayalam_asr_benchmarking project</h2>
 </section>
 <section id="whisper-event" class="slide level2">
 <h2>Whisper Event</h2>
 <ul>
-<li>HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</li>
-<li>The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣</li>
+<li><span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span></li>
+<li><span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span></li>
 </ul>
 
 <aside><div>
@@ -372,20 +426,20 @@
 <section id="malayalam-models-in-whisper-event" class="slide level2">
 <h2>Malayalam models in Whisper Event</h2>
 <ul>
-<li>For the language Malayalam, the results are as follows:</li>
+<li><span style="color:red">For the language Malayalam, the results are as follows:</span></li>
 </ul>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png" width="700" class="r-stretch quarto-figure-center"><p class="caption">Malayalam models performance in whisper event according <a href="https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&amp;config=ml&amp;split=test">to leaderboard</a></p></section>
 <section id="winning-models-in-malayalam-in-whisper-event" class="slide level2">
 <h2>Winning models in Malayalam in Whisper Event</h2>
 <ul>
-<li>The winning model for Common voice: <code>thennal/whisper-medium-ml</code></li>
-<li>The winning model for Fleurs: <code>parambharath/whisper-small-ml</code></li>
+<li><span style="color:red">The winning model for Common voice</span>: <code>thennal/whisper-medium-ml</code></li>
+<li><span style="color:blue">The winning model for Fleurs</span>: <code>parambharath/whisper-small-ml</code></li>
 </ul>
 </section>
 <section id="i-was-not-convinced" class="slide level2">
 <h2>I was not convinced</h2>
-<p>I was sceptical about the winning models becuase of:</p>
+<p><span style="color:red">I was sceptical about the winning models becuase of</span>:</p>
 <ol type="1">
 <li>Achieving 10% WER in Malayalam is astonishing.</li>
 <li>In Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.</li>
@@ -409,22 +463,22 @@
 <section id="i-wanted-to-build-something-new" class="slide level2">
 <h2>I wanted to build something new</h2>
 <ul>
-<li>New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></li>
+<li><span style="color:red">New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></span></li>
 </ul>
 
 <img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
-<section id="section" class="slide level2">
+<section id="section-2" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-37159"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-37159").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-60141"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-60141").innerHTML = tweet["html"];</script><p></p>
 </section>
-<section id="section-1" class="slide level2">
+<section id="section-3" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-86246"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-86246").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-89644"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-89644").innerHTML = tweet["html"];</script><p></p>
 </section>
-<section id="results-on-benchmarking-in-malayalam" class="slide level2">
-<h2>Results on Benchmarking in Malayalam</h2>
+<section id="benchmarked-models" class="slide level2">
+<h2>Benchmarked models</h2>
 <ul>
-<li>Started with 6 fine-tuned models in Malayalam</li>
+<li><span style="color:red">Started with 6 fine-tuned models in Malayalam and compared it with <a href="https://github.com/openai/whisper">6 model versions released by OpenAI</a>.</span></li>
 </ul>
 <ol type="1">
 <li>thennal/whisper-medium-ml</li>
@@ -434,9 +488,6 @@
 <li>anuragshas/whisper-large-v2-ml</li>
 <li>DrishtiSharma/whisper-large-v2-malayalam</li>
 </ol>
-<ul>
-<li>Compared it with <a href="https://github.com/openai/whisper">6 model versions released by OpenAI</a>.</li>
-</ul>
 </section>
 <section id="results-on-benechmarking-in-common-voice-dataset" class="slide level2">
 <h2>Results on benechmarking in Common Voice dataset</h2>
@@ -475,6 +526,77 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="end-goal" class="slide level2">
+<h2>End Goal</h2>
+<ul>
+<li><span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span></li>
+<li><span style="color:blue">Should include results for Kaldi, Wav2Vec, Whisper, MMS etc.</span></li>
+</ul>
+
+<img data-src="openllm.png" class="r-stretch quarto-figure-center"><p class="caption">Open LLM leaderboard in <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard">huggingface spaces</a></p></section>
+<section id="vegam-whisper-medium-ml-model-and-pallakku" class="slide level2">
+<h2>vegam-whisper-medium ml model and Pallakku</h2>
+</section>
+<section id="inspired-by" class="slide level2">
+<h2>Inspired by</h2>
+<ul>
+<li><span style="color:red"><a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> is a reimplementation of OpenAI’s Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span></li>
+<li><span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span></li>
+</ul>
+
+<aside><div>
+<p>Information from <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper github README</a></p>
+</div></aside></section>
+<section id="ctranslate2" class="slide level2">
+<h2>CTranslate2</h2>
+<ul>
+<li><span style="color:red">It had this utility for converting any <code>whisper</code> based model to faster-whisper like models.</span></li>
+</ul>
+<pre><code>ct2-transformers-converter --model openai/whisper-tiny --output_dir whisper-tiny-ct2</code></pre>
+</section>
+<section id="vegam-whisper-models-released" class="slide level2">
+<h2>Vegam Whisper models released</h2>
+<ul>
+<li><span style="color:red">I used <code>thennal/whisper-medium-ml</code> to convert it to faster-whisper based models for Malayalam:</span></li>
+</ul>
+<ol type="1">
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml">kurianbenoy/vegam-whisper-medium-ml</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16">kurianbenoy/vegam-whisper-medium-ml-fp16</a></li>
+</ol>
+</section>
+<section id="pallakku" class="slide level2">
+<h2>Pallakku</h2>
+<ul>
+<li><span style="color:red">Pallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.</span></li>
+<li>Now hosted as:</li>
+</ul>
+<ol type="1">
+<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">🤗 spaces for Pallaku</a></li>
+<li>GPU-based microservice (coming soon.)</li>
+</ol>
+</section>
+<section id="thanks-to" class="slide level2">
+<h2>Thanks to</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ol type="1">
+<li><a href="https://openai.com/">OpenAI team</a> - Alec Radford, <a href="https://github.com/jongwook">Jong Wook Kim</a>, <a href="https://www.linkedin.com/in/mcleavey">Christine McLeavey</a> etc. other authors of <a href="https://cdn.openai.com/papers/whisper.pdf">Whisper paper</a></li>
+<li>Creators of <a href="https://opennmt.net/CTranslate2">CTranslate2</a> and <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> - <a href="https://github.com/guillaumekln">Guillaume Klein</a></li>
+<li><a href="https://kavyamanohar.com/">Kavya Manohar</a></li>
+<li><a href="https://thottingal.in/">Santhosh Thottingal</a></li>
+</ol>
+</div><div class="column" style="width:30%;">
+<ol start="5" type="1">
+<li><a href="https://huggingface.co/thennal">Thennal D K</a></li>
+<li><a href="https://mlops.systems/">Alex Strick van Linschoten</a></li>
+<li><a href="cloud.jarvislabs.ai/">Jarvis Labs</a></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="appendix" class="slide level2">
+<h2>Appendix</h2>
 </section>
 <section id="why-i-love-nbdev" class="slide level2">
 <h2>Why I love nbdev?</h2>
@@ -527,7 +649,7 @@
 </ul>
 
 <div class="footer footer-default">
-<p>Kurian Benoy | You can access slides @ <a href="https://kurianbenoy.com/talks/delft-fastai/index.html">kurianbenoy.com/talks/delft-fastai/index.html</a></p>
+<p>Kurian Benoy | 28th May, 2023 | You can access slides @ <a href="https://kurianbenoy.com/talks/delft-fastai/index.html">kurianbenoy.com/talks/delft-fastai/index.html</a></p>
 </div>
 </section>
     </div>
