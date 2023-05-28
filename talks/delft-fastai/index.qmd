@@ -235,10 +235,10 @@ ct2-transformers-converter \
 - <span style="color:red">Pallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.</span>
 - Now hosted as:
 
-1. [🤗 spaces for Pallaku](https://huggingface.co/spaces/kurianbenoy/Pallakku)
+1. [🤗 spaces](https://huggingface.co/spaces/kurianbenoy/Pallakku)
 2. GPU-based microservice (coming soon.)
 
-## 🤗 spaces for Pallaku
+## 🤗 spaces
 
 ![](pallakku.png)
 
