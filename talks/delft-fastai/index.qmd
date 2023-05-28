@@ -33,12 +33,15 @@ unless explicitly marked, or in a screenshot from an LLM
 
 ## About Malayalam
 
+::: {.incremental}
 - <span style="color:red">Malayalam is my mother tongue.</span>
 - <span style="color:blue">Native speakers: 38+ million.</span>
 - <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span>
+:::
 
 ## Malayalam is a morphologically complex language
 
+::: {.incremental}
 - <span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span>
 - <span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span>
 
@@ -50,13 +53,17 @@ Quantitative Linguistics 5(3), 206–213 (1998)
 languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014
 :::
 
+:::
+
 
 ## Types and Tokens
 
+::: {.incremental}
 - <span style="color:red">To be or not to be is question</span>
 - <span style="color:blue">Type count: 7</span>
 - `Token count: 9`
 - <span style="color:green">TTR = Type count / Token count</span>
+:::
 
 ##
 
@@ -77,8 +84,10 @@ Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com
 
 ## Whisper Event
 
+::: {.incremental}
 - <span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span>
 - <span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span>
+:::
 
 ::: aside
 [Whisper Event huggingface page](https://huggingface.co/whisper-event)
@@ -90,7 +99,7 @@ Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com
 
 ![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
 
-## Winning models in Malayalam in Whisper Event
+## Winning models in Malayalam in Whisper Event {.nonincremental}
 
 - <span style="color:red">The winning model for Common voice</span>: `thennal/whisper-medium-ml`
 - <span style="color:blue">The winning model for Fleurs</span>: `parambharath/whisper-small-ml`
@@ -99,11 +108,15 @@ Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com
 
 <span style="color:red">I was sceptical about the winning models becuase of</span>:
 
+::: {.incremental}
+
 1. Achieving 10% WER in Malayalam is astonishing.
 2. In Malayalam there is not even a single yard stick to compare. Most of
 previous works were done in proprietary datasets and not open-sourced.
 3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
 is a big deal.
+
+:::
 
 ## I was not convinced {.scrollable}
 
@@ -147,7 +160,7 @@ is a big deal.
 
 ![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
 
-## Results in Common Voice dataset
+## WER in Common Voice dataset
 
 ![WER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
 
@@ -159,24 +172,13 @@ is a big deal.
 
 ![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png)
 
-## Results in Malayalam Speech Corpus dataset
+## WER in Malayalam Speech Corpus
 
 ![WER in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
 
 ## CER in Malayalam Speech Corpus
 
 ![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
-
-::: {.notes}
-in WER Malayalam CommonVoice9 dataset:
-
-tiny - 102.7
-base - 122.9
-small - 104.8
-medium - 137.8
-large - 107.1
-largev2 - 103.2
-:::
 
 ## End Goal
 
@@ -189,8 +191,10 @@ largev2 - 103.2
 
 ## Inspired by
 
+::: {.incremental}
 - <span style="color:red">[faster-whisper](https://github.com/guillaumekln/faster-whisper) is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span>
 - <span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span>
+:::
 
 ::: aside
 Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)
@@ -200,8 +204,10 @@ Information from [faster-whisper github README](https://github.com/guillaumekln/
 
 - <span style="color:red">It had this utility for converting any `whisper` based model to faster-whisper like models.</span>
 
-```
-ct2-transformers-converter --model openai/whisper-tiny --output_dir whisper-tiny-ct2
+```shell
+ct2-transformers-converter \
+ --model openai/whisper-tiny \
+ --output_dir whisper-tiny-ct2
 ```
 
 ## Vegam Whisper models released
@@ -218,6 +224,10 @@ ct2-transformers-converter --model openai/whisper-tiny --output_dir whisper-tiny
 
 1. [🤗 spaces for Pallaku](https://huggingface.co/spaces/kurianbenoy/Pallakku)
 2. GPU-based microservice (coming soon.)
+
+## 🤗 spaces for Pallaku
+
+![](pallakku.png)
 
 ## Thanks to
 
