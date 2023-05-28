@@ -81,7 +81,14 @@
     "href": "talks/delft-fastai/index.html#types-and-tokens",
     "title": "Malayalam Project I am working at the moment!",
     "section": "Types and Tokens",
-    "text": "Types and Tokens\n\n\nTo be or not to be is question\nType count: 7\nToken count: 9\nTTR = Type count / Token count"
+    "text": "Types and Tokens\n\n\nTo be or not to be is question\nType count: 7\nToken count: 9"
+  },
+  {
+    "objectID": "talks/delft-fastai/index.html#type-token-ratio-ttr",
+    "href": "talks/delft-fastai/index.html#type-token-ratio-ttr",
+    "title": "Malayalam Project I am working at the moment!",
+    "section": "Type Token Ratio (TTR)",
+    "text": "Type Token Ratio (TTR)\n\\[\\begin{gather*}\nTTR = \\frac{\\text{Type count}}{\\text{Token count}}\n\\end{gather*}\\]\n\nTo be or not to be is question\n\n\\[\\begin{gather*}\nTTR = 7 \\div 9\n\\end{gather*}\\]"
   },
   {
     "objectID": "talks/delft-fastai/index.html#section",
@@ -109,7 +116,7 @@
     "href": "talks/delft-fastai/index.html#whisper-event",
     "title": "Malayalam Project I am working at the moment!",
     "section": "Whisper Event",
-    "text": "Whisper Event\n\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 \n\n\n\n\nWhisper Event huggingface page"
+    "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 \n\n\n\nWhisper Event huggingface page"
   },
   {
     "objectID": "talks/delft-fastai/index.html#malayalam-models-in-whisper-event",
@@ -256,7 +263,7 @@
     "href": "talks/delft-fastai/index.html#thanks-to",
     "title": "Malayalam Project I am working at the moment!",
     "section": "Thanks to",
-    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nCreators of CTranslate2 and faster-whisper - Guillaume Klein\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nAlex Strick van Linschoten\nJarvis Labs"
+    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nCreators of CTranslate2 and faster-whisper - Guillaume Klein\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nOther members in Swathanthra Malayalam Computing community.\nJarvis Labs"
   },
   {
     "objectID": "talks/delft-fastai/index.html#appendix",
