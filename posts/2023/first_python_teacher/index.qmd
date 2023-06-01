@@ -1,0 +1,61 @@
+---
+title: Tributes to the teacher who taught me python first- Dear Jumaana mam!
+author: ["Kurian Benoy"]
+date: "2023-05-29"
+categories: [Life, Python, academic, experience]
+draft: True
+---
+
+The teacher who taught me Python first had passed away today due to cancer.
+
+During my bachelors I joined for Computer Science in Govt Model Engineering College.
+I was someone who didn't love programming. Infact Computer Science was the only
+subject I didn't get A1 in my class 12 board exams. 
+
+Yet everything changed when I was taught the wonderful programming language of Python
+by Jumaana mam. It soon became one of my favourite subject and it was all because
+of teacher.
+
+One of my favourite subjects was Python. It was all because of the teacher.
+
+She insisted she will focus in teaching in a beginner friendly way, as there are students
+who do Btech with a background in biology or computer in class 12. Even though I was someone
+who did computer science in class 12, I absolutely hated learning C++ programming. Computer
+science was the only subject I didn't get A1 in class 12.
+
+Jumana mam made the learning so much fun. She opened a few ideas like:
+
+1. There can be more than multiple ways to solve one problem. Previously I used
+to by-heart code and do it.
+2. She encouraged anyone to ask doubts. 
+3. She explained the stuff we don't understand multiple times.
+
+
+Fast fo, I had already been working in my job for over two years now.
+Python was the language which was paying my bill. By then I had spoken in Pycon India twice
+as an expert in Machine Learning and Core-Python. I called my mam and thanked her for teaching
+me Pycon. 
+
+She was jubiliant on hearing about my achievments and Jumana asked me to share the
+talk videos with her. Jumana mam was really happy to hear my achievments. She told
+by then she had made a switch from academia to industry world, also she said she had
+minor medical issues which didn't allow to talk for a long time.
+
+I am totally devasted to hear that she passed due to cancer. RIP my first teacher who taught me python.
+
+
+In 2016 when I joined my BTech. for Computer Science, I was someone who didn't love programming
+and CS was only subject I didn't get A1 in my class 12 boards. In my semester I was taught
+Python by a wonderful teacher. She taught in a beginner friendly way and encouraged anyone 
+to ask doubts.
+
+She told us programming was not something to by-heart and there are multiple way to
+solve the same problem. One year back I called my teacher and thanked her.
+By then I had spoken in Pycon India twice as an expert in machine learning and core-python and was able to pay my bills by coding
+in Python. She was really happy about me and even asked me to send even the videos of my
+talks.
+
+My dear Jumana mam passed away today. I was really blessed to have such a wonderful teacher.
+
+---
+
