@@ -23,16 +23,13 @@ comments: false
 
 ## Hi, I'm Kurian Benoy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-I am a Machine Learning Engineer working in [Sentient.io](https://www.sentient.io/en/), a startup based in Singapore.
-
-I have multiple years of experience in Python and Machine learning experience, where I am now
-looking more into the MLOPs side. I have contributed to various open source organizations like Keras,
+I am an AI Engineer & Team Lead working in [Sentient.io](https://www.sentient.io/en/), a fast-paced startup based in Singapore. I have multiple years of experience in Python and Machine learning experience. I have contributed to various open source organizations like Keras,
 DVC, HuggingFace, fast.ai, Swathanthra Malayalam Computing, CloudCV etc.
 
 I like to speak and interact with developer community. I am an active member of [fast.ai community](https://forums.fast.ai/u/kurianbenoy/summary) and engage
 in lot of other communities based in Kerala. I have given talk as expert in competence of Machine Learning and core Python
 in [Pycon India](https://in.pycon.org), which is the largest gathering of Pythonistas in India for the Python programming language.
 
-I follow an open to contact policy for anyone to reach me anytime. I am quite easy to reach out via [email](mailto:kurian.bkk@gmail.com) or
-feel free to connect or contact me in any of the social media platforms.
+I am quite easy to reach out via [email](mailto:kurian.bkk@gmail.com) or
+feel free to connect or contact me via [linkedIn](https://linkedin.com/in/kurianbenoy) or [twitter](ttps://twitter.com/kurianbenoy2).
  
