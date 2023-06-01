@@ -7,7 +7,6 @@ draft: True
 ---
 
 The teacher who taught me Python first had passed away today due to cancer.
-
 During my bachelors I joined for Computer Science in Govt Model Engineering College.
 I was someone who didn't love programming. Infact Computer Science was the only
 subject I didn't get A1 in my class 12 board exams. 
