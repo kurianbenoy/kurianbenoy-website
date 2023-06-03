@@ -1,7 +1,7 @@
 ---
-title: OpenAI Whisper and it's amazing power to do finetuning (FOSSASIA 2023 Talk Page)
+title: OpenAI Whisper and it's amazing power to do finetuning
 author: Kurian Benoy
-subtitle: FOSSASIA Summit, Singapore
+subtitle: Talk Page for FOSSASIA Summit 2023, Singapore
 date: 2023-04-15
 date-format: full
 categories: [conference, fossasia, Audio, Deep learning, SMC]
