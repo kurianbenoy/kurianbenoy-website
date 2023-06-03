@@ -3,7 +3,7 @@ aliases:
 - /Deep learning/ML/NLP/SMC/malayalam/malayalamtextmodels/opensource/2022/05/30/malayalamtext-0
 categories:
 - malayalamtextmodels
-- malayalam
+- Malayalam
 - NLP
 - opensource
 - ML

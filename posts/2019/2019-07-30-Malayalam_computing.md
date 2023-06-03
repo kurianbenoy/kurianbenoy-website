@@ -2,7 +2,7 @@
 aliases:
 - /SMC/conference/malayalam/2019/07/30/Malayalam_computing
 categories:
-- malayalam
+- Malayalam
 - conference
 - SMC
 date: '2019-07-30'
