@@ -1,0 +1,33 @@
+---
+title: Malayalam Projects I am working at the moment!
+author: Kurian Benoy
+subtitle: Delft-fastai Study group Talk Page
+date: 2023-05-28
+date-format: full
+categories: [Malayalam, SMC]
+lang: en
+comments: false
+image: https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg
+format:
+  html:
+    highlight-style: a11y
+    theme:
+      light: flatly
+      dark: darkly
+---
+
+## Links to talk
+
+- [Slides](../../../talks/delft-fastai/index.qmd)
+
+- Scheduled Time: Sunday, May 28, 2023, 3:30 PM IST
+
+- [Youtube Link](https://youtu.be/c69VyJ16Mx4)
+
+{{< video https://www.youtube.com/embed/c69VyJ16Mx4 >}}
+
+- [fastai forums post](https://forums.fast.ai/t/delft-study-group-talks-mojo-and-malayalam-benchmarking-low-resource-language/106126?u=kurianbenoy)
+
+## Talk in 30 seconds
+
+I talked about Malayalam language and what makes it hard to work compared to other high resource languages like English. Then I highlighted some of the Malayalam models build during Whisper event and why I went ahead to benchmark these models. These models where benchmarked on two datasets mainly Common Voice and Malayalam Speech Corpus. I also shared more about the [Vegam Whisper model family](https://huggingface.co/models?other=vegam) for making whisper models faster. Also I shared about Malayalam speech to text demo [Pallakku](https://huggingface.co/spaces/kurianbenoy/Pallakku) which I am developing now with Vegam whisper weights.
