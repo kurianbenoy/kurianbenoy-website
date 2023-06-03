@@ -10,6 +10,8 @@ format:
     footer: "[Kurian Benoy](https://kurianbenoy.com/) | 28th May, 2023 |  "
 ---
 
+## Oral Presentation
+
 ## Malayalam_asr_benchmarking project
 
 ## Whisper Event
@@ -143,7 +145,10 @@ ct2-transformers-converter \
 - <span style="color:red">I used `thennal/whisper-medium-ml` to convert it to faster-whisper based models for Malayalam:</span>
 
 1. [kurianbenoy/vegam-whisper-medium-ml](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml)
-1. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+2. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+3. [kurianbenoy/vegam-whisper-medium-ml-int8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8)
+4. [kurianbenoy/vegam-whisper-medium-ml-int8_float16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float16)
+5. [kurianbenoy/vegam-whisper-medium-ml-int16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16)
 
 ## Pallakku
 
