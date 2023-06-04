@@ -65,11 +65,13 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="Kurian Benoy - Learning how to install malayalam fonts">
-<meta property="og:description" content="">
+<meta property="og:description" content="TIL">
+<meta property="og:image" content="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font2.jpg">
 <meta property="og:site-name" content="Kurian Benoy">
 <meta name="twitter:title" content="Kurian Benoy - Learning how to install malayalam fonts">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="TIL">
+<meta name="twitter:image" content="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font2.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -133,6 +135,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Learning how to install malayalam fonts</h1>
+            <p class="subtitle lead">TIL</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Malayalam</div>
                 <div class="quarto-category">myself</div>
@@ -155,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Saturday, April 15, 2023</p>
+        <p class="date">Sunday, June 4, 2023</p>
       </div>
     </div>
     
@@ -173,12 +176,53 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I was working on Malayalam Speech to text models and the malayalam letters where not rendered properly.</p>
+<p>I was working on Malayalam Speech to text models and the malayalam letters where not getting rendered properly. I was a bit irritated by it and I asked my friend <a href="https://thottingal.in/">Santhosh Thottingal</a> why <code>?</code> comes this way.</p>
+<p><img src="malayalam_font2.jpg" class="img-fluid"></p>
+<p>So he told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as <code>?</code>. Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.</p>
+<p>So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts. There where two ways I found personally to install fonts in my desktop. There maybe another thousand different ways to install fonts which won’t be covered in this blogpost.</p>
 <ol type="1">
-<li>Installing with firefox plugins</li>
-<li>Installing with Windows microsoft</li>
+<li>Installing with Malayalam Fonts - firefox plugins</li>
 </ol>
-<p>I am glad to have friends like <a href="https://thottingal.in/">Santhosh Thottingal</a> to ask questions like this. Santhosh has written lot of popular fonts like Manjari, Gayathri and with his latest font Nupuram he has created almost 100+ fonts. This is the second time I am disappointing my friends in a while. The other one was sitting in a debian booth in open source conference with a laptop not having debian installed.</p>
+<ul>
+<li>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/malayalam-fonts/">plugin</a></li>
+<li>Choose the fonts you want to use by selecting it firefox.</li>
+</ul>
+<p><img src="firefox_plugin.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>Installing on Microsoft Windows</li>
+</ol>
+<p>I just asked ChatGPT and it gave me the following steps to install fonts by SMC in Windows.</p>
+<pre><code>To download SMC (Swathanthra Malayalam Computing) fonts for your Windows operating system, follow these steps:
+
+1. Visit the SMC website: Go to the SMC website at https://smc.org.in/fonts/
+using your web browser.
+
+2. Choose the font: Browse through the available fonts and select the one you
+want to download. SMC offers a variety of fonts for different purposes.
+
+3. Download the font: Click on the download link or button associated with the
+selected font. The font file will be downloaded to your computer as a
+compressed (ZIP) file.
+
+4. Extract the font: Locate the downloaded ZIP file and extract its contents.
+Right-click on the file and select "Extract All" or use a third-party compression
+tool like WinRAR or 7-Zip to extract the font files.
+
+5. Install the font: After extracting the font files, double-click on the font file
+with the extension ".ttf" or ".otf." A preview of the font will appear, and a dialog
+box will open. Click on the "Install" button to install the font on your Windows system.
+
+6. Font installation completion: Once the font is installed, you can start using it
+in various applications such as word processors, graphic design software, or
+web browsers. The font will be available for selection in the font menu
+of compatible applications.
+
+By following these steps, you should be able to download and install SMC fonts on your Windows
+operating system. Remember to respect font licensing terms and only use the fonts
+for their intended purposes.</code></pre>
+<p><img src="malayalam_font1.jpg" class="img-fluid"></p>
+<p>After all this I asked Santhosh whether it’s now rendered all correctly in Manjari font and he said it’s correct. I am glad to have friends like <a href="https://thottingal.in/">Santhosh Thottingal</a> to ask questions like this. Santhosh has written lot of popular fonts in Malayalam like <a href="https://smc.org.in/fonts/manjari">Manjari</a>, <a href="https://smc.org.in/fonts/gayathri">Gayathri</a> and with his latest font <a href="https://smc.org.in/fonts/nupuram">Nupuram</a> he has created almost 100+ fonts.</p>
+<p>In my opinion SMC creates the best fonts in Malayalam and check their website section on <a href="https://smc.org.in/fonts">fonts to learn more</a>. If you are interested to learn more about Malayalam Computing I had previously written a <a href="../../../posts/2019/2019-07-30-Malayalam_computing.html">blogpost</a> which is just a highlight of talk given by Santhosh.</p>
 
 
 
