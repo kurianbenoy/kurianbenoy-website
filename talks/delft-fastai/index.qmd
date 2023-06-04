@@ -1,5 +1,5 @@
 ---
-title: Malayalam Project I am working at the moment!
+title: Malayalam Projects I am working at the moment!
 subtitle: Delft-Fastai check-in sessions
 date: 2023-05-28
 date-format: full
