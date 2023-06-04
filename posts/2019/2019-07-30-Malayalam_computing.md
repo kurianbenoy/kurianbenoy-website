@@ -7,8 +7,8 @@ categories:
 - SMC
 date: '2019-07-30'
 layout: post
-title: Malayalam Computing(Highlight from talk by Santhosh Thottingal)
-
+title: About Malayalam Computing
+TIL: Highlights from talk by Santhosh Thottingal
 ---
 
 During [MEC.Conf](https://conf.mec.dev/), we had one of of our keynotes by Santhosh Thottingal,
