@@ -13,9 +13,13 @@ properly. I was a bit irritated by it and I asked my friend [Santhosh Thottingal
 
 ![](malayalam_font2.jpg)
 
-So he told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as `?`. Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.
+> So he told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as `?`.
 
-So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts. There where two ways I found personally to install fonts in my desktop. There maybe another thousand different ways to install fonts which won't be covered in this blogpost.
+Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.
+
+So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts.
+
+I found personally two ways to install fonts and I want to share that here. There maybe another thousand different ways to install fonts which won't be covered in this blogpost.
 
 1. Installing with Malayalam Fonts - firefox plugins
 
@@ -61,11 +65,14 @@ for their intended purposes.
 
 ![](malayalam_font1.jpg)
 
-After all this I asked Santhosh whether it's now rendered all correctly in Manjari font and he
-said it's correct. I am glad to have friends like [Santhosh Thottingal](https://thottingal.in/) to
+After all this I asked Santhosh whether I have installed Manjari font correctly and he said it's 
+correct. It's not every day you get to ask the person who built that font whether I have installed 
+the font correctly or not.
+
+I am glad to have friends like [Santhosh Thottingal](https://thottingal.in/) to
 ask questions like this. Santhosh has written lot of popular fonts in Malayalam like [Manjari](https://smc.org.in/fonts/manjari),
 [Gayathri](https://smc.org.in/fonts/gayathri) and with his latest font [Nupuram](https://smc.org.in/fonts/nupuram) he has created almost 100+ fonts.
 
 In my opinion SMC creates the best fonts in Malayalam and check their website section on [fonts to learn more](https://smc.org.in/fonts). If you are interested to learn more
-about Malayalam Computing I had previously written a [blogpost](../../2019/2019-07-30-Malayalam_computing.md) which is just a highlight of talk given by Santhosh.
+about Malayalam Computing I had previously written a [blogpost](../../2019/2019-07-30-Malayalam_computing.md) which is just a highlight of talk given by Santhosh on this topic.
 
