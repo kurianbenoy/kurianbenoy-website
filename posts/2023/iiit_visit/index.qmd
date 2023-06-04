@@ -4,7 +4,7 @@ author: Kurian Benoy
 date: 2023-05-08
 comments: false
 image: campus.jpeg
-categories: [myself]
+categories: [myself, academic]
 format:
   html:
     highlight-style: a11y

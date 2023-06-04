@@ -1,0 +1,26 @@
+---
+title: Learning how to install malayalam fonts
+author: Kurian Benoy
+draft: true
+date: 2023-04-15
+date-format: full
+categories: [Malayalam, myself, SMC, TIL]
+lang: en
+format:
+  html:
+    highlight-style: a11y
+    theme:
+      light: flatly
+      dark: darkly
+---
+
+I was working on Malayalam Speech to text models and the malayalam letters where not rendered
+properly.
+
+1. Installing with firefox plugins
+2. Installing with Windows microsoft
+
+I am glad to have friends like [Santhosh Thottingal](https://thottingal.in/) to ask questions like this. Santhosh has written lot of popular fonts like Manjari,
+Gayathri and with his latest font Nupuram he has created almost 100+ fonts.  This is the second time
+I am disappointing my friends in a while. The other one was sitting in a debian booth in open source 
+conference with a laptop not having debian installed.
