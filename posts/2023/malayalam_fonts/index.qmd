@@ -1,26 +1,71 @@
 ---
 title: Learning how to install malayalam fonts
+subtitle: TIL
 author: Kurian Benoy
-draft: true
-date: 2023-04-15
+date: 2023-06-04
 date-format: full
 categories: [Malayalam, myself, SMC, TIL]
 lang: en
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
 
-I was working on Malayalam Speech to text models and the malayalam letters where not rendered
-properly.
+I was working on Malayalam Speech to text models and the malayalam letters where not getting rendered
+properly. I was a bit irritated by it and I asked my friend [Santhosh Thottingal](https://thottingal.in/) why `?` comes this way.
 
-1. Installing with firefox plugins
-2. Installing with Windows microsoft
+![](malayalam_font2.jpg)
 
-I am glad to have friends like [Santhosh Thottingal](https://thottingal.in/) to ask questions like this. Santhosh has written lot of popular fonts like Manjari,
-Gayathri and with his latest font Nupuram he has created almost 100+ fonts.  This is the second time
-I am disappointing my friends in a while. The other one was sitting in a debian booth in open source 
-conference with a laptop not having debian installed.
+So he told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as `?`. Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.
+
+So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts. There where two ways I found personally to install fonts in my desktop. There maybe another thousand different ways to install fonts which won't be covered in this blogpost.
+
+1. Installing with Malayalam Fonts - firefox plugins
+
+- Install the [plugin](https://addons.mozilla.org/en-US/firefox/addon/malayalam-fonts/)
+- Choose the fonts you want to use by selecting it firefox.
+
+![](firefox_plugin.png)
+
+2. Installing on Microsoft Windows
+
+I just asked ChatGPT and it gave me the following steps to install fonts by SMC in Windows.
+
+```
+To download SMC (Swathanthra Malayalam Computing) fonts for your Windows operating system, follow these steps:
+
+1. Visit the SMC website: Go to the SMC website at https://smc.org.in/fonts/
+using your web browser.
+
+2. Choose the font: Browse through the available fonts and select the one you
+want to download. SMC offers a variety of fonts for different purposes.
+
+3. Download the font: Click on the download link or button associated with the
+selected font. The font file will be downloaded to your computer as a
+compressed (ZIP) file.
+
+4. Extract the font: Locate the downloaded ZIP file and extract its contents.
+Right-click on the file and select "Extract All" or use a third-party compression
+tool like WinRAR or 7-Zip to extract the font files.
+
+5. Install the font: After extracting the font files, double-click on the font file
+with the extension ".ttf" or ".otf." A preview of the font will appear, and a dialog
+box will open. Click on the "Install" button to install the font on your Windows system.
+
+6. Font installation completion: Once the font is installed, you can start using it
+in various applications such as word processors, graphic design software, or
+web browsers. The font will be available for selection in the font menu
+of compatible applications.
+
+By following these steps, you should be able to download and install SMC fonts on your Windows
+operating system. Remember to respect font licensing terms and only use the fonts
+for their intended purposes.
+```
+
+![](malayalam_font1.jpg)
+
+After all this I asked Santhosh whether it's now rendered all correctly in Manjari font and he
+said it's correct. I am glad to have friends like [Santhosh Thottingal](https://thottingal.in/) to
+ask questions like this. Santhosh has written lot of popular fonts in Malayalam like [Manjari](https://smc.org.in/fonts/manjari),
+[Gayathri](https://smc.org.in/fonts/gayathri) and with his latest font [Nupuram](https://smc.org.in/fonts/nupuram) he has created almost 100+ fonts.
+
+In my opinion SMC creates the best fonts in Malayalam and check their website section on [fonts to learn more](https://smc.org.in/fonts). If you are interested to learn more
+about Malayalam Computing I had previously written a [blogpost](../../2019/2019-07-30-Malayalam_computing.md) which is just a highlight of talk given by Santhosh.
+
