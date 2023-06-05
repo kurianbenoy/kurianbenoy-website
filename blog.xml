@@ -10,7 +10,85 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Sun, 28 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 04 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Learning how to install malayalam fonts</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/malayalam_fonts/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I was working on Malayalam Speech to text models and the malayalam letters where not getting rendered properly. I was a bit irritated by it and I asked my friend <a href="https://thottingal.in/">Santhosh Thottingal</a> why <code>?</code> comes this way.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font2.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Malayalam rendered in Nirmala font.</figcaption>
+</figure>
+</div>
+<p>Santhosh told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as <code>?</code>.</p>
+<p>Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.</p>
+<p>So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts.</p>
+<p>I found personally two ways to install fonts and I want to share that here. There maybe another thousand different ways to install fonts which won’t be covered in this blogpost.</p>
+<ol type="1">
+<li>Installing with Malayalam Fonts - firefox plugins</li>
+</ol>
+<ul>
+<li>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/malayalam-fonts/">plugin</a></li>
+<li>Choose the fonts you want to use by selecting it firefox.</li>
+</ul>
+<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/firefox_plugin.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>Installing on Microsoft Windows</li>
+</ol>
+<p>I just asked ChatGPT and it gave me the following steps to install fonts by SMC in Windows.</p>
+<pre><code>To download SMC (Swathanthra Malayalam Computing) fonts for your Windows operating system, follow these steps:
+
+1. Visit the SMC website: Go to the SMC website at https://smc.org.in/fonts/
+using your web browser.
+
+2. Choose the font: Browse through the available fonts and select the one you
+want to download. SMC offers a variety of fonts for different purposes.
+
+3. Download the font: Click on the download link or button associated with the
+selected font. The font file will be downloaded to your computer as a
+compressed (ZIP) file.
+
+4. Extract the font: Locate the downloaded ZIP file and extract its contents.
+Right-click on the file and select "Extract All" or use a third-party compression
+tool like WinRAR or 7-Zip to extract the font files.
+
+5. Install the font: After extracting the font files, double-click on the font file
+with the extension ".ttf" or ".otf." A preview of the font will appear, and a dialog
+box will open. Click on the "Install" button to install the font on your Windows system.
+
+6. Font installation completion: Once the font is installed, you can start using it
+in various applications such as word processors, graphic design software, or
+web browsers. The font will be available for selection in the font menu
+of compatible applications.
+
+By following these steps, you should be able to download and install SMC fonts on your Windows
+operating system. Remember to respect font licensing terms and only use the fonts
+for their intended purposes.</code></pre>
+<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font3.jpg" class="img-fluid" alt="Malayalam rendered in Manjari font."> <img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font1.jpg" class="img-fluid" alt="Malayalam rendered in Manjari font."></p>
+<p>After all this I asked Santhosh whether I have installed Manjari font correctly and he said it’s correct. It’s not every day you get to ask the person who built that font whether I have installed the font correctly or not.</p>
+<blockquote class="blockquote">
+<p>Note: For linux, all these fonts are preinstalled by default as it’s packaged as part of linux distros.</p>
+</blockquote>
+<p>I am glad to have friends like <a href="https://thottingal.in/">Santhosh Thottingal</a> to ask questions like this. Santhosh has written lot of popular fonts in Malayalam like <a href="https://smc.org.in/fonts/manjari">Manjari</a>, <a href="https://smc.org.in/fonts/gayathri">Gayathri</a> and with his latest font <a href="https://smc.org.in/fonts/nupuram">Nupuram</a> he has created almost 100+ fonts.</p>
+<p>In my opinion SMC creates the best fonts in Malayalam and check their website section on <a href="https://smc.org.in/fonts">fonts to learn more</a>. If you are interested to learn more about Malayalam Computing I had previously written a <a href="../../../posts/2019/2019-07-30-Malayalam_computing.html">blogpost</a> which is just a highlight of talk given by Santhosh on this topic.</p>
+
+
+
+ ]]></description>
+  <category>Malayalam</category>
+  <category>myself</category>
+  <category>SMC</category>
+  <category>TIL</category>
+  <guid>https://kurianbenoy.com/posts/2023/malayalam_fonts/index.html</guid>
+  <pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Malayalam Projects I am working at the moment!</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -318,19 +396,19 @@
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-70642"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-70642").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-83446"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-83446").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-97232"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97232").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-43181"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43181").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-56910"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-56910").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-29166"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-29166").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-87682"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-87682").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-74581"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-74581").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -349,14 +427,14 @@
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-28101"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28101").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-41248"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-41248").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-53623"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-53623").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-12991"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-12991").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-74456"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-74456").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-78020"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-78020").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-22458"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22458").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-97248"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97248").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -830,9 +908,9 @@ font-style: inherit;">"accuracy"</span>),</span>
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-44041"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-44041").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-75543"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-75543").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-19580"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-19580").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-95905"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-95905").innerHTML = tweet["html"];</script><p></p>
 
 
 
@@ -2789,467 +2867,6 @@ font-style: inherit;">float</span>)</span>
   <category>huggingface</category>
   <guid>https://kurianbenoy.com/posts/2022/2022-05-23-nlpkagglecomp.html</guid>
   <pubDate>Mon, 23 May 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Practical Deep Learning for Coders Course - Lesson 4</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction-to-lesson" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-lesson">Introduction to lesson</h2>
-<p>Almost 100+ people watched live virtually and lesson were held live in front of a bunch of audience in University of Queensland. <code>Prof. John Williams</code> opened session by telling about filling a separate form, for people interested in attending the hackathon organized end of the course.</p>
-<p>During the start <code>Jeremy</code> mentioned he would love folks to organize a online hackathon by community for folks attending remotely as well. Yet right now Jeremy and John doesn’t have the capacity to organize one.</p>
-<blockquote class="blockquote">
-<p>Todays lesson is something a lot of regulars of fast.ai course are excited about as it covers really new material on transformers.</p>
-</blockquote>
-</section>
-<section id="why-using-a-different-framework---transformers" class="level2">
-<h2 class="anchored" data-anchor-id="why-using-a-different-framework---transformers">Why using a different framework - Transformers</h2>
-<p>Since this course is fastai, it may feel a bit weird when we are today going to use a different library called <code>transformers</code>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>As practitioners, it’s important for us to learn more than one framework.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Differences with fastai and transformers:</p>
-</div>
-</div>
-<ol type="1">
-<li><p><code>Transformers</code> provide lot of state of art models, and the <code>Tokenizers</code> library build with Rust is really good at the moment.</p></li>
-<li><p>It’s good to get exposure to a library which is not so layered like <code>fast.ai</code>, which is reason that makes it super useful for beginners.</p></li>
-</ol>
-</section>
-<section id="ulmfit-architecture" class="level2">
-<h2 class="anchored" data-anchor-id="ulmfit-architecture">ULMFiT architecture</h2>
-<p>The idea of fine-tuning a pre-trained NLP model in this way was pioneered by an algorithm called <a href="https://arxiv.org/abs/1801.06146">Universal Language Model Fine-tuning for Text Classification aka ULMFiT</a> which was first presented actually in a fastai course.</p>
-<section id="whats-a-pretrained-model-and-what-is-finetuning" class="level3">
-<h3 class="anchored" data-anchor-id="whats-a-pretrained-model-and-what-is-finetuning"><strong>What’s a pretrained model and what is finetuning?</strong></h3>
-<p>Consider finetuning, as tweaking functions in such a way when if you are already some values of a, b lever are good and optimal for a particular function. Then tweaking value of c is easier right?</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A pre-trained model is a bunch of parameters that have already been fitted, where some of them we’re already pretty confident of what they should be, and some of them we really have no idea at all. And so fine-tuning is the process of taking those ones we have no idea what they should be at all, and trying to get them right, and then moving the other ones a little bit.</p>
-</div>
-</div>
-</section>
-<section id="steps-in-ulmfit" class="level3">
-<h3 class="anchored" data-anchor-id="steps-in-ulmfit">Steps in ULMFiT</h3>
-<p><strong>ULMFiT archtecture consits of three steps:</strong></p>
-<ul>
-<li>Training a language models with general dataset like wikipedia. So it gets so good in predicting next words. Now in <code>transformers</code> one big difference compared to <code>ULMFiT</code> is we use masking instead of predicting next word</li>
-<li>IMDB lnagage build a language model, build on top of LM for wikipedia</li>
-<li>In three step, is where model classifier comes and based on this label sentences as postive, negative etc.</li>
-</ul>
-</section>
-</section>
-<section id="fundamental-libraries-in-ml" class="level2">
-<h2 class="anchored" data-anchor-id="fundamental-libraries-in-ml">Fundamental libraries in ML</h2>
-<p>Four fundamental libraries you always need in datascience are:</p>
-<ol type="1">
-<li>NumPy</li>
-<li>Pandas</li>
-<li>matplotlib</li>
-<li>Pytorch</li>
-</ol>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It looks pretty cool, if you build the state of art stuff. Yet if you don’t know fundamentals, you will encounter trouble. So i will recommend you to get started by first complete reading the <a href="https://github.com/fastai/fastbook">Deep Learning for Coders book</a>, then the Macinskey book on Python for Data Analysis, 3E which is free <a href="https://wesmckinney.com/book/">completely online</a>.</p>
-</div>
-</div>
-</section>
-<section id="nlp-notebook-tokenization" class="level2">
-<h2 class="anchored" data-anchor-id="nlp-notebook-tokenization">NLP notebook tokenization</h2>
-<p><a href="https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners">Getting started with NLP for absolute beginners</a></p>
-<p>It’s been only a year or two since NLP has been getting good results, for computer vision things are being optimistic for a long time now.</p>
-<ul>
-<li>Tokenization, is converting the text blurbs into a set of small tokens.</li>
-<li>Numericalization is the process of converting these tokens to numbers for models to train</li>
-</ul>
-<p>We used <code>deberta-v3</code> as base model as some models are always found to give good results. Yet there are lot of pretrained models available in public which can just found by searching like Patent for patent models in <a href="https://huggingface.co/models">Huggingface models hub</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>(Jeremy) For under 2000 words use transformers approach, for more than 2000 words per sequence it would a good idea to try ULMFiT also along with transformers.</p>
-</div>
-</div>
-</section>
-<section id="test-validation-training-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="test-validation-training-dataset">Test, Validation, Training Dataset</h2>
-<p>The most important concept in ML is creating:</p>
-<ol type="1">
-<li>Test set</li>
-<li>Validation set</li>
-<li>Training set</li>
-</ol>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>(Jeremy) Kaggle competitions are really a good way to create a good validation set… Beginners generally tend to overfit … In real world outside of kaggle you often won’t know it’s overfit. You just destroy value for organizations silently… You really don’t get it untill you screw it up a few times.</p>
-</div>
-</div>
-<p><a href="https://www.fast.ai/2017/11/13/validation-sets/">How (and why) to create a good validation set</a></p>
-<p><code>Test Set</code> is a separate data which is not used by ML model for learning. It’s kept as separate hold out dataset for further testing.</p>
-</section>
-<section id="understanding-metrics" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-metrics">Understanding metrics</h2>
-<p>With the validation set, we are measuring some metrics like accuracy which tell how good our ML model is. In Kaggle for every competition there is a metric available to optimize based on.</p>
-<section id="why-metrics-is-different-from-loss" class="level3">
-<h3 class="anchored" data-anchor-id="why-metrics-is-different-from-loss">Why metrics is different from loss?</h3>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>(Jeremy) If you were taking something like accuracy as loss function for classifying cats vs dogs. Then it may go on finding gradient and optimizing, yet at some point if inacurate cats are still labelled as dogs by models. Evaluating with accuracy as loss functions will be same. We can’t proceed further with such a loss function, that’s why we use functions like MSE for loss usually.</p>
-</div>
-</div>
-<p>Metrics in real world is ofcourse a big issue, so with one ML model which claims to have got good results in a particular metrics when implemented has caused issues in real world which affect lot of people.</p>
-<p>So check the article written by Rachael Thomas on <a href="https://www.fast.ai/2019/09/24/metrics/">The problem with metrics is a big problem for AI</a>.</p>
-</section>
-</section>
-<section id="pearson-coefficient" class="level2">
-<h2 class="anchored" data-anchor-id="pearson-coefficient">Pearson Coefficient</h2>
-<p>Understanding metrics is very key, especially in Kaggle competitons. According to this Kaggle competition page: “Submissions are evaluated on the Pearson correlation coefficient between the predicted and actual similarity scores.”</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>“This coefficient is usually abbreviated using the single letter r. It is the most widely used measure of the degree of relationship between two variables. r can vary between -1, which means perfect inverse correlation, and +1, which means perfect positive correlation.”</p>
-</div>
-</div>
-<p>[source: Kaggle Notebook]((https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners)</p>
-<p>Jeremy’s way of teaching this concept was explaining with code for us to get intuition</p>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> np</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> plt</span>
-<span id="cb1-3"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn.datasets <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> fetch_california_housing</span>
-<span id="cb1-4"></span>
-<span id="cb1-5">df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> fetch_california_housing(as_frame<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb1-6">df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"data"</span>].join(df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"target"</span>]).sample(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1000</span>, random_state<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">52</span>)</span>
-<span id="cb1-7">df.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="1">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">MedInc</th>
-<th data-quarto-table-cell-role="th">HouseAge</th>
-<th data-quarto-table-cell-role="th">AveRooms</th>
-<th data-quarto-table-cell-role="th">AveBedrms</th>
-<th data-quarto-table-cell-role="th">Population</th>
-<th data-quarto-table-cell-role="th">AveOccup</th>
-<th data-quarto-table-cell-role="th">Latitude</th>
-<th data-quarto-table-cell-role="th">Longitude</th>
-<th data-quarto-table-cell-role="th">MedHouseVal</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">7506</td>
-<td>3.0550</td>
-<td>37.0</td>
-<td>5.152778</td>
-<td>1.048611</td>
-<td>729.0</td>
-<td>5.062500</td>
-<td>33.92</td>
-<td>-118.28</td>
-<td>1.054</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">4720</td>
-<td>3.0862</td>
-<td>35.0</td>
-<td>4.697897</td>
-<td>1.055449</td>
-<td>1159.0</td>
-<td>2.216061</td>
-<td>34.05</td>
-<td>-118.37</td>
-<td>3.453</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">12888</td>
-<td>2.5556</td>
-<td>24.0</td>
-<td>4.864905</td>
-<td>1.129222</td>
-<td>1631.0</td>
-<td>2.395007</td>
-<td>38.66</td>
-<td>-121.35</td>
-<td>1.057</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">13344</td>
-<td>3.0057</td>
-<td>32.0</td>
-<td>4.212687</td>
-<td>0.936567</td>
-<td>1378.0</td>
-<td>5.141791</td>
-<td>34.05</td>
-<td>-117.64</td>
-<td>0.969</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">7173</td>
-<td>1.9083</td>
-<td>42.0</td>
-<td>3.888554</td>
-<td>1.039157</td>
-<td>1535.0</td>
-<td>4.623494</td>
-<td>34.05</td>
-<td>-118.19</td>
-<td>1.192</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">np.set_printoptions(precision<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, suppress<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb2-2"></span>
-<span id="cb2-3"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># to get correlation coefficent between every row of matrix with every other matrix</span></span>
-<span id="cb2-4">np.corrcoef(df, rowvar<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">False</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="2">
-<pre><code>array([[ 1.  , -0.12,  0.43, -0.08,  0.01, -0.07, -0.12,  0.04,  0.68],
-       [-0.12,  1.  , -0.17, -0.06, -0.31,  0.  ,  0.03, -0.13,  0.12],
-       [ 0.43, -0.17,  1.  ,  0.76, -0.09, -0.07,  0.12, -0.03,  0.21],
-       [-0.08, -0.06,  0.76,  1.  , -0.08, -0.07,  0.09,  0.  , -0.04],
-       [ 0.01, -0.31, -0.09, -0.08,  1.  ,  0.16, -0.15,  0.13,  0.  ],
-       [-0.07,  0.  , -0.07, -0.07,  0.16,  1.  , -0.16,  0.17, -0.27],
-       [-0.12,  0.03,  0.12,  0.09, -0.15, -0.16,  1.  , -0.93, -0.16],
-       [ 0.04, -0.13, -0.03,  0.  ,  0.13,  0.17, -0.93,  1.  , -0.03],
-       [ 0.68,  0.12,  0.21, -0.04,  0.  , -0.27, -0.16, -0.03,  1.  ]])</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> relation_matrix(x, y):</span>
-<span id="cb4-2">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> np.corrcoef(x, y)[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>][<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>]</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">np.corrcoef(df.HouseAge, df.MedHouseVal)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<pre><code>array([[1.  , 0.12],
-       [0.12, 1.  ]])</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">relation_matrix(df.HouseAge, df.MedHouseVal)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-<pre><code>0.1165853555067797</code></pre>
-</div>
-</div>
-<p>When I ran through this code I was thinking about how [0,1] element in this corelation matrix is 0.12, when value of relation_matrix returns something as 0.11658535. I asked this simple doubt in the forum and after a while, I got answer from one of the <a href="https://forums.fast.ai/u/n-e-w/summary">course TAs Nick(n-e-w)</a>.</p>
-<!-- ![image](https://user-images.githubusercontent.com/24592806/169845219-4915b78d-8be4-4972-bd37-40476d1b6f4c.png) -->
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is one of the best things IMO about taking the course live, rather than attending online. There is lot more activity, and you even get some of your questions answered by lot of experts and even Jeremy too.</p>
-</div>
-</div>
-<div class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> show_corr(df, a, b):</span>
-<span id="cb9-2">    x, y <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[a], df[b]</span>
-<span id="cb9-3">    plt.scatter(x, y, alpha<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.5</span>, s<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span>)</span>
-<span id="cb9-4">    plt.title(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>a<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;"> vs </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>b<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">; r: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>relation_matrix(x, y)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">show_corr(df, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"MedInc"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"AveRooms"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">show_corr(df[df.AveRooms <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">15</span>], <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"MedInc"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"AveRooms"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<p><img src="https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
-</div>
-</div>
-<p>If you look at two graphs, once we removed the Average room &lt;15. We notice a huge difference in r value which denotes the <code>pearson coefficent</code> are sensitive to outliers. Thus we got an intutive feeling of what the metrics is doing, and how it’s being affected by outliers. Even if you make small error in some of predictions you will notice a hugh bump in leaderboard which affects your position, as pearson correlation penalizes heavily for wrong predictions.</p>
-<p>Next week, will be the fifth lesson and the last one for month of May. The course will resume again after a three weeks breaks during month of June when monsoon season delights us here in Kerala with rain and everyone else with more fastai.</p>
-
-
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-05-19-fastai-54.html</guid>
-  <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/monsoon.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
