@@ -2,7 +2,6 @@
 title: Learning how to install malayalam fonts
 subtitle: TIL
 author: Kurian Benoy
-draft: true
 date: 2023-06-04
 date-format: full
 categories: [Malayalam, myself, SMC, TIL]
@@ -12,7 +11,7 @@ lang: en
 I was working on Malayalam Speech to text models and the malayalam letters where not getting rendered
 properly. I was a bit irritated by it and I asked my friend [Santhosh Thottingal](https://thottingal.in/) why `?` comes this way.
 
-![](malayalam_font2.jpg)
+![Malayalam rendered in Nirmala font.](malayalam_font2.jpg)
 
 Santhosh told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as `?`.
 
@@ -64,11 +63,14 @@ operating system. Remember to respect font licensing terms and only use the font
 for their intended purposes.
 ```
 
-![](malayalam_font1.jpg)
+![Malayalam rendered in Manjari font.](malayalam_font3.jpg)
+![Malayalam rendered in Manjari font.](malayalam_font1.jpg)
 
 After all this I asked Santhosh whether I have installed Manjari font correctly and he said it's 
 correct. It's not every day you get to ask the person who built that font whether I have installed 
 the font correctly or not.
+
+> Note: For linux, all these fonts are preinstalled by default as it's packaged as part of linux distros.
 
 I am glad to have friends like [Santhosh Thottingal](https://thottingal.in/) to
 ask questions like this. Santhosh has written lot of popular fonts in Malayalam like [Manjari](https://smc.org.in/fonts/manjari),
