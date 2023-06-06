@@ -1,13 +1,14 @@
 ---
-title: Oral Presentation
+title: OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam
 subtitle: Summit 2023 @ IIIT Kottayam
-date: 2023-05-28
+date: 2023-06-10
 date-format: full
 comments: false
 format:
   revealjs:
+    theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) | 28th May, 2023 |  "
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) OpenAI Whisper's amazing power to fine-tuning demonstrated with benchmarking on Malayalam"
 ---
 
 ## Oral Presentation
