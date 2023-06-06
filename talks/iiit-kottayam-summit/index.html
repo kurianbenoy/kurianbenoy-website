@@ -347,14 +347,10 @@
 </figure>
 </div>
 <ul>
-<li><span style="color:red">I think Whisper is the most <code>under-rated model</code> released by OpenAI.</span></li>
+<li><span style="color:red">I think Whisper<sup>1</sup> is the most <code>under-rated model</code> released by OpenAI.</span></li>
 <li><span style="color:green">It was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</span></li>
 </ul>
-
-<aside><div>
-<p>According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> p.2, the name Whisper is an abbrevation for WSPR:</p>
-<p><code>Web-scale Supervised Pretraining for Speech Recognition</code>.</p>
-</div></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> p.2, the name Whisper is an abbrevation for WSPR: <code>Web-scale Supervised Pretraining for Speech Recognition</code>.</p></li></ol></aside></section>
 <section id="about-openai-whisper-model" class="slide level2">
 <h2>About OpenAI Whisper Model</h2>
 <ul>
@@ -406,6 +402,7 @@
 </tr>
 </tbody>
 </table>
+<p><a href="https://github.com/openai/whisper#available-models-and-languages">Table</a> from github repo - openai/whisper</p>
 </section>
 <section id="english-speech-recognition" class="slide level2">
 <h2>English Speech Recognition</h2>
@@ -416,14 +413,14 @@
 <ul>
 <li><span style="color:red">Whisper model is trained on 99 languages.</span></li>
 <li><span style="color:green">OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</span></li>
+<li>Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. <sup>1</sup></li>
 </ul>
 
 <aside><div>
 <ul>
 <li>More details can be found in Section 3.4 of <a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> pp.6 - 8.</li>
-<li>Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. (<a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> p.7)</li>
 </ul>
-</div></aside></section>
+</div><ol class="aside-footnotes"><li id="fn2"><p><a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> p.7</p></li></ol></aside></section>
 <section id="about-malayalam" class="slide level2">
 <h2>About Malayalam</h2>
 <ul>
@@ -436,13 +433,12 @@
 <h2>Malayalam is a morphologically complex language</h2>
 <ul>
 <li><span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span></li>
-<li><span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span></li>
+<li><span style="color:blue">Morphology can be calculated by metrics like TTR<sup>1</sup> and MATTR <sup>2</sup></span></li>
 </ul>
 
 <aside><div>
-<p>[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)</p>
-<p>[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)</p>
-</div></aside></section>
+<p>Reference papers</p>
+</div><ol class="aside-footnotes"><li id="fn3"><p>Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)</p></li><li id="fn4"><p>Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)</p></li></ol></aside></section>
 <section id="section" class="slide level2">
 <h2></h2>
 
@@ -512,11 +508,11 @@
 <img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-79071"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-79071").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-22380"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22380").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-17302"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-17302").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-30793"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-30793").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="benchmarked-models" class="slide level2">
 <h2>Benchmarked models</h2>
@@ -624,6 +620,7 @@ ct2-transformers-converter \
 <p><a href="https://kurianbenoy.com/">Kurian Benoy</a> || OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam</p>
 </div>
 </section>
+
     </div>
   </div>
 

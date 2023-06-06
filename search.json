@@ -221,7 +221,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#openai-whisper",
     "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "OpenAI Whisper",
-    "text": "OpenAI Whisper\n\n\n\n\n\n\nI think Whisper is the most under-rated model released by OpenAI.\nIt was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.\n\n\n\nAccording to research paper p.2, the name Whisper is an abbrevation for WSPR:\nWeb-scale Supervised Pretraining for Speech Recognition."
+    "text": "OpenAI Whisper\n\n\n\n\n\n\nI think Whisper1 is the most under-rated model released by OpenAI.\nIt was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.\n\nAccording to research paper p.2, the name Whisper is an abbrevation for WSPR: Web-scale Supervised Pretraining for Speech Recognition."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#about-openai-whisper-model",
@@ -235,7 +235,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#whisper-models",
     "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Whisper Models",
-    "text": "Whisper Models\n\n\n\nSize\nParameters\nRequired VRAM\nRelative speed\n\n\n\n\ntiny\n39 M\n~1 GB\n~32x\n\n\nbase\n74 M\n~1 GB\n~16x\n\n\nsmall\n244 M\n~2 GB\n~6x\n\n\nmedium\n769 M\n~5 GB\n~2x\n\n\nlarge\n1550 M\n~10 GB\n~1x"
+    "text": "Whisper Models\n\n\n\nSize\nParameters\nRequired VRAM\nRelative speed\n\n\n\n\ntiny\n39 M\n~1 GB\n~32x\n\n\nbase\n74 M\n~1 GB\n~16x\n\n\nsmall\n244 M\n~2 GB\n~6x\n\n\nmedium\n769 M\n~5 GB\n~2x\n\n\nlarge\n1550 M\n~10 GB\n~1x\n\n\n\nTable from github repo - openai/whisper"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#english-speech-recognition",
@@ -249,7 +249,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#multi-lingual-speech-recognition",
     "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Multi-lingual Speech recognition",
-    "text": "Multi-lingual Speech recognition\n\nWhisper model is trained on 99 languages.\nOpenAI Whisper API supports just 57 languages as some languages performance are not really good.\n\n\n\n\nMore details can be found in Section 3.4 of Whisper research paper pp.6 - 8.\nZero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. (Whisper research paper p.7)"
+    "text": "Multi-lingual Speech recognition\n\nWhisper model is trained on 99 languages.\nOpenAI Whisper API supports just 57 languages as some languages performance are not really good.\nZero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. 1\n\n\n\n\nMore details can be found in Section 3.4 of Whisper research paper pp.6 - 8.\n\nWhisper research paper p.7"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#about-malayalam",
@@ -263,7 +263,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#malayalam-is-a-morphologically-complex-language",
     "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Malayalam is a morphologically complex language",
-    "text": "Malayalam is a morphologically complex language\n\nIt has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.\nMorphology can be calculated by metrics like TTR and MATTR [1], [2]\n\n\n\n[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)\n[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)"
+    "text": "Malayalam is a morphologically complex language\n\nIt has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.\nMorphology can be calculated by metrics like TTR1 and MATTR 2\n\n\n\nReference papers\nJuola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#section",
