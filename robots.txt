@@ -1,2 +1,7 @@
-User-agent: ChatGPT-User
+User-agent: *
 Disallow: /
+Crawl-delay: 60
+Disallow: /cgi-bin/
+Disallow: /posts/
+Disallow: /talks/
+Sitemap: https://kurianbenoy.com/sitemap.xml
