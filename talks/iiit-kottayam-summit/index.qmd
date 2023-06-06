@@ -8,12 +8,52 @@ format:
   revealjs:
     theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) OpenAI Whisper's amazing power to fine-tuning demonstrated with benchmarking on Malayalam"
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper's amazing power to fine-tuning demonstrated with benchmarking on Malayalam"
 ---
 
-## Oral Presentation
+## OpenAI Whisper
 
-## Malayalam_asr_benchmarking project
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
+
+- <span style="color:red">I think Whisper is the most `under-rated model` released by OpenAI.</span>
+- <span style="color:green">It was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</span>
+
+::: aside
+According to [research paper](https://cdn.openai.com/papers/whisper.pdf) p.2, the name Whisper is an abbrevation for WSPR:
+
+`Web-scale Supervised Pretraining for Speech Recognition`.
+:::
+
+## About OpenAI Whisper Model
+
+- Whisper is a computer program which can listen to people talking and write down what they say. <span style="color:red">(Automatic Speech Recognition Model)</span>
+- Whisper can understand people speaking different languages and can even translate what they say into English. <span style="color:green">(Supports transcription and translation to English)</span>
+
+## Whisper Models {.scrollable}
+
+
+|  Size  | Parameters |Required VRAM | Relative speed |
+|------:|----------:|:----------:|:------------:|
+|  tiny  |    39 M    |   ~1 GB    |      ~32x      |
+|  base  |    74 M    |   ~1 GB    |      ~16x      |
+| small  |   244 M    |   ~2 GB    |      ~6x       |
+| medium |   769 M    |   ~5 GB    |      ~2x       |
+| large  |   1550 M   |   ~10 GB   |      ~1x       |
+
+## English Speech Recognition
+
+![<span style="color:red">Whisper is competitive with state of art commercial and open source systems</span>. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](../fossasia2023/Whisper_english.png)
+
+## Multi-lingual Speech recognition
+
+- <span style="color:red">Whisper model is trained on 99 languages.</span>
+- <span style="color:green">OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</span>
+
+::: aside
+- More details can be found in Section 3.4 of [Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) pp.6 - 8.
+- Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.7)
+:::
+
 
 ## Whisper Event
 
