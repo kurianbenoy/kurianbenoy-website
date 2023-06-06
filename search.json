@@ -217,172 +217,172 @@
     "text": "Tributes to Areeb Jamal\n\n\nSource: Areeb Jamal Forever in our Hearts and our Memory - FOSSASIA blog\nYou can access slides @ kurianbenoy.com/talks/fossasia2023.html"
   },
   {
-    "objectID": "talks/iiit-kottayam-summit/index.html#oral-presentation",
-    "href": "talks/iiit-kottayam-summit/index.html#oral-presentation",
-    "title": "Oral Presentation",
-    "section": "Oral Presentation",
-    "text": "Oral Presentation"
+    "objectID": "talks/iiit-kottayam-summit/index.html#openai-whisper",
+    "href": "talks/iiit-kottayam-summit/index.html#openai-whisper",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "OpenAI Whisper",
+    "text": "OpenAI Whisper\n\n\n\n\n\n\nI think Whisper is the most under-rated model released by OpenAI.\nIt was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.\n\n\n\nAccording to research paper p.2, the name Whisper is an abbrevation for WSPR:\nWeb-scale Supervised Pretraining for Speech Recognition."
   },
   {
-    "objectID": "talks/iiit-kottayam-summit/index.html#malayalam_asr_benchmarking-project",
-    "href": "talks/iiit-kottayam-summit/index.html#malayalam_asr_benchmarking-project",
-    "title": "Oral Presentation",
-    "section": "Malayalam_asr_benchmarking project",
-    "text": "Malayalam_asr_benchmarking project"
+    "objectID": "talks/iiit-kottayam-summit/index.html#about-openai-whisper-model",
+    "href": "talks/iiit-kottayam-summit/index.html#about-openai-whisper-model",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "About OpenAI Whisper Model",
+    "text": "About OpenAI Whisper Model\n\nWhisper is a computer program which can listen to people talking and write down what they say. (Automatic Speech Recognition Model)\nWhisper can understand people speaking different languages and can even translate what they say into English. (Supports transcription and translation to English)"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#whisper-models",
+    "href": "talks/iiit-kottayam-summit/index.html#whisper-models",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "Whisper Models",
+    "text": "Whisper Models\n\n\n\nSize\nParameters\nRequired VRAM\nRelative speed\n\n\n\n\ntiny\n39 M\n~1 GB\n~32x\n\n\nbase\n74 M\n~1 GB\n~16x\n\n\nsmall\n244 M\n~2 GB\n~6x\n\n\nmedium\n769 M\n~5 GB\n~2x\n\n\nlarge\n1550 M\n~10 GB\n~1x"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#english-speech-recognition",
+    "href": "talks/iiit-kottayam-summit/index.html#english-speech-recognition",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "English Speech Recognition",
+    "text": "English Speech Recognition\n\nWhisper is competitive with state of art commercial and open source systems. Diagram from whisper research paper p.9"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#multi-lingual-speech-recognition",
+    "href": "talks/iiit-kottayam-summit/index.html#multi-lingual-speech-recognition",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "Multi-lingual Speech recognition",
+    "text": "Multi-lingual Speech recognition\n\nWhisper model is trained on 99 languages.\nOpenAI Whisper API supports just 57 languages as some languages performance are not really good.\n\n\n\n\nMore details can be found in Section 3.4 of Whisper research paper pp.6 - 8.\nZero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. (Whisper research paper p.7)"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#about-malayalam",
+    "href": "talks/iiit-kottayam-summit/index.html#about-malayalam",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "About Malayalam",
+    "text": "About Malayalam\n\nMalayalam is my mother tongue.\nNative speakers: 38+ million.(as of 2011 census)\nSpoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living."
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#malayalam-is-a-morphologically-complex-language",
+    "href": "talks/iiit-kottayam-summit/index.html#malayalam-is-a-morphologically-complex-language",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "Malayalam is a morphologically complex language",
+    "text": "Malayalam is a morphologically complex language\n\nIt has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.\nMorphology can be calculated by metrics like TTR and MATTR [1], [2]\n\n\n\n[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)\n[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#section",
+    "href": "talks/iiit-kottayam-summit/index.html#section",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "",
+    "text": "Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al."
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#malayalam-asr-of-my-dreams",
+    "href": "talks/iiit-kottayam-summit/index.html#malayalam-asr-of-my-dreams",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
+    "section": "Malayalam ASR of my dreams",
+    "text": "Malayalam ASR of my dreams\n\nAchieving 10% WER in Malayalam is astonishing.\nCan transcribe anyone speaking."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#whisper-event",
     "href": "talks/iiit-kottayam-summit/index.html#whisper-event",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Whisper Event",
     "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 \n\n\n\nWhisper Event huggingface page"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#malayalam-models-in-whisper-event",
     "href": "talks/iiit-kottayam-summit/index.html#malayalam-models-in-whisper-event",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Malayalam models in Whisper Event",
     "text": "Malayalam models in Whisper Event\n\nFor the language Malayalam, the results are as follows:\n\n\nMalayalam models performance in whisper event according to leaderboard"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#winning-models-in-malayalam-in-whisper-event",
     "href": "talks/iiit-kottayam-summit/index.html#winning-models-in-malayalam-in-whisper-event",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Winning models in Malayalam in Whisper Event",
     "text": "Winning models in Malayalam in Whisper Event\n\nThe winning model for Common voice: thennal/whisper-medium-ml\nThe winning model for Fleurs: parambharath/whisper-small-ml"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced",
     "href": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "I was not convinced",
     "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\n\nAchieving 10% WER in Malayalam is astonishing.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is a morpohologically complex language. So even achieving 30% WER is a big deal."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-1",
     "href": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-1",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "I was not convinced",
     "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nthennal/whisper-medium-ml model card readme"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-2",
     "href": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-2",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "I was not convinced",
     "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nLast commit in thennal/whisper-medium-ml"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-wanted-to-build-something-new",
     "href": "talks/iiit-kottayam-summit/index.html#i-wanted-to-build-something-new",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "I wanted to build something new",
     "text": "I wanted to build something new\n\nNew github project for Malayalam ASR Benchmarking\n\n\nTime for a new adventure"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#benchmarked-models",
     "href": "talks/iiit-kottayam-summit/index.html#benchmarked-models",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Benchmarked models",
     "text": "Benchmarked models\n\nStarted with 6 fine-tuned models in Malayalam and compared it with 6 model versions released by OpenAI.\n\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#results-on-benechmarking-in-common-voice-dataset",
     "href": "talks/iiit-kottayam-summit/index.html#results-on-benechmarking-in-common-voice-dataset",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Results on benechmarking in Common Voice dataset",
     "text": "Results on benechmarking in Common Voice dataset\n\nOutput from benchmarking tool"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#wer-in-common-voice-dataset",
     "href": "talks/iiit-kottayam-summit/index.html#wer-in-common-voice-dataset",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "WER in Common Voice dataset",
     "text": "WER in Common Voice dataset\n\nWER in Common Voice-9 test split"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#cer-in-common-voice-dataset",
     "href": "talks/iiit-kottayam-summit/index.html#cer-in-common-voice-dataset",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "CER in Common Voice dataset",
     "text": "CER in Common Voice dataset\n\nCER in Common Voice-9 test split"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
     "href": "talks/iiit-kottayam-summit/index.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Results on benechmarking in Malayalam Speech Corpus dataset",
     "text": "Results on benechmarking in Malayalam Speech Corpus dataset\n\nOutput from benchmarking tool"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#wer-in-malayalam-speech-corpus",
     "href": "talks/iiit-kottayam-summit/index.html#wer-in-malayalam-speech-corpus",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "WER in Malayalam Speech Corpus",
     "text": "WER in Malayalam Speech Corpus\n\nWER in MSC"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#cer-in-malayalam-speech-corpus",
     "href": "talks/iiit-kottayam-summit/index.html#cer-in-malayalam-speech-corpus",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "CER in Malayalam Speech Corpus",
-    "text": "CER in Malayalam Speech Corpus\n\nCharacter Error rate in MSC"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#end-goal",
-    "href": "talks/iiit-kottayam-summit/index.html#end-goal",
-    "title": "Oral Presentation",
-    "section": "End Goal",
-    "text": "End Goal\n\nSomething very similar to OpenLLM Leaderboard with results of latest malayalam speech models.\nShould include results for Kaldi, Wav2Vec, Whisper, MMS etc.\n\n\nOpen LLM leaderboard in huggingface spaces"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#vegam-whisper-medium-ml-model-and-pallakku",
-    "href": "talks/iiit-kottayam-summit/index.html#vegam-whisper-medium-ml-model-and-pallakku",
-    "title": "Oral Presentation",
-    "section": "vegam-whisper-medium ml model and Pallakku",
-    "text": "vegam-whisper-medium ml model and Pallakku"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#inspired-by",
-    "href": "talks/iiit-kottayam-summit/index.html#inspired-by",
-    "title": "Oral Presentation",
-    "section": "Inspired by",
-    "text": "Inspired by\n\n\nfaster-whisper is a reimplementation of OpenAI’s Whisper model using CTranslate2, which is a fast inference engine for Transformer models.\nThis implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.\n\n\n\n\nInformation from faster-whisper github README"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#ctranslate2",
-    "href": "talks/iiit-kottayam-summit/index.html#ctranslate2",
-    "title": "Oral Presentation",
-    "section": "CTranslate2",
-    "text": "CTranslate2\n\nIt had this utility for converting any whisper based model to faster-whisper like models.\n\nct2-transformers-converter \\\n --model openai/whisper-tiny \\\n --output_dir whisper-tiny-ct2"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#vegam-whisper-models-released",
-    "href": "talks/iiit-kottayam-summit/index.html#vegam-whisper-models-released",
-    "title": "Oral Presentation",
-    "section": "Vegam Whisper models released",
-    "text": "Vegam Whisper models released\n\nI used thennal/whisper-medium-ml to convert it to faster-whisper based models for Malayalam:\n\n\nkurianbenoy/vegam-whisper-medium-ml\nkurianbenoy/vegam-whisper-medium-ml-fp16\nkurianbenoy/vegam-whisper-medium-ml-int8\nkurianbenoy/vegam-whisper-medium-ml-int8_float16\nkurianbenoy/vegam-whisper-medium-ml-int16"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#pallakku",
-    "href": "talks/iiit-kottayam-summit/index.html#pallakku",
-    "title": "Oral Presentation",
-    "section": "Pallakku",
-    "text": "Pallakku\n\nPallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.\nNow hosted as:\n\n\n🤗 spaces\nGPU-based microservice (coming soon.)"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#spaces",
-    "href": "talks/iiit-kottayam-summit/index.html#spaces",
-    "title": "Oral Presentation",
-    "section": "🤗 spaces",
-    "text": "🤗 spaces"
+    "text": "CER in Malayalam Speech Corpus\n\n\nCharacter Error rate in MSC"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#thanks-to",
     "href": "talks/iiit-kottayam-summit/index.html#thanks-to",
-    "title": "Oral Presentation",
+    "title": "OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam",
     "section": "Thanks to",
-    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nCreators of CTranslate2 and faster-whisper - Guillaume Klein\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nOther members in Swathanthra Malayalam Computing community.\nJarvis Labs\n\n\n\n\n\nKurian Benoy | 28th May, 2023 |"
+    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nCreators of CTranslate2 and faster-whisper - Guillaume Klein\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nOther members in Swathanthra Malayalam Computing community.\nJarvis Labs\n\n\n\n\n\nKurian Benoy || OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam"
   },
   {
     "objectID": "talks/delft-fastai/index.html#outline",
@@ -2693,6 +2693,13 @@
     "title": "Kurian Benoy",
     "section": "",
     "text": "I am an AI Engineer & Team Lead working in Sentient.io, a fast-paced startup based in Singapore. I have multiple years of experience in Python and Machine learning experience. I have contributed to various open source organizations like Keras, DVC, HuggingFace, fast.ai, Swathanthra Malayalam Computing, CloudCV etc.\nI like to speak and interact with developer community. I am an active member of fast.ai community and engage in lot of other communities based in Kerala. I have given talk as expert in competence of Machine Learning and core Python in Pycon India, which is the largest gathering of Pythonistas in India for the Python programming language.\nI am quite easy to reach out via email or feel free to connect or contact me via linkedIn or twitter."
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Kurian Benoy",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nYou too should speak here\n\n\nJust a lightning talk idea\n\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam\n\n\nSummit 2023 @ IIIT Kottayam\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMalayalam Projects I am working at the moment!\n\n\nDelft-Fastai check-in sessions\n\n\n\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper and it’s amazing power to do finetuning.\n\n\nFOSSASIA Summit, Singapore\n\n\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks.html",
