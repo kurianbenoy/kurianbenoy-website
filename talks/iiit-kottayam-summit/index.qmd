@@ -54,6 +54,35 @@ According to [research paper](https://cdn.openai.com/papers/whisper.pdf) p.2, th
 - Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.7)
 :::
 
+## About Malayalam
+
+- <span style="color:red">Malayalam is my mother tongue.</span>
+- <span style="color:blue">Native speakers: 38+ million.(as of 2011 census)</span>
+- <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span>
+
+## Malayalam is a morphologically complex language
+
+- <span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span>
+- <span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span>
+
+::: aside
+[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of
+Quantitative Linguistics 5(3), 206–213 (1998)
+
+[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of
+languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)
+:::
+
+##
+
+![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png)
+
+
+## Malayalam ASR of my dreams
+
+1. Achieving 10% WER in Malayalam is astonishing.
+2. Can transcribe anyone speaking. 
+
 
 ## Whisper Event
 
@@ -151,14 +180,7 @@ is a big deal.
 
 ![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
 
-## End Goal
-
-- <span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span>
-- <span style="color:blue">Should include results for Kaldi, Wav2Vec, Whisper, MMS etc.</span>
-
-![Open LLM leaderboard in [huggingface spaces](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)](openllm.png)
-
-## vegam-whisper-medium ml model and Pallakku
+<!-- ## vegam-whisper-medium ml model and Pallakku
 
 ## Inspired by
 
@@ -201,7 +223,7 @@ ct2-transformers-converter \
 
 ## 🤗 spaces
 
-![](pallakku.png)
+![](pallakku.png) -->
 
 ## Thanks to
 
