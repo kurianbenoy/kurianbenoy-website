@@ -1,5 +1,5 @@
 ---
-title: OpenAI Whisper’s amazing power to fine-tuning demonstrated with benchmarking on Malayalam
+title: OpenAI Whisper’s amazing power to do fine-tuning demonstrated with benchmarking on Malayalam
 subtitle: Summit 2023 @ IIIT Kottayam
 date: 2023-06-10
 date-format: full
@@ -8,7 +8,7 @@ format:
   revealjs:
     theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper's amazing power to fine-tuning demonstrated with benchmarking on Malayalam"
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper's amazing power to do fine-tuning demonstrated with benchmarking on Malayalam"
 ---
 
 ## OpenAI Whisper
@@ -22,6 +22,8 @@ format:
 
 - Whisper is a computer program which can listen to people talking and write down what they say. <span style="color:red">(Automatic Speech Recognition Model)</span>
 - Whisper can understand people speaking different languages and can even translate what they say into English. <span style="color:green">(Supports transcription and translation to English)</span>
+
+> Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?
 
 ## Whisper Models {.scrollable}
 
@@ -77,6 +79,8 @@ Reference papers
 1. Achieving 10% WER in Malayalam is astonishing.
 2. Can transcribe anyone speaking. 
 
+Whisper sadly doesn't support Malayalam!
+
 
 ## Whisper Event
 
@@ -131,13 +135,14 @@ is a big deal.
 
 ![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
 
-##
+## Objective of my benchmarking
 
-{{< tweet kurianbenoy2 1633647128059969536 >}}
+- To test whether 10% WER was possible in available academic datasets.
 
-##
+**Datasets**
 
-{{< tweet kavya_manohar 1633755478818959372 >}}
+- Common Voice 11 malayalam subset
+- SMC Malayalam Speech Corpus
 
 ## Benchmarked models
 
@@ -161,6 +166,14 @@ is a big deal.
 ## CER in Common Voice dataset
 
 ![CER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
+
+##
+
+{{< tweet kurianbenoy2 1633647128059969536 >}}
+
+##
+
+{{< tweet kavya_manohar 1633755478818959372 >}}
 
 ## Results on benechmarking in Malayalam Speech Corpus dataset
 
