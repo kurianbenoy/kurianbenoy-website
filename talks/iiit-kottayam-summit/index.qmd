@@ -1,6 +1,6 @@
 ---
-title: OpenAI Whisper’s amazing power to do fine-tuning demonstrated with benchmarking on Malayalam
-subtitle: Summit 2023 @ IIIT Kottayam
+title: OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam
+subtitle: Summit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)
 date: 2023-06-10
 date-format: full
 comments: false
@@ -8,7 +8,7 @@ format:
   revealjs:
     theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper's amazing power to do fine-tuning demonstrated with benchmarking on Malayalam"
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
 ---
 
 ## OpenAI Whisper
