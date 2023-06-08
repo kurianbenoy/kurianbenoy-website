@@ -13,6 +13,12 @@ about:
     - text: GitHub
       icon: github
       url: "https://github.com/kurianbenoy"
+    - text: Kaggle
+      icon: clipboard-data
+      url: "https://www.kaggle.com/kurianbenoy"
+    - text: fastai forums
+      icon: file-post-fill
+      href: "https://forums.fast.ai/u/kurianbenoy/summary"
     - text: Email
       url: "mailto:kurian.bkk@gmail.com"
     - text: Blog
