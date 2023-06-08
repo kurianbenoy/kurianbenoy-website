@@ -11,6 +11,8 @@ format:
     footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
 ---
 
+<!-- Introduction, why created project, methadology of benchmarking and results of benchmarking -->
+
 ## OpenAI Whisper
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
@@ -25,7 +27,7 @@ format:
 
 > Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?
 
-## About Malayalam
+<!-- ## About Malayalam
 
 - <span style="color:red">Malayalam is my mother tongue.</span>
 - <span style="color:blue">Native speakers: 38+ million.(as of 2011 census)</span>
@@ -40,27 +42,25 @@ languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)]</span>
 
 ::: aside
 Reference papers
-:::
+::: -->
 
-##
+## Malayalam is complex
 
-![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png)
+![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png){width="800"}
 
 ::: aside
 Picture from [Quantitative Analysis of the Morphological
-Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7).
-
-Absolutely recommend to read this paper!
+Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.
 :::
 
-
+<!-- 
 ## Malayalam ASR of my dreams
 
 1. Achieving 10% WER in Malayalam is astonishing.
 2. Can transcribe anyone speaking.
 3. Can be used in production systems for real-world use-case.
 
-Whisper API sadly doesn't support Malayalam!
+Whisper API sadly doesn't support Malayalam! -->
 
 
 ## Whisper Event
@@ -97,28 +97,23 @@ is a big deal.
 
 :::
 
-## I was not convinced {.scrollable}
+## I was not convinced
 
 4. Didn't trust the Hugging Face way of evaluating models.
 
 ![thennal/whisper-medium-ml model card readme](../fossasia2023/thennal_model_card.png)
 
 
-## I was not convinced {.scrollable}
+## I was not convinced
 
 4. Didn't trust the Hugging Face way of evaluating models.
 
 ![Last commit in thennal/whisper-medium-ml](../fossasia2023/thennal_commit.png)
 
-## I wanted to build something new
-
-- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
-
-![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
-
 ## Objective of my benchmarking
 
-- To test whether 10% WER was possible in available academic datasets.
+- <span style="color:red">To test whether 10% WER was possible in available academic datasets.</span>
+- <span style="color:blue">Validate whether finetuned-whisper models where working in Malayalam.</span>
 
 **Datasets**
 
@@ -130,11 +125,19 @@ is a big deal.
 - WER
 - CER
 
+::: aside
+amazon blogpost
+:::
+
 ## Methadology for ASR evaluation
 
-1.
-2.
-3.
+1. Create a python library for benchmarking models.
+2. Calculate WER using produced the output of hypothesis and compare it with groundtruth
+3. Build a reproducible methadology
+
+<!-- academia loves formula/ well defined steps -->
+<!-- talk about idea of reproducible research -->
+
 
 ## Benchmarked models
 
@@ -146,6 +149,13 @@ is a big deal.
 4. parambharat/whisper-small-ml
 5. anuragshas/whisper-large-v2-ml
 6. DrishtiSharma/whisper-large-v2-malayalam
+
+## I wanted to build something new
+
+- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
+
+![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
+
 
 ## Results on benechmarking in Common Voice dataset
 
@@ -180,6 +190,12 @@ is a big deal.
 ![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
 
 ## Conclusion
+
+
+- In Malayalam we have achieved phenomenal results for fine tuned whisper models.
+- We seems to have build really good ASR suitable for production use-cases.
+- You can also do it in your own language especially if it is a low resource language.
+
 
 <!-- ## vegam-whisper-medium ml model and Pallakku
 
