@@ -25,33 +25,6 @@ format:
 
 > Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?
 
-## Whisper Models {.scrollable}
-
-
-|  Size  | Parameters |Required VRAM | Relative speed |
-|------:|----------:|:----------:|:------------:|
-|  tiny  |    39 M    |   ~1 GB    |      ~32x      |
-|  base  |    74 M    |   ~1 GB    |      ~16x      |
-| small  |   244 M    |   ~2 GB    |      ~6x       |
-| medium |   769 M    |   ~5 GB    |      ~2x       |
-| large  |   1550 M   |   ~10 GB   |      ~1x       |
-
-[Table](https://github.com/openai/whisper#available-models-and-languages) from github repo - openai/whisper
-
-## English Speech Recognition
-
-![<span style="color:red">Whisper is competitive with state of art commercial and open source systems</span>. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](../fossasia2023/Whisper_english.png)
-
-## Multi-lingual Speech recognition
-
-- <span style="color:red">Whisper model is trained on 99 languages.</span>
-- <span style="color:green">OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</span>
-- Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ^[[Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.7]
-
-::: aside
-- More details can be found in Section 3.4 of [Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) pp.6 - 8.
-:::
-
 ## About Malayalam
 
 - <span style="color:red">Malayalam is my mother tongue.</span>
@@ -73,13 +46,21 @@ Reference papers
 
 ![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png)
 
+::: aside
+Picture from [Quantitative Analysis of the Morphological
+Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7).
+
+Absolutely recommend to read this paper!
+:::
+
 
 ## Malayalam ASR of my dreams
 
 1. Achieving 10% WER in Malayalam is astonishing.
-2. Can transcribe anyone speaking. 
+2. Can transcribe anyone speaking.
+3. Can be used in production systems for real-world use-case.
 
-Whisper sadly doesn't support Malayalam!
+Whisper API sadly doesn't support Malayalam!
 
 
 ## Whisper Event
@@ -91,7 +72,7 @@ Whisper sadly doesn't support Malayalam!
 [Whisper Event huggingface page](https://huggingface.co/whisper-event)
 :::
 
-## Malayalam models in Whisper Event
+## Malayalam models produced in Whisper Event
 
 - <span style="color:red">For the language Malayalam, the results are as follows:</span>
 
@@ -144,6 +125,17 @@ is a big deal.
 - Common Voice 11 malayalam subset
 - SMC Malayalam Speech Corpus
 
+## Metrics for evaluating ASR models
+
+- WER
+- CER
+
+## Methadology for ASR evaluation
+
+1.
+2.
+3.
+
 ## Benchmarked models
 
 - <span style="color:red">Started with 6 fine-tuned models in Malayalam and compared it with [6 model versions released by OpenAI](https://github.com/openai/whisper).</span>
@@ -186,6 +178,8 @@ is a big deal.
 ## CER in Malayalam Speech Corpus
 
 ![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
+
+## Conclusion
 
 <!-- ## vegam-whisper-medium ml model and Pallakku
 
