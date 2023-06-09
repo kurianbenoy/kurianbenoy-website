@@ -8,93 +8,8 @@ format:
   revealjs:
     theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || Vegam Whisper Family of Models and demoing Malayalam Speech to Text"
 ---
-
-## I was not convinced
-
-<span style="color:red">I was sceptical about the winning models becuase of</span>:
-
-::: {.incremental}
-
-1. Achieving 10% WER in Malayalam is astonishing.
-2. In Malayalam there is not even a single yard stick to compare. Most of
-previous works were done in proprietary datasets and not open-sourced.
-3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
-is a big deal.
-
-:::
-
-## I was not convinced {.scrollable}
-
-4. Didn't trust the Hugging Face way of evaluating models.
-
-![thennal/whisper-medium-ml model card readme](../fossasia2023/thennal_model_card.png)
-
-
-## I was not convinced {.scrollable}
-
-4. Didn't trust the Hugging Face way of evaluating models.
-
-![Last commit in thennal/whisper-medium-ml](../fossasia2023/thennal_commit.png)
-
-## I wanted to build something new
-
-- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
-
-![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
-
-##
-
-{{< tweet kurianbenoy2 1633647128059969536 >}}
-
-##
-
-{{< tweet kavya_manohar 1633755478818959372 >}}
-
-## Benchmarked models
-
-- <span style="color:red">Started with 6 fine-tuned models in Malayalam and compared it with [6 model versions released by OpenAI](https://github.com/openai/whisper).</span>
-
-1. thennal/whisper-medium-ml
-2. parambharat/whisper-tiny-ml
-3. parambharat/whisper-base-ml
-4. parambharat/whisper-small-ml
-5. anuragshas/whisper-large-v2-ml
-6. DrishtiSharma/whisper-large-v2-malayalam
-
-## Results on benechmarking in Common Voice dataset
-
-![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
-
-## WER in Common Voice dataset
-
-![WER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
-
-## CER in Common Voice dataset
-
-![CER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
-
-## Results on benechmarking in Malayalam Speech Corpus dataset
-
-![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png)
-
-## WER in Malayalam Speech Corpus
-
-![WER in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
-
-## CER in Malayalam Speech Corpus
-
-![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
-
-## End Goal
-
-- <span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span>
-- <span style="color:blue">Should include results for Kaldi, Wav2Vec, Whisper, MMS etc.</span>
-
-![Open LLM leaderboard in [huggingface spaces](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)](openllm.png)
-
-## vegam-whisper-medium ml model and Pallakku
 
 ## Inspired by
 
@@ -104,10 +19,16 @@ is a big deal.
 :::
 
 ::: aside
-Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)
+<span style="color:blue">Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)</span>
 :::
 
 ## CTranslate2
+
+- An awesome library for optimizing ML models for production.
+- Supports translation models like Opus MT, OpenNMT
+- Supports huggingface transformers based packages like GPTJ, BLOOM, Whisper etc.
+
+## CTranslate2 Whisper converter
 
 - <span style="color:red">It had this utility for converting any `whisper` based model to faster-whisper like models.</span>
 
@@ -117,12 +38,70 @@ ct2-transformers-converter \
  --output_dir whisper-tiny-ct2
 ```
 
+<!-- ## Malayalam ASR Benchmarking
+
+- <span style="color:red">To test whether 10% WER was possible in available academic datasets.</span>
+
+**Datasets**
+
+- <span style="color:blue">Common Voice 11 malayalam subset</span>
+- <span style="color:blue">SMC Malayalam Speech Corpus</span>
+
+## Results on benechmarking in Common Voice dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
+
+##
+
+{{< tweet kavya_manohar 1633755478818959372 >}}
+
+## Results on benechmarking in Malayalam Speech Corpus dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png) -->
+
+## CTranslate2 Quantization formats
+
+CTranslate2 supports various quantization formats like:
+
+- float16
+- int16
+- float8
+- int8_float8
+- No quantization
+
+::: aside
+For more details check CTranslate2 quantization page
+:::
+
 ## Vegam Whisper models released
 
 - <span style="color:red">I used `thennal/whisper-medium-ml` to convert it to faster-whisper based models for Malayalam:</span>
 
 1. [kurianbenoy/vegam-whisper-medium-ml](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml)
-1. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+2. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+3. [kurianbenoy/vegam-whisper-medium-ml-int16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16)
+4.[kurianbenoy/vegam-whisper-medium-ml-fp8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8)
+5. [kurianbenoy/vegam-whisper-medium-ml-int8_float8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8)
+
+## Vegam Whisper models released
+
+[Vegam Whisper models hosted in huggingface](./huggingface.png)
+
+## Demo Video -1 
+
+{{video }}
+
+## Demo Video -1 Output
+
+[Output of video 1](./25s_audio.png)
+
+## Demo Video -2
+
+{{video }}
+
+## Demo Video - 2 Output
+
+[Output of video 2](./10s_audio.png)
 
 ## Pallakku
 
@@ -134,5 +113,7 @@ ct2-transformers-converter \
 
 ## 🤗 spaces
 
-![](pallakku.png)
+- Try it out in link: <span style="color:red">https://huggingface.co/spaces/kurianbenoy/Pallakku</span>
+
+![](../delft-fastai/pallakku.png)
 
