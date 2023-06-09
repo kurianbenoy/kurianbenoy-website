@@ -15,7 +15,7 @@ format:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
 
-- <span style="color:red">I think Whisper^[According to [research paper](https://cdn.openai.com/papers/whisper.pdf) p.2, the name Whisper is an abbrevation for WSPR: `Web-scale Supervised Pretraining for Speech Recognition`.] is the most `under-rated model` released by OpenAI.</span>
+- <span style="color:red">I think Whisper^[<span style="color:black">According to [research paper](https://cdn.openai.com/papers/whisper.pdf) p.2, the name Whisper is an abbrevation for WSPR: `Web-scale Supervised Pretraining for Speech Recognition`.</span>] is the most `under-rated model` released by OpenAI.</span>
 - <span style="color:green">It was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</span>
 
 ## About OpenAI Whisper Model
@@ -23,15 +23,17 @@ format:
 - Whisper is a computer program which can listen to people talking and write down what they say. <span style="color:red">(Automatic Speech Recognition Model)</span>
 - Whisper can understand people speaking different languages and can even translate what they say into English. <span style="color:green">(Supports transcription and translation to English)</span>
 
-> Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?
+::: aside
+<span style="color:black">Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?</span>
+:::
 
 ## Malayalam is a complex language
 
 ![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png){width="800"}
 
 ::: aside
-Picture from [Quantitative Analysis of the Morphological
-Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.
+<span style="color:black">Picture from [Quantitative Analysis of the Morphological
+Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.</span>
 :::
 
 ## Whisper Event
@@ -47,7 +49,7 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 - <span style="color:red">For the language Malayalam, the results are as follows:</span>
 
-![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
+![<span style="color:black">Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)</span>](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
 
 ## Winning models in Malayalam in Whisper Event {.nonincremental}
 
@@ -58,14 +60,14 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 - <span style="color:red">Didn't trust the Hugging Face way of evaluating models.</span>
 
-![thennal/whisper-medium-ml model card readme](../fossasia2023/thennal_model_card.png)
+![<span style="color:black">thennal/whisper-medium-ml model card readme</span>](../fossasia2023/thennal_model_card.png)
 
 
 ## I was not convinced
 
 - <span style="color:red">Didn't trust the Hugging Face way of evaluating models.</span>
 
-![Last commit in thennal/whisper-medium-ml](../fossasia2023/thennal_commit.png)
+![<span style="color:black">Last commit in thennal/whisper-medium-ml</span>](../fossasia2023/thennal_commit.png)
 
 ## Objective of my benchmarking
 
@@ -79,14 +81,14 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 ## Metrics for evaluating ASR models
 
 - ASR evaulation relies on comparission between <span style="color:red">ground-truth</span> and <span style="color:red">ASR output</span>.
-- <span style="color:blue">Common metrics for ASR evaluation which are popular and enough^[According to Rethinking evaluation in asr: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc.] are</span> :
+- <span style="color:blue">Common metrics for ASR evaluation which are popular and enough^[<span style="color:black">According to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc.</span>] are</span> :
 
 <span style="color:green">1. Word Error Rate(WER)</span>
 
 <span style="color:green">2. Character Error Rate(CER)</span>
 
 ::: aside
-To learn more check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-learning/evaluating-an-automatic-speech-recognition-service/)
+<span style="color:black">To learn more about ASR evaluation check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-learning/evaluating-an-automatic-speech-recognition-service/)</span>
 :::
 
 ## I wanted to build something new
@@ -150,7 +152,7 @@ To learn more check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-
 
 <span style="color:red">Github project</span>
 
- - https://github.com/kurianbenoy/malayalam_asr_benchmarking
+ <span style="color:black">https://github.com/kurianbenoy/malayalam_asr_benchmarking</span>
 
 ## Links to Project 
 
