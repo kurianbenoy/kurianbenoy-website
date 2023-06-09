@@ -357,11 +357,11 @@
     "text": "About OpenAI Whisper Model\n\nWhisper is a computer program which can listen to people talking and write down what they say. (Automatic Speech Recognition Model)\nWhisper can understand people speaking different languages and can even translate what they say into English. (Supports transcription and translation to English)\n\n\nNote: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?"
   },
   {
-    "objectID": "talks/iiit-kottayam-summit/index.html#malayalam-is-complex",
-    "href": "talks/iiit-kottayam-summit/index.html#malayalam-is-complex",
+    "objectID": "talks/iiit-kottayam-summit/index.html#malayalam-is-a-complex-language",
+    "href": "talks/iiit-kottayam-summit/index.html#malayalam-is-a-complex-language",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
-    "section": "Malayalam is complex",
-    "text": "Malayalam is complex\n\n\n\nComparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.\n\n\n\n\nPicture from Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al. For more information check this paper."
+    "section": "Malayalam is a complex language",
+    "text": "Malayalam is a complex language\n\n\n\nComparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.\n\n\n\n\nPicture from Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al. For more information check this paper."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#whisper-event",
@@ -501,7 +501,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#conclusion",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Conclusion",
-    "text": "Conclusion\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nThe best model now is: thennal/whisper-medium-ml\nI think their seems to be good ASR models suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
+    "text": "Conclusion\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nThe best model is: thennal/whisper-medium-ml\nI think their seems to be a good ASR model suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#thanks-to",
