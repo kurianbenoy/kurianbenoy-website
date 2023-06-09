@@ -25,7 +25,7 @@ format:
 
 > Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?
 
-## Malayalam is complex
+## Malayalam is a complex language
 
 ![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png){width="800"}
 
@@ -73,8 +73,8 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 **Datasets**
 
-- Common Voice 11 malayalam subset
-- SMC Malayalam Speech Corpus
+- <span style="color:blue">Common Voice 11 malayalam subset</span>
+- <span style="color:blue">SMC Malayalam Speech Corpus</span>
 
 ## Metrics for evaluating ASR models
 
@@ -174,8 +174,8 @@ To learn more check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-
 ## Conclusion
 
 - <span style="color:red">In Malayalam we have achieved phenomenal results for fine tuned whisper models.
-- <span style="color:blue">The best model now is: `thennal/whisper-medium-ml`
-- <span style="color:green">I think their seems to be good ASR models suitable for production use-cases.</span>
+- <span style="color:blue">The best model is: `thennal/whisper-medium-ml`
+- <span style="color:green">I think their seems to be a good ASR model suitable for production use-cases.</span>
 - <span style="color:orange">You can also do it in your own language especially if it is a low resource language.</span>
 
 ## Thanks to
