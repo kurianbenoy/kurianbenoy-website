@@ -354,7 +354,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#about-openai-whisper-model",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "About OpenAI Whisper Model",
-    "text": "About OpenAI Whisper Model\n\nWhisper is a computer program which can listen to people talking and write down what they say. (Automatic Speech Recognition Model)\nWhisper can understand people speaking different languages and can even translate what they say into English. (Supports transcription and translation to English)\n\n\nNote: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?"
+    "text": "About OpenAI Whisper Model\n\nWhisper is a computer program which can listen to people talking and write down what they say. (Automatic Speech Recognition Model)\nWhisper can understand people speaking different languages and can even translate what they say into English. (Supports transcription and translation to English)\n\n\n\nNote: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#malayalam-is-a-complex-language",
@@ -410,7 +410,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#metrics-for-evaluating-asr-models",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Metrics for evaluating ASR models",
-    "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more check this blogpost by AWS\nAccording to Rethinking evaluation in asr: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
+    "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more about ASR evaluation check this blogpost by AWS\nAccording to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-wanted-to-build-something-new",
@@ -480,7 +480,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#links-to-project",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Links to Project",
-    "text": "Links to Project\nGithub project\n\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking"
+    "text": "Links to Project\nGithub project\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#links-to-project-1",
