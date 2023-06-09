@@ -24,9 +24,10 @@ format:
 
 ## CTranslate2
 
-- An awesome library for optimizing ML models for production.
-- Supports translation models like Opus MT, OpenNMT
-- Supports huggingface transformers based packages like GPTJ, BLOOM, Whisper etc.
+- <span style="color:red">An awesome library for optimizing ML models for production.</span>
+- CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
+- The project implements a custom runtime that applies many performance optimization techniques such as weights quantization, layers fusion, batch reordering, etc., to accelerate and reduce the memory usage of Transformer models on CPU and GPU. 
+
 
 ## CTranslate2 Whisper converter
 
@@ -38,30 +39,9 @@ ct2-transformers-converter \
  --output_dir whisper-tiny-ct2
 ```
 
-<!-- ## Malayalam ASR Benchmarking
-
-- <span style="color:red">To test whether 10% WER was possible in available academic datasets.</span>
-
-**Datasets**
-
-- <span style="color:blue">Common Voice 11 malayalam subset</span>
-- <span style="color:blue">SMC Malayalam Speech Corpus</span>
-
-## Results on benechmarking in Common Voice dataset
-
-![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
-
-##
-
-{{< tweet kavya_manohar 1633755478818959372 >}}
-
-## Results on benechmarking in Malayalam Speech Corpus dataset
-
-![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png) -->
-
 ## CTranslate2 Quantization formats
 
-CTranslate2 supports various quantization formats like:
+<span style="color:red">CTranslate2 supports various quantization formats like:</span>
 
 - float16
 - int16
@@ -70,7 +50,7 @@ CTranslate2 supports various quantization formats like:
 - No quantization
 
 ::: aside
-For more details check CTranslate2 quantization page
+For more details check [CTranslate2 quantization docs](https://opennmt.net/CTranslate2/quantization.html)
 :::
 
 ## Vegam Whisper models released
@@ -80,40 +60,42 @@ For more details check CTranslate2 quantization page
 1. [kurianbenoy/vegam-whisper-medium-ml](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml)
 2. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
 3. [kurianbenoy/vegam-whisper-medium-ml-int16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16)
-4.[kurianbenoy/vegam-whisper-medium-ml-fp8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8)
+4. [kurianbenoy/vegam-whisper-medium-ml-fp8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8)
 5. [kurianbenoy/vegam-whisper-medium-ml-int8_float8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8)
 
 ## Vegam Whisper models released
 
-[Vegam Whisper models hosted in huggingface](./huggingface.png)
+![Vegam Whisper models hosted in huggingface](./huggingface.png)
 
 ## Demo Video -1 
 
-{{video }}
+{{< video https://www.youtube.com/embed/zm1gU8hRHxA width="2000" height="600"  >}}
 
 ## Demo Video -1 Output
 
-[Output of video 1](./25s_audio.png)
+![Output of video 1](./25s_audio.png)
 
 ## Demo Video -2
 
-{{video }}
+{{< video https://www.youtube.com/embed/fZZFCOkWquY width="2000" height="600" >}}
 
 ## Demo Video - 2 Output
 
-[Output of video 2](./10s_audio.png)
+![Output of video 2](./10s_audio.png)
 
 ## Pallakku
 
 - <span style="color:red">Pallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.</span>
-- Now hosted as:
+- <span style="color:blue">Two options to try it out</span>:
 
 1. [🤗 spaces](https://huggingface.co/spaces/kurianbenoy/Pallakku)
 2. GPU-based microservice (coming soon.)
 
 ## 🤗 spaces
 
-- Try it out in link: <span style="color:red">https://huggingface.co/spaces/kurianbenoy/Pallakku</span>
+- Try it out in link: 
+
+<span style="color:red">https://huggingface.co/spaces/kurianbenoy/Pallakku</span>
 
 ![](../delft-fastai/pallakku.png)
 
