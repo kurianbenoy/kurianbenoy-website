@@ -339,6 +339,10 @@
 
   <p class="date">Saturday, June 10, 2023</p>
 </section>
+<section class="slide level2">
+
+<!-- Introduction, why created project, methadology of benchmarking and results of benchmarking -->
+</section>
 <section id="openai-whisper" class="slide level2">
 <h2>OpenAI Whisper</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -360,100 +364,43 @@
 <blockquote>
 <p>Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?</p>
 </blockquote>
-</section>
-<section id="whisper-models" class="slide level2 scrollable">
-<h2>Whisper Models</h2>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: right;">Size</th>
-<th style="text-align: right;">Parameters</th>
-<th style="text-align: center;">Required VRAM</th>
-<th style="text-align: center;">Relative speed</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">tiny</td>
-<td style="text-align: right;">39 M</td>
-<td style="text-align: center;">~1 GB</td>
-<td style="text-align: center;">~32x</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">base</td>
-<td style="text-align: right;">74 M</td>
-<td style="text-align: center;">~1 GB</td>
-<td style="text-align: center;">~16x</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">small</td>
-<td style="text-align: right;">244 M</td>
-<td style="text-align: center;">~2 GB</td>
-<td style="text-align: center;">~6x</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">medium</td>
-<td style="text-align: right;">769 M</td>
-<td style="text-align: center;">~5 GB</td>
-<td style="text-align: center;">~2x</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">large</td>
-<td style="text-align: right;">1550 M</td>
-<td style="text-align: center;">~10 GB</td>
-<td style="text-align: center;">~1x</td>
-</tr>
-</tbody>
-</table>
-<p><a href="https://github.com/openai/whisper#available-models-and-languages">Table</a> from github repo - openai/whisper</p>
-</section>
-<section id="english-speech-recognition" class="slide level2">
-<h2>English Speech Recognition</h2>
+<!-- ## About Malayalam
 
-<img data-src="../fossasia2023/Whisper_english.png" class="r-stretch quarto-figure-center"><p class="caption"><span style="color:red">Whisper is competitive with state of art commercial and open source systems</span>. Diagram from <a href="[research paper](https://cdn.openai.com/papers/whisper.pdf)">whisper research paper</a> p.9</p></section>
-<section id="multi-lingual-speech-recognition" class="slide level2">
-<h2>Multi-lingual Speech recognition</h2>
-<ul>
-<li><span style="color:red">Whisper model is trained on 99 languages.</span></li>
-<li><span style="color:green">OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</span></li>
-<li>Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. <sup>1</sup></li>
-</ul>
+- <span style="color:red">Malayalam is my mother tongue.</span>
+- <span style="color:blue">Native speakers: 38+ million.(as of 2011 census)</span>
+- <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span>
 
+## Malayalam is a morphologically complex language
+
+- <span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span>
+- <span style="color:blue">Morphology can be calculated by metrics like TTR^[Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of
+Quantitative Linguistics 5(3), 206–213 (1998)] and MATTR ^[Kettunen, K.: Can type-token ratio be used to show morphological complexity of
+languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)]</span>
+
+::: aside
+Reference papers
+::: -->
+</section>
+<section id="malayalam-is-complex" class="slide level2">
+<h2>Malayalam is complex</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../delft-fastai/morphology_ttr.png" width="800"></p>
+<figcaption>Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.</figcaption>
+</figure>
+</div>
+
+<!-- 
+## Malayalam ASR of my dreams
+
+1. Achieving 10% WER in Malayalam is astonishing.
+2. Can transcribe anyone speaking.
+3. Can be used in production systems for real-world use-case.
+
+Whisper API sadly doesn't support Malayalam! -->
 <aside><div>
-<ul>
-<li>More details can be found in Section 3.4 of <a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> pp.6 - 8.</li>
-</ul>
-</div><ol class="aside-footnotes"><li id="fn2"><p><a href="https://cdn.openai.com/papers/whisper.pdf">Whisper research paper</a> p.7</p></li></ol></aside></section>
-<section id="about-malayalam" class="slide level2">
-<h2>About Malayalam</h2>
-<ul>
-<li><span style="color:red">Malayalam is my mother tongue.</span></li>
-<li><span style="color:blue">Native speakers: 38+ million.(as of 2011 census)</span></li>
-<li><span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span></li>
-</ul>
-</section>
-<section id="malayalam-is-a-morphologically-complex-language" class="slide level2">
-<h2>Malayalam is a morphologically complex language</h2>
-<ul>
-<li><span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span></li>
-<li><span style="color:blue">Morphology can be calculated by metrics like TTR<sup>1</sup> and MATTR <sup>2</sup></span></li>
-</ul>
-
-<aside><div>
-<p>Reference papers</p>
-</div><ol class="aside-footnotes"><li id="fn3"><p>Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of Quantitative Linguistics 5(3), 206–213 (1998)</p></li><li id="fn4"><p>Kettunen, K.: Can type-token ratio be used to show morphological complexity of languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)</p></li></ol></aside></section>
-<section id="section" class="slide level2">
-<h2></h2>
-
-<img data-src="../delft-fastai/morphology_ttr.png" class="r-stretch quarto-figure-center"><p class="caption">Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.</p></section>
-<section id="malayalam-asr-of-my-dreams" class="slide level2">
-<h2>Malayalam ASR of my dreams</h2>
-<ol type="1">
-<li>Achieving 10% WER in Malayalam is astonishing.</li>
-<li>Can transcribe anyone speaking.</li>
-</ol>
-<p>Whisper sadly doesn’t support Malayalam!</p>
-</section>
+<p>Picture from <a href="https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7">Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al</a>. For more information check this paper.</p>
+</div></aside></section>
 <section id="whisper-event" class="slide level2">
 <h2>Whisper Event</h2>
 <ul>
@@ -464,8 +411,8 @@
 <aside><div>
 <p><a href="https://huggingface.co/whisper-event">Whisper Event huggingface page</a></p>
 </div></aside></section>
-<section id="malayalam-models-in-whisper-event" class="slide level2">
-<h2>Malayalam models in Whisper Event</h2>
+<section id="malayalam-models-produced-in-whisper-event" class="slide level2">
+<h2>Malayalam models produced in Whisper Event</h2>
 <ul>
 <li><span style="color:red">For the language Malayalam, the results are as follows:</span></li>
 </ul>
@@ -489,37 +436,51 @@
 </ol>
 </div>
 </section>
-<section id="i-was-not-convinced-1" class="slide level2 scrollable">
+<section id="i-was-not-convinced-1" class="slide level2">
 <h2>I was not convinced</h2>
 <ol start="4" type="1">
 <li>Didn’t trust the Hugging Face way of evaluating models.</li>
 </ol>
 
 <img data-src="../fossasia2023/thennal_model_card.png" class="r-stretch quarto-figure-center"><p class="caption">thennal/whisper-medium-ml model card readme</p></section>
-<section id="i-was-not-convinced-2" class="slide level2 scrollable">
+<section id="i-was-not-convinced-2" class="slide level2">
 <h2>I was not convinced</h2>
 <ol start="4" type="1">
 <li>Didn’t trust the Hugging Face way of evaluating models.</li>
 </ol>
 
 <img data-src="../fossasia2023/thennal_commit.png" class="r-stretch quarto-figure-center"><p class="caption">Last commit in thennal/whisper-medium-ml</p></section>
-<section id="i-wanted-to-build-something-new" class="slide level2">
-<h2>I wanted to build something new</h2>
-<ul>
-<li><span style="color:red">New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></span></li>
-</ul>
-
-<img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
 <section id="objective-of-my-benchmarking" class="slide level2">
 <h2>Objective of my benchmarking</h2>
 <ul>
-<li>To test whether 10% WER was possible in available academic datasets.</li>
+<li><span style="color:red">To test whether 10% WER was possible in available academic datasets.</span></li>
+<li><span style="color:blue">Validate whether finetuned-whisper models where working in Malayalam.</span></li>
 </ul>
 <p><strong>Datasets</strong></p>
 <ul>
 <li>Common Voice 11 malayalam subset</li>
 <li>SMC Malayalam Speech Corpus</li>
 </ul>
+</section>
+<section id="metrics-for-evaluating-asr-models" class="slide level2">
+<h2>Metrics for evaluating ASR models</h2>
+<ul>
+<li>WER</li>
+<li>CER</li>
+</ul>
+
+<aside><div>
+<p>amazon blogpost</p>
+</div></aside></section>
+<section id="methadology-for-asr-evaluation" class="slide level2">
+<h2>Methadology for ASR evaluation</h2>
+<ol type="1">
+<li>Create a python library for benchmarking models.</li>
+<li>Calculate WER using produced the output of hypothesis and compare it with groundtruth</li>
+<li>Build a reproducible methadology</li>
+</ol>
+<!-- academia loves formula/ well defined steps -->
+<!-- talk about idea of reproducible research -->
 </section>
 <section id="benchmarked-models" class="slide level2">
 <h2>Benchmarked models</h2>
@@ -535,6 +496,13 @@
 <li>DrishtiSharma/whisper-large-v2-malayalam</li>
 </ol>
 </section>
+<section id="i-wanted-to-build-something-new" class="slide level2">
+<h2>I wanted to build something new</h2>
+<ul>
+<li><span style="color:red">New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></span></li>
+</ul>
+
+<img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
 <section id="results-on-benechmarking-in-common-voice-dataset" class="slide level2">
 <h2>Results on benechmarking in Common Voice dataset</h2>
 
@@ -547,13 +515,13 @@
 <h2>CER in Common Voice dataset</h2>
 
 <img data-src="https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error Rate in Common Voice-9 test split</p></section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p></p><div id="tweet-83696"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-83696").innerHTML = tweet["html"];</script><p></p>
+</section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-79164"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-79164").innerHTML = tweet["html"];</script><p></p>
-</section>
-<section id="section-2" class="slide level2">
-<h2></h2>
-<p></p><div id="tweet-24691"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-24691").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-55141"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-55141").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="results-on-benechmarking-in-malayalam-speech-corpus-dataset" class="slide level2">
 <h2>Results on benechmarking in Malayalam Speech Corpus dataset</h2>
@@ -566,6 +534,14 @@
 <section id="cer-in-malayalam-speech-corpus" class="slide level2">
 <h2>CER in Malayalam Speech Corpus</h2>
 
+<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p></section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li>In Malayalam we have achieved phenomenal results for fine tuned whisper models.</li>
+<li>We seems to have build really good ASR suitable for production use-cases.</li>
+<li>You can also do it in your own language especially if it is a low resource language.</li>
+</ul>
 <!-- ## vegam-whisper-medium ml model and Pallakku
 
 ## Inspired by
@@ -610,7 +586,7 @@ ct2-transformers-converter \
 ## 🤗 spaces
 
 ![](pallakku.png) -->
-<img data-src="https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p></section>
+</section>
 <section id="thanks-to" class="slide level2">
 <h2>Thanks to</h2>
 <div class="columns">
