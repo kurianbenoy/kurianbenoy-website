@@ -49,7 +49,7 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 - <span style="color:red">For the language Malayalam, the results are as follows:</span>
 
-![<span style="color:black">Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)</span>](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
+![<span style="color:black">Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)</span>](malayalam_models.png){width=700 fig-align="center"}
 
 ## Winning models in Malayalam in Whisper Event {.nonincremental}
 
@@ -118,15 +118,15 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 ## Results on benechmarking in Common Voice dataset
 
-![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
+![Output from benchmarking tool](cv_output.png)
 
 ## WER in Common Voice dataset
 
-![Word Error Rate in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
+![Word Error Rate in Common Voice-9 test split](cv_wer.png)
 
 ## CER in Common Voice dataset
 
-![Character Error Rate in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
+![Character Error Rate in Common Voice-9 test split](cv_cer.png)
 
 ##
 
@@ -138,15 +138,15 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 ## Results on benechmarking in Malayalam Speech Corpus dataset
 
-![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png)
+![Output from benchmarking tool](msc_output.png)
 
 ## WER in Malayalam Speech Corpus
 
-![Word Error Rate in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
+![Word Error Rate in MSC](msc_wer.png)
 
 ## CER in Malayalam Speech Corpus
 
-![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
+![Character Error rate in MSC](msc_cer.png)
 
 ## Links to Project
 
