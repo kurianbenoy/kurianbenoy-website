@@ -361,7 +361,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#malayalam-is-complex",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Malayalam is complex",
-    "text": "Malayalam is complex\n\n\n\nComparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.\n\n\n\n\n\nPicture from Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al. For more information check this paper."
+    "text": "Malayalam is complex\n\n\n\nComparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.\n\n\n\n\nPicture from Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al. For more information check this paper."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#whisper-event",
@@ -389,18 +389,11 @@
     "href": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "I was not convinced",
-    "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\n\nAchieving 10% WER in Malayalam is astonishing.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is a morpohologically complex language. So even achieving 30% WER is a big deal."
+    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nthennal/whisper-medium-ml model card readme"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-1",
     "href": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-1",
-    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
-    "section": "I was not convinced",
-    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nthennal/whisper-medium-ml model card readme"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-2",
-    "href": "talks/iiit-kottayam-summit/index.html#i-was-not-convinced-2",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "I was not convinced",
     "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nLast commit in thennal/whisper-medium-ml"
@@ -410,28 +403,14 @@
     "href": "talks/iiit-kottayam-summit/index.html#objective-of-my-benchmarking",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Objective of my benchmarking",
-    "text": "Objective of my benchmarking\n\nTo test whether 10% WER was possible in available academic datasets.\nValidate whether finetuned-whisper models where working in Malayalam.\n\nDatasets\n\nCommon Voice 11 malayalam subset\nSMC Malayalam Speech Corpus"
+    "text": "Objective of my benchmarking\n\nTo test whether 10% WER was possible in available academic datasets.\n\nDatasets\n\nCommon Voice 11 malayalam subset\nSMC Malayalam Speech Corpus"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#metrics-for-evaluating-asr-models",
     "href": "talks/iiit-kottayam-summit/index.html#metrics-for-evaluating-asr-models",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Metrics for evaluating ASR models",
-    "text": "Metrics for evaluating ASR models\n\nWER\nCER\n\n\n\namazon blogpost"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#methadology-for-asr-evaluation",
-    "href": "talks/iiit-kottayam-summit/index.html#methadology-for-asr-evaluation",
-    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
-    "section": "Methadology for ASR evaluation",
-    "text": "Methadology for ASR evaluation\n\nCreate a python library for benchmarking models.\nCalculate WER using produced the output of hypothesis and compare it with groundtruth\nBuild a reproducible methadology"
-  },
-  {
-    "objectID": "talks/iiit-kottayam-summit/index.html#benchmarked-models",
-    "href": "talks/iiit-kottayam-summit/index.html#benchmarked-models",
-    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
-    "section": "Benchmarked models",
-    "text": "Benchmarked models\n\nStarted with 6 fine-tuned models in Malayalam and compared it with 6 model versions released by OpenAI.\n\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam"
+    "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more check this blogpost by AWS\nAccording to Rethinking evaluation in asr: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-wanted-to-build-something-new",
@@ -439,6 +418,20 @@
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "I wanted to build something new",
     "text": "I wanted to build something new\n\nNew github project for Malayalam ASR Benchmarking\n\n\nTime for a new adventure"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#methadology-for-benchmarking",
+    "href": "talks/iiit-kottayam-summit/index.html#methadology-for-benchmarking",
+    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
+    "section": "Methadology for benchmarking",
+    "text": "Methadology for benchmarking\n\nCreate as a python library so further whisper-based transformer models can be benchmark.\nCalculate WER, CER, model size and time taken to benchmark the model for the listed datasets.\nBuild a reproducible approach, so results of benchmarking is stored as dataset."
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#benchmarked-models",
+    "href": "talks/iiit-kottayam-summit/index.html#benchmarked-models",
+    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
+    "section": "Benchmarked models",
+    "text": "Benchmarked models\n\nStarted with 6 fine-tuned models in Malayalam and compared it with 6 model versions released by OpenAI.\n\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#results-on-benechmarking-in-common-voice-dataset",
@@ -483,18 +476,39 @@
     "text": "CER in Malayalam Speech Corpus\n\nCharacter Error rate in MSC"
   },
   {
+    "objectID": "talks/iiit-kottayam-summit/index.html#links-to-project",
+    "href": "talks/iiit-kottayam-summit/index.html#links-to-project",
+    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
+    "section": "Links to Project",
+    "text": "Links to Project\nGithub project\n\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#links-to-project-1",
+    "href": "talks/iiit-kottayam-summit/index.html#links-to-project-1",
+    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
+    "section": "Links to Project",
+    "text": "Links to Project\nBenchmarking results\n\nResults on SMC Malayalam Speech corpus\n\nhttps://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking/tree/main\n\nResults on Common Voice 11\n\nhttps://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/index.html#future-ideas-for-benchmarking",
+    "href": "talks/iiit-kottayam-summit/index.html#future-ideas-for-benchmarking",
+    "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
+    "section": "Future Ideas for Benchmarking",
+    "text": "Future Ideas for Benchmarking\n\nSomething very similar to OpenLLM Leaderboard with results of latest malayalam speech models.\nShould include results for Kaldi, Meta’s MMS, Wav2Vec etc.\n\n\nOpen LLM leaderboard in huggingface spaces"
+  },
+  {
     "objectID": "talks/iiit-kottayam-summit/index.html#conclusion",
     "href": "talks/iiit-kottayam-summit/index.html#conclusion",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Conclusion",
-    "text": "Conclusion\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nWe seems to have build really good ASR suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
+    "text": "Conclusion\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nThe best model now is: thennal/whisper-medium-ml\nI think their seems to be good ASR models suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#thanks-to",
     "href": "talks/iiit-kottayam-summit/index.html#thanks-to",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Thanks to",
-    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nCreators of CTranslate2 and faster-whisper - Guillaume Klein\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nOther members in Swathanthra Malayalam Computing community.\nJarvis Labs\n\n\n\n\n\nKurian Benoy || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
+    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nOther members in Swathanthra Malayalam Computing community.\nJarvis Labs\n\n\n\n\n\nKurian Benoy || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
   },
   {
     "objectID": "talks/delft-fastai/index.html#outline",
