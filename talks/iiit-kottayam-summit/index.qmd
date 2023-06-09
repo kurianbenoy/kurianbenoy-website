@@ -11,8 +11,6 @@ format:
     footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
 ---
 
-<!-- Introduction, why created project, methadology of benchmarking and results of benchmarking -->
-
 ## OpenAI Whisper
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
@@ -27,23 +25,6 @@ format:
 
 > Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?
 
-<!-- ## About Malayalam
-
-- <span style="color:red">Malayalam is my mother tongue.</span>
-- <span style="color:blue">Native speakers: 38+ million.(as of 2011 census)</span>
-- <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span>
-
-## Malayalam is a morphologically complex language
-
-- <span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span>
-- <span style="color:blue">Morphology can be calculated by metrics like TTR^[Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of
-Quantitative Linguistics 5(3), 206–213 (1998)] and MATTR ^[Kettunen, K.: Can type-token ratio be used to show morphological complexity of
-languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)]</span>
-
-::: aside
-Reference papers
-::: -->
-
 ## Malayalam is complex
 
 ![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png){width="800"}
@@ -52,16 +33,6 @@ Reference papers
 Picture from [Quantitative Analysis of the Morphological
 Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.
 :::
-
-<!-- 
-## Malayalam ASR of my dreams
-
-1. Achieving 10% WER in Malayalam is astonishing.
-2. Can transcribe anyone speaking.
-3. Can be used in production systems for real-world use-case.
-
-Whisper API sadly doesn't support Malayalam! -->
-
 
 ## Whisper Event
 
@@ -85,35 +56,20 @@ Whisper API sadly doesn't support Malayalam! -->
 
 ## I was not convinced
 
-<span style="color:red">I was sceptical about the winning models becuase of</span>:
-
-::: {.incremental}
-
-1. Achieving 10% WER in Malayalam is astonishing.
-2. In Malayalam there is not even a single yard stick to compare. Most of
-previous works were done in proprietary datasets and not open-sourced.
-3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
-is a big deal.
-
-:::
-
-## I was not convinced
-
-4. Didn't trust the Hugging Face way of evaluating models.
+- <span style="color:red">Didn't trust the Hugging Face way of evaluating models.</span>
 
 ![thennal/whisper-medium-ml model card readme](../fossasia2023/thennal_model_card.png)
 
 
 ## I was not convinced
 
-4. Didn't trust the Hugging Face way of evaluating models.
+- <span style="color:red">Didn't trust the Hugging Face way of evaluating models.</span>
 
 ![Last commit in thennal/whisper-medium-ml](../fossasia2023/thennal_commit.png)
 
 ## Objective of my benchmarking
 
 - <span style="color:red">To test whether 10% WER was possible in available academic datasets.</span>
-- <span style="color:blue">Validate whether finetuned-whisper models where working in Malayalam.</span>
 
 **Datasets**
 
@@ -122,21 +78,28 @@ is a big deal.
 
 ## Metrics for evaluating ASR models
 
-- WER
-- CER
+- ASR evaulation relies on comparission between <span style="color:red">ground-truth</span> and <span style="color:red">ASR output</span>.
+- <span style="color:blue">Common metrics for ASR evaluation which are popular and enough^[According to Rethinking evaluation in asr: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc.] are</span> :
+
+<span style="color:green">1. Word Error Rate(WER)</span>
+
+<span style="color:green">2. Character Error Rate(CER)</span>
 
 ::: aside
-amazon blogpost
+To learn more check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-learning/evaluating-an-automatic-speech-recognition-service/)
 :::
 
-## Methadology for ASR evaluation
+## I wanted to build something new
 
-1. Create a python library for benchmarking models.
-2. Calculate WER using produced the output of hypothesis and compare it with groundtruth
-3. Build a reproducible methadology
+- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
 
-<!-- academia loves formula/ well defined steps -->
-<!-- talk about idea of reproducible research -->
+![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
+
+## Methadology for benchmarking
+
+1. <span style="color:red">Create as a python library so further whisper-based transformer models can be benchmark.</span>
+2. <span style="color:blue">Calculate WER, CER, model size and time taken to benchmark the model for the listed datasets.</span>
+3. <span style="color:green">Build a reproducible approach, so results of benchmarking is stored as dataset.</span>
 
 
 ## Benchmarked models
@@ -149,12 +112,6 @@ amazon blogpost
 4. parambharat/whisper-small-ml
 5. anuragshas/whisper-large-v2-ml
 6. DrishtiSharma/whisper-large-v2-malayalam
-
-## I wanted to build something new
-
-- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
-
-![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
 
 
 ## Results on benechmarking in Common Voice dataset
@@ -189,73 +146,51 @@ amazon blogpost
 
 ![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
 
+## Links to Project
+
+<span style="color:red">Github project</span>
+
+ - https://github.com/kurianbenoy/malayalam_asr_benchmarking
+
+## Links to Project 
+
+<span style="color:blue">Benchmarking results</span>
+
+ - <span style="color:orange">Results on SMC Malayalam Speech corpus</span>
+ 
+ https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking/tree/main
+ 
+ - <span style="color:orange">Results on Common Voice 11</span>
+ 
+ https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking
+
+## Future Ideas for Benchmarking
+
+- <span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span>
+- <span style="color:blue">Should include results for Kaldi, Meta's MMS, Wav2Vec etc.</span>
+
+![Open LLM leaderboard in [huggingface spaces](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)](../delft-fastai/openllm.png)
+
 ## Conclusion
 
-
-- In Malayalam we have achieved phenomenal results for fine tuned whisper models.
-- We seems to have build really good ASR suitable for production use-cases.
-- You can also do it in your own language especially if it is a low resource language.
-
-
-<!-- ## vegam-whisper-medium ml model and Pallakku
-
-## Inspired by
-
-::: {.incremental}
-- <span style="color:red">[faster-whisper](https://github.com/guillaumekln/faster-whisper) is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span>
-- <span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span>
-:::
-
-::: aside
-Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)
-:::
-
-## CTranslate2
-
-- <span style="color:red">It had this utility for converting any `whisper` based model to faster-whisper like models.</span>
-
-```shell
-ct2-transformers-converter \
- --model openai/whisper-tiny \
- --output_dir whisper-tiny-ct2
-```
-
-## Vegam Whisper models released
-
-- <span style="color:red">I used `thennal/whisper-medium-ml` to convert it to faster-whisper based models for Malayalam:</span>
-
-1. [kurianbenoy/vegam-whisper-medium-ml](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml)
-2. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
-3. [kurianbenoy/vegam-whisper-medium-ml-int8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8)
-4. [kurianbenoy/vegam-whisper-medium-ml-int8_float16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float16)
-5. [kurianbenoy/vegam-whisper-medium-ml-int16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16)
-
-## Pallakku
-
-- <span style="color:red">Pallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.</span>
-- Now hosted as:
-
-1. [🤗 spaces](https://huggingface.co/spaces/kurianbenoy/Pallakku)
-2. GPU-based microservice (coming soon.)
-
-## 🤗 spaces
-
-![](pallakku.png) -->
+- <span style="color:red">In Malayalam we have achieved phenomenal results for fine tuned whisper models.
+- <span style="color:blue">The best model now is: `thennal/whisper-medium-ml`
+- <span style="color:green">I think their seems to be good ASR models suitable for production use-cases.</span>
+- <span style="color:orange">You can also do it in your own language especially if it is a low resource language.</span>
 
 ## Thanks to
 
 :::: {.columns}
 ::: {.column width="70%"}
 1. [OpenAI team](https://openai.com/) - Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
-2. Creators of [CTranslate2](https://opennmt.net/CTranslate2) and [faster-whisper](https://github.com/guillaumekln/faster-whisper) - [Guillaume Klein](https://github.com/guillaumekln)
-3. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
-4. [Kavya Manohar](https://kavyamanohar.com/)
-5. [Santhosh Thottingal](https://thottingal.in/)
+2. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
+3. [Kavya Manohar](https://kavyamanohar.com/)
+4. [Santhosh Thottingal](https://thottingal.in/)
 :::
 
 ::: {.column width="30%"}
-6. [Thennal D K](https://huggingface.co/thennal)
-7. Other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
-8. [Jarvis Labs](cloud.jarvislabs.ai/)
+5. [Thennal D K](https://huggingface.co/thennal)
+6. Other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
+7. [Jarvis Labs](cloud.jarvislabs.ai/)
 :::
 ::::
