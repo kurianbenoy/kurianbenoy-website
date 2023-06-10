@@ -69,19 +69,23 @@ For more details check [CTranslate2 quantization docs](https://opennmt.net/CTran
 
 ## Demo Video -1 
 
-{{< video https://www.youtube.com/embed/zm1gU8hRHxA width="2000" height="600"  >}}
+{{< video https://www.youtube.com/embed/zm1gU8hRHxA width="2000" height="500"  >}}
+
+> Oru Thai Nadam sang by Venugopal and Sreya, Lyrics by Sugathakumari
 
 ## Demo Video -1 Output
 
-![Output of video 1](./25s_audio.png)
+![Output of clip from Video 1](./25s_audio.png)
 
 ## Demo Video -2
 
-{{< video https://www.youtube.com/embed/fZZFCOkWquY width="2000" height="600" >}}
+{{< video https://www.youtube.com/embed/fZZFCOkWquY width="2000" height="500" >}}
+
+> Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song created spontaneously at MBIFL 2023
 
 ## Demo Video - 2 Output
 
-![Output of video 2](./10s_audio.png)
+![Output of clip from Video 2](./10s_audio.png)
 
 ## Pallakku
 
