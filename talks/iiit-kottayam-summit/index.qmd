@@ -81,7 +81,7 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 ## Metrics for evaluating ASR models
 
 - ASR evaulation relies on comparission between <span style="color:red">ground-truth</span> and <span style="color:red">ASR output</span>.
-- <span style="color:blue">Common metrics for ASR evaluation which are popular and enough^[<span style="color:black">According to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc.</span>] are</span> :
+- <span style="color:blue">Common metrics for ASR evaluation which are popular and good enough^[<span style="color:black">According to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc.</span>] are</span> :
 
 <span style="color:green">1. Word Error Rate(WER)</span>
 
