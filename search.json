@@ -368,7 +368,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#metrics-for-evaluating-asr-models",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Metrics for evaluating ASR models",
-    "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more about ASR evaluation check this blogpost by AWS\nAccording to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
+    "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and good enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more about ASR evaluation check this blogpost by AWS\nAccording to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#i-wanted-to-build-something-new",
