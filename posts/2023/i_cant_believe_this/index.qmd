@@ -1,0 +1,23 @@
+---
+title: One  year old Kurian Benoy couldn't believe all this would have happend
+author: Kurian Benoy
+draft: true
+date: 2023-04-15
+date-format: full
+categories: [myself, life]
+lang: en
+format:
+  html:
+    highlight-style: a11y
+    theme:
+      light: flatly
+      dark: darkly
+---
+
+1. Experience with Oracle developers
+2. Being a critic for Wasim article
+
+Both the things I did for the first time,
+I couldn't believe this would have happend one year before.
+
+[This article should have been written when I first thought about writing on May 24]

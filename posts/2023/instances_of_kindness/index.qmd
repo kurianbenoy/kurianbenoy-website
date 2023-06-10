@@ -1,0 +1,31 @@
+---
+title: Instances of kindness, You Can connect the dots looking backwards only
+author: Kurian Benoy
+draft: true
+date: 2023-04-15
+date-format: full
+categories: [myself, life]
+---
+
+1. Joel's mother accomodating two friends who wasn't able to get into their booked OLX rooms.
+2. The person who served food after oracle interview.
+3. Russian CPO who kindly said it's okay to have problems when I made him lost the pace of talk. If there is no problem, why do we need developers. 
+4. Jeremy giving me and nick a shoutout.
+5. Jawans in IIIT kottayam who was very happy for a conversation.
+
+During the FOSSASIA Summit 2023, I was given an unique opportunity to introduce
+speakers in Database track on morning Session of Day 2 by Hong Phuc Dang who is the FOSSASIA co-founder. I was very excited to do this
+as I was doing this responsibility for the first time. I prepared a small introduction
+for all the speakers and introduced them with location they are coming from.
+
+There were speakers from Singapore, Malaysia, Russia, Taiwan etc. I was delighted to meet them in person.
+Speakers from one company named Oracle were from different locations like Singapore, Malaysia, Taiwan etc. Since this company had most no of speakers, I got a chance to interact with 
+developers working there.
+
+[Talk about my experience interviewing for Oracle previously, person who smiled at me and served delicious food]
+
+[Now I make a living working in AI and I have spoken in International conferences like FOSSASIA as an expert in my field. Looking back it was pretty lucky for me.
+
+Failed lot of interviews in my campus placement time. Almost 25 interviews I got just one job offer.
+]
+
