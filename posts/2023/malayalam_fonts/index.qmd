@@ -4,7 +4,7 @@ subtitle: TIL
 author: Kurian Benoy
 date: 2023-06-04
 date-format: full
-categories: [Malayalam, myself, SMC, TIL]
+categories: [Malayalam, myself, SMC, TIL, malayalamtextmodels]
 lang: en
 ---
 
