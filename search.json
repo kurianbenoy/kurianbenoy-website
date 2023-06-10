@@ -217,6 +217,13 @@
     "text": "Tributes to Areeb Jamal\n\n\nSource: Areeb Jamal Forever in our Hearts and our Memory - FOSSASIA blog\nYou can access slides @ kurianbenoy.com/talks/fossasia2023.html"
   },
   {
+    "objectID": "talks/iiit-kottayam-summit/demo.html#what-really-matters",
+    "href": "talks/iiit-kottayam-summit/demo.html#what-really-matters",
+    "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
+    "section": "What really matters!",
+    "text": "What really matters!"
+  },
+  {
     "objectID": "talks/iiit-kottayam-summit/demo.html#inspired-by",
     "href": "talks/iiit-kottayam-summit/demo.html#inspired-by",
     "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
@@ -257,6 +264,13 @@
     "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
     "section": "Vegam Whisper models released",
     "text": "Vegam Whisper models released\n\nVegam Whisper models hosted in huggingface"
+  },
+  {
+    "objectID": "talks/iiit-kottayam-summit/demo.html#code-for-faster-whisper",
+    "href": "talks/iiit-kottayam-summit/demo.html#code-for-faster-whisper",
+    "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
+    "section": "Code for faster-whisper",
+    "text": "Code for faster-whisper\n\n\n\nSource Code"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/demo.html#demo-video--1",
@@ -459,7 +473,7 @@
     "href": "talks/iiit-kottayam-summit/index.html#conclusion",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Conclusion",
-    "text": "Conclusion\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nThe best model is: thennal/whisper-medium-ml\nI think their seems to be a good ASR model suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
+    "text": "Conclusion\n\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nThe best model is: thennal/whisper-medium-ml\nI think their seems to be a good ASR model suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
   },
   {
     "objectID": "talks/iiit-kottayam-summit/index.html#thanks-to",
