@@ -11,6 +11,10 @@ format:
     footer: "[Kurian Benoy](https://kurianbenoy.com/) || Vegam Whisper Family of Models and demoing Malayalam Speech to Text"
 ---
 
+## What really matters!
+
+![](./IMG-20230524-WA0016.jpg)
+
 ## Inspired by
 
 ::: {.incremental}
@@ -66,6 +70,10 @@ For more details check [CTranslate2 quantization docs](https://opennmt.net/CTran
 ## Vegam Whisper models released
 
 ![Vegam Whisper models hosted in huggingface](./huggingface.png)
+
+## Code for faster-whisper
+
+![Source Code](./faster-whisper.png){height="300"}
 
 ## Demo Video -1 
 

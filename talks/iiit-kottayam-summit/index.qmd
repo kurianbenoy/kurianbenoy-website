@@ -175,10 +175,12 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 ## Conclusion
 
+::: {.incremental}
 - <span style="color:red">In Malayalam we have achieved phenomenal results for fine tuned whisper models.
 - <span style="color:blue">The best model is: `thennal/whisper-medium-ml`
 - <span style="color:green">I think their seems to be a good ASR model suitable for production use-cases.</span>
 - <span style="color:orange">You can also do it in your own language especially if it is a low resource language.</span>
+:::
 
 ## Thanks to
 
