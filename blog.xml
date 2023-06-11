@@ -10,7 +10,158 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Sun, 04 Jun 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 11 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/summit23_iiit/op_image.jpg" height="600" class="figure-img"></p>
+</figure>
+</div>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="../../../talks/iiit-kottayam-summit/index.html">Slides</a></li>
+</ul>
+</section>
+<section id="questions-received" class="level2">
+<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
+<ol type="1">
+<li>How can you improve the Malayalam ASR model further? What are techniques which you can do next?</li>
+<li>How are metrics like WER and CER?</li>
+<li>Can you explain how you calculated WER, CER, time taken and model parameter size for your code?</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>academia</category>
+  <category>life</category>
+  <category>conference</category>
+  <category>Malayalam</category>
+  <category>Audio</category>
+  <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</guid>
+  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Vegam Whisper Family of Models and demoing Malayalam Speech to Text</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png" class="img-fluid"></p>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="../../../talks/iiit-kottayam-summit/demo.html">Slides</a></li>
+<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku a Malayalam speech to text demo</a></li>
+</ul>
+</section>
+<section id="vegam-whisper-family-of-models" class="level2">
+<h2 class="anchored" data-anchor-id="vegam-whisper-family-of-models">Vegam Whisper Family of Models</h2>
+<p>Inspired by <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> which is a reimplementation of OpenAI’s Whisper model using CTranslate2 speeds upto 4 times faster than <code>openai/whisper</code> for the same accuracy while using less memory.</p>
+<p>CTranslate2 supports various quantization formats and we have trained models for the following quantization formats:</p>
+<ul>
+<li>float16</li>
+<li>int16</li>
+<li>float8</li>
+<li>int8_float8</li>
+<li>No quantization</li>
+</ul>
+<p>For Malayalam, I used the best model in my benchmarking study ie <a href="https://huggingface.co/thennal/whisper-medium-ml">thennal/whisper-medium-ml</a> and converted into all possible quantization weights.</p>
+<ol type="1">
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml">kurianbenoy/vegam-whisper-medium-ml</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16">kurianbenoy/vegam-whisper-medium-ml-fp16</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16">kurianbenoy/vegam-whisper-medium-ml-int16</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8">kurianbenoy/vegam-whisper-medium-ml-fp8</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8">kurianbenoy/vegam-whisper-medium-ml-int8_float8</a></li>
+</ol>
+</section>
+<section id="code-to-run-faster-whisper-code" class="level2">
+<h2 class="anchored" data-anchor-id="code-to-run-faster-whisper-code">Code to run faster-whisper code</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/faster-whisper.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source Code</figcaption>
+</figure>
+</div>
+</section>
+<section id="demo-video--1-and-its-associated-output" class="level2">
+<h2 class="anchored" data-anchor-id="demo-video--1-and-its-associated-output">Demo Video -1 and it’s associated Output</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zm1gU8hRHxA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<blockquote class="blockquote">
+<p>Oru Thai Nadam sang by Venugopal and Sreya, Lyrics by Sugathakumari</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/25s_audio.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Output of clip from Video 1</figcaption>
+</figure>
+</div>
+</section>
+<section id="demo-video--2-and-its-associated-output" class="level2">
+<h2 class="anchored" data-anchor-id="demo-video--2-and-its-associated-output">Demo Video -2 and it’s associated Output</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fZZFCOkWquY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<blockquote class="blockquote">
+<p>Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song created spontaneously at MBIFL 2023</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/10s_audio.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Output of clip from Video 2</figcaption>
+</figure>
+</div>
+</section>
+<section id="pallakku" class="level2">
+<h2 class="anchored" data-anchor-id="pallakku">Pallakku</h2>
+<ul>
+<li>Pallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family of models.</li>
+</ul>
+<p>Two options to try it out:</p>
+<ol type="1">
+<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">🤗 spaces</a></li>
+</ol>
+<p><img src="https://kurianbenoy.com/talks/delft-fastai/pallakku.png" class="img-fluid"></p>
+<p>You can try it out in <a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">the below link</a>.</p>
+<ol start="2" type="1">
+<li>GPU-based microservice (coming soon.)</li>
+</ol>
+</section>
+<section id="what-is-behind-the-name-of-vegam-and-pallakku" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-behind-the-name-of-vegam-and-pallakku">What is behind the name of Vegam and Pallakku?</h2>
+<ul>
+<li>Vegam is a Malayalam word which means speed.</li>
+<li>Pallakku is a Malayalam word which means a palanquin. It is a vehicle which is carried by people.</li>
+</ul>
+<p>As an author of these work, I just wanted to say the meaning of these words doesn’t really have anything to do with the package. Vegam might not be the fastest Malayalam ASR model and Pallakku is named not to refer to the old colonial times. I just named it for the sake of naming it.</p>
+</section>
+<section id="thanks-to" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
+<p>Organizers of IIIT Summit 23 for giving me an opportunity to present my work. I am really happy to receive lot of curious questions from all who came to visit my demo stall like some professors who taught me in previous semesters like Dr.&nbsp;Keshab Nath etc. and some of Btech students.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>academia</category>
+  <category>life</category>
+  <category>conference</category>
+  <category>Malayalam</category>
+  <category>Audio</category>
+  <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</guid>
+  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Learning how to install malayalam fonts</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -397,19 +548,19 @@ for their intended purposes.</code></pre>
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-96108"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-96108").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-46748"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-46748").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-75658"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-75658").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-88291"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-88291").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-55052"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-55052").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-47297"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-47297").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-69694"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-69694").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-93369"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-93369").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -428,14 +579,14 @@ for their intended purposes.</code></pre>
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-51905"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51905").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-77546"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-77546").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-86726"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-86726").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-27588"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27588").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-61173"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-61173").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-28245"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28245").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-34411"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-34411").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-16282"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-16282").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -909,9 +1060,9 @@ font-style: inherit;">"accuracy"</span>),</span>
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-17911"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-17911").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-48317"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-48317").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-67743"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-67743").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-87740"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-87740").innerHTML = tweet["html"];</script><p></p>
 
 
 
@@ -1868,1006 +2019,6 @@ Please also refer to the documentation for alternative solver options:
   <category>SMC</category>
   <guid>https://kurianbenoy.com/posts/2022/2022-05-30-malayalamtext-0.html</guid>
   <pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Installing Python Packages &amp; setting up libraries for Data Science - the right way</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-05-28-fastai-walthrus1.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p><a href="https://forums.fast.ai/u/jeremy">Jeremy</a> has been conducting these official course walk-thrus which started on May 27, 2022 for students of <a href="https://itee.uq.edu.au/event/2022/practical-deep-learning-coders-uq-fastai">fastaiv5 course</a>. The idea of these course walk-thrus were “going to explain exactly how to do every step, and why we do things the way we do”.</p>
-<p>We in the sense <code>fastai</code> approach of development. It was very useful to me and it covered answers to some of things which I was searching for a long time. I will use it again and again, so thought of writing it down to refer later. The first walk thrus was on the topic: <code>Introduction to the terminal. How to install Python and libraries</code> and I felt I got more value out of these walk-thrus than some of lessons in course</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The right way here means the way Jeremy does stuff. Obiviously there as thousand of way to do thing, yet going through each ways has it’s own pros/cons.</p>
-</div>
-</div>
-</section>
-<section id="whats-terminal-how-to-work-with-it" class="level2">
-<h2 class="anchored" data-anchor-id="whats-terminal-how-to-work-with-it">🚖 What’s terminal, how to work with it?</h2>
-<section id="terminal-vs-shell" class="level3">
-<h3 class="anchored" data-anchor-id="terminal-vs-shell">Terminal vs Shell</h3>
-<p>A terminal is a program which can display console window to run program. Yet thing inside is not strictly a terminal, but called a shell. The black coloured stuff, which you see in movies used by hackers is Terminal as shown in image below.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170852543-17bdb268-7ace-43c6-b1a0-a2b5b0a9ac43.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-<p>Usually in a <strong>terminal there can be multiple shells</strong>, which can have different colours, shells etc. So terminal and shell are totally different in meaning. You can think shell as the a ship which does main things it’s supposed to do like running program, while terminal is like the a group of ships which is usually controlled by a parent like a corporal.</p>
-<p>In a windows terminal it can start no of shells like <code>PowerShell, Command Prompt, Ubuntu</code> etc… Most of the time we use both terminal and shell interchangebly which is ok.</p>
-</section>
-<section id="installing-terminal-shell" class="level3">
-<h3 class="anchored" data-anchor-id="installing-terminal-shell">Installing Terminal &amp; Shell</h3>
-<p>You can install terminal in Windows by downloading <a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&amp;gl=US">Windows terminal</a>. In case of linux/MacOS, you can just search for terminal as it will come with a terminal pre-installed.</p>
-<p>In Windows, Jeremy recommends to use <a href="https://docs.microsoft.com/en-us/windows/wsl/install">WSL</a>, which install a linux distribution within windows and then install <a href="https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV">Ubuntu from Microsoft Store</a>.</p>
-</section>
-<section id="handy-tips" class="level3">
-<h3 class="anchored" data-anchor-id="handy-tips">Handy Tips</h3>
-<p>It’s a good idea to change the default shell from <code>Power shell to Ubuntu</code> for easy usage. Also learn some keyboard shortcuts.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Learning Keyboard shortcuts can be immensely valuable.</p>
-</div>
-</div>
-</section>
-<section id="keyboard-shortcuts" class="level3">
-<h3 class="anchored" data-anchor-id="keyboard-shortcuts">Keyboard shortcuts</h3>
-<p>Some of the useful keyboard shortcuts shared during lesson and in forums are as follows:</p>
-<p><strong>Shared by <a href="https://forums.fast.ai/u/jeremy/summary">Jeremy</a></strong></p>
-<p><kbd>Ctrl+Shift+1</kbd> - Open shell set for default profile.</p>
-<p><kbd>Ctrl+Shift+3</kbd> - Open shell listed as number 3 in WSL.</p>
-<p><kbd>Alt+Enter</kbd> - Enter terminal in full screen.</p>
-<p><kbd> Ctrl + r </kbd> - Recursvie back search to search the previous typed commands.</p>
-<p><kbd>Ctrl-a</kbd> - Move to the start of the current line.</p>
-<p><kbd>Ctrl-e</kbd> - Move to the end of the line.</p>
-<p><kbd>Tab</kbd> Autocomplete.</p>
-<p><strong>Shared by <a href="https://forums.fast.ai/u/miwojc/summary">miwojc</a></strong></p>
-<p><kbd>Ctrl-f</kbd> - Move forward a character.</p>
-<p><kbd>Ctrl-b</kbd> - Move back a character.</p>
-<p><kbd>Alt-f</kbd> - Move forward to the end of the next word. Words are alphanumeric.</p>
-<p><kbd>Alt-b</kbd> - Move back to the start of the current or previous word. Words are alphanumeric.</p>
-<p><kbd>Ctrl-l</kbd> - Clear the screen.</p>
-<p><kbd>Ctrl-p</kbd> - Fetch the previous command from the history list (same as up but easier to reach).</p>
-<p><kbd>Ctrl-n</kbd> - Fetch the next command from the history list (same as down).</p>
-<p><kbd>Ctrl-r</kbd> - Search backward through history.</p>
-<p><kbd>Ctrl-d</kbd> - Delete the character under the cursor.</p>
-<p><kbd>Ctrl-k </kbd> - Kill (cut) forwards to the end of the line.</p>
-<p><kbd>Ctrl-u</kbd> - Kill (cut) backwards to the start of the line.</p>
-<p><kbd>Alt-d</kbd> - Kill (cut) forwards to the end of the current word.</p>
-<p><kbd>Ctrl-w</kbd> - Kill(cut) backwards to the start of the current word.</p>
-<p><strong>Shared by <a href="https://forums.fast.ai/u/kurianbenoy/summary">Kurian</a></strong></p>
-<p><kbd>Alt Shift + </kbd> - Open a new vertical pane</p>
-<p><kbd>Alt Shift -</kbd> - Open a new horizontal pane</p>
-<p><kbd>Ctrl Shift w</kbd> - Closing a Pane</p>
-</section>
-</section>
-<section id="how-to-install-python-packages-for-datascience" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-install-python-packages-for-datascience">🔰 How to install Python Packages for datascience</h2>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Never use the python which comes by default with operating system, always use a differnt python to work on stuff you want, else it will become really messy… ⚠️.</p>
-</div>
-</div>
-<section id="installation-with-mamba" class="level3">
-<h3 class="anchored" data-anchor-id="installation-with-mamba">Installation with mamba</h3>
-<p>To follow this advice, this let’s go ahead and install python seperately with packaging manager called <a href="https://github.com/mamba-org/mamba">mamba</a> which is a Fast Cross-Platform Package Manager. It’s aka. faster version of conda.</p>
-<p>So go to the <a href="https://github.com/conda-forge/miniforge#mambaforge">mambaforge installer</a>. Based on your operating system, download the shell script to install with:</p>
-<pre><code>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
-bash Mambaforge-Linux-x86_64.sh</code></pre>
-<p>After downloading and installation is complete. To refresh terminal either close and reopen terminal or typing below command:</p>
-<pre><code>. ~/.bashrc</code></pre>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Jeremy recommends to install popular libraries which are supported in conda from mamba. If it’s not there in conda, or something which requires editable install use pip.</p>
-</div>
-</div>
-</section>
-<section id="uninstalling-mambaconda" class="level3">
-<h3 class="anchored" data-anchor-id="uninstalling-mambaconda">🐛 Uninstalling mamba/conda</h3>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you are a beginner, working with virtual environments is intimidating. So jeremy recommends whenever you face any issues as a beginner, it’s important to know how to delete your setup.</p>
-</div>
-</div>
-<p>These are steps to see if conda/mamba is properly uninstalled in a linux environment:</p>
-<ul>
-<li>Check if ipython, jupyter is installed. If yes, first uninstall it.</li>
-</ul>
-<p><strong>Note: You can uninstall via:</strong></p>
-<pre><code>pip uninstall jupyter
-pip uninstall ipython3</code></pre>
-<p><strong>You can check the path of program by typing the command, to see if was installed by system python or mamba</strong></p>
-<pre><code>(base) kurianbenoy@Lap-34:~/blog/ml-blog$ which jupyter
-/home/kurianbenoy/mambaforge/bin/jupyter</code></pre>
-<ul>
-<li>Then remove mamabaforge folder. In linux usually, mambaforge is installed in /home/username.</li>
-</ul>
-<p>So to delete the mambaforge package:</p>
-<pre><code>(base) kurianbenoy@Lap-34:~$ ls
-blog  downloads  mambaforge
-(base) kurianbenoy@Lap-34:~$ rm -rf mambaforge/</code></pre>
-<ul>
-<li>Then delete conda package also.</li>
-</ul>
-</section>
-<section id="using-fastsetup" class="level3">
-<h3 class="anchored" data-anchor-id="using-fastsetup">Using fastsetup</h3>
-<p><a href="github.com/fastai/fastsetup">Goto github repository</a> and download the <a href="https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh">setup-conda.sh file</a>.</p>
-<pre><code>wget https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh</code></pre>
-<p>This is a normal shell script, so just run the shellscript to install mamba as follows:</p>
-<pre><code>source setup-conda.sh
-. ~/.bashrc
-conda install -yq mamba</code></pre>
-</section>
-<section id="my-question-to-jeremy" class="level3">
-<h3 class="anchored" data-anchor-id="my-question-to-jeremy">My question to Jeremy</h3>
-<p>❓I asked to Jeremy about: which version of python is using and how to use for a different python version</p>
-<p>Jeremy on checking Mambaforge repository, realised that python version which we are using now is python 3.9. It’s always a good idea to know, which kind of python versions are near their end of life and <a href="https://endoflife.date/python">can be here</a>. At the time of writing any version above python 3.7 to python3.10 is recommended to use. Yet according to Jeremy, he usually prefers to use latest python only 1 year after it’s released, but fastai do support the latest version.</p>
-<p><a href="https://twitter.com/radekosmulski/">Radek</a> who is a engineer at Nvidia, told he usually prefer mamba because with just one line of code you can switch to any python version you want. Afer the session in forums, Radek shared how to do this as shown in below screenshot.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170855465-1f74f66e-8238-43a2-b9f3-dcbff67a547b.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-</section>
-<section id="installing-datascience-packages---pytorch-and-jupyter" class="level3">
-<h3 class="anchored" data-anchor-id="installing-datascience-packages---pytorch-and-jupyter">Installing datascience packages - pytorch and jupyter</h3>
-<p>Since for fastai course, we are using pytorch. Let’s install pytorch based on <a href="https://pytorch.org/">official page instructions</a>:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170853841-9ed4763c-4969-40fd-9db9-01b6f06e612e.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>One of the advantages of installing libraries like pytorch in Anaconda is that if you are using conda, it install all the packages and drivers for GPU setup as well. In a normal pip based installation, there are lot more steps required for installing correctly in GPU.</p>
-</div>
-</div>
-<p><strong>Go ahead and install python packages in this manner, by just replacing conda with mamba.</strong></p>
-<pre><code>mamba install pytorch torchvision torchaudio cpuonly -c pytorch</code></pre>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It’s always a good idea to google and find the correct conda packages before installation, as conda requires some specifications like setting the correct channel to install.</p>
-</div>
-</div>
-<p><strong>Now let’s install <code>jupyter lab</code> to do our experiments quickly:</strong></p>
-<pre><code>mamba install jupyterlab</code></pre>
-<p>Then run the jupyter lab, with the following command:</p>
-<pre><code>jupyter lab --no-browser</code></pre>
-<p>This opens up jupyterlab in localhost:8888</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/170855155-67d3167c-e635-40a6-a0cb-bd12d6d81d0d.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-</section>
-<section id="installing-packages-with-fastchan" class="level3">
-<h3 class="anchored" data-anchor-id="installing-packages-with-fastchan">Installing packages with fastchan</h3>
-<p>Even though Jeremy didn’t cover this topic during walk-thrus. I came to know about <code>fastchan</code> when I wanted to install <code>pytorch and huggingface transformers</code> in a gpu based system. What is fastchan and the problem it solves is covered by <a href="https://wandb.ai/wandb_fc/pytorch-image-models/reports/A-faster-way-to-get-working-and-up-to-date-conda-environments-using-fastchan---Vmlldzo2ODIzNzA">detailed blogpost</a> by the <a href="https://wandb.ai/aarora">Aman Arora</a>.</p>
-<p>To install both <code>pytorch and huggingface transformers</code> in a GPU, I used the following command:</p>
-<pre><code>mamba install pytorch transformers cudatoolkit=11.4 -c fastchan</code></pre>
-</section>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>One of fastai students, during the start of lesson talked about the need of a quick setup, which just works as expected. One of biggest takeaways for me, personally is a quick and fastsetup to do my experiments in DataScience. Sometimes installing packages in data science can take hours of effort, and that’s why I really loved this setup.</p>
-<p>Thanks to <a href="twitter.com/jeremyphoward/">Jeremy Howard</a> for creating this quick setup and for starting the project <a href="https://www.fast.ai/2021/07/15/fastconda/">fastchan</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>fastaicourse</category>
-  <category>terminal</category>
-  <category>Python</category>
-  <category>setup</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-05-28-fastai-walthrus1.html</guid>
-  <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Quickly trying out a NLP model for Kaggle Competition</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-05-23-nlpkagglecomp.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is my attempt to see how well we can build a NLP model for <a href="https://www.kaggle.com/competitions/nlp-getting-started/overview">Natural Language Processing with Disaster Tweets</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/nlp_random.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">NLP random competition</figcaption>
-</figure>
-</div>
-<p>According to competition you are required to :</p>
-<blockquote class="blockquote">
-<p>In this competition, you’re challenged to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t. You’ll have access to a dataset of 10,000 tweets that were hand classified. If this is your first time working on an NLP problem, we’ve created a quick tutorial to get you up and running.</p>
-</blockquote>
-<section id="downloading-data" class="level2">
-<h2 class="anchored" data-anchor-id="downloading-data">Downloading Data</h2>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">creds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">""</span></span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> pathlib <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> Path</span>
-<span id="cb2-2"></span>
-<span id="cb2-3">cred_path <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> Path(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"~/.kaggle/kaggle.json"</span>).expanduser()</span>
-<span id="cb2-4"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">if</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">not</span> cred_path.exists():</span>
-<span id="cb2-5">    cred_path.parent.mkdir(exist_ok<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb2-6">    cred_path.write_text(creds)</span>
-<span id="cb2-7">    cred_path.chmod(<span class="bn" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0o600</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!</span> kaggle competitions download <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>c nlp<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>getting<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>started</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>nlp-getting-started.zip: Skipping, found more recently modified local copy (use --force to force download)</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!</span> unzip nlp<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>getting<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>started.<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">zip</span></span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> pd</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> pd.read_csv(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"train.csv"</span>)</span>
-<span id="cb7-2">df.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="2">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">id</th>
-<th data-quarto-table-cell-role="th">keyword</th>
-<th data-quarto-table-cell-role="th">location</th>
-<th data-quarto-table-cell-role="th">text</th>
-<th data-quarto-table-cell-role="th">target</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>1</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Our Deeds are the Reason of this #earthquake M...</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>4</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Forest fire near La Ronge Sask. Canada</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>5</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>All residents asked to 'shelter in place' are ...</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>6</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>13,000 people receive #wildfires evacuation or...</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>7</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Just got sent this photo from Ruby #Alaska as ...</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">df.describe(include<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"object"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">keyword</th>
-<th data-quarto-table-cell-role="th">location</th>
-<th data-quarto-table-cell-role="th">text</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">count</td>
-<td>7552</td>
-<td>5080</td>
-<td>7613</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">unique</td>
-<td>221</td>
-<td>3341</td>
-<td>7503</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">top</td>
-<td>fatalities</td>
-<td>USA</td>
-<td>11-Year-Old Boy Charged With Manslaughter of T...</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">freq</td>
-<td>45</td>
-<td>104</td>
-<td>10</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"input"</span>] <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"text"</span>]</span></code></pre></div>
-</div>
-</section>
-<section id="tokenization" class="level2">
-<h2 class="anchored" data-anchor-id="tokenization">Tokenization</h2>
-<div class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> datasets <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> Dataset, DatasetDict</span>
-<span id="cb10-2"></span>
-<span id="cb10-3">ds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> Dataset.from_pandas(df)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">ds</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<pre><code>Dataset({
-    features: ['id', 'keyword', 'location', 'text', 'target', 'input'],
-    num_rows: 7613
-})</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">model_nm <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"microsoft/deberta-v3-small"</span></span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> transformers <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> AutoModelForSequenceClassification, AutoTokenizer</span>
-<span id="cb14-2"></span>
-<span id="cb14-3">tokz <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> AutoTokenizer.from_pretrained(model_nm)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> tok_func(x):</span>
-<span id="cb15-2">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> tokz(x[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"input"</span>])</span>
-<span id="cb15-3"></span>
-<span id="cb15-4"></span>
-<span id="cb15-5">tok_ds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> ds.<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">map</span>(tok_func, batched<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Parameter 'function'=&lt;function tok_func at 0x7f28da60b8b0&gt; of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"fba50529948f4c4ab381839eebbba5d4","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
-</script>
-</div>
-</div>
-<div class="cell" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># collapse_output</span></span>
-<span id="cb17-2">row <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> tok_ds[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]</span>
-<span id="cb17-3">row[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"input"</span>], row[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"input_ids"</span>]</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="13">
-<pre><code>('Our Deeds are the Reason of this #earthquake May ALLAH Forgive us all',
- [1,
-  581,
-  65453,
-  281,
-  262,
-  18037,
-  265,
-  291,
-  953,
-  117831,
-  903,
-  4924,
-  17018,
-  43632,
-  381,
-  305,
-  2])</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1">tok_ds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> tok_ds.rename_columns({<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"target"</span>: <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"labels"</span>})</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1">tok_ds</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="15">
-<pre><code>Dataset({
-    features: ['id', 'keyword', 'location', 'text', 'labels', 'input', 'input_ids', 'token_type_ids', 'attention_mask'],
-    num_rows: 7613
-})</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># collapse_output</span></span>
-<span id="cb22-2">tok_ds[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="16">
-<pre><code>{'id': 1,
- 'keyword': None,
- 'location': None,
- 'text': 'Our Deeds are the Reason of this #earthquake May ALLAH Forgive us all',
- 'labels': 1,
- 'input': 'Our Deeds are the Reason of this #earthquake May ALLAH Forgive us all',
- 'input_ids': [1,
-  581,
-  65453,
-  281,
-  262,
-  18037,
-  265,
-  291,
-  953,
-  117831,
-  903,
-  4924,
-  17018,
-  43632,
-  381,
-  305,
-  2],
- 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
- 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}</code></pre>
-</div>
-</div>
-</section>
-<section id="validation-traning-testing" class="level2">
-<h2 class="anchored" data-anchor-id="validation-traning-testing">Validation, Traning, Testing</h2>
-<div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1">eval_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> pd.read_csv(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"test.csv"</span>)</span>
-<span id="cb24-2">eval_df.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="17">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">id</th>
-<th data-quarto-table-cell-role="th">keyword</th>
-<th data-quarto-table-cell-role="th">location</th>
-<th data-quarto-table-cell-role="th">text</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>0</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Just happened a terrible car crash</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>2</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Heard about #earthquake is different cities, s...</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>3</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>there is a forest fire at spot pond, geese are...</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>9</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Apocalypse lighting. #Spokane #wildfires</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>11</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Typhoon Soudelor kills 28 in China and Taiwan</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1">eval_df.describe(include<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"object"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="18">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">keyword</th>
-<th data-quarto-table-cell-role="th">location</th>
-<th data-quarto-table-cell-role="th">text</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">count</td>
-<td>3237</td>
-<td>2158</td>
-<td>3263</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">unique</td>
-<td>221</td>
-<td>1602</td>
-<td>3243</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">top</td>
-<td>deluged</td>
-<td>New York</td>
-<td>11-Year-Old Boy Charged With Manslaughter of T...</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">freq</td>
-<td>23</td>
-<td>38</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">model_dataset <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> tok_ds.train_test_split(<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.25</span>, seed<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">34</span>)</span>
-<span id="cb26-2">model_dataset</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="19">
-<pre><code>DatasetDict({
-    train: Dataset({
-        features: ['id', 'keyword', 'location', 'text', 'labels', 'input', 'input_ids', 'token_type_ids', 'attention_mask'],
-        num_rows: 5709
-    })
-    test: Dataset({
-        features: ['id', 'keyword', 'location', 'text', 'labels', 'input', 'input_ids', 'token_type_ids', 'attention_mask'],
-        num_rows: 1904
-    })
-})</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1">eval_df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"input"</span>] <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> eval_df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"text"</span>]</span>
-<span id="cb28-2">eval_ds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> Dataset.from_pandas(eval_df).<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">map</span>(tok_func, batched<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"4dfb22c0225740138052bbef2b6de946","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
-</script>
-</div>
-</div>
-</section>
-<section id="training-models" class="level2">
-<h2 class="anchored" data-anchor-id="training-models">Training Models</h2>
-<div class="cell" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> transformers <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> TrainingArguments, Trainer, DataCollatorWithPadding</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="25">
-<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1">bs <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">128</span></span>
-<span id="cb30-2">epochs <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span></span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="27">
-<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1">data_collator <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> DataCollatorWithPadding(tokenizer<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>tokz)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="28">
-<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1">training_args <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> TrainingArguments(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"test-trainer"</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="31">
-<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1">model <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> AutoModelForSequenceClassification.from_pretrained(model_nm, num_labels<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Some weights of the model checkpoint at microsoft/deberta-v3-small were not used when initializing DebertaV2ForSequenceClassification: ['lm_predictions.lm_head.bias', 'mask_predictions.dense.bias', 'mask_predictions.LayerNorm.bias', 'mask_predictions.classifier.weight', 'mask_predictions.LayerNorm.weight', 'lm_predictions.lm_head.LayerNorm.weight', 'lm_predictions.lm_head.dense.bias', 'mask_predictions.dense.weight', 'lm_predictions.lm_head.dense.weight', 'lm_predictions.lm_head.LayerNorm.bias', 'mask_predictions.classifier.bias']
-- This IS expected if you are initializing DebertaV2ForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing DebertaV2ForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at microsoft/deberta-v3-small and are newly initialized: ['classifier.weight', 'pooler.dense.weight', 'classifier.bias', 'pooler.dense.bias']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="32">
-<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1">trainer <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> Trainer(</span>
-<span id="cb35-2">    model,</span>
-<span id="cb35-3">    training_args,</span>
-<span id="cb35-4">    train_dataset<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>model_dataset[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"train"</span>],</span>
-<span id="cb35-5">    eval_dataset<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>model_dataset[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"test"</span>],</span>
-<span id="cb35-6">    data_collator<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>data_collator,</span>
-<span id="cb35-7">    tokenizer<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>tokz,</span>
-<span id="cb35-8">)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="33">
-<div class="sourceCode cell-code" id="cb36" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1">trainer.train()</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following columns in the training set don't have a corresponding argument in `DebertaV2ForSequenceClassification.forward` and have been ignored: location, text, id, input, keyword. If location, text, id, input, keyword are not expected by `DebertaV2ForSequenceClassification.forward`,  you can safely ignore this message.
-/opt/conda/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-***** Running training *****
-  Num examples = 5709
-  Num Epochs = 3
-  Instantaneous batch size per device = 8
-  Total train batch size (w. parallel, distributed &amp; accumulation) = 8
-  Gradient Accumulation steps = 1
-  Total optimization steps = 2142
-Saving model checkpoint to test-trainer/checkpoint-500
-Configuration saved in test-trainer/checkpoint-500/config.json
-Model weights saved in test-trainer/checkpoint-500/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-500/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-500/special_tokens_map.json
-Saving model checkpoint to test-trainer/checkpoint-1000
-Configuration saved in test-trainer/checkpoint-1000/config.json
-Model weights saved in test-trainer/checkpoint-1000/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-1000/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-1000/special_tokens_map.json
-Saving model checkpoint to test-trainer/checkpoint-1500
-Configuration saved in test-trainer/checkpoint-1500/config.json
-Model weights saved in test-trainer/checkpoint-1500/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-1500/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-1500/special_tokens_map.json
-Saving model checkpoint to test-trainer/checkpoint-2000
-Configuration saved in test-trainer/checkpoint-2000/config.json
-Model weights saved in test-trainer/checkpoint-2000/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-2000/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-2000/special_tokens_map.json
-
-
-Training completed. Do not forget to share your model on huggingface.co/models =)
-
-</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-
-    <div>
-      
-      <progress value="2142" max="2142" style="width:300px; height:20px; vertical-align: middle;"></progress>
-      [2142/2142 03:04, Epoch 3/3]
-    </div>
-    
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th">Step</th>
-<th data-quarto-table-cell-role="th">Training Loss</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>500</td>
-<td>0.491000</td>
-</tr>
-<tr class="even">
-<td>1000</td>
-<td>0.406300</td>
-</tr>
-<tr class="odd">
-<td>1500</td>
-<td>0.323600</td>
-</tr>
-<tr class="even">
-<td>2000</td>
-<td>0.265800</td>
-</tr>
-</tbody>
-</table>
-<p>
-</p></div>
-<div class="cell-output cell-output-display" data-execution_count="33">
-<pre><code>TrainOutput(global_step=2142, training_loss=0.3674473464210717, metrics={'train_runtime': 184.9649, 'train_samples_per_second': 92.596, 'train_steps_per_second': 11.581, 'total_flos': 222000241127892.0, 'train_loss': 0.3674473464210717, 'epoch': 3.0})</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="34">
-<div class="sourceCode cell-code" id="cb39" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1">preds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> trainer.predict(eval_ds).predictions.astype(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">float</span>)</span>
-<span id="cb39-2">preds</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following columns in the test set don't have a corresponding argument in `DebertaV2ForSequenceClassification.forward` and have been ignored: location, text, id, input, keyword. If location, text, id, input, keyword are not expected by `DebertaV2ForSequenceClassification.forward`,  you can safely ignore this message.
-***** Running Prediction *****
-  Num examples = 3263
-  Batch size = 8</code></pre>
-</div>
-<div class="cell-output cell-output-display">
-
-    <div>
-      
-      <progress value="408" max="408" style="width:300px; height:20px; vertical-align: middle;"></progress>
-      [408/408 00:05]
-    </div>
-    
-</div>
-<div class="cell-output cell-output-display" data-execution_count="34">
-<pre><code>array([[-2.78964901,  3.02934074],
-       [-2.77013326,  3.00309706],
-       [-2.74731326,  2.972296  ],
-       ...,
-       [-2.8556931 ,  3.08512282],
-       [-2.7085278 ,  2.88177919],
-       [-2.7887187 ,  3.00746083]])</code></pre>
-</div>
-</div>
-<pre><code>1. Just happened a terrible car crash
-2. Heard about #earthquake is different cities, stay safe everyone.
-3. There is a forest fire at spot pond, geese are fleeing across the street, I cannot save them all.</code></pre>
-<p>The above are samples from our Test set, looks all disaster tweets which seems to have been predicted correctly. This is my first iteration in which I tried mostly editing from <a href="https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners">Jeremy’s notebook on getting started with NLP</a> in about 1 hour.</p>
-
-
-</section>
-
- ]]></description>
-  <category>kaggle</category>
-  <category>fastaicourse</category>
-  <category>NLP</category>
-  <category>huggingface</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-05-23-nlpkagglecomp.html</guid>
-  <pubDate>Mon, 23 May 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
