@@ -3,7 +3,7 @@ title: Vegam Whisper Family of Models and demoing Malayalam Speech to Text
 author: Kurian Benoy
 date: 2023-06-11
 date-format: full
-categories: [academia, life, conference, malayalam]
+categories: [academia, life, conference, Malayalam, Audio]
 subtitle: Demo Presentation session presented at Summit 23, IIIT Kottayam
 toc: true
 ---
@@ -83,3 +83,10 @@ As an author of these work, I just wanted to say the meaning of these words
 doesn't really have anything to do with the package. Vegam might not be the
 fastest Malayalam ASR model and Pallakku is named not to refer to the old
 colonial times. I just named it for the sake of naming it.
+
+## Thanks to
+
+Organizers of IIIT Summit 23 for giving me an opportunity to present my work.
+I am really happy to receive lot of curious questions from all who came to visit
+my demo stall like some professors who taught me in previous semesters like Dr. Keshab Nath etc.
+and some of Btech students.
