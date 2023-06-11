@@ -1,0 +1,21 @@
+---
+title: OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam
+author: Kurian Benoy
+date: 2023-06-11
+date-format: full
+categories: [academia, life, conference, Malayalam, Audio]
+subtitle: Oral Presentation session presented at Summit 23, IIIT Kottayam
+toc: true
+---
+
+![](op_image.jpg){height="600" fig-align="center"}
+
+## Links
+
+- [Slides](../../../talks/iiit-kottayam-summit/index.qmd)
+
+## Questions received
+
+1. How can you improve the Malayalam ASR model further? What are techniques which you can do next?
+2. How are metrics like WER and CER?
+3. Can you explain how you calculated WER, CER, time taken and model parameter size for your code?
