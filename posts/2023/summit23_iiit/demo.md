@@ -6,15 +6,15 @@ date-format: full
 categories: [academia, life, conference, Malayalam, Audio]
 subtitle: Demo Presentation session presented at Summit 23, IIIT Kottayam
 toc: true
+image: ../../../talks/iiit-kottayam-summit/huggingface.png
 ---
-
-![](../../../talks/iiit-kottayam-summit/huggingface.png)
 
 ## Links
 
 - [Slides](../../../talks/iiit-kottayam-summit/demo.qmd)
-- [Pallakku a Malayalam speech to text demo](https://huggingface.co/spaces/kurianbenoy/Pallakku)
+- Scheduled Time: Saturday, June 10, 2023. 2:00 PM IST
 - Venue: AA 127, IIIT Kottayam.
+- [Pallakku a Malayalam speech to text demo](https://huggingface.co/spaces/kurianbenoy/Pallakku)
 
 ## Vegam Whisper Family of Models
 
@@ -41,7 +41,7 @@ For Malayalam, I used the best model in my benchmarking study ie [thennal/whispe
 
 ## Code to run faster-whisper code
 
-![Source Code](../../../talks/iiit-kottayam-summit/faster-whisper.png)
+![](../../../talks/iiit-kottayam-summit/faster-whisper.png)
 
 ## Demo Video -1 and it's associated Output
 
@@ -91,6 +91,16 @@ colonial times. I just named it for the sake of naming it.
 told me about faster-whisper and the utility to convert the model weights to various quantization formats.
 - Organizers of IIIT Summit 23 for giving me an opportunity to present my work.
 
-I am really happy to receive lot of curious questions from all who came to visit
-my demo stall like some professors who taught me in previous semesters like Dr. Keshab Nath etc.
-and some of Btech students.
+## How was the expereince presenting demos?
+
+Demo presentations are events where you can interact with people during the scheduled time.
+There was an evaluation panel with one of chief guests of the event [Dr. T Ramalingeswara Rao](https://www.linkedin.com/in/dr-t-ramalingeswara-rao-784a903a/) from TCS and one of the professors.
+
+These sessions brought a hacker kind of vibe back to me. I was really happy to receive lot of 
+curious questions and smiles received from folks who came to visit my demo presentation.
+I set up the demo in such a way that there was a wireless microphone and I would play a few audio files. They used to rate the output of the model.
+
+Some of my professors who taught me in previous semesters like [Dr. Keshab Nath](https://www.iiitkottayam.ac.in/#!/faculty/keshab) visited to see my
+demo and gave me suggestions. It was a nice vibe to interact with a bunch of BTech students in their
+second semester from Andhra Pradhesh. Even though they were not able to understand Malayalam, they
+just hung around and asked me questions :D.
