@@ -14,6 +14,7 @@ toc: true
 
 - [Slides](../../../talks/iiit-kottayam-summit/demo.qmd)
 - [Pallakku a Malayalam speech to text demo](https://huggingface.co/spaces/kurianbenoy/Pallakku)
+- Venue: AA 127, IIIT Kottayam.
 
 ## Vegam Whisper Family of Models
 
@@ -62,7 +63,7 @@ For Malayalam, I used the best model in my benchmarking study ie [thennal/whispe
 ## Pallakku
 
 - Pallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family
-of models.
+of models. It might be the first huggingface 🤗 spaces for Malayalam speech to text.
 
 Two options to try it out:
 
@@ -86,7 +87,10 @@ colonial times. I just named it for the sake of naming it.
 
 ## Thanks to
 
-Organizers of IIIT Summit 23 for giving me an opportunity to present my work.
+- [Santhosh Thottingal](https://twitter.com/santhoshtr/) for his support and guidance. Santhosh
+told me about faster-whisper and the utility to convert the model weights to various quantization formats.
+- Organizers of IIIT Summit 23 for giving me an opportunity to present my work.
+
 I am really happy to receive lot of curious questions from all who came to visit
 my demo stall like some professors who taught me in previous semesters like Dr. Keshab Nath etc.
 and some of Btech students.

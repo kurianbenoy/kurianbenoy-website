@@ -13,6 +13,7 @@ toc: true
 ## Links
 
 - [Slides](../../../talks/iiit-kottayam-summit/index.qmd)
+- Venue: Tapovan, Academic block, IIIT Kottayam.
 
 ## Questions received
 
