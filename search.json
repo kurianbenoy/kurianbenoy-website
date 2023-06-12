@@ -1509,7 +1509,7 @@
     "href": "posts/2023/summit23_iiit/oral.html#links",
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Links",
-    "text": "Links\n\nSlides"
+    "text": "Links\n\nSlides\nVenue: Tapovan, Academic block, IIIT Kottayam."
   },
   {
     "objectID": "posts/2023/summit23_iiit/oral.html#questions-received",
@@ -1523,7 +1523,7 @@
     "href": "posts/2023/summit23_iiit/demo.html#links",
     "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
     "section": "Links",
-    "text": "Links\n\nSlides\nPallakku a Malayalam speech to text demo"
+    "text": "Links\n\nSlides\nPallakku a Malayalam speech to text demo\nVenue: AA 127, IIIT Kottayam."
   },
   {
     "objectID": "posts/2023/summit23_iiit/demo.html#vegam-whisper-family-of-models",
@@ -1558,7 +1558,7 @@
     "href": "posts/2023/summit23_iiit/demo.html#pallakku",
     "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
     "section": "Pallakku",
-    "text": "Pallakku\n\nPallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family of models.\n\nTwo options to try it out:\n\n🤗 spaces\n\n\nYou can try it out in the below link.\n\nGPU-based microservice (coming soon.)"
+    "text": "Pallakku\n\nPallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family of models. It might be the first huggingface 🤗 spaces for Malayalam speech to text.\n\nTwo options to try it out:\n\n🤗 spaces\n\n\nYou can try it out in the below link.\n\nGPU-based microservice (coming soon.)"
   },
   {
     "objectID": "posts/2023/summit23_iiit/demo.html#what-is-behind-the-name-of-vegam-and-pallakku",
@@ -1572,7 +1572,7 @@
     "href": "posts/2023/summit23_iiit/demo.html#thanks-to",
     "title": "Vegam Whisper Family of Models and demoing Malayalam Speech to Text",
     "section": "Thanks to",
-    "text": "Thanks to\nOrganizers of IIIT Summit 23 for giving me an opportunity to present my work. I am really happy to receive lot of curious questions from all who came to visit my demo stall like some professors who taught me in previous semesters like Dr. Keshab Nath etc. and some of Btech students."
+    "text": "Thanks to\n\nSanthosh Thottingal for his support and guidance. Santhosh told me about faster-whisper and the utility to convert the model weights to various quantization formats.\nOrganizers of IIIT Summit 23 for giving me an opportunity to present my work.\n\nI am really happy to receive lot of curious questions from all who came to visit my demo stall like some professors who taught me in previous semesters like Dr. Keshab Nath etc. and some of Btech students."
   },
   {
     "objectID": "posts/2023/malayalam_fonts/index.html",
