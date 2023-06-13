@@ -3,6 +3,7 @@ title: OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malaya
 author: Kurian Benoy
 date: 2023-06-11
 date-format: full
+comments: false
 categories: [academia, life, conference, Malayalam, Audio]
 subtitle: Oral Presentation session presented at Summit 23, IIIT Kottayam
 toc: true
