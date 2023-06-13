@@ -1,0 +1,305 @@
+---
+title: Malayalam Projects I am working at the moment!
+subtitle: Delft-Fastai check-in sessions
+date: 2023-05-28
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+    footer: "Kurian Benoy | 28th May, 2023 | You can access slides @ [kurianbenoy.com/talks/delft-fastai/index.html](https://kurianbenoy.com/talks/delft-fastai/index.html)"
+---
+
+## Outline
+
+- About Malayalam
+- malayalam_asr_benchmarking nbdev project
+- vegam-whisper-medium ml model and Pallakku
+
+## $whoami
+
+- AI Engineer & Team Lead @ Sentient.io
+- Volunteer @ Swathanthra Malayalam Computing(SMC)
+- Open-source enthusiast
+- Not affiliated to OpenAI
+
+## Disclaimer
+
+- <span style="color:red">Nothing in this talk is generated.</span>
+
+unless explicitly marked, or in a screenshot from an LLM
+
+## About Malayalam
+
+## About Malayalam
+
+::: {.incremental}
+- <span style="color:red">Malayalam is my mother tongue.</span>
+- <span style="color:blue">Native speakers: 38+ million.</span>
+- <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span>
+:::
+
+## Malayalam is a morphologically complex language
+
+::: {.incremental}
+- <span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span>
+- <span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span>
+
+::: aside
+[1] Juola, P.: Measuring linguistic complexity: The morphological tier. Journal of
+Quantitative Linguistics 5(3), 206–213 (1998)
+
+[2] Kettunen, K.: Can type-token ratio be used to show morphological complexity of
+languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)
+:::
+
+:::
+
+
+## Types and Tokens
+
+::: {.incremental}
+- <span style="color:red">To be or not to be is question</span>
+- <span style="color:blue">Type count: 7</span>
+- `Token count: 9`
+:::
+
+## Type Token Ratio (TTR)
+
+```{=tex}
+\begin{gather*}
+TTR = \frac{\text{Type count}}{\text{Token count}}
+\end{gather*}
+```
+
+- <span style="color:red">To be or not to be is question</span>
+
+```{=tex}
+\begin{gather*}
+TTR = 7 \div 9
+\end{gather*}
+```
+
+##
+
+![TTGR and TTR plot of Malayalam for SMC Corpus of Wikipedia text from K. Manohar et al.](morphology1.png)
+
+
+##
+
+![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](morphology_ttr.png)
+
+::: aside
+Information from [Quantitative Analysis of the Morphological
+Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7)
+:::
+
+## Malayalam_asr_benchmarking project
+
+## Whisper Event
+
+- <span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span>
+- <span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span>
+
+::: aside
+[Whisper Event huggingface page](https://huggingface.co/whisper-event)
+:::
+
+## Malayalam models in Whisper Event
+
+- <span style="color:red">For the language Malayalam, the results are as follows:</span>
+
+![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
+
+## Winning models in Malayalam in Whisper Event {.nonincremental}
+
+- <span style="color:red">The winning model for Common voice</span>: `thennal/whisper-medium-ml`
+- <span style="color:blue">The winning model for Fleurs</span>: `parambharath/whisper-small-ml`
+
+## I was not convinced
+
+<span style="color:red">I was sceptical about the winning models becuase of</span>:
+
+::: {.incremental}
+
+1. Achieving 10% WER in Malayalam is astonishing.
+2. In Malayalam there is not even a single yard stick to compare. Most of
+previous works were done in proprietary datasets and not open-sourced.
+3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
+is a big deal.
+
+:::
+
+## I was not convinced {.scrollable}
+
+4. Didn't trust the Hugging Face way of evaluating models.
+
+![thennal/whisper-medium-ml model card readme](../fossasia2023/thennal_model_card.png)
+
+
+## I was not convinced {.scrollable}
+
+4. Didn't trust the Hugging Face way of evaluating models.
+
+![Last commit in thennal/whisper-medium-ml](../fossasia2023/thennal_commit.png)
+
+## I wanted to build something new
+
+- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
+
+![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
+
+##
+
+{{< tweet kurianbenoy2 1633647128059969536 >}}
+
+##
+
+{{< tweet kavya_manohar 1633755478818959372 >}}
+
+## Benchmarked models
+
+- <span style="color:red">Started with 6 fine-tuned models in Malayalam and compared it with [6 model versions released by OpenAI](https://github.com/openai/whisper).</span>
+
+1. thennal/whisper-medium-ml
+2. parambharat/whisper-tiny-ml
+3. parambharat/whisper-base-ml
+4. parambharat/whisper-small-ml
+5. anuragshas/whisper-large-v2-ml
+6. DrishtiSharma/whisper-large-v2-malayalam
+
+## Results on benechmarking in Common Voice dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
+
+## WER in Common Voice dataset
+
+![WER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
+
+## CER in Common Voice dataset
+
+![CER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
+
+## Results on benechmarking in Malayalam Speech Corpus dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png)
+
+## WER in Malayalam Speech Corpus
+
+![WER in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
+
+## CER in Malayalam Speech Corpus
+
+![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
+
+## End Goal
+
+- <span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span>
+- <span style="color:blue">Should include results for Kaldi, Wav2Vec, Whisper, MMS etc.</span>
+
+![Open LLM leaderboard in [huggingface spaces](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)](openllm.png)
+
+## vegam-whisper-medium ml model and Pallakku
+
+## Inspired by
+
+::: {.incremental}
+- <span style="color:red">[faster-whisper](https://github.com/guillaumekln/faster-whisper) is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span>
+- <span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span>
+:::
+
+::: aside
+Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)
+:::
+
+## CTranslate2
+
+- <span style="color:red">It had this utility for converting any `whisper` based model to faster-whisper like models.</span>
+
+```shell
+ct2-transformers-converter \
+ --model openai/whisper-tiny \
+ --output_dir whisper-tiny-ct2
+```
+
+## Vegam Whisper models released
+
+- <span style="color:red">I used `thennal/whisper-medium-ml` to convert it to faster-whisper based models for Malayalam:</span>
+
+1. [kurianbenoy/vegam-whisper-medium-ml](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml)
+1. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+
+## Pallakku
+
+- <span style="color:red">Pallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.</span>
+- Now hosted as:
+
+1. [🤗 spaces](https://huggingface.co/spaces/kurianbenoy/Pallakku)
+2. GPU-based microservice (coming soon.)
+
+## 🤗 spaces
+
+![](pallakku.png)
+
+## Thanks to
+
+:::: {.columns}
+::: {.column width="70%"}
+1. [OpenAI team](https://openai.com/) - Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
+2. Creators of [CTranslate2](https://opennmt.net/CTranslate2) and [faster-whisper](https://github.com/guillaumekln/faster-whisper) - [Guillaume Klein](https://github.com/guillaumekln)
+3. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
+4. [Kavya Manohar](https://kavyamanohar.com/)
+5. [Santhosh Thottingal](https://thottingal.in/)
+:::
+
+::: {.column width="30%"}
+6. [Thennal D K](https://huggingface.co/thennal)
+7. Other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
+8. [Jarvis Labs](cloud.jarvislabs.ai/)
+:::
+::::
+
+
+## Appendix
+
+## Why I love nbdev?
+
+- I love Jupyter notebook
+- website + pypi + anaconda + github project
+- I love Quarto
+
+## Nbdev is a secret weapon for productivity
+
+- I have build one company project and two python packages with nbdev so far:
+
+1. malayalam_asr_benchmarking
+2. whisper_normalizer
+
+## Nbdev opinion by Hamel
+
+![image](https://user-images.githubusercontent.com/24592806/239686246-18b3494a-4daf-446e-b7f6-475cb9d53846.png)
+
+[From Hamel answer in Nbdev for production code topic](https://forums.fast.ai/t/nbdev-for-use-with-production-code/103110/2?u=kurianbenoy)
+
+## My favourite nbdev project
+
+- [fastai](https://github.com/fastai/fastai)
+- [nbdev](https://github.com/fastai/nbdev)
+- [Sveltish](https://fredguth.github.io/sveltish/)
+
+## Quarto
+
+- nbdev builds on giant shoulders of quarto
+- Learning quarto is like a new programming language.
+
+## Quarto 
+
+{{< video https://youtu.be/nllKcuX7rEc width="1400" height="600" >}}
+
+## My favourite quarto projects
+
+- [Quarto website](https://quarto.org/)
+- [Wasim Website](https://wasimlorgat.com/)
+- [fastai course website](https://course.fast.ai/)
+
+
