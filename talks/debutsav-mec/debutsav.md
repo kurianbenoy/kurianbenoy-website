@@ -1,13 +1,14 @@
 ---
 title: Malayalam Projects I am working at the moment!
-subtitle: Delft-Fastai check-in sessions
-date: 2023-05-28
+subtitle: DebUtsav 2023, Govt. Model Engineering College, Thrikkakara.
+date: 2023-06-17
 date-format: full
 comments: false
 format:
   revealjs:
+    theme: solarized
     slide-number: true
-    footer: "Kurian Benoy | 28th May, 2023 | You can access slides @ [kurianbenoy.com/talks/delft-fastai/index.html](https://kurianbenoy.com/talks/delft-fastai/index.html)"
+    footer: "Kurian Benoy || 17th June, 2023 || Malayalam Projects I am working at the moment!" 
 ---
 
 ## Outline
@@ -20,6 +21,7 @@ format:
 
 - AI Engineer & Team Lead @ Sentient.io
 - Volunteer @ Swathanthra Malayalam Computing(SMC)
+- xMECian
 - Open-source enthusiast
 - Not affiliated to OpenAI
 
@@ -261,45 +263,4 @@ ct2-transformers-converter \
 
 
 ## Appendix
-
-## Why I love nbdev?
-
-- I love Jupyter notebook
-- website + pypi + anaconda + github project
-- I love Quarto
-
-## Nbdev is a secret weapon for productivity
-
-- I have build one company project and two python packages with nbdev so far:
-
-1. malayalam_asr_benchmarking
-2. whisper_normalizer
-
-## Nbdev opinion by Hamel
-
-![image](https://user-images.githubusercontent.com/24592806/239686246-18b3494a-4daf-446e-b7f6-475cb9d53846.png)
-
-[From Hamel answer in Nbdev for production code topic](https://forums.fast.ai/t/nbdev-for-use-with-production-code/103110/2?u=kurianbenoy)
-
-## My favourite nbdev project
-
-- [fastai](https://github.com/fastai/fastai)
-- [nbdev](https://github.com/fastai/nbdev)
-- [Sveltish](https://fredguth.github.io/sveltish/)
-
-## Quarto
-
-- nbdev builds on giant shoulders of quarto
-- Learning quarto is like a new programming language.
-
-## Quarto 
-
-{{< video https://youtu.be/nllKcuX7rEc width="1400" height="600" >}}
-
-## My favourite quarto projects
-
-- [Quarto website](https://quarto.org/)
-- [Wasim Website](https://wasimlorgat.com/)
-- [fastai course website](https://course.fast.ai/)
-
 
