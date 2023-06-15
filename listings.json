@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/slides.html",
+    "items": [
+      "/talks/lt_talk_idea/index.html",
+      "/talks/iiit-kottayam-summit/index.html",
+      "/talks/iiit-kottayam-summit/demo.html",
+      "/talks/delft-fastai/index.html",
+      "/talks/fossasia2023.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/2023/summit23_iiit/oral.html",
@@ -28,8 +38,8 @@
       "/posts/2022/2022-05-10-fastai-53.html",
       "/posts/2022/2022-05-03-fastai-52.html",
       "/posts/2022/2022-05-01-audiocnndemo.html",
-      "/posts/2022/2022-04-26-fastai-50.html",
       "/posts/2022/2022-04-26-fastai-51.html",
+      "/posts/2022/2022-04-26-fastai-50.html",
       "/posts/2022/2022-03-13-hfenml-translate.html",
       "/posts/2022/2022-02-27-questionansweringwithhf.html",
       "/posts/2022/2022-02-16-first_vacation.html",
@@ -123,16 +133,6 @@
       "/posts/2019/2019-03-13-FOSSASIA-Day1.html",
       "/posts/2019/2019-03-01-Contributing_to_Open_Source_With_CloudCV.html",
       "/posts/2019/2019-02-11-SVD_NMF.html"
-    ]
-  },
-  {
-    "listing": "/slides.html",
-    "items": [
-      "/talks/lt_talk_idea/index.html",
-      "/talks/iiit-kottayam-summit/demo.html",
-      "/talks/iiit-kottayam-summit/index.html",
-      "/talks/delft-fastai/index.html",
-      "/talks/fossasia2023.html"
     ]
   }
 ]
