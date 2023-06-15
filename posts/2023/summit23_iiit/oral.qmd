@@ -24,3 +24,7 @@ toc: true
 1. How can you improve the Malayalam ASR model further? What are techniques which you can do next?
 2. How are metrics like WER and CER?
 3. Can you explain how you calculated WER, CER, time taken and model parameter size for your code?
+
+## Update (15th June, 2023)
+
+Excited to share that I won 2nd place in Oral Presentation category.
