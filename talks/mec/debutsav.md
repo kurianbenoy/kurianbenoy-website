@@ -339,10 +339,8 @@ and use the pre-trained model to build a new model which works very well for our
 
 ## Inspired by
 
-::: {.incremental}
 - <span style="color:red">[faster-whisper](https://github.com/guillaumekln/faster-whisper) is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models.</span>
 - <span style="color:blue">This implementation is up to 4 times faster than openai/whisper for the same accuracy while using less memory. The efficiency can be further improved with 8-bit quantization on both CPU and GPU.</span>
-:::
 
 ::: aside
 <span style="color:blue">Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)</span>
@@ -395,7 +393,7 @@ For more details check [CTranslate2 quantization docs](https://opennmt.net/CTran
 
 ## Code for faster-whisper
 
-![Source Code](../iiit-kottayam-summit/faster-whisper.png){height="500"}
+![Source Code](../iiit-kottayam-summit/faster-whisper.png)
 
 ## Demo Video -1 
 
