@@ -12,3 +12,14 @@ draft: true
 - [Slides](../../../talks/mec/debutsav.qmd)
 
 - Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST
+
+## Questions received
+
+1. Why is Malayalam more complex than other languages like Malayalam. Is the method of comparing TTR with other languages absurd as
+all the data of a language might not be present?
+2. Do you think whether just a privileged few people can do Machine Learning?
+
+
+## Thanks to
+
+The volunteer who distributed the chocolotes to participants who correctly answered some of my quiz questions.
