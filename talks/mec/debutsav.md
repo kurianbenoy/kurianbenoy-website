@@ -11,12 +11,6 @@ format:
     footer: "Kurian Benoy || 17th June, 2023 || Malayalam Projects I am working at the moment!" 
 ---
 
-## Outline
-
-- About Malayalam
-- malayalam_asr_benchmarking nbdev project
-- vegam-whisper-medium ml model and Pallakku
-
 ## $whoami
 
 - AI Engineer & Team Lead @ Sentient.io
@@ -27,23 +21,16 @@ format:
 
 ## Disclaimer
 
-- <span style="color:red">Nothing in this talk is generated.</span>
-
-unless explicitly marked, or in a screenshot from an LLM
+- <span style="color:red">Nothing in this talk is generated.</span> Unless it's explicitly marked as from an LLM.
 
 ## About Malayalam
 
-## About Malayalam
-
-::: {.incremental}
 - <span style="color:red">Malayalam is my mother tongue.</span>
 - <span style="color:blue">Native speakers: 38+ million.</span>
 - <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Mallus is living.</span>
-:::
 
 ## Malayalam is a morphologically complex language
 
-::: {.incremental}
 - <span style="color:red">It has complex morphology compared to other languages English, Tamil, Hindi, Spanish, Finnish etc.</span>
 - <span style="color:blue">Morphology can be calculated by metrics like TTR and MATTR [1], [2]</span>
 
@@ -55,26 +42,32 @@ Quantitative Linguistics 5(3), 206–213 (1998)
 languages? Journal of Quantitative Linguistics 21(3), 223–245 (2014)
 :::
 
-:::
-
 
 ## Types and Tokens
 
-::: {.incremental}
-- <span style="color:red">To be or not to be is question</span>
+- <span style="color:red">To be or not to be is a question</span>
 - <span style="color:blue">Type count: 7</span>
 - `Token count: 9`
-:::
 
-## Type Token Ratio (TTR)
+## Type Token Ratio (TTR) and TTGR
+
+- <span style="color:blue">TTR: Type to token ratio. This is calculated by the formula below.</span>
+```{=tex}
+\begin{gather*}
+TTR = \frac{\text{Type count}}{\text{Token count}}
+\end{gather*}
+```
+- <span style="color:orange">TTGR: Type to token growth ratio. This curve is plotted the graph of token count vs type count.</span>
+
+## Example
+
+- <span style="color:red">To be or not to be is a question</span>
 
 ```{=tex}
 \begin{gather*}
 TTR = \frac{\text{Type count}}{\text{Token count}}
 \end{gather*}
 ```
-
-- <span style="color:red">To be or not to be is question</span>
 
 ```{=tex}
 \begin{gather*}
@@ -86,17 +79,15 @@ TTR = 7 \div 9
 
 ![TTGR and TTR plot of Malayalam for SMC Corpus of Wikipedia text from K. Manohar et al.](../delft-fastai/morphology1.png)
 
-
 ##
 
 ![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png)
 
 ::: aside
-Information from [Quantitative Analysis of the Morphological
-Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7)
+<span style="color:black">Picture from [Quantitative Analysis of the Morphological
+Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.</span>
 :::
 
-## Malayalam_asr_benchmarking project
 
 ## OpenAI Whisper
 
@@ -114,14 +105,99 @@ Complexity of Malayalam Language by K. Manohar et al.](https://link.springer.com
 <span style="color:black">Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?</span>
 :::
 
-## Malayalam is a complex language
+## Whisper Models {.scrollable}
 
-![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png){width="800"}
+
+|  Size  | Parameters |Required VRAM | Relative speed |
+|------:|----------:|:----------:|:------------:|
+|  tiny  |    39 M    |     ~1 GB    |      ~32x      |
+|  base  |    74 M    |     ~1 GB    |      ~16x      |
+| small  |   244 M    |    ~2 GB     |      ~6x       |
+| medium |   769 M    |    ~5 GB     |      ~2x       |
+| large  |   1550 M   |   ~10 GB     |       1x       |
+
+
+## English Speech Recognition
+
+![Whisper is competitive with state of art commercial and open source systems. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](../fossasia2023/Whisper_english.png)
+
+
+## Multi-lingual Speech recognition
+
+- <span style="color:red">Whisper model is trained on 99 languages</span>
+- <span style="color:green">OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</span>
 
 ::: aside
-<span style="color:black">Picture from [Quantitative Analysis of the Morphological
-Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.</span>
+- More details can be found in Section 3.4 of [Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) pp.6 - 8.
+- Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.7)
 :::
+
+## Runs in almost any device
+
+- <span style="color:red">Since Whisper followed the open source route, [whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+developed by [Georgi Gerganov](https://github.com/ggerganov) which is a port of OpenAI's 
+Whisper model in C/C++.</span>
+
+<span style="color:orange">
+- It supports the below platforms:
+
+1. Mac OS (Intel and ARM)
+2. iOS
+3. Android
+4. Linux/Free BSD
+5. Web Assembly etc.
+</span>
+
+## Awesome community plugins
+
+<span style="color:blue">
+- Word-level time stamps with [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped),[whisperX](https://github.com/m-bain/whisperX) etc.
+- Fine-Tune Whisper is achieving SOTA in lot of languages
+- [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
+- [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
+- [4x faster with same accuracy using faster-whisper](https://github.com/guillaumekln/faster-whisper)
+</span>
+
+::: aside
+[Thanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
+:::
+
+## What is fine tuning?
+
+<span style="color:red">Given a pre-trained model, which is a large model which is trained
+on a very specific task. If we want to fit it into our specific dataset we will train
+and use the pre-trained model to build a new model which works very well for our task.</span>
+
+![Picture from [fast.lesson](course.fast.ai/) covering steps in finetuning a text classifier model](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png){width=300 fig-align="center"}
+
+## Fine tuning is still relevant
+
+{{< tweet waydegilliam 1641228571611123712 >}}
+
+## What are steps for fine-tuning Whisper?
+
+![[Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)](../fossasia2023/blogpost_image.png){width=700 fig-align="center"}
+
+## What are steps for fine-tuning Whisper?
+
+1. Preparing Environment
+2. Load dataset
+3. Prepare Feature Extractor, Tokenizer and Data
+4. Training and evaluation
+5. Building a demo(optional)
+
+::: aside
+- Based on article [Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)
+- [More details on fine tuning Whisper](https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event)
+:::
+
+## Question Time
+
+1. Name three Malayalam fonts?
+(Hint: SMC makes a lot of fonts)
+2. Who developed the user friendly GNU/Linux distribution called Slynux during high school?
+(Hint: He is an xMECian)
+
 
 ## Whisper Event
 
@@ -136,7 +212,7 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 
 - <span style="color:red">For the language Malayalam, the results are as follows:</span>
 
-![<span style="color:black">Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)</span>](malayalam_models.png){width=700 fig-align="center"}
+![<span style="color:black">Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)</span>](../iiit-kottayam-summit/malayalam_models.png){width=700 fig-align="center"}
 
 ## Winning models in Malayalam in Whisper Event {.nonincremental}
 
@@ -261,8 +337,6 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 ![Open LLM leaderboard in [huggingface spaces](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)](../delft-fastai/openllm.png)
 
 
-## vegam-whisper-medium ml model and Pallakku
-
 ## Inspired by
 
 ::: {.incremental}
@@ -271,10 +345,17 @@ Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/
 :::
 
 ::: aside
-Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)
+<span style="color:blue">Information from [faster-whisper github README](https://github.com/guillaumekln/faster-whisper)</span>
 :::
 
 ## CTranslate2
+
+- <span style="color:red">An awesome library for optimizing ML models for production.</span>
+- CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
+- The project implements a custom runtime that applies many performance optimization techniques such as weights quantization, layers fusion, batch reordering, etc., to accelerate and reduce the memory usage of Transformer models on CPU and GPU. 
+
+
+## CTranslate2 Whisper converter
 
 - <span style="color:red">It had this utility for converting any `whisper` based model to faster-whisper like models.</span>
 
@@ -284,24 +365,105 @@ ct2-transformers-converter \
  --output_dir whisper-tiny-ct2
 ```
 
+## CTranslate2 Quantization formats
+
+<span style="color:red">CTranslate2 supports various quantization formats like:</span>
+
+- float16
+- int16
+- float8
+- int8_float8
+- No quantization
+
+::: aside
+For more details check [CTranslate2 quantization docs](https://opennmt.net/CTranslate2/quantization.html)
+:::
+
 ## Vegam Whisper models released
 
 - <span style="color:red">I used `thennal/whisper-medium-ml` to convert it to faster-whisper based models for Malayalam:</span>
 
 1. [kurianbenoy/vegam-whisper-medium-ml](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml)
-1. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+2. [kurianbenoy/vegam-whisper-medium-ml-fp16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16)
+3. [kurianbenoy/vegam-whisper-medium-ml-int16](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16)
+4. [kurianbenoy/vegam-whisper-medium-ml-fp8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8)
+5. [kurianbenoy/vegam-whisper-medium-ml-int8_float8](https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8)
+
+## Vegam Whisper models released
+
+![Vegam Whisper models hosted in huggingface](../iiit-kottayam-summit/huggingface.png)
+
+## Code for faster-whisper
+
+![Source Code](../iiit-kottayam-summit/faster-whisper.png){height="500"}
+
+## Demo Video -1 
+
+{{< video https://www.youtube.com/embed/zm1gU8hRHxA width="2000" height="500"  >}}
+
+::: aside
+From: Oru Thai Nadam sang by Venugopal and Sreya, Lyrics by Sugathakumari
+:::
+
+## Demo Video -1 Output
+
+![Output of clip from Video 1](../iiit-kottayam-summit/25s_audio.png)
+
+## Demo Video -2
+
+{{< video https://www.youtube.com/embed/fZZFCOkWquY width="2000" height="500" >}}
+
+::: aside
+Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song created spontaneously at MBIFL 2023
+:::
+
+## Demo Video - 2 Output
+
+![Output of clip from Video 2](../iiit-kottayam-summit/10s_audio.png)
 
 ## Pallakku
 
 - <span style="color:red">Pallakku is a Malayalam speech to text demo leveraging the model-weights of vegam-whisper-medium-ml.</span>
-- Now hosted as:
+- <span style="color:blue">Two options to try it out</span>:
 
 1. [🤗 spaces](https://huggingface.co/spaces/kurianbenoy/Pallakku)
 2. GPU-based microservice (coming soon.)
 
 ## 🤗 spaces
 
+- Try it out in link: 
+
+<span style="color:red">https://huggingface.co/spaces/kurianbenoy/Pallakku</span>
+
 ![](../delft-fastai/pallakku.png)
+
+## Trying GPT in Malayalam
+
+{{< tweet charles_irl 1667568990322044928 >}}
+
+## Trying GPT in Malayalam
+
+{{< tweet charles_irl 1667769100817539073 >}}
+
+## Asking Questions in Malayalam to GPT-4
+
+![](./ask_fsdl.jpg)
+
+## Question Time
+
+3. Which was the best performing malayalam ASR model according to [malayalam_asr_benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking) results?
+4. What is the name for debian versions 11 & 12?
+
+## Conclusion
+
+::: {.incremental}
+- <span style="color:red">In Malayalam we have achieved phenomenal results for fine tuned whisper models.
+- <span style="color:blue">The best model is: `thennal/whisper-medium-ml`
+:::
+
+## Conclusion
+- <span style="color:green">I think their seems to be a good ASR model suitable for production use-cases.</span>
+- <span style="color:orange">You can also do it in your own language especially if it is a low resource language.</span>
 
 ## Thanks to
 
@@ -312,12 +474,15 @@ ct2-transformers-converter \
 3. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
 4. [Kavya Manohar](https://kavyamanohar.com/)
 5. [Santhosh Thottingal](https://thottingal.in/)
+6. [Thennal D K](https://huggingface.co/thennal)
 :::
 
 ::: {.column width="30%"}
-6. [Thennal D K](https://huggingface.co/thennal)
-7. Other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
-8. [Jarvis Labs](cloud.jarvislabs.ai/)
+7. [AbdulMajedRaja RS](https://www.youtube.com/@1littlecoder)
+8. [Georgi Gerganov](https://github.com/ggerganov)
+9. [Ramsri Goutham](https://ramsri.ai/)
+10. [Wayde Gilliam](https://twitter.com/waydegilliam)
+11. Other members in [SMC](https://smc.org.in/).
+12. [Jarvis Labs](cloud.jarvislabs.ai/)
 :::
 ::::
-
