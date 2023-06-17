@@ -483,10 +483,8 @@ Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song crea
 
 ## Contact me
 
-![](./kurianbenoy-qrcode.png)
+![](./kurianbenoy-qrcode.png){fig-align="center"}
 
-https://kurianbenoy.com
-
-:::
-Generated with https://qart.charlesfrye.com/.
+::: aside
+<span style="color:black">QR code is generated with https://qart.charlesfrye.com/.</span>
 :::
