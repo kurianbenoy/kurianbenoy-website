@@ -1,5 +1,5 @@
 ---
-title: Malayalam Projects I am working at the moment!
+title: AI with Malayalam Computing!
 subtitle: DebUtsav 2023, Govt. Model Engineering College, Thrikkakara.
 date: 2023-06-17
 date-format: full
@@ -7,8 +7,7 @@ comments: false
 format:
   revealjs:
     theme: solarized
-    slide-number: true
-    footer: "Kurian Benoy || 17th June, 2023 || Malayalam Projects I am working at the moment!" 
+    footer: "Kurian Benoy || 17th June, 2023 || AI with Malayalam Computing!" 
 ---
 
 ## $whoami
@@ -150,13 +149,11 @@ Whisper model in C/C++.</span>
 
 ## Awesome community plugins
 
-<span style="color:blue">
 - Word-level time stamps with [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped),[whisperX](https://github.com/m-bain/whisperX) etc.
 - Fine-Tune Whisper is achieving SOTA in lot of languages
 - [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
 - [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
 - [4x faster with same accuracy using faster-whisper](https://github.com/guillaumekln/faster-whisper)
-</span>
 
 ::: aside
 [Thanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
@@ -191,14 +188,6 @@ and use the pre-trained model to build a new model which works very well for our
 - [More details on fine tuning Whisper](https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event)
 :::
 
-## Question Time
-
-1. Name three Malayalam fonts?
-(Hint: SMC makes a lot of fonts)
-2. Who developed the user friendly GNU/Linux distribution called Slynux during high school?
-(Hint: He is an xMECian)
-
-
 ## Whisper Event
 
 - <span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span>
@@ -218,6 +207,13 @@ and use the pre-trained model to build a new model which works very well for our
 
 - <span style="color:red">The winning model for Common voice</span>: `thennal/whisper-medium-ml`
 - <span style="color:blue">The winning model for Fleurs</span>: `parambharath/whisper-small-ml`
+
+## Question Time
+
+1. Name three Malayalam fonts?
+(Hint: SMC makes a lot of fonts)
+2. Who developed the user friendly GNU/Linux distribution called Slynux during his high school?
+(Hint: He is an xMECian)
 
 ## I was not convinced
 
@@ -456,7 +452,7 @@ Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song crea
 
 ::: {.incremental}
 - <span style="color:red">In Malayalam we have achieved phenomenal results for fine tuned whisper models.
-- <span style="color:blue">The best model is: `thennal/whisper-medium-ml`
+- <span style="color:blue">The best model after benchmarking is: `thennal/whisper-medium-ml`
 :::
 
 ## Conclusion
@@ -484,3 +480,13 @@ Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song crea
 12. [Jarvis Labs](cloud.jarvislabs.ai/)
 :::
 ::::
+
+## Contact me
+
+![](./kurianbenoy-qrcode.png)
+
+https://kurianbenoy.com
+
+:::
+Generated with https://qart.charlesfrye.com/.
+:::
