@@ -4,7 +4,7 @@ author: Kurian Benoy
 subtitle: Talk page for my talk @ Delft Fast.ai Study Group.
 date: 2023-05-28
 date-format: full
-categories: [Malayalam, SMC, Talk]
+categories: [Malayalam, SMC, Talk, meetup]
 lang: en
 comments: false
 image: https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg

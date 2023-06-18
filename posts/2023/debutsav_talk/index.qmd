@@ -1,7 +1,7 @@
 ---
 title: AI with Malayalam Computing!
 subtitle: Talk page for my talk @ DebUtsav 2023, Govt. Model Engineering College, Thrikkakara.
-categories: [Malayalam, Audio, Talk]
+categories: [Malayalam, Audio, Talk, SMC, Debian, conference]
 date: 2023-06-17
 date-format: full
 comments: false
