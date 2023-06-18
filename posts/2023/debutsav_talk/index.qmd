@@ -11,7 +11,7 @@ draft: true
 
 - [Slides](../../../talks/mec/debutsav.qmd)
 
-- Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST
+- Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST - 3:45 PM IST
 
 ## Questions received
 
@@ -20,11 +20,15 @@ draft: true
 3. What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?
 4. How much resources is required to fine tune Whisper models?
 5. How much did it cost for you to do benchmarking in Malayalam?
-6. Does it really cost $30 to buy a biriyani for a family in Singapore?
+6. Does it really cost $30 to buy a biriyani for a family in Singapore? (Sorry that during the talk, I mentioned it cost $30 to buy one biriyani in Singapore. This analogy was done inorder to compare cost of benchmarking models for Malayalam. In Singapore the maximum I had to spent for a dinner was 32 SGD during my recent visit.)
 7. I absoluted loved `whisper.cpp` because it's able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?
+8. What are your thoughts on LLM finetuning?
 
 
 ## Thanks to
 
-All the folks who asked questions and made the session interactive. Special thanks to the volunteer who distributed the chocolotes to 
-few people who answered some of my quiz questions.
+All the folks who asked questions and made the session interactive, a big thank you.
+As a speaker, it was the first time I was satisfied with myself for making the session
+interactive as this session was right after having a delicious lunch of biriyani.
+Also a special thanks to the volunteer who distributed the chocolotes to folks
+who answered my quiz questions.
