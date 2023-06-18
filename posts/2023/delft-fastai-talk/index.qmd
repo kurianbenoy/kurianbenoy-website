@@ -1,10 +1,10 @@
 ---
 title: Malayalam Projects I am working at the moment!
 author: Kurian Benoy
-subtitle: Delft-fastai Study group Talk Page
+subtitle: Talk page for my talk @ Delft Fast.ai Study Group.
 date: 2023-05-28
 date-format: full
-categories: [Malayalam, SMC]
+categories: [Malayalam, SMC, Talk]
 lang: en
 comments: false
 image: https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg

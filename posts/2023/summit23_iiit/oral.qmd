@@ -4,8 +4,8 @@ author: Kurian Benoy
 date: 2023-06-11
 date-format: full
 comments: false
-categories: [academia, life, conference, Malayalam, Audio]
-subtitle: Oral Presentation session presented at Summit 23, IIIT Kottayam
+categories: [academia, life, conference, Malayalam, Audio, Talk]
+subtitle: Talk page for my talk @ Oral Presentation session presented at Summit 23, IIIT Kottayam
 toc: true
 ---
 
