@@ -10,7 +10,70 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Sun, 11 Jun 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 17 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>AI with Malayalam Computing!</title>
+  <link>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="links-to-talk" class="level2">
+<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
+<ul>
+<li><p><a href="../../../talks/mec/debutsav.html">Slides</a></p></li>
+<li><p>Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST - 3:45 PM IST</p></li>
+</ul>
+</section>
+<section id="questions-received" class="level2">
+<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
+<ol type="1">
+<li>Why is Malayalam more complex than other languages like Malayalam, I understand your method of comparing TTR. Yet isn’t the method of comparing TTR with other languages absurd as the data used for comparission in the dataset might not have all words of a particular language?</li>
+<li>Do you think whether just a privileged few people can do Machine Learning?</li>
+<li>What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?</li>
+<li>How much resources is required to fine tune Whisper models?</li>
+<li>How much did it cost for you to do benchmarking in Malayalam?</li>
+<li>Does it really cost $30 to buy a biriyani for a family in Singapore? (Sorry that during the talk, I mentioned it cost $30 to buy one biriyani in Singapore. This analogy was done inorder to compare cost of benchmarking models for Malayalam. In Singapore the maximum I had to spent for a dinner was 32 SGD during my recent visit.)</li>
+<li>I absoluted loved <code>whisper.cpp</code> because it’s able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?</li>
+<li>What are your thoughts on LLM finetuning?</li>
+</ol>
+</section>
+<section id="quiz-questions" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-questions">Quiz Questions</h2>
+<ol type="1">
+<li>Name three Malayalam fonts? (Hint: SMC makes a lot of fonts)</li>
+<li>Who developed the user friendly GNU/Linux distribution called Slynux during his high school? (Hint: He is an xMECian)</li>
+<li>Which was the best performing malayalam ASR model according to <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking</a> results?</li>
+<li>What is the name for debian versions 11 &amp; 12?</li>
+</ol>
+</section>
+<section id="quiz-answers" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-answers">Quiz Answers</h2>
+<ol type="1">
+<li>There are a lot of Malayalam fonts. Check <a href="https://www.smc.org.in/fonts/">SMC fonts page for answers</a></li>
+<li>Sarath Lakshman, do check his <a href="https://www.sarathlakshman.com/about/">website</a></li>
+<li>Thennal D K’s <a href="https://huggingface.co/thennal/whisper-medium-ml">whisper-medium-ml model</a></li>
+<li>“bullseye”(Debian 11) and “bookworm”(Debian 12). Fun fact, all the versions of Debian is named after characters <a href="https://wiki.debian.org/ToyStory">in movie Toy story</a>.</li>
+</ol>
+</section>
+<section id="thanks-to" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
+<p>All the folks who asked questions and made the session interactive, a big thank you from my side. As a speaker, it was the first time I was satisfied with myself for making the session interactive. My session demanded an interactive session as well my slot was just after having a delicious lunch of biriyani. Also a special thanks to the volunteer who distributed the chocolotes to folks who answered my quiz questions. The organizers of event were fabulous, a special mention to names of people I remember at time of writing. Thank you Jithin, Karthik, Alaka, Theerthana, Aneeta who helped me and was always there to help regarding anything.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Malayalam</category>
+  <category>Audio</category>
+  <category>Talk</category>
+  <category>SMC</category>
+  <category>Debian</category>
+  <category>conference</category>
+  <guid>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</guid>
+  <pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -52,11 +115,13 @@
 </section>
 
  ]]></description>
-  <category>academia</category>
+  <category>academic</category>
   <category>life</category>
   <category>conference</category>
   <category>Malayalam</category>
   <category>Audio</category>
+  <category>Talk</category>
+  <category>SMC</category>
   <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</guid>
   <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
 </item>
@@ -168,11 +233,13 @@
 </section>
 
  ]]></description>
-  <category>academia</category>
+  <category>academic</category>
   <category>life</category>
   <category>conference</category>
   <category>Malayalam</category>
   <category>Audio</category>
+  <category>Talk</category>
+  <category>SMC</category>
   <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</guid>
   <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png" medium="image" type="image/png" height="46" width="144"/>
@@ -287,6 +354,8 @@ for their intended purposes.</code></pre>
  ]]></description>
   <category>Malayalam</category>
   <category>SMC</category>
+  <category>Talk</category>
+  <category>meetup</category>
   <guid>https://kurianbenoy.com/posts/2023/delft-fastai-talk/index.html</guid>
   <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
   <media:content url="https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg" medium="image" type="image/jpeg"/>
@@ -563,19 +632,19 @@ for their intended purposes.</code></pre>
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-48575"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-48575").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-18159"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-18159").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-60330"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-60330").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-28115"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28115").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-97802"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97802").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-42242"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-42242").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-97555"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97555").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-43228"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43228").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -594,14 +663,14 @@ for their intended purposes.</code></pre>
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-32790"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-32790").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-93047"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-93047").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-12945"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-12945").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-82897"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-82897").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-81488"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-81488").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-93652"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-93652").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-35455"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-35455").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-58776"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-58776").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1075,9 +1144,9 @@ font-style: inherit;">"accuracy"</span>),</span>
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-81249"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-81249").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-85331"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-85331").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-39209"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-39209").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-37169"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-37169").innerHTML = tweet["html"];</script><p></p>
 
 
 
@@ -1947,93 +2016,6 @@ Please also refer to the documentation for alternative solver options:
   <category>SMC</category>
   <guid>https://kurianbenoy.com/posts/2022/2022-06-04-baselinemodel.html</guid>
   <pubDate>Sat, 04 Jun 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Starting an open-source project - Malayalam Text Classifier</title>
-  <link>https://kurianbenoy.com/posts/2022/2022-05-30-malayalamtext-0.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/malayalam.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">malayalam letters</figcaption>
-</figure>
-</div>
-<blockquote class="blockquote">
-<p>TLDR: Kurian has committed to start an <a href="https://github.com/smc/malayalam-text-classifier">open-source project for Text classification</a> tasks in Malayalam which is going to build as an open-source project under <a href="https://smc.org.in/">SMC community</a>.</p>
-</blockquote>
-<section id="why-i-am-starting-this-project" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-am-starting-this-project">Why I am starting this project?</h2>
-<p>I have been doing the fastai course since 2018. Yet I have been taking it seriously probably, only after I bought the book <a href="https://kurianbenoy.com/2021-06-10-Fast-group/">Deep Learning for Coders with FastAI &amp; Pytorch</a> almost one year back. This year I took the <a href="https://itee.uq.edu.au/event/2022/practical-deep-learning-coders-uq-fastai">fastai v5 course</a>, and I feel it’s time to follow a piece of advice which I have heard multiple times.</p>
-<blockquote class="blockquote">
-<p>Important: Jeremy Howard, who is teaching this course and wrote the book prompts you to take what you learned and apply it to something that has meaning for you. (This is something that most of those who’ve found any success with the course <a href="https://sanyambhutani.com/how-not-to-do-fast-ai--or-any-ml-mooc-/">emphasise repeatedly</a>.)</p>
-</blockquote>
-</section>
-<section id="problem-domain" class="level2">
-<h2 class="anchored" data-anchor-id="problem-domain">Problem Domain</h2>
-<p>According to <a href="https://huggingface.co/tasks/text-classification">huggingface tasks page</a>:</p>
-<blockquote class="blockquote">
-<p>Text Classification is the task of assigning a label or class to a given text. Some use cases are sentiment analysis, natural language inference, and assessing grammatical correctness.</p>
-</blockquote>
-<p>Malayalam is a highly inflectional and agglutinative language compared to other languages. The quantitative complexity of Malayalam classification was <a href="https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf">explained in this paper</a>. The computer still doesn’t seem to have understood the basic behaviour of the language to do text classification. Malayalam is a language which morphologically complex making it even more difficult.</p>
-<p>Very few people seem to have applied techniques in deep learning in Malayalam, and it seems to be a good place to see if really deep learning techniques can be applied in my mother tongue, Malayalam. A lot of progress in other languages has happened and in general NLP, yet it’s a good time to see if it works in Indic languages like Malayalam.</p>
-</section>
-<section id="why-text-classification-is-interesting" class="level2">
-<h2 class="anchored" data-anchor-id="why-text-classification-is-interesting">Why Text classification is interesting?</h2>
-<p>I believe working on tasks like <code>Text classification</code> is way more difficult when we are working in low-resource languages like Malayalam. Yet when working on problems like this, you realize what are things you take for granted in the English language.</p>
-<p>In the English language, there are plenty of labelled datasets on any problem set you to want. A lot of articles and blogs have been written on how to apply various NLP techniques in English. When it comes to Malayalam, there is just a handful of people who have tried and applied this in Malayalam.</p>
-<blockquote class="blockquote">
-<p>Note to myself: Will is more important than Skill and it’s important to be tenacious here.</p>
-</blockquote>
-<p>I believe this is here, it’s very important to believe in one’s tenacity and try out new things in a field where very less research happening, and there are no proper open datasets for researchers to work on. This is why I feel this project can be challenging, and my approach is to see if the latest transformer approaches can do something or not.</p>
-</section>
-<section id="previous-work-vaaku2vec" class="level2">
-<h2 class="anchored" data-anchor-id="previous-work-vaaku2vec">Previous work: Vaaku2Vec</h2>
-<p>The most important work in Malayalam text classification as far as I know is <a href="https://github.com/adamshamsudeen/Vaaku2Vec">Vaaku2Vec project - State-of-the-Art Language Modeling and Text Classification in the Malayalam Language</a>.</p>
-<p>According to their Github README:</p>
-<blockquote class="blockquote">
-<p>We trained a Malayalam language model on the Wikipedia article dump from Oct, 2018. The Wikipedia dump had 55k+ articles. The difficulty in training a Malayalam language model is text tokenization since Malayalam is a highly inflectional and agglutinative language. In the current model, we are using an nltk tokenizer (will try better alternative in the future) and the vocab size is 30k. The language model was used to train a classifier which classifies a news into 5 categories (India, Kerala, Sports, Business, Entertainment). Our classifier came out with a whooping 92% accuracy in the classification task.</p>
-</blockquote>
-<p>It was revolutionary at that time, to see deep learning techniques applied to get SOTA in Malayalam. IndicNLP as an organisation did a lot of work, from working on projects like Word2vec, Vaakk2vec etc. They worked on creating a Named entity recognition dataset for Malayalam etc. They conducted Devsprints in colleges like Model Engineering college… and presented their work in Pycon India and Kochi Python. Most of the work was done by <a href="https://www.linkedin.com/in/adamshamsudeen/">Adam Shamsudeen</a> and <a href="https://www.linkedin.com/in/kamalkraj/">Kamal K Raj</a>.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rgCXWaKzMKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</section>
-<section id="whats-the-plan-for-the-project" class="level2">
-<h2 class="anchored" data-anchor-id="whats-the-plan-for-the-project">What’s the plan for the project?</h2>
-<blockquote class="blockquote">
-<p>Important: Cervantes once wrote that “the journey is better than the inn”, which means that the process is more valuable than the destination.</p>
-</blockquote>
-<p>At moment, the project doesn’t have any concrete goals and it’s just me who is working in my free time.</p>
-<p>I have created a <a href="https://github.com/smc/malayalam-text-classifier/issues">few issues</a> and my next blog post will be on creating a baseline model on a private dataset that a few kind folks shared with me. I expect the dataset creation to be an iterative task. I am looking forward to blogging about what I work on and stumble upon in each stage of the project.</p>
-<p>When I was looking for where I wanted to create this as an open-source project obviously, I choose <a href="https://smc.org.in/">Swathanthra Malayalam Community</a> because:</p>
-<ul>
-<li>I feel SMC as an organization played a pivotal part in revolutionizing Malayalam computing and has a strong community presence. They have made a lot of work by creating fonts, helping in internationalization efforts, …</li>
-<li>People like <a href="https://thottingal.in/">Santhosh Thottingal</a> and <a href="https://kavyamanohar.com/">Kavya Manohar</a> have helped me a lot in my previous failed attempt to <a href="https://github.com/kurianbenoy/MTTS">build TTS with deep learning in Malayalam</a>.</li>
-<li>Some of the open-source projects made by SMC still survive like the website of <a href="https://msc.smc.org.in/">Malayalam Speech Corpus</a> which is impressive to me.</li>
-</ul>
-<p>I would like to thank the following people for all the support and motivation they have given me in starting this open-source project on this occasion:</p>
-<ol type="1">
-<li><a href="https://twitter.com/strickvl/">Alex Strick van Linschoten</a></li>
-<li><a href="https://twitter.com/santhoshtr">Santhosh Thottingal</a> and <a href="https://twitter.com/kavya_manohar">Kavya Manohar</a></li>
-<li><a href="https://twitter.com/fanbyprinciple">Ashwin Jayaprakash</a></li>
-</ol>
-
-
-</section>
-
- ]]></description>
-  <category>malayalamtextmodels</category>
-  <category>Malayalam</category>
-  <category>NLP</category>
-  <category>opensource</category>
-  <category>ML</category>
-  <category>Deep learning</category>
-  <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-05-30-malayalamtext-0.html</guid>
-  <pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
