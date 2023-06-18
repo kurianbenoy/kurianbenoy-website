@@ -4,7 +4,7 @@ author: Kurian Benoy
 date: 2023-06-11
 date-format: full
 comments: false
-categories: [academic, life, conference, Malayalam, Audio, Talk, SMC]
+categories: [academic, life, conference, Malayalam, Audio, "Talk Page", SMC]
 subtitle: Talk page for my Oral Presentation session presented @ Summit 23, IIIT Kottayam
 toc: true
 ---
