@@ -7,6 +7,7 @@ date-format: full
 categories: [conference, fossasia, Audio, Deep learning, SMC]
 lang: en
 image: IMG_20230415_094452682_HDR.jpg
+toc: true
 comments: false
 format:
   html:

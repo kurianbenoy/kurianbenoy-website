@@ -5,6 +5,7 @@ date: 2023-06-17
 date-format: full
 comments: false
 draft: true
+toc: true
 ---
 
 ## Links to talk
@@ -23,6 +24,8 @@ draft: true
 6. Does it really cost $30 to buy a biriyani for a family in Singapore? (Sorry that during the talk, I mentioned it cost $30 to buy one biriyani in Singapore. This analogy was done inorder to compare cost of benchmarking models for Malayalam. In Singapore the maximum I had to spent for a dinner was 32 SGD during my recent visit.)
 7. I absoluted loved `whisper.cpp` because it's able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?
 8. What are your thoughts on LLM finetuning?
+
+## Quiz Questions
 
 
 ## Thanks to
