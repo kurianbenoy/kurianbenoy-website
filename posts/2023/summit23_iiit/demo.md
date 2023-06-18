@@ -3,7 +3,7 @@ title: Vegam Whisper Family of Models and demoing Malayalam Speech to Text
 author: Kurian Benoy
 date: 2023-06-11
 date-format: full
-categories: [academia, life, conference, Malayalam, Audio, Talk, SMC]
+categories: [academic, life, conference, Malayalam, Audio, Talk, SMC]
 subtitle: Talk page for Demo Presentation session presented @ Summit 23, IIIT Kottayam
 toc: true
 image: ../../../talks/iiit-kottayam-summit/huggingface.png

@@ -5,7 +5,6 @@ categories: [Malayalam, Audio, Talk, SMC, Debian, conference]
 date: 2023-06-17
 date-format: full
 comments: false
-draft: true
 toc: true
 ---
 
@@ -28,11 +27,26 @@ toc: true
 
 ## Quiz Questions
 
+1. Name three Malayalam fonts?
+(Hint: SMC makes a lot of fonts)
+2. Who developed the user friendly GNU/Linux distribution called Slynux during his high school?
+(Hint: He is an xMECian)
+3. Which was the best performing malayalam ASR model according to [malayalam_asr_benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking) results?
+4. What is the name for debian versions 11 & 12?
+
+## Quiz Answers
+
+1. There are a lot of Malayalam fonts. Check [SMC fonts page for answers](https://www.smc.org.in/fonts/)
+2. Sarath Lakshman, do check his [website](https://www.sarathlakshman.com/about/)
+3. Thennal D K's [whisper-medium-ml model](https://huggingface.co/thennal/whisper-medium-ml)
+4. "bullseye"(Debian 11) and "bookworm"(Debian 12). Fun fact, all the versions of Debian is named after characters [in movie Toy story](https://wiki.debian.org/ToyStory).
 
 ## Thanks to
 
-All the folks who asked questions and made the session interactive, a big thank you.
+All the folks who asked questions and made the session interactive, a big thank you from my side.
 As a speaker, it was the first time I was satisfied with myself for making the session
-interactive as this session was right after having a delicious lunch of biriyani.
-Also a special thanks to the volunteer who distributed the chocolotes to folks
-who answered my quiz questions.
+interactive. My session demanded an interactive session as well my slot was just after having a
+delicious lunch of biriyani. Also a special thanks to the volunteer who distributed the chocolotes to folks
+who answered my quiz questions. The organizers of event were fabulous, a special mention
+to names of people I remember at time of writing. Thank you Jithin, Karthik, Alaka, Theerthana, Aneeta who
+helped me and was always there to help regarding anything.
