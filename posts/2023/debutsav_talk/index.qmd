@@ -6,6 +6,7 @@ date: 2023-06-17
 date-format: full
 comments: false
 toc: true
+image: /posts/2023/debutsav_talk/debutsav.jpeg
 ---
 
 ## Links to talk
@@ -21,7 +22,7 @@ toc: true
 3. What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?
 4. How much resources is required to fine tune Whisper models?
 5. How much did it cost for you to do benchmarking in Malayalam?
-6. Does it really cost $30 to buy a biriyani for a family in Singapore? (Sorry that during the talk, I mentioned it cost $30 to buy one biriyani in Singapore. This analogy was done inorder to compare cost of benchmarking models for Malayalam. In Singapore the maximum I had to spent for a dinner was 32 SGD during my recent visit.)
+6. Does it really cost $30 to buy a biriyani for a family in Singapore? (Sorry that during the talk, I mentioned it cost $30 to buy one biriyani in Singapore which might not be quite true. This analogy was done in order to compare cost of benchmarking models for Malayalam.)
 7. I absoluted loved `whisper.cpp` because it's able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?
 8. What are your thoughts on LLM finetuning?
 
@@ -49,4 +50,16 @@ interactive. My session demanded an interactive session as well my slot was just
 delicious lunch of biriyani. Also a special thanks to the volunteer who distributed the chocolotes to folks
 who answered my quiz questions. The organizers of event were fabulous, a special mention
 to names of people I remember at time of writing. Thank you Jithin, Karthik, Alaka, Theerthana, Aneeta who
-helped me and was always there to help regarding anything.
+was always there to help regarding anything.
+
+## Photos
+
+![Pookalam created by FOSSMEC team](debutsav.jpeg)
+
+![Photo with my Debian Developer friend Abhijit P A](IMG_20230617_093828555.jpg)
+
+![Speakers of the event](IMG_20230617_140338687.jpg)
+
+![MEC pictures](IMG_20230617_155155985.jpg)
+
+![Things in the speaker kit](IMG-1935.jpg)
