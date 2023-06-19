@@ -17,7 +17,7 @@ image: /posts/2023/debutsav_talk/debutsav.jpeg
 
 ## Questions received
 
-1. Why is Malayalam more complex than other languages like Malayalam, I understand your method of comparing TTR. Yet isn't the method of comparing TTR with other languages absurd as the data used for comparission in the dataset might not have all words of a particular language?
+1. Why is Malayalam more complex than other languages like Hindi, Marathi etc. I understand your method of comparing TTR. Yet isn't the method of comparing TTR with other languages absurd as the data used for comparission in the dataset might not have all words of a particular language?
 2. Do you think whether just a privileged few people can do Machine Learning?
 3. What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?
 4. How much resources is required to fine tune Whisper models?
