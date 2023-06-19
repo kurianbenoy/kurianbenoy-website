@@ -66,4 +66,4 @@ was always there to help regarding anything.
 
 ![Gifts received as a speaker](IMG-1935.jpg)
 
-![QR code pointed to my website generated with https://qart.charlesfrye.com](../../../talks/mec/kurianbenoy-qrcode.png)
+![QR code pointing to my website generated with https://qart.charlesfrye.com](../../../talks/mec/kurianbenoy-qrcode.png)
