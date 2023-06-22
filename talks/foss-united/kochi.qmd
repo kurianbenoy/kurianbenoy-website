@@ -1,0 +1,288 @@
+---
+title: Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue
+author: Kurian Benoy
+subtitle: 📍 FOSS United Kochi Meetup, KeyValue Software Systems, Smart Kochi.
+date: 2023-06-24
+date-format: full
+comments: false
+format:
+  revealjs:
+    theme: solarized
+    slide-number: true
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || Whisper and it's amazing power to fine-tune models demonstrated in my mother tongue"
+---
+
+## Outline
+
+- What is OpenAI Whisper? (3 minutes)
+- What are features of OpenAI Whisper? (3 minutes)
+<!-- - History of models before and after OpenAI Whisper (5 minutes) -->
+- What is Fine-tuning and how to fine-tune Whisper? (3 minutes)
+- About my mother tongue (2 minute)
+- Methadology of benchmarking OpenAI whisper models? (7 minutes)
+- Results of benchmarking
+- Conclusion
+
+## $whoami
+
+- AI Engineer & Team Lead @ sentient.io
+- Volunteer @ Swathanthra Malayalam Computing(SMC)
+- FOSS enthusiast
+- Not affiliated to OpenAI
+
+## Disclaimer
+
+- <span style="color:red">This talk is not generated.</span>
+- <span style="color:blue">If I use something generated I will explicitly mark as from an LLM.</span>
+
+## OpenAI Whisper
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
+
+- <span style="color:red">I think Whisper^[<span style="color:black">According to [research paper](https://cdn.openai.com/papers/whisper.pdf) p.2, the name Whisper is an abbrevation for WSPR: `Web-scale Supervised Pretraining for Speech Recognition`.</span>] is the most `under-rated model` released by OpenAI.</span>
+- <span style="color:green">It was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</span>
+
+## About OpenAI Whisper Model
+
+- Whisper is a computer program which can listen to people talking and write down what they say. <span style="color:red">(Automatic Speech Recognition Model)</span>
+- Whisper can understand people speaking different languages and can even translate what they say into English. <span style="color:green">(Supports transcription and translation to English)</span>
+
+::: aside
+<span style="color:black">Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?</span>
+:::
+
+## Whisper Models {.scrollable}
+
+
+|  Size  | Parameters |Required VRAM | Relative speed |
+|------:|----------:|:----------:|:------------:|
+|  tiny  |    39 M    |     ~1 GB    |      ~32x      |
+|  base  |    74 M    |     ~1 GB    |      ~16x      |
+| small  |   244 M    |    ~2 GB     |      ~6x       |
+| medium |   769 M    |    ~5 GB     |      ~2x       |
+| large  |   1550 M   |   ~10 GB     |       1x       |
+
+
+## English Speech Recognition
+
+![Whisper is competitive with state of art commercial and open source systems. Diagram from [whisper research paper]([research paper](https://cdn.openai.com/papers/whisper.pdf)) p.9](../fossasia2023/Whisper_english.png)
+
+
+## Multi-lingual Speech recognition
+
+- <span style="color:red">Whisper model is trained on 99 languages</span>
+- <span style="color:green">OpenAI Whisper API supports just 57 languages as some languages performance are not really good.</span>
+
+::: aside
+- More details can be found in Section 3.4 of [Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) pp.6 - 8.
+- Zero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.7)
+:::
+
+## Runs in almost any device
+
+- <span style="color:red">Since Whisper followed the open source route, [whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+developed by [Georgi Gerganov](https://github.com/ggerganov) which is a port of OpenAI's 
+Whisper model in C/C++.</span>
+
+<span style="color:orange">
+- It supports the below platforms:
+
+1. Mac OS (Intel and ARM)
+2. iOS
+3. Android
+4. Linux/Free BSD
+5. Web Assembly etc.
+</span>
+
+## Awesome community plugins
+
+- Word-level time stamps with [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped),[whisperX](https://github.com/m-bain/whisperX) etc.
+- Fine-Tune Whisper is achieving SOTA in lot of languages
+- [Speaker diarization](https://huggingface.co/spaces/dwarkesh/whisper-speaker-recognition)
+- [Audio classification using OpenAI’s Whisper](https://github.com/jumon/zac)
+- [4x faster with same accuracy using faster-whisper](https://github.com/guillaumekln/faster-whisper)
+
+::: aside
+[Thanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
+:::
+
+## What is fine tuning?
+
+<span style="color:red">Given a pre-trained model, which is a large model which is trained
+on a very specific task. If we want to fit it into our specific dataset we will train
+and use the pre-trained model to build a new model which works very well for our task.</span>
+
+![Picture from [fast.lesson](course.fast.ai/) covering steps in finetuning a text classifier model](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png){width=300 fig-align="center"}
+
+## Fine tuning is still relevant
+
+{{< tweet waydegilliam 1641228571611123712 >}}
+
+## What are steps for fine-tuning Whisper?
+
+![[Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)](../fossasia2023/blogpost_image.png){width=700 fig-align="center"}
+
+## What are steps for fine-tuning Whisper?
+
+1. Preparing Environment
+2. Load dataset
+3. Prepare Feature Extractor, Tokenizer and Data
+4. Training and evaluation
+5. Building a demo(optional)
+
+::: aside
+- Based on article [Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)
+- [More details on fine tuning Whisper](https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event)
+:::
+
+## About Malayalam
+
+- <span style="color:red">Malayalam is my mother tongue.</span>
+- <span style="color:blue">Native speakers: 38+ million.(according to 2011 census)</span>
+- <span style="color:green">Spoken in: Kerala, Lakshadweep, Puducherry, wherever Malayalees are living.</span>
+
+## Malayalam is morphologically complex language
+
+![Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.](../delft-fastai/morphology_ttr.png){width="800"}
+
+::: aside
+<span style="color:black">Picture from [Quantitative Analysis of the Morphological
+Complexity of Malayalam Language by K. Manohar et al](https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7). For more information check this paper.</span>
+
+:::
+
+## Whisper Event
+
+- HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.
+- The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣
+
+::: aside
+[Whisper Event huggingface page](https://huggingface.co/whisper-event)
+:::
+
+## Malayalam models in Whisper Event
+
+- For the language Malayalam, the results are as follows:
+
+![Malayalam models performance in whisper event according [to leaderboard](https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&config=ml&split=test)](https://user-images.githubusercontent.com/24592806/222974236-44f047ec-e072-4f6a-b49f-ed88afb02999.png){width=700 fig-align="center"}
+
+## Winning models in Malayalam in Whisper Event
+
+- The winning model for Common voice: `thennal/whisper-medium-ml`
+- The winning model for Fleurs: `parambharath/whisper-small-ml`
+
+## I was not convinced
+
+I was sceptical about the winning models becuase of:
+
+1. Achieving 10% WER in Malayalam is astonishing.
+2. In Malayalam there is not even a single yard stick to compare. Most of
+previous works were done in proprietary datasets and not open-sourced.
+3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
+is a big deal.
+
+## I was not convinced {.scrollable}
+
+4. Didn't trust the Hugging Face way of evaluating models.
+
+![thennal/whisper-medium-ml model card readme](../fossasia2023/thennal_model_card.png)
+
+
+## I was not convinced {.scrollable}
+
+4. Didn't trust the Hugging Face way of evaluating models.
+
+![Last commit in thennal/whisper-medium-ml](../fossasia2023/thennal_commit.png)
+
+## I wanted to build something new
+
+- New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
+
+![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
+
+##
+
+{{< tweet kurianbenoy2 1633647128059969536 >}}
+
+##
+
+{{< tweet kavya_manohar 1633755478818959372 >}}
+
+## Results on Benchmarking in Malayalam
+
+- Started with 6 fine-tuned models in Malayalam
+
+1. thennal/whisper-medium-ml
+2. parambharat/whisper-tiny-ml
+3. parambharat/whisper-base-ml
+4. parambharat/whisper-small-ml
+5. anuragshas/whisper-large-v2-ml
+6. DrishtiSharma/whisper-large-v2-malayalam
+
+- Compared it with [6 model versions released by OpenAI](https://github.com/openai/whisper).
+
+## Results on benechmarking in Common Voice dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230587218-96f1c95b-abaf-4c09-866c-0538d7105239.png)
+
+## Results in Common Voice dataset
+
+![WER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526272-cadd5443-5316-40e1-a356-46c993cb174d.png)
+
+## CER in Common Voice dataset
+
+![CER in Common Voice-9 test split](https://user-images.githubusercontent.com/24592806/230526282-f6018629-1aa0-4c6c-9b9a-66b4f04e3355.png)
+
+## Results on benechmarking in Malayalam Speech Corpus dataset
+
+![Output from benchmarking tool](https://user-images.githubusercontent.com/24592806/230657721-4e98b75b-4641-4047-8d51-5bd098b76fc8.png)
+
+## Results in Malayalam Speech Corpus dataset
+
+![WER in MSC](https://user-images.githubusercontent.com/24592806/230658615-5db73907-764f-42db-8f2c-88f1089ac1ea.png)
+
+## CER in Malayalam Speech Corpus
+
+![Character Error rate in MSC](https://user-images.githubusercontent.com/24592806/230658625-d3a9541c-facf-4f4c-83f8-f93ffa4c5c7a.png)
+
+::: {.notes}
+in WER Malayalam CommonVoice9 dataset:
+
+tiny - 102.7
+base - 122.9
+small - 104.8
+medium - 137.8
+large - 107.1
+largev2 - 103.2
+:::
+
+## Conclusion
+
+- In Malayalam we have achieved phenomenal results for fine tuned whisper models.
+- We seems to have build really good ASR suitable for production use-cases.
+- You can also do it in your own language especially if it is a low resource language.
+
+## Thanks to
+
+:::: {.columns}
+
+::: {.column width="70%"}
+1. [OpenAI team](https://openai.com/) - Alec Radford, [Jong Wook Kim](https://github.com/jongwook), [Christine McLeavey](https://www.linkedin.com/in/mcleavey) etc. other authors of [Whisper paper](https://cdn.openai.com/papers/whisper.pdf)
+2. [HuggingFace team](https://huggingface.co/) - [Sanchit Gandhi](https://huggingface.co/sanchit-gandhi), [Nicolas Patry](https://huggingface.co/Narsil), [Vaibhav Srivastav](https://github.com/Vaibhavs10) etc.
+3. [Kavya Manohar](https://kavyamanohar.com/) and other members in [Swathanthra Malayalam Computing community](https://smc.org.in/).
+:::
+
+::: {.column width="30%"}
+4. [AbdulMajedRaja RS](https://www.youtube.com/@1littlecoder)
+5. [Georgi Gerganov](https://github.com/ggerganov)
+6. [Ramsri Goutham](https://ramsri.ai/)
+7. [Wayde Gilliam](https://twitter.com/waydegilliam)
+8. [Jarvis Labs](cloud.jarvislabs.ai/)
+:::
+
+::::
+
+
+## Tributes to Areeb Jamal
+
+![Source: [Areeb Jamal Forever in our Hearts and our Memory](https://blog.fossasia.org/areeb-jamal-forever-in-our-hearts-and-our-memory/) - FOSSASIA blog](https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2021/04/lastslide.png?w=1920&ssl=1)
