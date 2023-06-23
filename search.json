@@ -1481,7 +1481,7 @@
     "href": "talks/foss-united/kochi.html#benchmarked-models",
     "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
     "section": "Benchmarked models",
-    "text": "Benchmarked models\n\nStarted with 6 fine-tuned models in Malayalam and compared it with 6 model versions released by OpenAI.\n\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam"
+    "text": "Benchmarked models\n\nStarted with 6 fine-tuned models in Malayalam and compared it with 6 model versions released by OpenAI.\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam"
   },
   {
     "objectID": "talks/foss-united/kochi.html#results-on-benechmarking-in-common-voice-dataset",
@@ -1537,7 +1537,7 @@
     "href": "talks/foss-united/kochi.html#links-to-project-1",
     "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
     "section": "Links to Project",
-    "text": "Links to Project\nBenchmarking results\n\nResults on SMC Malayalam Speech corpus\n\nhttps://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking/tree/main\n\nResults on Common Voice 11\n\nhttps://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking"
+    "text": "Links to Project\nBenchmarking results\n\nResults on SMC Malayalam Speech corpus\nhttps://huggingface.co/datasets/kurianbenoy/\nmalayalam_msc_benchmarking\nResults on Common Voice 11\nhttps://huggingface.co/datasets/kurianbenoy/\nmalayalam_common_voice_benchmarking"
   },
   {
     "objectID": "talks/foss-united/kochi.html#future-ideas-for-benchmarking",
