@@ -344,12 +344,12 @@ def evaluate_whisper_model_common_voice(
 
 - <span style="color:red">Started with 6 fine-tuned models in Malayalam and compared it with [6 model versions released by OpenAI](https://github.com/openai/whisper).</span>
 
-1. thennal/whisper-medium-ml
-2. parambharat/whisper-tiny-ml
-3. parambharat/whisper-base-ml
-4. parambharat/whisper-small-ml
-5. anuragshas/whisper-large-v2-ml
-6. DrishtiSharma/whisper-large-v2-malayalam
+    1. thennal/whisper-medium-ml
+    2. parambharat/whisper-tiny-ml
+    3. parambharat/whisper-base-ml
+    4. parambharat/whisper-small-ml
+    5. anuragshas/whisper-large-v2-ml
+    6. DrishtiSharma/whisper-large-v2-malayalam
 
 
 ## Results on benechmarking in Common Voice dataset
@@ -396,11 +396,15 @@ def evaluate_whisper_model_common_voice(
 
  - <span style="color:orange">Results on SMC Malayalam Speech corpus</span>
  
- https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking/tree/main
+    https://huggingface.co/datasets/kurianbenoy/
+ 
+    malayalam_msc_benchmarking
  
  - <span style="color:orange">Results on Common Voice 11</span>
  
- https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking
+    https://huggingface.co/datasets/kurianbenoy/
+ 
+    malayalam_common_voice_benchmarking
 
 ## Future Ideas for Benchmarking
 
