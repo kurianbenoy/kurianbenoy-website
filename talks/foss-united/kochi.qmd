@@ -9,6 +9,8 @@ format:
   revealjs:
     theme: solarized
     slide-number: true
+    chalkboard: true
+    multiplex: true
     footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
 ---
 
