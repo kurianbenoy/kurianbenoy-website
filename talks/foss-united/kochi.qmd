@@ -162,7 +162,7 @@ and use the pre-trained model to build a new model which works very well for our
 ## Malayalam performance in whisper paper
 
 | Model    | WER |
-|------:|----------:|
+|-----|-------|
 |  tiny    |    102.7 |
 |  base    |    122.9 |
 | small    |    104.8 |
@@ -255,7 +255,7 @@ previous works were done in proprietary datasets and not open-sourced.
     + nbdev
     + Jupyter Lab
 
-## Code
+## Loading the dataset for benchmarking
 
 ``` {.python code-line-numbers="2-6|7-9"}
 def load_common_voice_malayalam_dataset():
@@ -270,9 +270,18 @@ def load_common_voice_malayalam_dataset():
     return dataset
 ```
 
-## Code
+## Running the benchmarking of a particular model weight
 
-```{.python }
+```{.python}
+evaluate_whisper_model_common_voice(
+    "openai/whisper-large",
+    [], [], [], []
+)
+```
+
+## Evaluating benchmarking code
+
+```{.python code-line-numbers="11-13|14|21-24"}
 def evaluate_whisper_model_common_voice(
         model_name: str, # The model name
         werlist: List[float], # WER List
@@ -299,9 +308,10 @@ def evaluate_whisper_model_common_voice(
     end = time.time()
 ```
 
-## Code
+## Calculating wer, cer, total wer, total cer
 
 ```{.python }
+    ...
     df = pd.DataFrame({"predictions": predictions, "ground_truth": references})
     df["model_name"] = model_name
     df["wer"] = df.apply(lambda row: wer(normalizer(row["ground_truth"]), normalizer(row["predictions"])), axis=1)
@@ -319,9 +329,10 @@ def evaluate_whisper_model_common_voice(
     print(f"The CER of model: {rcer}")
 ```
 
-## Code
+## Calculating model_size, storing it as dataset
 
 ```{.python}
+    ...
     print(f"The model size is: {get_model_size(whisper_asr.model)}")
     modelsizelist.append(get_model_size(whisper_asr.model))
     df["model_size"] = get_model_size(whisper_asr.model)
@@ -330,7 +341,7 @@ def evaluate_whisper_model_common_voice(
     print(save_name)
     df.to_parquet(f"{save_name[0]}_{save_name[1]}_commonvoice.parquet")
     
-    clear_gpu_memory()    
+    clear_gpu_memory()
 ```
 
 
