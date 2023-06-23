@@ -112,7 +112,7 @@ Whisper model in C/C++.</span>
 on a very specific task. If we want to fit it into our specific dataset we will train
 and use the pre-trained model to build a new model which works very well for our task.</span>
 
-![Picture from [fast.lesson](course.fast.ai/) covering steps in finetuning a text classifier model](https://raw.githubusercontent.com/fastai/fastbook/823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff/images/att_00027.png){width=300 fig-align="center"}
+![Picture from [fast.lesson](course.fast.ai/) covering steps in finetuning a text classifier model](../fossasia2023/fine_tune.png){width=300 fig-align="center"}
 
 ## Fine tuning is still relevant
 
