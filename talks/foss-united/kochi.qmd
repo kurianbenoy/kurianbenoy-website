@@ -1,7 +1,7 @@
 ---
-title: Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue
+title: OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue
 author: Kurian Benoy
-subtitle: 📍 FOSS Meetup, Kochi @ KeyValue Software Systems, Smart Kochi.
+subtitle: 📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.
 date: 2023-06-24
 date-format: full
 comments: false
@@ -9,19 +9,19 @@ format:
   revealjs:
     theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) || Whisper and it's amazing power to fine-tune models demonstrated in my mother tongue"
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
 ---
 
 ## Outline
 
-- What is OpenAI Whisper? (3 minutes)
-- What are features of OpenAI Whisper? (3 minutes)
+- What is OpenAI Whisper?
+- Features of OpenAI Whisper
 <!-- - History of models before and after OpenAI Whisper (5 minutes) -->
-- What is Fine-tuning and how to fine-tune Whisper? (3 minutes)
-- About my mother tongue (2 minute)
-- Methadology of benchmarking OpenAI whisper models? (7 minutes)
-- Results of benchmarking
-- Conclusion
+- What is Fine-tuning and how to fine-tune Whisper?
+- About my mother tongue
+- Methadology of benchmarking whisper models
+- Results on benchmarking Whisper model
+- Future Ideas & Conclusion
 
 ## $whoami
 
@@ -171,7 +171,7 @@ and use the pre-trained model to build a new model which works very well for our
 | large-v2 |    103.2 |
 
 ::: aside
-Appendix D2.2.2  CommonVoice9 dataset results, ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.23).
+Appendix D2.2.2  CommonVoice9 dataset results ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.23).
 :::
 
 ## Malayalam models produced in Whisper Event
@@ -189,11 +189,10 @@ Appendix D2.2.2  CommonVoice9 dataset results, ([Whisper research paper](https:/
 
 I was sceptical about the winning models becuase of:
 
-1. Achieving 10% WER in Malayalam is astonishing.
+1. Achieving 11% WER in Malayalam is astonishing.
 2. In Malayalam there is not even a single yard stick to compare. Most of
 previous works were done in proprietary datasets and not open-sourced.
-3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER
-is a big deal.
+3. Malyalam is a [morpohologically complex language](https://kavyamanohar.com/documents/tsd_morph_complexity_ml.pdf). So even achieving 30% WER is a big deal.
 
 ## I was not convinced {.scrollable}
 
@@ -230,24 +229,31 @@ is a big deal.
 <span style="color:black">To learn more about ASR evaluation check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-learning/evaluating-an-automatic-speech-recognition-service/)</span>
 :::
 
-## I wanted to build something new
-
-- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
-
-![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
-
 ## Methadology for benchmarking
 
 1. <span style="color:red">Create as a python library so further whisper-based transformer models can be benchmark.</span>
 2. <span style="color:blue">Calculate WER, CER, model size and time taken to benchmark the model for the listed datasets.</span>
 3. <span style="color:green">Build a reproducible approach, so results of benchmarking is stored as dataset.</span>
 
+## I wanted to build something new
+
+- <span style="color:red">New github project for [Malayalam ASR Benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking)</span>
+
+![Time for a new adventure](../fossasia2023/adventure_talk.jpg)
+
 ## Libraries I used for benchmarking
 
-- Development library: nbdev
-- Dependencies:
+* Dependencies:
+    + transformers
+    + datasets
+    + jiwer
+    + whisper_normalizer
+    + `numerize pandas librosa soundfile`
 
-`transformers>=4.0.0,<5 datasets jiwer numerize pandas librosa soundfile==0.12.1 whisper_normalizer`
+* Development library:
+
+    + nbdev
+    + Jupyter Lab
 
 ## Code
 
@@ -372,6 +378,32 @@ def evaluate_whisper_model_common_voice(
 
 ![Character Error rate in MSC](../iiit-kottayam-summit/msc_cer.png)
 
+## Links to Project
+
+<span style="color:red">Github project</span>
+
+ <span style="color:black">https://github.com/kurianbenoy/malayalam_asr_benchmarking</span>
+
+## Links to Project 
+
+<span style="color:blue">Benchmarking results</span>
+
+ - <span style="color:orange">Results on SMC Malayalam Speech corpus</span>
+ 
+ https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking/tree/main
+ 
+ - <span style="color:orange">Results on Common Voice 11</span>
+ 
+ https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking
+
+## Future Ideas for Benchmarking
+
+- <span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span>
+- <span style="color:blue">Should include results for Kaldi, Meta's MMS, Wav2Vec etc.</span>
+
+![Open LLM leaderboard in [huggingface spaces](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)](../delft-fastai/openllm.png)
+
+
 ## Conclusion
 
 ::: {.incremental}
@@ -402,8 +434,3 @@ def evaluate_whisper_model_common_voice(
 12. [Jarvis Labs](cloud.jarvislabs.ai/)
 :::
 ::::
-
-
-## Tributes to Areeb Jamal
-
-![Source: [Areeb Jamal Forever in our Hearts and our Memory](https://blog.fossasia.org/areeb-jamal-forever-in-our-hearts-and-our-memory/) - FOSSASIA blog](https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2021/04/lastslide.png?w=1920&ssl=1)
