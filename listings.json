@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/slides.html",
+    "items": [
+      "/talks/lt_talk_idea/index.html",
+      "/talks/foss-united/kochi.html",
+      "/talks/mec/debutsav.html",
+      "/talks/iiit-kottayam-summit/index.html",
+      "/talks/iiit-kottayam-summit/demo.html",
+      "/talks/delft-fastai/index.html",
+      "/talks/fossasia2023.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/2023/debutsav_talk/index.html",
@@ -124,18 +136,6 @@
       "/posts/2019/2019-03-13-FOSSASIA-Day1.html",
       "/posts/2019/2019-03-01-Contributing_to_Open_Source_With_CloudCV.html",
       "/posts/2019/2019-02-11-SVD_NMF.html"
-    ]
-  },
-  {
-    "listing": "/slides.html",
-    "items": [
-      "/talks/lt_talk_idea/index.html",
-      "/talks/foss-united/kochi.html",
-      "/talks/mec/debutsav.html",
-      "/talks/iiit-kottayam-summit/index.html",
-      "/talks/iiit-kottayam-summit/demo.html",
-      "/talks/delft-fastai/index.html",
-      "/talks/fossasia2023.html"
     ]
   }
 ]
