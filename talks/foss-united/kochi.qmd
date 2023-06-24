@@ -173,7 +173,7 @@ and use the pre-trained model to build a new model which works very well for our
 | large-v2 |    103.2 |
 
 ::: aside
-Appendix D2.2.2  CommonVoice9 dataset results ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.23).
+<span style="color:black">Appendix D2.2.2  CommonVoice9 dataset results ([Whisper research paper](https://cdn.openai.com/papers/whisper.pdf) p.23).</span>
 :::
 
 ## Malayalam models produced in Whisper Event
