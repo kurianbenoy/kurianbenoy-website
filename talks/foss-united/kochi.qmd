@@ -21,7 +21,7 @@ format:
 <!-- - History of models before and after OpenAI Whisper (5 minutes) -->
 - What is Fine-tuning and how to fine-tune Whisper?
 - About my mother tongue
-- Methadology of benchmarking whisper models
+- Methodology of benchmarking whisper models
 - Results on benchmarking Whisper model
 - Future Ideas & Conclusion
 
@@ -231,7 +231,7 @@ previous works were done in proprietary datasets and not open-sourced.
 <span style="color:black">To learn more about ASR evaluation check this [blogpost by AWS](https://aws.amazon.com/blogs/machine-learning/evaluating-an-automatic-speech-recognition-service/)</span>
 :::
 
-## Methadology for benchmarking
+## Methodology for benchmarking
 
 1. <span style="color:red">Create as a python library so further whisper-based transformer models can be benchmark.</span>
 2. <span style="color:blue">Calculate WER, CER, model size and time taken to benchmark the model for the listed datasets.</span>
