@@ -2188,7 +2188,7 @@
     "href": "talks/foss-united/kochi.html#outline",
     "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
     "section": "Outline",
-    "text": "Outline\n\nWhat is OpenAI Whisper?\nFeatures of OpenAI Whisper \nWhat is Fine-tuning and how to fine-tune Whisper?\nAbout my mother tongue\nMethadology of benchmarking whisper models\nResults on benchmarking Whisper model\nFuture Ideas & Conclusion"
+    "text": "Outline\n\nWhat is OpenAI Whisper?\nFeatures of OpenAI Whisper \nWhat is Fine-tuning and how to fine-tune Whisper?\nAbout my mother tongue\nMethodology of benchmarking whisper models\nResults on benchmarking Whisper model\nFuture Ideas & Conclusion"
   },
   {
     "objectID": "talks/foss-united/kochi.html#whoami",
@@ -2359,11 +2359,11 @@
     "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and good enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more about ASR evaluation check this blogpost by AWS\nAccording to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
   },
   {
-    "objectID": "talks/foss-united/kochi.html#methadology-for-benchmarking",
-    "href": "talks/foss-united/kochi.html#methadology-for-benchmarking",
+    "objectID": "talks/foss-united/kochi.html#methodology-for-benchmarking",
+    "href": "talks/foss-united/kochi.html#methodology-for-benchmarking",
     "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
-    "section": "Methadology for benchmarking",
-    "text": "Methadology for benchmarking\n\nCreate as a python library so further whisper-based transformer models can be benchmark.\nCalculate WER, CER, model size and time taken to benchmark the model for the listed datasets.\nBuild a reproducible approach, so results of benchmarking is stored as dataset."
+    "section": "Methodology for benchmarking",
+    "text": "Methodology for benchmarking\n\nCreate as a python library so further whisper-based transformer models can be benchmark.\nCalculate WER, CER, model size and time taken to benchmark the model for the listed datasets.\nBuild a reproducible approach, so results of benchmarking is stored as dataset."
   },
   {
     "objectID": "talks/foss-united/kochi.html#i-wanted-to-build-something-new",
