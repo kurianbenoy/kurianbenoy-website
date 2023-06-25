@@ -10,7 +10,94 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.3.427</generator>
-<lastBuildDate>Sat, 17 Jun 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 24 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/fossunited/kochi.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="links-to-talk" class="level2">
+<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
+<ul>
+<li><p><a href="../../../talks/foss-united/kochi.html">Slides</a></p></li>
+<li><p>Scheduled Time: Saturday, June 24, 2023, 11:15 AM IST - 11:45 PM IST</p></li>
+<li><p><a href="https://www.youtube.com/live/B0_HKAbe3kk?feature=share&amp;t=5784">Youtube Live Video Stream link</a></p></li>
+<li><p><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project</a></p></li>
+<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></p></li>
+<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></p></li>
+</ul>
+</section>
+<section id="questions-received" class="level2">
+<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
+<ol type="1">
+<li><p>Why do you think thennal’s whisper model performed so well?</p></li>
+<li><p>How hard is to do the fine-tuning of whisper model in terms of effort?</p></li>
+<li><p>How resources do you think is required to do LLM fine-tuning?</p></li>
+<li><p>What do you think are some way’s to improve Malayalam speech to text models even further?</p></li>
+</ol>
+</section>
+<section id="thanks-to" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
+<p>The organizers of this meetup were fabulous. It was nice to interact with organizers like Mark, Richard, Riya, Subin, Devdutt etc. One of my friends Arun who was batch-mate at MEC took some nice photos of me speaking. It was a nice experience interacting with fellow speakers like Faiz Mohammed, Andrew Bastin and Maheshwaran. This meetup helped me to meet some new faces and reconnect with some familiar faces whom I knew since my college days. Overall attending the FOSS Unitted Meetup was a great experience for me and felt the meetup is organized excellently.</p>
+</section>
+<section id="photos" class="level2">
+<h2 class="anchored" data-anchor-id="photos">Photos</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/talks/foss-united/Foss_united_poster.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Poster Image of my talk</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossunited/father.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">My father dropped me off to the meetup</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossunited/IMG_20230624_114019385.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Talk outline</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/fossunited/IMG_20230624_114019385.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">This talk is not generated :D</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p></p><div id="tweet-70220"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-70220").innerHTML = tweet["html"];</script><p></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Malayalam</category>
+  <category>Audio</category>
+  <category>Talk Page</category>
+  <category>SMC</category>
+  <category>meetup</category>
+  <guid>https://kurianbenoy.com/posts/2023/fossunited/kochi.html</guid>
+  <pubDate>Sat, 24 Jun 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>AI with Malayalam Computing!</title>
   <link>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</link>
@@ -24,37 +111,41 @@
 <ul>
 <li><p><a href="../../../talks/mec/debutsav.html">Slides</a></p></li>
 <li><p>Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST - 3:45 PM IST</p></li>
+<li><p><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project Github Link</a></p></li>
+<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></p></li>
+<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></p></li>
+<li><p><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku a Malayalam speech to text demo</a></p></li>
 </ul>
 </section>
 <section id="questions-received" class="level2">
 <h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
 <ol type="1">
-<li>Why is Malayalam more complex than other languages like Hindi, Marathi etc. While I understand the methodology of comparing type-to-token ratio (TTR), isn’t it possible that the dataset used for comparison may not include all the words of a particular language?</li>
-<li>Do you think whether just a privileged few people can do Machine Learning?</li>
-<li>What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?</li>
-<li>How much resources is required to fine tune Whisper models?</li>
-<li>How much did it cost for you to do benchmarking in Malayalam?</li>
-<li>Does a biriyani meal for a family in Singapore costs $30? (Apologies for my previous incorrect statement during the talk, where I mentioned the cost of one biriyani in Singapore might be about $30. This analogy was made to compare the cost of benchmarking models for Malayalam.)</li>
-<li>I absoluted loved <code>whisper.cpp</code> because it’s able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?</li>
-<li>What are your thoughts on LLM finetuning?</li>
+<li><p>Why is Malayalam more complex than other languages like Hindi, Marathi etc. While I understand the methodology of comparing type-to-token ratio (TTR), isn’t it possible that the dataset used for comparison may not include all the words of a particular language?</p></li>
+<li><p>Do you think whether just a privileged few people can do Machine Learning?</p></li>
+<li><p>What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?</p></li>
+<li><p>How much resources is required to fine tune Whisper models?</p></li>
+<li><p>How much did it cost for you to do benchmarking in Malayalam?</p></li>
+<li><p>Does a biriyani meal for a family in Singapore costs $30? (Apologies for my previous incorrect statement during the talk, where I mentioned the cost of one biriyani in Singapore might be about $30. This analogy was made to compare the cost of benchmarking models for Malayalam.)</p></li>
+<li><p>I absoluted loved <code>whisper.cpp</code> because it’s able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?</p></li>
+<li><p>What are your thoughts on LLM finetuning?</p></li>
 </ol>
 </section>
 <section id="quiz-questions" class="level2">
 <h2 class="anchored" data-anchor-id="quiz-questions">Quiz Questions</h2>
 <ol type="1">
-<li>Name three Malayalam fonts? (Hint: SMC makes a lot of fonts)</li>
-<li>Who developed the user friendly GNU/Linux distribution called Slynux during his high school? (Hint: He is an xMECian)</li>
-<li>Which was the best performing malayalam ASR model according to <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking</a> results?</li>
-<li>What is the name for debian versions 11 &amp; 12?</li>
+<li><p>Name three Malayalam fonts? (Hint: SMC makes a lot of fonts)</p></li>
+<li><p>Who developed the user friendly GNU/Linux distribution called Slynux during his high school? (Hint: He is an xMECian)</p></li>
+<li><p>Which was the best performing malayalam ASR model according to <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking</a> results?</p></li>
+<li><p>What is the name for debian versions 11 &amp; 12?</p></li>
 </ol>
 </section>
 <section id="quiz-answers" class="level2">
 <h2 class="anchored" data-anchor-id="quiz-answers">Quiz Answers</h2>
 <ol type="1">
-<li>There are a lot of Malayalam fonts. Check <a href="https://www.smc.org.in/fonts/">SMC fonts page for answers</a></li>
-<li>Sarath Lakshman, do check his <a href="https://www.sarathlakshman.com/about/">website</a></li>
-<li>Thennal D K’s <a href="https://huggingface.co/thennal/whisper-medium-ml">whisper-medium-ml model</a></li>
-<li>“bullseye”(Debian 11) and “bookworm”(Debian 12). Fun fact, all the versions of Debian is named after characters <a href="https://wiki.debian.org/ToyStory">in movie Toy story</a>.</li>
+<li><p>There are a lot of Malayalam fonts. Check <a href="https://www.smc.org.in/fonts/">SMC fonts page for answers</a></p></li>
+<li><p>Sarath Lakshman, do check his <a href="https://www.sarathlakshman.com/about/">website</a></p></li>
+<li><p>Thennal D K’s <a href="https://huggingface.co/thennal/whisper-medium-ml">whisper-medium-ml model</a></p></li>
+<li><p>“bullseye”(Debian 11) and “bookworm”(Debian 12). Fun fact, all the versions of Debian is named after characters <a href="https://wiki.debian.org/ToyStory">in movie Toy story</a>.</p></li>
 </ol>
 </section>
 <section id="thanks-to" class="level2">
@@ -493,8 +584,22 @@ for their intended purposes.</code></pre>
 <li><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project</a></li>
 </ul>
 </section>
-<section id="pictures-from-session" class="level2">
-<h2 class="anchored" data-anchor-id="pictures-from-session">Pictures from Session</h2>
+<section id="talk-in-30-seconds" class="level2">
+<h2 class="anchored" data-anchor-id="talk-in-30-seconds">Talk in 30 seconds</h2>
+<p>I talked about what is OpenAI whisper and some of it’s amazing feature. I highlighted the importance of fine-tuning Whisper in low-resource language like Malayalam which is able to get almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where calculated with a new github project called <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking created by me</a>.</p>
+</section>
+<section id="thanks-to" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
+<p>In my talk I mentioned <a href="https://kurianbenoy.com/talks/fossasia2023.html#/thanks-to">the following people and organizations</a>. Beyond that first of all, I would like to thank FOSSASIA team for giving me this opportunity to talk in FOSSASIA Summit 2023. I would like to thank <a href="https://abhijithpa.me/">Abhijit PA</a> for taking pictures of my talk and Thorsen for moderating my session. <a href="https://www.linkedin.com/in/karunakar-vanama-182702145/">Karuankar Vanama</a> pointed out a typo in a slide which was corrected. I got a lot of support after this talk when I posted in <a href="https://www.linkedin.com/posts/kurianbenoy_fossasia-activity-7052803823953739776-KmkL?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a> and <a href="https://twitter.com/kurianbenoy2/status/1647246814410682368">Twitter</a> and few folks reached out to me after this talk. I am really thankful to all of you.</p>
+</section>
+<section id="questions-received" class="level2">
+<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
+<ol type="1">
+<li>Someone was curious to know the relationship between Malayalam language and the Sanskrit language?</li>
+</ol>
+</section>
+<section id="photos" class="level2">
+<h2 class="anchored" data-anchor-id="photos">Photos</h2>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" class="img-fluid figure-img" width="800"></p>
@@ -519,20 +624,6 @@ for their intended purposes.</code></pre>
 <figcaption class="figure-caption">A snap from live stream session of my talk</figcaption>
 </figure>
 </div>
-</section>
-<section id="talk-in-30-seconds" class="level2">
-<h2 class="anchored" data-anchor-id="talk-in-30-seconds">Talk in 30 seconds</h2>
-<p>I talked about what is OpenAI whisper and some of it’s amazing feature. I highlighted the importance of fine-tuning Whisper in low-resource language like Malayalam which is able to get almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where calculated with a new github project called <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking created by me</a>.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<p>In my talk I mentioned <a href="https://kurianbenoy.com/talks/fossasia2023.html#/thanks-to">the following people and organizations</a>. Beyond that first of all, I would like to thank FOSSASIA team for giving me this opportunity to talk in FOSSASIA Summit 2023. I would like to thank <a href="https://abhijithpa.me/">Abhijit PA</a> for taking pictures of my talk and Thorsen for moderating my session. <a href="https://www.linkedin.com/in/karunakar-vanama-182702145/">Karuankar Vanama</a> pointed out a typo in a slide which was corrected. I got a lot of support after this talk when I posted in <a href="https://www.linkedin.com/posts/kurianbenoy_fossasia-activity-7052803823953739776-KmkL?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a> and <a href="https://twitter.com/kurianbenoy2/status/1647246814410682368">Twitter</a> and few folks reached out to me after this talk. I am really thankful to all of you.</p>
-</section>
-<section id="questions-received" class="level2">
-<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
-<ol type="1">
-<li>Someone was curious to know the relationship between Malayalam language and the Sanskrit language?</li>
-</ol>
 
 
 </section>
@@ -691,19 +782,19 @@ for their intended purposes.</code></pre>
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-14031"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-14031").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-24995"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-24995").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-66810"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-66810").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-27296"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27296").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-30202"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-30202").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-44742"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-44742").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-65790"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-65790").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-69603"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-69603").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -722,14 +813,14 @@ for their intended purposes.</code></pre>
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-14937"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-14937").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-51947"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-51947").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-33665"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-33665").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-99736"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-99736").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-13919"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-13919").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-15648"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15648").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-10860"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-10860").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-36943"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-36943").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1203,9 +1294,9 @@ font-style: inherit;">"accuracy"</span>),</span>
 <span id="cb3-9">)</span></code></pre></div>
 </div>
 <p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-19103"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-19103").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-98217"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-98217").innerHTML = tweet["html"];</script><p></p>
 <p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-16530"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-16530").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-17581"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-17581").innerHTML = tweet["html"];</script><p></p>
 
 
 
@@ -1333,748 +1424,6 @@ font-style: inherit;">"accuracy"</span>),</span>
   <guid>https://kurianbenoy.com/posts/2022/2022-06-27-tipstolearnvim.html</guid>
   <pubDate>Mon, 27 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/images/monk.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Building a baseline model for Malayalam Text Classification</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-06-04-baselinemodel.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="why-trying-out-simple-baseline-models" class="level2">
-<h2 class="anchored" data-anchor-id="why-trying-out-simple-baseline-models">Why trying out simple baseline models?</h2>
-<p>I have been working on open source project to work on Malayalam text classification approaches. If you want to follow along the previous blogs check the <a href="https://kurianbenoy.com/ml-blog/categories/#malayalamtextmodels">tag #malayalamtextmodels</a></p>
-<p>One of the most under-rated advices which I actually learned from the Approaching almost any Machine learning Problem(AAAMLP) by <a href="https://twitter.com/abhi1thakur">Abhishek Thakur</a> was to start always with simple models and to create a baseline first. This is something <a href="https://twitter.com/jeremyphoward">Jeremy</a> also repeatedly emphasises:</p>
-<blockquote class="blockquote">
-<p>So we should always be careful to benchmark simple models, as see if they’re good enough for our needs. In practice, you will often find that simple models will have trouble providing adequate accuracy for more complex tasks, such as recommendation systems, NLP, computer vision, or multivariate time series. But there’s no need to guess – it’s so easy to try a few different models, there’s no reason not to give the simpler ones a go too!</p>
-</blockquote>
-<p><a href="https://github.com/fastai/course22/blob/master/07-how-random-forests-really-work.ipynb">source: 7-how-random-forests-really-work</a></p>
-</section>
-<section id="doing-modeling-with-simple-approaches" class="level2">
-<h2 class="anchored" data-anchor-id="doing-modeling-with-simple-approaches">Doing modeling with simple approaches</h2>
-<p>Instead of directly trying out transformers models, I first thought of working with some simple models and see how well they perform. Since I had previously read AAAMLP and seen Abhisheks chapter on how trying out simple techniques in IMDB dataset have him impressive results. I also thought of trying the same approaches.</p>
-<p>What follows is my attempt to follow steps initially outlined in AAAMLP book.My code doesn’t depart from the original code in book much.</p>
-<p>Let’s start off by importing libraries:</p>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> nltk</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> pd</span>
-<span id="cb1-3"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn.model_selection <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> train_test_split</span>
-<span id="cb1-4"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> nltk.tokenize <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> word_tokenize</span>
-<span id="cb1-5"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> linear_model</span>
-<span id="cb1-6"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> naive_bayes</span>
-<span id="cb1-7"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> metrics</span>
-<span id="cb1-8"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> model_selection</span>
-<span id="cb1-9"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> preprocessing</span>
-<span id="cb1-10"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn.feature_extraction.text <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> CountVectorizer</span>
-<span id="cb1-11"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> sklearn.feature_extraction.text <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> TfidfVectorizer</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">nltk.download(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"punkt"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>[nltk_data] Downloading package punkt to
-[nltk_data]     /home/kurianbenoy/nltk_data...
-[nltk_data]   Package punkt is already up-to-date!</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="2">
-<pre><code>True</code></pre>
-</div>
-</div>
-<p>For training, I used a privately shared dataset with me which contained news articles with their associated labels. It contained almost 9000+ sentences labelled in 6 categories of news like Sports, Kerala, Business, Gulf, India, Entertainment.</p>
-<div class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"labels"</span>].value_counts()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="4">
-<pre><code>Kerala           3847
-Entertainment    1968
-Sports           1061
-Gulf             1034
-India             881
-Business          572
-Name: labels, dtype: int64</code></pre>
-</div>
-</div>
-<section id="logistic-regression-countvectorizer" class="level3">
-<h3 class="anchored" data-anchor-id="logistic-regression-countvectorizer">Logistic regression + CountVectorizer</h3>
-<p>One of the first models shared was about using Logistic regression and Count Vectorizer model in AAAMLP book. Let’s see how well it performs in our dataset.</p>
-<div class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">count_vec <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> CountVectorizer(tokenizer<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>word_tokenize, token_pattern<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%%</span>time</span>
-<span id="cb8-2">count_vec.fit(df.text)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>CPU times: user 15.3 s, sys: 196 ms, total: 15.5 s
-Wall time: 15.5 s</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>CountVectorizer(token_pattern=None,
-                tokenizer=&lt;function word_tokenize at 0x7f940dc34d30&gt;)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br>On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden=""><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked=""><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">CountVectorizer</label><div class="sk-toggleable__content"><pre>CountVectorizer(token_pattern=None,
-                tokenizer=&lt;function word_tokenize at 0x7f940dc34d30&gt;)</pre></div></div></div></div></div>
-</div>
-</div>
-<div class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%%</span>time</span>
-<span id="cb10-2">xtrain <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(df.text)</span>
-<span id="cb10-3">model <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> linear_model.LogisticRegression()</span>
-<span id="cb10-4">model.fit(xtrain, df.labels)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>CPU times: user 4min 27s, sys: 7.5 s, total: 4min 35s
-Wall time: 1min 2s</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-<style>#sk-container-id-2 {color: black;background-color: white;}#sk-container-id-2 pre{padding: 0;}#sk-container-id-2 div.sk-toggleable {background-color: white;}#sk-container-id-2 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-2 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-2 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-2 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-2 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-2 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-2 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-2 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-2 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-2 div.sk-item {position: relative;z-index: 1;}#sk-container-id-2 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-2 div.sk-item::before, #sk-container-id-2 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-2 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-2 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-2 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-2 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-2 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-2 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-2 div.sk-label-container {text-align: center;}#sk-container-id-2 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-2 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br>On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden=""><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked=""><label for="sk-estimator-id-2" class="sk-toggleable__label sk-toggleable__label-arrow">LogisticRegression</label><div class="sk-toggleable__content"><pre>LogisticRegression()</pre></div></div></div></div></div>
-</div>
-</div>
-<div class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">data <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> {</span>
-<span id="cb13-2">    <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"text"</span>: [</span>
-<span id="cb13-3">        <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"സ്കൂബാഡൈവിങ്ങ്, സ്നോർക്കേലിങ്ങ്, സ്പീഡ്ബോട്ടിങ്ങ്, സർഫിങ്ങ് തുടങ്ങിയ കടൽവിനോദങ്ങൾക്കു പേരുകേട്ട ബാലിയിൽ പോയിട്ടും ഇതൊന്നും പരീക്ഷിച്ചില്ല.ധൈര്യം വരാത്തതുകൊണ്ടാണ്. ഇപ്പോൾ ആലോചിക്കുമ്പോൾ ഒരുകൈ നോക്കാമായിരുന്നെന്നുോന്നുന്നു. സാരമില്ല, ബാക്കിവെച്ച ആഗ്രഹങ്ങളാണല്ലോ മുന്നോട്ടുനീങ്ങാനുള്ള പ്രേരണ. അവസരങ്ങൾ ഇനിയുമുണ്ടാകുമെന്ന് കരുതുന്നു."</span></span>
-<span id="cb13-4">    ],</span>
-<span id="cb13-5">    <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"labels"</span>: [<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sport"</span>],</span>
-<span id="cb13-6">}</span>
-<span id="cb13-7">data</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="8">
-<pre><code>{'text': ['സ്കൂബാഡൈവിങ്ങ്, സ്നോർക്കേലിങ്ങ്, സ്പീഡ്ബോട്ടിങ്ങ്, സർഫിങ്ങ് തുടങ്ങിയ കടൽവിനോദങ്ങൾക്കു പേരുകേട്ട ബാലിയിൽ പോയിട്ടും ഇതൊന്നും പരീക്ഷിച്ചില്ല.ധൈര്യം വരാത്തതുകൊണ്ടാണ്. ഇപ്പോൾ ആലോചിക്കുമ്പോൾ ഒരുകൈ നോക്കാമായിരുന്നെന്നുോന്നുന്നു. സാരമില്ല, ബാക്കിവെച്ച ആഗ്രഹങ്ങളാണല്ലോ മുന്നോട്ടുനീങ്ങാനുള്ള പ്രേരണ. അവസരങ്ങൾ ഇനിയുമുണ്ടാകുമെന്ന് കരുതുന്നു.'],
- 'labels': ['sport']}</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">test_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> pd.DataFrame(data)</span>
-<span id="cb15-2">test_df.head()</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="9">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">text</th>
-<th data-quarto-table-cell-role="th">labels</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>സ്കൂബാഡൈവിങ്ങ്, സ്നോർക്കേലിങ്ങ്, സ്പീഡ്ബോട്ടിങ...</td>
-<td>sport</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1">test_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df.sample(frac<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.1</span>, random_state<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)</span>
-<span id="cb16-2">test_df.shape</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="10">
-<pre><code>(936, 2)</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="11">
-<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1">xtest <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(test_df.text)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1">preds <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> model.predict(xtest)</span>
-<span id="cb19-2">accuracy <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> metrics.accuracy_score(test_df.labels, preds)</span>
-<span id="cb19-3">accuracy</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="12">
-<pre><code>0.9989316239316239</code></pre>
-</div>
-</div>
-<p>You may be wondering, why I haven’t deleted all these code piece even after experimenting. This is something, which recently picked up following fastai v5 course. Instead of always deleting after experimenting, keep your experiments also public. But after experimentation is done, wrap it up as function like the one below so you can reuse it in future experiments as well.</p>
-<div class="cell" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> vectorize_evaluate_loop(train_df, test_df):</span>
-<span id="cb21-2">    count_vec <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> CountVectorizer(tokenizer<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>word_tokenize, token_pattern<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>)</span>
-<span id="cb21-3">    count_vec.fit(train_df.text)</span>
-<span id="cb21-4">    dependent_train <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(train_df.text)</span>
-<span id="cb21-5">    model <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> linear_model.LogisticRegression()</span>
-<span id="cb21-6">    model.fit(dependent_train, train_df.labels)</span>
-<span id="cb21-7">    dependent_test <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(test_df.text)</span>
-<span id="cb21-8">    predictions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> model.predict(dependent_test)</span>
-<span id="cb21-9">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> metrics.accuracy_score(test_df.labels, predictions)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%%</span>time</span>
-<span id="cb22-2">vectorize_evaluate_loop(df, test_df)</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>CPU times: user 4min 37s, sys: 6.69 s, total: 4min 43s
-Wall time: 1min 17s</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="14">
-<pre><code>0.9989316239316239</code></pre>
-</div>
-</div>
-<p>The function to create k-folds for calculating validation accuracy across K folds of data. It’s very important to create <a href="https://www.fast.ai/2017/11/13/validation-sets/">good validation sets</a>.</p>
-<div class="cell" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">df[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"kfold"</span>] <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span>
-<span id="cb26-2">df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df.sample(frac<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>).reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1">df.shape</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="16">
-<pre><code>(9363, 3)</code></pre>
-</div>
-</div>
-<div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1">Y_value <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df.labels.values</span>
-<span id="cb29-2">kf <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> model_selection.StratifiedKFold(n_splits<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>)</span>
-<span id="cb29-3"></span>
-<span id="cb29-4"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> fold, (text_, value_) <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">enumerate</span>(kf.split(X<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>df, y<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>Y_value)):</span>
-<span id="cb29-5">    df.loc[value_, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"kfold"</span>] <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> fold</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> fold_ <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">range</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>):</span>
-<span id="cb30-2">    train_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[df.kfold <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!=</span> fold_].reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb30-3">    test_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[df.kfold <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> fold_].reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb30-4">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Fold value: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>fold_<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span>
-<span id="cb30-5">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Accuracy: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>vectorize_evaluate_loop(train_df, test_df)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Fold value: 0
-Accuracy: 0.8873465029364656
-Fold value: 1
-Accuracy: 0.8777362520021356
-Fold value: 2
-Accuracy: 0.8916177255739456
-Fold value: 3
-Accuracy: 0.875
-Fold value: 4
-Accuracy: 0.8669871794871795</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(</code></pre>
-</div>
-</div>
-</section>
-<section id="naive-bayes-classifier" class="level3">
-<h3 class="anchored" data-anchor-id="naive-bayes-classifier">Naive Bayes Classifier</h3>
-<p>A bit faster to complete training, yet only difference is it’s having less accuracy compared to previous approach.</p>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> naive_bayes_evaluate_loop(train_df, test_df):</span>
-<span id="cb33-2">    count_vec <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> CountVectorizer(tokenizer<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>word_tokenize, token_pattern<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>)</span>
-<span id="cb33-3">    count_vec.fit(train_df.text)</span>
-<span id="cb33-4">    dependent_train <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(train_df.text)</span>
-<span id="cb33-5">    <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># changing different model name for function</span></span>
-<span id="cb33-6">    model <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> naive_bayes.MultinomialNB()</span>
-<span id="cb33-7">    model.fit(dependent_train, train_df.labels)</span>
-<span id="cb33-8">    dependent_test <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(test_df.text)</span>
-<span id="cb33-9">    predictions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> model.predict(dependent_test)</span>
-<span id="cb33-10">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> metrics.accuracy_score(test_df.labels, predictions)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> fold_ <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">range</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>):</span>
-<span id="cb34-2">    train_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[df.kfold <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!=</span> fold_].reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb34-3">    test_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[df.kfold <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> fold_].reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb34-4">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Fold value: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>fold_<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span>
-<span id="cb34-5">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Accuracy: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>naive_bayes_evaluate_loop(train_df, test_df)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Fold value: 0
-Accuracy: 0.8441003737319808
-Fold value: 1
-Accuracy: 0.8227442605445809
-Fold value: 2
-Accuracy: 0.8296849973304858
-Fold value: 3
-Accuracy: 0.8269230769230769
-Fold value: 4
-Accuracy: 0.8183760683760684</code></pre>
-</div>
-</div>
-</section>
-<section id="logistic-regression-tfidf-vectorizer" class="level3">
-<h3 class="anchored" data-anchor-id="logistic-regression-tfidf-vectorizer">Logistic Regression + Tfidf Vectorizer</h3>
-<div class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb36" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">def</span> tf_idf_evaluate_loop(train_df, test_df):</span>
-<span id="cb36-2">    <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># note we are using TfidfVectorizer instead of CountVectorizer</span></span>
-<span id="cb36-3">    count_vec <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> TfidfVectorizer(tokenizer<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>word_tokenize, token_pattern<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">None</span>)</span>
-<span id="cb36-4">    count_vec.fit(train_df.text)</span>
-<span id="cb36-5">    dependent_train <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(train_df.text)</span>
-<span id="cb36-6">    model <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> linear_model.LogisticRegression()</span>
-<span id="cb36-7">    model.fit(dependent_train, train_df.labels)</span>
-<span id="cb36-8">    dependent_test <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> count_vec.transform(test_df.text)</span>
-<span id="cb36-9">    predictions <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> model.predict(dependent_test)</span>
-<span id="cb36-10">    <span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">return</span> metrics.accuracy_score(test_df.labels, predictions)</span></code></pre></div>
-</div>
-<div class="cell" data-execution_count="23">
-<div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> fold_ <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">range</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>):</span>
-<span id="cb37-2">    train_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[df.kfold <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!=</span> fold_].reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb37-3">    test_df <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> df[df.kfold <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> fold_].reset_index(drop<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb37-4">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Fold value: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>fold_<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span>
-<span id="cb37-5">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Accuracy: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span>tf_idf_evaluate_loop(train_df, test_df)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Fold value: 0
-Accuracy: 0.8478376935397758
-Fold value: 1
-Accuracy: 0.8344901227976508
-Fold value: 2
-Accuracy: 0.8489054991991457
-Fold value: 3
-Accuracy: 0.8290598290598291
-Fold value: 4
-Accuracy: 0.8253205128205128</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-/home/kurianbenoy/mambaforge/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:444: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(</code></pre>
-</div>
-</div>
-</section>
-</section>
-<section id="evaluating-and-looking-results" class="level2">
-<h2 class="anchored" data-anchor-id="evaluating-and-looking-results">Evaluating and looking results</h2>
-<p>I am genuinely surprised by the following:</p>
-<ol type="1">
-<li>A simple linear regression on this text classification tasks get’s close to 87-89% accuracy when evaluated using K-fold validation approach. We haven’t done any complex fine tuning or even label_encoding at the moment. Based on improving with some more tweaks, I am trying a <a href="https://github.com/smc/malayalam-text-classifier/tree/main/notebooks">few things here</a>.</li>
-<li>The state of art model for Text classification in Malayalam claims to have got 92% accuracy based on training only on validation dataset, like we have done in sklearn it seems.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/171474436-2e9a25d5-5e62-41a0-b249-e65a2df57585.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-<p><a href="https://github.com/adamshamsudeen/Vaaku2Vec/blob/master/train_classifier.ipynb">Source</a></p>
-<p><strong>What is the difference between Vaaku2Vec and this simple model if it’s just less than 3% more accurate?</strong></p>
-<blockquote class="blockquote">
-<p>Yet there is a huge difference between ULMFiT approach which Vaaku2Vec and our baseline model. The Vaaku2Vec model has been trained on base model of Malayalam Wikipedia text, so more text corpus will be present and the model has learned from it. In case of our simple baseline model, it has learned just from 9000+ data points only. Now in case of a new word which is not in this dataset, there is a probability it maybe found in Vaaku2Vec model. Yet it’s not always true, because words like Covid will defenitely be not recognized by Vaaku2Vec model also.</p>
-</blockquote>
-</section>
-<section id="using-simple-models-for-labelling" class="level2">
-<h2 class="anchored" data-anchor-id="using-simple-models-for-labelling">Using simple models for labelling</h2>
-<p>One of the best things about using simple models to train is also that you can use it for data labelling efforts. To be honest, I am still learning more about data-annotation and labelling. My friend Alex is an expert though here and checkout his awesome blog <a href="https://blog.zenml.io/data-labelling-annotation">How to get the most out of data annotation</a>. I really loved this image showing 5 steps of datalabelling.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/171987028-11d5e564-f292-4478-8273-749c5d280045.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-<p><a href="https://blog.zenml.io/data-labelling-annotation/">Source and credits: Alex</a></p>
-<p>I see more work on data annotation coming soon as part of this project also. With that have a nice day.</p>
-
-
-</section>
-
- ]]></description>
-  <category>malayalamtextmodels</category>
-  <category>Malayalam</category>
-  <category>NLP</category>
-  <category>opensource</category>
-  <category>ML</category>
-  <category>Deep learning</category>
-  <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-06-04-baselinemodel.html</guid>
-  <pubDate>Sat, 04 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
