@@ -29,16 +29,6 @@ format:
 - Talk Page: [Session Details](https://eventyay.com/e/7cfe0771/session/8074)
 - [Malayalam ASR Benchmarking project](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
 
-## Pictures from Session
-
-![During the talk](IMG_20230415_094452682_HDR.jpg){width=800 fig-align="left"}
-
-![Last minute preparation before talk](IMG_20230415_090740256_HDR.jpg){width=800 fig-align="left"}
-
-![Volunteers helping me with the talk](IMG_20230415_092949649.jpg){width=800 fig-align="left"}
-
-![A snap from live stream session of my talk](youtube_livestream.png){width=800 fig-align="left"}
-
 ## Talk in 30 seconds
 
 I talked about what is OpenAI whisper and some of it's amazing feature. I highlighted the
@@ -57,3 +47,13 @@ this talk when I posted in [LinkedIn](https://www.linkedin.com/posts/kurianbenoy
 
 1. Someone was curious to know the relationship between Malayalam language
 and the Sanskrit language?
+
+## Photos
+
+![During the talk](IMG_20230415_094452682_HDR.jpg){width=800 fig-align="left"}
+
+![Last minute preparation before talk](IMG_20230415_090740256_HDR.jpg){width=800 fig-align="left"}
+
+![Volunteers helping me with the talk](IMG_20230415_092949649.jpg){width=800 fig-align="left"}
+
+![A snap from live stream session of my talk](youtube_livestream.png){width=800 fig-align="left"}
