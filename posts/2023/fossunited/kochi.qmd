@@ -48,6 +48,6 @@ Overall attending the FOSS United Kochi Meetup was a great experience for me and
 
 ![Talk outline](./IMG_20230624_114019385.jpg)
 
-![This talk is not generated :D](./IMG_20230624_114019385.jpg)
+![This talk is not generated :D](./IMG_20230624_114127105.jpg)
 
 {{< tweet user=FOSSUnitedKochi id=1672490010770014208 >}}
