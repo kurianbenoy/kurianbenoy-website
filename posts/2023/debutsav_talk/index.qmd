@@ -76,11 +76,11 @@ was always there to help. Also it was nice to meet FOSSMEC faculty in charge Son
 
 ## Photos
 
-::: {layout-ncol=2}
 ![Pookalam created by FOSSMEC team](debutsav.jpeg)
 
 ![Photo with my Debian Developer friend Abhijit P A](IMG_20230617_093828555.jpg)
 
+::: {layout-ncol=2}
 ![Speakers of the event](IMG_20230617_140338687.jpg)
 
 ![Picture from 3rd floor of MEC](IMG_20230617_155155985.jpg)

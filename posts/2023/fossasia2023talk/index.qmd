@@ -22,12 +22,18 @@ format:
 - [Slides](../../../talks/fossasia2023.html)
 
 - Scheduled Time: Saturday, April 15, 2023, 9:30 AM SGT
+
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
 
 > Please note mine was the first session of the day. I noticed there was a audio issue at the start of talk, so you can [start listening from 2:30 minutes](https://www.youtube.com/live/sGWiXzsLGtI?feature=share&t=149).
 
 - Talk Page: [Session Details](https://eventyay.com/e/7cfe0771/session/8074)
+
 - [Malayalam ASR Benchmarking project](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
+
+- [Results for Common Voice 11 benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking)
+
+- [Results for SMC MSC benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking)
 
 ## Talk in 30 seconds
 
@@ -50,10 +56,11 @@ and the Sanskrit language?
 
 ## Photos
 
-![During the talk](IMG_20230415_094452682_HDR.jpg){width=800 fig-align="left"}
+![During the talk](IMG_20230415_094452682_HDR.jpg)
 
-![Last minute preparation before talk](IMG_20230415_090740256_HDR.jpg){width=800 fig-align="left"}
+::: {layout-ncol=2}
+![Volunteers helping me with the talk](IMG_20230415_092949649.jpg)
 
-![Volunteers helping me with the talk](IMG_20230415_092949649.jpg){width=800 fig-align="left"}
-
-![A snap from live stream session of my talk](youtube_livestream.png){width=800 fig-align="left"}
+![Last minute preparation before talk](IMG_20230415_090740256_HDR.jpg)
+:::
+![A snap from live stream session of my talk](youtube_livestream.png)

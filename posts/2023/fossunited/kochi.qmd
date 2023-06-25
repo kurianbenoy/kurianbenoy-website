@@ -42,7 +42,6 @@ Overall attending the FOSS Unitted Meetup was a great experience for me and felt
 
 ## Photos
 
-::: {layout-ncol=2}
 ![Poster Image of my talk](../../../talks/foss-united/Foss_united_poster.jpg)
 
 ![My father dropped me off to the meetup](./father.jpeg)
@@ -50,6 +49,5 @@ Overall attending the FOSS Unitted Meetup was a great experience for me and felt
 ![Talk outline](./IMG_20230624_114019385.jpg)
 
 ![This talk is not generated :D](./IMG_20230624_114019385.jpg)
-:::
 
 {{< tweet user=FOSSUnitedKochi id=1672490010770014208 >}}
