@@ -21,3 +21,35 @@ comments: false
 - [Results for Common Voice 11 benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking)
 
 - [Results for SMC MSC benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking)
+
+## Questions received
+
+1. Why do you think thennal's whisper model performed so well?
+
+2. How hard is to do the fine-tuning of whisper model in terms of effort?
+
+3. How resources do you think is required to do LLM fine-tuning?
+
+4. What do you think are some way's to improve Malayalam speech to text models even further?
+
+## Thanks to
+
+The organizers of this meetup were fabulous. It was nice to interact with organizers like Mark, Richard, Riya, Subin,
+Devdutt etc. One of my friends Arun who was batch-mate at MEC took some nice photos of me speaking.
+It was a nice experience interacting with fellow speakers like Faiz Mohammed, Andrew Bastin and Maheshwaran.
+This meetup helped me to meet some new faces and reconnect with some familiar faces whom I knew since my college days.
+Overall attending the FOSS Unitted Meetup was a great experience for me and felt the meetup is organized excellently.
+
+## Photos
+
+::: {layout-ncol=2}
+![Poster Image of my talk](../../../talks/foss-united/Foss_united_poster.jpg)
+
+![My father dropped me off to the meetup](./father.jpeg)
+
+![Talk outline](./IMG_20230624_114019385.jpg)
+
+![This talk is not generated :D](./IMG_20230624_114019385.jpg)
+:::
+
+{{< tweet user=FOSSUnitedKochi id=1672490010770014208 >}}

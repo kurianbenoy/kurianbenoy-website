@@ -26,28 +26,42 @@ image: /posts/2023/debutsav_talk/debutsav.jpeg
 ## Questions received
 
 1. Why is Malayalam more complex than other languages like Hindi, Marathi etc. While I understand the methodology of comparing type-to-token ratio (TTR), isn't it possible that the dataset used for comparison may not include all the words of a particular language?
+
 2. Do you think whether just a privileged few people can do Machine Learning?
+
 3. What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?
+
 4. How much resources is required to fine tune Whisper models?
+
 5. How much did it cost for you to do benchmarking in Malayalam?
+
 6. Does a biriyani meal for a family in Singapore costs $30? (Apologies for my previous incorrect statement during the talk, where I mentioned the cost of one biriyani in Singapore might be about $30. This analogy was made to compare the cost of benchmarking models for Malayalam.)
+
 7. I absoluted loved `whisper.cpp` because it's able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?
+
 8. What are your thoughts on LLM finetuning?
+
 
 ## Quiz Questions
 
 1. Name three Malayalam fonts?
 (Hint: SMC makes a lot of fonts)
+
 2. Who developed the user friendly GNU/Linux distribution called Slynux during his high school?
 (Hint: He is an xMECian)
+
 3. Which was the best performing malayalam ASR model according to [malayalam_asr_benchmarking](https://github.com/kurianbenoy/malayalam_asr_benchmarking) results?
+
 4. What is the name for debian versions 11 & 12?
 
 ## Quiz Answers
 
 1. There are a lot of Malayalam fonts. Check [SMC fonts page for answers](https://www.smc.org.in/fonts/)
+
 2. Sarath Lakshman, do check his [website](https://www.sarathlakshman.com/about/)
+
 3. Thennal D K's [whisper-medium-ml model](https://huggingface.co/thennal/whisper-medium-ml)
+
 4. "bullseye"(Debian 11) and "bookworm"(Debian 12). Fun fact, all the versions of Debian is named after characters [in movie Toy story](https://wiki.debian.org/ToyStory).
 
 ## Thanks to
