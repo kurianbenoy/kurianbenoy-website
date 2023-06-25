@@ -15,6 +15,14 @@ image: /posts/2023/debutsav_talk/debutsav.jpeg
 
 - Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST - 3:45 PM IST
 
+- [Malayalam ASR Benchmarking project Github Link](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
+
+- [Results for Common Voice 11 benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking)
+
+- [Results for SMC MSC benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking)
+
+- [Pallakku a Malayalam speech to text demo](https://huggingface.co/spaces/kurianbenoy/Pallakku)
+
 ## Questions received
 
 1. Why is Malayalam more complex than other languages like Hindi, Marathi etc. While I understand the methodology of comparing type-to-token ratio (TTR), isn't it possible that the dataset used for comparison may not include all the words of a particular language?
