@@ -9,7 +9,6 @@ format:
     theme: solarized
     slide-number: true
     chalkboard: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
 ---
 
 ## Items for filling in conference
