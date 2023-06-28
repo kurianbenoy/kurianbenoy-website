@@ -1,20 +1,205 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
-      xmlns:media="http://search.yahoo.com/mrss/" 
-      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-      xmlns:dc="http://purl.org/dc/elements/1.1/" 
-      version="2.0">
-<channel>
-<title>Kurian Benoy</title>
-<link>https://kurianbenoy.com/blog.html</link>
-<atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
-<description>Recent posts on kurianbenoy.com</description>
-<generator>quarto-1.3.433</generator>
-<lastBuildDate>Sun, 06 Apr 2025 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>Experimenting Transcribing any audio to any language in Indic Languages</title>
-  <link>https://kurianbenoy.com/posts/2023/whisper_en_to_any_transcription.html</link>
-  <description><![CDATA[ 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2025-04-06">
+
+<title>Kurian Benoy - Experimenting Transcribing any audio to any language in Indic Languages</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Kurian Benoy - Experimenting Transcribing any audio to any language in Indic Languages">
+<meta property="og:description" content="">
+<meta property="og:site-name" content="Kurian Benoy">
+<meta name="twitter:title" content="Kurian Benoy - Experimenting Transcribing any audio to any language in Indic Languages">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kurian Benoy</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html" rel="" target="">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://til.kurianbenoy.com/" rel="" target="">
+ <span class="menu-text">TIL</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/kurianbenoy" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Experimenting Transcribing any audio to any language in Indic Languages</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Audio</div>
+                <div class="quarto-category">Whisper</div>
+                <div class="quarto-category">Deep Learning</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 6, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -26,11 +211,7 @@
 <p>🪄 The magic sauce is to force the model to transcribe in a particular language!</p>
 <p>The environment setup is pretty much straightforward, we’ll use <code>transformers</code> to load the <a href="https://huggingface.co/openai/whisper-large-v2">Whisper-large-v2</a> checkpoint (<code>fp-16</code>) in a colab’s free GPU! 🏃‍♂️</p>
 <div class="cell" data-outputid="ccd0c0ff-0a1f-4c9f-861c-df474db0128b" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!</span>pip <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>q install transformers datasets huggingface_hub</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip <span class="op">-</span>q install transformers datasets huggingface_hub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 87.5 MB/s eta 0:00:00
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 486.2/486.2 kB 47.3 MB/s eta 0:00:00
@@ -45,13 +226,9 @@ font-style: inherit;">-</span>q install transformers datasets huggingface_hub</s
 <p>Note: We only need to authenticate for the purpose of accessing the <a href="https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0">Common Voice dataset</a>. You can safely ignore this if you are using your own audio dataset.</p>
 <p>You can find your access token at: <a href="httpS://hf.co/settings/token">hf.co/settings/token</a></p>
 <div class="cell" data-outputid="90da0ca4-38d8-4a5c-fbdb-bb8a964257d6" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> huggingface_hub <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> notebook_login</span>
-<span id="cb3-2"></span>
-<span id="cb3-3">notebook_login()</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> notebook_login</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>notebook_login()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"8515e3a0f2d54143aa3318b8bacc7f0d","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -60,117 +237,35 @@ font-style: inherit;">import</span> notebook_login</span>
 </div>
 <p>For the purpose of colab demo, we’ll use a Whisper-large-v2 checkpoint in half-precision (<code>fp16</code>). If you have access to a larger GPU VRAM then remove the <code>torch_dtype</code> arg 🤗</p>
 <div class="cell" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> torch</span>
-<span id="cb4-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> transformers <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> pipeline</span>
-<span id="cb4-3"></span>
-<span id="cb4-4">whisper_asr <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> pipeline(</span>
-<span id="cb4-5">    <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"automatic-speech-recognition"</span>,</span>
-<span id="cb4-6">    model<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"openai/whisper-large-v2"</span>,</span>
-<span id="cb4-7">    torch_dtype<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>torch.float16,</span>
-<span id="cb4-8">    device<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"cuda:0"</span></span>
-<span id="cb4-9">    )</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>whisper_asr <span class="op">=</span> pipeline(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"automatic-speech-recognition"</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span><span class="st">"openai/whisper-large-v2"</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    torch_dtype<span class="op">=</span>torch.float16,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    device<span class="op">=</span><span class="st">"cuda:0"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>To keep things simple, we’ll use the Common Voice dataset from the 🤗 Hub via <code>streaming</code> mode &amp; resample the audio to 16KHz as expected by Whisper.</p>
 <div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> datasets <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> load_dataset</span>
-<span id="cb5-2"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> datasets <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> Audio</span>
-<span id="cb5-3"></span>
-<span id="cb5-4">common_voice_en <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> load_dataset(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"mozilla-foundation/common_voice_11_0"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"en"</span>,</span>
-<span id="cb5-5">                               revision<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"streaming"</span>,</span>
-<span id="cb5-6">                               split<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"test"</span>,</span>
-<span id="cb5-7">                               streaming<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>,</span>
-<span id="cb5-8">                               use_auth_token<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb5-9"></span>
-<span id="cb5-10">common_voice_en <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> common_voice_en.cast_column(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"audio"</span>,</span>
-<span id="cb5-11">                                              Audio(sampling_rate<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">16000</span>))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> Audio</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>common_voice_en <span class="op">=</span> load_dataset(<span class="st">"mozilla-foundation/common_voice_11_0"</span>, <span class="st">"en"</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>                               revision<span class="op">=</span><span class="st">"streaming"</span>,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>                               split<span class="op">=</span><span class="st">"test"</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>                               streaming<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>                               use_auth_token<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>common_voice_en <span class="op">=</span> common_voice_en.cast_column(<span class="st">"audio"</span>,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>                                              Audio(sampling_rate<span class="op">=</span><span class="dv">16000</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Alrighty! Let’s listen to our audio file and take a look at its transcription!</p>
 <div class="cell" data-outputid="43340356-cc94-48de-fb21-8dac387f4b58" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> IPython.display <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> ipd</span>
-<span id="cb6-2"></span>
-<span id="cb6-3">ipd.Audio(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">next</span>(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">iter</span>(common_voice_en))[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"audio"</span>][<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"array"</span>], rate<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">next</span>(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">iter</span>(common_voice_en))[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"audio"</span>][<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sampling_rate"</span>]) <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># load a NumPy array</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> IPython.display <span class="im">as</span> ipd</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>ipd.Audio(<span class="bu">next</span>(<span class="bu">iter</span>(common_voice_en))[<span class="st">"audio"</span>][<span class="st">"array"</span>], rate<span class="op">=</span><span class="bu">next</span>(<span class="bu">iter</span>(common_voice_en))[<span class="st">"audio"</span>][<span class="st">"sampling_rate"</span>]) <span class="co"># load a NumPy array</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Reading metadata...: 16354it [00:00, 67427.36it/s]
 Reading metadata...: 16354it [00:00, 70494.03it/s]</code></pre>
@@ -185,13 +280,7 @@ Reading metadata...: 16354it [00:00, 70494.03it/s]</code></pre>
 </div>
 </div>
 <div class="cell" data-outputid="86b48565-c7ce-4c0a-9d92-4f167f6fc046" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">next</span>(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">iter</span>(common_voice_en))[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sentence"</span>]</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="bu">next</span>(<span class="bu">iter</span>(common_voice_en))[<span class="st">"sentence"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Reading metadata...: 16354it [00:00, 75091.38it/s]</code></pre>
 </div>
@@ -201,55 +290,19 @@ font-style: inherit;">"sentence"</span>]</span></code></pre></div>
 </div>
 <p>Let’s create a wee list of languages to transcribe too. 💥</p>
 <div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">list_of_languages <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> [<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"hi"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"ml"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"ta"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"nl"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"fr"</span>]</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>list_of_languages <span class="op">=</span> [<span class="st">"hi"</span>, <span class="st">"ml"</span>, <span class="st">"ta"</span>, <span class="st">"nl"</span>, <span class="st">"fr"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>🪄 Time for the magic sauce, here, we essentially force Whisper to decode in the specific language. My hypothesis is that because Whisper was trained on 600K+ hours of data it is able to generalise fairly well.</p>
 <p>👀 So the only change you’d need to make to make this happen would be to set the task as <code>transcribe</code> and change the target language.</p>
 <div class="cell" data-outputid="edb15fb0-832e-4a5b-a507-6f0bb68ee6a4" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> lang <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> list_of_languages:</span>
-<span id="cb12-2">    whisper_asr.model.config.forced_decoder_ids <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> (</span>
-<span id="cb12-3">        whisper_asr.tokenizer.get_decoder_prompt_ids(</span>
-<span id="cb12-4">            language<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>lang,</span>
-<span id="cb12-5">            task<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"transcribe"</span></span>
-<span id="cb12-6">            )</span>
-<span id="cb12-7">        )</span>
-<span id="cb12-8">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(whisper_asr(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">next</span>(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">iter</span>(common_voice_en))[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"audio"</span>][<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"array"</span>])[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"text"</span>])</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lang <span class="kw">in</span> list_of_languages:</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    whisper_asr.model.config.forced_decoder_ids <span class="op">=</span> (</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>        whisper_asr.tokenizer.get_decoder_prompt_ids(</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>            language<span class="op">=</span>lang,</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>            task<span class="op">=</span><span class="st">"transcribe"</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(whisper_asr(<span class="bu">next</span>(<span class="bu">iter</span>(common_voice_en))[<span class="st">"audio"</span>][<span class="st">"array"</span>])[<span class="st">"text"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Reading metadata...: 16354it [00:00, 57074.67it/s]
 Reading metadata...: 16354it [00:00, 38166.89it/s]
@@ -269,55 +322,21 @@ Reading metadata...: 16354it [00:00, 72402.30it/s]</code></pre>
 <p>Some of these translations are a bit out of the line, however, we can fix these with some neat generation techniques like <a href="https://huggingface.co/docs/transformers/generation_strategies#contrastive-search">contrastive search</a>!</p>
 <p>You can use contrastive search by providing <code>penalty_alpha</code> and <code>top_p</code> parameters to the <code>generate_kwargs</code> in the pipeline. You can read more about it <a href="https://huggingface.co/blog/introducing-csearch">here</a>. 🤗</p>
 <div class="cell" data-outputid="fea66d13-1091-4aa6-a9a8-436ae0320bb2" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">for</span> lang <span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">in</span> list_of_languages:</span>
-<span id="cb15-2">    whisper_asr.model.config.forced_decoder_ids <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> (</span>
-<span id="cb15-3">        whisper_asr.tokenizer.get_decoder_prompt_ids(</span>
-<span id="cb15-4">            language<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>lang,</span>
-<span id="cb15-5">            task<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"transcribe"</span></span>
-<span id="cb15-6">            )</span>
-<span id="cb15-7">        )</span>
-<span id="cb15-8">    <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(whisper_asr(</span>
-<span id="cb15-9">        <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">next</span>(<span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">iter</span>(common_voice_en))[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"audio"</span>][<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"array"</span>],</span>
-<span id="cb15-10">        generate_kwargs <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span></span>
-<span id="cb15-11">         {</span>
-<span id="cb15-12">              <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"penalty_alpha"</span>: <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.6</span>,</span>
-<span id="cb15-13">              <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"top_k"</span>: <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>,</span>
-<span id="cb15-14">         }</span>
-<span id="cb15-15">        )[<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"text"</span>])</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lang <span class="kw">in</span> list_of_languages:</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    whisper_asr.model.config.forced_decoder_ids <span class="op">=</span> (</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>        whisper_asr.tokenizer.get_decoder_prompt_ids(</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>            language<span class="op">=</span>lang,</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>            task<span class="op">=</span><span class="st">"transcribe"</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(whisper_asr(</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">next</span>(<span class="bu">iter</span>(common_voice_en))[<span class="st">"audio"</span>][<span class="st">"array"</span>],</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>        generate_kwargs <span class="op">=</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>         {</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>              <span class="st">"penalty_alpha"</span>: <span class="fl">0.6</span>,</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>              <span class="st">"top_k"</span>: <span class="dv">5</span>,</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>         }</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>        )[<span class="st">"text"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Reading metadata...: 16354it [00:00, 71238.74it/s]
 Reading metadata...: 16354it [00:00, 37513.10it/s]
@@ -339,1325 +358,247 @@ Reading metadata...: 16354it [00:00, 50967.01it/s]</code></pre>
 
 </section>
 
- ]]></description>
-  <category>Audio</category>
-  <category>Whisper</category>
-  <category>Deep Learning</category>
-  <guid>https://kurianbenoy.com/posts/2023/whisper_en_to_any_transcription.html</guid>
-  <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/fossunited/kochi.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="links-to-talk" class="level2">
-<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
-<ul>
-<li><p><a href="../../../talks/foss-united/kochi.html">Slides</a></p></li>
-<li><p>Scheduled Time: Saturday, June 24, 2023, 11:15 AM IST - 11:45 PM IST</p></li>
-<li><p><a href="https://www.youtube.com/live/B0_HKAbe3kk?feature=share&amp;t=5784">Youtube Live Video Stream link</a></p></li>
-<li><p><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project</a></p></li>
-<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></p></li>
-<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></p></li>
-</ul>
-</section>
-<section id="questions-received" class="level2">
-<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
-<ol type="1">
-<li><p>Why do you think thennal’s whisper model performed so well?</p></li>
-<li><p>How hard is to do the fine-tuning of whisper model in terms of effort?</p></li>
-<li><p>How resources do you think is required to do LLM fine-tuning?</p></li>
-<li><p>What do you think are some way’s to improve Malayalam speech to text models even further?</p></li>
-</ol>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<p>The organizers of this meetup were fabulous. It was nice to interact with organizers like Mark, Richard, Riya, Subin, Devdutt etc. One of my friends Arun who was batch-mate at MEC took some nice photos of me speaking. It was a nice experience interacting with fellow speakers like Faiz Mohammed, Andrew Bastin and Maheshwaran. This meetup helped me to meet some new faces and reconnect with some familiar faces whom I knew since my college days. Overall attending the FOSS United Kochi Meetup was a great experience for me and felt the meetup is organized excellently.</p>
-</section>
-<section id="photos" class="level2">
-<h2 class="anchored" data-anchor-id="photos">Photos</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/talks/foss-united/Foss_united_poster.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Poster Image of my talk</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossunited/father.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">My father dropped me off to the meetup</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossunited/IMG_20230624_114019385.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Talk outline</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossunited/IMG_20230624_114127105.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">This talk is not generated :D</figcaption>
-</figure>
-</div>
-<p></p><div id="tweet-28366"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28366").innerHTML = tweet["html"];</script><p></p>
-
-
-</section>
-
- ]]></description>
-  <category>Malayalam</category>
-  <category>Audio</category>
-  <category>Talk Page</category>
-  <category>SMC</category>
-  <category>meetup</category>
-  <guid>https://kurianbenoy.com/posts/2023/fossunited/kochi.html</guid>
-  <pubDate>Sat, 24 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>AI with Malayalam Computing!</title>
-  <link>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="links-to-talk" class="level2">
-<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
-<ul>
-<li><p><a href="../../../talks/mec/debutsav.html">Slides</a></p></li>
-<li><p>Scheduled Time: Saturday, June 17, 2023, 2:45 PM IST - 3:45 PM IST</p></li>
-<li><p><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project Github Link</a></p></li>
-<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></p></li>
-<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></p></li>
-<li><p><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku a Malayalam speech to text demo</a></p></li>
-</ul>
-</section>
-<section id="questions-received" class="level2">
-<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
-<ol type="1">
-<li><p>Why is Malayalam more complex than other languages like Hindi, Marathi etc. While I understand the methodology of comparing type-to-token ratio (TTR), isn’t it possible that the dataset used for comparison may not include all the words of a particular language?</p></li>
-<li><p>Do you think whether just a privileged few people can do Machine Learning?</p></li>
-<li><p>What do you think about Mojo, will it help in reducing the problem of few privileged people doing ML?</p></li>
-<li><p>How much resources is required to fine tune Whisper models?</p></li>
-<li><p>How much did it cost for you to do benchmarking in Malayalam?</p></li>
-<li><p>Does a biriyani meal for a family in Singapore costs $30? (Apologies for my previous incorrect statement during the talk, where I mentioned the cost of one biriyani in Singapore might be about $30. This analogy was made to compare the cost of benchmarking models for Malayalam.)</p></li>
-<li><p>I absoluted loved <code>whisper.cpp</code> because it’s able to provide timestamps as well, is it possible to implement timestamps in Malayalam as well?</p></li>
-<li><p>What are your thoughts on LLM finetuning?</p></li>
-</ol>
-</section>
-<section id="quiz-questions" class="level2">
-<h2 class="anchored" data-anchor-id="quiz-questions">Quiz Questions</h2>
-<ol type="1">
-<li><p>Name three Malayalam fonts? (Hint: SMC makes a lot of fonts)</p></li>
-<li><p>Who developed the user friendly GNU/Linux distribution called Slynux during his high school? (Hint: He is an xMECian)</p></li>
-<li><p>Which was the best performing malayalam ASR model according to <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking</a> results?</p></li>
-<li><p>What is the name for debian versions 11 &amp; 12?</p></li>
-</ol>
-</section>
-<section id="quiz-answers" class="level2">
-<h2 class="anchored" data-anchor-id="quiz-answers">Quiz Answers</h2>
-<ol type="1">
-<li><p>There are a lot of Malayalam fonts. Check <a href="https://www.smc.org.in/fonts/">SMC fonts page for answers</a></p></li>
-<li><p>Sarath Lakshman, do check his <a href="https://www.sarathlakshman.com/about/">website</a></p></li>
-<li><p>Thennal D K’s <a href="https://huggingface.co/thennal/whisper-medium-ml">whisper-medium-ml model</a></p></li>
-<li><p>“bullseye”(Debian 11) and “bookworm”(Debian 12). Fun fact, all the versions of Debian is named after characters <a href="https://wiki.debian.org/ToyStory">in movie Toy story</a>.</p></li>
-</ol>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<p>All the folks who asked questions and made the session interactive, a big thank you from my side. As a speaker, it was the first time I was satisfied with myself for making the session interactive. My session demanded an interactive session as my slot was just after having a delicious lunch of biriyani. Also a special thanks to the volunteer who distributed the chocolotes to folks who answered my quiz questions. The organizers of event were fabulous, a special mention to names of people I remember at time of writing. Thank you Jithin, Karthik, Alaka, Theerthana, Aneeta who was always there to help. Also it was nice to meet FOSSMEC faculty in charge Sony mam.</p>
-</section>
-<section id="photos" class="level2">
-<h2 class="anchored" data-anchor-id="photos">Photos</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/debutsav.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Pookalam created by FOSSMEC team</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG_20230617_093828555.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Photo with my Debian Developer friend Abhijit P A</figcaption>
-</figure>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG_20230617_140338687.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Speakers of the event</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG_20230617_155155985.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Picture from 3rd floor of MEC</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG-1935.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Gifts received as a speaker</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/talks/mec/kurianbenoy-qrcode.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">QR code pointing to my website generated with https://qart.charlesfrye.com</figcaption>
-</figure>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Malayalam</category>
-  <category>Audio</category>
-  <category>Talk Page</category>
-  <category>SMC</category>
-  <category>Debian</category>
-  <category>conference</category>
-  <guid>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</guid>
-  <pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/2023/debutsav_talk/debutsav.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/summit23_iiit/op_image.jpg" height="600" class="figure-img"></p>
-</figure>
-</div>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li><a href="../../../talks/iiit-kottayam-summit/index.html">Slides</a></li>
-<li>Scheduled Time: Saturday, June 10, 2023. 3:30 PM IST</li>
-<li>Venue: Tapovan, Academic block, IIIT Kottayam.</li>
-<li><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project Github Link</a></li>
-<li><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></li>
-<li><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></li>
-</ul>
-</section>
-<section id="questions-received" class="level2">
-<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
-<ol type="1">
-<li>How can you improve the Malayalam ASR model further? What are techniques which you can do next?</li>
-<li>How are metrics like WER and CER?</li>
-<li>Can you explain how you calculated WER, CER, time taken and model parameter size for your code?</li>
-</ol>
-</section>
-<section id="update-15th-june-2023" class="level2">
-<h2 class="anchored" data-anchor-id="update-15th-june-2023">Update (15th June, 2023)</h2>
-<p>Excited to share that I won 2nd place in Oral Presentation category and won a cash prize of Rs 750.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<p>My MTech project guide <a href="https://www.iiitkottayam.ac.in/#!/faculty/manu">Dr Manu Madhavan</a> for his feedbacks for my Oral presentation slides. I had incorporated his suggestions to make things more clearer in oral presentation. Nihla who is doing her PHD encouraged me to participate in this Summit and gave me the contact of another PHD scholar named Akarsh who told me what is the format Oral Presentation.</p>
-
-
-</section>
-
- ]]></description>
-  <category>academic</category>
-  <category>life</category>
-  <category>conference</category>
-  <category>Malayalam</category>
-  <category>Audio</category>
-  <category>Talk Page</category>
-  <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</guid>
-  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Vegam Whisper Family of Models and demoing Malayalam Speech to Text</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li><a href="../../../talks/iiit-kottayam-summit/demo.html">Slides</a></li>
-<li>Scheduled Time: Saturday, June 10, 2023. 2:00 PM IST</li>
-<li>Venue: AA 127, IIIT Kottayam.</li>
-<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku a Malayalam speech to text demo</a></li>
-</ul>
-</section>
-<section id="vegam-whisper-family-of-models" class="level2">
-<h2 class="anchored" data-anchor-id="vegam-whisper-family-of-models">Vegam Whisper Family of Models</h2>
-<p>Inspired by <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> which is a reimplementation of OpenAI’s Whisper model using CTranslate2 speeds upto 4 times faster than <code>openai/whisper</code> for the same accuracy while using less memory.</p>
-<p>CTranslate2 supports various quantization formats and we have trained models for the following quantization formats:</p>
-<ul>
-<li>float16</li>
-<li>int16</li>
-<li>float8</li>
-<li>int8_float8</li>
-<li>No quantization</li>
-</ul>
-<p>For Malayalam, I used the best model in my benchmarking study ie <a href="https://huggingface.co/thennal/whisper-medium-ml">thennal/whisper-medium-ml</a> and converted into all possible quantization weights.</p>
-<ol type="1">
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml">kurianbenoy/vegam-whisper-medium-ml</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16">kurianbenoy/vegam-whisper-medium-ml-fp16</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16">kurianbenoy/vegam-whisper-medium-ml-int16</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8">kurianbenoy/vegam-whisper-medium-ml-fp8</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8">kurianbenoy/vegam-whisper-medium-ml-int8_float8</a></li>
-</ol>
-</section>
-<section id="code-to-run-faster-whisper-code" class="level2">
-<h2 class="anchored" data-anchor-id="code-to-run-faster-whisper-code">Code to run faster-whisper code</h2>
-<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/faster-whisper.png" class="img-fluid"></p>
-</section>
-<section id="demo-video--1-and-its-associated-output" class="level2">
-<h2 class="anchored" data-anchor-id="demo-video--1-and-its-associated-output">Demo Video -1 and it’s associated Output</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zm1gU8hRHxA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>Oru Thai Nadam sang by Venugopal and Sreya, Lyrics by Sugathakumari</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/25s_audio.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Output of clip from Video 1</figcaption>
-</figure>
-</div>
-</section>
-<section id="demo-video--2-and-its-associated-output" class="level2">
-<h2 class="anchored" data-anchor-id="demo-video--2-and-its-associated-output">Demo Video -2 and it’s associated Output</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fZZFCOkWquY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song created spontaneously at MBIFL 2023</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/10s_audio.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Output of clip from Video 2</figcaption>
-</figure>
-</div>
-</section>
-<section id="pallakku" class="level2">
-<h2 class="anchored" data-anchor-id="pallakku">Pallakku</h2>
-<ul>
-<li>Pallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family of models. It might be the first huggingface 🤗 spaces for Malayalam speech to text.</li>
-</ul>
-<p>Two options to try it out:</p>
-<ol type="1">
-<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">🤗 spaces</a></li>
-</ol>
-<p><img src="https://kurianbenoy.com/talks/delft-fastai/pallakku.png" class="img-fluid"></p>
-<p>You can try it out in <a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">the below link</a>.</p>
-<ol start="2" type="1">
-<li>GPU-based microservice (coming soon.)</li>
-</ol>
-</section>
-<section id="what-is-behind-the-name-of-vegam-and-pallakku" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-behind-the-name-of-vegam-and-pallakku">What is behind the name of Vegam and Pallakku?</h2>
-<ul>
-<li>Vegam is a Malayalam word which means speed.</li>
-<li>Pallakku is a Malayalam word which means a palanquin. It is a vehicle which is carried by people.</li>
-</ul>
-<p>As an author of these work, I just wanted to say the meaning of these words doesn’t really have anything to do with the package. Vegam might not be the fastest Malayalam ASR model and Pallakku is named not to refer to the old colonial times. I just named it for the sake of naming it.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<ul>
-<li><a href="https://twitter.com/santhoshtr/">Santhosh Thottingal</a> for his support and guidance. Santhosh told me about faster-whisper and the utility to convert the model weights to various quantization formats.</li>
-<li>Organizers of IIIT Summit 23 for giving me an opportunity to present my work.</li>
-</ul>
-</section>
-<section id="how-was-the-expereince-presenting-demos" class="level2">
-<h2 class="anchored" data-anchor-id="how-was-the-expereince-presenting-demos">How was the expereince presenting demos?</h2>
-<p>Demo presentations are events where you can interact with people during the scheduled time. There was an evaluation panel with one of chief guests of the event <a href="https://www.linkedin.com/in/dr-t-ramalingeswara-rao-784a903a/">Dr.&nbsp;T Ramalingeswara Rao</a> from TCS and one of the professors.</p>
-<p>These sessions brought a hacker kind of vibe back to me. I was really happy to receive lot of curious questions and smiles received from folks who came to visit my demo presentation. I set up the demo in such a way that there was a wireless microphone and I would play a few audio files. They used to rate the output of the model.</p>
-<p>Some of my professors who taught me in previous semesters like <a href="https://www.iiitkottayam.ac.in/#!/faculty/keshab">Dr.&nbsp;Keshab Nath</a> visited to see my demo and gave me suggestions. It was a nice vibe to interact with a bunch of BTech students in their second semester from Andhra Pradhesh. Even though they were not able to understand Malayalam, they just hung around and asked me questions :D.</p>
-
-
-</section>
-
- ]]></description>
-  <category>academic</category>
-  <category>life</category>
-  <category>conference</category>
-  <category>Malayalam</category>
-  <category>Audio</category>
-  <category>Talk Page</category>
-  <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</guid>
-  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png" medium="image" type="image/png" height="46" width="144"/>
-</item>
-<item>
-  <title>Learning how to install malayalam fonts</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/malayalam_fonts/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I was working on Malayalam Speech to text models and the malayalam letters where not getting rendered properly. I was a bit irritated by it and I asked my friend <a href="https://thottingal.in/">Santhosh Thottingal</a> why <code>?</code> comes this way.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font2.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Malayalam rendered in Nirmala font.</figcaption>
-</figure>
-</div>
-<p>Santhosh told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as <code>?</code>.</p>
-<p>Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.</p>
-<p>So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts.</p>
-<p>I found personally two ways to install fonts and I want to share that here. There maybe another thousand different ways to install fonts which won’t be covered in this blogpost.</p>
-<ol type="1">
-<li>Installing with Malayalam Fonts - firefox plugins</li>
-</ol>
-<ul>
-<li>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/malayalam-fonts/">plugin</a></li>
-<li>Choose the fonts you want to use by selecting it firefox.</li>
-</ul>
-<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/firefox_plugin.png" class="img-fluid"></p>
-<ol start="2" type="1">
-<li>Installing on Microsoft Windows</li>
-</ol>
-<p>I just asked ChatGPT and it gave me the following steps to install fonts by SMC in Windows.</p>
-<pre><code>To download SMC (Swathanthra Malayalam Computing) fonts for your Windows operating system, follow these steps:
-
-1. Visit the SMC website: Go to the SMC website at https://smc.org.in/fonts/
-using your web browser.
-
-2. Choose the font: Browse through the available fonts and select the one you
-want to download. SMC offers a variety of fonts for different purposes.
-
-3. Download the font: Click on the download link or button associated with the
-selected font. The font file will be downloaded to your computer as a
-compressed (ZIP) file.
-
-4. Extract the font: Locate the downloaded ZIP file and extract its contents.
-Right-click on the file and select "Extract All" or use a third-party compression
-tool like WinRAR or 7-Zip to extract the font files.
-
-5. Install the font: After extracting the font files, double-click on the font file
-with the extension ".ttf" or ".otf." A preview of the font will appear, and a dialog
-box will open. Click on the "Install" button to install the font on your Windows system.
-
-6. Font installation completion: Once the font is installed, you can start using it
-in various applications such as word processors, graphic design software, or
-web browsers. The font will be available for selection in the font menu
-of compatible applications.
-
-By following these steps, you should be able to download and install SMC fonts on your Windows
-operating system. Remember to respect font licensing terms and only use the fonts
-for their intended purposes.</code></pre>
-<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font3.jpg" class="img-fluid" alt="Malayalam rendered in Manjari font."> <img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font1.jpg" class="img-fluid" alt="Malayalam rendered in Manjari font."></p>
-<p>After all this I asked Santhosh whether I have installed Manjari font correctly and he said it’s correct. It’s not every day you get to ask the person who built that font whether I have installed the font correctly or not.</p>
-<blockquote class="blockquote">
-<p>Note: For linux, all these fonts are preinstalled by default as it’s packaged as part of linux distros.</p>
-</blockquote>
-<p>I am glad to have friends like <a href="https://thottingal.in/">Santhosh Thottingal</a> to ask questions like this. Santhosh has written lot of popular fonts in Malayalam like <a href="https://smc.org.in/fonts/manjari">Manjari</a>, <a href="https://smc.org.in/fonts/gayathri">Gayathri</a> and with his latest font <a href="https://smc.org.in/fonts/nupuram">Nupuram</a> he has created almost 100+ fonts.</p>
-<p>In my opinion SMC creates the best fonts in Malayalam and check their website section on <a href="https://smc.org.in/fonts">fonts to learn more</a>. If you are interested to learn more about Malayalam Computing I had previously written a <a href="../../../posts/2019/2019-07-30-Malayalam_computing.html">blogpost</a> which is just a highlight of talk given by Santhosh on this topic.</p>
-
-
-
- ]]></description>
-  <category>Malayalam</category>
-  <category>myself</category>
-  <category>SMC</category>
-  <category>TIL</category>
-  <category>malayalamtextmodels</category>
-  <guid>https://kurianbenoy.com/posts/2023/malayalam_fonts/index.html</guid>
-  <pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Malayalam Projects I am working at the moment!</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/delft-fastai-talk/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="links-to-talk" class="level2">
-<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
-<ul>
-<li><p><a href="../../../talks/delft-fastai/index.html">Slides</a></p></li>
-<li><p>Scheduled Time: Sunday, May 28, 2023, 3:30 PM IST</p></li>
-<li><p><a href="https://youtu.be/c69VyJ16Mx4">Youtube Link</a></p></li>
-</ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/c69VyJ16Mx4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<ul>
-<li><a href="https://forums.fast.ai/t/delft-study-group-talks-mojo-and-malayalam-benchmarking-low-resource-language/106126?u=kurianbenoy">fastai forums post</a></li>
-</ul>
-</section>
-<section id="talk-in-30-seconds" class="level2">
-<h2 class="anchored" data-anchor-id="talk-in-30-seconds">Talk in 30 seconds</h2>
-<p>I talked about Malayalam language and what makes it hard to work compared to other high resource languages like English. Then I highlighted some of the Malayalam models build during Whisper event and why I went ahead to benchmark these models. These models where benchmarked on two datasets mainly Common Voice and Malayalam Speech Corpus. I also shared more about the <a href="https://huggingface.co/models?other=vegam">Vegam Whisper model family</a> for making whisper models faster. Also I shared about Malayalam speech to text demo <a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku</a> which I am developing now with Vegam whisper weights.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Malayalam</category>
-  <category>SMC</category>
-  <category>Talk Page</category>
-  <category>meetup</category>
-  <guid>https://kurianbenoy.com/posts/2023/delft-fastai-talk/index.html</guid>
-  <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Visiting main campus of Indian Institute of Information Technology, Kottayam</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/iiit_visit/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I have been staying in Indian Institute of Information Technology (IIIT), Kottayam for the past three days in order to partake in my 4th semester M.Tech exams. I absolutely loved my stay in campus.</p>
-<p>During my stay I had some interesting conversations with faculties, students who are doing PHD, UG and my fellow professional classmates who are pursuing MTech program. Some of these conversations were around latest advances of AI, AI hype etc.</p>
-<p>The campus boasts excellent amenities. I am thankful to all the warm smiles and kindness received from everyone in campus specifically the ex-jawans who are working there.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/morning.jpeg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Early morning selfie with mist in background</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/campus.jpeg" class="img-fluid figure-img" width="800"></p>
-<figcaption class="figure-caption">Full campus view. <a href="https://www.iiitkottayam.ac.in/#!/home">credits</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/campus1.jpeg" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">Campus buildings being constructed</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/classmates.jpeg" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">Class-mates attending tea party hosted by our class-rep</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/tea.jpeg" class="img-fluid figure-img" width="500"></p>
-</figure>
-</div>
-
-
-
- ]]></description>
-  <category>myself</category>
-  <category>academic</category>
-  <guid>https://kurianbenoy.com/posts/2023/iiit_visit/index.html</guid>
-  <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/2023/iiit_visit/campus.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OpenAI Whisper and it’s amazing power to do finetuning</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/fossasia2023talk/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="links-to-talk" class="level2">
-<h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
-<ul>
-<li><p><a href="../../../talks/fossasia2023.html">Slides</a></p></li>
-<li><p>Scheduled Time: Saturday, April 15, 2023, 9:30 AM SGT</p></li>
-<li><p><a href="https://www.youtube.com/live/sGWiXzsLGtI">Youtube live video stream</a></p></li>
-</ul>
-<blockquote class="blockquote">
-<p>Please note mine was the first session of the day. I noticed there was a audio issue at the start of talk, so you can <a href="https://www.youtube.com/live/sGWiXzsLGtI?feature=share&amp;t=149">start listening from 2:30 minutes</a>.</p>
-</blockquote>
-<ul>
-<li><p>Talk Page: <a href="https://eventyay.com/e/7cfe0771/session/8074">Session Details</a></p></li>
-<li><p><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project</a></p></li>
-<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></p></li>
-<li><p><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></p></li>
-</ul>
-</section>
-<section id="talk-in-30-seconds" class="level2">
-<h2 class="anchored" data-anchor-id="talk-in-30-seconds">Talk in 30 seconds</h2>
-<p>I talked about what is OpenAI whisper and some of it’s amazing feature. I highlighted the importance of fine-tuning Whisper in low-resource language like Malayalam which is able to get almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where calculated with a new github project called <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">malayalam_asr_benchmarking created by me</a>.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<p>In my talk I mentioned <a href="https://kurianbenoy.com/talks/fossasia2023.html#/thanks-to">the following people and organizations</a>. Beyond that first of all, I would like to thank FOSSASIA team for giving me this opportunity to talk in FOSSASIA Summit 2023. I would like to thank <a href="https://abhijithpa.me/">Abhijit PA</a> for taking pictures of my talk and Thorsen for moderating my session. <a href="https://www.linkedin.com/in/karunakar-vanama-182702145/">Karuankar Vanama</a> pointed out a typo in a slide which was corrected. I got a lot of support after this talk when I posted in <a href="https://www.linkedin.com/posts/kurianbenoy_fossasia-activity-7052803823953739776-KmkL?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a> and <a href="https://twitter.com/kurianbenoy2/status/1647246814410682368">Twitter</a> and few folks reached out to me after this talk. I am really thankful to all of you.</p>
-</section>
-<section id="questions-received" class="level2">
-<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
-<ol type="1">
-<li>Someone was curious to know the relationship between Malayalam language and the Sanskrit language?</li>
-</ol>
-</section>
-<section id="photos" class="level2">
-<h2 class="anchored" data-anchor-id="photos">Photos</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">During the talk</figcaption>
-</figure>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_092949649.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Volunteers helping me with the talk</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_090740256_HDR.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Last minute preparation before talk</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/youtube_livestream.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">A snap from live stream session of my talk</figcaption>
-</figure>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>conference</category>
-  <category>fossasia</category>
-  <category>Audio</category>
-  <category>Deep learning</category>
-  <category>SMC</category>
-  <category>Talk Page</category>
-  <guid>https://kurianbenoy.com/posts/2023/fossasia2023talk/index.html</guid>
-  <pubDate>Sat, 15 Apr 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Four super powers of Jeremy Howard</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/jeremy_habits/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="about-podcast-interview" class="level2">
-<h2 class="anchored" data-anchor-id="about-podcast-interview">About Podcast interview</h2>
-<p>I recently stumbled upon a podcast interview with Jeremy Howard hosted by one of my fast.ai friends Alex Strick van Linschoten, around 4 years back. I am a big fan of watching interview featuring Jeremy and some unique question were asked by the interviewer which I haven’t seen anyone asking.</p>
-<p>I would defenitely recommend everyone to <a href="https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard">give a watch to the podcast interview</a>. In this interview, Jeremy shared four super powers which he learned over the years. I am going to briefly summarize them.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/jeremy_habits/https:/images.squarespace-cdn.com/content/v1/53e7b388e4b0b09d128a62b1/1561718846748-5KLJ2OZF4ZFVQOG9UNU3/jh-head.jpg?format=500w" class="img-fluid figure-img" alt="Jeremy Howard"></p>
-<figcaption class="figure-caption">Jeremy Howard</figcaption>
-</figure>
-</div>
-</section>
-<section id="four-super-powers" class="level2">
-<h2 class="anchored" data-anchor-id="four-super-powers">Four super powers</h2>
-<ol type="1">
-<li>Spaced Repetition and learning how to learn</li>
-</ol>
-<p>Alex was very curious about how Jeremy learned chinese and his approach to learning. Jeremy answered as following:</p>
-<p>I started learning Chinese not because I had any interest in Chinese, but because I was such a bad language learner in highschool. I did six months of French, I got 28% and I quit. When I wanted to dig into machine learning, I thought one of the things that might be better to understand was human learning, so I used myself as a subject. A hopeless subject. If I can come up with a way that even I can learn a language, that would be great. And to make sure that was challenging enough, I tried to pick the hardest language I could. So according to according to CIA guidelines, Arabic and Chinese are the hardest languages for people to pick up. Then I spent three months studying learning theory, and language learning theory, and then software to help me with that process.</p>
-<p>It turns out that even I can learn Chinese. After a year of this - by no means a full time thing, an hour or two a day - I went to China to a top language learning program and based on the results of my exam got placed with all these language PhDs, and I thought wow. Studying smart is important. It’s all about how you do it.</p>
-<p>Spaced repetition is such an easy thing that anyone can do, for free, you can start using it.<a href="https://www.youtube.com/watch?v=HwH7bJibmdM">Jeremy’s amazing Anki talk</a></p>
-<p>If you’re not using Anki, you’re many orders of magnitude less likely to remember a piece of vocab. So you come away like I did, thinking you can’t learn a language. But once you learn vocab, the rest is really not that hard. Don’t try to learn grammar, just spend all your time reading.</p>
-<blockquote class="blockquote">
-<p>Recently, Rachel Thomas wrote a blog post about <a href="https://rachel.fast.ai/posts/2023-02-21-anki/">How to remember anything</a>.</p>
-</blockquote>
-<ol start="2" type="1">
-<li>Doing Regular exercises</li>
-</ol>
-<p>Ten years back Jeremy suffered a injury because of which he lost almost 6 months. After that he is doing regular yoga and exercises.</p>
-<ol start="3" type="1">
-<li>Note taking</li>
-</ol>
-<p>Lot of times Jeremy have seen whenever someone is discussing about a particular topic, or issue. Those who take the notes on the topic immediately are the one to follow up even later and perform much better. Exceptional people take a lot of notes. Less exceptional people assume they’re going to remember.</p>
-<p>Taking notes in class is kind of a waste of time. I don’t really see the point of going to class most of the time honestly, it’s probably being videotaped</p>
-<ol start="4" type="1">
-<li>Tenacity</li>
-</ol>
-<p>People who are successful practitioners in deep learning are the ones who have highest level of tenacity. He has found lot of people stopping midway and people who are world-class practitioners are always tenatious.</p>
-</section>
-<section id="two-critical-skills-in-ai-era" class="level2">
-<h2 class="anchored" data-anchor-id="two-critical-skills-in-ai-era">Two critical skills in AI era</h2>
-<p>The two critical skills going forward is:</p>
-<ul>
-<li>One is knowing how to use machine learning.</li>
-<li>And the other is knowing how to interact with it and care for human beings.</li>
-</ul>
-<p>Because the latter one can’t be replaced by AI. The former one will gradually replace everything. Back in the early days of the commercial internet, being an internet expert was extremely useful and you could have a job as an internet expert and be in a company of internet experts, and sell yourself as an internet expert company. Today, very few people do that, because on the whole the internet is what it is, and there’s a relatively few number of people who need such a level of expertise that they can go in and change the way your router operates and such. I think we’re going to see the same thing with AI.</p>
-<blockquote class="blockquote">
-<p>Thanks to <a href="https://forums.fast.ai/u/strickvl/">Alex Strick van Linschoten</a> who posted it in fast.ai forums and for writing <a href="https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard">wonderful show notes</a>, some of which I have used in this post.</p>
-</blockquote>
-
-
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>Life</category>
-  <category>myself</category>
-  <guid>https://kurianbenoy.com/posts/2023/jeremy_habits/index.html</guid>
-  <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>🐦Learning more about birds and bird calls with Merlin app</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/BirdCLEF2023/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I recently went for a bird watching adventure in <a href="https://en.wikipedia.org/wiki/Salim_Ali_Bird_Sanctuary">Salim Ali Bird Sanctuary</a>, Thattekad Kerala, India. During that time, my guide was very proficient in identifying birds by just hearing sounds. In Salim Ali bird sanctuary itself there are almost 300 species of land birds and another 100+ species of water birds.</p>
-<p>I was genuinely curious, how they learned about all these birds and memorized all these. This is when my guide talked about the Merlin app, which can help in learning more about various species of bird.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xmSUOLxyatY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Video Explaining functionality of Merlin</p>
-<p>You can download it from <a href="https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673">Apple App store</a> or <a href="https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app&amp;hl=en&amp;gl=US">Google Playstore</a> for your android phones. Learn more about Merlin app in this <a href="https://merlin.allaboutbirds.org/.">link</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/BirdCLEF2023/https:/www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fc0fa9ac858406ddcc9f644fc53054642%2FWhatsApp%20Image%202023-03-20%20at%209.25.36%20AM.jpeg?generation=1679301145365560&amp;alt=media" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">A photo during my bird walking trek</figcaption>
-</figure>
-</div>
-<p><a href="https://en.wikipedia.org/wiki/Sri_Lanka_frogmouth">The below image is Ceylon Frogmouth which is a rare bird in my region</a></p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/BirdCLEF2023/https:/www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F2e84ee1ef3b246d9bcee2cd5757f4a05%2FWhatsApp%20Image%202023-03-20%20at%209.25.45%20AM.jpeg?generation=1679301247043893&amp;alt=media" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Ceylon Frogmouth</figcaption>
-</figure>
-</div>
-<p>Note: This article was originally published in <a href="https://www.kaggle.com/competitions/birdclef-2023/discussion/396029#2188836">Kaggle discussion here</a></p>
-
-
-
- ]]></description>
-  <category>kaggle</category>
-  <category>experience</category>
-  <category>Travel</category>
-  <guid>https://kurianbenoy.com/posts/2023/BirdCLEF2023/index.html</guid>
-  <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Everything is about to be changed and launch of GPT-4</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/gpt4/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<blockquote class="blockquote">
-<p>Update: April 20, 2023</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>I found this <a href="https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a">brillant article</a> on not to be too afraid of latest AI advances by David Heinemeir Hanson who is the creator of Ruby on Rails and co-owner of Basecamp. I think it’s a must read for anyone who is a bit worried about latest changes as well as for anyone who is excited about the changes.</p>
-</blockquote>
-<section id="buzz-about-chatgpt" class="level2">
-<h2 class="anchored" data-anchor-id="buzz-about-chatgpt">Buzz about ChatGPT</h2>
-<p>There has been a lot of buzz about GPT and ChatGPT in specific. Tom Scott, a youtuber recently published a video on how he used ChatGPT to fix a problem in his email backup program. He said it’s beginning of something new like how internet had literally changed everything 20-30 years back.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/jPhJbKBuNnA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>AI is the new electricity - Andrew NG</p>
-</blockquote>
-<p>When I was writing this article, I forget the syntax of how to embed youtube videos in quarto markdown. I solved this issue by asking this <a href="https://quarto-bot.onrender.com/">question to Quarto Help Bot</a> which was made by <a href="https://hamel.dev/">Hamel Husain</a>.</p>
-<p>I have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be honest. You can ask it literally anything and these Large Language models are becoming incredibly useful. Hamel had used <a href="https://github.com/hwchase17/langchain/">LangChain</a> which is like a framework for building applications with LLMs specifically for quarto.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/gpt4/https:/www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">An Image from gsb.stanford.edu article on Andrew NG remark</figcaption>
-</figure>
-</div>
-</section>
-<section id="how-has-the-ai-landscape-been-going-in-the-past-one-year" class="level2">
-<h2 class="anchored" data-anchor-id="how-has-the-ai-landscape-been-going-in-the-past-one-year">How has the AI landscape been going in the past one year?</h2>
-<p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
-<p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
-<p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-59643"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-59643").innerHTML = tweet["html"];</script><p></p>
-</section>
-<section id="release-of-gpt-4" class="level2">
-<h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
-<p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-56489"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham, PhD","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham, PhD (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-56489").innerHTML = tweet["html"];</script><p></p>
-<p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-15773"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15773").innerHTML = tweet["html"];</script><p></p>
-<p>You can read more about this release in below resources:</p>
-<p><a href="https://openai.com/research/gpt-4">Research document</a></p>
-<p><a href="https://openai.com/product/gpt-4">Product details</a></p>
-<p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-79356"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-79356").innerHTML = tweet["html"];</script><p></p>
-</section>
-<section id="how-can-we-try-gpt-4-now" class="level2">
-<h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
-<p>According to OpenAI, you can try the latest GPT-4 via Chat GPT Plus Membership.</p>
-<p>Two more options seems to be available for normal users without mulimodal search:</p>
-<ol type="1">
-<li>BingGPT</li>
-<li>Poe App from Quora</li>
-</ol>
-</section>
-<section id="is-binggpt-really-using-gpt-4" class="level2">
-<h2 class="anchored" data-anchor-id="is-binggpt-really-using-gpt-4">Is BingGPT really using GPT-4?</h2>
-<p>To be honest, at the moment we can’t be really sure about that. Even though as Microsoft <a href="https://blogs.bing.com/search/march_2023/Confirmed-the-new-Bing-runs-on-OpenAI%E2%80%99s-GPT-4">Bing team confirmed today that they are using GPT-4</a>.</p>
-<p>In lot of user tests, it doesn’t really seem to be the same. I tested a trick question:</p>
-<blockquote class="blockquote">
-<p>Which is heavier, two pounds of brick or one pound of feathers?</p>
-</blockquote>
-<p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-63456"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-63456").innerHTML = tweet["html"];</script><p></p>
-<p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-43725"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43725").innerHTML = tweet["html"];</script><p></p>
-<p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-61620"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-61620").innerHTML = tweet["html"];</script><p></p>
-<p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
-<p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-41262"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-41262").innerHTML = tweet["html"];</script><p></p>
-
-
-</section>
-
- ]]></description>
-  <category>Deep learning</category>
-  <category>NLP</category>
-  <category>coding</category>
-  <guid>https://kurianbenoy.com/posts/2023/gpt4/index.html</guid>
-  <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>My daily fitness routine</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/fitness_journey/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fitness_journey/https:/user-images.githubusercontent.com/24592806/223161083-1a5cfc9b-03f0-4425-a1d6-ebc398542727.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Stable diffusion image generated with prompt Very muscular man, photograph quality, ultra detailed</figcaption>
-</figure>
-</div>
-<p>Hello everyone, I just thought of sharing my daily fitness routine which I have been following for the past 1 month. Previously I had written about <a href="https://kurianbenoy.com/posts/2020/2020-11-22-weightloss.html">How I lost almost 4Kgs in 3 weeks - my wegiht loss Journey</a>. I want to continue this journey, even though just after writing that post I gained a lot of kilos and I couldn’t follow everything I mentioned in that article.</p>
-<p>So this time, I am with a new routine:</p>
-<p>During morning I go to gym and do High Intensity Interval Training (HIIT) for 30-45 minutes. In the gym I go, this usually consists of 8 stations of 3 minutes exercises followed by 30 seconds rest. The first four stations are vary day after day, followed by a challenge which changes every week. After this I do boxing, followed by two more stations of 3 minutes exercises which usually are floor exercises.</p>
-<p>In evening I go for a walk for 45-60 minutes after my work. I usually try to walk almost 4 kilometers and monitor my progress in Strava app. I usually walk in the roads near my home till a paddy field and then return back. My usual pace is 4.5-6 km/h and I cover one kilometer in approximately 11-12 minutes.</p>
-<p>Some of you might be wondering why I am sharing this, well I am sharing this as I want to document my fitness progress. Looking back, I myself can look at things I did and see how I progressed. I also want to share this with others who are interested.</p>
-
-
-
- ]]></description>
-  <category>myself</category>
-  <guid>https://kurianbenoy.com/posts/2023/fitness_journey/index.html</guid>
-  <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Attending MBIFL 2023, a literature festival</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/mbifl2023/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Since I am a frequent book purchaser from Mathrubhumi book, in January I got a notification to buy early bird tickets for <a href="https://www.mbifl.com/speakers-2023/">MBIFL 2023</a>. I immediately bought 4 day’s tickets to attend the literature festival. When it came to February, I realised due to some commitments at home and work, I couldn’t attend all the days of this literature festival despite having a ticket.</p>
-<p>MBIFL had almost 300+ speakers, with famous speakers like Nobel prize winners, Brooker prize winners, politicians etc.</p>
-<p>Yet I had just one wish. <a href="https://en.wikipedia.org/wiki/Benyamin_(writer)">Benyamin</a> is an author who has written lot of thriller novels like അൽ - അറേബ്യൻ നോവൽ ഫാക്‌ടറി and മുല്ലപ്പു നിറമുള്ള പകലുകൾ(which is a dual novel) along with the famous ആടു ജീവിതം(Goat Days). I just wanted to meet him in person and get an autograph on my copy of my favourite novel.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/book.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">My favourite novel</figcaption>
-</figure>
-</div>
-<p>I travelled early morning from my house and reached the venue by almost 10:30 AM. During this time, there was a conversational session about പ്രവാസിയുടെ അക്ഷരകാലം with P Sreeramkrishan, Benyamin, Shabini Vasudev and KV Mohan Kumar. After the session, there was a huge fan base to meet author Benyamin. I first went to get a signature from another author KV Mohan Kumar in the panel, and then waited in the queue to get a signature from Benyamin.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/benyamin_session.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Session on പ്രവാസിയുടെ അക്ഷരകാലം</figcaption>
-</figure>
-</div>
-<p>After lot of books were signed by Benyamin which was bought by his fans with some of his famous works like ആടു ജീവിതം, മാന്തളിരിലെ ഇരുപത് കമ്മ്യൂണിസ്ററ് വർഷങ്ങൾ, അൽ - അറേബ്യൻ നോവൽ ഫാക്‌ടറി. I got my copy also signed with a salutation of snehattode(with love). I just asked my favourite author does a person named Sameera Parveen who was a character in Jasmine Days really exist or not. Benyam answered that it’s a mixture of multiple people who he had seen in his life, yet there is no one such person who doesn’t exist as Sameera Parveen like Najeeb in ആടു ജീവിതം.</p>
-<p>My mission was just completed in one hour and I got a few more signatures like Shabini Vasudev who is an author from Bahrain and from Vinu V John, who is the star anchor of Asianet news(who kindly reminded me he is not famous to be giving autograph).</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/book_signature.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">All the signature I got</figcaption>
-</figure>
-</div>
-<p>After that, I attended the talk with Aparna Balamurali and Captian GR Gopinath. Shashi Tharoor talked about his book Pride, Prejudice and Punditry. Seeing Tharoor answer a question to a student reminded me of India’s former people’s president APJ. I wish him all the success as a politician.</p>
-<p>One of the last sessions I attended that day was by Polish author Justi Guziak on Know yourself to express yourself. This session talked about improvising and was a hands-on workshop to learn this art. During the session, the speakers gave me a chit with the question <code>what was the best gift you have ever received?</code>. This question was to be asked to someone who was at the other end of the audience. I gave my question and Janaki who was from Thiruvananthapuram told me the best gift she ever received was a dog she received when she was in her 7th standard. This dog has been living with her for the past 15 years as a constant when she went through her school, then college and even after her marriage. Another situation which was given during the workshop was to convince Mr Karun to give something valuable in his hand. After a lot of convincing, I was able to share the lunch with Karun.</p>
-<p>That winded up MBIFL 2023, a literature festival for me a data scientist who doesn’t have anything related to it. It was cool to interact and meet with so many cool people. I am looking forward to MBIFL 2024 soon…</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/tharoor.jpg" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">Session by Shashi Tharoor</figcaption>
-</figure>
-</div>
-<p><em>Update 1(March 5, 2023)</em></p>
-<p>I found a very cool video in 360 degree which showed how the MBIFL 2023 venue atmosphere is. It was a very cool video and I thought of including this also with this blogpost.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ZrbFzIFu-d0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-
- ]]></description>
-  <category>Life</category>
-  <category>Travel</category>
-  <category>conference</category>
-  <guid>https://kurianbenoy.com/posts/2023/mbifl2023/index.html</guid>
-  <pubDate>Sun, 05 Feb 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Welcome To My Quarto Website</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/welcome/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://kurianbenoy.com/posts/2023/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>This is my first post in a Quarto blog. Welcome everyone to my new blog.</p>
-<p>I have been wanting for a long time to unify <a href="https://github.com/kurianbenoy/ml-blog">my existing Machine learning blog</a> based on fast-pages together with <a href="https://github.com/kurianbenoy/kurianbenoy.github.io/tree/4b5246ada3190dbdd73dc96d266a5ade7ef078a3">my main blog website</a>.</p>
-<p>The unification process is a bit challenging:</p>
-<ol type="1">
-<li>All my previous blog post in main website was written with <a href="https://github.com/daattali/beautiful-jekyll">beautiful jekyll</a> format using markdown.</li>
-<li>Need support for jupyter-notebook, which beautiful jekyll doesn’t support</li>
-</ol>
-<p>This is where Quarto comes as a saviour. It has wide support for various formats like markdown, jupyter notebook, rmarkdown. The goal, JJ and team is looking to have a single source of publication is really interesting. I was already familiar with nbdev with few of the projects I previously made.</p>
-<p>I converted all of my existing blog post in markdown to fastpages markdown format. Then I leveraged <a href="https://nbdev.fast.ai/migrating.html">nbdev 1 migration scripts</a> to move it to quarto.</p>
-
-
-
- ]]></description>
-  <category>TIL</category>
-  <category>coding</category>
-  <category>Webdev</category>
-  <guid>https://kurianbenoy.com/posts/2023/welcome/index.html</guid>
-  <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How well does CLIP models classify corn seeds?</title>
-  <link>https://kurianbenoy.com/posts/2022/2022-11-07-clip_experiments.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>The OpenAI CLIP model are really impressive and how it’s a foundation for stuff like stable diffusion is awesome. The thing about CLIP models which I am most impressed by is the wide range of applications it be used for like <a href="https://huggingface.co/spaces/YiYiXu/it-happened-one-frame-2">Semantic Video Search</a>, <a href="https://github.com/openai/CLIP#zero-shot-prediction">Zero shot image classification</a>, <a href="https://wandb.ai/pcuenq/photo-finder/reports/Creating-a-Semantic-Search-Engine-for-My-Photos--VmlldzoyMDE2NzQ3">searching images in your gallery</a> etc.</p>
-<p>I recently <a href="https://arxiv.org/abs/2103.00020">started reading CLIP paper</a> and paper claims to have very high accuracy in image clssification accuracy. To test that claim, I thought of trying it out that in a kaggle competition I had recently participated.</p>
-<p>The kaggle competition is a Corn image classification competition and is asking to classify images of corn seeds into following categories:</p>
-<ul>
-<li>pure</li>
-<li>broken</li>
-<li>discolored</li>
-<li>silkcut</li>
-</ul>
-<p>I used <code>open_clip</code>, an open source implementation of CLIP which is having higher accuracy compared to model weights released by OpenAI.</p>
-<p>Even after using one of the best accuracy CLIP models available( ViT-H-14), it got me a classification accuracy score of 27.95% in private LB whereas Resnet or Convnext models could have given easily above 75% score.</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Model</th>
-<th>Public LB</th>
-<th>Private LB</th>
-<th>Notebook link</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ViT-B-32-quickgelu</td>
-<td>0.16666</td>
-<td>0.18397</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/playing-with-clip-model?scriptVersionId=108925854">link</a></td>
-</tr>
-<tr class="even">
-<td>ViT-H-14</td>
-<td>0.28591</td>
-<td>0.27955</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/playing-with-clip-model?scriptVersionId=109012620">link</a></td>
-</tr>
-<tr class="odd">
-<td>Convnext model</td>
-<td>0.76149</td>
-<td>0.75386</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/fastai-baseline-albumentations?scriptVersionId=106051045">link</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>UPDATE</strong></p>
-<p>When I shared this results in twitter, <a href="https://twitter.com/YiYiMarz">YiYi Xu</a> suggested to try out <a href="https://github.com/openai/CLIP#linear-probe-evaluation">linear probing in CLIP</a>. She mentioned that, I was not comparing apples to apples, as I was using a zero-shot model with CLIP to compared with a fine tuned model of convnext. In order to level up, I should use linear probing which is using training data to kind of fine tune with a logistic regression model leveraging features in CLIP model.</p>
-<p>Based on this, I leveraged using linear probing on the dataset. As a result my updated result are the following:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Model</th>
-<th>Public LB</th>
-<th>Private LB</th>
-<th>Notebook link</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Zero Shot ViT-B-32-quickgelu</td>
-<td>0.16666</td>
-<td>0.18397</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/playing-with-clip-model?scriptVersionId=108925854">link</a></td>
-</tr>
-<tr class="even">
-<td>Zero Shot ViT-H-14</td>
-<td>0.28591</td>
-<td>0.27955</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/playing-with-clip-model?scriptVersionId=109012620">link</a></td>
-</tr>
-<tr class="odd">
-<td>Linear probing w/ ViT-H-14</td>
-<td>0.71982</td>
-<td>0.72583</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/playing-with-clip-model?scriptVersionId=109012620">link</a></td>
-</tr>
-<tr class="even">
-<td>Convnext model</td>
-<td>0.76149</td>
-<td>0.75386</td>
-<td><a href="https://www.kaggle.com/code/kurianbenoy/fastai-baseline-albumentations?scriptVersionId=106051045">link</a></td>
-</tr>
-</tbody>
-</table>
-<p>Note: This article was originally published in <a href="https://www.kaggle.com/competitions/kaggle-pog-series-s01e03/discussion/362326">Kaggle discussion here</a></p>
-
-
-
- ]]></description>
-  <category>coding</category>
-  <category>Deep learning</category>
-  <category>experience</category>
-  <category>kaggle</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-11-07-clip_experiments.html</guid>
-  <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/clip.png" medium="image" type="image/png" height="98" width="144"/>
-</item>
-<item>
-  <title>Practical Deep Learning for Coders Course - Paddy Disease Classification competition</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-08-04-fastai56.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="lesson-notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-notebooks">Lesson Notebooks</h2>
-<p>There are four notebook covering Paddy Disease Competition, and I feel each of these notebooks are excellent:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/paddy.JPG" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Image of Paddy crop</figcaption>
-</figure>
-</div>
-<ol type="1">
-<li><a href="https://www.kaggle.com/code/jhoward/first-steps-road-to-the-top-part-1">Road to Top Part 1</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/small-models-road-to-the-top-part-2">Road to Top Part 2</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/scaling-up-road-to-the-top-part-3">Road to Top Part 3</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/multi-target-road-to-the-top-part-4">Road to Top Part 4</a></li>
-</ol>
-</section>
-<section id="how-was-paddy-competiton-for-me" class="level2">
-<h2 class="anchored" data-anchor-id="how-was-paddy-competiton-for-me">How was Paddy competiton for me?</h2>
-<p>This competition is still ongoing at the time of writing. Yet during one month break during which <a href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM">Jeremy’s live-coding sessions</a> were held. I got some time to play with Paddy disease classification competition with this competition with other fastai friends also.</p>
-<p>At the start of lesson 7, Jeremy said some kind words to Nick and me which can be found in below youtube video. I am extremely lucky to learn from such a great teacher. Without these four notebooks and <a href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM">Jeremy’s live-coding sessions</a>, it wouldn’t have been possible.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/jeremy_class_shoutout.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Jeremy showing leaderboard in class</figcaption>
-</figure>
-</div>
-<p><a href="https://youtube.com/clip/Ugkx5ItB_l5CnUy-T5tpfEXuqB9GR6f-bvZi">A clip from original video</a></p>
-<p>I am not going in detail on this lesson, as I feel the introduction notebooks have covered everything so well. So signing off early this time.</p>
-
-
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-08-04-fastai56.html</guid>
-  <pubDate>Thu, 04 Aug 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Practical Deep Learning for Coders Course - Tabular Models (Linear Regression &amp; Random Forests)</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-07-28-fastai55.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="what-is-important-for-an-ml-practitioner" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-important-for-an-ml-practitioner">What is important for an ML practitioner</h2>
-<p>Most of the time as a practitioner, your job is to connect a set of inputs to the sets of outputs you want with machine learning algorithm together in a framework. According to Jeremy what is important is how you tweak on first layer and last layer of neural network. The middle layer is usually not that important.</p>
-</section>
-<section id="remind-yourself-these-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="remind-yourself-these-concepts">Remind yourself these concepts</h2>
-<p>Before getting started with this lesson, let’s remind ourselves <strong>What is matrix &amp; vector?</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/182064940-f5723473-d393-4a16-ab86-a7baf1ed0f8b.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-<p>In this chaper, you may stumble into terms like matrix-vector multiplication, matrix matrix products etc. So it’s a good idea to remind yourself with the concept of <a href="http://matrixmultiplication.xyz/">matrix multiplication</a> and <a href="https://numpy.org/doc/stable/user/basics.broadcasting.html">broadcasting</a>.</p>
-<p>In this chapter three notebooks where covered, so it’s bit more hectic compared to the previous chapters to be honest. The notebooks covered were:</p>
-<ul>
-<li><a href="https://www.kaggle.com/code/jhoward/linear-model-and-neural-net-from-scratch">Linear Models and Neural net from Scratch</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/why-you-should-use-a-framework">Why you should use a framework?</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/how-random-forests-really-work/">How random forests really work</a></li>
-</ul>
-<p>For the course there was close to one month gap between fifth and sixth lesson, because of exams in University of Queenzland.</p>
-</section>
-<section id="linear-model-neural-network-from-scratch-notebook" class="level2">
-<h2 class="anchored" data-anchor-id="linear-model-neural-network-from-scratch-notebook">Linear model &amp; neural network from scratch notebook</h2>
-<p>In this notebook first few sections covers on data cleaning and feature engineering with pandas. A few notes which I jotted down, when I started looking into the lesson at first.</p>
-<ul>
-<li>In pandas never delete columns</li>
-<li>You can replace missing values using mode of column</li>
-<li>We can have multiple modes, so choose the first element as 0</li>
-<li>In first baseline model, don’t do complicated things at the start.</li>
-<li>for categorical variables we can set dummy variables for Pclass with <code>pd.get_dummies</code></li>
-</ul>
-<p>Then the notebook progresses first into building:</p>
-<ol type="1">
-<li>Linear models</li>
-<li>Neural networks</li>
-<li>Deep Learning</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This notebook is a pre-requisite for lesson 7 when we are covering collabrative filtering also.</p>
-</div>
-</div>
-</section>
-<section id="why-you-should-use-a-framework" class="level2">
-<h2 class="anchored" data-anchor-id="why-you-should-use-a-framework">Why you should use a framework?</h2>
-<p>This notebook, does some interesting feature engineering followed by building models with fastai framework. It also shows how to use ensembling with fastai library and to get in the top 25% of accuracy.</p>
-<p>I have seen this cliche argument that for learning ML, you need to go into details and using frameworks is a step down. Jeremy emphasises always use good frameworks on top of it. Rather than re-inventing from scratch. Lot of the success of fast.ai comes from it not asking practitioners to go into details. One of the reasons I like frameworks like blurr, Icevision is also because of that and it’s helping users who are familiar with fastai to easily build complex computer vision and NLP models.</p>
-<p>During a conversation with Icevision core-developer, <a href="https://dicksonneoh.com/">Dickson Neoh</a>:</p>
-<blockquote class="blockquote">
-<p>In icevision, within 10 minutes I can train an object detection model with any dataset. It may not be most accurate, yet I can iterate so quickly.</p>
-</blockquote>
-</section>
-<section id="how-random-forests-really-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-random-forests-really-work">How random forests really work?</h2>
-<p>Jeremy was know as the random forest guy before he became know as the Deep learning person. One of the cool things about random forest is it’s very hard to get something wrong unlike logistic regression.</p>
-<p>Random forests are really intereptables, and helps in getting good accuracy. He also covered about gradient boosted trees during this lesson.</p>
-</section>
-<section id="homework-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="homework-dataset">Homework dataset</h2>
-<p>To practise these techniques, I feel a good place to start is by participating in Kaggle <a href="https://www.kaggle.com/competitions/tabular-playground-series-aug-2022">Tabular Playground dataset competition</a> or <a href="https://www.kaggle.com/competitions?listOption=completed">previous tabular competitions in Kaggle</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-07-28-fastai55.html</guid>
-  <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>A strange bug when using fastai library with Weights &amp; Biases</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-07-26-wandbbug.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>After attending an introduction to using weights &amp; biases along with fastai session conducted by <a href="https://twitter.com/capetorch">Thomas Capaballe</a>. I was excited to use weights and biases library along with a few of my hobby projects. I was working on training an Image classification models on the Kaggle competition dataset <a href="https://www.kaggle.com/competitions/tpu-getting-started">Petal to Metal</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/wblogo.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image info</figcaption>
-</figure>
-</div>
-<p>In general, whenever I am passing a code to any fastai learner objects with callback. I usually directly pass it along with <code>vision_learner</code> as shown in below code.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">arch <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"convnext_tiny_in22k"</span></span>
-<span id="cb1-2">learn <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> vision_learner(</span>
-<span id="cb1-3">    data,</span>
-<span id="cb1-4">    arch,</span>
-<span id="cb1-5">    metrics<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>error_rate,</span>
-<span id="cb1-6">    cbs<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>[</span>
-<span id="cb1-7">        WandbCallback(log_preds<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">False</span>, log_model<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>),</span>
-<span id="cb1-8">        SaveModelCallback(monitor<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"accuracy"</span>),</span>
-<span id="cb1-9">    ],</span>
-<span id="cb1-10">)</span>
-<span id="cb1-11">learn.fine_tune(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>)</span></code></pre></div>
-</div>
-<p>I exported this model, as I was trying to create a <a href="https://huggingface.co/spaces/kurianbenoy/Identify_which_flower">hugging face spaces to identify various flowers species</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">learn.export()</span></code></pre></div>
-</div>
-<p>Now I went ahead creating the inference code with requirements for this model. This is when I noticed that the model exported requires <code>wandb</code> library to run the inference code. I was totally surprised, why it was happening at first.</p>
-<p><strong>Why this annoying behaviour?</strong></p>
-<p>It’s because when passing the callbacks to <code>Learner</code> class or it’s variants like in case of computer vision fastai uses <code>vision_learner</code> class makes it stick around. In my case, I don’t want the callback to hang around the <code>Learner</code> class forever, as it’s just for training job monitoring only.</p>
-<p>After a bit of googling, I found this solution from one of the forum posts written by <a href="twitter.com/waydegilliam">Wayde Gilliam</a>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Instead of adding your callback to <code>Learner</code> … if it is simply used for training, just include it in your call(s) to <code>fit or fit_one_cycle</code>. As the callback is no longer associated to your Learner, they won’t interfere with your call to <code>get_preds()</code>.</p>
-</div>
-</div>
-<p><a href="https://forums.fast.ai/t/is-there-anyway-to-call-learn-get-preds-without-triggering-any-of-the-callbacks/64753/10">Original answer</a>.</p>
-<p>So inorder to fix it, I just passed the callbacks I am using directly with <code>fine_tune</code> method directly. Let’s check the code to pass callbacks this way.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">arch <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"convnext_tiny_in22k"</span></span>
-<span id="cb3-2">learn <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> vision_learner(data, arch, metrics<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>[accuracy, error_rate])</span>
-<span id="cb3-3">learn.fine_tune(</span>
-<span id="cb3-4">    <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>,</span>
-<span id="cb3-5">    cbs<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>[</span>
-<span id="cb3-6">        WandbCallback(log_preds<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">False</span>, log_model<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>),</span>
-<span id="cb3-7">        SaveModelCallback(monitor<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"accuracy"</span>),</span>
-<span id="cb3-8">    ],</span>
-<span id="cb3-9">)</span></code></pre></div>
-</div>
-<p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-91738"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-91738").innerHTML = tweet["html"];</script><p></p>
-<p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-92768"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-92768").innerHTML = tweet["html"];</script><p></p>
-
-
-
- ]]></description>
-  <category>fastai</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-07-26-wandbbug.html</guid>
-  <pubDate>Tue, 26 Jul 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Getting featured in Spaces of the week and my latest two gradio spaces</title>
-  <link>https://kurianbenoy.com/posts/2022/2022-07-06-gradio_spaces.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I recently created two gradio based webapps, and one of my spaces - Paddy Doctor got featured in list of hugging face Spaces of the week.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2022/https:/user-images.githubusercontent.com/24592806/177607850-eed39c76-51b5-4b00-aad1-804e699540d2.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
-</figure>
-</div>
-<p>Both gradio apps based on two kaggle competitions which I have been participating in. Both are on computer vision models with one to identify the type of disease in the paddy crop and another to identify the name of flowers(which I am terribly bad at remembering names).</p>
-<p>Do checkout the links below for the spaces</p>
-<p><a href="https://huggingface.co/spaces/hugginglearners/Paddy-Doctor">Paddy Doctor</a></p>
-<p><a href="https://huggingface.co/spaces/hugginglearners/Identify_which_flower">Identify which flower</a></p>
-
-
-
- ]]></description>
-  <category>huggingface</category>
-  <category>Deep learning</category>
-  <category>fastai</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-07-06-gradio_spaces.html</guid>
-  <pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate>
-</item>
-</channel>
-</rss>
+</main> <!-- /main -->
+<script type="application/vnd.jupyter.widget-state+json">
+{"0f1ef953e72f4e5aaf9c2c763dfd1fd8":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"ButtonStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"ButtonStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","button_color":null,"font_weight":""}},"170abe3e7eb44d5e9f8c69e03c103b99":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"1bb5a7476b9f439581660adee67912b8":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"23dba61e365c4702afdeddf0feb8ecf4":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"318db5eead724e5da8dad0f41aab50f0":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"3478fac731a7411aaed11e0f95f8e9b0":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"37b2aed7108d45acbb892459297ae09b":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"4f149050b0d548b5b4f178834dd94a79":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"CheckboxModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"CheckboxModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"CheckboxView","description":"Add token as git credential?","description_tooltip":null,"disabled":false,"indent":true,"layout":"IPY_MODEL_70481f2751064dc2a96b7aaffed6be10","style":"IPY_MODEL_dfeda5a22ae24425a58853c41b003353","value":true}},"554b55e205a74e45ab825c57976ebb9b":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"55e6bbcbe88f47ba9d892a0f492e7906":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"LabelModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"LabelModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"LabelView","description":"","description_tooltip":null,"layout":"IPY_MODEL_8d81a1c116634e80ab87307545335169","placeholder":"​","style":"IPY_MODEL_318db5eead724e5da8dad0f41aab50f0","value":"Connecting..."}},"59713e8b5b684ff993630a36a72cb960":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"6a95e0ac3dd94b4cace37c7591d14444":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"6e8ebc5a8a654e39ab843d9dbcad040e":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"LabelModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"LabelModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"LabelView","description":"","description_tooltip":null,"layout":"IPY_MODEL_170abe3e7eb44d5e9f8c69e03c103b99","placeholder":"​","style":"IPY_MODEL_f8fe5eaf1d85476ab506f486d9b91bc8","value":"Login successful"}},"70481f2751064dc2a96b7aaffed6be10":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"74baf887622240a1a0b776d12e94fe27":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"LabelModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"LabelModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"LabelView","description":"","description_tooltip":null,"layout":"IPY_MODEL_37b2aed7108d45acbb892459297ae09b","placeholder":"​","style":"IPY_MODEL_cefb90c4a35d409d981a274a54ee69d8","value":"Token is valid (permission: write)."}},"7869e0041d3b4b58a07347dd0d4765c1":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"7a15d1486369420881f68a3129d8fbd2":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"LabelModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"LabelModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"LabelView","description":"","description_tooltip":null,"layout":"IPY_MODEL_1bb5a7476b9f439581660adee67912b8","placeholder":"​","style":"IPY_MODEL_23dba61e365c4702afdeddf0feb8ecf4","value":"Your token has been saved to /root/.cache/huggingface/token"}},"7c6e6184028e4a06bccd2b0c790f9eb4":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"7cc04bdfe8c646a9ba66a82579a91567":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"PasswordModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"PasswordModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"PasswordView","continuous_update":true,"description":"Token:","description_tooltip":null,"disabled":false,"layout":"IPY_MODEL_59713e8b5b684ff993630a36a72cb960","placeholder":"​","style":"IPY_MODEL_3478fac731a7411aaed11e0f95f8e9b0","value":""}},"8515e3a0f2d54143aa3318b8bacc7f0d":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"VBoxModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"VBoxModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"VBoxView","box_style":"","children":["IPY_MODEL_74baf887622240a1a0b776d12e94fe27","IPY_MODEL_e7b7359483e4481390a6defa3c857be2","IPY_MODEL_7a15d1486369420881f68a3129d8fbd2","IPY_MODEL_6e8ebc5a8a654e39ab843d9dbcad040e"],"layout":"IPY_MODEL_8e9b7b4c16684c50b0212aa320444791"}},"8d81a1c116634e80ab87307545335169":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"8e345bfd6d844266b6409ae61603c877":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"ButtonModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"ButtonModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"ButtonView","button_style":"","description":"Login","disabled":false,"icon":"","layout":"IPY_MODEL_9c7d7bc3473f4a04aa94024476e45ee3","style":"IPY_MODEL_0f1ef953e72f4e5aaf9c2c763dfd1fd8","tooltip":""}},"8e9b7b4c16684c50b0212aa320444791":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":"center","align_self":null,"border":null,"bottom":null,"display":"flex","flex":null,"flex_flow":"column","grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":"50%"}},"9c7d7bc3473f4a04aa94024476e45ee3":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"a9f26ccc34f34a029da3390929e05f19":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"HTMLModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HTMLModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HTMLView","description":"","description_tooltip":null,"layout":"IPY_MODEL_7869e0041d3b4b58a07347dd0d4765c1","placeholder":"​","style":"IPY_MODEL_554b55e205a74e45ab825c57976ebb9b","value":"<center> <img\nsrc=https://huggingface.co/front/assets/huggingface_logo-noborder.svg\nalt='Hugging Face'> <br> Copy a token from <a\nhref=\"https://huggingface.co/settings/tokens\" target=\"_blank\">your Hugging Face\ntokens page</a> and paste it below. <br> Immediately click login after copying\nyour token or it might be stored in plain text in this notebook file. </center>"}},"ae57c2d43c1c48768c99cddb85cc10e5":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"cefb90c4a35d409d981a274a54ee69d8":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"dfeda5a22ae24425a58853c41b003353":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"e7b7359483e4481390a6defa3c857be2":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"LabelModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"LabelModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"LabelView","description":"","description_tooltip":null,"layout":"IPY_MODEL_7c6e6184028e4a06bccd2b0c790f9eb4","placeholder":"​","style":"IPY_MODEL_6a95e0ac3dd94b4cace37c7591d14444","value":"Your token has been saved in your configured git credential helpers (store)."}},"ea4a0c32b449459f898b628d8f2d2c50":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"HTMLModel","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HTMLModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HTMLView","description":"","description_tooltip":null,"layout":"IPY_MODEL_fcba15218b6a4030a44817e53dcbcd37","placeholder":"​","style":"IPY_MODEL_ae57c2d43c1c48768c99cddb85cc10e5","value":"\n<b>Pro Tip:</b> If you don't already have one, you can create a dedicated\n'notebooks' token with 'write' access, that you can then easily reuse for all\nnotebooks. </center>"}},"f8fe5eaf1d85476ab506f486d9b91bc8":{"model_module":"@jupyter-widgets/controls","model_module_version":"1.5.0","model_name":"DescriptionStyleModel","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"fcba15218b6a4030a44817e53dcbcd37":{"model_module":"@jupyter-widgets/base","model_module_version":"1.2.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}}}
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="kurianbenoy/kurianbenoy-website" data-repo-id="MDEwOlJlcG9zaXRvcnkxMDY1MzAxNzQ" data-category="Q&amp;A" data-category-id="DIC_kwDOBlmFfs4CU-J4" data-mapping="url" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
