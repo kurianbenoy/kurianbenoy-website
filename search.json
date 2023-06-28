@@ -4,7 +4,7 @@
     "href": "slides.html",
     "title": "Kurian Benoy",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nYou too should speak here\n\n\nJust a lightning talk idea\n\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\n  \n\n\n\n\nAI with Malayalam Computing!\n\n\nDebUtsav 2023, Govt. Model Engineering College, Thrikkakara.\n\n\n\n\n\n\n\n\n\nJun 17, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nVegam Whisper Family of Models and demoing Malayalam Speech to Text\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMalayalam Projects I am working at the moment!\n\n\nDelft-Fastai check-in sessions\n\n\n\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper and it’s amazing power to do finetuning.\n\n\nFOSSASIA Summit, Singapore\n\n\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nYou too should speak here\n\n\nJust a lightning talk idea\n\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\nProposed slides for Pycon India 2023\n\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\n  \n\n\n\n\nAI with Malayalam Computing!\n\n\nDebUtsav 2023, Govt. Model Engineering College, Thrikkakara.\n\n\n\n\n\n\n\n\n\nJun 17, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nVegam Whisper Family of Models and demoing Malayalam Speech to Text\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMalayalam Projects I am working at the moment!\n\n\nDelft-Fastai check-in sessions\n\n\n\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Whisper and it’s amazing power to do finetuning.\n\n\nFOSSASIA Summit, Singapore\n\n\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023/delft-fastai-talk/index.html",
@@ -1622,6 +1622,321 @@
     "title": "OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam",
     "section": "Thanks to",
     "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\n\n\n\nThennal D K\nOther members in Swathanthra Malayalam Computing community.\nJarvis Labs\n\n\n\n\n\nKurian Benoy || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#outline",
+    "href": "talks/proposals/pyconind.html#outline",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Outline",
+    "text": "Outline\n\nWhat is OpenAI Whisper?\nFeatures of OpenAI Whisper \nWhat is Fine-tuning and how to fine-tune Whisper?\nAbout my mother tongue\nMethodology of benchmarking whisper models\nResults on benchmarking Whisper model\nFuture Ideas & Conclusion"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#whoami",
+    "href": "talks/proposals/pyconind.html#whoami",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "$whoami",
+    "text": "$whoami\n\nAI Engineer & Team Lead @ sentient.io\nVolunteer @ Swathanthra Malayalam Computing(SMC)\nFOSS enthusiast\nNot affiliated to OpenAI"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#disclaimer",
+    "href": "talks/proposals/pyconind.html#disclaimer",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nThis talk is not generated.\nIf I use something generated I will explicitly mark as from an LLM."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#openai-whisper",
+    "href": "talks/proposals/pyconind.html#openai-whisper",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "OpenAI Whisper",
+    "text": "OpenAI Whisper\n\n\n\n\n\n\nI think Whisper1 is the most under-rated model released by OpenAI.\nIt was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.\n\nAccording to research paper p.2, the name Whisper is an abbrevation for WSPR: Web-scale Supervised Pretraining for Speech Recognition."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#about-openai-whisper-model",
+    "href": "talks/proposals/pyconind.html#about-openai-whisper-model",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "About OpenAI Whisper Model",
+    "text": "About OpenAI Whisper Model\n\nWhisper is a computer program which can listen to people talking and write down what they say. (Automatic Speech Recognition Model)\nWhisper can understand people speaking different languages and can even translate what they say into English. (Supports transcription and translation to English)\n\n\n\nNote: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#whisper-models",
+    "href": "talks/proposals/pyconind.html#whisper-models",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Whisper Models",
+    "text": "Whisper Models\n\n\n\nSize\nParameters\nRequired VRAM\nRelative speed\n\n\n\n\ntiny\n39 M\n~1 GB\n~32x\n\n\nbase\n74 M\n~1 GB\n~16x\n\n\nsmall\n244 M\n~2 GB\n~6x\n\n\nmedium\n769 M\n~5 GB\n~2x\n\n\nlarge\n1550 M\n~10 GB\n1x"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#english-speech-recognition",
+    "href": "talks/proposals/pyconind.html#english-speech-recognition",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "English Speech Recognition",
+    "text": "English Speech Recognition\n\nWhisper is competitive with state of art commercial and open source systems. Diagram from whisper research paper p.9"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#multi-lingual-speech-recognition",
+    "href": "talks/proposals/pyconind.html#multi-lingual-speech-recognition",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Multi-lingual Speech recognition",
+    "text": "Multi-lingual Speech recognition\n\nWhisper model is trained on 99 languages\nOpenAI Whisper API supports just 57 languages as some languages performance are not really good.\n\n\n\n\nMore details can be found in Section 3.4 of Whisper research paper pp.6 - 8.\nZero-shot Whisper improves performance on Multilingual LibriSpeech(MLS) but is still significantly behind both Maestro, XLS-R, and mSLAM on VoxPopuli. (Whisper research paper p.7)"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#runs-in-almost-any-device",
+    "href": "talks/proposals/pyconind.html#runs-in-almost-any-device",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Runs in almost any device",
+    "text": "Runs in almost any device\n\nSince Whisper followed the open source route, whisper.cpp developed by Georgi Gerganov which is a port of OpenAI’s Whisper model in C/C++.\n\n - It supports the below platforms:\n\nMac OS (Intel and ARM)\niOS\nAndroid\nLinux/Free BSD\nWeb Assembly etc."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#awesome-community-plugins",
+    "href": "talks/proposals/pyconind.html#awesome-community-plugins",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Awesome community plugins",
+    "text": "Awesome community plugins\n\nWord-level time stamps with whisper-timestamped,whisperX etc.\nFine-Tune Whisper is achieving SOTA in lot of languages\nSpeaker diarization\nAudio classification using OpenAI’s Whisper\n4x faster with same accuracy using faster-whisper\n\n\n\nThanks to Ramsri Goutham article on 7 must know libraries and addons on top of Whisper"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#what-is-fine-tuning",
+    "href": "talks/proposals/pyconind.html#what-is-fine-tuning",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "What is fine tuning?",
+    "text": "What is fine tuning?\nGiven a pre-trained model, which is a large model which is trained on a very specific task. If we want to fit it into our specific dataset we will train and use the pre-trained model to build a new model which works very well for our task.\n\nPicture from fast.lesson covering steps in finetuning a text classifier model"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#fine-tuning-is-still-relevant",
+    "href": "talks/proposals/pyconind.html#fine-tuning-is-still-relevant",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Fine tuning is still relevant",
+    "text": "Fine tuning is still relevant"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#what-are-steps-for-fine-tuning-whisper",
+    "href": "talks/proposals/pyconind.html#what-are-steps-for-fine-tuning-whisper",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "What are steps for fine-tuning Whisper?",
+    "text": "What are steps for fine-tuning Whisper?\n\nFine-Tune Whisper For Multilingual ASR with 🤗 Transformers"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#what-are-steps-for-fine-tuning-whisper-1",
+    "href": "talks/proposals/pyconind.html#what-are-steps-for-fine-tuning-whisper-1",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "What are steps for fine-tuning Whisper?",
+    "text": "What are steps for fine-tuning Whisper?\n\nPreparing Environment\nLoad dataset\nPrepare Feature Extractor, Tokenizer and Data\nTraining and evaluation\nBuilding a demo(optional)\n\n\n\n\nBased on article Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers\nMore details on fine tuning Whisper"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#about-malayalam",
+    "href": "talks/proposals/pyconind.html#about-malayalam",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "About Malayalam",
+    "text": "About Malayalam\n\nMalayalam is my mother tongue.\nNative speakers: 38+ million.(according to 2011 census)\nSpoken in: Kerala, Lakshadweep, Puducherry, wherever Malayalees are living."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#malayalam-is-morphologically-complex-language",
+    "href": "talks/proposals/pyconind.html#malayalam-is-morphologically-complex-language",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Malayalam is morphologically complex language",
+    "text": "Malayalam is morphologically complex language\n\n\n\nComparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.\n\n\n\n\nPicture from Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al. For more information check this paper."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#whisper-event",
+    "href": "talks/proposals/pyconind.html#whisper-event",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Whisper Event",
+    "text": "Whisper Event\n\nHuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.\nThe goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 \n\n\n\nWhisper Event huggingface page"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#malayalam-performance-in-whisper-paper",
+    "href": "talks/proposals/pyconind.html#malayalam-performance-in-whisper-paper",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Malayalam performance in whisper paper",
+    "text": "Malayalam performance in whisper paper\n\n\n\nModel\nWER\n\n\n\n\ntiny\n102.7\n\n\nbase\n122.9\n\n\nsmall\n104.8\n\n\nmedium\n137.8\n\n\nlarge-v1\n107.1\n\n\nlarge-v2\n103.2\n\n\n\n\n\nAppendix D2.2.2 CommonVoice9 dataset results (Whisper research paper p.23)."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#malayalam-models-produced-in-whisper-event",
+    "href": "talks/proposals/pyconind.html#malayalam-models-produced-in-whisper-event",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Malayalam models produced in Whisper Event",
+    "text": "Malayalam models produced in Whisper Event\n\nFor the language Malayalam, the results are as follows:\n\n\nMalayalam models performance in whisper event according to leaderboard"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#winning-models-in-malayalam-in-whisper-event",
+    "href": "talks/proposals/pyconind.html#winning-models-in-malayalam-in-whisper-event",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Winning models in Malayalam in Whisper Event",
+    "text": "Winning models in Malayalam in Whisper Event\n\nThe winning model for Common voice: thennal/whisper-medium-ml\nThe winning model for Fleurs: parambharath/whisper-small-ml"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#i-was-not-convinced",
+    "href": "talks/proposals/pyconind.html#i-was-not-convinced",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "I was not convinced",
+    "text": "I was not convinced\nI was sceptical about the winning models becuase of:\n\nAchieving 11% WER in Malayalam is astonishing.\nIn Malayalam there is not even a single yard stick to compare. Most of previous works were done in proprietary datasets and not open-sourced.\nMalyalam is a morpohologically complex language. So even achieving 30% WER is a big deal."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#i-was-not-convinced-1",
+    "href": "talks/proposals/pyconind.html#i-was-not-convinced-1",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "I was not convinced",
+    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nthennal/whisper-medium-ml model card readme"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#i-was-not-convinced-2",
+    "href": "talks/proposals/pyconind.html#i-was-not-convinced-2",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "I was not convinced",
+    "text": "I was not convinced\n\nDidn’t trust the Hugging Face way of evaluating models.\n\n\nLast commit in thennal/whisper-medium-ml"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#objective-of-my-benchmarking",
+    "href": "talks/proposals/pyconind.html#objective-of-my-benchmarking",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Objective of my benchmarking",
+    "text": "Objective of my benchmarking\n\nTo test whether 10% WER was possible in available academic datasets.\n\nDatasets\n\nCommon Voice 11 malayalam subset\nSMC Malayalam Speech Corpus"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#metrics-for-evaluating-asr-models",
+    "href": "talks/proposals/pyconind.html#metrics-for-evaluating-asr-models",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Metrics for evaluating ASR models",
+    "text": "Metrics for evaluating ASR models\n\nASR evaulation relies on comparission between ground-truth and ASR output.\nCommon metrics for ASR evaluation which are popular and good enough1 are :\n\n1. Word Error Rate(WER)\n2. Character Error Rate(CER)\n\n\nTo learn more about ASR evaluation check this blogpost by AWS\nAccording to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#methodology-for-benchmarking",
+    "href": "talks/proposals/pyconind.html#methodology-for-benchmarking",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Methodology for benchmarking",
+    "text": "Methodology for benchmarking\n\nCreate as a python library so further whisper-based transformer models can be benchmark.\nCalculate WER, CER, model size and time taken to benchmark the model for the listed datasets.\nBuild a reproducible approach, so results of benchmarking is stored as dataset."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#i-wanted-to-build-something-new",
+    "href": "talks/proposals/pyconind.html#i-wanted-to-build-something-new",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "I wanted to build something new",
+    "text": "I wanted to build something new\n\nNew github project for Malayalam ASR Benchmarking\n\n\nTime for a new adventure"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#libraries-i-used-for-benchmarking",
+    "href": "talks/proposals/pyconind.html#libraries-i-used-for-benchmarking",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Libraries I used for benchmarking",
+    "text": "Libraries I used for benchmarking\n\nDependencies:\n\ntransformers\ndatasets\njiwer\nwhisper_normalizer\nnumerize pandas librosa soundfile\n\nDevelopment library:\n\nnbdev\nJupyter Lab"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#loading-the-dataset-for-benchmarking",
+    "href": "talks/proposals/pyconind.html#loading-the-dataset-for-benchmarking",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Loading the dataset for benchmarking",
+    "text": "Loading the dataset for benchmarking\ndef load_common_voice_malayalam_dataset():\n    dataset = load_dataset(\n            \"mozilla-foundation/common_voice_11_0\",\n            \"ml\",\n            split=\"test\"\n    )\n    dataset = dataset.cast_column(\"audio\", Audio(sampling_rate=16000))\n    dataset = dataset.map(normalise)\n    dataset = dataset.filter(is_target_text_in_range, input_columns=[\"norm_text\"])\n    return dataset"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#benchmarking-a-particular-model-weight-in-common-voice",
+    "href": "talks/proposals/pyconind.html#benchmarking-a-particular-model-weight-in-common-voice",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Benchmarking a particular model weight in common voice",
+    "text": "Benchmarking a particular model weight in common voice\nevaluate_whisper_model_common_voice(\n    \"openai/whisper-large\",\n    [], [], [], []\n)"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#evaluating-benchmarking-code",
+    "href": "talks/proposals/pyconind.html#evaluating-benchmarking-code",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Evaluating benchmarking code",
+    "text": "Evaluating benchmarking code\ndef evaluate_whisper_model_common_voice(\n        model_name: str, # The model name\n        werlist: List[float], # WER List\n        cerlist: List[float],# CER list\n        modelsizelist: List[str], # model size list\n        timelist: List[float], # time(s) list\n        bs:int =16, # batch size. Default value is 16.\n)-&gt;None:\n    whisper_asr = pipeline(\n            \"automatic-speech-recognition\", model=model_name, device=0\n        )\n    dataset = load_common_voice_malayalam_dataset()\n    \n    predictions = []\n    references = []\n    start = time.time()\n    for out in whisper_asr(data(dataset), batch_size=bs):\n        predictions.append(normalizer((out[\"text\"])))\n        references.append(normalizer(out[\"reference\"][0]))\n    end = time.time()"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#calculating-wer-cer",
+    "href": "talks/proposals/pyconind.html#calculating-wer-cer",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Calculating WER, CER",
+    "text": "Calculating WER, CER\n    ...\n    df = pd.DataFrame({\"predictions\": predictions, \"ground_truth\": references})\n    df[\"model_name\"] = model_name\n    df[\"wer\"] = df.apply(lambda row: wer(normalizer(row[\"ground_truth\"]), normalizer(row[\"predictions\"])), axis=1)\n    df[\"cer\"] = df.apply(lambda row: cer(normalizer(row[\"ground_truth\"]), normalizer(row[\"predictions\"])), axis=1)\n    df[\"total_time\"] = end-start\n    rwer = wer(references, predictions)\n    rwer = round(100 * rwer, 2)\n    werlist.append(rwer)\n    print(f\"The WER of model: {rwer}\")\n\n    rcer = cer(references, predictions)\n    rcer = round(100 * rcer, 2)\n    cerlist.append(rcer)\n    print(f\"The CER of model: {rcer}\")"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#calculating-model_size-and-storing-as-a-dataset",
+    "href": "talks/proposals/pyconind.html#calculating-model_size-and-storing-as-a-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Calculating model_size and storing as a dataset",
+    "text": "Calculating model_size and storing as a dataset\n    ...\n    print(f\"The model size is: {get_model_size(whisper_asr.model)}\")\n    modelsizelist.append(get_model_size(whisper_asr.model))\n    df[\"model_size\"] = get_model_size(whisper_asr.model)\n    \n    save_name = model_name.split(\"/\")\n    print(save_name)\n    df.to_parquet(f\"{save_name[0]}_{save_name[1]}_commonvoice.parquet\")\n    \n    clear_gpu_memory()"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#benchmarked-models",
+    "href": "talks/proposals/pyconind.html#benchmarked-models",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Benchmarked models",
+    "text": "Benchmarked models\n\nStarted with 6 fine-tuned models in Malayalam and compared it with 6 model versions released by OpenAI.\n\nthennal/whisper-medium-ml\nparambharat/whisper-tiny-ml\nparambharat/whisper-base-ml\nparambharat/whisper-small-ml\nanuragshas/whisper-large-v2-ml\nDrishtiSharma/whisper-large-v2-malayalam"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#results-on-benechmarking-in-common-voice-dataset",
+    "href": "talks/proposals/pyconind.html#results-on-benechmarking-in-common-voice-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Results on benechmarking in Common Voice dataset",
+    "text": "Results on benechmarking in Common Voice dataset\n\nOutput from benchmarking tool"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#wer-in-common-voice-dataset",
+    "href": "talks/proposals/pyconind.html#wer-in-common-voice-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "WER in Common Voice dataset",
+    "text": "WER in Common Voice dataset\n\nWord Error Rate in Common Voice-9 test split"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#cer-in-common-voice-dataset",
+    "href": "talks/proposals/pyconind.html#cer-in-common-voice-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "CER in Common Voice dataset",
+    "text": "CER in Common Voice dataset\n\nCharacter Error Rate in Common Voice-9 test split"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
+    "href": "talks/proposals/pyconind.html#results-on-benechmarking-in-malayalam-speech-corpus-dataset",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Results on benechmarking in Malayalam Speech Corpus dataset",
+    "text": "Results on benechmarking in Malayalam Speech Corpus dataset\n\nOutput from benchmarking tool"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#wer-in-malayalam-speech-corpus",
+    "href": "talks/proposals/pyconind.html#wer-in-malayalam-speech-corpus",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "WER in Malayalam Speech Corpus",
+    "text": "WER in Malayalam Speech Corpus\n\nWord Error Rate in MSC"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#cer-in-malayalam-speech-corpus",
+    "href": "talks/proposals/pyconind.html#cer-in-malayalam-speech-corpus",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "CER in Malayalam Speech Corpus",
+    "text": "CER in Malayalam Speech Corpus\n\nCharacter Error rate in MSC"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#links-to-project",
+    "href": "talks/proposals/pyconind.html#links-to-project",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Links to Project",
+    "text": "Links to Project\nGithub project\nhttps://github.com/kurianbenoy/malayalam_asr_benchmarking"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#links-to-project-1",
+    "href": "talks/proposals/pyconind.html#links-to-project-1",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Links to Project",
+    "text": "Links to Project\nBenchmarking results\n\nResults on SMC Malayalam Speech corpus\nhttps://huggingface.co/datasets/kurianbenoy/\nmalayalam_msc_benchmarking\nResults on Common Voice 11\nhttps://huggingface.co/datasets/kurianbenoy/\nmalayalam_common_voice_benchmarking"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#future-ideas-for-benchmarking",
+    "href": "talks/proposals/pyconind.html#future-ideas-for-benchmarking",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Future Ideas for Benchmarking",
+    "text": "Future Ideas for Benchmarking\n\nSomething very similar to OpenLLM Leaderboard with results of latest malayalam speech models.\nShould include results for Kaldi, Meta’s MMS, Wav2Vec etc.\n\n\nOpen LLM leaderboard in huggingface spaces"
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#conclusion",
+    "href": "talks/proposals/pyconind.html#conclusion",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\nIn Malayalam we have achieved phenomenal results for fine tuned whisper models.\nThe best model after benchmarking is: thennal/whisper-medium-ml\nI think their seems to be a good ASR model suitable for production use-cases.\nYou can also do it in your own language especially if it is a low resource language."
+  },
+  {
+    "objectID": "talks/proposals/pyconind.html#thanks-to",
+    "href": "talks/proposals/pyconind.html#thanks-to",
+    "title": "OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue",
+    "section": "Thanks to",
+    "text": "Thanks to\n\n\n\nOpenAI team - Alec Radford, Jong Wook Kim, Christine McLeavey etc. other authors of Whisper paper\nCreators of CTranslate2 and faster-whisper - Guillaume Klein\nHuggingFace team - Sanchit Gandhi, Nicolas Patry, Vaibhav Srivastav etc.\nKavya Manohar\nSanthosh Thottingal\nThennal D K\n\n\n\nAbdulMajedRaja RS\nGeorgi Gerganov\nRamsri Goutham\nWayde Gilliam\nOther members in SMC.\nJarvis Labs\n\n\n\n\n\nKurian Benoy || OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue"
   },
   {
     "objectID": "talks.html",
