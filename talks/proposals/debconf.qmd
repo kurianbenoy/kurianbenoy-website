@@ -28,24 +28,8 @@ Write two or three paragraphs describing your talk. Who is your audience? What w
 
 ## My Abstract
 
-Last twelve months has seen phenomenal advancements in AI and iPhone moment in AI ie ChatGPT was released during this time.
-In this talk, I will be sharing AI advancements in writing, what are pros & cons of using it and
-share some tips on still writing with originality in this age of AI.
+Last twelve months has seen phenomenal advancements in AI and iPhone moment in AI ie ChatGPT was released during this time. In this talk, I aim to delve into the realm of AI advancements in writing, exploring both the benefits and drawbacks of its usage. Moreover, I will share invaluable tips on how to maintain originality in an age dominated by AI.
 
-Seeing a well-written reply to my question by a volunteer who was in sophomore year, made me guess was it from ChatGPT.
-My guess was right as myself being an active user of ChatGPT. I try to think navigating this as a writer inspired by
-the famous book by Stephen King whose book is a good to read for anyone who enjoys writing.
-
-Last 12 months has been a pheonmenal period of AI advancements, there was this ChatGPT thing which is
-remarked by some as Iphone moment in AI. During an event which I was attending, I noticed an extremely
-well written prose written by one of the organizers. I was surprised to see some writing such fluently,
-yet as an ML engineer who was familiar with ChatGPT just from the day it was released I guessed it might
-have used ChatGPT.
-
-I was not wrong in my assumption. The volunteer told me they used ChatGPT. 
-On Writing: A Memoir of the Craft written by Stephen King is a great book. Inspired by
-that book, I will share with you some tips on writing as someone who has
-been learning ML for past five years and writing blogposts even before that.
-Anyone who writes blogposts or any other things will find this pretty interesting.
+I try to think about how to navigate this turbulent period as a writer. This talk is inspired by famous book On Writing: A Memoir of the Craft by Stephen King. With this talk I hope to share some tips to elevate the quality of your future blog posts, documentation or anything else you write.
 
 ## Notes
