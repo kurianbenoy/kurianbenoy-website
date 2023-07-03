@@ -32,7 +32,7 @@ crazy thing was in all the four matches played in the final,  Javokhir Sindarov 
 The match ended with Triveni Continental Kings winning when Jonas defeated Sindarov with
  a checkmate.
 
-{{ video https://youtu.be/Ipz5yp3HzL4 }}
+{{< video https://youtu.be/Ipz5yp3HzL4 >}}
 
 The tournament was well-organized and it was nice to see growing popular and popular
 as someone who has been following it for a few years. The event winners Triveni Continental Kings
