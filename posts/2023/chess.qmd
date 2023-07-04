@@ -3,40 +3,22 @@ title: Chess is sometimes more entertaining than Cricket
 author: Kurian Benoy
 categories: [chess, Life]
 date: 2023-07-03
-date-format: full
+lang: en
+image: https://i3.ytimg.com/vi/Ipz5yp3HzL4/maxresdefault.jpg
 ---
 
-The statement in my headline is an extremely polarizing one especially as an Indian.
-Yet folks, I didn't say always I just said sometimes and as someone who watched the
-game against Triveni Continental Kings vs upGrad Mumba Masters finals in Global Chess
-League.
-
-First of all, I am terrible at chess and I don't enjoy playing chess much. I like to
-watch chess more and follow some of the interesting personalities in chess world.
-
-The situation in the watch can be well explained with this youtube video. So do watch
-it if you want a recap. Yet let me describe the match for you:
-
-This was a team tournament with 6 players each fighting for their team. Their was the
-icons board, followed by two mens board, two female players board and finally a prodigy
-board. The format was first two chess rapid games of 15 minutes time for each players.
-The first rapid game playing with white was won by Triveni Continental Kings and the 
-second rapid game was won by upGrad Mumba Masters playing with White.
-This forced to go into a blitz match of 5 minutes time for each team. This time 
-Triveni Continental Kings was white but they lost. In a must win game for Triveni Continental Kings
-with black, they managed to do the impossible in a must win sitation.
-
-This forced into a player vs player tie breaker. Three players played and each of them tied.
-The last match was played by GM Jonas Bjerre from Denmark and GM  Javokhir Sindarov. The
-crazy thing was in all the four matches played in the final,  Javokhir Sindarov had won it.
-The match ended with Triveni Continental Kings winning when Jonas defeated Sindarov with
- a checkmate.
+Chess is occasionally more entertaining than cricket, and this notion was brought to light during the finals of the Global Chess League between Triveni Continental Kings and upGrad Mumbai Masters. As an Indian, this statement may seem controversial, but it is important to acknowledge that this is not always the case. Having witnessed the match between these two teams, I can confidently argue for the entertainment value of chess in certain instances.
 
 {{< video https://youtu.be/Ipz5yp3HzL4 >}}
 
-The tournament was well-organized and it was nice to see growing popular and popular
-as someone who has been following it for a few years. The event winners Triveni Continental Kings
-won the grand prize of $500,000 which had an Indian company Tech Mahindra sponsoring it.
-It's been good to see Indian companies like Tech Mahindra, Tata Steel sponsoring big events.
-India has some talented prodigies like Gukesh, Arjun, Nihal and Pragg. This makes chess
-worth watching even more :D.
+While I personally struggle with playing chess and do not derive much enjoyment from it, I find watching chess matches and following the intriguing personalities in the chess world to be quite engaging. The particular match I am referring to was a team tournament with six players on each team, competing fiercely for their respective sides. The format involved the iconic board, two men's boards, two women's boards, and a prodigy board.
+
+The tournament began with two rapid chess games, with each player having 15 minutes of time. In the first rapid game, Triveni Continental Kings emerged victorious while playing with the White pieces, but in the second rapid game, upGrad Mumbai Masters managed to win playing with the same color. Hence, the teams had to proceed into a blitz match with each player having only 5 minutes of time. Triveni Continental Kings played as White this time but unfortunately lost. Consequently, in a must-win game for Triveni Continental Kings playing as Black, they achieved the impossible under such pressure.
+
+The tiebreaker resulted in a player-versus-player showdown, where three players from each team competed against one another. Surprisingly, all three matches ended in a draw, intensifying the level of suspense. The fate of the tournament ultimately rested on the final match between GM Jonas Bjerre from Denmark and GM Javokhir Sindarov. Remarkably, Sindarov had won all four of the matches played in the finals so far, adding an extra layer of excitement to this decisive game. The match concluded with Triveni Continental Kings emerging as the winners when Jonas defeated Sindarov with a checkmate, securing the victory for his team.
+
+The tournament itself was well-organized, and as someone who has been following it for a few years, it was pleasing to witness its growing popularity. The event sponsors, Tech Mahindra, an Indian company, contributed to the grand prize of $500,000. This exemplifies the support of Indian companies like Tech Mahindra and Tata Steel who are increasingly involved in sponsoring major chess events. Moreover, India boasts talented prodigies like Gukesh, Arjun, Nihal, and Pragg, adding further excitement and intrigue to the world of chess.
+
+In conclusion, while cricket holds a cherished place in the hearts of many, it is important to recognize that chess has its own unique and captivating qualities. The final match between Triveni Continental Kings and upGrad Mumbai Masters in the Global Chess League demonstrated the enthralling nature of the game. This particular encounter showcased the intense battles, strategic maneuvers, and moments of brilliance that chess has to offer. By expanding our perspective and appreciating the diverse aspects of sports and entertainment, we can fully embrace the thrilling world of chess alongside cricket.
+
+Note: This article was generated with gpt-3.5-turbo-16k model.
