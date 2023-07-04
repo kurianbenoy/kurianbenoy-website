@@ -2,7 +2,7 @@
 title: Chess is sometimes more entertaining than Cricket
 author: Kurian Benoy
 categories: [chess, Life]
-date: 2023-07-03
+date: 2023-07-04
 lang: en
 image: https://i3.ytimg.com/vi/Ipz5yp3HzL4/maxresdefault.jpg
 ---
@@ -21,4 +21,4 @@ The tournament itself was well-organized, and as someone who has been following 
 
 In conclusion, while cricket holds a cherished place in the hearts of many, it is important to recognize that chess has its own unique and captivating qualities. The final match between Triveni Continental Kings and upGrad Mumbai Masters in the Global Chess League demonstrated the enthralling nature of the game. This particular encounter showcased the intense battles, strategic maneuvers, and moments of brilliance that chess has to offer. By expanding our perspective and appreciating the diverse aspects of sports and entertainment, we can fully embrace the thrilling world of chess alongside cricket.
 
-Note: This article was generated with gpt-3.5-turbo-16k model.
+> Note: This article was generated based on author's first draft with gpt-3.5-turbo-16k model.
