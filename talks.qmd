@@ -9,7 +9,7 @@ comments: false
 
 These are the list of talks I have delivered:
 
-- OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue | FOSS Meetup Kochi - KeyValue, Smart Kochi. | June 17, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/fossunited/kochi.qmd) 
+- [OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue](https://youtu.be/t_uoI6yOOZg) | FOSS Meetup Kochi - KeyValue, Smart Kochi. | June 17, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/fossunited/kochi.qmd) 
 
 - AI with Malayalam Computing | DebUtsav - Govt. Model Engineering College, Thrikkakara. | June 17, 2023 | [Slides](./talks/mec/debutsav.qmd),  [Talk Page](./posts/2023/debutsav_talk/index.qmd) 
 
