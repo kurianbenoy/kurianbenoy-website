@@ -1,0 +1,48 @@
+---
+title: Malayalam Automatic Speech Recognition Benchmarking and Further improvements
+date: 2023-09-03
+date-format: full
+comments: false
+author: Kurian Benoy - 2021MCS120014
+format:
+  revealjs:
+    theme: solarized
+    slide-number: true
+---
+
+## Introduction
+
+Speech to text models also know as ASR models are fundamental to any project. Malayalam which is
+my mother tongue has about 38+ million speaker.
+
+## Literature Review
+
+https://ieeexplore.ieee.org/document/9395945/references#references
+
+
+## Problem Statement
+
+1. No uniform standard to compare which is good or bad.
+2. 
+
+## Objectives
+
+- Benchmarking Malayalam ASR models
+
+A number of existing techniques are available for Malayalam  speech to text, this makes it important to benchmark and see how well the existing models perform. At the moment, there has been no prior work to compare one ASR model over the other over certain datasets.
+
+- OpenSource ASR MODELS
+
+Proposed project involves building a Malayalam speech to text system
+which can the transcribe the Malayalam speech accurately which will have a WER
+of 10-15 percentage. It should be able to accurately transcribe audio and video.
+
+- The models should be easily productionizable
+
+
+
+## Expected Outcome
+
+1. Build a framework for evaluating ASR models in Malayalam
+2. Build / Fine Tune Open source ASR models
+
