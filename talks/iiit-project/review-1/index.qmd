@@ -1,48 +1,124 @@
 ---
-title: Malayalam Automatic Speech Recognition Benchmarking and Further improvements
+title: ASR for Malayalam 
 date: 2023-09-03
 date-format: full
 comments: false
-author: Kurian Benoy - 2021MCS120014
+author: Kurian Benoy | 2021MCS120014
 format:
   revealjs:
-    theme: solarized
     slide-number: true
 ---
 
-## Introduction
+## Automatic Speech Recognition
 
-Speech to text models also know as ASR models are fundamental to any project. Malayalam which is
-my mother tongue has about 38+ million speaker.
+- Automatic Speech Recognition(ASR) is the use of technology to process human speech into readable text.
+
+![](s2t.png)
+
+## About Malayalam
+
+- Malayalam is a dravidian language which has 38 million+ speakers(2011 census).
+- Malayalam is morphologically complex language which has complex morphology compared to languages like Finnish,
+  Estonian, English, Tamil, Hindi etc.[3]
 
 ## Literature Review
 
-https://ieeexplore.ieee.org/document/9395945/references#references
+- Using HMM, [1] showed Malayalam speech recognition of numbers was possible when trained in a corpus of
+420 sentences which contained 21 speakers. Similarly using HMM and ANN[4] demonstrated malayalam speech
+recognition. [1] and  [4] demonstrated their resuts in internal test sets and claims to have word recongition
+accuracy of 91% and 86.67% respectively.
 
+## Literature Review
 
-## Problem Statement
+- Kavya Manohar et.al[2] proposed a open vocabulary speech recognition in Malayalam.
+It involves building a hybrid ASR model with acoustic model ASR and that builds using
+language model and prounciation lexion. The study examined WER in medium and large OOV
+test which are open source and concluded it can give 10 to 7% improvement over simply using
+acoustic ASR.
 
-1. No uniform standard to compare which is good or bad.
-2. 
+## Literature Review
 
-## Objectives
+- There are ASR's which is originally trained for multiple languages supporting Malayalam as well.
+- Whisper [5] which use a encoder-decoder based model which supports speech recognition in 99+ languages. For Malayalam
+in Common Voice 9 dataset for malayalam subset it reported a WER of 103.2 with largev2 model.
+- MMS [6] which uses a CTC model supports speech recognition in  1000+ languages. For Malayalam subset in
+Fleurs dataset it reported a WER of 39.7 with MMS L-1107 no LM checkpoint.
 
-- Benchmarking Malayalam ASR models
+## Challenges
 
-A number of existing techniques are available for Malayalam  speech to text, this makes it important to benchmark and see how well the existing models perform. At the moment, there has been no prior work to compare one ASR model over the other over certain datasets.
+- A number of existing techniques are available for Malayalam  speech to text, yet there is no comparission on how well
+  one existing models perform over another as most of analysis is done in private datasets.
+- Doesn't support speech transcription of long-form audios with time-stamps
+- Open research methadology is not followed which makes it challenging to identify datasets and models.
 
-- OpenSource ASR MODELS
+## Project Objectives
 
-Proposed project involves building a Malayalam speech to text system
-which can the transcribe the Malayalam speech accurately which will have a WER
-of 10-15 percentage. It should be able to accurately transcribe audio and video.
+1. Build an open-source based ASR model
 
-- The models should be easily productionizable
+- Achieve a WER of less than 0.15 
 
+2. Benchmark ASR models in datasets
 
+3. Support Malayalam long form audio speech transcription
 
 ## Expected Outcome
 
-1. Build a framework for evaluating ASR models in Malayalam
-2. Build / Fine Tune Open source ASR models
+1. Fine-tuned ASR model weights which are open source and can be tested in approporiate web app UI.
+2. An ASR system which is able to support long form transcription.
+3. A leaderboard of best ASR models available in Malayalam
+
+## Proposed Methodology
+
+1. Build an open-source based ASR model
+
+- Collect dataset for training ASR model
+- Select appropriate base architecture
+- Then fine-tune models
+- Evaluate
+
+## Proposed Methodology
+
+2. Benchmark ASR models in datasets
+
+- Using appropriate selected datasets
+- Evaluate the performance of ASR model
+- The proposed metrics are WER, CER, time taken, model size etc.
+
+## Proposed Methodology
+
+3. Support Malayalam long form audio speech transcription
+
+- Using hypothesised approach proposed in [7] for languages like English, French we hope
+to build similar models which can support long form audio.
+
+## Project Plan
+
+Semester 1:
+
+1. Build an open-source based ASR model
+
+2. Benchmark ASR models in datasets
+
+
+Semester 2:
+
+3. Support Malayalam long form audio speech transcription
+
+## Summary
+
+- Build open-source ASR models which support long-form and short form audio.
+
+## References
+
+- [1] Speech Recognition of Malayalam Numbers,Cini Kurian, Kannan Balakrishnan  
+- [2] Syllable Subword Tokens for Open Vocabulary Speech
+Recognition in Malayalam by Kavya Manohar, A.R Jayan, Rajeev Rajan
+- [3]  Quantitative Analysis of the Morphological Complexity of Malayalam Language
+- [4] HMM/ANN hybrid model for continuous Malayalam speech recognition, Anuj Mohammed & K.N Ramachandran Nair
+
+## References
+
+- [5] Robust Speech Recognition via Large-Scale Weak Supervision, Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine Mcleavey, Ilya Sutskever
+- [6] Scaling Speech Technology to 1,000+ Languages, Vineel Pratap, Andros Tjandra, Bowen Shi, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli
+- [7] WhisperX: Time-Accurate Speech Transcription of Long-Form Audio, Max Bain, Jaesung Huh, Tengda Han, Andrew Zisserman
 
