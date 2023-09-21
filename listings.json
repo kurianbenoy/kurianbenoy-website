@@ -1,5 +1,20 @@
 [
   {
+    "listing": "/slides.html",
+    "items": [
+      "/talks/lt_talk_idea/index.html",
+      "/talks/proposals/pyconind.html",
+      "/talks/pyconindia-2023/pyconind.html",
+      "/talks/iiit-project/review-1/index.html",
+      "/talks/foss-united/kochi.html",
+      "/talks/mec/debutsav.html",
+      "/talks/iiit-kottayam-summit/index.html",
+      "/talks/iiit-kottayam-summit/demo.html",
+      "/talks/delft-fastai/index.html",
+      "/talks/fossasia2023.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/2023/chess.html",
@@ -86,8 +101,8 @@
       "/posts/2020/2020-08-09-Mindmaster.html",
       "/posts/2020/2020-07-09-TWTW_week1.html",
       "/posts/2020/2020-06-09-CS229_lessonnotes.html",
-      "/posts/2020/2020-06-01-ideasforMLcomputing.html",
       "/posts/2020/2020-06-01-Books_read.html",
+      "/posts/2020/2020-06-01-ideasforMLcomputing.html",
       "/posts/2020/2020-05-21-deoldify.html",
       "/posts/2020/2020-03-21-BengaliAI_experience.html",
       "/posts/2020/2020-03-14-swift0.html",
@@ -127,20 +142,6 @@
       "/posts/2019/2019-03-13-FOSSASIA-Day1.html",
       "/posts/2019/2019-03-01-Contributing_to_Open_Source_With_CloudCV.html",
       "/posts/2019/2019-02-11-SVD_NMF.html"
-    ]
-  },
-  {
-    "listing": "/slides.html",
-    "items": [
-      "/talks/lt_talk_idea/index.html",
-      "/talks/proposals/pyconind.html",
-      "/talks/iiit-project/review-1/index.html",
-      "/talks/foss-united/kochi.html",
-      "/talks/mec/debutsav.html",
-      "/talks/iiit-kottayam-summit/index.html",
-      "/talks/iiit-kottayam-summit/demo.html",
-      "/talks/delft-fastai/index.html",
-      "/talks/fossasia2023.html"
     ]
   }
 ]
