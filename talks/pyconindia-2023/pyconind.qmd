@@ -2,11 +2,14 @@
 title: "OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
 author: Kurian Benoy
 comments: false
+date: 2023-10-01
+date-format: full
 format:
   revealjs:
     theme: solarized
     slide-number: true
-    footer: "[Kurian Benoy](https://kurianbenoy.com/) || [Pycon India, Hydrebad 2023](https://in.pycon.org/2023/) || OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
+    logo: "logo.png"
 ---
 
 ## Outline
@@ -93,9 +96,9 @@ Whisper model in C/C++.</span>
 
 ## Runs faster now
 
-- [Whisper JAX of OpenAI Whisper model upto 70x speedup on TPU](https://github.com/sanchit-gandhi/whisper-jax)
-- [4x faster with same accuracy using faster-whisper](https://github.com/guillaumekln/faster-whisper)
-- [Useful transformer makes 2x faster than faseter-whisper](https://github.com/usefulsensors/useful-transformers/tree/main/examples/whisper)
+- JAX implementation of OpenAI Whisper model upto 70x speedup on TPU using [Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
+- 4x faster with same accuracy using [faster-whisper](https://github.com/guillaumekln/faster-whisper)
+- [Useful transformer](https://github.com/usefulsensors/useful-transformers/tree/main/examples/whisper) makes 2x faster than faseter-whisper.
 
 ## Awesome community plugins
 
@@ -449,3 +452,9 @@ def evaluate_whisper_model_common_voice(
 12. [Jarvis Labs](cloud.jarvislabs.ai/)
 :::
 ::::
+
+## Tributes 
+
+![Remembering my first Python teacher](JumanaMiss.jpg){width=700 fig-align=left}
+
+
