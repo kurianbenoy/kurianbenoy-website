@@ -17,11 +17,15 @@ format:
       dark: darkly
 ---
 
+{{< video https://www.youtube.com/embed/g3ysWcvPX5A >}}
+
 ## Links to talk
 
 - [Slides](../../../talks/fossasia2023.html)
 
 - Scheduled Time: Saturday, April 15, 2023, 9:30 AM SGT
+
+- [Talk Youtube link](https://youtu.be/g3ysWcvPX5A?si=Q5VQOon_SBq9IGBI)
 
 - [Youtube live video stream](https://www.youtube.com/live/sGWiXzsLGtI)
 
