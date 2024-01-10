@@ -1,0 +1,31 @@
+---
+title: Conferences I attended in 2023
+subtitle: Recap of conferences
+author: Kurian Benoy
+date: 2024-01-10
+draft: true
+type: post
+categories: [conference, fossasia, myself]
+lang: en
+toc: true
+comments: false
+---
+
+## Conferences I attended
+
+1. FOSSASIA Summit, Singapore
+2. Summit 2023, IIIT Kottayam
+3. DebConf 2023, Kochi
+4. Pycon India, Hyderabad
+
+Probably 2023 was the year, where I attended most of conferences. Conferences
+are usually some of the most interesting places to learn more, meet new and old
+friends and for presenting your cool works.
+
+My favourite event was FOSSASIA Summit, 2023. The atmosphere of this conference
+is just simply fantastic and this one conference where developers of different
+disciplines like WebDevelopment, Databases, AI, Python etc come together. I was
+wondering whether anyone will remember at all, because the last time I attended
+was in 2019. I ran to some familiar friends and my favourite conference moment
+in 2023 happend when I was the venue manager for Databases track for one day.
+
