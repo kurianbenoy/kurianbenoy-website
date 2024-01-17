@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kurian Benoy">
+<meta name="dcterms.date" content="2024-01-17">
 
-<title>Kurian Benoy - Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text</title>
+<title>Kurian Benoy - Releasing MalWhisper models</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,18 +65,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Kurian Benoy - Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text">
-<meta property="og:description" content="Talk page for Demo Presentation session presented @ Summit 23, IIIT Kottayam">
-<meta property="og:image" content="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png">
+<meta property="og:title" content="Kurian Benoy - Releasing MalWhisper models">
+<meta property="og:description" content="">
 <meta property="og:site-name" content="Kurian Benoy">
-<meta property="og:image:height" content="431">
-<meta property="og:image:width" content="1357">
-<meta name="twitter:title" content="Kurian Benoy - Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text">
-<meta name="twitter:description" content="Talk page for Demo Presentation session presented @ Summit 23, IIIT Kottayam">
-<meta name="twitter:image" content="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png">
-<meta name="twitter:image-height" content="431">
-<meta name="twitter:image-width" content="1357">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kurian Benoy - Releasing MalWhisper models">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -138,15 +133,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text</h1>
-            <p class="subtitle lead">Talk page for Demo Presentation session presented @ Summit 23, IIIT Kottayam</p>
+      <h1 class="title">Releasing MalWhisper models</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">academic</div>
-                <div class="quarto-category">life</div>
-                <div class="quarto-category">conference</div>
                 <div class="quarto-category">Malayalam</div>
                 <div class="quarto-category">Audio</div>
-                <div class="quarto-category">Talk Page</div>
+                <div class="quarto-category">Deep learning</div>
+                <div class="quarto-category">finetuning</div>
                 <div class="quarto-category">SMC</div>
               </div>
                   </div>
@@ -165,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Sunday, June 11, 2023</p>
+        <p class="date">January 17, 2024</p>
       </div>
     </div>
     
@@ -181,15 +173,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#links" id="toc-links" class="nav-link active" data-scroll-target="#links">Links</a></li>
-  <li><a href="#vegam-whisper-family-of-models" id="toc-vegam-whisper-family-of-models" class="nav-link" data-scroll-target="#vegam-whisper-family-of-models">Vegam Whisper Family of Models</a></li>
-  <li><a href="#code-to-run-faster-whisper-code" id="toc-code-to-run-faster-whisper-code" class="nav-link" data-scroll-target="#code-to-run-faster-whisper-code">Code to run faster-whisper code</a></li>
-  <li><a href="#demo-video--1-and-its-associated-output" id="toc-demo-video--1-and-its-associated-output" class="nav-link" data-scroll-target="#demo-video--1-and-its-associated-output">Demo Video -1 and it’s associated Output</a></li>
-  <li><a href="#demo-video--2-and-its-associated-output" id="toc-demo-video--2-and-its-associated-output" class="nav-link" data-scroll-target="#demo-video--2-and-its-associated-output">Demo Video -2 and it’s associated Output</a></li>
-  <li><a href="#pallakku" id="toc-pallakku" class="nav-link" data-scroll-target="#pallakku">Pallakku</a></li>
-  <li><a href="#what-is-behind-the-name-of-vegam-and-pallakku" id="toc-what-is-behind-the-name-of-vegam-and-pallakku" class="nav-link" data-scroll-target="#what-is-behind-the-name-of-vegam-and-pallakku">What is behind the name of Vegam and Pallakku?</a></li>
-  <li><a href="#thanks-to" id="toc-thanks-to" class="nav-link" data-scroll-target="#thanks-to">Thanks to</a></li>
-  <li><a href="#how-was-the-expereince-presenting-demos" id="toc-how-was-the-expereince-presenting-demos" class="nav-link" data-scroll-target="#how-was-the-expereince-presenting-demos">How was the expereince presenting demos?</a></li>
+  <li><a href="#about-imasc-dataset" id="toc-about-imasc-dataset" class="nav-link active" data-scroll-target="#about-imasc-dataset">About IMaSC dataset</a></li>
   </ul>
 </nav>
     </div>
@@ -199,100 +183,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li><a href="../../../talks/iiit-kottayam-summit/demo.html">Slides</a></li>
-<li>Scheduled Time: Saturday, June 10, 2023. 2:00 PM IST</li>
-<li>Venue: AA 127, IIIT Kottayam.</li>
-<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku a Malayalam speech to text demo</a></li>
-</ul>
-</section>
-<section id="vegam-whisper-family-of-models" class="level2">
-<h2 class="anchored" data-anchor-id="vegam-whisper-family-of-models">Vegam Whisper Family of Models</h2>
-<p>Inspired by <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> which is a reimplementation of OpenAI’s Whisper model using CTranslate2 speeds upto 4 times faster than <code>openai/whisper</code> for the same accuracy while using less memory.</p>
-<p>CTranslate2 supports various quantization formats and we have trained models for the following quantization formats:</p>
-<ul>
-<li>float16</li>
-<li>int16</li>
-<li>float8</li>
-<li>int8_float8</li>
-<li>No quantization</li>
-</ul>
-<p>For Malayalam, I used the best model in my benchmarking study ie <a href="https://huggingface.co/thennal/whisper-medium-ml">thennal/whisper-medium-ml</a> and converted into all possible quantization weights.</p>
+<p>Released two version of fine-tuning OpenAI Whisper on medium and small checkpoint by fine-tuning on IMasc dataset. The models where released here:</p>
 <ol type="1">
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml">kurianbenoy/vegam-whisper-medium-ml</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16">kurianbenoy/vegam-whisper-medium-ml-fp16</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16">kurianbenoy/vegam-whisper-medium-ml-int16</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8">kurianbenoy/vegam-whisper-medium-ml-fp8</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8">kurianbenoy/vegam-whisper-medium-ml-int8_float8</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/Malwhisper-v1-medium">Malwhisper-v1-medium</a></li>
+<li><a href="https://huggingface.co/kurianbenoy/Malwhisper-v1-small">Malwhisper-v1-small</a></li>
 </ol>
-</section>
-<section id="code-to-run-faster-whisper-code" class="level2">
-<h2 class="anchored" data-anchor-id="code-to-run-faster-whisper-code">Code to run faster-whisper code</h2>
-<p><img src="../../../talks/iiit-kottayam-summit/faster-whisper.png" class="img-fluid"></p>
-</section>
-<section id="demo-video--1-and-its-associated-output" class="level2">
-<h2 class="anchored" data-anchor-id="demo-video--1-and-its-associated-output">Demo Video -1 and it’s associated Output</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zm1gU8hRHxA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>Oru Thai Nadam sang by Venugopal and Sreya, Lyrics by Sugathakumari</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../talks/iiit-kottayam-summit/25s_audio.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Output of clip from Video 1</figcaption>
-</figure>
-</div>
-</section>
-<section id="demo-video--2-and-its-associated-output" class="level2">
-<h2 class="anchored" data-anchor-id="demo-video--2-and-its-associated-output">Demo Video -2 and it’s associated Output</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fZZFCOkWquY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song created spontaneously at MBIFL 2023</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../talks/iiit-kottayam-summit/10s_audio.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Output of clip from Video 2</figcaption>
-</figure>
-</div>
-</section>
-<section id="pallakku" class="level2">
-<h2 class="anchored" data-anchor-id="pallakku">Pallakku</h2>
-<ul>
-<li>Pallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family of models. It might be the first huggingface 🤗 spaces for Malayalam speech to text.</li>
-</ul>
-<p>Two options to try it out:</p>
-<ol type="1">
-<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">🤗 spaces</a></li>
-</ol>
-<p><img src="../../../talks/delft-fastai/pallakku.png" class="img-fluid"></p>
-<p>You can try it out in <a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">the below link</a>.</p>
-<ol start="2" type="1">
-<li>GPU-based microservice (coming soon.)</li>
-</ol>
-</section>
-<section id="what-is-behind-the-name-of-vegam-and-pallakku" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-behind-the-name-of-vegam-and-pallakku">What is behind the name of Vegam and Pallakku?</h2>
-<ul>
-<li>Vegam is a Malayalam word which means speed.</li>
-<li>Pallakku is a Malayalam word which means a palanquin. It is a vehicle which is carried by people.</li>
-</ul>
-<p>As an author of these work, I just wanted to say the meaning of these words doesn’t really have anything to do with the package. Vegam might not be the fastest Malayalam ASR model and Pallakku is named not to refer to the old colonial times. I just named it for the sake of naming it.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<ul>
-<li><a href="https://twitter.com/santhoshtr/">Santhosh Thottingal</a> for his support and guidance. Santhosh told me about faster-whisper and the utility to convert the model weights to various quantization formats.</li>
-<li>Organizers of IIIT Summit 23 for giving me an opportunity to present my work.</li>
-</ul>
-</section>
-<section id="how-was-the-expereince-presenting-demos" class="level2">
-<h2 class="anchored" data-anchor-id="how-was-the-expereince-presenting-demos">How was the expereince presenting demos?</h2>
-<p>Demo presentations are events where you can interact with people during the scheduled time. There was an evaluation panel with one of chief guests of the event <a href="https://www.linkedin.com/in/dr-t-ramalingeswara-rao-784a903a/">Dr.&nbsp;T Ramalingeswara Rao</a> from TCS and one of the professors.</p>
-<p>These sessions brought a hacker kind of vibe back to me. I was really happy to receive lot of curious questions and smiles received from folks who came to visit my demo presentation. I set up the demo in such a way that there was a wireless microphone and I would play a few audio files. They used to rate the output of the model.</p>
-<p>Some of my professors who taught me in previous semesters like <a href="https://www.iiitkottayam.ac.in/#!/faculty/keshab">Dr.&nbsp;Keshab Nath</a> visited to see my demo and gave me suggestions. It was a nice vibe to interact with a bunch of BTech students in their second semester from Andhra Pradhesh. Even though they were not able to understand Malayalam, they just hung around and asked me questions :D.</p>
+<section id="about-imasc-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="about-imasc-dataset">About IMaSC dataset</h2>
+<p>IMaSC is a Malayalam text and speech corpus made available by ICFOSS for the purpose of developing speech technology for Malayalam, particularly text-to-speech. The corpus contains 34,473 text-audio pairs of Malayalam sentences spoken by 8 speakers, totalling in approximately 50 hours of audio.</p>
 
 
 </section>
@@ -530,8 +428,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="kurianbenoy/kurianbenoy-website" data-repo-id="MDEwOlJlcG9zaXRvcnkxMDY1MzAxNzQ" data-category="Q&amp;A" data-category-id="DIC_kwDOBlmFfs4CU-J4" data-mapping="url" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
 </div> <!-- /content -->
 
