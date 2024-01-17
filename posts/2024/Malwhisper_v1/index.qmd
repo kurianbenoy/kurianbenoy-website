@@ -1,0 +1,31 @@
+---
+title: Releasing MalWhisper models
+author: Kurian Benoy
+date: 2024-01-17
+type: post
+categories: [Malayalam, Audio, "Deep learning", finetuning, SMC]
+lang: en
+toc: true
+comments: false
+---
+
+Released two version of fine-tuning OpenAI Whisper on medium and small checkpoint 
+by fine-tuning on IMasc dataset. The models where released here:
+
+1. [Malwhisper-v1-medium](https://huggingface.co/kurianbenoy/Malwhisper-v1-medium)
+2. [Malwhisper-v1-small](https://huggingface.co/kurianbenoy/Malwhisper-v1-small)
+
+## About IMaSC dataset
+
+IMaSC is a Malayalam text and speech corpus made available by
+ICFOSS for the purpose of developing speech technology for Malayalam,
+particularly text-to-speech. The corpus contains 34,473 text-audio pairs of
+Malayalam sentences spoken by 8 speakers, totalling in approximately 50 hours of audio.
+
+::: {.content-hidden}
+
+## Experimentation setup
+
+## Cost of Model
+:::
+

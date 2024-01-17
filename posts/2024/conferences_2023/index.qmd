@@ -15,8 +15,9 @@ comments: false
 
 1. FOSSASIA Summit, Singapore
 2. Summit 2023, IIIT Kottayam
-3. DebConf 2023, Kochi
-4. Pycon India, Hyderabad
+3. DebUtsav, Kochi
+4. DebConf, Kochi
+5. Pycon India, Hyderabad
 
 Probably 2023 was the year, where I attended most of conferences. Conferences
 are usually some of the most interesting places to learn more, meet new and old

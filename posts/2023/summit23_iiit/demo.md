@@ -1,5 +1,5 @@
 ---
-title: Vegam Whisper Family of Models and demoing Malayalam Speech to Text
+title: Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text
 author: Kurian Benoy
 date: 2023-06-11
 date-format: full
