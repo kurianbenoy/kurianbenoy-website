@@ -1,5 +1,5 @@
 ---
-title: OpenAI Whisper and it's amazing power to do finetuning
+title: OpenAI Whisper and it's amazing power to do finetuning demonstrated on my Mother tongue
 author: Kurian Benoy
 subtitle: Talk Page for my talk @ Pycon India 2023, Hyderabad
 date: 2023-10-01
