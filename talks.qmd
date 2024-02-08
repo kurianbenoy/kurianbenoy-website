@@ -8,9 +8,8 @@ comments: false
 > I like to frequently attend conferences, meetups, devsprints and workshops. I love to give talks as it's an opportunity for me to connect with interesting people from across the world.
 
 ::: {layout-ncol=2}
-{{< video https://www.youtube.com/embed/sGWiXzsLGtI
+{{< video https://www.youtube.com/embed/g3ysWcvPX5A
     title="OpenAI Whisper and it's amazing power to do finetuning"
-    start="149"
 >}}
 
 {{< video https://www.youtube.com/embed/ZRtnuGK-e7Y
