@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,7 +24,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -59,7 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -82,7 +82,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -91,13 +97,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 <script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
 
@@ -105,25 +112,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Kurian Benoy - Building a fine-tuned translation system for English-Malayalam">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://kurianbenoy.com/posts/images/translate.png">
-<meta property="og:site-name" content="Kurian Benoy">
-<meta property="og:image:height" content="760">
-<meta property="og:image:width" content="1314">
+<meta property="og:site_name" content="Kurian Benoy">
 <meta name="twitter:title" content="Kurian Benoy - Building a fine-tuned translation system for English-Malayalam">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://kurianbenoy.com/posts/images/translate.png">
-<meta name="twitter:image-height" content="760">
-<meta name="twitter:image-width" content="1314">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Kurian Benoy</span>
     </a>
@@ -135,41 +136,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks.html" rel="" target="">
- <span class="menu-text">Talks</span></a>
+    <a class="nav-link" href="../../talks.html"> 
+<span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://til.kurianbenoy.com/" rel="" target="">
- <span class="menu-text">TIL</span></a>
+    <a class="nav-link" href="https://til.kurianbenoy.com/"> 
+<span class="menu-text">TIL</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/kurianbenoy"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/kurianbenoy2" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/kurianbenoy2"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/kurianbenoy" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/kurianbenoy"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -246,18 +247,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+
 <section id="building-a-fine-tuned-translation-system-for-english-malayalam" class="level1">
 <h1>Building a fine-tuned translation system for English-Malayalam</h1>
 <p>Hey, everyone. We all are familiar with translation systems like using google translate. So today, let’s build a fine tuned translation system for converting text from english to malayalam. It’s built using Blurr library - built on top of Hugging face and fast.ai made by <a href="https://twitter.com/waydegilliam">Wayde Gilliam</a>. Also our translation system is going to be fine tuned on <a href="https://huggingface.co/datasets/kde4">top of KDE specific dataset</a>. You can find the trained model <a href="https://huggingface.co/kurianbenoy/kde_en_ml_translation_model">here</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../posts/images/translate.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">image</figcaption>
+<figcaption>image</figcaption>
 </figure>
 </div>
 <p><strong>Installation</strong></p>
-<div class="cell" data-outputid="f35998f1-0e57-4361-cf42-24092a950dc4" data-execution_count="1">
-<details>
+<div id="cell-3" class="cell" data-outputid="f35998f1-0e57-4361-cf42-24092a950dc4" data-execution_count="1">
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> python3 <span class="op">-</span>m pip install <span class="op">-</span>Uqq datasets<span class="op">==</span> fastai<span class="op">==</span><span class="fl">2.6.3</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> python3 <span class="op">-</span>m pip install <span class="op">-</span>Uqq transformers[sentencepiece]</span>
@@ -275,11 +277,11 @@ ERROR: No matching distribution found for datasets==</code></pre>
 <h2 class="anchored" data-anchor-id="loading-data">Loading Data</h2>
 <p>A translation system is an example of <a href="https://huggingface.co/course/chapter1/7?fw=pt">sequence to sequence models</a>, which is usually used for tasks which involves generating new data. Translation usually needs datasets in both the source language and target language (the language to which it needs to be translated).</p>
 <p>We are using <a href="https://huggingface.co/datasets/kde4">KDE4 datasets</a>, and choose both source language and translation language as english and malayalam respectively. Usually these datasets are curated by community volunteers to their native language, and this was probably done by KDE community volunteers in Kerala. When someone is localizing these texts into there in local languague, usually computer science specific terms are still written in english.</p>
-<div class="cell" data-execution_count="2">
+<div id="cell-5" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="a2970d8a-4b94-4fd7-aad6-f6b62b674b38" data-execution_count="3">
+<div id="cell-6" class="cell" data-outputid="a2970d8a-4b94-4fd7-aad6-f6b62b674b38" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>raw_datasets <span class="op">=</span> load_dataset(<span class="st">"kde4"</span>, lang1<span class="op">=</span><span class="st">"en"</span>, lang2<span class="op">=</span><span class="st">"ml"</span>, split<span class="op">=</span><span class="st">"train[:1000]"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Using custom data configuration en-ml-lang1=en,lang2=ml
@@ -287,7 +289,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </div>
 </div>
 <p>Most of translation dataset is in form of id and translation json output - with both <code>en</code> and <code>ml</code> as objects.</p>
-<div class="cell" data-outputid="0b86dbb4-4cac-41ab-e1cc-acddf66cc928" data-execution_count="4">
+<div id="cell-8" class="cell" data-outputid="0b86dbb4-4cac-41ab-e1cc-acddf66cc928" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>raw_datasets[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="4">
 <pre><code>{'id': '0',
@@ -300,7 +302,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <h2 class="anchored" data-anchor-id="transforming-data-into-dataloaders">Transforming data into DataLoaders</h2>
 <section id="importing-libraries-and-get-hugging-face-objects" class="level3">
 <h3 class="anchored" data-anchor-id="importing-libraries-and-get-hugging-face-objects">Importing libraries and get hugging-face objects</h3>
-<div class="cell" data-outputid="8d89be36-0c1c-48bb-b9af-1f0e25837947" data-execution_count="5">
+<div id="cell-10" class="cell" data-outputid="8d89be36-0c1c-48bb-b9af-1f0e25837947" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> blurr.text.data.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> blurr.text.modeling.<span class="bu">all</span> <span class="im">import</span> <span class="op">*</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> blurr.text.utils <span class="im">import</span> <span class="op">*</span></span>
@@ -311,7 +313,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> fastai.optimizer <span class="im">import</span> <span class="op">*</span></span>
 <span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="9703cb05-b8db-45d9-cd7a-f177191bc0ba" data-execution_count="6">
+<div id="cell-11" class="cell" data-outputid="9703cb05-b8db-45d9-cd7a-f177191bc0ba" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>pretrained_model_name <span class="op">=</span> <span class="st">"Helsinki-NLP/opus-mt-en-ml"</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>model_cls <span class="op">=</span> AutoModelForSeq2SeqLM</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>hf_arch, hf_config, hf_tokenizer, hf_model <span class="op">=</span> get_hf_objects(</span>
@@ -320,7 +322,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>hf_arch, <span class="bu">type</span>(hf_config), <span class="bu">type</span>(hf_tokenizer), <span class="bu">type</span>(hf_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="2957c1fd-93f7-479c-b7cd-6610db09b0eb" data-execution_count="7">
+<div id="cell-12" class="cell" data-outputid="2957c1fd-93f7-479c-b7cd-6610db09b0eb" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>translation_df <span class="op">=</span> pd.DataFrame(raw_datasets[<span class="st">"translation"</span>], columns<span class="op">=</span>[<span class="st">"en"</span>, <span class="st">"ml"</span>])</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>translation_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
@@ -367,7 +369,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </div>
 </div>
 </div>
-<div class="cell" data-execution_count="8">
+<div id="cell-13" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>blocks <span class="op">=</span> (Seq2SeqTextBlock(hf_arch, hf_config, hf_tokenizer, hf_model), noop)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>dblock <span class="op">=</span> DataBlock(</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    blocks<span class="op">=</span>blocks,</span>
@@ -376,7 +378,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    splitter<span class="op">=</span>RandomSplitter(),</span>
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="5df2d528-999e-40c3-c4a7-8b8452118cbe" data-execution_count="9">
+<div id="cell-14" class="cell" data-outputid="5df2d528-999e-40c3-c4a7-8b8452118cbe" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> dblock.dataloaders(translation_df, bs<span class="op">=</span><span class="dv">16</span>)</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>dls.show_batch(dataloaders<span class="op">=</span>dls, max_n<span class="op">=</span><span class="dv">2</span>, input_trunc_at<span class="op">=</span><span class="dv">100</span>, target_trunc_at<span class="op">=</span><span class="dv">250</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -410,12 +412,12 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <section id="using-blurr-high-level-api" class="level3">
 <h3 class="anchored" data-anchor-id="using-blurr-high-level-api">Using blurr High-level API</h3>
 <p>Bugs in ohmeow v1.0.4 has been fixed by the <a href="https://github.com/ohmeow/">open-source maintainer</a>.</p>
-<div class="cell" data-execution_count="10">
+<div id="cell-16" class="cell" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> blurr.text.utils <span class="im">import</span> BlurrText</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>NLP <span class="op">=</span> BlurrText()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution_count="11">
+<div id="cell-17" class="cell" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> BlearnerForTranslation.from_data(</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    translation_df,</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    pretrained_model_name,</span>
@@ -426,7 +428,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    dl_kwargs<span class="op">=</span>{<span class="st">"bs"</span>: <span class="dv">16</span>},</span>
 <span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="b19c8d45-ed6d-4d15-b6d3-05d5449fcf6c" data-execution_count="12">
+<div id="cell-18" class="cell" data-outputid="b19c8d45-ed6d-4d15-b6d3-05d5449fcf6c" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>metrics_cb <span class="op">=</span> BlearnerForTranslation.get_metrics_cb()</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>learn.fit_one_cycle(<span class="dv">1</span>, lr_max<span class="op">=</span><span class="fl">4e-5</span>, cbs<span class="op">=</span>[metrics_cb])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -479,7 +481,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </table>
 </div>
 </div>
-<div class="cell" data-outputid="ef232a13-fe25-47bf-f688-16970c2fa37a" data-execution_count="13">
+<div id="cell-19" class="cell" data-outputid="ef232a13-fe25-47bf-f688-16970c2fa37a" data-execution_count="13">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>learn.show_results(learner<span class="op">=</span>learn, input_trunc_at<span class="op">=</span><span class="dv">500</span>, target_trunc_at<span class="op">=</span><span class="dv">250</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
@@ -523,16 +525,16 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </section>
 <section id="using-mid-level-of-blurr-apis" class="level3">
 <h3 class="anchored" data-anchor-id="using-mid-level-of-blurr-apis">Using mid-level of blurr APIs</h3>
-<div class="cell" data-execution_count="15">
+<div id="cell-21" class="cell" data-execution_count="15">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> dls.one_batch()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="b4319724-837b-42f2-83e6-b1e8a1ac619d" data-execution_count="16">
+<div id="cell-22" class="cell" data-outputid="b4319724-837b-42f2-83e6-b1e8a1ac619d" data-execution_count="16">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(b), b[<span class="dv">0</span>][<span class="st">"input_ids"</span>].shape, b[<span class="dv">1</span>].shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="16">
 <pre><code>(2, torch.Size([16, 72]), torch.Size([16, 114]))</code></pre>
 </div>
 </div>
-<div class="cell" data-outputid="6dbfeaa9-a0c9-4f66-db5c-ef0855d91172" data-execution_count="17">
+<div id="cell-23" class="cell" data-outputid="6dbfeaa9-a0c9-4f66-db5c-ef0855d91172" data-execution_count="17">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>dls.show_batch(dataloaders<span class="op">=</span>dls, input_trunc_at<span class="op">=</span><span class="dv">250</span>, target_trunc_at<span class="op">=</span><span class="dv">250</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
@@ -593,7 +595,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </table>
 </div>
 </div>
-<div class="cell" data-outputid="c3827f61-c90c-4bfe-88bd-90c04b3e3acd" data-execution_count="18">
+<div id="cell-24" class="cell" data-outputid="c3827f61-c90c-4bfe-88bd-90c04b3e3acd" data-execution_count="18">
 <div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>seq2seq_metrics <span class="op">=</span> {</span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"bleu"</span>: {<span class="st">"returns"</span>: <span class="st">"bleu"</span>},</span>
 <span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"meteor"</span>: {<span class="st">"returns"</span>: <span class="st">"meteor"</span>},</span>
@@ -623,7 +625,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 [nltk_data]   Package omw-1.4 is already up-to-date!</code></pre>
 </div>
 </div>
-<div class="cell" data-outputid="62277fb8-a4bd-45f4-9eab-a193f828ff46" data-execution_count="19">
+<div id="cell-25" class="cell" data-outputid="62277fb8-a4bd-45f4-9eab-a193f828ff46" data-execution_count="19">
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>learn.lr_find(suggest_funcs<span class="op">=</span>[minimum, steep, valley, slide])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
@@ -647,10 +649,14 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <pre><code>SuggestedLRs(minimum=0.00010000000474974513, steep=2.75422871709452e-06, valley=0.00013182566908653826, slide=0.2089296132326126)</code></pre>
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="2022-03-13-hfenml-translate_files/figure-html/cell-19-output-4.png" class="img-fluid"></p>
+<div>
+<figure class="figure">
+<p><img src="2022-03-13-hfenml-translate_files/figure-html/cell-19-output-4.png" class="img-fluid figure-img"></p>
+</figure>
 </div>
 </div>
-<div class="cell" data-outputid="655a9a61-3ebe-4442-8b04-dc814d181196" data-execution_count="20">
+</div>
+<div id="cell-26" class="cell" data-outputid="655a9a61-3ebe-4442-8b04-dc814d181196" data-execution_count="20">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>learn.fit_one_cycle(<span class="dv">15</span>, lr_max<span class="op">=</span><span class="fl">5e-4</span>, cbs<span class="op">=</span>fit_cbs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
@@ -820,7 +826,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </table>
 </div>
 </div>
-<div class="cell" data-outputid="e5301994-a323-4eff-f28f-6f2c9b88169f" data-execution_count="21">
+<div id="cell-27" class="cell" data-outputid="e5301994-a323-4eff-f28f-6f2c9b88169f" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>learn.show_results(learner<span class="op">=</span>learn, input_trunc_at<span class="op">=</span><span class="dv">500</span>, target_trunc_at<span class="op">=</span><span class="dv">500</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
@@ -868,7 +874,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <h2 class="anchored" data-anchor-id="now-lets-translate-with-our-trained-models">Now let’s translate with our trained models</h2>
 <section id="blurr-top-3-translation-predictions" class="level3">
 <h3 class="anchored" data-anchor-id="blurr-top-3-translation-predictions">blurr top 3 translation predictions</h3>
-<div class="cell" data-outputid="b8da2fae-a739-4fb1-8033-9e8c37030991" data-execution_count="22">
+<div id="cell-29" class="cell" data-outputid="b8da2fae-a739-4fb1-8033-9e8c37030991" data-execution_count="22">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>test_text <span class="op">=</span> <span class="st">"How are you doing"</span></span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -885,14 +891,14 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </section>
 <section id="saving-trained-ml-model" class="level3">
 <h3 class="anchored" data-anchor-id="saving-trained-ml-model">Saving trained ML model</h3>
-<div class="cell" data-execution_count="23">
+<div id="cell-31" class="cell" data-execution_count="23">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>export_fname <span class="op">=</span> <span class="st">"saved_model"</span></span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>learn.metrics <span class="op">=</span> <span class="va">None</span></span>
 <span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>learn.export(fname<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>export_fname<span class="sc">}</span><span class="ss">.pkl"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution_count="24">
+<div id="cell-32" class="cell" data-execution_count="24">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> push_to_hub_fastai</span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>push_to_hub_fastai(</span>
@@ -928,7 +934,7 @@ To https://huggingface.co/kurianbenoy/kde_en_ml_translation_model
 <h3 class="anchored" data-anchor-id="prediction-with-our-trained-model">Prediction with our trained model</h3>
 <section id="correct-prediction" class="level4">
 <h4 class="anchored" data-anchor-id="correct-prediction">Correct Prediction</h4>
-<div class="cell" data-outputid="2c91e3f8-2099-4b06-ab38-19ba1744eb6d" data-execution_count="25">
+<div id="cell-35" class="cell" data-outputid="2c91e3f8-2099-4b06-ab38-19ba1744eb6d" data-execution_count="25">
 <div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>test_text <span class="op">=</span> <span class="st">"How are you doing"</span></span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>inf_learn <span class="op">=</span> load_learner(fname<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>export_fname<span class="sc">}</span><span class="ss">.pkl"</span>)</span>
@@ -937,7 +943,7 @@ To https://huggingface.co/kurianbenoy/kde_en_ml_translation_model
 <pre><code>[{'translation_texts': 'എന്തൊക്കെയുണ്ട്?'}]</code></pre>
 </div>
 </div>
-<div class="cell" data-outputid="f26663cb-38fc-4fa7-8742-63f7f675a2e2" data-execution_count="26">
+<div id="cell-36" class="cell" data-outputid="f26663cb-38fc-4fa7-8742-63f7f675a2e2" data-execution_count="26">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>test_text1 <span class="op">=</span> <span class="st">"Add All Found Feeds to Akregator."</span></span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>inf_learn <span class="op">=</span> load_learner(fname<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>export_fname<span class="sc">}</span><span class="ss">.pkl"</span>)</span>
@@ -949,7 +955,7 @@ To https://huggingface.co/kurianbenoy/kde_en_ml_translation_model
 </section>
 <section id="wrong-prediction" class="level4">
 <h4 class="anchored" data-anchor-id="wrong-prediction">Wrong Prediction</h4>
-<div class="cell" data-outputid="af05d344-d92e-482f-fac7-53f1de3e3e9a" data-execution_count="27">
+<div id="cell-38" class="cell" data-outputid="af05d344-d92e-482f-fac7-53f1de3e3e9a" data-execution_count="27">
 <div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>test_text2 <span class="op">=</span> <span class="st">"Subscribe to site updates (using news feed)."</span></span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>inf_learn <span class="op">=</span> load_learner(fname<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>export_fname<span class="sc">}</span><span class="ss">.pkl"</span>)</span>
@@ -1058,10 +1064,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1071,8 +1076,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1085,6 +1099,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1128,6 +1261,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1153,6 +1287,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1214,7 +1374,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://giscus.app/client.js" data-repo="kurianbenoy/kurianbenoy-website" data-repo-id="MDEwOlJlcG9zaXRvcnkxMDY1MzAxNzQ" data-category="Q&amp;A" data-category-id="DIC_kwDOBlmFfs4CU-J4" data-mapping="url" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
+
 
 
 

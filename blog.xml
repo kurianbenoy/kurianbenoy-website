@@ -9,13 +9,14 @@
 <link>https://kurianbenoy.com/blog.html</link>
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Wed, 17 Jan 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Releasing MalWhisper models</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2024/Malwhisper_v1/index.html</link>
+  <link>https://kurianbenoy.com/posts/2024/Malwhisper_v1/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -38,14 +39,15 @@
   <category>Deep learning</category>
   <category>finetuning</category>
   <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2024/Malwhisper_v1/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2024/Malwhisper_v1/</guid>
   <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>OpenAI Whisper and it’s amazing power to do finetuning</title>
+  <title>OpenAI Whisper and it’s amazing power to do finetuning demonstrated on my Mother tongue</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/pycon_india2023_talk/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/pycon_india2023_talk/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -69,12 +71,13 @@
 
  ]]></description>
   <category>conference</category>
-  <category>fossasia</category>
+  <category>pycon</category>
   <category>Audio</category>
   <category>Deep learning</category>
   <category>SMC</category>
   <category>Talk Page</category>
-  <guid>https://kurianbenoy.com/posts/2023/pycon_india2023_talk/index.html</guid>
+  <category>Python</category>
+  <guid>https://kurianbenoy.com/posts/2023/pycon_india2023_talk/</guid>
   <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -82,6 +85,7 @@
   <dc:creator>Kurian Benoy</dc:creator>
   <link>https://kurianbenoy.com/posts/2023/chess.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -115,6 +119,7 @@
 
 
 
+
 <section id="links-to-talk" class="level2">
 <h2 class="anchored" data-anchor-id="links-to-talk">Links to talk</h2>
 <ul>
@@ -144,28 +149,28 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/talks/foss-united/Foss_united_poster.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Poster Image of my talk</figcaption>
+<figcaption>Poster Image of my talk</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossunited/father.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">My father dropped me off to the meetup</figcaption>
+<figcaption>My father dropped me off to the meetup</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossunited/IMG_20230624_114019385.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Talk outline</figcaption>
+<figcaption>Talk outline</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossunited/IMG_20230624_114127105.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">This talk is not generated :D</figcaption>
+<figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-63606"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-63606").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-32570"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-32570").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -181,8 +186,9 @@
 </item>
 <item>
   <title>AI with Malayalam Computing!</title>
-  <link>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/debutsav_talk/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -238,30 +244,33 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/debutsav.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Pookalam created by FOSSMEC team</figcaption>
+<figcaption>Pookalam created by FOSSMEC team</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG_20230617_093828555.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Photo with my Debian Developer friend Abhijit P A</figcaption>
+<figcaption>Photo with my Debian Developer friend Abhijit P A</figcaption>
 </figure>
 </div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG_20230617_140338687.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Speakers of the event</figcaption>
+<figcaption>Speakers of the event</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG_20230617_155155985.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Picture from 3rd floor of MEC</figcaption>
+<figcaption>Picture from 3rd floor of MEC</figcaption>
 </figure>
 </div>
 </div>
@@ -270,13 +279,13 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/debutsav_talk/IMG-1935.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Gifts received as a speaker</figcaption>
+<figcaption>Gifts received as a speaker</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/talks/mec/kurianbenoy-qrcode.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">QR code pointing to my website generated with https://qart.charlesfrye.com</figcaption>
+<figcaption>QR code pointing to my website generated with https://qart.charlesfrye.com</figcaption>
 </figure>
 </div>
 
@@ -290,70 +299,16 @@
   <category>SMC</category>
   <category>Debian</category>
   <category>conference</category>
-  <guid>https://kurianbenoy.com/posts/2023/debutsav_talk/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/debutsav_talk/</guid>
   <pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/2023/debutsav_talk/debutsav.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/summit23_iiit/op_image.jpg" height="600" class="figure-img"></p>
-</figure>
-</div>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li><a href="../../../talks/iiit-kottayam-summit/index.html">Slides</a></li>
-<li>Scheduled Time: Saturday, June 10, 2023. 3:30 PM IST</li>
-<li>Venue: Tapovan, Academic block, IIIT Kottayam.</li>
-<li><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project Github Link</a></li>
-<li><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></li>
-<li><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></li>
-</ul>
-</section>
-<section id="questions-received" class="level2">
-<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
-<ol type="1">
-<li>How can you improve the Malayalam ASR model further? What are techniques which you can do next?</li>
-<li>How are metrics like WER and CER?</li>
-<li>Can you explain how you calculated WER, CER, time taken and model parameter size for your code?</li>
-</ol>
-</section>
-<section id="update-15th-june-2023" class="level2">
-<h2 class="anchored" data-anchor-id="update-15th-june-2023">Update (15th June, 2023)</h2>
-<p>Excited to share that I won 2nd place in Oral Presentation category and won a cash prize of Rs 750.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<p>My MTech project guide <a href="https://www.iiitkottayam.ac.in/#!/faculty/manu">Dr Manu Madhavan</a> for his feedbacks for my Oral presentation slides. I had incorporated his suggestions to make things more clearer in oral presentation. Nihla who is doing her PHD encouraged me to participate in this Summit and gave me the contact of another PHD scholar named Akarsh who told me what is the format Oral Presentation.</p>
-
-
-</section>
-
- ]]></description>
-  <category>academic</category>
-  <category>life</category>
-  <category>conference</category>
-  <category>Malayalam</category>
-  <category>Audio</category>
-  <category>Talk Page</category>
-  <category>SMC</category>
-  <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</guid>
-  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text</title>
   <dc:creator>Kurian Benoy</dc:creator>
   <link>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -400,7 +355,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/25s_audio.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Output of clip from Video 1</figcaption>
+<figcaption>Output of clip from Video 1</figcaption>
 </figure>
 </div>
 </section>
@@ -413,7 +368,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/talks/iiit-kottayam-summit/10s_audio.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Output of clip from Video 2</figcaption>
+<figcaption>Output of clip from Video 2</figcaption>
 </figure>
 </div>
 </section>
@@ -469,10 +424,67 @@
   <media:content url="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png" medium="image" type="image/png" height="46" width="144"/>
 </item>
 <item>
+  <title>OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2023/summit23_iiit/op_image.jpg" class="quarto-figure quarto-figure-center figure-img" height="600"></p>
+</figure>
+</div>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="../../../talks/iiit-kottayam-summit/index.html">Slides</a></li>
+<li>Scheduled Time: Saturday, June 10, 2023. 3:30 PM IST</li>
+<li>Venue: Tapovan, Academic block, IIIT Kottayam.</li>
+<li><a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking project Github Link</a></li>
+<li><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking">Results for Common Voice 11 benchmarking</a></li>
+<li><a href="https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking">Results for SMC MSC benchmarking</a></li>
+</ul>
+</section>
+<section id="questions-received" class="level2">
+<h2 class="anchored" data-anchor-id="questions-received">Questions received</h2>
+<ol type="1">
+<li>How can you improve the Malayalam ASR model further? What are techniques which you can do next?</li>
+<li>How are metrics like WER and CER?</li>
+<li>Can you explain how you calculated WER, CER, time taken and model parameter size for your code?</li>
+</ol>
+</section>
+<section id="update-15th-june-2023" class="level2">
+<h2 class="anchored" data-anchor-id="update-15th-june-2023">Update (15th June, 2023)</h2>
+<p>Excited to share that I won 2nd place in Oral Presentation category and won a cash prize of Rs 750.</p>
+</section>
+<section id="thanks-to" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
+<p>My MTech project guide <a href="https://www.iiitkottayam.ac.in/#!/faculty/manu">Dr Manu Madhavan</a> for his feedbacks for my Oral presentation slides. I had incorporated his suggestions to make things more clearer in oral presentation. Nihla who is doing her PHD encouraged me to participate in this Summit and gave me the contact of another PHD scholar named Akarsh who told me what is the format Oral Presentation.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>academic</category>
+  <category>life</category>
+  <category>conference</category>
+  <category>Malayalam</category>
+  <category>Audio</category>
+  <category>Talk Page</category>
+  <category>SMC</category>
+  <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/oral.html</guid>
+  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Learning how to install malayalam fonts</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/malayalam_fonts/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/malayalam_fonts/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -481,7 +493,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font2.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Malayalam rendered in Nirmala font.</figcaption>
+<figcaption>Malayalam rendered in Nirmala font.</figcaption>
 </figure>
 </div>
 <p>Santhosh told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as <code>?</code>.</p>
@@ -544,14 +556,15 @@ for their intended purposes.</code></pre>
   <category>SMC</category>
   <category>TIL</category>
   <category>malayalamtextmodels</category>
-  <guid>https://kurianbenoy.com/posts/2023/malayalam_fonts/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/malayalam_fonts/</guid>
   <pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Tributes to my first python teacher- Dear Jumana mam!</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/first_python_teacher/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/first_python_teacher/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -567,14 +580,15 @@ for their intended purposes.</code></pre>
   <category>Python</category>
   <category>academic</category>
   <category>experience</category>
-  <guid>https://kurianbenoy.com/posts/2023/first_python_teacher/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/first_python_teacher/</guid>
   <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Malayalam Projects I am working at the moment!</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/delft-fastai-talk/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/delft-fastai-talk/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -603,15 +617,16 @@ for their intended purposes.</code></pre>
   <category>SMC</category>
   <category>Talk Page</category>
   <category>meetup</category>
-  <guid>https://kurianbenoy.com/posts/2023/delft-fastai-talk/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/delft-fastai-talk/</guid>
   <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
   <media:content url="https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Visiting main campus of Indian Institute of Information Technology, Kottayam</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/iiit_visit/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/iiit_visit/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -621,31 +636,31 @@ for their intended purposes.</code></pre>
 <p>The campus boasts excellent amenities. I am thankful to all the warm smiles and kindness received from everyone in campus specifically the ex-jawans who are working there.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/morning.jpeg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Early morning selfie with mist in background</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/morning.jpeg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
+<figcaption>Early morning selfie with mist in background</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/campus.jpeg" class="img-fluid figure-img" width="800"></p>
-<figcaption class="figure-caption">Full campus view. <a href="https://www.iiitkottayam.ac.in/#!/home">credits</a></figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/campus.jpeg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="800"></p>
+<figcaption>Full campus view. <a href="https://www.iiitkottayam.ac.in/#!/home">credits</a></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/campus1.jpeg" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">Campus buildings being constructed</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/campus1.jpeg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="500"></p>
+<figcaption>Campus buildings being constructed</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/classmates.jpeg" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">Class-mates attending tea party hosted by our class-rep</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/classmates.jpeg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="500"></p>
+<figcaption>Class-mates attending tea party hosted by our class-rep</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/tea.jpeg" class="img-fluid figure-img" width="500"></p>
+<p><img src="https://kurianbenoy.com/posts/2023/iiit_visit/tea.jpeg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="500"></p>
 </figure>
 </div>
 
@@ -654,15 +669,16 @@ for their intended purposes.</code></pre>
  ]]></description>
   <category>myself</category>
   <category>academic</category>
-  <guid>https://kurianbenoy.com/posts/2023/iiit_visit/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/iiit_visit/</guid>
   <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/2023/iiit_visit/campus.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>OpenAI Whisper and it’s amazing power to do finetuning</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/fossasia2023talk/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/fossasia2023talk/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -705,24 +721,27 @@ for their intended purposes.</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">During the talk</figcaption>
+<figcaption>During the talk</figcaption>
 </figure>
 </div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_092949649.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Volunteers helping me with the talk</figcaption>
+<figcaption>Volunteers helping me with the talk</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_090740256_HDR.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Last minute preparation before talk</figcaption>
+<figcaption>Last minute preparation before talk</figcaption>
 </figure>
 </div>
 </div>
@@ -731,7 +750,7 @@ for their intended purposes.</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/2023/fossasia2023talk/youtube_livestream.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">A snap from live stream session of my talk</figcaption>
+<figcaption>A snap from live stream session of my talk</figcaption>
 </figure>
 </div>
 
@@ -745,15 +764,16 @@ for their intended purposes.</code></pre>
   <category>Deep learning</category>
   <category>SMC</category>
   <category>Talk Page</category>
-  <guid>https://kurianbenoy.com/posts/2023/fossasia2023talk/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/fossasia2023talk/</guid>
   <pubDate>Sat, 15 Apr 2023 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/2023/fossasia2023talk/IMG_20230415_094452682_HDR.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Four super powers of Jeremy Howard</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/jeremy_habits/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/jeremy_habits/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -764,8 +784,8 @@ for their intended purposes.</code></pre>
 <p>I would defenitely recommend everyone to <a href="https://www.sourcesandmethods.com/podcast/2019/6/28/sources-and-methods-44-deep-learning-with-fastais-jeremy-howard">give a watch to the podcast interview</a>. In this interview, Jeremy shared four super powers which he learned over the years. I am going to briefly summarize them.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/jeremy_habits/https:/images.squarespace-cdn.com/content/v1/53e7b388e4b0b09d128a62b1/1561718846748-5KLJ2OZF4ZFVQOG9UNU3/jh-head.jpg?format=500w" class="img-fluid figure-img" alt="Jeremy Howard"></p>
-<figcaption class="figure-caption">Jeremy Howard</figcaption>
+<p><img src="https://images.squarespace-cdn.com/content/v1/53e7b388e4b0b09d128a62b1/1561718846748-5KLJ2OZF4ZFVQOG9UNU3/jh-head.jpg?format=500w" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Jeremy Howard"></p>
+<figcaption>Jeremy Howard</figcaption>
 </figure>
 </div>
 </section>
@@ -815,14 +835,15 @@ for their intended purposes.</code></pre>
   <category>fastai</category>
   <category>Life</category>
   <category>myself</category>
-  <guid>https://kurianbenoy.com/posts/2023/jeremy_habits/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/jeremy_habits/</guid>
   <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>🐦Learning more about birds and bird calls with Merlin app</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/BirdCLEF2023/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/BirdCLEF2023/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -834,15 +855,15 @@ for their intended purposes.</code></pre>
 <p>You can download it from <a href="https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673">Apple App store</a> or <a href="https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app&amp;hl=en&amp;gl=US">Google Playstore</a> for your android phones. Learn more about Merlin app in this <a href="https://merlin.allaboutbirds.org/.">link</a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/BirdCLEF2023/https:/www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fc0fa9ac858406ddcc9f644fc53054642%2FWhatsApp%20Image%202023-03-20%20at%209.25.36%20AM.jpeg?generation=1679301145365560&amp;alt=media" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">A photo during my bird walking trek</figcaption>
+<p><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fc0fa9ac858406ddcc9f644fc53054642%2FWhatsApp%20Image%202023-03-20%20at%209.25.36%20AM.jpeg?generation=1679301145365560&amp;alt=media" class="img-fluid figure-img" width="500"></p>
+<figcaption>A photo during my bird walking trek</figcaption>
 </figure>
 </div>
 <p><a href="https://en.wikipedia.org/wiki/Sri_Lanka_frogmouth">The below image is Ceylon Frogmouth which is a rare bird in my region</a></p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/BirdCLEF2023/https:/www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F2e84ee1ef3b246d9bcee2cd5757f4a05%2FWhatsApp%20Image%202023-03-20%20at%209.25.45%20AM.jpeg?generation=1679301247043893&amp;alt=media" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Ceylon Frogmouth</figcaption>
+<p><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F2e84ee1ef3b246d9bcee2cd5757f4a05%2FWhatsApp%20Image%202023-03-20%20at%209.25.45%20AM.jpeg?generation=1679301247043893&amp;alt=media" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
+<figcaption>Ceylon Frogmouth</figcaption>
 </figure>
 </div>
 <p>Note: This article was originally published in <a href="https://www.kaggle.com/competitions/birdclef-2023/discussion/396029#2188836">Kaggle discussion here</a></p>
@@ -853,14 +874,15 @@ for their intended purposes.</code></pre>
   <category>kaggle</category>
   <category>experience</category>
   <category>Travel</category>
-  <guid>https://kurianbenoy.com/posts/2023/BirdCLEF2023/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/BirdCLEF2023/</guid>
   <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Everything is about to be changed and launch of GPT-4</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/gpt4/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/gpt4/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -882,8 +904,8 @@ for their intended purposes.</code></pre>
 <p>I have seen chatbots, yet the way ChatGPT interacts and communicates is insane to be honest. You can ask it literally anything and these Large Language models are becoming incredibly useful. Hamel had used <a href="https://github.com/hwchase17/langchain/">LangChain</a> which is like a framework for building applications with LLMs specifically for quarto.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/gpt4/https:/www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">An Image from gsb.stanford.edu article on Andrew NG remark</figcaption>
+<p><img src="https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable_tinypng/public/resources/ng-ai-1630_1.jpg.webp?itok=9_DYUOPs" class="img-fluid figure-img"></p>
+<figcaption>An Image from gsb.stanford.edu article on Andrew NG remark</figcaption>
 </figure>
 </div>
 </section>
@@ -892,19 +914,19 @@ for their intended purposes.</code></pre>
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-28440"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28440").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-23423"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-23423").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-85302"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham, Ph.D.","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-85302").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-20340"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham, Ph.D.","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-20340").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-65589"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-65589").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-37312"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-37312").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-46202"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-46202").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-53769"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-53769").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -923,14 +945,14 @@ for their intended purposes.</code></pre>
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-80643"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-80643").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-95976"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-95976").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-43789"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43789").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-11930"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-11930").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-26844"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-26844").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-72229"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-72229").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-21539"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-21539").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-47796"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-47796").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -939,22 +961,23 @@ for their intended purposes.</code></pre>
   <category>Deep learning</category>
   <category>NLP</category>
   <category>coding</category>
-  <guid>https://kurianbenoy.com/posts/2023/gpt4/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/gpt4/</guid>
   <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My daily fitness routine</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/fitness_journey/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/fitness_journey/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/fitness_journey/https:/user-images.githubusercontent.com/24592806/223161083-1a5cfc9b-03f0-4425-a1d6-ebc398542727.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Stable diffusion image generated with prompt Very muscular man, photograph quality, ultra detailed</figcaption>
+<p><img src="https://user-images.githubusercontent.com/24592806/223161083-1a5cfc9b-03f0-4425-a1d6-ebc398542727.png" class="img-fluid figure-img"></p>
+<figcaption>Stable diffusion image generated with prompt Very muscular man, photograph quality, ultra detailed</figcaption>
 </figure>
 </div>
 <p>Hello everyone, I just thought of sharing my daily fitness routine which I have been following for the past 1 month. Previously I had written about <a href="https://kurianbenoy.com/posts/2020/2020-11-22-weightloss.html">How I lost almost 4Kgs in 3 weeks - my wegiht loss Journey</a>. I want to continue this journey, even though just after writing that post I gained a lot of kilos and I couldn’t follow everything I mentioned in that article.</p>
@@ -967,14 +990,15 @@ for their intended purposes.</code></pre>
 
  ]]></description>
   <category>myself</category>
-  <guid>https://kurianbenoy.com/posts/2023/fitness_journey/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/fitness_journey/</guid>
   <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Attending MBIFL 2023, a literature festival</title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/mbifl2023/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/mbifl2023/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -984,23 +1008,23 @@ for their intended purposes.</code></pre>
 <p>Yet I had just one wish. <a href="https://en.wikipedia.org/wiki/Benyamin_(writer)">Benyamin</a> is an author who has written lot of thriller novels like അൽ - അറേബ്യൻ നോവൽ ഫാക്‌ടറി and മുല്ലപ്പു നിറമുള്ള പകലുകൾ(which is a dual novel) along with the famous ആടു ജീവിതം(Goat Days). I just wanted to meet him in person and get an autograph on my copy of my favourite novel.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/book.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">My favourite novel</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/book.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
+<figcaption>My favourite novel</figcaption>
 </figure>
 </div>
 <p>I travelled early morning from my house and reached the venue by almost 10:30 AM. During this time, there was a conversational session about പ്രവാസിയുടെ അക്ഷരകാലം with P Sreeramkrishan, Benyamin, Shabini Vasudev and KV Mohan Kumar. After the session, there was a huge fan base to meet author Benyamin. I first went to get a signature from another author KV Mohan Kumar in the panel, and then waited in the queue to get a signature from Benyamin.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/benyamin_session.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Session on പ്രവാസിയുടെ അക്ഷരകാലം</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/benyamin_session.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
+<figcaption>Session on പ്രവാസിയുടെ അക്ഷരകാലം</figcaption>
 </figure>
 </div>
 <p>After lot of books were signed by Benyamin which was bought by his fans with some of his famous works like ആടു ജീവിതം, മാന്തളിരിലെ ഇരുപത് കമ്മ്യൂണിസ്ററ് വർഷങ്ങൾ, അൽ - അറേബ്യൻ നോവൽ ഫാക്‌ടറി. I got my copy also signed with a salutation of snehattode(with love). I just asked my favourite author does a person named Sameera Parveen who was a character in Jasmine Days really exist or not. Benyam answered that it’s a mixture of multiple people who he had seen in his life, yet there is no one such person who doesn’t exist as Sameera Parveen like Najeeb in ആടു ജീവിതം.</p>
 <p>My mission was just completed in one hour and I got a few more signatures like Shabini Vasudev who is an author from Bahrain and from Vinu V John, who is the star anchor of Asianet news(who kindly reminded me he is not famous to be giving autograph).</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/book_signature.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">All the signature I got</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/book_signature.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="300"></p>
+<figcaption>All the signature I got</figcaption>
 </figure>
 </div>
 <p>After that, I attended the talk with Aparna Balamurali and Captian GR Gopinath. Shashi Tharoor talked about his book Pride, Prejudice and Punditry. Seeing Tharoor answer a question to a student reminded me of India’s former people’s president APJ. I wish him all the success as a politician.</p>
@@ -1008,8 +1032,8 @@ for their intended purposes.</code></pre>
 <p>That winded up MBIFL 2023, a literature festival for me a data scientist who doesn’t have anything related to it. It was cool to interact and meet with so many cool people. I am looking forward to MBIFL 2024 soon…</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/tharoor.jpg" class="img-fluid figure-img" width="500"></p>
-<figcaption class="figure-caption">Session by Shashi Tharoor</figcaption>
+<p><img src="https://kurianbenoy.com/posts/2023/mbifl2023/tharoor.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" width="500"></p>
+<figcaption>Session by Shashi Tharoor</figcaption>
 </figure>
 </div>
 <p><em>Update 1(March 5, 2023)</em></p>
@@ -1022,15 +1046,16 @@ for their intended purposes.</code></pre>
   <category>Life</category>
   <category>Travel</category>
   <category>conference</category>
-  <guid>https://kurianbenoy.com/posts/2023/mbifl2023/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/mbifl2023/</guid>
   <pubDate>Sun, 05 Feb 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome To My Quarto Website</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/welcome/index.html</link>
+  <link>https://kurianbenoy.com/posts/2023/welcome/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1052,13 +1077,14 @@ for their intended purposes.</code></pre>
   <category>TIL</category>
   <category>coding</category>
   <category>Webdev</category>
-  <guid>https://kurianbenoy.com/posts/2023/welcome/index.html</guid>
+  <guid>https://kurianbenoy.com/posts/2023/welcome/</guid>
   <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How well does CLIP models classify corn seeds?</title>
   <link>https://kurianbenoy.com/posts/2022/2022-11-07-clip_experiments.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1165,13 +1191,14 @@ for their intended purposes.</code></pre>
 
 
 
+
 <section id="lesson-notebooks" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-notebooks">Lesson Notebooks</h2>
 <p>There are four notebook covering Paddy Disease Competition, and I feel each of these notebooks are excellent:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/images/paddy.JPG" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Image of Paddy crop</figcaption>
+<figcaption>Image of Paddy crop</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -1188,7 +1215,7 @@ for their intended purposes.</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://kurianbenoy.com/posts/images/jeremy_class_shoutout.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Jeremy showing leaderboard in class</figcaption>
+<figcaption>Jeremy showing leaderboard in class</figcaption>
 </figure>
 </div>
 <p><a href="https://youtube.com/clip/Ugkx5ItB_l5CnUy-T5tpfEXuqB9GR6f-bvZi">A clip from original video</a></p>
