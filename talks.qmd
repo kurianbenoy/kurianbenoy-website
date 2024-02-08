@@ -36,7 +36,8 @@ comments: false
 
 These are the list of talks I have delivered:
 
-- [OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue](https://youtu.be/t_uoI6yOOZg) | FOSS Meetup Kochi - KeyValue, Smart Kochi. | June 24, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/fossunited/kochi.qmd) 
+- OpenAI Whisper and it's amazing power to do finetuning demonstrated on my Mother tongue | Pycon India, 2023 - Jawaharlal Nehru Technological University, Hyderabad, India. | October 1, 2023 | [Slides](./talks/pyconindia-2023/pyconind.qmd), [Talk Page](./posts/2023/fossunited/kochi.qmd)
+- [OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue](https://youtu.be/t_uoI6yOOZg) | FOSS Meetup Kochi - KeyValue, Smart Kochi. | June 24, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/pycon_india2023_talk/index.qmd) 
 
 - AI with Malayalam Computing | DebUtsav - Govt. Model Engineering College, Thrikkakara. | June 17, 2023 | [Slides](./talks/mec/debutsav.qmd),  [Talk Page](./posts/2023/debutsav_talk/index.qmd) 
 
@@ -44,7 +45,7 @@ These are the list of talks I have delivered:
 
 - Vegam Whisper Family of Models and demoing Malayalam Speech to Text (Demo Presentation) | Summit 23 - IIIT Kottayam | June 10, 2023 | [Slides](./talks/iiit-kottayam-summit/demo.qmd), [Talk Page](./posts/2023/summit23_iiit/demo.md) 
 
-- [OpenAI Whisper and it's amazing power to do finetuning](https://www.youtube.com/live/sGWiXzsLGtI?feature=share&t=149) | FOSSASIA Summit - Life Long Learning Institue, Singapore | April 15, 2023 | [Slides](./talks/fossasia2023.qmd), [Talk Page](./posts/2023/fossasia2023talk/index.qmd) 
+- [OpenAI Whisper and it's amazing power to do finetuning](https://youtu.be/g3ysWcvPX5A?si=kRlR6fcuo15IEh5u) | FOSSASIA Summit - Life Long Learning Institue, Singapore | April 15, 2023 | [Slides](./talks/fossasia2023.qmd), [Talk Page](./posts/2023/fossasia2023talk/index.qmd) 
 
 - [Malayalam Projects I am working at the moment](https://youtu.be/c69VyJ16Mx4) | Delft-fastai Meetup | May 28, 2023 | [Slides](./talks/delft-fastai/index.qmd), [Talk page](./posts/2023/delft-fastai-talk/index.qmd) 
 
