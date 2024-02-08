@@ -22,6 +22,10 @@ format:
 
 - Scheduled Time: Sunday, October 1, 2023, 11:00 AM IST 
 
+- Venue: JN Auditorium, Track 1
+
+- Location: Jawaharlal Nehru Technological University, Hyderabad, India.
+
 - [Malayalam ASR Benchmarking project](https://github.com/kurianbenoy/malayalam_asr_benchmarking)
 
 - [Results for Common Voice 11 benchmarking](https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking)
