@@ -4,7 +4,7 @@ author: Kurian Benoy
 subtitle: Talk Page for my talk @ Pycon India 2023, Hyderabad
 date: 2023-10-01
 date-format: full
-categories: [conference, fossasia, Audio, Deep learning, SMC, "Talk Page"]
+categories: [conference, pycon, Audio, Deep learning, SMC, "Talk Page", Python]
 lang: en
 toc: true
 comments: false
