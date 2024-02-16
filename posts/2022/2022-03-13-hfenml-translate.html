@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -327,6 +327,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>translation_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
 <div>
+<div>
 
 
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
@@ -369,6 +370,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </div>
 </div>
 </div>
+</div>
 <div id="cell-13" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>blocks <span class="op">=</span> (Seq2SeqTextBlock(hf_arch, hf_config, hf_tokenizer, hf_model), noop)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>dblock <span class="op">=</span> DataBlock(</span>
@@ -382,6 +384,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>dls <span class="op">=</span> dblock.dataloaders(translation_df, bs<span class="op">=</span><span class="dv">16</span>)</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>dls.show_batch(dataloaders<span class="op">=</span>dls, max_n<span class="op">=</span><span class="dv">2</span>, input_trunc_at<span class="op">=</span><span class="dv">100</span>, target_trunc_at<span class="op">=</span><span class="dv">250</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
+<div>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
@@ -403,6 +406,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 </section>
@@ -455,6 +459,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </style>
 </div>
 <div class="cell-output cell-output-display">
+<div>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
@@ -481,6 +486,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </table>
 </div>
 </div>
+</div>
 <div id="cell-19" class="cell" data-outputid="ef232a13-fe25-47bf-f688-16970c2fa37a" data-execution_count="13">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>learn.show_results(learner<span class="op">=</span>learn, input_trunc_at<span class="op">=</span><span class="dv">500</span>, target_trunc_at<span class="op">=</span><span class="dv">250</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -502,6 +508,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 
 </div>
 <div class="cell-output cell-output-display">
+<div>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
@@ -522,6 +529,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </table>
 </div>
 </div>
+</div>
 </section>
 <section id="using-mid-level-of-blurr-apis" class="level3">
 <h3 class="anchored" data-anchor-id="using-mid-level-of-blurr-apis">Using mid-level of blurr APIs</h3>
@@ -537,6 +545,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 <div id="cell-23" class="cell" data-outputid="6dbfeaa9-a0c9-4f66-db5c-ef0855d91172" data-execution_count="17">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>dls.show_batch(dataloaders<span class="op">=</span>dls, input_trunc_at<span class="op">=</span><span class="dv">250</span>, target_trunc_at<span class="op">=</span><span class="dv">250</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
+<div>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
@@ -593,6 +602,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 <div id="cell-24" class="cell" data-outputid="c3827f61-c90c-4bfe-88bd-90c04b3e3acd" data-execution_count="18">
@@ -674,6 +684,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </style>
 </div>
 <div class="cell-output cell-output-display">
+<div>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
@@ -826,6 +837,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </table>
 </div>
 </div>
+</div>
 <div id="cell-27" class="cell" data-outputid="e5301994-a323-4eff-f28f-6f2c9b88169f" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>learn.show_results(learner<span class="op">=</span>learn, input_trunc_at<span class="op">=</span><span class="dv">500</span>, target_trunc_at<span class="op">=</span><span class="dv">500</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -847,6 +859,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 
 </div>
 <div class="cell-output cell-output-display">
+<div>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
@@ -865,6 +878,7 @@ Reusing dataset kde4 (/home/.cache/huggingface/datasets/kde4/en-ml-lang1=en,lang
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 <hr>
