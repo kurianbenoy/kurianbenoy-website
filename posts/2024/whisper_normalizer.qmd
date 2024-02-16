@@ -1,0 +1,17 @@
+---
+title: Whisper Normalizer - python package
+date: 2024-02-16
+author: "Kurian Benoy"
+type: post
+draft: true
+---
+
+Last year March, I created a python package called whisper_normalizer package with nbdev. I realized it was not possible to use the normalization algorithms in OpenAI Whisper paper either without downloading OpenAI whisper repo or using transformers package. So I created this package to use in my malayalam ASR benchmarking project.
+
+
+
+It's incredible to see its adoption grow, with over 1000 monthly downloads via PyPI. Thrilled to witness it being used in open-source projects like Amazon OD3 and Whisper Speech. I recently exapanded to Indic languages due to a bug.
+
+
+
+Thanks to support of Kavya Manohar, some improvements where made in Malayalam Normalization algorithm, while rest of Indic languages where using normalization algorithms borrowed from indic-nlp-library built by Anoop Kunchukuttan. Checkout the first comment for project URL.
