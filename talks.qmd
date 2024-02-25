@@ -60,7 +60,7 @@ These are the list of talks I have delivered:
 
 - Introduction to Datascience and ML (Human Library)| [Kochi FOSS](https://indiafoss.net/Kochi/2022) | Govt. Model Engineering College | October 15, 2022
 
-- Expert Interaction Sessions | St Peters VHSS, Kolenchery, Kolenchery | 2022
+- Expert Interaction Sessions | St Peters VHSS, Kolenchery, Kolenchery | 2022 | [Joy of Programming Slides](https://speakerdeck.com/kurianbenoy/joy-of-programming), [ML and Learning CS in real-world](https://speakerdeck.com/kurianbenoy/expert-interaction-on-ml)
 
 - Tinkerhub Learning class- Python for beginners | February-March, 2020
 
