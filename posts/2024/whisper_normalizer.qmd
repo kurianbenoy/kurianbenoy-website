@@ -1,14 +1,13 @@
 ---
-title: Whisper Normalizer - python package
+title: Whisper Normalizer - Python Package
 date: 2024-02-16
 author: "Kurian Benoy"
 type: post
 draft: true
 ---
 
-Recently I shared in [Linkedin](https://www.linkedin.com/posts/kurianbenoy_last-year-march-i-created-a-python-package-activity-7163888439497515008-zKjw?utm_source=share&utm_medium=member_desktop) about a python package I maintain called `whisper_normalizer`.
-This package is currently having almost 30,000+ monthly downloads and this blog post talks
-about what is that package doing, what is it current state and future plans.
+Recently, I shared on [LinkedIn](https://www.linkedin.com/posts/kurianbenoy_last-year-march-i-created-a-python-package-activity-7163888439497515008-zKjw?utm_source=share&utm_medium=member_desktop) about a Python package I maintain called `whisper_normalizer`.
+This package currently has almost 30,000+ monthly downloads. This blog post discusses what this package does, its current state, and future plans.
 
 ![](whisper_normalizer/Picture5.png)
 
@@ -16,49 +15,49 @@ about what is that package doing, what is it current state and future plans.
 ![](whisper_normalizer/No_of_downloads.png)
 
 
-## Why should we normalize/standardize text?
+## Why Should We Normalize/Standardize Text?
 
-- In ASR systems it’s important to normalize the text to reduce unintentional penalties in metrics like WER, CER etc.
-- Text normalization/standardization is process of converting texts in different styles into a standardized form, which is a best-effort attempt to penalize only when a word error is caused by actually mis transcribing a word, and not by formatting or punctuation differences.
+- In ASR systems, it’s important to normalize the text to reduce unintentional penalties in metrics like WER, CER, etc.
+- Text normalization/standardization is the process of converting texts in different styles into a standardized form. This is a best-effort attempt to penalize only when a word error is caused by actually mis-transcribing a word, and not by formatting or punctuation differences.
 
 
-## What is Whisper normalization do?
+## What Does Whisper Normalization Do?
 
-1. BasicTextNormalizer: Usually for Multi-lingual languages
+1. BasicTextNormalizer: Usually for multi-lingual languages
 2. EnglishTextNormalizer: English
 
-## What does BasicTextNormalizer do?
+## What Does BasicTextNormalizer Do?
 
-As per the text normalization/standardization approach mentioned in Appendix Section C pp.21 in the paper Robust Speech Recognition via Large-Scale Weak Supervision. The BasicTextNormalizer does the following functionality:
+As per the text normalization/standardization approach mentioned in Appendix Section C pp.21 in the paper "Robust Speech Recognition via Large-Scale Weak Supervision", the BasicTextNormalizer performs the following functions:
 
-- Remove any phrases between matching brackets ([, ]).
-- Remove any phrases between matching parentheses ((, )).
-- Replace any markers, symbols, and punctuation characters with a space, i.e. when the Unicode category of each character in the NFKC-normalized string starts with M, S, or P.
-- make the text lowercase.
-- replace any successive whitespace characters with a space
+- Removes any phrases between matching brackets ([, ]).
+- Removes any phrases between matching parentheses ((, )).
+- Replaces any markers, symbols, and punctuation characters with a space, i.e., when the Unicode category of each character in the NFKC-normalized string starts with M, S, or P.
+- Makes the text lowercase.
+- Replaces any successive whitespace characters with a space.
 
-## What does EnglishTextNormalizer do?
+## What Does EnglishTextNormalizer Do?
 
-As per the text normalization/standardization approach Appendix Section C pp.21 the paper Robust Speech Recognition via Large-Scale Weak Supervision. The EnglishTextNormalizer does the following functionality:
+As per the text normalization/standardization approach in Appendix Section C pp.21 of the paper "Robust Speech Recognition via Large-Scale Weak Supervision", the EnglishTextNormalizer performs the following functions:
 
-- Remove any phrases between matching brackets ([, ]).
-- Remove any phrases between matching parentheses ((, )).
-- Remove any of the following words: hmm, mm, mhm, mmm, uh, um
-- Remove whitespace characters that comes before an apostrophe ’
-- Convert standard or informal contracted forms of English into the original form.
-- Remove commas (,) between digits
-- Remove periods (.) not followed by numbers
-- Remove symbols as well as diacritics from the text, where symbols are the characters with the Unicode category starting with M, S, or P, except period, percent, and currency symbols that may be detected in the next step.
-- Detect any numeric expressions of numbers and currencies and replace with a form using Arabic numbers, e.g. “Ten thousand dollars” → “$10000”.
-- Convert British spellings into American spellings.
-- Remove remaining symbols that are not part of any numeric expressions.
-- Replace any successive whitespace characters with a space.
+- Removes any phrases between matching brackets ([, ]).
+- Removes any phrases between matching parentheses ((, )).
+- Removes any of the following words: hmm, mm, mhm, mmm, uh, um.
+- Removes whitespace characters that come before an apostrophe ’.
+- Converts standard or informal contracted forms of English into the original form.
+- Removes commas (,) between digits.
+- Removes periods (.) not followed by numbers.
+- Removes symbols as well as diacritics from the text, where symbols are the characters with the Unicode category starting with M, S, or P, except period, percent, and currency symbols that may be detected in the next step.
+- Detects any numeric expressions of numbers and currencies and replaces them with a form using Arabic numbers, e.g., “Ten thousand dollars” → “$10000”.
+- Converts British spellings into American spellings.
+- Removes remaining symbols that are not part of any numeric expressions.
+- Replaces any successive whitespace characters with a space.
 
-## Incredible growth of Whisper Normalizer package
+## Incredible Growth of Whisper Normalizer Package
 
 
 
-## Issue with Whisper normalizer in Malayalam
+## Issue with Whisper Normalizer in Malayalam
 
 ![](whisper_normalizer/Picture1.png)
 ![](whisper_normalizer/Picture2.png)
@@ -67,21 +66,18 @@ As per the text normalization/standardization approach Appendix Section C pp.21 
 
 Thanks to Kavya Manohar
 
-## How to solve this issues?
+## How to Solve These Issues?
 
-- Use better libraries like, indic-nlp-library[11] or libindic Normalizer[10]  which has support for Malayalam text normalization.
+- Use better libraries like indic-nlp-library[11] or libindic Normalizer[10], which support Malayalam text normalization.
 
 
-## Is it perfect?
+## Is It Perfect?
 
 https://www.linkedin.com/posts/kavya-manohar_indiclanguagenormalization-asr-tts-activity-7163964868541267968-iI2q?utm_source=share&utm_medium=member_desktop
 
-These libraries are not so perfect though:
-- More text cleanup required.
-- Handle numbers in Malayalam and even more Indic languages
-- Expand abbreviations like Currency, numbers, fractions for ASR and TTS tasks
+These libraries are not perfect though:
+- More text cleanup is required.
+- They need to handle numbers in Malayalam and even more Indic languages.
+- They need to expand abbreviations like currency, numbers, fractions for ASR and TTS tasks.
 
-
-Kavya Manohar and I are teaming up to solve and work on this issues.
-
-
+Kavya Manohar and I are teaming up to solve and work on these issues.
