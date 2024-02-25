@@ -9,7 +9,7 @@
 <meta name="author" content="Kurian Benoy">
 <meta name="dcterms.date" content="2024-02-16">
 
-<title>Kurian Benoy - Whisper Normalizer - python package</title>
+<title>Kurian Benoy - Whisper Normalizer - Python Package</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Kurian Benoy - Whisper Normalizer - python package">
+<meta property="og:title" content="Kurian Benoy - Whisper Normalizer - Python Package">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - Whisper Normalizer - python package">
+<meta name="twitter:title" content="Kurian Benoy - Whisper Normalizer - Python Package">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Whisper Normalizer - python package</h1>
+      <h1 class="title">Whisper Normalizer - Python Package</h1>
                       </div>
   </div>
     
@@ -176,11 +176,74 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Last year March, I created a python package called whisper_normalizer package with nbdev. I realized it was not possible to use the normalization algorithms in OpenAI Whisper paper either without downloading OpenAI whisper repo or using transformers package. So I created this package to use in my malayalam ASR benchmarking project.</p>
-<p>It’s incredible to see its adoption grow, with over 1000 monthly downloads via PyPI. Thrilled to witness it being used in open-source projects like Amazon OD3 and Whisper Speech. I recently exapanded to Indic languages due to a bug.</p>
-<p>Thanks to support of Kavya Manohar, some improvements where made in Malayalam Normalization algorithm, while rest of Indic languages where using normalization algorithms borrowed from indic-nlp-library built by Anoop Kunchukuttan. Checkout the first comment for project URL.</p>
+<p>Recently, I shared on <a href="https://www.linkedin.com/posts/kurianbenoy_last-year-march-i-created-a-python-package-activity-7163888439497515008-zKjw?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a> about a Python package I maintain called <code>whisper_normalizer</code>. This package currently has almost 30,000+ monthly downloads. This blog post discusses what this package does, its current state, and future plans.</p>
+<p><img src="whisper_normalizer/Picture5.png" class="img-fluid"></p>
+<p><img src="whisper_normalizer/No_of_downloads.png" class="img-fluid"></p>
+<section id="why-should-we-normalizestandardize-text" class="level2">
+<h2 class="anchored" data-anchor-id="why-should-we-normalizestandardize-text">Why Should We Normalize/Standardize Text?</h2>
+<ul>
+<li>In ASR systems, it’s important to normalize the text to reduce unintentional penalties in metrics like WER, CER, etc.</li>
+<li>Text normalization/standardization is the process of converting texts in different styles into a standardized form. This is a best-effort attempt to penalize only when a word error is caused by actually mis-transcribing a word, and not by formatting or punctuation differences.</li>
+</ul>
+</section>
+<section id="what-does-whisper-normalization-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-whisper-normalization-do">What Does Whisper Normalization Do?</h2>
+<ol type="1">
+<li>BasicTextNormalizer: Usually for multi-lingual languages</li>
+<li>EnglishTextNormalizer: English</li>
+</ol>
+</section>
+<section id="what-does-basictextnormalizer-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-basictextnormalizer-do">What Does BasicTextNormalizer Do?</h2>
+<p>As per the text normalization/standardization approach mentioned in Appendix Section C pp.21 in the paper “Robust Speech Recognition via Large-Scale Weak Supervision”, the BasicTextNormalizer performs the following functions:</p>
+<ul>
+<li>Removes any phrases between matching brackets ([, ]).</li>
+<li>Removes any phrases between matching parentheses ((, )).</li>
+<li>Replaces any markers, symbols, and punctuation characters with a space, i.e., when the Unicode category of each character in the NFKC-normalized string starts with M, S, or P.</li>
+<li>Makes the text lowercase.</li>
+<li>Replaces any successive whitespace characters with a space.</li>
+</ul>
+</section>
+<section id="what-does-englishtextnormalizer-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-englishtextnormalizer-do">What Does EnglishTextNormalizer Do?</h2>
+<p>As per the text normalization/standardization approach in Appendix Section C pp.21 of the paper “Robust Speech Recognition via Large-Scale Weak Supervision”, the EnglishTextNormalizer performs the following functions:</p>
+<ul>
+<li>Removes any phrases between matching brackets ([, ]).</li>
+<li>Removes any phrases between matching parentheses ((, )).</li>
+<li>Removes any of the following words: hmm, mm, mhm, mmm, uh, um.</li>
+<li>Removes whitespace characters that come before an apostrophe ’.</li>
+<li>Converts standard or informal contracted forms of English into the original form.</li>
+<li>Removes commas (,) between digits.</li>
+<li>Removes periods (.) not followed by numbers.</li>
+<li>Removes symbols as well as diacritics from the text, where symbols are the characters with the Unicode category starting with M, S, or P, except period, percent, and currency symbols that may be detected in the next step.</li>
+<li>Detects any numeric expressions of numbers and currencies and replaces them with a form using Arabic numbers, e.g., “Ten thousand dollars” → “$10000”.</li>
+<li>Converts British spellings into American spellings.</li>
+<li>Removes remaining symbols that are not part of any numeric expressions.</li>
+<li>Replaces any successive whitespace characters with a space.</li>
+</ul>
+</section>
+<section id="incredible-growth-of-whisper-normalizer-package" class="level2">
+<h2 class="anchored" data-anchor-id="incredible-growth-of-whisper-normalizer-package">Incredible Growth of Whisper Normalizer Package</h2>
+</section>
+<section id="issue-with-whisper-normalizer-in-malayalam" class="level2">
+<h2 class="anchored" data-anchor-id="issue-with-whisper-normalizer-in-malayalam">Issue with Whisper Normalizer in Malayalam</h2>
+<p><img src="whisper_normalizer/Picture1.png" class="img-fluid"> <img src="whisper_normalizer/Picture2.png" class="img-fluid"> <img src="whisper_normalizer/Picture3.png" class="img-fluid"> <img src="whisper_normalizer/Picture4.png" class="img-fluid"></p>
+<p>Thanks to Kavya Manohar</p>
+</section>
+<section id="how-to-solve-these-issues" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-solve-these-issues">How to Solve These Issues?</h2>
+<ul>
+<li>Use better libraries like indic-nlp-library[11] or libindic Normalizer[10], which support Malayalam text normalization.</li>
+</ul>
+</section>
+<section id="is-it-perfect" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-perfect">Is It Perfect?</h2>
+<p>https://www.linkedin.com/posts/kavya-manohar_indiclanguagenormalization-asr-tts-activity-7163964868541267968-iI2q?utm_source=share&amp;utm_medium=member_desktop</p>
+<p>These libraries are not perfect though: - More text cleanup is required. - They need to handle numbers in Malayalam and even more Indic languages. - They need to expand abbreviations like currency, numbers, fractions for ASR and TTS tasks.</p>
+<p>Kavya Manohar and I are teaming up to solve and work on these issues.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
