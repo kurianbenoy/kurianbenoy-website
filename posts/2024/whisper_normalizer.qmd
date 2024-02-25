@@ -6,12 +6,80 @@ type: post
 draft: true
 ---
 
-Last year March, I created a python package called whisper_normalizer package with nbdev. I realized it was not possible to use the normalization algorithms in OpenAI Whisper paper either without downloading OpenAI whisper repo or using transformers package. So I created this package to use in my malayalam ASR benchmarking project.
+Recently I shared in Linkedin about a python package I maintain called `whisper_normalizer`.
+This package is currently having almost 30,000+ monthly downloads and this blog post talks
+about what is that package doing, what is it current state and future plans.
+
+![](whisper_normalizer/Picture5.png)
+
+
+![](whisper_normalizer/No_of_downloads.png)
+
+
+## Why should we normalize/standardize text?
+
+- In ASR systems it’s important to normalize the text to reduce unintentional penalties in metrics like WER, CER etc.
+- Text normalization/standardization is process of converting texts in different styles into a standardized form, which is a best-effort attempt to penalize only when a word error is caused by actually mis transcribing a word, and not by formatting or punctuation differences.
+
+
+## What is Whisper normalization do?
+
+1. BasicTextNormalizer: Usually for Multi-lingual languages
+2. EnglishTextNormalizer: English
+
+## What does BasicTextNormalizer do?
+
+As per the text normalization/standardization approach mentioned in Appendix Section C pp.21 in the paper Robust Speech Recognition via Large-Scale Weak Supervision. The BasicTextNormalizer does the following functionality:
+
+- Remove any phrases between matching brackets ([, ]).
+- Remove any phrases between matching parentheses ((, )).
+- Replace any markers, symbols, and punctuation characters with a space, i.e. when the Unicode category of each character in the NFKC-normalized string starts with M, S, or P.
+- make the text lowercase.
+- replace any successive whitespace characters with a space
+
+## What does EnglishTextNormalizer do?
+
+As per the text normalization/standardization approach Appendix Section C pp.21 the paper Robust Speech Recognition via Large-Scale Weak Supervision. The EnglishTextNormalizer does the following functionality:
+
+- Remove any phrases between matching brackets ([, ]).
+- Remove any phrases between matching parentheses ((, )).
+- Remove any of the following words: hmm, mm, mhm, mmm, uh, um
+- Remove whitespace characters that comes before an apostrophe ’
+- Convert standard or informal contracted forms of English into the original form.
+- Remove commas (,) between digits
+- Remove periods (.) not followed by numbers
+- Remove symbols as well as diacritics from the text, where symbols are the characters with the Unicode category starting with M, S, or P, except period, percent, and currency symbols that may be detected in the next step.
+- Detect any numeric expressions of numbers and currencies and replace with a form using Arabic numbers, e.g. “Ten thousand dollars” → “$10000”.
+- Convert British spellings into American spellings.
+- Remove remaining symbols that are not part of any numeric expressions.
+- Replace any successive whitespace characters with a space.
+
+## Incredible growth of Whisper Normalizer package
 
 
 
-It's incredible to see its adoption grow, with over 1000 monthly downloads via PyPI. Thrilled to witness it being used in open-source projects like Amazon OD3 and Whisper Speech. I recently exapanded to Indic languages due to a bug.
+## Issue with Whisper normalizer in Malayalam
+
+![](whisper_normalizer/Picture1.png)
+![](whisper_normalizer/Picture2.png)
+![](whisper_normalizer/Picture3.png)
+![](whisper_normalizer/Picture4.png)
+
+Thanks to Kavya Manohar
+
+## How to solve this issues?
+
+- Use better libraries like, indic-nlp-library[11] or libindic Normalizer[10]  which has support for Malayalam text normalization.
 
 
+## Is it perfect?
 
-Thanks to support of Kavya Manohar, some improvements where made in Malayalam Normalization algorithm, while rest of Indic languages where using normalization algorithms borrowed from indic-nlp-library built by Anoop Kunchukuttan. Checkout the first comment for project URL.
+These libraries are not so perfect though:
+- More text cleanup required.
+- Handle numbers in Malayalam and even more Indic languages
+- Expand abbreviations like Currency, numbers, fractions for ASR and TTS tasks
+
+
+Kavya Manohar and I are teaming up to solve and work on this issues.
+
+
