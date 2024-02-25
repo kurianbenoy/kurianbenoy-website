@@ -1,0 +1,20 @@
+---
+title: Making of Indic Subtitler
+date: 2024-02-16
+author: "Kurian Benoy"
+type: post
+draft: true
+---
+
+Original:
+
+Participating in HasGeek Opensource AI hackathon has given us lot of joy and lot of late-nights. I had an idea and with the help of mentors, we refined the idea and even guide me in building a team. Then I assembled an awesome team with Aldrin and Nabeel who is as excited about Indic-subtitler and it's potential. In the past three weeks we have almost reached near 250 commits, hosted a demo website and had lot of late-night days lasting upto 3-4AM also. One of the key features of this hackathon, is the set of mentors it has. Mentors have guided us with what to do, gave as feature requests which we are continuously working and answered lot of our questions. A big shout out to mentors like Bharat, Simrat etc. Since it's an open-source hackathon, we are continuously building in public and documenting everything. Also even fellow participants are very supportive and helping each other as it's an open-source experience. So just to say in one line, the last few weeks has been so exciting.
+
+
+Participating in the HasGeek Open-source AI Hackathon sponsored by Meta has been a truly joyful and enlightening experience. There have been numerous late nights spent honing our skills and developing our ideas. With an initial idea in mind, the mentors offered guidance, helping us to refine the concept and build a team. I was fortunate to assemble an incredible team with Aldrin and Nabeel, both sharing the same excitement and enthusiasm for our project, the Indic-subtitler.
+
+Over the past three weeks, we have made significant strides with nearly 250 commits, hosting a demo website, and running late-night sessions that extended into the early hours of the morning. One of the distinguishing elements of this hackathon is the high-calibre mentors it provides. Our mentors, including those of note such as Bharat Shetty Barkur and Simrat Hanspal, have been instrumental in guiding our efforts, providing feature requests, and answering countless questions.
+
+Being an open-source hackathon, this event has fostered a unique environment of transparency and collaboration. We have been documenting every step of our journey and build our project public. What's more, the sense of community and mutual support between fellow participants has been remarkable, truly encapsulating the spirit of the open-source approach. We help each other a lot, and personally I have learned a lot from idea's of fellow participants like Akash and Mayank.
+
+In summary, these past few weeks participating in the HasGeek Open-source AI Hackathon have been exciting and rewarding.
