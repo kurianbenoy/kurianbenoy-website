@@ -6,7 +6,7 @@ type: post
 draft: true
 ---
 
-Recently I shared in Linkedin about a python package I maintain called `whisper_normalizer`.
+Recently I shared in [Linkedin](https://www.linkedin.com/posts/kurianbenoy_last-year-march-i-created-a-python-package-activity-7163888439497515008-zKjw?utm_source=share&utm_medium=member_desktop) about a python package I maintain called `whisper_normalizer`.
 This package is currently having almost 30,000+ monthly downloads and this blog post talks
 about what is that package doing, what is it current state and future plans.
 
@@ -73,6 +73,8 @@ Thanks to Kavya Manohar
 
 
 ## Is it perfect?
+
+https://www.linkedin.com/posts/kavya-manohar_indiclanguagenormalization-asr-tts-activity-7163964868541267968-iI2q?utm_source=share&utm_medium=member_desktop
 
 These libraries are not so perfect though:
 - More text cleanup required.
