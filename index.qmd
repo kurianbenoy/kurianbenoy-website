@@ -1,6 +1,7 @@
 ---
 title: "Kurian Benoy"
 image: /posts/images/fossasia_summit_2019/my_lighting_talk.jpg
+image-alt: Image of Kurian Benoy speaking in FOSS ASIA Summit, 2019 at Singapore.
 about:
   template: trestles
   links:
@@ -27,7 +28,7 @@ page-layout: full
 comments: false
 ---
 
-## Hi, I'm Kurian Benoy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+## Hi, I'm Kurian Benoy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" alt="Waving hand to say hello">
 
 I am an AI Engineer & Team Lead working in [Sentient.io](https://www.sentient.io/en/), a fast-paced startup based in Singapore. I have multiple years of experience in Python and Machine learning experience. I have contributed to various open source organizations like Keras,
 DVC, HuggingFace, fast.ai, Swathanthra Malayalam Computing, CloudCV etc.
