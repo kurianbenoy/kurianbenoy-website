@@ -10,7 +10,41 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Wed, 17 Jan 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 05 Mar 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Merging a PR after 7 years</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2024/merging_pr.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="my-first-commit" class="level2">
+<h2 class="anchored" data-anchor-id="my-first-commit">My first commit</h2>
+<p>I was trying to find my github commit with this <a href="https://firstcommit.is">webapp</a>. You can also find what is your commit checking that website and <a href="https://firstpr.me/">first PR with this website</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/cbe583dc-9106-45e2-aca3-5a2559f7166d.png" class="img-fluid figure-img"></p>
+<figcaption>Screenshot_20240305_224512</figcaption>
+</figure>
+</div>
+<p>This was my lab programs for C-labs during my BTech classes at Govt. Model Engineering College. You might have wondered why I might have pushed it in github? It was all thanks to my professor Bijumon sir, recommending this way to get started working in github.</p>
+</section>
+<section id="after-7-years" class="level2">
+<h2 class="anchored" data-anchor-id="after-7-years">After 7 years</h2>
+<p>I just today only noticed a troll PR, send by my good friend <a href="https://www.linkedin.com/in/discover-jimmy/">Jimmy Jose</a> who is now a Senior Devops Engineer in Esper. He recently married and i went to attend the function. It was cool to notice he <a href="https://github.com/kurianbenoy/Lab-Cycle1-C-programming/pull/1">send a PR with comment wow</a>. I am all for trolls and merged it.</p>
+<p>Thanks you Jimmy for your valuable contribution to my first github repository. It took some time to merge. Sorry bro.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>git</category>
+  <guid>https://kurianbenoy.com/posts/2024/merging_pr.html</guid>
+  <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Releasing MalWhisper models</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -172,7 +206,7 @@
 <figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-26378"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-26378").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-58464"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-58464").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -916,19 +950,19 @@ for their intended purposes.</code></pre>
 <p>Personally I have been following ML/AI for the past five years atleast. Last year really was hyped up. Initially there was this releases in DALL-E and it’s open source alternative Craiyon(then named DALLE mini) being viral. During this time so many trending things like Stable Diffusion, Whisper etc came.</p>
 <p>One month back, I started seeing my cousins, parents etc. discussing about ChatGPT and how awesome it is. Some of the application apps like <a href="https://www.roamaround.io">Roamaround.ai</a> build on top of ChatGPT was being used. The final nail was last Sunday, when my grandfather called me to read about ChatGPT article in news.</p>
 <p>I have seen people get hyped up about advances in ML. Yet I have never heard about the new technology being discussed by any of my family member like this. Hamel Hussein put this really well in his tweet about what is different in this wave of ML advances.</p>
-<p></p><div id="tweet-61245"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-61245").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-18080"></div><script>tweet={"url":"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305","author_name":"Hamel Husain","author_url":"https:\/\/twitter.com\/HamelHusain","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThis wave of ML advances feels different than all others before it.  Usually, lots of people sleep on it or just pay lip service to ML.  \u003Cbr\u003E\u003Cbr\u003EThis time, people are rushing to ship ML products, and successfully doing so at breakneck speed.\u003C\/p\u003E&mdash; Hamel Husain (@HamelHusain) \u003Ca href=\"https:\/\/twitter.com\/HamelHusain\/status\/1636513242041442305?ref_src=twsrc%5Etfw\"\u003EMarch 16, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-18080").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="release-of-gpt-4" class="level2">
 <h2 class="anchored" data-anchor-id="release-of-gpt-4">Release of GPT-4</h2>
 <p>The GPT-4 model was released by OpenAI today IST. It’s been a hectic week already TBH, with so many releases already.</p>
-<p></p><div id="tweet-65475"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham, Ph.D.","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-65475").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-38739"></div><script>tweet={"url":"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300","author_name":"Tanishq Mathew Abraham, Ph.D.","author_url":"https:\/\/twitter.com\/iScienceLuvr","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"ro\" dir=\"ltr\"\u003EGPT-4 release\u003Cbr\u003EMed-PaLM2 announcement\u003Cbr\u003EPaLM API release\u003Cbr\u003EClaude API release \u003Ca href=\"https:\/\/t.co\/Oef6qw6uhf\"\u003Epic.twitter.com\/Oef6qw6uhf\u003C\/a\u003E\u003C\/p\u003E&mdash; Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) \u003Ca href=\"https:\/\/twitter.com\/iScienceLuvr\/status\/1635747429839671300?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-38739").innerHTML = tweet["html"];</script><p></p>
 <p>The initial reaction to this model has been awesome, and lot of people have been reacting about this.</p>
-<p></p><div id="tweet-44856"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-44856").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-44563"></div><script>tweet={"url":"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680","author_name":"Suhail","author_url":"https:\/\/twitter.com\/Suhail","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe tried GPT-4 internally over the past few months and it is *a lot* better than meets the eye. I encourage folks to try it. World changing technology.\u003C\/p\u003E&mdash; Suhail (@Suhail) \u003Ca href=\"https:\/\/twitter.com\/Suhail\/status\/1635704809725767680?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-44563").innerHTML = tweet["html"];</script><p></p>
 <p>You can read more about this release in below resources:</p>
 <p><a href="https://openai.com/research/gpt-4">Research document</a></p>
 <p><a href="https://openai.com/product/gpt-4">Product details</a></p>
 <p>Check out the summary of what was highlights of GPT-4 and it’s developer livestream in this tweet thread by FSDL.</p>
-<p></p><div id="tweet-81148"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-81148").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-68125"></div><script>tweet={"url":"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024","author_name":"The Full Stack","author_url":"https:\/\/twitter.com\/full_stack_dl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ELive-tweeting the GPT-4 livestream from OpenAI ⤵️\u003C\/p\u003E&mdash; The Full Stack (@full_stack_dl) \u003Ca href=\"https:\/\/twitter.com\/full_stack_dl\/status\/1635734384463745024?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-68125").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="how-can-we-try-gpt-4-now" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-we-try-gpt-4-now">How can we try GPT-4 now?</h2>
@@ -947,14 +981,14 @@ for their intended purposes.</code></pre>
 <p>Which is heavier, two pounds of brick or one pound of feathers?</p>
 </blockquote>
 <p>GPT-4 seems to give the correct answer at time of writing.</p>
-<p></p><div id="tweet-83887"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-83887").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-90061"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003Egpt-4 passes the &quot;two pounds of bricks&quot; adversarial question without prompt fiddling \u003Ca href=\"https:\/\/t.co\/jRcYzxSr38\"\u003Epic.twitter.com\/jRcYzxSr38\u003C\/a\u003E\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1635699547023482880?ref_src=twsrc%5Etfw\"\u003EMarch 14, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-90061").innerHTML = tweet["html"];</script><p></p>
 <p>Bing-GPT seems to give wrong answer.</p>
-<p></p><div id="tweet-43949"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDC4D","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDC4D (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43949").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-57154"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523","author_name":"Kurian Benoy \uD83D\uDCBB","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EIs it really GPT-4 though? \u003Ca href=\"https:\/\/t.co\/UZXvapfM6k\"\u003Epic.twitter.com\/UZXvapfM6k\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDCBB (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1636066002843627523?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-57154").innerHTML = tweet["html"];</script><p></p>
 <p>Chat-GPT seems to now give correct answer, it was previously giving wrong answer.</p>
-<p></p><div id="tweet-89974"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-89974").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-30309"></div><script>tweet={"url":"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336","author_name":"1LittleCoder\uD83D\uDCBB","author_url":"https:\/\/twitter.com\/1littlecoder","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EOlder ChatGPt corrected \u003Ca href=\"https:\/\/t.co\/RNXgq5bL8K\"\u003Epic.twitter.com\/RNXgq5bL8K\u003C\/a\u003E\u003C\/p\u003E&mdash; 1LittleCoder\uD83D\uDCBB (@1littlecoder) \u003Ca href=\"https:\/\/twitter.com\/1littlecoder\/status\/1636069386699022336?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-30309").innerHTML = tweet["html"];</script><p></p>
 <p>Charles seems to have come with an explaination to this problem, at the time I was writing this article.</p>
 <p><em>“GPT-4” is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can’t’ve launched with that checkpoint and likely has branched off in the intervening weeks.”</em></p>
-<p></p><div id="tweet-59285"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-59285").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-22021"></div><script>tweet={"url":"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312","author_name":"Charles \uD83C\uDF89 Frye","author_url":"https:\/\/twitter.com\/charles_irl","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENice find! &quot;GPT-4&quot; is really a series of models, and the one live in chat now is likely the 0314 checkpoint available via the API. BingChat can&#39;t&#39;ve launched with that checkpoint and likely has branched off in the intervening weeks.\u003C\/p\u003E&mdash; Charles \uD83C\uDF89 Frye (@charles_irl) \u003Ca href=\"https:\/\/twitter.com\/charles_irl\/status\/1636071852593549312?ref_src=twsrc%5Etfw\"\u003EMarch 15, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22021").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1183,54 +1217,6 @@ for their intended purposes.</code></pre>
   <guid>https://kurianbenoy.com/posts/2022/2022-11-07-clip_experiments.html</guid>
   <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/images/clip.png" medium="image" type="image/png" height="98" width="144"/>
-</item>
-<item>
-  <title>Practical Deep Learning for Coders Course - Paddy Disease Classification competition</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2022/2022-08-04-fastai56.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="lesson-notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-notebooks">Lesson Notebooks</h2>
-<p>There are four notebook covering Paddy Disease Competition, and I feel each of these notebooks are excellent:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/paddy.JPG" class="img-fluid figure-img"></p>
-<figcaption>Image of Paddy crop</figcaption>
-</figure>
-</div>
-<ol type="1">
-<li><a href="https://www.kaggle.com/code/jhoward/first-steps-road-to-the-top-part-1">Road to Top Part 1</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/small-models-road-to-the-top-part-2">Road to Top Part 2</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/scaling-up-road-to-the-top-part-3">Road to Top Part 3</a></li>
-<li><a href="https://www.kaggle.com/code/jhoward/multi-target-road-to-the-top-part-4">Road to Top Part 4</a></li>
-</ol>
-</section>
-<section id="how-was-paddy-competiton-for-me" class="level2">
-<h2 class="anchored" data-anchor-id="how-was-paddy-competiton-for-me">How was Paddy competiton for me?</h2>
-<p>This competition is still ongoing at the time of writing. Yet during one month break during which <a href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM">Jeremy’s live-coding sessions</a> were held. I got some time to play with Paddy disease classification competition with this competition with other fastai friends also.</p>
-<p>At the start of lesson 7, Jeremy said some kind words to Nick and me which can be found in below youtube video. I am extremely lucky to learn from such a great teacher. Without these four notebooks and <a href="https://www.youtube.com/playlist?list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM">Jeremy’s live-coding sessions</a>, it wouldn’t have been possible.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/images/jeremy_class_shoutout.png" class="img-fluid figure-img"></p>
-<figcaption>Jeremy showing leaderboard in class</figcaption>
-</figure>
-</div>
-<p><a href="https://youtube.com/clip/Ugkx5ItB_l5CnUy-T5tpfEXuqB9GR6f-bvZi">A clip from original video</a></p>
-<p>I am not going in detail on this lesson, as I feel the introduction notebooks have covered everything so well. So signing off early this time.</p>
-
-
-</section>
-
- ]]></description>
-  <category>fastai</category>
-  <category>fastaicourse</category>
-  <guid>https://kurianbenoy.com/posts/2022/2022-08-04-fastai56.html</guid>
-  <pubDate>Thu, 04 Aug 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
