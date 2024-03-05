@@ -3,7 +3,7 @@ title: Merging a PR after 7 years
 author: Kurian Benoy
 date: 2024-03-05
 type: post
-image: posts/images/Screenshot_20240305_224512.png
+image: /posts/images/Screenshot_20240305_224512.png
 categories: [git, coding]
 lang: en
 toc: true
@@ -14,7 +14,7 @@ toc: true
 I was trying to find my github commit with this [webapp](https://firstcommit.is). You can also find what is your commit checking that website
 and [first PR with this website](https://firstpr.me/).
 
-![My first git commit](posts/images/Screenshot_20240305_224512.png)
+![My first git commit](/posts/images/Screenshot_20240305_224512.png)
 
 This was my lab programs for C-labs during my BTech classes at Govt. Model Engineering College. You might have wondered why I might 
 have pushed it in github? It was all thanks to my professor Bijumon sir, recommending this way to get started working in github.
