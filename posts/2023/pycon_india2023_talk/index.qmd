@@ -7,6 +7,7 @@ date-format: full
 categories: [conference, pycon, Audio, Deep learning, SMC, "Talk Page", Python]
 lang: en
 toc: true
+image: https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/1e7fbe8b-ce77-4126-b6cb-42d641d02261
 comments: false
 format:
   html:
@@ -44,6 +45,10 @@ calculated with a new github project called [malayalam_asr_benchmarking created 
 ![Kurian speaking in pycon India](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/1e7fbe8b-ce77-4126-b6cb-42d641d02261)
 ![Full view of Kurian speaking with the large screen](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/10f2ce20-d6e2-414a-9031-1f8a60a903e9)
 
+## Tweets
 
+{{< tweet pyconindia 1708369432903553187 >}}
 
+{{< tweet pyconindia 1714265134917702040 >}}
 
+{{< tweet kavya_manohar 1633755478818959372 >}}
