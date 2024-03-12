@@ -3,6 +3,7 @@ title: Four super powers of Jeremy Howard
 subtitle: Jeremy shared in [Sources & Methods podcast](https://www.sourcesandmethods.com/) interview a few key things he has learned over the years. This blogpost is a brief summary of key points from that podcast.
 author: ["Kurian Benoy"]
 date: "2023-04-04"
+image: https://images.squarespace-cdn.com/content/v1/53e7b388e4b0b09d128a62b1/1561718846748-5KLJ2OZF4ZFVQOG9UNU3/jh-head.jpg
 categories: [fastai, Life, myself]
 toc: true
 ---
