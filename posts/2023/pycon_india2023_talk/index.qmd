@@ -7,7 +7,7 @@ date-format: full
 categories: [conference, pycon, Audio, Deep learning, SMC, "Talk Page", Python]
 lang: en
 toc: true
-image: https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/1e7fbe8b-ce77-4126-b6cb-42d641d02261
+image: kurian_pycon_2023.jpeg
 comments: false
 format:
   html:
