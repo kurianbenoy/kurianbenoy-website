@@ -1,0 +1,68 @@
+---
+title: Last Week in AI(LWAI) - March 4th to March 10th
+date: 2024-03-12
+author: "Kurian Benoy"
+type: post
+---
+
+
+**Monday**
+
+
+Govt of India MeiTY comes with a notification saying now you need permission
+to deploy ML models in production. Later they clarified, this was intended only for large organizations
+and not startups or Indie Hackers. This is still in early stage discussion and we can expect some regulation.
+
+{{ tweet kurianbenoy2 1764308982569763078 }}
+
+![WhatsApp Image 2024-03-04 at 12 46 54_5c077c21](https://github.com/kurianbenoy/kurianbenoy-posts/assets/24592806/911d7e66-5f71-4847-94f0-9d8c3ded37de)
+
+**Tuesday**
+
+IndicVoices - a dataset of natural and spontaneous speech containing a total of 7348 hours of read (9%), extempore (74%), and conversational (17%) audio from 16,237 contributors was released by AI4Bharat team. 
+
+Paper Link: https://arxiv.org/abs/2403.01926
+Blogpost: https://ai4bharat.iitm.ac.in/blog/indicvoices/
+
+**Wednesday**
+
+1. Indic Gemma 7B/2B Instruction tuned LLM model - Naverasa for 9 Indic languages was released by Telgu LLM labs trained
+by Ravi Theja, who is a developer advocate at Ragas.
+
+Models: https://huggingface.co/Telugu-LLM-Labs/Indic-gemma-7b-finetuned-sft-Navarasa
+Github Repo: https://github.com/TeluguLLMLabs/Indic-gemma-7b-Navarasa 
+Blogpost: https://ravidesetty.medium.com/introducing-indic-gemma-7b-2b-instruction-tuned-model-on-9-indian-languages-navarasa-86bc81b4a282
+
+![GH_oCi1a0AEFoTs](https://github.com/kurianbenoy/kurianbenoy-posts/assets/24592806/4d5f8e3a-30b4-4c13-8420-347db5320a39)
+
+2. Surya which is a document OCR toolkit that does accurate OCR in 90+ languages and Line-level text detection in any language came with awesome benchmarking results. They benchmarked against Google OCR and results looks really competitive which beats them even in few languages. More power to Open source.
+
+Github Repo: https://github.com/VikParuchuri/surya
+
+![GIAZ6XKbAAQfS67](https://github.com/kurianbenoy/kurianbenoy-posts/assets/24592806/386e1a66-fa6f-4ca6-8b17-fa1b3d0ab0e4)
+
+**Thursday**
+
+Kerala origin Open source developers Shahul ES and Jithin James(both are my class mates as well) make it big being a YC funded company. YC announed ragas_io is an open-source evaluation and testing infrastructure for developers to deploy LLM applications with confidence — their model-graded evaluations and testing techniques ensure quality.
+
+![GIBMpoQa4AAsHu8](https://github.com/kurianbenoy/kurianbenoy-posts/assets/24592806/28ac77af-e223-458c-a6ac-5e62fc4ca885)
+
+{{ tweet VikParuchuri 1765440195124691339 }}
+
+**Friday**
+
+Answer.AI, one of the hottest startups at the moment found by Jeremy Howard announced that on collaboration with Tim Dettmers, Huggingface and Mobius Labs. They are releasing a new project that lets you efficiently train very large (70b) models on a home computer with consumer gaming GPUs (2nos are required) using FSDP/QLoRA.
+
+Blog: https://www.answer.ai/posts/2024-03-06-fsdp-qlora.html
+
+**Saturday**
+
+1. Renowned LLM expert and co-creator of Django framework, Simon Wilson writes a blog post confirming that GPT-4 barrier has been finally broken.
+
+Blog: https://simonwillison.net/2024/Mar/8/gpt-4-barrier/
+
+2. Santhosh Thottingal conducted a talk digital Malayalam typography. Even though it's not AI, I bet you font designing is also a rocket science which might be even more complex than LLMs.
+
+Video: https://www.youtube.com/watch?v=ANiPlFCNDS8
+
+That's Kurian reporting about last week. Hope you enjoyed it. Let me know if I should continue doing this :P.
