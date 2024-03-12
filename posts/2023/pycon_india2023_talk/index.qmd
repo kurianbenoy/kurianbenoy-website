@@ -39,3 +39,11 @@ importance of fine-tuning Whisper in low-resource language like Malayalam which 
 almost 90% accuracy compared to -10% accuracy of OpenAI whisper model weights. The results where
 calculated with a new github project called [malayalam_asr_benchmarking created by me](https://github.com/kurianbenoy/malayalam_asr_benchmarking).
 
+## Pictures
+
+![Kurian speaking in pycon India](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/1e7fbe8b-ce77-4126-b6cb-42d641d02261)
+![Full view of Kurian speaking with the large screen](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/10f2ce20-d6e2-414a-9031-1f8a60a903e9)
+
+
+
+
