@@ -41,7 +41,7 @@ sharing the story of one of his software failures:
 
 **Now Uncle Bob says why we should take this simple oath as coders:**
 
-![image](https://user-images.githubusercontent.com/24592806/120883409-99565580-c5fa-11eb-91e2-d185d5b4535b.png)
+![](https://user-images.githubusercontent.com/24592806/120883409-99565580-c5fa-11eb-91e2-d185d5b4535b.png)
 
 
 ## Do No Harm

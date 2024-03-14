@@ -138,7 +138,7 @@ def get_files(path, extensions=None, recurse=True, folders=None, followlinks=Tru
 For the sake of understanding, let's take an example a `.git` directory, with the following
 file structure.
 
-![image](https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png)
+![](https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png)
 
 `os.scandir` returns an iterator of Directory objects. In Python `os` module, there is an `os.listdir(path='.')` which does the same functionality as
 `scandir`. Yet `scandir` gives a better performance for most of common use cases. [1]
@@ -245,7 +245,7 @@ pointing to various filenames.
 This is how the `get_image_files`, returns a L object based on fastcore for any object.
 For the [BIWI Dataset](https://www.kaggle.com/kmader/biwi-kinect-head-pose-database), the output of `get_image_files` and `get_files` is as following:
 
-![image](https://user-images.githubusercontent.com/24592806/128119162-41abebab-dda4-4d8b-b781-2d81d501b8aa.png)
+![](https://user-images.githubusercontent.com/24592806/128119162-41abebab-dda4-4d8b-b781-2d81d501b8aa.png)
 
 ### Conclusion
 

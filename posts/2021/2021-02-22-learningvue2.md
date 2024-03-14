@@ -27,7 +27,7 @@ Training bespoke machine learning models wasn’t a differentiating factor at th
 - Deploying models and UIs so people can use them
 ```
 
-![image](https://user-images.githubusercontent.com/24592806/108724626-889e3a00-754b-11eb-9a51-0c809b9f8867.png)
+![](https://user-images.githubusercontent.com/24592806/108724626-889e3a00-754b-11eb-9a51-0c809b9f8867.png)
 
 > Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be 
 incrementally adoptable.

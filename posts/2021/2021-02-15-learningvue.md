@@ -23,7 +23,7 @@ To learn the Vue.js, first, it is essential to learn the basics of JavaScript, H
 It is very important to get the fundamentals of JavaScript right.
 Read what Nadia has to say 👇
 
-![image](https://user-images.githubusercontent.com/24592806/107968479-6dc04880-6fd4-11eb-89d1-c3fba9c88b01.png)
+![](https://user-images.githubusercontent.com/24592806/107968479-6dc04880-6fd4-11eb-89d1-c3fba9c88b01.png)
 
 
 Let's explore a few Javascript concepts which Nadia mentioned in her tweet.

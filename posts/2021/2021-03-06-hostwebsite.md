@@ -17,16 +17,16 @@ I am discussing in this article how to host a self domain with GitHub:
 
 ![githubrepo](https://user-images.githubusercontent.com/24592806/110367702-0dba4080-806e-11eb-9b96-15770a7982ed.png)
 
-![image](https://user-images.githubusercontent.com/24592806/110367923-507c1880-806e-11eb-92e7-3728f5a7f772.png)
+![](https://user-images.githubusercontent.com/24592806/110367923-507c1880-806e-11eb-92e7-3728f5a7f772.png)
 
 **Go to your DNS management system**. In the bigrock, scroll all the way down in your domain name page, and reach the setting for DNS Management
 
-![image](https://user-images.githubusercontent.com/24592806/110369070-d9478400-806f-11eb-8424-9a7f1dc1b7a1.png)
+![](https://user-images.githubusercontent.com/24592806/110369070-d9478400-806f-11eb-8424-9a7f1dc1b7a1.png)
 
 Now on clicking Manage DNS create an A record, which is used to point to four name servers hosted by GitHub. First and
 foremost create a CNAME record that points your subdomain to the default domain for your site. For example, if you want to use the subdomain www.example.com for your user site, create a CNAME record that points www.example.com to <user>.github.io
   
-![image](https://user-images.githubusercontent.com/24592806/110369506-828e7a00-8070-11eb-9b89-fadd282e0374.png)
+![](https://user-images.githubusercontent.com/24592806/110369506-828e7a00-8070-11eb-9b89-fadd282e0374.png)
 
 **So what is a CNAME record?**
 
@@ -35,7 +35,7 @@ foremost create a CNAME record that points your subdomain to the default domain 
 The next step is to create an A record in the DNS management system. In docs for [Configuring a custom domain for your GitHub Pages site - GitHub Docs](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site), it's mentioned the various IPs used
 for creating A records in DNS providing servicer.
 
-![image](https://user-images.githubusercontent.com/24592806/110370904-4a883680-8072-11eb-8af8-231907f1f115.png)
+![](https://user-images.githubusercontent.com/24592806/110370904-4a883680-8072-11eb-8af8-231907f1f115.png)
 
 
 **What is A Record**
