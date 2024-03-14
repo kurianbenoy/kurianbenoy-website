@@ -1,5 +1,5 @@
 ---
-title: Whisper Normalizer - Python Package
+title: Whisper Normalizer - Python Package reaches 100K monthly downloads 🎉
 date: 2024-02-16
 author: "Kurian Benoy"
 type: post
