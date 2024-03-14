@@ -4211,7 +4211,7 @@
     "href": "posts/2022/2022-07-06-gradio_spaces.html",
     "title": "Getting featured in Spaces of the week and my latest two gradio spaces",
     "section": "",
-    "text": "I recently created two gradio based webapps, and one of my spaces - Paddy Doctor got featured in list of hugging face Spaces of the week.\n\n\n\nimage\n\n\nBoth gradio apps based on two kaggle competitions which I have been participating in. Both are on computer vision models with one to identify the type of disease in the paddy crop and another to identify the name of flowers(which I am terribly bad at remembering names).\nDo checkout the links below for the spaces\nPaddy Doctor\nIdentify which flower"
+    "text": "I recently created two gradio based webapps, and one of my spaces - Paddy Doctor got featured in list of hugging face Spaces of the week.\n\n\n\nPaddy Doctor being featured in Hugging Face Spaces of the week\n\n\nBoth gradio apps based on two kaggle competitions which I have been participating in. Both are on computer vision models with one to identify the type of disease in the paddy crop and another to identify the name of flowers(which I am terribly bad at remembering names).\nDo checkout the links below for the spaces\nPaddy Doctor\nIdentify which flower"
   },
   {
     "objectID": "posts/2022/2022-04-26-fastai-51.html",
