@@ -199,31 +199,16 @@ dls = pets.dataloaders(path/"images")</code></pre>
 <li>It’s a technique in which we transform input image into a larger size image, and then use augmentation techniques like Random cropping to get the full picture of what we are trying to classify.</li>
 <li>Usually for transforming images to larger sizes like Resize operation we use a CPU(Central Processing Unit). Then process of augmentation techniques like cropping, RandomResizing is usually done with a GPU(Graphics process units) because it requires uniform size images.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126095655-33e269f0-2841-472c-aedc-39489bc34cf3.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126095655-33e269f0-2841-472c-aedc-39489bc34cf3.png" class="img-fluid"></p>
 <ul>
 <li>In practice, according to <a href="https://wandb.ai/aarora">Aman Arora</a> we spend a lot of time loading data correctly when working with a new dataset. This is where some errors come.</li>
 <li>When errors come in our data block, use the <code>summary method in DataBlock</code></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126096059-a4570b1d-853a-44a4-b211-85e8924cdb70.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126096059-a4570b1d-853a-44a4-b211-85e8924cdb70.png" class="img-fluid"></p>
 <ul>
 <li>Now when training our model, across a few epochs(doing a complete pass of data). The learn.fine_tune() method shows average loss over the training dataset and loss of validation set. What is this loss function used, is it the loss function we learned in chapter 4?</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126096364-f189e555-f125-400b-8648-890fb8e125f2.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126096364-f189e555-f125-400b-8648-890fb8e125f2.png" class="img-fluid"></p>
 <ul>
 <li>By default, fastai chooses the appropriate loss function based on Datablock type. Generally for an image dataset, with a categorical outcome we usually use <strong>cross-entropy loss</strong></li>
 </ul>
@@ -231,12 +216,7 @@ dls = pets.dataloaders(path/"images")</code></pre>
 <section id="what-is-cross-entropy-loss" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-cross-entropy-loss">What is Cross Entropy Loss?</h3>
 <p>Let’s look it step by step. Let’s first view the <em>activations and labels of our data loader</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126096724-3220e5f0-27ba-458f-8980-fa7c72a55ccd.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126096724-3220e5f0-27ba-458f-8980-fa7c72a55ccd.png" class="img-fluid"></p>
 <ul>
 <li>We can see our pets are converted into associated tensor values representing the category into 0-37 values in tensor.</li>
 <li>The prediction probabilities sum all add up to 1</li>
@@ -259,30 +239,15 @@ dls = pets.dataloaders(path/"images")</code></pre>
 </ul>
 <pre><code>def softmax(x):
   return (exp(x) /exp(x).sum(dim=1, keepdim=True))</code></pre>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126097349-af9247e6-5461-4562-99c6-c2191783853d.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126097349-af9247e6-5461-4562-99c6-c2191783853d.png" class="img-fluid"></p>
 <p><em>What is log-likelihood loss</em></p>
 <ul>
 <li>We need to calculate the loss for each no like mnist_loss(target=1, 1-inputs). Yet for multiple categories, we need a better method</li>
 <li>For this, we use the log-likelihood loss method. When considering things in log scale, a 99.99% and 99.9% is usually 10 times larger, even though in absolute terms it seems small.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126097580-613dcdaa-6628-4b69-8c9b-b08163b01078.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126097580-613dcdaa-6628-4b69-8c9b-b08163b01078.png" class="img-fluid"></p>
 <p><em>Combining</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126097634-9f150ecf-b77b-4a60-af68-0fdfc0382fe7.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126097634-9f150ecf-b77b-4a60-af68-0fdfc0382fe7.png" class="img-fluid"></p>
 <ul>
 <li>Softmax + Negative Log Likelihood = Cross Entropy Loss</li>
 <li>Most of the time, we calculate with torch methods like <code>nn.CrossEntropyLoss(reduction='none')(acts, targ)</code>.</li>
@@ -294,12 +259,7 @@ dls = pets.dataloaders(path/"images")</code></pre>
 <li>The wrong results, and where our model has been wrong can’t be often spotted merely with help of metrics like accuracy.</li>
 <li>So we use a confusion matrix and plot the function with top losses.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126098073-5a3a8e9f-5a79-4d9e-a4ca-52bcb24d0adb.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126098073-5a3a8e9f-5a79-4d9e-a4ca-52bcb24d0adb.png" class="img-fluid"></p>
 </section>
 <section id="learning-rate-finder-and-freezing-pre-trained-layers" class="level3">
 <h3 class="anchored" data-anchor-id="learning-rate-finder-and-freezing-pre-trained-layers">Learning rate finder and freezing pre-trained layers</h3>
@@ -309,12 +269,7 @@ dls = pets.dataloaders(path/"images")</code></pre>
 <li>When we are using models with transfer learning, they are not trained for the specific model which we are trying to classify.</li>
 <li>For this, we freeze the last layers and train again</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126098417-536b1069-a3df-468d-8859-cbf42ebd7317.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126098417-536b1069-a3df-468d-8859-cbf42ebd7317.png" class="img-fluid"></p>
 <ul>
 <li>Fastai <code>fine_tune</code> method under the hood:</li>
 </ul>
@@ -337,12 +292,7 @@ dls = pets.dataloaders(path/"images")</code></pre>
 <li>We can improve models with deeper architecture like Resnet 34, 50, 101, 152 etc. There are new techniques now like EfficentNet, Transformers, which can give a better accuracy now.</li>
 <li>Then it’s a good idea to train with half-precision floating points, which speeds up the training process considerably</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126098914-56e1d5de-359c-479e-8344-8333f32e6c79.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126098914-56e1d5de-359c-479e-8344-8333f32e6c79.png" class="img-fluid"></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="https://youtu.be/bvtr_1TN6MI" title="Session Recordings of Week 6"><img src="http://img.youtube.com/vi/bvtr_1TN6MI/0.jpg" class="img-fluid figure-img" alt="IMAGE ALT TEXT"></a></p>
@@ -358,12 +308,7 @@ dls = pets.dataloaders(path/"images")</code></pre>
 </ol>
 <p>My work logs, trying out things mentioned in Chapter 5 can be found <a href="https://www.kaggle.com/kurianbenoy/fastbook-ch5/">in this Kaggle notebook</a>.</p>
 <p>I also got a chance to try out the fastai tool for graphic visualisation <code>fastdott</code>, which is pretty cool.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/126546857-c784e73d-f67c-4013-ad51-ebfe4ae03c6b.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/126546857-c784e73d-f67c-4013-ad51-ebfe4ae03c6b.png" class="img-fluid"></p>
 <p>Thanks everyone for reading 🙏</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">

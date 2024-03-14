@@ -212,12 +212,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Cross-Entropy Loss can also be explained using Excel as shown in <a href="https://www.youtube.com/watch?v=CJKnDu2dxOE&amp;t=7482s">Jeremy lesson</a></p>
 <p>Let me just briefly summarise, what Jeremy said:</p>
 <p>Using Excel, for a Cat, we have the true labels whether it’s a cat or not. Also, our ML model after training predicts whether it’s a cat or not. Based on these differences, when predicting the correct thing very confidently we are giving our model a low loss value, while predicting the labels wrongly should be penalised with a high loss value.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/128454662-831c4066-95a4-4422-b2dd-3233732a2b8a.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/128454662-831c4066-95a4-4422-b2dd-3233732a2b8a.png" class="img-fluid"></p>
 <p>So cross-entropy loss is basically whether it is a cat multiplied by log of cat activation + whether it’s a dog * (log of dog activation)</p>
 <p>If it’s a cat, take the log of cattiness, else it’s a dog, take the log of dogginess ie 1 - log of cattiness. All this works if it’s adding up to 1 only, the probability predictions. The correct activation function to use is softmax, all of the activations add up to one. All activations are greater than 0 as well</p>
 </section>
@@ -226,12 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>In Pytorch, softmax + cross entropy loss is <a href="https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html">nn.crossEntropy</a></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/127782856-66b72af4-57a9-45fa-b0ed-7487997b4b5a.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/127782856-66b72af4-57a9-45fa-b0ed-7487997b4b5a.png" class="img-fluid"></p>
 <ul>
 <li>The fundamental thing is loss needs to keep increasing if it’s a simple sigmoid + log + nll. The error is not increasing</li>
 <li>The error is increasing only when it’s BCE loss</li>
@@ -276,57 +266,27 @@ segmented (the background is removed using a threshold on the distance) and the 
 provided to show how to read the depth data into memory). The _pose.txt files contain the ground truth information, i.e., the
 location of the center of the head in 3D and the head rotation, encoded as a 3x3 rotation matrix.</code></pre>
 <p>Let’s load the dataset and look at the file structure of the dataset.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/129125896-44532b25-aca8-4e46-b8b1-711467cf718a.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/129125896-44532b25-aca8-4e46-b8b1-711467cf718a.png" class="img-fluid"></p>
 <blockquote class="blockquote">
 <p>Now we have written a utility function for converting files in subfolder <code>image(_rgb.jpg)</code> and <code>pose file(_pose.txt)</code>. We can easily get all image files using the get_image_files function in fastai. If you are interested in checking how <a href="https://kurianbenoy.com/2021-08-07-get_image_files/">get_image_files work under the hood check my article on it</a>.</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/129126282-21d48a4c-d94b-428d-9d41-7f0d16b457f9.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/129126282-21d48a4c-d94b-428d-9d41-7f0d16b457f9.png" class="img-fluid"></p>
 <blockquote class="blockquote">
 <p>In the Biwi dataset website, it explains the format of the pose text file associated with each image, which shows the location of the centre of the head. This function returns the coordinates as a tensor of two items, ie height and width.</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/129127875-674a6439-f676-49e6-9ad1-32cddf7cbd8f.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/129127875-674a6439-f676-49e6-9ad1-32cddf7cbd8f.png" class="img-fluid"></p>
 <blockquote class="blockquote">
 <p>One important thing is note is that we should not just use a random splitter. The same people appear in multiple images in the dataset, but we want to ensure that our model can generalize to people that it hasn’t seen yet. Each folder contains images for one person. PointBlock is used in the DataBlock block section, to tell fastai that labels represent the coordinates of the centre of face in a way.</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/129127978-0791cc3c-be03-4a86-893b-74f880a0e43d.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/129127978-0791cc3c-be03-4a86-893b-74f880a0e43d.png" class="img-fluid"></p>
 <blockquote class="blockquote">
 <p>Now we can see for Image Regression, we have used the same Datablock and tell fastai just the dependant and independent variables. For the cnn_leaner, we can create our learner to tell fastai the range of targets ie rescaled between -1 and 1. Similar to how in chapter1 we calculated the ratings in the range of 0.5 to 5.0 for recommendation engines.</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/129128636-d9465329-a82f-4e62-981f-d0890f9ae5d2.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/129128636-d9465329-a82f-4e62-981f-d0890f9ae5d2.png" class="img-fluid"></p>
 <blockquote class="blockquote">
 <p>Now it’s all about training and looking at the result. In Learner.show_results. The left side has actual ground truth coordinates and the right side has model performance.</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/129136205-d5b022d8-6fce-4197-b87f-0bb1ab1263d1.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/129136205-d5b022d8-6fce-4197-b87f-0bb1ab1263d1.png" class="img-fluid"></p>
 </section>
 <section id="sota-technniques-for-image-classification" class="level2">
 <h2 class="anchored" data-anchor-id="sota-technniques-for-image-classification">SOTA technniques for Image classification</h2>

@@ -177,13 +177,13 @@ ul.task-list li input[type="checkbox"] {
 
 <p>I am sharing a few advice shared by <a href="https://twitter.com/jeremyphoward">Jeremy</a> in the <a href="https://youtu.be/gGxe2mN3kAg">Lesson-0 of the fastai course</a> and the introduction section of the book:</p>
 <ul>
-<li><p>Commit to complete the course <img src="https://user-images.githubusercontent.com/24592806/122153546-db945800-ce80-11eb-8262-90c21f441354.png" class="img-fluid" alt="image"></p></li>
+<li><p>Commit to complete the course <img src="https://user-images.githubusercontent.com/24592806/122153546-db945800-ce80-11eb-8262-90c21f441354.png" class="img-fluid"></p></li>
 <li><p>The actual learning of the book, involves the following components usually:</p>
 <ul>
 <li>Watching lecture/book</li>
 <li>Running notebook and Experimentation</li>
 <li>Reproduce Results</li>
-<li>Working on a different dataset <img src="https://user-images.githubusercontent.com/24592806/122153598-f1098200-ce80-11eb-9a74-b0c53820ba9f.png" class="img-fluid" alt="image"></li>
+<li>Working on a different dataset <img src="https://user-images.githubusercontent.com/24592806/122153598-f1098200-ce80-11eb-9a74-b0c53820ba9f.png" class="img-fluid"></li>
 </ul></li>
 <li><p>Always start with a <a href="https://github.com/fastai/fastbook/tree/master/clean">clean version</a> of the notebook and see what all you remember of the existing lessons, and understand what it is doing</p></li>
 <li><p>Don’t hesitate to ask questions ~ <a href="https://twitter.com/amaarora">Aman Arora</a></p></li>
@@ -195,50 +195,25 @@ ul.task-list li input[type="checkbox"] {
 <li>If you have trained any model with fastai, you may have noticed the <code>fine_tune()</code> method. So even setting fine_tune(0) run over the dataset once(one epoch). But why? I didn’t notice that until someone asked this question</li>
 </ul>
 <p>Since you look at <code>fine_tune()</code> method you will realize the freeze_epochs is set as one by defaults, and epochs you passed in this case is set as zero</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/122279178-64ed6e00-cf05-11eb-8f8d-5c76647f9112.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/122279178-64ed6e00-cf05-11eb-8f8d-5c76647f9112.png" class="img-fluid"></p>
 <ul>
 <li>Justin Hougston answered: on what is the difference between <code>fine_tune</code> and <code>fit_one_cycle</code> method:</li>
 </ul>
 <blockquote class="blockquote">
 <p>From my understanding - in this example, we are defining a pre-trained cnn learner (which is resnet34), and then calling fine_tune() on that model (with pre-trained weights). The. .fine_tune() takes in a few params, the first being number of epochs. So in your code above, we are explicitly saying to run through each item in the dataset once. Interestingly enough, the fine_tune actually re-uses .fit_one_cycle (which is super cool in it of itself) in addition to some unfreezing and freezing of weights. (thread discussing the difference here)</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/122279338-8fd7c200-cf05-11eb-906e-321f3ad83ced.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/122279338-8fd7c200-cf05-11eb-906e-321f3ad83ced.png" class="img-fluid"></p>
 <ul>
 <li>What is the secret sauce behind the beautifully formatted <code>doc</code> function in nbdev? Kevin Bird explains:</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/122275537-6f0d6d80-cf01-11eb-986e-581a20d91592.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/122275537-6f0d6d80-cf01-11eb-986e-581a20d91592.png" class="img-fluid"></p>
 <ul>
 <li><p><em>In jupyter notebooks you can use <code>?</code> mark to see the function definition and <code>??</code> to see the source code.</em> It’s interesting to see how well fastai library is written, with short functions of code wherever I explored it.</p></li>
 <li><p><code>untar_data()</code> function is available for downloading datasets. The datasets are being downloaded in fastai folder, and you can look inside the dataset, by going to that particular path provided by the pathlib module. In the below example, I am opening the <code>URLs.adult</code> dataset in jupyter notebook and explore the csv file using pandas.</p></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/122274783-94e64280-cf00-11eb-9284-a2e4995d834a.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/122274783-94e64280-cf00-11eb-9284-a2e4995d834a.png" class="img-fluid"></p>
 <p>On using more features, I was able to get better accuracy than the example provided in the book:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/122275217-1211b780-cf01-11eb-88f4-029056a152d3.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/122275217-1211b780-cf01-11eb-88f4-029056a152d3.png" class="img-fluid"></p>
 <ul>
 <li>In Chapter 2, in the process of downloading images from the internet. I was not interested in using Azure keys as provided by docs. So I found an alternative method by using duckduckgo as mentioned in the <a href="https://course.fast.ai/images#DuckDuckGo">book website</a>. The fastbook method for searching duck duck go was not working and it was throwing an error:</li>
 </ul>
@@ -254,12 +229,7 @@ ul.task-list li input[type="checkbox"] {
      59     assert searchObj
 AttributeError: 'str' object has no attribute 'decode'</code></pre>
 <p>The error can be easily solved by remove <code>decode()</code> function in line no 57. Since the PR for that changes has not yet been merged in fastai repo, I used <a href="https://github.com/deepanprabhu/duckduckgo-images-api">DuckDuckGoImages package</a> for downloading images with the below code:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/122276492-76814680-cf02-11eb-8563-cedb86caaa3d.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/122276492-76814680-cf02-11eb-8563-cedb86caaa3d.png" class="img-fluid"></p>
 <ul>
 <li>Since deciding on a GPU server is an important thing to do at first. For the time being, I am planning to use the GPUs provided by <code>Kaggle</code> and <code>Google Colab</code>. Also locally I have set up notebooks with <code>jupyterlab</code> for browsing and looking into source code when notebooks are being run on the server.</li>
 </ul>

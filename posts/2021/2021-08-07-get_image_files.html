@@ -222,12 +222,7 @@ def get_files(path, extensions=None, recurse=True, folders=None, followlinks=Tru
         f = [o.name for o in os.scandir(path) if o.is_file()]
         res = _get_files(path, f, extensions)</code></pre>
 <p>For the sake of understanding, let’s take an example a <code>.git</code> directory, with the following file structure.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/128638214-f172e126-dfdc-4711-a9ad-7ece27430c04.png" class="img-fluid"></p>
 <p><code>os.scandir</code> returns an iterator of Directory objects. In Python <code>os</code> module, there is an <code>os.listdir(path='.')</code> which does the same functionality as <code>scandir</code>. Yet <code>scandir</code> gives a better performance for most of common use cases. [1]</p>
 <pre><code>f = [o.name for o in os.scandir(path) if o.is_file()]</code></pre>
 <p>It returns a list of file extensions as shown below with list comprehensions, where <code>is_file()</code> returns, if it’s a file or whether it’s pointing to a directory with <code>followlinks</code>.</p>
@@ -277,12 +272,7 @@ def get_files(path, extensions=None, recurse=True, folders=None, followlinks=Tru
 <pre><code>&gt;&gt; get_files(Path('.'))
 [Path('index'), Path('HEAD'), Path('packed-refs'), Path('config'), Path('description'), Path('hooks/fsmonitor-watchman.sample'), Path('hooks/update.sample'), Path('hooks/pre-applypatch.sample'), Path('hooks/pre-push.sample'), Path('hooks/pre-receive.sample'), Path('hooks/applypatch-msg.sample'), Path('hooks/pre-commit.sample'), Path('hooks/prepare-commit-msg.sample'), Path('hooks/commit-msg.sample'), Path('hooks/post-update.sample'), Path('hooks/pre-rebase.sample'), Path('objects/pack/pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.pack'), Path('objects/pack/pack-0ae71ead7e875289ae1c9a4b14ca65dbb7a9fc83.idx'), Path('info/exclude'), Path('refs/remotes/origin/HEAD'), Path('refs/heads/master'), Path('logs/HEAD'), Path('logs/refs/remotes/origin/HEAD'), Path('logs/refs/heads/master')]</code></pre>
 <p>This is how the <code>get_image_files</code>, returns a L object based on fastcore for any object. For the <a href="https://www.kaggle.com/kmader/biwi-kinect-head-pose-database">BIWI Dataset</a>, the output of <code>get_image_files</code> and <code>get_files</code> is as following:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/128119162-41abebab-dda4-4d8b-b781-2d81d501b8aa.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/128119162-41abebab-dda4-4d8b-b781-2d81d501b8aa.png" class="img-fluid"></p>
 <section id="conclusion" class="level3">
 <h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
 <p>I hope with this blog post, you now have understood how <code>get_image_files</code>, fetch the list of images under the hood by looking into the source code.</p>

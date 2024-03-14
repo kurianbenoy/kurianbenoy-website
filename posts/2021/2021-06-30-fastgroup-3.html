@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Our captain <a href="https://twitter.com/amaarora">Aman</a> decided to cover only Chapter 2 during the session.</li>
 <li>As a group, Aman asked all of us to check out the questionnaire at end of each Chapter.</li>
-<li>Data loaders is something which passes the function one by one is called function. Fastai has a train data loader and validation data loader <img src="https://user-images.githubusercontent.com/24592806/123837234-3bcad580-d928-11eb-8a03-e7406f160b79.png" class="img-fluid" alt="image"></li>
+<li>Data loaders is something which passes the function one by one is called function. Fastai has a train data loader and validation data loader <img src="https://user-images.githubusercontent.com/24592806/123837234-3bcad580-d928-11eb-8a03-e7406f160b79.png" class="img-fluid"></li>
 <li>I was immediately curious about what to do for the test dataset as well. The full discussion thread can be <a href="https://wandb.ai/aarora/discussions/Fastbook-Reading-Group-Week-3--Vmlldzo3OTMwODk">found in this link</a></li>
 <li>Generally for any model, there are two terms. One is X which called the independent variable and Y which is the label to predict is called the dependent variable.</li>
 </ul>
@@ -198,12 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Get independent variables(<code>using get_y=parent_label</code>). Note <code>parent_label</code> is something provided by fastai to get the name of the folder. I heard there is something called grandparent splitters</li>
 <li>Item transforms and batch transforms (for making images in the same size, for the neural network to process which is resizing images to 128 px <code>item_tfms=Resize(128</code>)</li>
 </ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/124014954-c6cbce80-da01-11eb-969c-60fc3eb3c89b.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/124014954-c6cbce80-da01-11eb-969c-60fc3eb3c89b.png" class="img-fluid"></p>
 <p>Behind Datablocks and Dataloaders, there is lot of things are still happening 🤯</p>
 <ul>
 <li>There are a lot of data augmentation techniques. In the book we discussed methods like padding images, Random Resized Crop, Resize etc. Since there is a lot of black spaced borders, padding methods are not good. All these methods are the suboptimal way of doing things.</li>
@@ -238,12 +233,7 @@ ul.task-list li input[type="checkbox"] {
 <li>When I collected dataset with just names, like Mango out of domain images like image of mango juice, mangoes, all came. Cleaning of dataset is required for this, also I limited my search query to include tree with each fruit name. The <a href="https://github.com/kurianbenoy/Tree-Classifier/blob/master/Data-collection.ipynb">dataset collection notebook can be found here</a>.</li>
 <li>The online webapp to classify trees I created can be accessed in the <a href="https://mybinder.org/v2/gh/kurianbenoy/Tree-Classifier/HEAD?urlpath=%2Fvoila%2Frender%2Ftree-classifier-app.ipynb">Binder link</a></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/124020244-a69f0e00-da07-11eb-9068-8a8de2fd0eb3.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/124020244-a69f0e00-da07-11eb-9068-8a8de2fd0eb3.png" class="img-fluid"></p>
 <ul>
 <li>My original goal, was to create a webapp for same use-case, with Vue.js and Flask, as a full stack web application. It’s being inspired by <a href="https://fullstackwithpr.hashnode.dev/the-bear-classifier-fastai-meets-angular">this blogpost</a></li>
 <li>By upcoming week, I will be coming with a blogpost with how to use a fast.ai model for inferencing with Vue.js and Flask. Do remember to check it out</li>

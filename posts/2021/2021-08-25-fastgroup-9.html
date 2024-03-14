@@ -177,27 +177,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p><img src="../../posts/images/fastgroup-share.jpg" class="img-fluid"></p>
 <p>Consider the case of buiding a movie recommendation. We usually use collabrative filtering technique to recommend a specific movie to a user of XYZ platform. Yet how will we categorize the movies into various categories? We can do a decent job to recommend movies based on category of movie it belongs to like blockbuster, comic etc. as shown in the picture:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/130835070-6be3023d-5fe3-4dd7-aacd-8378fc97b23f.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/130835070-6be3023d-5fe3-4dd7-aacd-8378fc97b23f.png" class="img-fluid"></p>
 <p><a href="https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture">Resource 1</a></p>
 <p>Yet realisatically, we won’t be able to identify our users taste by just the categories, as people are more diverse in nature. So this is usually identified by understanding the latent factors corresponding to various users and movies. So in a scale of ratings of each movies we can map how much users like it by calculating latent factors as done with <code>pandas cross-tab</code> functionality. This is as shown in below diagram representing movies and users.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/130792010-3941f9e8-f6b3-48e2-a5a9-761dd60763c4.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/130792010-3941f9e8-f6b3-48e2-a5a9-761dd60763c4.png" class="img-fluid"></p>
 <p>Consider the case of a large orgs like netflix with millions of movies listed. Yet the no of movies watched by a user for our example, be corresponding to a very empty matrix who just watched 3 movies. We are going to predict, how much he will like our movies in full list and give some recommendations for the user.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/130836043-e1e73208-efd5-4ba1-9d9d-cf0a796af215.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/130836043-e1e73208-efd5-4ba1-9d9d-cf0a796af215.png" class="img-fluid"></p>
 <p>So how are we going to calculate the remaining predictions for rest of movies. It’s a 3 step process as mentioned in <a href="https://github.com/fastai/fastbook">Resource 2</a>:</p>
 <ol type="1">
 <li>Randomly initialize some parameters</li>
@@ -215,19 +200,9 @@ user_factors.t() &amp; one_hot_3</code></pre>
 <blockquote class="blockquote">
 <p>So in frameworks like Pytorch, multiplying by a one-hot encoded matrix using the computational shortcut that it can be implemented by simply indexing directly. This is quite a fancy word for a very simple concept. The thing that you can multiply the one hot-encoded matrix by (or using a computational shortcut index into directly) is called <strong>Embedding matrix.</strong> [2]</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/130845223-320e23bf-50ec-4e44-90aa-2d5a5999c4ce.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/130845223-320e23bf-50ec-4e44-90aa-2d5a5999c4ce.png" class="img-fluid"></p>
 <p>Let’s look at a practical example of Embedding in real world using github copilot, which uses language modelling over <a href="https://copilot.github.com/">Codex</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/24592806/130845726-60cd3e7b-d436-4306-a948-77e14e33d20a.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p><img src="https://user-images.githubusercontent.com/24592806/130845726-60cd3e7b-d436-4306-a948-77e14e33d20a.png" class="img-fluid"></p>
 <!-- The user may say, the ads of words in User agents. We need to identify from set of words, and based on 3 dimensional embedding
 value. ANd then predict the value. It's optimized using L2. Just by learning , using back propogating. The embedding will
 be learned by the program.
