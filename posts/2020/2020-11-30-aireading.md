@@ -9,7 +9,7 @@ title: Introducing Reading like AI
 
 Reading like AI is a python package inspired from the below meme:
 
-![image](https://user-images.githubusercontent.com/24592806/100549700-93259c00-329a-11eb-83af-d6bd84c346ce.png)
+![](https://user-images.githubusercontent.com/24592806/100549700-93259c00-329a-11eb-83af-d6bd84c346ce.png)
 
 What if AI systems could count numbers?
 
