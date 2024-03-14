@@ -8,6 +8,7 @@ categories:
 comments: false
 date: '2022-07-06'
 layout: post
+image: /posts/images/spaces_of_week.png
 published: true
 readtime: true
 title: Getting featured in Spaces of the week and my latest two gradio spaces
