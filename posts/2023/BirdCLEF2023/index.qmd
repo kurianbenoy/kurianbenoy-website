@@ -3,7 +3,7 @@ title: "🐦Learning more about birds and bird calls with Merlin app"
 author: ["Kurian Benoy"]
 date: "2023-03-20"
 categories: ["kaggle", "experience", "Travel"]
-image: /posts/images/birds.jpeg
+image: /posts/images/bird.jpeg
 ---
 
 I recently went for a bird watching adventure in [Salim Ali Bird Sanctuary](https://en.wikipedia.org/wiki/Salim_Ali_Bird_Sanctuary), Thattekad Kerala, India. During that time, my guide was very proficient in identifying birds by just hearing sounds. In Salim Ali bird sanctuary itself there are almost 300 species of land birds and another 100+ species of water birds.
