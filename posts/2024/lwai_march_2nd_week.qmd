@@ -1,8 +1,9 @@
 ---
-title: 📢 Last Week in AI(LWAI) - March 4th to March 10th 📅🤖
+title: 📢 Last Week in AI(LWAI) - March 4th to March 10th
 date: 2024-03-12
 author: "Kurian Benoy"
 type: post
+image: /posts/images/navaresa_meme.jpeg
 ---
 
 🗓️ Monday:
