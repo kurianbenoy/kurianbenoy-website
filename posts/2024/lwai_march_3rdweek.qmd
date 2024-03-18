@@ -12,9 +12,9 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 1. Netflix cautions against blindly using cosine similarity as a measure of semantic similarity between learned embeddings, as it can yield arbitrary and meaningless results.
 
-[Paper Link:](https://arxiv.org/abs/2403.05440)
+[Paper Link](https://arxiv.org/abs/2403.05440)
 
-[Tweet Link:](https://twitter.com/_reachsumit/status/1767045820384477575)
+[Tweet Link](https://twitter.com/_reachsumit/status/1767045820384477575)
 
 
 2. Some interesting thoughts by [Peter Gostev](https://www.linkedin.com/in/peter-gostev/) on how LLMs are a lot more cheaper than previous tradional NLP techniques.
@@ -23,81 +23,81 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 3. Researchers have introduced a ‘Mind Wipe’ technique for erasing hazardous knowledge from AI systems, ensuring functionality remains while enhancing safety. Alongside, the Weapons of Mass Destruction Proxy (#WMDP) benchmark, with 4,157 questions targeting biosecurity, cybersecurity, and chemical security, has been made public.
 
-[Tweet Link:](https://twitter.com/pandeyparul/status/1767190910906057157)
+[Tweet Link](https://twitter.com/pandeyparul/status/1767190910906057157)
 
-[Blog Link:](https://www.wmdp.ai/)
+[Blog Link](https://www.wmdp.ai/)
 
-[Paper Link:](https://arxiv.org/abs/2403.03218)
+[Paper Link](https://arxiv.org/abs/2403.03218)
 
-[Github Link:](https://github.com/centerforaisafety/wmdp)
+[Github Link](https://github.com/centerforaisafety/wmdp)
 
 🗓️ Tuesday:
 
 1. Infrastructure details for training llama3 models by facebook has been released.
 
-[Blog Link:](https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/)
+[Blog Link](https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/)
 
-[Tweet Link:](https://twitter.com/soumithchintala/status/1767579981419315400)
+[Tweet Link](https://twitter.com/soumithchintala/status/1767579981419315400)
 
 2. OpenAI team released something open-source in a while. Transformer Debugger(TDB) is a tool developed by OpenAI's Superalignment team with the goal of supporting investigations into specific behaviors of small language models.
 
-[Tweet Link:](https://twitter.com/janleike/status/1767347608065106387)
+[Tweet Link](https://twitter.com/janleike/status/1767347608065106387)
 
-[Github Repo Link:](https://github.com/openai/transformer-debugger)
+[Github Repo Link](https://github.com/openai/transformer-debugger)
 
-[LinkedIn Post:](https://www.linkedin.com/posts/kurianbenoy_transformer-debugger-tdb-is-a-tool-developed-activity-7173231708165619712-hiZ1?utm_source=share&utm_medium=member_desktop)
+[LinkedIn Post](https://www.linkedin.com/posts/kurianbenoy_transformer-debugger-tdb-is-a-tool-developed-activity-7173231708165619712-hiZ1?utm_source=share&utm_medium=member_desktop)
 
 3. Devin AI, the first AI software engineer was really the news of this week. Let's even cover reaction of this news separately.
 
-[Tweet Link:](https://twitter.com/cognition_labs/status/1767548763134964000)
+[Tweet Link](https://twitter.com/cognition_labs/status/1767548763134964000)
 
-[Blog Link:](https://www.cognition-labs.com/introducing-devin)
+[Blog Link](https://www.cognition-labs.com/introducing-devin)
 
 4. code2prompt, a CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting was released as open-source software with MIT License by [Mufeed V H](https://twitter.com/mufeedvh)
 
-[Tweet Link:](https://twitter.com/mufeedvh/status/1767529667496427601)
+[Tweet Link](https://twitter.com/mufeedvh/status/1767529667496427601)
 
-[Github Link:](https://github.com/mufeedvh/code2prompt)
+[Github Link](https://github.com/mufeedvh/code2prompt)
 
 5. [Santhosh Thottingal](https://thottingal.in/) gave a fabulous talk on AI and making it work in my mother tongue Malayalam. The youtube video was published on this day while it was actually delivered in a National Seminar organized by the Tirur regional centre of Sree Sankaracharya University of Sanskrit on January 6, 2024.
 
-[Video Link:](https://www.youtube.com/watch?v=aE7o62zS_eI)
+[Video Link](https://www.youtube.com/watch?v=aE7o62zS_eI)
 
 🗓️ Wednesday:
 
 1. I compiled the reactions to the news of Devin AI, the first AI Engineer by various folks.
 
-[Reaction by Andrej Karpathy:](https://twitter.com/karpathy/status/1767598414945292695)
+[Reaction by Andrej Karpathy](https://twitter.com/karpathy/status/1767598414945292695)
 
-[Reaction by Gergely Orosz:](https://twitter.com/GergelyOrosz/status/1767591690938822906)
+[Reaction by Gergely Orosz](https://twitter.com/GergelyOrosz/status/1767591690938822906)
 
-[Reaction by Sergio Periera:](https://twitter.com/SergioRocks/status/1767690345473605973)
+[Reaction by Sergio Periera](https://twitter.com/SergioRocks/status/1767690345473605973)
 
-[Reaction by André Oliveira:](https://twitter.com/smackingg/status/1767689754324107734)
+[Reaction by André Oliveira](https://twitter.com/smackingg/status/1767689754324107734)
 
 2. Claude 3 family of Haiku models was released. Haiku is the fastest and most affordable model in its intelligence class was released by Anthropic.
 
-[Tweet Link:](https://twitter.com/AnthropicAI/status/1768018310615151002)
+[Tweet Link](https://twitter.com/AnthropicAI/status/1768018310615151002)
 
-[Blog Link:](https://www.anthropic.com/news/claude-3-haiku)
+[Blog Link](https://www.anthropic.com/news/claude-3-haiku)
 
 3. Modular with their Max Engine's can give 2-5X improvement without any quanitzation or tricks which reduce the accuracy.
 
-[Tweet Link:](https://twitter.com/clattner_llvm/status/1767979691007422821)
+[Tweet Link](https://twitter.com/clattner_llvm/status/1767979691007422821)
 
-[Blog Link:](https://www.modular.com/blog/evaluating-max-engine-inference-accuracy-on-the-imagenet-dataset)
+[Blog Link](https://www.modular.com/blog/evaluating-max-engine-inference-accuracy-on-the-imagenet-dataset)
 
 🗓️ Thursday:
 
 1. AI4Bharat team released Indic LLM Suite, a blueprint for training and fine-tuning LLMs in Indic Languages.
 
-Blog Link: https://ai4bharat.iitm.ac.in/blog/indicllm-suite/
+[Blog Link](https://ai4bharat.iitm.ac.in/blog/indicllm-suite/)
 
-Paper Link: https://arxiv.org/abs/2403.06350
+[Paper Link](https://arxiv.org/abs/2403.06350)
 
-Github Repo Link: https://github.com/AI4Bharat/IndicLLMSuite
+[Github Repo Link](https://github.com/AI4Bharat/IndicLLMSuite)
 
-Dataset Link: https://huggingface.co/collections/ai4bharat/indicllmsuite-65ee7d225c337fcfa0991707
+[Dataset Link](https://huggingface.co/collections/ai4bharat/indicllmsuite-65ee7d225c337fcfa0991707)
 
 2. Hrishi Olickel, who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
 
