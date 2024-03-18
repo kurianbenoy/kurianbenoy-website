@@ -3,7 +3,6 @@ title: 📢 Last Week in AI(LWAI) - March 11th to March 17th
 date: 2024-03-18
 author: "Kurian Benoy"
 type: post
-draft: true
 ---
 
 Hello everyone, this is Kurian posting about some interesting things which happend in the AI world in last week. 
@@ -63,5 +62,57 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 5. [Santhosh Thottingal](https://thottingal.in/) gave a fabulous talk on AI and making it work in my mother tongue Malayalam. The youtube video was published on this day while it was actually delivered in a National Seminar organized by the Tirur regional centre of Sree Sankaracharya University of Sanskrit on January 6, 2024.
 
 [Video Link:](https://www.youtube.com/watch?v=aE7o62zS_eI)
+
+🗓️ Wednesday:
+
+1. I compiled the reactions to the news of Devin AI, the first AI Engineer by various folks.
+
+[Reaction by Andrej Karpathy:](https://twitter.com/karpathy/status/1767598414945292695)
+
+[Reaction by Gergely Orosz:](https://twitter.com/GergelyOrosz/status/1767591690938822906)
+
+[Reaction by Sergio Periera:](https://twitter.com/SergioRocks/status/1767690345473605973)
+
+[Reaction by André Oliveira:](https://twitter.com/smackingg/status/1767689754324107734)
+
+2. Claude 3 family of Haiku models was released. Haiku is the fastest and most affordable model in its intelligence class was released by Anthropic.
+
+[Tweet Link:](https://twitter.com/AnthropicAI/status/1768018310615151002)
+
+[Blog Link:](https://www.anthropic.com/news/claude-3-haiku)
+
+3. Modular with their Max Engine's can give 2-5X improvement without any quanitzation or tricks which reduce the accuracy.
+
+[Tweet Link:](https://twitter.com/clattner_llvm/status/1767979691007422821)
+
+[Blog Link:](https://www.modular.com/blog/evaluating-max-engine-inference-accuracy-on-the-imagenet-dataset)
+
+🗓️ Thursday:
+
+1. AI4Bharat team released Indic LLM Suite, a blueprint for training and fine-tuning LLMs in Indic Languages.
+
+Blog Link: https://ai4bharat.iitm.ac.in/blog/indicllm-suite/
+
+Paper Link: https://arxiv.org/abs/2403.06350
+
+Github Repo Link: https://github.com/AI4Bharat/IndicLLMSuite
+
+Dataset Link: https://huggingface.co/collections/ai4bharat/indicllmsuite-65ee7d225c337fcfa0991707
+
+2. Hrishi Olickel, who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
+
+Part 1 Blog Link: https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics 
+
+Part 2 Blog Link: https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-2-walking
+
+Part 3 Blog Link:https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-3-structure
+
+Tweet: https://twitter.com/hrishioa/status/1745835962108985737
+
+3. Chip Huyen went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
+
+Blog Link: https://huyenchip.com/2024/03/14/ai-oss.html
+
+Tweet Link: https://twitter.com/chipro/status/1768388213008445837
 
 
