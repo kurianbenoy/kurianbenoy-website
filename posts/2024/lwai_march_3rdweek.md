@@ -1,5 +1,5 @@
 ---
-title: 📢 Last Week in AI(LWAI) - March 11th to March 17th
+title: 📢 Last Week in AI(LWAI) - March 11th to March 17th 📅
 date: 2024-03-18
 author: "Kurian Benoy"
 type: post
@@ -10,7 +10,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 🗓️ Monday:
 
-1. Netflix cautions against blindly using cosine similarity as a measure of semantic similarity between learned embeddings, as it can yield arbitrary and meaningless results.
+1️⃣ Netflix cautions against blindly using cosine similarity as a measure of semantic similarity between learned embeddings, as it can yield arbitrary and meaningless results.
 
 [Paper Link](https://arxiv.org/abs/2403.05440)
 
@@ -33,7 +33,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 🗓️ Tuesday:
 
-1. Infrastructure details for training llama3 models by facebook has been released.
+1️⃣ Infrastructure details for training llama3 models by facebook has been released.
 
 [Blog Link](https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/)
 
@@ -53,6 +53,9 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Blog Link](https://www.cognition-labs.com/introducing-devin)
 
+{{< video https://www.youtube.com/embed/fjHtjT7GO1c >}}
+
+
 4. code2prompt, a CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting was released as open-source software with MIT License by [Mufeed V H](https://twitter.com/mufeedvh)
 
 [Tweet Link](https://twitter.com/mufeedvh/status/1767529667496427601)
@@ -63,9 +66,11 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Video Link](https://www.youtube.com/watch?v=aE7o62zS_eI)
 
+{{< video https://www.youtube.com/embed/aE7o62zS_eI >}}
+
 🗓️ Wednesday:
 
-1. I compiled the reactions to the news of Devin AI, the first AI Engineer by various folks.
+1️⃣ I compiled the reactions to the news of Devin AI, the first AI Engineer by various folks.
 
 [Reaction by Andrej Karpathy](https://twitter.com/karpathy/status/1767598414945292695)
 
@@ -81,6 +86,9 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Blog Link](https://www.anthropic.com/news/claude-3-haiku)
 
+![image](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/f63d0c91-094b-4204-aaf7-0d8aeb8b7ca0)
+
+
 3. Modular with their Max Engine's can give 2-5X improvement without any quanitzation or tricks which reduce the accuracy.
 
 [Tweet Link](https://twitter.com/clattner_llvm/status/1767979691007422821)
@@ -89,7 +97,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 🗓️ Thursday:
 
-1. AI4Bharat team released Indic LLM Suite, a blueprint for training and fine-tuning LLMs in Indic Languages.
+1️⃣ AI4Bharat team released Indic LLM Suite, a blueprint for training and fine-tuning LLMs in Indic Languages.
 
 [Blog Link](https://ai4bharat.iitm.ac.in/blog/indicllm-suite/)
 
@@ -99,7 +107,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Dataset Link](https://huggingface.co/collections/ai4bharat/indicllmsuite-65ee7d225c337fcfa0991707)
 
-2. Hrishi Olickel, who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
+2. [Hrishi Olickel](https://twitter.com/hrishioa) who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
 
 [Part 1 Blog Link](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics)
 
@@ -109,7 +117,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Tweet Link](https://twitter.com/hrishioa/status/1745835962108985737)
 
-3. Chip Huyen went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
+3. [Chip Huyen](https://twitter.com/chipro) went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
 
 [Blog Link](https://huyenchip.com/2024/03/14/ai-oss.html)
 
@@ -117,7 +125,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 🗓️ Friday:
 
-1. Last week, I mentioned about ragas by Jithin James and Shahul ES (my class-mates as well) being selected for Y Combinator.
+1️⃣ Last week, I mentioned about ragas by Jithin James and Shahul ES (my class-mates as well) being selected for Y Combinator.
 This was featured in one of leading news dailies in Kerala, Mathrubhumi. I appreciate their editor Manoj K Das and [R Roshan](https://www.linkedin.com/in/rroshandotcom/) for featuring them in your esteemed news daily.
 
 [News Link](https://newspaper.mathrubhumi.com/news/business/business-1.9405970)
@@ -147,19 +155,14 @@ The Dhenu-vision-lora-0.1 is fine-tuned Qwen-VL-chat, for 3 major crops and 10 d
 
 🗓️ Saturday:
 
-1. Apple announces MM1
-
-Methods, Analysis & Insights from Multimodal LLM Pre-training
-https://lnkd.in/eZievGBU
-
-In this work, we discuss building performant Multimodal Large Language Models (MLLMs). In particular, we study the importance of various architecture components and data choices. Through
-careful and comprehensive ablations of the image encoder, the vision
+1️⃣ Apple announces the paper MM1 - Methods, Analysis & Insights from Multimodal LLM Pre-training. They discuss how to build good performance multi-modal LLMs which means LLMs would be able to see, speak etc. in future beyond what it's now already doing well that is reading and writing.
 
 [Paper Link](https://arxiv.org/abs/2403.09611)
 
+[Reaction by Dr Jim Fan](https://twitter.com/DrJimFan/status/1769053019939967080)
+
 [Linkedin post](https://www.linkedin.com/posts/hamdi-amroun-phd-141388109_paper-page-mm1-methods-analysis-insights-activity-7174560264241991680-x9Mo?utm_source=share&utm_medium=member_desktop)
 
-[Reaction by ]()
 
 2. Shaheen Gemma 7B, a model being finetuned on Urdu Alpaca dataset. It's great to see more fine-tuned LLMs in all regional languages in India. Lot of folks are putting effort in bringing my mothertongue language to fore in realm of Generative models.
 
@@ -172,11 +175,15 @@ careful and comprehensive ablations of the image encoder, the vision
 
 🗓️ Sunday:
 
-Grok open source release
+![image](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/7ad9f2e9-7a4d-4adf-8b92-1768ffa1c02e)
 
-Github Repo: https://github.com/xai-org/grok-1
+xAI open sourced their chatbot Grok by releasingg the weights and architecture of our 314 billion parameter Mixture-of-Experts model, Grok-1.
 
-Model Weights Link: https://huggingface.co/xai-org/grok-1
+[Blog Link](https://x.ai/blog/grok-os)
 
-Blog Link: https://x.ai/blog/grok-os
+[Github Repo Link](https://github.com/xai-org/grok-1)
+
+[Model Weights Link](https://huggingface.co/xai-org/grok-1)
+
+Writing this article and compiling these news took me aboyt 5+ hours. So your contribution to help my work by buying me a coffee would be [absolutely pixel-perfect amazing](https://www.buymeacoffee.com/kurianbkk8).
 
