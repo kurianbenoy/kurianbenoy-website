@@ -87,7 +87,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Blog Link](https://www.anthropic.com/news/claude-3-haiku)
 
-![image](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/f63d0c91-094b-4204-aaf7-0d8aeb8b7ca0)
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fce98524b153345e95d6ddeb651a55afa%2Fclaude3.png?generation=1710758822290128&alt=media)
 
 
 3️⃣ Modular with their Max Engine's can give 2-5X improvement without any quanitzation or tricks which reduce the accuracy.
@@ -120,7 +120,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 3️⃣ [Chip Huyen](https://twitter.com/chipro) went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
 
-![GIqTdX1bkAA8ZRf](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/b34975ef-f4c7-4223-b114-55d148cd1d6c)
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fe9a4b8d860da7e8288e7534bc3c3d902%2FGIqTdX1bkAA8ZRf.jpeg?generation=1710758337730637&alt=media)
 
 [Blog Link](https://huyenchip.com/2024/03/14/ai-oss.html)
 
@@ -178,9 +178,9 @@ The Dhenu-vision-lora-0.1 is fine-tuned Qwen-VL-chat, for 3 major crops and 10 d
 
 🗓️ Sunday:
 
-![image](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/7ad9f2e9-7a4d-4adf-8b92-1768ffa1c02e)
-
 xAI open sourced their chatbot Grok by releasingg the weights and architecture of our 314 billion parameter Mixture-of-Experts model, Grok-1.
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F8184a2b4366a3e0606fb4f10c4ad89c8%2Fgrok_cover.png?generation=1710758322201107&alt=media)
 
 [Blog Link](https://x.ai/blog/grok-os)
 
