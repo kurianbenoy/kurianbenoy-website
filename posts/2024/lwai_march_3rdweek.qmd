@@ -101,18 +101,82 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 2. Hrishi Olickel, who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
 
-Part 1 Blog Link: https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics 
+[Part 1 Blog Link](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics)
 
-Part 2 Blog Link: https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-2-walking
+[Part 2 Blog Link](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-2-walking)
 
-Part 3 Blog Link:https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-3-structure
+[Part 3 Blog Link](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-3-structure)
 
-Tweet: https://twitter.com/hrishioa/status/1745835962108985737
+[Tweet Link](https://twitter.com/hrishioa/status/1745835962108985737)
 
 3. Chip Huyen went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
 
-Blog Link: https://huyenchip.com/2024/03/14/ai-oss.html
+[Blog Link](https://huyenchip.com/2024/03/14/ai-oss.html)
 
-Tweet Link: https://twitter.com/chipro/status/1768388213008445837
+[Tweet Link](https://twitter.com/chipro/status/1768388213008445837)
 
+🗓️ Friday:
+
+1. Last week, I mentioned about ragas by Jithin James and Shahul ES (my class-mates as well) being selected for Y Combinator.
+This was featured in one of leading news dailies in Kerala, Mathrubhumi. I appreciate their editor Manoj K Das and [R Roshan](https://www.linkedin.com/in/rroshandotcom/) for featuring them in your esteemed news daily.
+
+[News Link](https://newspaper.mathrubhumi.com/news/business/business-1.9405970)
+
+[Linkedin Post Link](https://www.linkedin.com/posts/rroshandotcom_ragas-malayalistartup-opensource-activity-7174284949196271617-Lz__?utm_source=share&utm_medium=member_desktop)
+
+2. [Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) founder of [KissanAI](https://www.linkedin.com/company/kissanai/) announed a new series of fine-tuned Vision LLMs for pest and disease detection and conversation over cure, symptoms, severity and prevention.
+The Dhenu-vision-lora-0.1 is fine-tuned Qwen-VL-chat, for 3 major crops and 10 diseases, giving 2x performance boost over the base and was trained on synthetic data generated for around 9000 disease images. 
+
+[Linkedin Post Link](https://www.linkedin.com/posts/pratikkumardesai_llm-visionllm-agriculture-activity-7174387056020762624-WZVo)
+
+[Model Link](https://huggingface.co/KissanAI/Dhenu-vision-lora-0.1)
+
+3. Govt of India released an updated advisory toning down what they said earlier. The advisory has been sent only to 8 large social media like organization, some upcoming well-funded AI startups in India has been exempted from this for now.
+
+[News Link](https://www.hindustantimes.com/india-news/in-revised-ai-advisory-it-ministry-removes-requirement-for-government-permission-101710520296018.html)
+
+[Tweet Link](https://twitter.com/kurianbenoy2/status/1768680935263019350)
+
+4. Hiring managers are now expecting like 6+ years of experience in GenAI, this reminds me of one post by creator of FASTAPI Sebastián Ramírez who said even he didn't have 5+ years of experience in FASTAPI when someone asked for that when hiring.
+
+[Tweet Link](https://twitter.com/jobergum/status/1768390591493140694)
+
+5. Google released Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models. Cappy has been tested across a variety of complex tasks from PromptSource and Big-Bench.
+
+[Blog Link:](https://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html)
+
+🗓️ Saturday:
+
+1. Apple announces MM1
+
+Methods, Analysis & Insights from Multimodal LLM Pre-training
+https://lnkd.in/eZievGBU
+
+In this work, we discuss building performant Multimodal Large Language Models (MLLMs). In particular, we study the importance of various architecture components and data choices. Through
+careful and comprehensive ablations of the image encoder, the vision
+
+[Paper Link](https://arxiv.org/abs/2403.09611)
+
+[Linkedin post](https://www.linkedin.com/posts/hamdi-amroun-phd-141388109_paper-page-mm1-methods-analysis-insights-activity-7174560264241991680-x9Mo?utm_source=share&utm_medium=member_desktop)
+
+[Reaction by ]()
+
+2. Shaheen Gemma 7B, a model being finetuned on Urdu Alpaca dataset. It's great to see more fine-tuned LLMs in all regional languages in India. Lot of folks are putting effort in bringing my mothertongue language to fore in realm of Generative models.
+
+[Model Link](https://huggingface.co/Xhaheen/Shaheen_Gemma_Urdu_)
+
+3. Anwesha Sen wrote a very well written blog post about the previous AI advisory by govt of India and talk about it's vague clauses, terms which was like a stepping back into license raj.
+
+[News Link](https://thewire.in/tech/indias-ai-advisory-vague-clauses-and-terms-dont-help-anyone)
+
+
+🗓️ Sunday:
+
+Grok open source release
+
+Github Repo: https://github.com/xai-org/grok-1
+
+Model Weights Link: https://huggingface.co/xai-org/grok-1
+
+Blog Link: https://x.ai/blog/grok-os
 
