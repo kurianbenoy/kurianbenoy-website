@@ -18,11 +18,11 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 [Tweet Link](https://twitter.com/_reachsumit/status/1767045820384477575)
 
 
-2. Some interesting thoughts by [Peter Gostev](https://www.linkedin.com/in/peter-gostev/) on how LLMs are a lot more cheaper than previous tradional NLP techniques.
+2️⃣ Some interesting thoughts by [Peter Gostev](https://www.linkedin.com/in/peter-gostev/) on how LLMs are a lot more cheaper than previous tradional NLP techniques.
 
 [LinkedIn Post Link](https://www.linkedin.com/posts/peter-gostev_it-is-interesting-to-reflect-how-much-llms-activity-7172001358806405122-S6mj/?utm_source=share&utm_medium=member_desktop)
 
-3. Researchers have introduced a ‘Mind Wipe’ technique for erasing hazardous knowledge from AI systems, ensuring functionality remains while enhancing safety. Alongside, the Weapons of Mass Destruction Proxy (#WMDP) benchmark, with 4,157 questions targeting biosecurity, cybersecurity, and chemical security, has been made public.
+3️⃣ Researchers have introduced a ‘Mind Wipe’ technique for erasing hazardous knowledge from AI systems, ensuring functionality remains while enhancing safety. Alongside, the Weapons of Mass Destruction Proxy (#WMDP) benchmark, with 4,157 questions targeting biosecurity, cybersecurity, and chemical security, has been made public.
 
 [Tweet Link](https://twitter.com/pandeyparul/status/1767190910906057157)
 
@@ -40,7 +40,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Tweet Link](https://twitter.com/soumithchintala/status/1767579981419315400)
 
-2. OpenAI team released something open-source in a while. Transformer Debugger(TDB) is a tool developed by OpenAI's Superalignment team with the goal of supporting investigations into specific behaviors of small language models.
+2️⃣ OpenAI team released something open-source in a while. Transformer Debugger(TDB) is a tool developed by OpenAI's Superalignment team with the goal of supporting investigations into specific behaviors of small language models.
 
 [Tweet Link](https://twitter.com/janleike/status/1767347608065106387)
 
@@ -48,7 +48,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [LinkedIn Post](https://www.linkedin.com/posts/kurianbenoy_transformer-debugger-tdb-is-a-tool-developed-activity-7173231708165619712-hiZ1?utm_source=share&utm_medium=member_desktop)
 
-3. Devin AI, the first AI software engineer was really the news of this week. Let's even cover reaction of this news separately.
+3️⃣ Devin AI, the first AI software engineer was really the news of this week. Let's even cover reaction of this news separately.
 
 [Tweet Link](https://twitter.com/cognition_labs/status/1767548763134964000)
 
@@ -57,13 +57,13 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 {{< video https://www.youtube.com/embed/fjHtjT7GO1c >}}
 
 
-4. code2prompt, a CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting was released as open-source software with MIT License by [Mufeed V H](https://twitter.com/mufeedvh)
+4️⃣ code2prompt, a CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting was released as open-source software with MIT License by [Mufeed V H](https://twitter.com/mufeedvh)
 
 [Tweet Link](https://twitter.com/mufeedvh/status/1767529667496427601)
 
 [Github Link](https://github.com/mufeedvh/code2prompt)
 
-5. [Santhosh Thottingal](https://thottingal.in/) gave a fabulous talk on AI and making it work in my mother tongue Malayalam. The youtube video was published on this day while it was actually delivered in a National Seminar organized by the Tirur regional centre of Sree Sankaracharya University of Sanskrit on January 6, 2024.
+5️⃣ [Santhosh Thottingal](https://thottingal.in/) gave a fabulous talk on AI and making it work in my mother tongue Malayalam. The youtube video was published on this day while it was actually delivered in a National Seminar organized by the Tirur regional centre of Sree Sankaracharya University of Sanskrit on January 6, 2024.
 
 [Video Link](https://www.youtube.com/watch?v=aE7o62zS_eI)
 
@@ -81,7 +81,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Reaction by André Oliveira](https://twitter.com/smackingg/status/1767689754324107734)
 
-2. Claude 3 family of Haiku models was released. Haiku is the fastest and most affordable model in its intelligence class was released by Anthropic.
+2️⃣ Claude 3 family of Haiku models was released. Haiku is the fastest and most affordable model in its intelligence class was released by Anthropic.
 
 [Tweet Link](https://twitter.com/AnthropicAI/status/1768018310615151002)
 
@@ -90,7 +90,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 ![image](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/f63d0c91-094b-4204-aaf7-0d8aeb8b7ca0)
 
 
-3. Modular with their Max Engine's can give 2-5X improvement without any quanitzation or tricks which reduce the accuracy.
+3️⃣ Modular with their Max Engine's can give 2-5X improvement without any quanitzation or tricks which reduce the accuracy.
 
 [Tweet Link](https://twitter.com/clattner_llvm/status/1767979691007422821)
 
@@ -108,7 +108,7 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Dataset Link](https://huggingface.co/collections/ai4bharat/indicllmsuite-65ee7d225c337fcfa0991707)
 
-2. [Hrishi Olickel](https://twitter.com/hrishioa) who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
+2️⃣ [Hrishi Olickel](https://twitter.com/hrishioa) who is the CTO of Greywing has been writing some awesome articles in huggingface community blog about how to make better RAGs(Retrieval Augmentation Generation). Do check his articles:
 
 [Part 1 Blog Link](https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics)
 
@@ -118,7 +118,9 @@ Do checkout this weeks news and if you find it interesting do let me know via co
 
 [Tweet Link](https://twitter.com/hrishioa/status/1745835962108985737)
 
-3. [Chip Huyen](https://twitter.com/chipro) went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
+3️⃣ [Chip Huyen](https://twitter.com/chipro) went through most popular AI repositories in github, categorized them, and studied their growth trajectories. Check the full analysis in blog and tweet.
+
+![GIqTdX1bkAA8ZRf](https://github.com/kurianbenoy/kurianbenoy-website/assets/24592806/b34975ef-f4c7-4223-b114-55d148cd1d6c)
 
 [Blog Link](https://huyenchip.com/2024/03/14/ai-oss.html)
 
@@ -133,24 +135,24 @@ This was featured in one of leading news dailies in Kerala, Mathrubhumi. I appre
 
 [Linkedin Post Link](https://www.linkedin.com/posts/rroshandotcom_ragas-malayalistartup-opensource-activity-7174284949196271617-Lz__?utm_source=share&utm_medium=member_desktop)
 
-2. [Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) founder of [KissanAI](https://www.linkedin.com/company/kissanai/) announed a new series of fine-tuned Vision LLMs for pest and disease detection and conversation over cure, symptoms, severity and prevention.
+2️⃣ [Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) founder of [KissanAI](https://www.linkedin.com/company/kissanai/) announed a new series of fine-tuned Vision LLMs for pest and disease detection and conversation over cure, symptoms, severity and prevention.
 The Dhenu-vision-lora-0.1 is fine-tuned Qwen-VL-chat, for 3 major crops and 10 diseases, giving 2x performance boost over the base and was trained on synthetic data generated for around 9000 disease images. 
 
 [Linkedin Post Link](https://www.linkedin.com/posts/pratikkumardesai_llm-visionllm-agriculture-activity-7174387056020762624-WZVo)
 
 [Model Link](https://huggingface.co/KissanAI/Dhenu-vision-lora-0.1)
 
-3. Govt of India released an updated advisory toning down what they said earlier. The advisory has been sent only to 8 large social media like organization, some upcoming well-funded AI startups in India has been exempted from this for now.
+3️⃣ Govt of India released an updated advisory toning down what they said earlier. The advisory has been sent only to 8 large social media like organization, some upcoming well-funded AI startups in India has been exempted from this for now.
 
 [News Link](https://www.hindustantimes.com/india-news/in-revised-ai-advisory-it-ministry-removes-requirement-for-government-permission-101710520296018.html)
 
 [Tweet Link](https://twitter.com/kurianbenoy2/status/1768680935263019350)
 
-4. Hiring managers are now expecting like 6+ years of experience in GenAI, this reminds me of one post by creator of FASTAPI Sebastián Ramírez who said even he didn't have 5+ years of experience in FASTAPI when someone asked for that when hiring.
+4️⃣ Hiring managers are now expecting like 6+ years of experience in GenAI, this reminds me of one post by creator of FASTAPI Sebastián Ramírez who said even he didn't have 5+ years of experience in FASTAPI when someone asked for that when hiring.
 
 [Tweet Link](https://twitter.com/jobergum/status/1768390591493140694)
 
-5. Google released Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models. Cappy has been tested across a variety of complex tasks from PromptSource and Big-Bench.
+5️⃣ Google released Cappy, a small pre-trained scorer model that enhances and surpasses the performance of large multi-task language models. Cappy has been tested across a variety of complex tasks from PromptSource and Big-Bench.
 
 [Blog Link:](https://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html)
 
@@ -165,11 +167,11 @@ The Dhenu-vision-lora-0.1 is fine-tuned Qwen-VL-chat, for 3 major crops and 10 d
 [Linkedin post](https://www.linkedin.com/posts/hamdi-amroun-phd-141388109_paper-page-mm1-methods-analysis-insights-activity-7174560264241991680-x9Mo?utm_source=share&utm_medium=member_desktop)
 
 
-2. Shaheen Gemma 7B, a model being finetuned on Urdu Alpaca dataset. It's great to see more fine-tuned LLMs in all regional languages in India. Lot of folks are putting effort in bringing my mothertongue language to fore in realm of Generative models.
+2️⃣ Shaheen Gemma 7B, a model being finetuned on Urdu Alpaca dataset. It's great to see more fine-tuned LLMs in all regional languages in India. Lot of folks are putting effort in bringing my mothertongue language to fore in realm of Generative models.
 
 [Model Link](https://huggingface.co/Xhaheen/Shaheen_Gemma_Urdu_)
 
-3. Anwesha Sen wrote a very well written blog post about the previous AI advisory by govt of India and talk about it's vague clauses, terms which was like a stepping back into license raj.
+3️⃣ Anwesha Sen wrote a very well written blog post about the previous AI advisory by govt of India and talk about it's vague clauses, terms which was like a stepping back into license raj.
 
 [News Link](https://thewire.in/tech/indias-ai-advisory-vague-clauses-and-terms-dont-help-anyone)
 
