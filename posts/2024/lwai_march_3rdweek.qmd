@@ -1,0 +1,11 @@
+---
+title: 📢 Last Week in AI(LWAI) - March 11th to March 17th
+date: 2024-03-18
+author: "Kurian Benoy"
+type: post
+draft: true
+---
+
+Hello everyone, this is Kurian posting about some interesting things which happend in the AI world in last week. 
+Do checkout this weeks news and if you find it interesting do let me know.
+
