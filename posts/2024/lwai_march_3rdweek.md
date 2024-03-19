@@ -188,5 +188,5 @@ xAI open sourced their chatbot Grok by releasingg the weights and architecture o
 
 [Model Weights Link](https://huggingface.co/xai-org/grok-1)
 
-Writing this article and compiling these news took me aboyt 5+ hours. So your contribution to help my work by buying me a coffee would be [absolutely pixel-perfect amazing](https://www.buymeacoffee.com/kurianbkk8).
+Writing this article and compiling these news took me about 5+ hours. So your contribution to help my work by buying me a coffee would be [absolutely pixel-perfect amazing](https://www.buymeacoffee.com/kurianbkk8).
 
