@@ -6,8 +6,15 @@ type: post
 image: /posts/images/grok_cover.png
 ---
 
-Hello everyone, this is Kurian posting about some interesting things which happend in the AI world in last week. 
-Do checkout this weeks news and if you find it interesting do let me know via comments or if we ever meet IRL.
+Hello everyone, this is Kurian posting about some interesting things which happend in the AI world in last week.
+
+This week everyone was working so hard. Lot of AI news to cover this week with almost 2+ news daily.
+
+Why are you all working so hard to make my job so difficult when I write content about things which happend in the last Week in AI world  :P
+
+It's crazy as my friend [Shahul](https://www.kaggle.com/shahules) mentioned the irony that we invented AI to make life easier, but all the tech folks are working more hours than before due to the same. 
+
+Do checkout this weeks news and if you find it interesting do let me know via comments or if we ever meet IRL. Let's go onto the news now:
 
 🗓️ Monday:
 
