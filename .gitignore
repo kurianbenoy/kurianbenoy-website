@@ -35,3 +35,5 @@ src/vendor-*
 win_configuration.bat
 /package/pkg-working
 
+.vscode/
+
