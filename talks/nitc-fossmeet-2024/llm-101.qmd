@@ -1,0 +1,87 @@
+---
+title: LLM 101 Workshop
+author: Kurian Benoy
+subtitle: NIT Calicut, Kozhikode, Kerala
+date: 2024-03-24
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+    footer: "You can access slides @ [kurianbenoy.com/talks/nitc-fossmeet-2024/llm-101.html](https://kurianbenoy.com/talks/nitc-fossmeet-2024/llm-101.html)"
+---
+
+## Who am I
+
+![](https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg)
+
+
+## Who am I
+
+- ML Engineer & Team Lead  at a Tech Startup at Singapore
+- I’ve worked in Tech since 2018 and has been, ML Engineer & Data scientist for almost 5 years in various companies.
+- Pursuing MTECH in AI & Data science @ IIIT, Kottayam.
+- Completed BTECH in Computer Science @ Govt Model Engineering College, Thrikkakara.
+- Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
+
+## Who am I
+
+- Volunteer @ Swathanthra Malayalam Computing (SMC)
+- I have contributed to Open source projects like Keras, Transformers, fast.ai etc.
+- Creator of Indic Subtitler and Malayalam voice models like Vegam-whisper, MalWhisper etc.
+- Maintains whisper_normalizer a python packages with 100K monthly downloads.
+
+## Introduction to LLMs
+
+![](./chatgpt.png)
+
+## Applications of LLMs
+
+- Indic Subtitler
+- Chatpdf
+- Perplexity
+- cursor
+
+## About cursor
+
+![](./cursor_tweet.png)
+
+## Let's build something cool
+
+::: {.incremental}
+- <span style="color:red">What should be that cool thing?</span>
+- <span style="color:blue">Let's build a website?</span>
+- <span style="color:green">You all have seen that website</span>
+:::
+
+## Let's build something cool
+
+- [FOSS MEET 2024 WEBSITE](https://fossmeet.net)
+- Usually professional websites are build with frameworks like Next.JS and ReactJS.
+
+![Landing page of FOSSMEET Website](./fossmeet_website.png)
+
+## Demo time
+
+.....
+
+[Final Result with be pushed in website]()
+
+## OpenAI 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
+
+- Not OpenAI, but closed AI
+- OpenAI will be know for the ChatGPT moment.
+- Yet they were also behind all the work in GPT series, DALL-E, Gym, Gym-Netro, OpenAI Five beat 5 Doto players in 2018 etc
+- Whisper is the most `under-rated models` released by OpenAI.
+
+## OpenAI Demo
+
+
+## Advanced LLMS
+
+
+## How to fine tune LLM models?
+
+- You need to fine-tune LLMs for only domain specific models
