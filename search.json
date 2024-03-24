@@ -1243,7 +1243,7 @@
     "href": "talks/nitc-fossmeet-2024/llm-101.html#openai",
     "title": "LLM 101 Workshop",
     "section": "OpenAI",
-    "text": "OpenAI\n\n\nNot OpenAI, but closed AI\nOpenAI will be know for the ChatGPT moment.\nYet they were also behind all the work in GPT series, DALL-E, Gym, Gym-Netro, OpenAI Five beat 5 Doto players in 2018 etc\nWhisper is the most under-rated models released by OpenAI."
+    "text": "OpenAI\n\n\nNot Open-source AI, but closed-source AI\nOpenAI will be know for the ChatGPT moment.\nYet they were also behind all the work in GPT series, DALL-E, Gym, Gym-Netro, OpenAI Five beat 5 Doto players in 2018 etc\nWhisper is the most under-rated models released by OpenAI."
   },
   {
     "objectID": "talks/nitc-fossmeet-2024/llm-101.html#openai-demo",
@@ -1257,7 +1257,7 @@
     "href": "talks/nitc-fossmeet-2024/llm-101.html#advanced-llms",
     "title": "LLM 101 Workshop",
     "section": "Advanced LLMS",
-    "text": "Advanced LLMS"
+    "text": "Advanced LLMS\n\nAdvanced techniques\nRAG\nJail breaking\nChatgpt + tools"
   },
   {
     "objectID": "talks/nitc-fossmeet-2024/llm-101.html#how-to-fine-tune-llm-models",
