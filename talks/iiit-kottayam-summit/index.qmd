@@ -6,7 +6,6 @@ date-format: full
 comments: false
 format:
   revealjs:
-    theme: solarized
     slide-number: true
     footer: "[Kurian Benoy](https://kurianbenoy.com/) || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam"
 ---

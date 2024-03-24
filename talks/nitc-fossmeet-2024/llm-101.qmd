@@ -71,7 +71,7 @@ format:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png){width=500 fig-align="center"}
 
-- Not OpenAI, but closed AI
+- Not Open-source AI, but closed-source AI
 - OpenAI will be know for the ChatGPT moment.
 - Yet they were also behind all the work in GPT series, DALL-E, Gym, Gym-Netro, OpenAI Five beat 5 Doto players in 2018 etc
 - Whisper is the most `under-rated models` released by OpenAI.
@@ -80,6 +80,11 @@ format:
 
 
 ## Advanced LLMS
+
+- Advanced techniques
+- RAG 
+- Jail breaking
+- Chatgpt + tools
 
 
 ## How to fine tune LLM models?

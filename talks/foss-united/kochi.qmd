@@ -7,7 +7,6 @@ date-format: full
 comments: false
 format:
   revealjs:
-    theme: solarized
     slide-number: true
     chalkboard: true
     multiplex: true

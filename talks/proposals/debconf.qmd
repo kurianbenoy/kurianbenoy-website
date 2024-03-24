@@ -6,7 +6,6 @@ comments: false
 draft: true
 format:
   revealjs:
-    theme: solarized
     slide-number: true
     chalkboard: true
 ---
