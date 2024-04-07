@@ -9,7 +9,7 @@
 <link>https://kurianbenoy.com/slides.html</link>
 <atom:link href="https://kurianbenoy.com/slides.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.552</generator>
+<generator>quarto-1.4.553</generator>
 <lastBuildDate>Sun, 24 Mar 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title></title>
@@ -52,16 +52,16 @@
 </item>
 <item>
   <title></title>
-  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</link>
+  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</guid>
+  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/</guid>
   <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title></title>
-  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/</link>
+  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/</guid>
+  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</guid>
   <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -85,7 +85,7 @@
   <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
-  <pubDate>Sun, 31 Mar 2024 07:39:07 GMT</pubDate>
+  <pubDate>Sun, 07 Apr 2024 07:48:33 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -93,7 +93,7 @@
   <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
-  <pubDate>Sun, 31 Mar 2024 07:39:07 GMT</pubDate>
+  <pubDate>Sun, 07 Apr 2024 07:48:33 GMT</pubDate>
 </item>
 </channel>
 </rss>
