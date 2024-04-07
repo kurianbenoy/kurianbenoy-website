@@ -37,7 +37,7 @@ I like to speak and interact with developer community. I am an active member of 
 in lot of other communities based in Kerala. I have given talk as expert in competence of Machine Learning and core Python
 in [Pycon India](https://in.pycon.org), which is the largest gathering of Pythonistas in India for the Python programming language.
 
-I believe in the old Malayalam proverb, "അണ്ണാൻ കുന്നിനും തന്നാൽ ആവത്". In English it translates to this meaning - "A small rabbit does what it can do it's best of abilities, similarly we should also strive to do everything to best of our abilities.".
+I believe in the old Malayalam proverb, "അണ്ണാങ്കുഞ്ഞും തന്നാലാവത്". In English it translates to this meaning - "Even a squirrel does what it can do it's best of abilities, similarly we should also strive to do everything to best of our abilities.".
 
 Smash that donate button like a true superstar, your contribution to help my work by buying me a coffee would be absolutely pixel-perfect amazing. [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Donate-green.svg)](https://www.buymeacoffee.com/kurianbkk8)
 
