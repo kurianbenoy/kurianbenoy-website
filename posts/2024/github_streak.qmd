@@ -3,7 +3,7 @@ title: Matching my former github streak at the age of 25
 date: 2024-04-07
 author: "Kurian Benoy"
 type: post
-image: /posts/images/github_streak.png
+image: /posts/images/github_mera_readme.png
 ---
 
 Matching the vigor of my early 20s has proven challenging as time progresses. There's a particular enjoyment in maintaining GitHub streaks, even just for the sake of it.
