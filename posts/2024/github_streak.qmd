@@ -1,0 +1,13 @@
+---
+title: Matching my former github streak at the age of 25
+date: 2024-04-07
+author: "Kurian Benoy"
+type: post
+---
+
+Matching the vigor of my early 20s has proven challenging as time progresses. There's a particular enjoyment in maintaining GitHub streaks, even just for the sake of it.
+
+In the recent months, I've been engaged with intriguing open-source projects such as indicsubtitler.in, FOSSMEET Talks, MalWhisper, Samam ML Verification Project, among other initiatives.
+I doubted my ability to sustain the same zeal I had in my early 20s, especially now that I'm 25, balancing a full-time job, daily chores, and life's other responsibilities 
+
+Yet I suceeded in that and I am super proud of myself in that 😊.
