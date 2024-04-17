@@ -1,0 +1,14 @@
+---
+title: My Advocacy efforts for Devika - #1 Open source AI project from India
+date: 2024-04-17
+author: "Kurian Benoy"
+type: post
+image: /posts/images/github_mera_readme.png
+---
+
+I recently made a youtube video about my Advocacy efforts for Devika. Check it out below.
+I obviously do have blessing of [Mufeed VH](https://www.mufeedvh.com/about/), creator of
+Devika to publish this.
+
+{{< video https://www.youtube.com/embed/JUqHI_t5GMI >}}
+
