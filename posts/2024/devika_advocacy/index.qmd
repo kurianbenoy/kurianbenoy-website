@@ -1,5 +1,5 @@
 ---
-title: My Advocacy efforts for Devika - #1 Open source AI project from India
+title: My Advocacy efforts for Devika - Number 1 Open source AI project from India
 date: 2024-04-17
 author: "Kurian Benoy"
 type: post
