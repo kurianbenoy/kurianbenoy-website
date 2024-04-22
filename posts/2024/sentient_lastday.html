@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kurian Benoy">
-<meta name="dcterms.date" content="2022-07-26">
-<meta name="description" content="When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …">
+<meta name="dcterms.date" content="2024-04-22">
 
-<title>Kurian Benoy - A strange bug when using fastai library with Weights &amp; Biases</title>
+<title>Kurian Benoy - My journey with Sentient.io ends</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -107,15 +72,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Kurian Benoy - A strange bug when using fastai library with Weights &amp; Biases">
-<meta property="og:description" content="When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …">
+<meta property="og:title" content="Kurian Benoy - My journey with Sentient.io ends">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://kurianbenoy.com/posts/images/github_mera_readme.png">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - A strange bug when using fastai library with Weights &amp; Biases">
-<meta name="twitter:description" content="When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …">
-<meta name="twitter:card" content="summary">
+<meta property="og:image:height" content="495">
+<meta property="og:image:width" content="833">
+<meta name="twitter:title" content="Kurian Benoy - My journey with Sentient.io ends">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://kurianbenoy.com/posts/images/github_mera_readme.png">
+<meta name="twitter:image-height" content="495">
+<meta name="twitter:image-width" content="833">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -175,16 +146,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">A strange bug when using fastai library with Weights &amp; Biases</h1>
-                  <div>
-        <div class="description">
-          When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">fastai</div>
-              </div>
-                  </div>
+      <h1 class="title">My journey with Sentient.io ends</h1>
+                      </div>
   </div>
     
   
@@ -200,7 +163,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 26, 2022</p>
+        <p class="date">April 22, 2024</p>
       </div>
     </div>
     
@@ -211,9 +174,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -221,65 +182,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>After attending an introduction to using weights &amp; biases along with fastai session conducted by <a href="https://twitter.com/capetorch">Thomas Capaballe</a>. I was excited to use weights and biases library along with a few of my hobby projects. I was working on training an Image classification models on the Kaggle competition dataset <a href="https://www.kaggle.com/competitions/tpu-getting-started">Petal to Metal</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../posts/images/wblogo.png" class="img-fluid figure-img"></p>
-<figcaption>image info</figcaption>
-</figure>
-</div>
-<p>In general, whenever I am passing a code to any fastai learner objects with callback. I usually directly pass it along with <code>vision_learner</code> as shown in below code.</p>
-<div id="1d38d565-d9ae-4059-9ebe-5f8eaa7301a9" class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>arch <span class="op">=</span> <span class="st">"convnext_tiny_in22k"</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    data,</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    arch,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    metrics<span class="op">=</span>error_rate,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    cbs<span class="op">=</span>[</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        WandbCallback(log_preds<span class="op">=</span><span class="va">False</span>, log_model<span class="op">=</span><span class="va">True</span>),</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        SaveModelCallback(monitor<span class="op">=</span><span class="st">"accuracy"</span>),</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    ],</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>I exported this model, as I was trying to create a <a href="https://huggingface.co/spaces/kurianbenoy/Identify_which_flower">hugging face spaces to identify various flowers species</a>.</p>
-<div id="f2109a59-685d-43a1-a60c-18706289085e" class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>learn.export()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Now I went ahead creating the inference code with requirements for this model. This is when I noticed that the model exported requires <code>wandb</code> library to run the inference code. I was totally surprised, why it was happening at first.</p>
-<p><strong>Why this annoying behaviour?</strong></p>
-<p>It’s because when passing the callbacks to <code>Learner</code> class or it’s variants like in case of computer vision fastai uses <code>vision_learner</code> class makes it stick around. In my case, I don’t want the callback to hang around the <code>Learner</code> class forever, as it’s just for training job monitoring only.</p>
-<p>After a bit of googling, I found this solution from one of the forum posts written by <a href="twitter.com/waydegilliam">Wayde Gilliam</a>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Instead of adding your callback to <code>Learner</code> … if it is simply used for training, just include it in your call(s) to <code>fit or fit_one_cycle</code>. As the callback is no longer associated to your Learner, they won’t interfere with your call to <code>get_preds()</code>.</p>
-</div>
-</div>
-<p><a href="https://forums.fast.ai/t/is-there-anyway-to-call-learn-get-preds-without-triggering-any-of-the-callbacks/64753/10">Original answer</a>.</p>
-<p>So inorder to fix it, I just passed the callbacks I am using directly with <code>fine_tune</code> method directly. Let’s check the code to pass callbacks this way.</p>
-<div id="9d3d965f-c438-4fb9-9173-8e8b0bd2b8c0" class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>arch <span class="op">=</span> <span class="st">"convnext_tiny_in22k"</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(data, arch, metrics<span class="op">=</span>[accuracy, error_rate])</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    cbs<span class="op">=</span>[</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        WandbCallback(log_preds<span class="op">=</span><span class="va">False</span>, log_model<span class="op">=</span><span class="va">True</span>),</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        SaveModelCallback(monitor<span class="op">=</span><span class="st">"accuracy"</span>),</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    ],</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-10285"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy \uD83D\uDCBB","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDCBB (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-10285").innerHTML = tweet["html"];</script><p></p>
-<p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-35110"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-35110").innerHTML = tweet["html"];</script><p></p>
+<p>My last working day at Sentient.io was in the past week. It was a great experience working in an AI-based company for over 2 years now and being part of building a lot of cool projects for large reputed clients clients of Sentient.io.</p>
+<p>I was working in the awesome science &amp; research(SnR) team with members like Weina Du, Qiao Zhang, Jian Hui, Eugene Lee, CHANDRA SEKAR A and Shreya Kishore. I am grateful for some of the ex SnR members like Keng-Teck Ma, Divya Dilip and Clement Tee who helped me a lot and guided me.</p>
+<p>I had good rapport with everyone in Sentient.io from Christopher Yeo, Eddie LEONG, CFA, Linda Su Ling Tan, Gloria Koh, Priya Somasundaram , Cedrick Tay ,Aalind Singh, Michael Ng, Mani, Karunakar Vanama, Ramesh.</p>
+<p>I really enjoyed my time there and now it’s a time to bid good bye. I even got an opportunity to visit the Sentient.io Singapore office and have a lunch with the team, when I went to speak in FOSSASIA Summit, Singapore last year. Qiao Zhang and Solomon Sim (sentient.io alum) are in the selfie with me.</p>
 
 
 
@@ -702,5 +608,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
