@@ -17,7 +17,6 @@ about:
     - text: Youtube
       icon: youtube
       url: "https://www.youtube.com/@kurianbenoy2"
-      url: "https://github.com/kurianbenoy"
     - text: Kaggle
       icon: clipboard-data
       url: "https://www.kaggle.com/kurianbenoy"
