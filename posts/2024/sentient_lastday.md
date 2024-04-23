@@ -24,7 +24,7 @@ I enjoyed working in a startup. Yet it's not everyone's cup of tea, I will ask y
 
 You learn a ton of things, get engaged in lot of projects. So if you prioritize learning in your career, Kurian would recommend joining a startup. Chip in her article '7 reasons not to join a startup and 1 reason to' [^1] said:
 
-> I once read somewhere that joining startups is the only way to get 1 years of experience in 5 years. I couldn’t agree more.
+> I once read somewhere that joining startups is the only way to get 15 years of experience in 5 years. I couldn’t agree more.
 
 [^1]: Chip Huyen, 7 reasons not to join a startup and 1 reason to, https://huyenchip.com/2021/02/27/why-not-join-a-startup.html
 [^2]: https://www.linkedin.com/posts/kurianbenoy_my-last-working-day-at-sentientio-was-in-activity-7187997971513270272-SRX9
