@@ -4,6 +4,7 @@ date: 2024-04-17
 author: "Kurian Benoy"
 type: post
 image: /posts/2024/devika_advocacy/mufeed_blessing.png
+comments: false
 ---
 
 I recently made a youtube video about my Advocacy efforts for Devika. Check it out below.

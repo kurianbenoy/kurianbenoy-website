@@ -1,0 +1,81 @@
+---
+title: My Ongoing Journey after learning to Code.
+description: Written excrept of my coding journey so far which I shared during my presentation of my talk at CodeBloosom event.
+draft: true
+author: Kurian Benoy
+date: 2024-07-31
+toc-location: right-body
+toc-title: Table Of Contents
+website:
+  title: ""
+---
+
+I have been wanting to get back to blogging for a while. It's been really hard to do that now but someone
+inspired me so much to write. [Bipin Krishnan P](https://www.linkedin.com/in/bipin-krishnan/) of fast.ai community who
+has been following my work for a while, asked me to write about my coding journey sometime in start of 
+May after I joined [Sarvam.ai](https://www.sarvam.ai/). Personally I didn't want to do that, as I felt my journey is something which is
+ongoing rather than something which has been achieved.
+
+Yet recently [Simrat Hanspal](https://www.linkedin.com/in/simrat-hanspal-37683054/), who is a Principal AI Engineer
+at Hasura reached out to me and asked me to give a talk in [Codebloosom event](https://www.code-blossom.com/). Simrat was
+one of our mentors at [IndicSubtitler project](indicsubtitler.in) and helped us with
+ideas when we where starting to build. One of the girls whom she was mentoring told her about our open-source project
+and she want me to give a talk about my open-source project experiences and coding journey.
+I gave a very bold title for my talk and titled as "Why having good taste is all you need to build great open-source projects".
+The slidedeck for the full talk can be found in this [link](https://kurianbenoy.com/talks/code_blossom_great_open_source_projects/#/title-slide).
+
+This blogpost is a written excrept of my coding journey which I shared during my presentation.
+
+## Timelines
+
+- 2016 to 2019: Python, fantastic first teacher
+- 2019 to 2020: Kaggle Expert, Pycon India first time Talk, FOSSASIA OpenNights Winner, Building TTS for Malayalam(failed)
+- 2020 to 2022: Got a job in AOT Technologies, SMC first contribution
+- 2022 to 2024: Got a job in Sentient.io, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer
+- 2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer
+
+## My Journey from 2016 to 2019
+
+Just like a lot of students
+
+{{< tweet kurianbenoy2 1663197189294759936 >}}
+
+{{< tweet kurianbenoy2 1180913600421978112 >}}
+
+{{< tweet kurianbenoy2 1183427495342694401 >}}
+
+- [FOSSASIA Summit - Day 1](https://kurianbenoy.com/posts/2019/2019-03-13-FOSSASIA-Day1.html)
+- [FOSSASIA Summit - Day 2](https://kurianbenoy.com/posts/2019/2019-03-14-FOSSASIA-Day2.html)
+- [FOSSASIA Summit - Day 3](https://kurianbenoy.com/posts/2019/2019-03-15-FOSSASIA-Day3.html)
+- [FOSSASIA Summit - Day 4](https://kurianbenoy.com/posts/2019/2019-03-16-FOSSASIA-Day4.html)
+- [FOSSASIA Summit - Day 5](https://kurianbenoy.com/posts/2019/2019-03-17-FOSSASIA-Day5.html)
+
+
+## My Coding Journey from 2020 to 2022
+
+{{< tweet kurianbenoy2 1538254895211433984 >}}
+
+
+{{< tweet kurianbenoy2 1530809059691331585 >}}
+
+
+{{< tweet kurianbenoy2 1675881593401901057 >}}
+
+## My Coding Journey from 2023
+
+{{< tweet kurianbenoy2 1770666354128941228 >}}
+
+## My Coding Journey from 2024 onwards
+
+{{< tweet kurianbenoy2 1783165053409309173 >}}
+
+
+{{< tweet kurianbenoy2 1796457449551278450 >}}
+
+{{< tweet kurianbenoy2 1799863654864892329 >}}
+
+
+{{< tweet mineralfury 1800173893233287245 >}}
+
+
+{{< tweet kurianbenoy2 1797319601010753554 >}}

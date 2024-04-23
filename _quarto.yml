@@ -28,7 +28,7 @@ website:
 format:
   html:
     theme:
-    - sketchy
+    - united
     - custom.scss
     css: styles.css
 execute:

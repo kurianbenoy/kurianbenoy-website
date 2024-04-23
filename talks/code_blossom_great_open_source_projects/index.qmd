@@ -1,0 +1,194 @@
+---
+title: Why having a good taste is all you need to build great open-source projects
+author: Kurian Benoy
+date: 2024-06-22
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+---
+
+## $whoami
+
+![](https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg)
+
+## $whoami
+
+- ML Engineer at Sarvam.ai
+- Volunteer @ Swathanthra Malayalam Computing (SMC)
+- Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
+- Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
+- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 397,357+ downloads.
+
+## $whoami
+
+- Kaggle expert in Notebooks and Discussions
+- FOSS and Python enthusiast
+- Writes frequently in linkedin(@kurianbenoy) and twitter(@kurianbenoy2)
+- Proud Mallu.
+- Knows a bit of ML, Python, Backend, Frontend, Linux, Debian.
+
+
+## Good Taste
+
+![](taste.png)
+
+## What is a great open-source project?
+
+- <span style="color:red">It's just a project which you have done excellent job.</span>
+- <span style="color:blue">Got some validation in the process of doing it. </span>
+- [Why you should be blogging](https://medium.com/@racheltho/why-you-yes-you-should-blg-7d2544ac1045)
+- <span style="color:green">My favourite quote is: Journey is the Inn.</span>
+
+::: {.notes}
+Meaning of great is: very good or very effective; excellent
+
+Optimized for happiness - You are doing this project for joy of others and yours
+:::
+
+## Attention is all you need
+
+![](attention_is_all_you_need.png)
+
+
+## Women who inspired me
+
+- Minu Thomas
+- Dr. Anu Benoy (My mother)
+- Sunu Abhilash
+- My Grandmother (Ammachi)
+- Dr. Kavya Manohar
+- Sumathi Thirumani
+
+## Diving into open-source project
+
+1. <span style="color:red">`whisper_normalizer` - https://pypi.org/project/whisper-normalizer/ </span>
+2. <span style="color:green">`indicsubtitler.in` - https://github.com/kurianbenoy/Indic-Subtitler </span>
+
+## About whisper_normalizer
+
+- How it was formed?
+- Caring about Indian languages when called out
+- Getting used by projects in big companies
+- Enjoying the journey to 500K+ 
+
+## About indicsubtitler.in
+
+- When it got build?
+- Building it with a fantastic team of Aldrin Jenson and Nabeel Boda.
+- Caring about minute details
+- <span style="color:green">Doing charity by giving H100 GPUs to my users :)</span>
+
+## Disclaimer
+
+- <span style="color:blue">I bought a lottery and became a millionare.</span>
+- <span style="color:red">Every inspirational speech should come with a disclaimer on Survivorship bias. Also I was lucky to have so many situations in favour for me.</span>
+
+## My Coding Journey
+
+- 2016 to 2019: Python, fantastic first teacher
+- 2019 to 2020: Kaggle Expert, Pycon India first time Talk, FOSSASIA OpenNights Winner, Building TTS for Malayalam(failed)
+- 2020 to 2022: Got a job in AOT Technologies, SMC first contribution
+- 2022 to 2024: Got a job in AOT Technologies, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer
+- 2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1663197189294759936 >}}
+
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1180913600421978112 >}}
+
+## My Coding Journey
+
+- [FOSSASIA Summit - Day 1](https://kurianbenoy.com/posts/2019/2019-03-13-FOSSASIA-Day1.html)
+- [FOSSASIA Summit - Day 2](https://kurianbenoy.com/posts/2019/2019-03-14-FOSSASIA-Day2.html)
+- [FOSSASIA Summit - Day 3](https://kurianbenoy.com/posts/2019/2019-03-15-FOSSASIA-Day3.html)
+- [FOSSASIA Summit - Day 4](https://kurianbenoy.com/posts/2019/2019-03-16-FOSSASIA-Day4.html)
+- [FOSSASIA Summit - Day 5](https://kurianbenoy.com/posts/2019/2019-03-17-FOSSASIA-Day5.html)
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1183427495342694401 >}}
+
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1538254895211433984 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1530809059691331585 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1675881593401901057 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1770666354128941228 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1783165053409309173 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1796457449551278450 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1799863654864892329 >}}
+
+## My Coding Journey
+
+{{< tweet mineralfury 1800173893233287245 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1797319601010753554 >}}
+
+## How to contribute to open-source projects?
+
+1. Being part of existing open-source organizations or projects
+2. Building your own projects
+
+## Etiquette of contributing to open-source projects
+
+- [Read this PDF](http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf)
+- [Read book i want 2 do project. tell me wat 2 do](https://www.amazon.in/want-project-tell-wat-do/dp/9351741877)
+- Just because you came to a project, don't start recommending something completely different
+- Make good friends.
+
+## Go to lot of conferences and events
+
+- FOSSASIA partially sponsored my first trip to Singapore.
+
+![](https://miro.medium.com/v2/resize:fit:828/format:webp/1*-DEbsINPAHbsllZ3mG_AUA.jpeg)
+
+- Make more friends
+
+## Few strong principles everyone should have IMO
+
+- Be opiniated, you can't please everyone in world.
+- Be a builder, work hard. 
+- Code can be humbling
+- Starting trusting your decisions
+- Remember your roots
+- Start every day as your first day in acting, coding, learning something new ...
+
+## Watch this video of Mamooty
+
+{{< video https://www.youtube.com/embed/HPcD87gWJRk width=900 height=500 >}}
+
+## Success can be humbling
+
+{{< tweet kurianbenoy2 1801087090714968232 >}}
+
+
+## AMA (Ask me anything)
+
+- <span style="color:green">Thanks for giving me this opportunity to speak :)</span>

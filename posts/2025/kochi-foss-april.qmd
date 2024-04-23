@@ -1,0 +1,68 @@
+---
+title: How I ended up maintaining a python package with 1M+ downloads?
+author: Kurian Benoy
+subtitle: Talk Page for my talk @ Kochi FOSS April Meetup
+date: 2025-04-26
+date-format: full
+categories: [meetup, Audio, "Talk Page", community]
+lang: en
+toc: true
+comments: false
+---
+
+## Links to Talk
+
+- [Slides](https://gamma.app/docs/How-I-ended-up-maintaining-building-a-python-package-with-1M-down-o87lazx9yprci5f)
+
+- [Talk Live Stream](https://www.youtube.com/live/3o2V9BmeoYw?t=372s)
+
+- Venue: [KeyValue Software Systems, SmartCity, Kochi](https://maps.app.goo.gl/h5t5gAMYqa5zKxY79?g_st=com.google.maps.preview.copy)
+
+- Scheduled Time: Saturday, April 26, 2025, 10:00AM IST
+
+- [Github](https://github.com/kurianbenoy/whisper_normalizer)
+
+- [Pypi page](https://pypi.org/project/whisper-normalizer/)
+
+- [Download stats from pypistats website](https://pypistats.org/packages/whisper-normalizer)
+
+## Talk in 30 seconds
+
+Talked about how the frustration of doing the same thing repeatedly led to the creation of the whisper-normalizer Python package.
+Since I was the first person to put it out in the world, it gained a lot of traction with over 1 million downloads, and factors 
+like Google SEO and LLMs like Perplexity helped. Kavya Manohar and I identified some crucial bugs in the Malayalam Text Normalizer,
+which we later fixed, although it still requires further work. Towards the end, I shared some exclusive content about my speaking journey so far.
+I discussed how I started speaking at a small meetup in Kochi and have now spoken at multiple international conferences, including presenting three times at Pycon India by the age of 25.
+
+## Questions asked?
+
+1. How to add a normalizer to new language? What are the changes required to make?
+
+## Photos and Videos
+
+::: {layout-ncol=2}
+
+![Group photo taken at end of talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.56.jpeg)
+
+![The photo of crowd](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.47.jpeg)
+
+![From Renjith's talk on Wikidata](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.53.jpeg)
+
+![Another picture featuring Renjith](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54.jpeg)
+
+![From my talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (1).jpeg)
+
+![More pictures of me](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (2).jpeg)
+
+![Explaining something from the slide](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55 (1).jpeg)
+
+![Another picture from the talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55.jpeg)
+
+![Folks ask questions during the talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.12.jpeg)
+
+![Picture of the crowd. Thanks to KeyValue for providing snacks.](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.21.jpeg)
+
+![Bits of wisdom from Andrew's talk on Nix](/posts/2025/kochifoss/andrew_talk.mp4)
+
+![Overview video of the event](/posts/2025/kochifoss/event_video.mp4)
+:::

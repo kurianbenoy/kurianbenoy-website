@@ -1,0 +1,203 @@
+---
+title: ASR Survey - Whisper Style and Conformer Style
+author: Kurian Benoy
+date: 2024-06-28
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+---
+
+## $whoami
+
+- Kurian Benoy
+- Dhruv Subhash Rathi
+- Pechetti Sai Akhil 
+
+## Two predominant Styles of ASR Models
+
+- Whisper Style Models. (Encoder only)
+- Conformer Style models. (Encoder and Decoder models.)
+
+## Agenda for today
+
+- [Robust Speech Recognition via Large-Scale Weak Supervision](https://cdn.openai.com/papers/whisper.pdf)
+- [Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data](https://arxiv.org/abs/2309.13876)
+- [Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR](https://arxiv.org/abs/2305.15386)
+- [Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
+<!--
+- [NVIDIA NeMo Parakeet ASR Models](https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/)
+-->
+
+## Robust Speech Recognition via Large-Scale Weak Supervision
+
+
+## Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data
+
+## Abstract of paper
+
+- Pre-training speech models on large volumes of data has achieved remarkable success.
+- OpenAI Whisper is a multilingual multitask model trained on 680k hours of supervised speech data. It generalizes well to various speech recognition and translation benchmarks even in a zero-shot setup.
+- However, the full pipeline for developing such models (from data collection to training) is not publicly accessible.
+
+## Abstract of paper
+
+- This makes it difficult for researchers to further improve its performance and address training-related issues such as efficiency, robustness, fairness, and bias.
+- This work presents an Open Whisper-style Speech Model (OWSM), which reproduces Whisper-style training using an open-source toolkit and publicly available data.
+- OWSM even supports more translation directions and can be more efficient to train. We will publicly release all scripts used for data preparation, training, inference, and scoring as well as pre-trained models and training logs to promote open science.
+
+## Authors of paper
+
+- Yifang Peng
+- Jinchuan Tian
+- Brian Yan et al.
+
+## Data
+
+- OWSM v1: AISHELL-1, CoVoST2, GigaSpeech, LibriSpeech, MuST-C, SPGISpeech and TEDLIUM3.
+- OWSM v2: all data in v1, GigaST, Multilingual LibriSpeech and WenetSpeech.
+- OWSM v3: all data in v2, AIDATATANG, AMI, Babel, Common Voice, Fisher (Switchboard), Fisher Callhome Spanish, FLEURS, Googlei18n3, KsponSpeech, MagicData, ReazonSpeech, Russian Open STT, VCTK, VoxForge, VoxPopuli, and WSJ.
+
+## About dataset
+
+![](owsm_v1.png)
+
+## Training Details
+
+## Experiment results for Enlgish Speech recognition
+
+## Experiment results for Multilingual Speech Recognition
+
+## Experiment results for Speech Translation
+
+## What's in a name
+
+- വിസ്താരം
+- Vistaar(विस्तार) meaning broad in Hindi
+- They propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of
+publicly available benchmarks across 12 languages, leading to 59 computed WER values across benchmarks and languages.
+
+## Abstract of paper
+
+- The research emphasizes the need for bettering Automatic Speech Recognition (ASR) systems so that more individuals worldwide can utilize Language Model (LLM) based functionalities.
+
+- The study zeroes in on Indian languages, positing that a broad array of benchmarks is crucial for gauging and improving ASR systems designed for these languages.
+
+
+## Abstract of paper
+
+- In an effort to solve this issue, the researchers have compiled Vistaar - a collection of 59 benchmarks that span different language and domain combinations.
+
+- The researchers also fine-tuned the IndicWhisper models using publicly available training datasets that included twelve different Indian languages, amounting to 10.7 thousand hours of data.
+
+- The study demonstrated that using IndicWhisper greatly enhances the efficiency of the considered Automatic Speech Recognition (ASR) systems when tested using the Vistaar benchmarking tool.
+
+## Abstract of paper
+
+- In fact, IndicWhisper scored the lowest Word Error Rate (WER) in 39 out of the 59 tested benchmarks, an average reduction of 4.1 WER, demonstrating its noteworthy precision in interpreting spoken words.
+
+- Furthermore, in an effort to contribute to the broader research community, the team decided to make all datasets, computer codes, and models openly available and accessible via a GitHub link they provided: https://github.com/AI4Bharat/vistaar.
+
+## Interspeech 2023 conference
+
+![](../ai4bharat_paper_reading/interspeech.png)
+
+
+## Authors of paper
+
+- Kaushal Santosh Bhogale (PHD Scholar @ IIT Madras)
+- Sai Sundaresan (BTECH Student @ IIT Kharagpur)
+- Abhigyan Raman (Founding Engineer @ Sarvam.ai)
+- Tahir Javed (PHD Scholar @ IIT Madras)
+- Mitesh M. Khapra (Professor @ IIT Madras)
+- Pratyush Kumar (Co-founder @ Sarvam.ai)
+
+
+## Vistaar Dataset Diversity
+
+![](../ai4bharat_paper_reading/dataset_info.png)
+
+## Vistaar Dataset comprises of
+
+1. Traininig dataset
+2. Benchmarking set
+
+## Training Dataset
+
+1. Shrutlipi
+2. NPTEL
+3. IISc-MILE
+4. IIIB-MSR
+5. Vakyasancayah
+6. GoogleTTS
+7. IIIT IndicSpeech
+
+## Benchmarking Dataset
+
+1. Kathbath
+2. Kathbath-hard
+3. FLEURS
+4. CommonVoice
+5. IndicTTS
+6. MUCS
+7. GramVaani
+
+## Collated dataset diversity across languages and duration
+
+![](../ai4bharat_paper_reading/dataset_table1.png)
+
+## Indic Whisper
+
+1. To illustrate the effectiveness of the improved Automatic Speech Recognition (ASR) models on the Vistaar-train dataset, the researchers had to make deliberate choices regarding the model architecture. They decided to settle on the Whisper models from OpenAI due to their noticeable enhanced performance.
+
+2. The researchers' choice was guided by the satisfactory results from the Hindi language using portions of the training data. The Whisper models demonstrated a significant decrease in the Word Error Rate (WER), surpassing all other model architectures.
+
+
+## Indic Whisper
+
+3. For each of the 12 languages, the researchers meticulously adjusted the 'Whisper-medium' model using the Vistaar-train. This methodical fine-tuning ensured the model was well-suited and effective for each language.
+
+## ASR Systems Compared
+
+- IndicWav2Vec
+- Nvidia-medium
+- Nvidia-large
+- Google STT
+- Azure STT
+
+## Performance of Indic Whisper in hindi
+
+![](../ai4bharat_paper_reading/indic_whisper1.png)
+
+## Indic Whisper Multiple languages
+
+![](../ai4bharat_paper_reading/indic_whisper2.png)
+
+## Let's look the source code
+
+- training.py
+- evaluation.py
+- transcribe.py
+
+## Conclusion
+
+- The researchers argue that to improve IndicASR, different ASR systems need to be tested on a varied set of benchmarks. These benchmarks should cover different languages and types of data.
+  
+- To demonstrate this, they use the Vistaar benchmark, a tool they created to compare the effectiveness of various ASR systems.
+
+- The team also present their IndicWhisper models, which build upon OpenAI's Whisper models. These were further developed using the Vistaar-training set, which includes over 10,000 hours of data in 12 Indian languages.
+
+## Conclusion
+
+- The IndicWhisper models have achieved noticeably lower Word Error Rate (WER) across a wide range of benchmarks, showing their high level of performance.
+  
+- By sharing their findings, the goal is to contribute to the development of more advanced models for automatic speech recognition, particularly for languages spoken in India.
+
+## Parting thoughts
+
+- My MTech Final thesis story
+
+## Conformer: Convolution-augmented Transformer for Speech Recognition
+
+## Thank you

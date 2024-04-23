@@ -5,12 +5,6 @@ date: 2023-05-08
 comments: false
 image: campus.jpeg
 categories: [myself, academic]
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
 
 I have been staying in Indian Institute of Information Technology (IIIT), Kottayam for

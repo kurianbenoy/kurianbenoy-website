@@ -1,0 +1,52 @@
+---
+title: Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data
+author: Kurian Benoy
+date: 2024-05-11
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+---
+
+## whoami
+
+![](https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg)
+
+## whoami
+
+- ML Engineer at Sarvam.ai
+- Volunteer @ Swathanthra Malayalam Computing (SMC)
+- Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
+- Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
+- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 217,000+ downloads.
+
+## Abstract of paper
+
+- Pre-training speech models on large volumes of data has achieved remarkable success.
+- OpenAI Whisper is a multilingual multitask model trained on 680k hours of supervised speech data. It generalizes well to various speech recognition and translation benchmarks even in a zero-shot setup.
+- However, the full pipeline for developing such models (from data collection to training) is not publicly accessible.
+
+## Abstract of paper
+
+- This makes it difficult for researchers to further improve its performance and address training-related issues such as efficiency, robustness, fairness, and bias.
+- This work presents an Open Whisper-style Speech Model (OWSM), which reproduces Whisper-style training using an open-source toolkit and publicly available data.
+- OWSM even supports more translation directions and can be more efficient to train. We will publicly release all scripts used for data preparation, training, inference, and scoring as well as pre-trained models and training logs to promote open science.
+
+## Authors of paper
+
+- Yifang Peng
+- Jinchuan Tian
+- Brian Yan et al.
+
+## Data
+
+## Training Details
+
+## Enlgish Speech recognition
+
+## Multilingual Speech Recognition
+
+## Speech Translation
+
+## Thank you

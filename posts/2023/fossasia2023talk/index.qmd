@@ -9,12 +9,6 @@ lang: en
 image: IMG_20230415_094452682_HDR.jpg
 toc: true
 comments: false
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
 
 {{< video https://www.youtube.com/embed/g3ysWcvPX5A >}}

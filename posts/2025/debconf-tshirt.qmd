@@ -1,0 +1,30 @@
+---
+title: Debconf Tshirt memories
+author: Kurian Benoy
+date: 2025-07-04
+date-format: full
+categories: [meetup, community, myself]
+lang: en
+toc: true
+---
+
+This Tshirt brings back so much memories.
+
+DebConf 2023 was one of the most enriching conferences I’ve attended—diverse, high-quality, and deeply impactful. But more than anything, it reminds me of my dear friend, the late Abraham Raji. He passed away on the outing day of DebConf, and his absence is still felt.
+
+Abraham designed this Tshirt with the unique Kerala impression.
+
+Abraham gave me an opportunity to speak in my college—at DebUtsav 2023. I still remember his words: “Kurian, you’ve grown into a confident public speaker. You’ve made it.”
+
+The journey wasn't always smooth. My first talk didn't go well, and I faced harsh criticism from an experienced speaker who told me I would never make it to speak at PyCon India.
+That criticism became fuel for my determination. By age 25, I had spoken at PyCon India three times.
+
+Sometimes the best response to doubt is simply proving them wrong. When someone tells you that you can't do something, remember: you absolutely can. It's about perseverance, learning from feedback, and never giving up on your goals.
+
+::: {layout-ncol=2}
+![](/posts/images/debconf.jpeg)
+
+![](/posts/images/debconf1.jpeg)
+
+![](/posts/images/debconf2.jpeg)
+:::
