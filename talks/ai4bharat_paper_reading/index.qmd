@@ -1,0 +1,74 @@
+---
+title: Vistaar -  Diverse Benchmarks and Training Sets for Indian Language ASR
+author: Kurian Benoy
+subtitle: AI4Bharat Paper Reading Group
+date: 2024-04-26
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+    footer: "@kurianbenoy  || You can access slides => [kurianbenoy.com/talks/ai4bharat_paper_reading/index.html](https://kurianbenoy.com/talks/ai4bharat_paper_reading/index.html)"
+---
+
+## whoami
+
+![](https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg)
+
+## whoami
+
+- ML Engineer at Sarvam.ai
+- Volunteer @ Swathanthra Malayalam Computing (SMC)
+- Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
+- Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
+- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 175,000+ downloads.
+
+## What's in a name
+
+- വിസ്താരം
+- Vistaar(विस्तार) meaning broad in Hindi
+- We propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of
+publicly available benchmarks across 12 languages, leading to 59 computed WER values across benchmarks and languages.
+
+## Abstract of paper
+
+- Improving ASR systems is necessary to make new LLM-based use-cases accessible to people across the globe. 
+
+- In this paper, we focus on Indian languages, and make the case that diverse benchmarks are required to evaluate and improve ASR
+systems for Indian languages.
+
+- To address this, we collate Vistaar as a set of 59 benchmarks across various language and domain combinations, on which we evaluate 3 publicly available ASR systems and 2 commercial systems.
+
+## Abstract of paper
+
+- We also train IndicWhisper models by fine-tuning the Whisper models on publicly available training datasets across 12 Indian languages
+totalling to 10.7K hours.
+
+- We show that IndicWhisper significantly improves on considered ASR systems on the Vistaar benchmark.
+
+- Indeed, IndicWhisper has the lowest WER in 39 out of the 59 benchmarks, with an average reduction of 4.1 WER.
+
+- We open-source all datasets, code and models : https://github.com/AI4Bharat/vistaar
+
+## Interspeech conference
+
+- Selected for this.
+
+## Authors of paper
+
+- Kaushal Santosh Bhogale (PHD @ IIT Madras)
+- Sai Sundaresan (BTECH @ IIT Kharagpur)
+- Abhigyan Raman (Founding Engineer @ Sarvam.ai)
+- Tahir Javed (PHD @ IIT Madras)
+- Mitesh M. Khapra (Professor @ IIT Madras)
+- Pratyush Kumar (Founder @ Sarvam.ai)
+
+## Main stuff in this paper
+
+Vistaar Dataset for:
+
+1. Training
+2. Benchmarking
+
+
+
