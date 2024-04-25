@@ -22,4 +22,4 @@ Also I am really thankful for the trust founders of Sarvam.ai Vivek Raghavan and
 
 The above message was posted originally in Linkedin [^1]
 
-[^1]: https://www.linkedin.com/posts/kurianbenoy_im-really-excited-to-share-with-all-of-you-activity-7188928556209451008-IwLc?utm_source=share&utm_medium=member_desktop
+[^1]: https://www.linkedin.com/posts/kurianbenoy_im-really-excited-to-share-with-all-of-you-activity-7188928556209451008-IwLc
