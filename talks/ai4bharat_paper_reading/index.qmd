@@ -27,28 +27,29 @@ format:
 
 - വിസ്താരം
 - Vistaar(विस्तार) meaning broad in Hindi
-- We propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of
+- They propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of
 publicly available benchmarks across 12 languages, leading to 59 computed WER values across benchmarks and languages.
 
 ## Abstract of paper
 
-- Improving ASR systems is necessary to make new LLM-based use-cases accessible to people across the globe. 
+- The research emphasizes the need for bettering Automatic Speech Recognition (ASR) systems so that more individuals worldwide can utilize Language Model (LLM) based functionalities.
 
-- In this paper, we focus on Indian languages, and make the case that diverse benchmarks are required to evaluate and improve ASR
-systems for Indian languages.
+- The study zeroes in on Indian languages, positing that a broad array of benchmarks is crucial for gauging and improving ASR systems designed for these languages.
 
-- To address this, we collate Vistaar as a set of 59 benchmarks across various language and domain combinations, on which we evaluate 3 publicly available ASR systems and 2 commercial systems.
 
 ## Abstract of paper
 
-- We also train IndicWhisper models by fine-tuning the Whisper models on publicly available training datasets across 12 Indian languages
-totalling to 10.7K hours.
+- In an effort to solve this issue, the researchers have compiled Vistaar - a collection of 59 benchmarks that span different language and domain combinations.
 
-- We show that IndicWhisper significantly improves on considered ASR systems on the Vistaar benchmark.
+- The researchers also fine-tuned the IndicWhisper models using publicly available training datasets that included twelve different Indian languages, amounting to 10.7 thousand hours of data.
 
-- Indeed, IndicWhisper has the lowest WER in 39 out of the 59 benchmarks, with an average reduction of 4.1 WER.
+- The study demonstrated that using IndicWhisper greatly enhances the efficiency of the considered Automatic Speech Recognition (ASR) systems when tested using the Vistaar benchmarking tool.
 
-- We open-source all datasets, code and models : https://github.com/AI4Bharat/vistaar
+## Abstract of paper
+
+- In fact, IndicWhisper scored the lowest Word Error Rate (WER) in 39 out of the 59 tested benchmarks, an average reduction of 4.1 WER, demonstrating its noteworthy precision in interpreting spoken words.
+
+- Furthermore, in an effort to contribute to the broader research community, the team decided to make all datasets, computer codes, and models openly available and accessible via a GitHub link they provided: https://github.com/AI4Bharat/vistaar.
 
 ## Interspeech 2023 conference
 
@@ -64,26 +65,90 @@ totalling to 10.7K hours.
 - Mitesh M. Khapra (Professor @ IIT Madras)
 - Pratyush Kumar (Co-founder @ Sarvam.ai)
 
-## Main stuff in this paper
 
-Vistaar Dataset for:
-
-1. Training
-2. Benchmarking
-
-## Vistaar Dataset
+## Vistaar Dataset Diversity
 
 ![](./dataset_info.png)
 
-## Vistaar Dataset 1
+## Vistaar Dataset comprises of
+
+1. Traininig dataset
+2. Benchmarking set
+
+## Training Dataset
+
+1. Shrutlipi
+2. NPTEL
+3. IISc-MILE
+4. IIIB-MSR
+5. Vakyasancayah
+6. GoogleTTS
+7. IIIT IndicSpeech
+
+## Benchmarking Dataset
+
+1. Kathbath
+2. Kathbath-hard
+3. FLEURS
+4. CommonVoice
+5. IndicTTS
+6. MUCS
+7. GramVaani
+
+## Collated dataset diversity across languages and duration
 
 ![](./dataset_table1.png)
 
 ## Indic Whisper
 
-![](./indic_whisper1.png)
+1. To illustrate the effectiveness of the improved Automatic Speech Recognition (ASR) models on the Vistaar-train dataset, the researchers had to make deliberate choices regarding the model architecture. They decided to settle on the Whisper models from OpenAI due to their noticeable enhanced performance.
+
+2. The researchers' choice was guided by the satisfactory results from the Hindi language using portions of the training data. The Whisper models demonstrated a significant decrease in the Word Error Rate (WER), surpassing all other model architectures.
+
 
 ## Indic Whisper
 
+3. For each of the 12 languages, the researchers meticulously adjusted the 'Whisper-medium' model using the Vistaar-train. This methodical fine-tuning ensured the model was well-suited and effective for each language.
+
+## ASR Systems Compared
+
+- IndicWav2Vec
+- Nvidia-medium
+- Nvidia-large
+- Google STT
+- Azure STT
+
+## Performance of Indic Whisper in hindi
+
+![](./indic_whisper1.png)
+
+## Indic Whisper Multiple languages
+
 ![](./indic_whisper2.png)
+
+## Let's look the source code
+
+- training.py
+- evaluation.py
+- transcribe.py
+
+## Conclusion
+
+- The researchers argue that to improve IndicASR, different ASR systems need to be tested on a varied set of benchmarks. These benchmarks should cover different languages and types of data.
+  
+- To demonstrate this, they use the Vistaar benchmark, a tool they created to compare the effectiveness of various ASR systems.
+
+- The team also present their IndicWhisper models, which build upon OpenAI's Whisper models. These were further developed using the Vistaar-training set, which includes over 10,000 hours of data in 12 Indian languages.
+
+## Conclusion
+
+- The IndicWhisper models have achieved noticeably lower Word Error Rate (WER) across a wide range of benchmarks, showing their high level of performance.
+  
+- By sharing their findings, the goal is to contribute to the development of more advanced models for automatic speech recognition, particularly for languages spoken in India.
+
+## Parting thoughts
+
+- My MTech Final thesis story
+
+## Thank you
 
