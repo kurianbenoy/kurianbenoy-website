@@ -1614,21 +1614,28 @@
     "href": "talks/ai4bharat_paper_reading/index.html#whats-in-a-name",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "What’s in a name",
-    "text": "What’s in a name\n\nവിസ്താരം\nVistaar(विस्तार) meaning broad in Hindi\nWe propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of publicly available benchmarks across 12 languages, leading to 59 computed WER values across benchmarks and languages."
+    "text": "What’s in a name\n\nവിസ്താരം\nVistaar(विस्तार) meaning broad in Hindi\nThey propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of publicly available benchmarks across 12 languages, leading to 59 computed WER values across benchmarks and languages."
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#abstract-of-paper",
     "href": "talks/ai4bharat_paper_reading/index.html#abstract-of-paper",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "Abstract of paper",
-    "text": "Abstract of paper\n\nImproving ASR systems is necessary to make new LLM-based use-cases accessible to people across the globe.\nIn this paper, we focus on Indian languages, and make the case that diverse benchmarks are required to evaluate and improve ASR systems for Indian languages.\nTo address this, we collate Vistaar as a set of 59 benchmarks across various language and domain combinations, on which we evaluate 3 publicly available ASR systems and 2 commercial systems."
+    "text": "Abstract of paper\n\nThe research emphasizes the need for bettering Automatic Speech Recognition (ASR) systems so that more individuals worldwide can utilize Language Model (LLM) based functionalities.\nThe study zeroes in on Indian languages, positing that a broad array of benchmarks is crucial for gauging and improving ASR systems designed for these languages."
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#abstract-of-paper-1",
     "href": "talks/ai4bharat_paper_reading/index.html#abstract-of-paper-1",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "Abstract of paper",
-    "text": "Abstract of paper\n\nWe also train IndicWhisper models by fine-tuning the Whisper models on publicly available training datasets across 12 Indian languages totalling to 10.7K hours.\nWe show that IndicWhisper significantly improves on considered ASR systems on the Vistaar benchmark.\nIndeed, IndicWhisper has the lowest WER in 39 out of the 59 benchmarks, with an average reduction of 4.1 WER.\nWe open-source all datasets, code and models : https://github.com/AI4Bharat/vistaar"
+    "text": "Abstract of paper\n\nIn an effort to solve this issue, the researchers have compiled Vistaar - a collection of 59 benchmarks that span different language and domain combinations.\nThe researchers also fine-tuned the IndicWhisper models using publicly available training datasets that included twelve different Indian languages, amounting to 10.7 thousand hours of data.\nThe study demonstrated that using IndicWhisper greatly enhances the efficiency of the considered Automatic Speech Recognition (ASR) systems when tested using the Vistaar benchmarking tool."
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#abstract-of-paper-2",
+    "href": "talks/ai4bharat_paper_reading/index.html#abstract-of-paper-2",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Abstract of paper",
+    "text": "Abstract of paper\n\nIn fact, IndicWhisper scored the lowest Word Error Rate (WER) in 39 out of the 59 tested benchmarks, an average reduction of 4.1 WER, demonstrating its noteworthy precision in interpreting spoken words.\nFurthermore, in an effort to contribute to the broader research community, the team decided to make all datasets, computer codes, and models openly available and accessible via a GitHub link they provided: https://github.com/AI4Bharat/vistaar."
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#interspeech-2023-conference",
@@ -1645,39 +1652,109 @@
     "text": "Authors of paper\n\nKaushal Santosh Bhogale (PHD Scholar @ IIT Madras)\nSai Sundaresan (BTECH Student @ IIT Kharagpur)\nAbhigyan Raman (Founding Engineer @ Sarvam.ai)\nTahir Javed (PHD Scholar @ IIT Madras)\nMitesh M. Khapra (Professor @ IIT Madras)\nPratyush Kumar (Co-founder @ Sarvam.ai)"
   },
   {
-    "objectID": "talks/ai4bharat_paper_reading/index.html#main-stuff-in-this-paper",
-    "href": "talks/ai4bharat_paper_reading/index.html#main-stuff-in-this-paper",
+    "objectID": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-diversity",
+    "href": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-diversity",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
-    "section": "Main stuff in this paper",
-    "text": "Main stuff in this paper\nVistaar Dataset for:\n\nTraining\nBenchmarking"
+    "section": "Vistaar Dataset Diversity",
+    "text": "Vistaar Dataset Diversity"
   },
   {
-    "objectID": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset",
-    "href": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset",
+    "objectID": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-comprises-of",
+    "href": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-comprises-of",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
-    "section": "Vistaar Dataset",
-    "text": "Vistaar Dataset"
+    "section": "Vistaar Dataset comprises of",
+    "text": "Vistaar Dataset comprises of\n\nTraininig dataset\nBenchmarking set"
   },
   {
-    "objectID": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-1",
-    "href": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-1",
+    "objectID": "talks/ai4bharat_paper_reading/index.html#training-dataset",
+    "href": "talks/ai4bharat_paper_reading/index.html#training-dataset",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
-    "section": "Vistaar Dataset 1",
-    "text": "Vistaar Dataset 1"
+    "section": "Training Dataset",
+    "text": "Training Dataset\n\nShrutlipi\nNPTEL\nIISc-MILE\nIIIB-MSR\nVakyasancayah\nGoogleTTS\nIIIT IndicSpeech"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#benchmarking-dataset",
+    "href": "talks/ai4bharat_paper_reading/index.html#benchmarking-dataset",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Benchmarking Dataset",
+    "text": "Benchmarking Dataset\n\nKathbath\nKathbath-hard\nFLEURS\nCommonVoice\nIndicTTS\nMUCS\nGramVaani"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#collated-dataset-diversity-across-languages-and-duration",
+    "href": "talks/ai4bharat_paper_reading/index.html#collated-dataset-diversity-across-languages-and-duration",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Collated dataset diversity across languages and duration",
+    "text": "Collated dataset diversity across languages and duration"
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#indic-whisper",
     "href": "talks/ai4bharat_paper_reading/index.html#indic-whisper",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "Indic Whisper",
-    "text": "Indic Whisper"
+    "text": "Indic Whisper\n\nTo illustrate the effectiveness of the improved Automatic Speech Recognition (ASR) models on the Vistaar-train dataset, the researchers had to make deliberate choices regarding the model architecture. They decided to settle on the Whisper models from OpenAI due to their noticeable enhanced performance.\nThe researchers’ choice was guided by the satisfactory results from the Hindi language using portions of the training data. The Whisper models demonstrated a significant decrease in the Word Error Rate (WER), surpassing all other model architectures."
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#indic-whisper-1",
     "href": "talks/ai4bharat_paper_reading/index.html#indic-whisper-1",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "Indic Whisper",
-    "text": "Indic Whisper\n\n\n\n\n@kurianbenoy || You can access slides =&gt; kurianbenoy.com/talks/ai4bharat_paper_reading/index.html"
+    "text": "Indic Whisper\n\nFor each of the 12 languages, the researchers meticulously adjusted the ‘Whisper-medium’ model using the Vistaar-train. This methodical fine-tuning ensured the model was well-suited and effective for each language."
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#asr-systems-compared",
+    "href": "talks/ai4bharat_paper_reading/index.html#asr-systems-compared",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "ASR Systems Compared",
+    "text": "ASR Systems Compared\n\nIndicWav2Vec\nNvidia-medium\nNvidia-large\nGoogle STT\nAzure STT"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#performance-of-indic-whisper-in-hindi",
+    "href": "talks/ai4bharat_paper_reading/index.html#performance-of-indic-whisper-in-hindi",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Performance of Indic Whisper in hindi",
+    "text": "Performance of Indic Whisper in hindi"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#indic-whisper-multiple-languages",
+    "href": "talks/ai4bharat_paper_reading/index.html#indic-whisper-multiple-languages",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Indic Whisper Multiple languages",
+    "text": "Indic Whisper Multiple languages"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#lets-look-the-source-code",
+    "href": "talks/ai4bharat_paper_reading/index.html#lets-look-the-source-code",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Let’s look the source code",
+    "text": "Let’s look the source code\n\ntraining.py\nevaluation.py\ntranscribe.py"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#conclusion",
+    "href": "talks/ai4bharat_paper_reading/index.html#conclusion",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nThe researchers argue that to improve IndicASR, different ASR systems need to be tested on a varied set of benchmarks. These benchmarks should cover different languages and types of data.\nTo demonstrate this, they use the Vistaar benchmark, a tool they created to compare the effectiveness of various ASR systems.\nThe team also present their IndicWhisper models, which build upon OpenAI’s Whisper models. These were further developed using the Vistaar-training set, which includes over 10,000 hours of data in 12 Indian languages."
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#conclusion-1",
+    "href": "talks/ai4bharat_paper_reading/index.html#conclusion-1",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nThe IndicWhisper models have achieved noticeably lower Word Error Rate (WER) across a wide range of benchmarks, showing their high level of performance.\nBy sharing their findings, the goal is to contribute to the development of more advanced models for automatic speech recognition, particularly for languages spoken in India."
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#parting-thoughts",
+    "href": "talks/ai4bharat_paper_reading/index.html#parting-thoughts",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Parting thoughts",
+    "text": "Parting thoughts\n\nMy MTech Final thesis story"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#thank-you",
+    "href": "talks/ai4bharat_paper_reading/index.html#thank-you",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Thank you",
+    "text": "Thank you\n\n\n\n@kurianbenoy || You can access slides =&gt; kurianbenoy.com/talks/ai4bharat_paper_reading/index.html"
   },
   {
     "objectID": "talks.html",
