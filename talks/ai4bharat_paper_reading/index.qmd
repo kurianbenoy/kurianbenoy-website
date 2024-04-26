@@ -50,18 +50,19 @@ totalling to 10.7K hours.
 
 - We open-source all datasets, code and models : https://github.com/AI4Bharat/vistaar
 
-## Interspeech conference
+## Interspeech 2023 conference
 
-- Selected for this.
+![](./interspeech.png)
+
 
 ## Authors of paper
 
-- Kaushal Santosh Bhogale (PHD @ IIT Madras)
-- Sai Sundaresan (BTECH @ IIT Kharagpur)
+- Kaushal Santosh Bhogale (PHD Scholar @ IIT Madras)
+- Sai Sundaresan (BTECH Student @ IIT Kharagpur)
 - Abhigyan Raman (Founding Engineer @ Sarvam.ai)
-- Tahir Javed (PHD @ IIT Madras)
+- Tahir Javed (PHD Scholar @ IIT Madras)
 - Mitesh M. Khapra (Professor @ IIT Madras)
-- Pratyush Kumar (Founder @ Sarvam.ai)
+- Pratyush Kumar (Co-founder @ Sarvam.ai)
 
 ## Main stuff in this paper
 
@@ -70,5 +71,19 @@ Vistaar Dataset for:
 1. Training
 2. Benchmarking
 
+## Vistaar Dataset
 
+![](./dataset_info.png)
+
+## Vistaar Dataset 1
+
+![](./dataset_table1.png)
+
+## Indic Whisper
+
+![](./indic_whisper1.png)
+
+## Indic Whisper
+
+![](./indic_whisper2.png)
 
