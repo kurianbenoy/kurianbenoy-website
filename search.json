@@ -1631,25 +1631,53 @@
     "text": "Abstract of paper\n\nWe also train IndicWhisper models by fine-tuning the Whisper models on publicly available training datasets across 12 Indian languages totalling to 10.7K hours.\nWe show that IndicWhisper significantly improves on considered ASR systems on the Vistaar benchmark.\nIndeed, IndicWhisper has the lowest WER in 39 out of the 59 benchmarks, with an average reduction of 4.1 WER.\nWe open-source all datasets, code and models : https://github.com/AI4Bharat/vistaar"
   },
   {
-    "objectID": "talks/ai4bharat_paper_reading/index.html#interspeech-conference",
-    "href": "talks/ai4bharat_paper_reading/index.html#interspeech-conference",
+    "objectID": "talks/ai4bharat_paper_reading/index.html#interspeech-2023-conference",
+    "href": "talks/ai4bharat_paper_reading/index.html#interspeech-2023-conference",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
-    "section": "Interspeech conference",
-    "text": "Interspeech conference\n\nSelected for this."
+    "section": "Interspeech 2023 conference",
+    "text": "Interspeech 2023 conference"
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#authors-of-paper",
     "href": "talks/ai4bharat_paper_reading/index.html#authors-of-paper",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "Authors of paper",
-    "text": "Authors of paper\n\nKaushal Santosh Bhogale (PHD @ IIT Madras)\nSai Sundaresan (BTECH @ IIT Kharagpur)\nAbhigyan Raman (Founding Engineer @ Sarvam.ai)\nTahir Javed (PHD @ IIT Madras)\nMitesh M. Khapra (Professor @ IIT Madras)\nPratyush Kumar (Founder @ Sarvam.ai)"
+    "text": "Authors of paper\n\nKaushal Santosh Bhogale (PHD Scholar @ IIT Madras)\nSai Sundaresan (BTECH Student @ IIT Kharagpur)\nAbhigyan Raman (Founding Engineer @ Sarvam.ai)\nTahir Javed (PHD Scholar @ IIT Madras)\nMitesh M. Khapra (Professor @ IIT Madras)\nPratyush Kumar (Co-founder @ Sarvam.ai)"
   },
   {
     "objectID": "talks/ai4bharat_paper_reading/index.html#main-stuff-in-this-paper",
     "href": "talks/ai4bharat_paper_reading/index.html#main-stuff-in-this-paper",
     "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
     "section": "Main stuff in this paper",
-    "text": "Main stuff in this paper\nVistaar Dataset for:\n\nTraining\nBenchmarking\n\n\n\n\n@kurianbenoy || You can access slides =&gt; kurianbenoy.com/talks/ai4bharat_paper_reading/index.html"
+    "text": "Main stuff in this paper\nVistaar Dataset for:\n\nTraining\nBenchmarking"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset",
+    "href": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Vistaar Dataset",
+    "text": "Vistaar Dataset"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-1",
+    "href": "talks/ai4bharat_paper_reading/index.html#vistaar-dataset-1",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Vistaar Dataset 1",
+    "text": "Vistaar Dataset 1"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#indic-whisper",
+    "href": "talks/ai4bharat_paper_reading/index.html#indic-whisper",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Indic Whisper",
+    "text": "Indic Whisper"
+  },
+  {
+    "objectID": "talks/ai4bharat_paper_reading/index.html#indic-whisper-1",
+    "href": "talks/ai4bharat_paper_reading/index.html#indic-whisper-1",
+    "title": "Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "section": "Indic Whisper",
+    "text": "Indic Whisper\n\n\n\n\n@kurianbenoy || You can access slides =&gt; kurianbenoy.com/talks/ai4bharat_paper_reading/index.html"
   },
   {
     "objectID": "talks.html",
