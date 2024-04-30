@@ -33,7 +33,7 @@ comments: false
 
 ## Hi, I'm Kurian Benoy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" alt="Waving hand to say hello">
 
-I am building Full-Stack GenAI @ [Sarvam.ai](https://www.sarvam.ai/). I have multiple years of experience in Python and Machine learning experience. I have contributed to various open source organizations like Swathanthra Malayalam Computing, FOSSASIA, Keras, DVC, HuggingFace, fast.ai, CloudCV etc.
+I am working as an ML Engineer building Full-Stack GenAI @ [Sarvam.ai](https://www.sarvam.ai/). I have multiple years of experience in Python and Machine learning experience. I have contributed to various open source organizations like Swathanthra Malayalam Computing, FOSSASIA, Keras, DVC, HuggingFace, fast.ai, CloudCV etc.
 
 I like to speak and interact with developer community. I am an active member of [fast.ai community](https://forums.fast.ai/u/kurianbenoy/summary) and engage
 in lot of other communities based in Kerala. I have given talk thrice as expert in competence of Machine Learning and core Python
