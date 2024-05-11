@@ -9,8 +9,16 @@
 <link>https://kurianbenoy.com/slides.html</link>
 <atom:link href="https://kurianbenoy.com/slides.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
-<lastBuildDate>Fri, 26 Apr 2024 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Sat, 11 May 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/talks/ai4bharat_reproducing_whisper/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://kurianbenoy.com/talks/ai4bharat_reproducing_whisper/</guid>
+  <pubDate>Sat, 11 May 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title></title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -93,7 +101,7 @@
   <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
-  <pubDate>Tue, 30 Apr 2024 03:55:51 GMT</pubDate>
+  <pubDate>Sat, 11 May 2024 13:35:55 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -101,7 +109,7 @@
   <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
-  <pubDate>Tue, 30 Apr 2024 03:55:51 GMT</pubDate>
+  <pubDate>Sat, 11 May 2024 13:35:55 GMT</pubDate>
 </item>
 </channel>
 </rss>
