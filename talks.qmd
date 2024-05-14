@@ -31,11 +31,26 @@ comments: false
 {{< video https://www.youtube.com/embed/c69VyJ16Mx4
     title="Malayalam Projects I am working at the moment"
 >}}
+
+{{< video https://www.youtube.com/embed/lM0uD56GVrQ
+    title="Vistaar paper"
+>}}
+
+{{< video https://www.youtube.com/embed/D54awjfoWwQ
+    title="OWSM paper"
+>}}
 :::
 
 These are the list of talks I have delivered:
 
+- [Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data](https://youtu.be/D54awjfoWwQ?si=kqUQCAL2dV7d_J4C) | AI4Bharat Paper Reading Group | May 11, 2024 | [Slides](https://kurianbenoy.com/talks/ai4bharat_reproducing_whisper/#/title-slide)
+
+- [Vistaar - Diverse Benchmarks and Training Sets for Indian Language ASR](https://youtu.be/lM0uD56GVrQ?si=IioCJLsnLYTHfnaT) | AI4Bharat Paper Reading Group | April 26, 2024 | [Slides](https://kurianbenoy.com/talks/ai4bharat_paper_reading/#/title-slide)
+
+- LLM 101 Workshop: Beginner session on LLM | [FOSSMEET 2024](https://www.fossmeet.net)- NIT Calicut | March 24, 2024 | [Workshop Materials](https://tiny.cc/llm102), [Kurian Slides](https://kurianbenoy.com/talks/nitc-fossmeet-2024/llm-101.html#/title-slide), [Live Demo Website](https://llm-101-pi.vercel.app) 
+
 - OpenAI Whisper and it's amazing power to do finetuning demonstrated on my Mother tongue | Pycon India, 2023 - Jawaharlal Nehru Technological University, Hyderabad, India. | October 1, 2023 | [Slides](./talks/pyconindia-2023/pyconind.qmd), [Talk Page](./posts/2023/pycon_india2023_talk/index.qmd)
+
 - [OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue](https://youtu.be/t_uoI6yOOZg) | FOSS Meetup Kochi - KeyValue, Smart Kochi. | June 24, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/pycon_india2023_talk/) 
 
 - AI with Malayalam Computing | DebUtsav - Govt. Model Engineering College, Thrikkakara. | June 17, 2023 | [Slides](./talks/mec/debutsav.qmd),  [Talk Page](./posts/2023/debutsav_talk/index.qmd) 
