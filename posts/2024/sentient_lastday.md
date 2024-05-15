@@ -22,7 +22,7 @@ The above message was posted originally in Linkedin [^2]
 
 I enjoyed working in a startup. Yet it's not everyone's cup of tea, I will ask you think twice before joining any startup. In Sentient.io, I saw both the positive's and negatives of working in a startup. It was a roller-coaster ride, yet there is one good reason why you should consider joining a startup.
 
-You learn a ton of things, get engaged in lot of projects. So if you prioritize learning in your career, Kurian would recommend joining a startup. Chip in her article '7 reasons not to join a startup and 1 reason to' [^1] said:
+You learn a ton of things, get engaged in lot of projects. So if you prioritize learning in your career, Kurian would recommend joining a startup. [Chip in her article '7 reasons not to join a startup and 1 reason to](https://huyenchip.com/2021/02/27/why-not-join-a-startup.html)' [^1] said:
 
 > I once read somewhere that joining startups is the only way to get 15 years of experience in 5 years. I couldn’t agree more.
 
