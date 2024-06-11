@@ -1,0 +1,48 @@
+---
+title: Why having a good taste is all you need to build great open-source projects
+author: Kurian Benoy
+date: 2024-05-11
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+---
+
+## whoami
+
+![](https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg)
+
+## whoami
+
+- ML Engineer at Sarvam.ai
+- Volunteer @ Swathanthra Malayalam Computing (SMC)
+- Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
+- Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
+- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 370,000+ downloads.(update  latest stats on Friday)
+
+## Women who inspired me
+
+- I was  lucky to be born in a family with very strong women who has huge inspiration.
+
+## Vellaunty
+
+## Amma
+
+## Kunnaunty
+
+
+## My Open-source Journey
+
+## FOSSMEC
+
+## Meeting Mario Behling
+
+## Travelling to Singapore
+
+## Swathanthra Malayalam Computing
+
+## Feeling burned out
+
+## Building indicsubtitler.in
+
