@@ -9,7 +9,7 @@
 <link>https://kurianbenoy.com/slides.html</link>
 <atom:link href="https://kurianbenoy.com/slides.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.554</generator>
+<generator>quarto-1.4.555</generator>
 <lastBuildDate>Sat, 11 May 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title></title>
@@ -17,6 +17,14 @@
   <link>https://kurianbenoy.com/talks/ai4bharat_reproducing_whisper/</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/ai4bharat_reproducing_whisper/</guid>
+  <pubDate>Sat, 11 May 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/talks/code_blossom_great_open_source_projects/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://kurianbenoy.com/talks/code_blossom_great_open_source_projects/</guid>
   <pubDate>Sat, 11 May 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -68,16 +76,16 @@
 </item>
 <item>
   <title></title>
-  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</link>
+  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</guid>
+  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/</guid>
   <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title></title>
-  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/</link>
+  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/</guid>
+  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</guid>
   <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -98,18 +106,18 @@
 <item>
   <title></title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
+  <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
-  <pubDate>Wed, 15 May 2024 06:11:05 GMT</pubDate>
+  <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
+  <pubDate>Tue, 11 Jun 2024 01:12:27 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
+  <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
-  <pubDate>Wed, 15 May 2024 06:11:05 GMT</pubDate>
+  <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
+  <pubDate>Tue, 11 Jun 2024 01:12:27 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>I used <code>open_clip</code>, an open source implementation of CLIP which is having higher accuracy compared to model weights released by OpenAI.</p>
 <p>Even after using one of the best accuracy CLIP models available( ViT-H-14), it got me a classification accuracy score of 27.95% in private LB whereas Resnet or Convnext models could have given easily above 75% score.</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Model</th>
@@ -225,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>UPDATE</strong></p>
 <p>When I shared this results in twitter, <a href="https://twitter.com/YiYiMarz">YiYi Xu</a> suggested to try out <a href="https://github.com/openai/CLIP#linear-probe-evaluation">linear probing in CLIP</a>. She mentioned that, I was not comparing apples to apples, as I was using a zero-shot model with CLIP to compared with a fine tuned model of convnext. In order to level up, I should use linear probing which is using training data to kind of fine tune with a logistic regression model leveraging features in CLIP model.</p>
 <p>Based on this, I leveraged using linear probing on the dataset. As a result my updated result are the following:</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Model</th>
