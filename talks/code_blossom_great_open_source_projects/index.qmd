@@ -1,7 +1,7 @@
 ---
 title: Why having a good taste is all you need to build great open-source projects
 author: Kurian Benoy
-date: 2024-05-11
+date: 2024-06-14
 date-format: full
 comments: false
 format:
@@ -21,15 +21,42 @@ format:
 - Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
 - Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 370,000+ downloads.(update  latest stats on Friday)
 
+## whoami
+
+- Kaggle expert in Notebooks and Discussions
+- FOSS and Python enthusiast
+- Writes frequently in linkedin and twitter
+
+
+## Good Taste
+
+![](taste.png)
+
+## great open-source projects
+
+Meaning of great is: very good or very effective; excellent
+
+
+## What is a great open-source project?
+
+- It's just a project which you have done excellent job
+- [Why you should be blogging](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
+- Got some validation in the process of doing it.
+- Optimized for happiness
+- My favourite quote is: Journey is the Inn
+
+## Attention is all you need
+
+![](attention_is_all_you_need.png)
+
 ## Women who inspired me
 
-- I was  lucky to be born in a family with very strong women who has huge inspiration.
-
-## Vellaunty
-
-## Amma
-
-## Kunnaunty
+- Minu Sunny (VP, Synthite Industries)
+- Dr. Anu Benoy (My mother, class 11-12 Computer science teacher)
+- Sunu Abhilash ()
+- Ammachi
+- Dr. Kavya Manohar
+- Sumathi Thirumani (more ..)
 
 
 ## My Open-source Journey
