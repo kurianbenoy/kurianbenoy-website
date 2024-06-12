@@ -1218,32 +1218,46 @@
     "text": "whoami\n\nML Engineer at Sarvam.ai\nVolunteer @ Swathanthra Malayalam Computing (SMC)\nSpeaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.\nCreator of indicsubtitler.in and Malayalam voice models like Vegam-whisper, MalWhisper etc.\nMaintains whisper_normalizer a python packages with 370,000+ downloads.(update latest stats on Friday)"
   },
   {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#whoami-2",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#whoami-2",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "whoami",
+    "text": "whoami\n\nKaggle expert in Notebooks and Discussions\nFOSS and Python enthusiast\nWrites frequently in linkedin and twitter"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#good-taste",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#good-taste",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "Good Taste",
+    "text": "Good Taste"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#great-open-source-projects",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#great-open-source-projects",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "great open-source projects",
+    "text": "great open-source projects\nMeaning of great is: very good or very effective; excellent"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#what-is-a-great-open-source-project",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#what-is-a-great-open-source-project",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "What is a great open-source project?",
+    "text": "What is a great open-source project?\n\nIt’s just a project which you have done excellent job\nWhy you should be blogging\nGot some validation in the process of doing it.\nOptimized for happiness\nMy favourite quote is: Journey is the Inn"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#attention-is-all-you-need",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#attention-is-all-you-need",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "Attention is all you need",
+    "text": "Attention is all you need"
+  },
+  {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#women-who-inspired-me",
     "href": "talks/code_blossom_great_open_source_projects/index.html#women-who-inspired-me",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "Women who inspired me",
-    "text": "Women who inspired me\n\nI was lucky to be born in a family with very strong women who has huge inspiration."
-  },
-  {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#vellaunty",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#vellaunty",
-    "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Vellaunty",
-    "text": "Vellaunty"
-  },
-  {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#amma",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#amma",
-    "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Amma",
-    "text": "Amma"
-  },
-  {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#kunnaunty",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#kunnaunty",
-    "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Kunnaunty",
-    "text": "Kunnaunty"
+    "text": "Women who inspired me\n\nMinu Sunny (VP, Synthite Industries)\nDr. Anu Benoy (My mother, class 11-12 Computer science teacher)\nSunu Abhilash ()\nAmmachi\nDr. Kavya Manohar\nSumathi Thirumani (more ..)"
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-open-source-journey",
@@ -3980,7 +3994,7 @@
     "href": "slides.html",
     "title": "Kurian Benoy",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYou too should speak here\n\n\nJust a lightning talk idea\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nReproducing Whisper-style Training Using an open-source toolkit and publicly available Data\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nWhy having a good taste is all you need to build great open-source projects\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nVistaar - Diverse Benchmarks and Training Sets for Indian Language ASR\n\n\nAI4Bharat Paper Reading Group\n\n\n\n\n\n\n\n\nApr 26, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nLLM 101 Workshop\n\n\nNIT Calicut, Kozhikode, Kerala\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nASR for Malayalam\n\n\n\n\n\n\n\n\n\n\n\nSep 3, 2023\n\n\nKurian Benoy | 2021MCS120014\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nAI with Malayalam Computing!\n\n\nDebUtsav 2023, Govt. Model Engineering College, Thrikkakara.\n\n\n\n\n\n\n\n\nJun 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nVegam Whisper Family of Models and demoing Malayalam Speech to Text\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMalayalam Projects I am working at the moment!\n\n\nDelft-Fastai check-in sessions\n\n\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do finetuning.\n\n\nFOSSASIA Summit, Singapore\n\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYou too should speak here\n\n\nJust a lightning talk idea\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n\n\n\n\n\n\n\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nWhy having a good taste is all you need to build great open-source projects\n\n\n\n\n\n\n\n\n\n\n\nJun 14, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nReproducing Whisper-style Training Using an open-source toolkit and publicly available Data\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nVistaar - Diverse Benchmarks and Training Sets for Indian Language ASR\n\n\nAI4Bharat Paper Reading Group\n\n\n\n\n\n\n\n\nApr 26, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nLLM 101 Workshop\n\n\nNIT Calicut, Kozhikode, Kerala\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nASR for Malayalam\n\n\n\n\n\n\n\n\n\n\n\nSep 3, 2023\n\n\nKurian Benoy | 2021MCS120014\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue\n\n\n📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\n\n\n\n\n\n\nAI with Malayalam Computing!\n\n\nDebUtsav 2023, Govt. Model Engineering College, Thrikkakara.\n\n\n\n\n\n\n\n\nJun 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nVegam Whisper Family of Models and demoing Malayalam Speech to Text\n\n\nSummit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMalayalam Projects I am working at the moment!\n\n\nDelft-Fastai check-in sessions\n\n\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nOpenAI Whisper and it’s amazing power to do finetuning.\n\n\nFOSSASIA Summit, Singapore\n\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nKurian Benoy\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2021/2021-03-21-qualities_software_developers.html",
