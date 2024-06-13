@@ -1207,22 +1207,22 @@
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#whoami",
     "href": "talks/code_blossom_great_open_source_projects/index.html#whoami",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "whoami",
-    "text": "whoami"
+    "section": "$whoami",
+    "text": "$whoami"
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#whoami-1",
     "href": "talks/code_blossom_great_open_source_projects/index.html#whoami-1",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "whoami",
-    "text": "whoami\n\nML Engineer at Sarvam.ai\nVolunteer @ Swathanthra Malayalam Computing (SMC)\nSpeaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.\nCreator of indicsubtitler.in and Malayalam voice models like Vegam-whisper, MalWhisper etc.\nMaintains whisper_normalizer a python packages with 370,000+ downloads.(update latest stats on Friday)"
+    "section": "$whoami",
+    "text": "$whoami\n\nML Engineer at Sarvam.ai\nVolunteer @ Swathanthra Malayalam Computing (SMC)\nSpeaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.\nCreator of indicsubtitler.in and Malayalam voice models like Vegam-whisper, MalWhisper etc.\nMaintains whisper_normalizer a python packages with 390,000+ downloads."
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#whoami-2",
     "href": "talks/code_blossom_great_open_source_projects/index.html#whoami-2",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "whoami",
-    "text": "whoami\n\nKaggle expert in Notebooks and Discussions\nFOSS and Python enthusiast\nWrites frequently in linkedin and twitter"
+    "section": "$whoami",
+    "text": "$whoami\n\nKaggle expert in Notebooks and Discussions\nFOSS and Python enthusiast\nWrites frequently in linkedin(@kurianbenoy) and twitter(@kurianbenoy2)\nProud Mallu.\nKnows a bit of ML, Python, Backend, Frontend, Linux, Debian."
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#good-taste",
@@ -1232,18 +1232,11 @@
     "text": "Good Taste"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#great-open-source-projects",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#great-open-source-projects",
-    "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "great open-source projects",
-    "text": "great open-source projects\nMeaning of great is: very good or very effective; excellent"
-  },
-  {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#what-is-a-great-open-source-project",
     "href": "talks/code_blossom_great_open_source_projects/index.html#what-is-a-great-open-source-project",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "What is a great open-source project?",
-    "text": "What is a great open-source project?\n\nIt’s just a project which you have done excellent job\nWhy you should be blogging\nGot some validation in the process of doing it.\nOptimized for happiness\nMy favourite quote is: Journey is the Inn"
+    "text": "What is a great open-source project?\n\nIt’s just a project which you have done excellent job\nWhy you should be blogging\nGot some validation in the process of doing it.\nOptimized for happiness\nMy favourite quote is: Journey is the Inn\n\n\nMeaning of great is: very good or very effective; excellent"
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#attention-is-all-you-need",
@@ -1257,56 +1250,49 @@
     "href": "talks/code_blossom_great_open_source_projects/index.html#women-who-inspired-me",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "Women who inspired me",
-    "text": "Women who inspired me\n\nMinu Sunny (VP, Synthite Industries)\nDr. Anu Benoy (My mother, class 11-12 Computer science teacher)\nSunu Abhilash ()\nAmmachi\nDr. Kavya Manohar\nSumathi Thirumani (more ..)"
+    "text": "Women who inspired me\n\nMinu Thomas\nDr. Anu Benoy (My mother)\nSunu Abhilash\nMy Grandmother (Ammachi)\nDr. Kavya Manohar\nSumathi Thirumani"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-open-source-journey",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#my-open-source-journey",
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#diving-into-open-source-project",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#diving-into-open-source-project",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "My Open-source Journey",
-    "text": "My Open-source Journey"
+    "section": "Diving into open-source project",
+    "text": "Diving into open-source project\n\nwhisper_normalizer - https://pypi.org/project/whisper-normalizer/\nindicsubtitler.in - https://github.com/kurianbenoy/Indic-Subtitler"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#fossmec",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#fossmec",
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#about-whisper_normalizer",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#about-whisper_normalizer",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "FOSSMEC",
-    "text": "FOSSMEC"
+    "section": "About whisper_normalizer",
+    "text": "About whisper_normalizer\n\nHow it was formed?\nCaring about Indian languages when called out\nGetting used by projects in big companies\nEnjoying the journey to 500K+"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#meeting-mario-behling",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#meeting-mario-behling",
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#about-indicsubtitler.in",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#about-indicsubtitler.in",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Meeting Mario Behling",
-    "text": "Meeting Mario Behling"
+    "section": "About indicsubtitler.in",
+    "text": "About indicsubtitler.in\n\nWhen it got build?\nBuilding it with a fantastic team of Aldrin Jenson and Nabeel Boda.\nCaring about minute details\nDoing charity by giving H100 GPUs to my users :)"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#travelling-to-singapore",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#travelling-to-singapore",
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Travelling to Singapore",
-    "text": "Travelling to Singapore"
+    "section": "My Coding Journey",
+    "text": "My Coding Journey\n\n2016 to 2019: Python, fantastic first teacher\n2019 to 2020: Kaggle Expert, Pycon India first time Talk, FOSSASIA OpenNights Winner, Building TTS for Malayalam(failed)\n2020 to 2022: Got a job in AOT Technologies, SMC first contribution\n2022 to 2024: Got a job in AOT Technologies, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer\n2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#swathanthra-malayalam-computing",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#swathanthra-malayalam-computing",
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#few-strong-principles",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#few-strong-principles",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Swathanthra Malayalam Computing",
-    "text": "Swathanthra Malayalam Computing"
+    "section": "Few strong principles",
+    "text": "Few strong principles\n\nBe opiniated, you can’t please everyone in world.\nBe a builder, work hard.\nStarting trusting your decisions (That is something not self-confidence bs. but instead something you should have your own capabilities)\nRemember your roots"
   },
   {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#feeling-burned-out",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#feeling-burned-out",
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#ama-ask-me-anything",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#ama-ask-me-anything",
     "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Feeling burned out",
-    "text": "Feeling burned out"
-  },
-  {
-    "objectID": "talks/code_blossom_great_open_source_projects/index.html#building-indicsubtitler.in",
-    "href": "talks/code_blossom_great_open_source_projects/index.html#building-indicsubtitler.in",
-    "title": "Why having a good taste is all you need to build great open-source projects",
-    "section": "Building indicsubtitler.in",
-    "text": "Building indicsubtitler.in"
+    "section": "AMA (Ask me anything)",
+    "text": "AMA (Ask me anything)"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/demo.html#what-really-matters",
