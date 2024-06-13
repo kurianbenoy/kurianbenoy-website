@@ -9,33 +9,30 @@ format:
     slide-number: true
 ---
 
-## whoami
+## $whoami
 
 ![](https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg)
 
-## whoami
+## $whoami
 
 - ML Engineer at Sarvam.ai
 - Volunteer @ Swathanthra Malayalam Computing (SMC)
 - Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
 - Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
-- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 370,000+ downloads.(update  latest stats on Friday)
+- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 390,000+ downloads.
 
-## whoami
+## $whoami
 
 - Kaggle expert in Notebooks and Discussions
 - FOSS and Python enthusiast
-- Writes frequently in linkedin and twitter
+- Writes frequently in linkedin(@kurianbenoy) and twitter(@kurianbenoy2)
+- Proud Mallu.
+- Knows a bit of ML, Python, Backend, Frontend, Linux, Debian.
 
 
 ## Good Taste
 
 ![](taste.png)
-
-## great open-source projects
-
-Meaning of great is: very good or very effective; excellent
-
 
 ## What is a great open-source project?
 
@@ -45,31 +42,55 @@ Meaning of great is: very good or very effective; excellent
 - Optimized for happiness
 - My favourite quote is: Journey is the Inn
 
+::: {.notes}
+Meaning of great is: very good or very effective; excellent
+:::
+
 ## Attention is all you need
 
 ![](attention_is_all_you_need.png)
 
 ## Women who inspired me
 
-- Minu Sunny (VP, Synthite Industries)
-- Dr. Anu Benoy (My mother, class 11-12 Computer science teacher)
-- Sunu Abhilash ()
-- Ammachi
+- Minu Thomas
+- Dr. Anu Benoy (My mother)
+- Sunu Abhilash
+- My Grandmother (Ammachi)
 - Dr. Kavya Manohar
-- Sumathi Thirumani (more ..)
+- Sumathi Thirumani
 
+## Diving into open-source project
 
-## My Open-source Journey
+1. `whisper_normalizer` - https://pypi.org/project/whisper-normalizer/
+2. `indicsubtitler.in` - https://github.com/kurianbenoy/Indic-Subtitler
 
-## FOSSMEC
+## About whisper_normalizer
 
-## Meeting Mario Behling
+- How it was formed?
+- Caring about Indian languages when called out
+- Getting used by projects in big companies
+- Enjoying the journey to 500K+ 
 
-## Travelling to Singapore
+## About indicsubtitler.in
 
-## Swathanthra Malayalam Computing
+- When it got build?
+- Building it with a fantastic team of Aldrin Jenson and Nabeel Boda.
+- Caring about minute details
+- Doing charity by giving H100 GPUs to my users :)
 
-## Feeling burned out
+## My Coding Journey
 
-## Building indicsubtitler.in
+- 2016 to 2019: Python, fantastic first teacher
+- 2019 to 2020: Kaggle Expert, Pycon India first time Talk, FOSSASIA OpenNights Winner, Building TTS for Malayalam(failed)
+- 2020 to 2022: Got a job in AOT Technologies, SMC first contribution
+- 2022 to 2024: Got a job in AOT Technologies, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer
+- 2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer
 
+## Few strong principles
+
+- Be opiniated, you can't please everyone in world.
+- Be a builder, work hard. 
+- Starting trusting your decisions (That is something not self-confidence bs. but instead something you should have your own capabilities)
+- Remember your roots
+
+## AMA (Ask me anything)
