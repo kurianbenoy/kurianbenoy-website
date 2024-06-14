@@ -36,10 +36,10 @@ format:
 
 ## What is a great open-source project?
 
-- <span style="color:red">It's just a project which you have done excellent job</span>
+- <span style="color:red">It's just a project which you have done excellent job.</span>
 - <span style="color:blue">Got some validation in the process of doing it. </span>
 - [Why you should be blogging](https://medium.com/@racheltho/why-you-yes-you-should-blg-7d2544ac1045)
-- My favourite quote is: Journey is the Inn
+- <span style="color:green">My favourite quote is: Journey is the Inn.</span>
 
 ::: {.notes}
 Meaning of great is: very good or very effective; excellent
@@ -78,7 +78,7 @@ Optimized for happiness - You are doing this project for joy of others and yours
 - When it got build?
 - Building it with a fantastic team of Aldrin Jenson and Nabeel Boda.
 - Caring about minute details
-- Doing charity by giving H100 GPUs to my users :)
+- <span style="color:green">Doing charity by giving H100 GPUs to my users :)</span>
 
 ## Disclaimer
 
