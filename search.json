@@ -1215,7 +1215,7 @@
     "href": "talks/code_blossom_great_open_source_projects/index.html#whoami-1",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "$whoami",
-    "text": "$whoami\n\nML Engineer at Sarvam.ai\nVolunteer @ Swathanthra Malayalam Computing (SMC)\nSpeaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.\nCreator of indicsubtitler.in and Malayalam voice models like Vegam-whisper, MalWhisper etc.\nMaintains whisper_normalizer a python packages with 390,000+ downloads."
+    "text": "$whoami\n\nML Engineer at Sarvam.ai\nVolunteer @ Swathanthra Malayalam Computing (SMC)\nSpeaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.\nCreator of indicsubtitler.in and Malayalam voice models like Vegam-whisper, MalWhisper etc.\nMaintains whisper_normalizer a python packages with 397,357+ downloads."
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#whoami-2",
@@ -1236,7 +1236,7 @@
     "href": "talks/code_blossom_great_open_source_projects/index.html#what-is-a-great-open-source-project",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "What is a great open-source project?",
-    "text": "What is a great open-source project?\n\nIt’s just a project which you have done excellent job\nWhy you should be blogging\nGot some validation in the process of doing it.\nOptimized for happiness\nMy favourite quote is: Journey is the Inn\n\n\nMeaning of great is: very good or very effective; excellent"
+    "text": "What is a great open-source project?\n\nIt’s just a project which you have done excellent job\nGot some validation in the process of doing it. \nWhy you should be blogging\nMy favourite quote is: Journey is the Inn\n\n\nMeaning of great is: very good or very effective; excellent\nOptimized for happiness - You are doing this project for joy of others and yours"
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#attention-is-all-you-need",
@@ -1257,7 +1257,7 @@
     "href": "talks/code_blossom_great_open_source_projects/index.html#diving-into-open-source-project",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "Diving into open-source project",
-    "text": "Diving into open-source project\n\nwhisper_normalizer - https://pypi.org/project/whisper-normalizer/\nindicsubtitler.in - https://github.com/kurianbenoy/Indic-Subtitler"
+    "text": "Diving into open-source project\n\nwhisper_normalizer - https://pypi.org/project/whisper-normalizer/ \nindicsubtitler.in - https://github.com/kurianbenoy/Indic-Subtitler"
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#about-whisper_normalizer",
@@ -1274,6 +1274,13 @@
     "text": "About indicsubtitler.in\n\nWhen it got build?\nBuilding it with a fantastic team of Aldrin Jenson and Nabeel Boda.\nCaring about minute details\nDoing charity by giving H100 GPUs to my users :)"
   },
   {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#disclaimer",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#disclaimer",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nI bought a lottery and became a millionare.\nEvery inspirational speech should come with a disclaimer on Survivorship bias. Also I was lucky to have so many situations in favour for me."
+  },
+  {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey",
     "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey",
     "title": "Why having a good taste is all you need to build great open-source projects",
@@ -1281,18 +1288,109 @@
     "text": "My Coding Journey\n\n2016 to 2019: Python, fantastic first teacher\n2019 to 2020: Kaggle Expert, Pycon India first time Talk, FOSSASIA OpenNights Winner, Building TTS for Malayalam(failed)\n2020 to 2022: Got a job in AOT Technologies, SMC first contribution\n2022 to 2024: Got a job in AOT Technologies, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer\n2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer"
   },
   {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-1",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-1",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-2",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-2",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-3",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-3",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey\n\nFOSSASIA Summit - Day 1\nFOSSASIA Summit - Day 2\nFOSSASIA Summit - Day 3\nFOSSASIA Summit - Day 4\nFOSSASIA Summit - Day 5"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-4",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-4",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-5",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-5",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-6",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-6",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-7",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-7",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-8",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-8",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-9",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-9",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-10",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-10",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-11",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-11",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-12",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#my-coding-journey-12",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "My Coding Journey",
+    "text": "My Coding Journey"
+  },
+  {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#few-strong-principles",
     "href": "talks/code_blossom_great_open_source_projects/index.html#few-strong-principles",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "Few strong principles",
-    "text": "Few strong principles\n\nBe opiniated, you can’t please everyone in world.\nBe a builder, work hard.\nStarting trusting your decisions (That is something not self-confidence bs. but instead something you should have your own capabilities)\nRemember your roots"
+    "text": "Few strong principles\n\nBe opiniated, you can’t please everyone in world.\nBe a builder, work hard.\nCode can be humbling\nStarting trusting your decisions\nRemember your roots\nStart every day as your first day in acting, coding, learning something new …"
+  },
+  {
+    "objectID": "talks/code_blossom_great_open_source_projects/index.html#watch-this-video-of-mamooty",
+    "href": "talks/code_blossom_great_open_source_projects/index.html#watch-this-video-of-mamooty",
+    "title": "Why having a good taste is all you need to build great open-source projects",
+    "section": "Watch this video of Mamooty",
+    "text": "Watch this video of Mamooty"
   },
   {
     "objectID": "talks/code_blossom_great_open_source_projects/index.html#ama-ask-me-anything",
     "href": "talks/code_blossom_great_open_source_projects/index.html#ama-ask-me-anything",
     "title": "Why having a good taste is all you need to build great open-source projects",
     "section": "AMA (Ask me anything)",
-    "text": "AMA (Ask me anything)"
+    "text": "AMA (Ask me anything)\n\nThanks for giving me this opportunity to speak :)"
   },
   {
     "objectID": "talks/iiit-kottayam-summit/demo.html#what-really-matters",
