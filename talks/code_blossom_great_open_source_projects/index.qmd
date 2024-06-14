@@ -19,7 +19,7 @@ format:
 - Volunteer @ Swathanthra Malayalam Computing (SMC)
 - Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.
 - Creator of [indicsubtitler.in](http://indicsubtitler.in/) and Malayalam voice models like Vegam-whisper, MalWhisper etc.
-- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 390,000+ downloads.
+- Maintains [whisper_normalizer](https://pypi.org/project/whisper-normalizer/) a python packages with 397,357+ downloads.
 
 ## $whoami
 
@@ -36,19 +36,21 @@ format:
 
 ## What is a great open-source project?
 
-- It's just a project which you have done excellent job
-- [Why you should be blogging](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
-- Got some validation in the process of doing it.
-- Optimized for happiness
+- <span style="color:red">It's just a project which you have done excellent job</span>
+- <span style="color:blue">Got some validation in the process of doing it. </span>
+- [Why you should be blogging](https://medium.com/@racheltho/why-you-yes-you-should-blg-7d2544ac1045)
 - My favourite quote is: Journey is the Inn
 
 ::: {.notes}
 Meaning of great is: very good or very effective; excellent
+
+Optimized for happiness - You are doing this project for joy of others and yours
 :::
 
 ## Attention is all you need
 
 ![](attention_is_all_you_need.png)
+
 
 ## Women who inspired me
 
@@ -61,8 +63,8 @@ Meaning of great is: very good or very effective; excellent
 
 ## Diving into open-source project
 
-1. `whisper_normalizer` - https://pypi.org/project/whisper-normalizer/
-2. `indicsubtitler.in` - https://github.com/kurianbenoy/Indic-Subtitler
+1. <span style="color:red">`whisper_normalizer` - https://pypi.org/project/whisper-normalizer/ </span>
+2. <span style="color:green">`indicsubtitler.in` - https://github.com/kurianbenoy/Indic-Subtitler </span>
 
 ## About whisper_normalizer
 
@@ -78,6 +80,11 @@ Meaning of great is: very good or very effective; excellent
 - Caring about minute details
 - Doing charity by giving H100 GPUs to my users :)
 
+## Disclaimer
+
+- <span style="color:blue">I bought a lottery and became a millionare.</span>
+- <span style="color:red">Every inspirational speech should come with a disclaimer on Survivorship bias. Also I was lucky to have so many situations in favour for me.</span>
+
 ## My Coding Journey
 
 - 2016 to 2019: Python, fantastic first teacher
@@ -86,11 +93,75 @@ Meaning of great is: very good or very effective; excellent
 - 2022 to 2024: Got a job in AOT Technologies, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer
 - 2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer
 
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1663197189294759936 >}}
+
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1180913600421978112 >}}
+
+## My Coding Journey
+
+- [FOSSASIA Summit - Day 1](https://kurianbenoy.com/posts/2019/2019-03-13-FOSSASIA-Day1.html)
+- [FOSSASIA Summit - Day 2](https://kurianbenoy.com/posts/2019/2019-03-14-FOSSASIA-Day2.html)
+- [FOSSASIA Summit - Day 3](https://kurianbenoy.com/posts/2019/2019-03-15-FOSSASIA-Day3.html)
+- [FOSSASIA Summit - Day 4](https://kurianbenoy.com/posts/2019/2019-03-16-FOSSASIA-Day4.html)
+- [FOSSASIA Summit - Day 5](https://kurianbenoy.com/posts/2019/2019-03-17-FOSSASIA-Day5.html)
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1183427495342694401 >}}
+
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1538254895211433984 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1530809059691331585 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1675881593401901057 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1783165053409309173 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1796457449551278450 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1799863654864892329 >}}
+
+## My Coding Journey
+
+{{< tweet mineralfury 1800173893233287245 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1797319601010753554 >}}
+
+
 ## Few strong principles
 
 - Be opiniated, you can't please everyone in world.
 - Be a builder, work hard. 
-- Starting trusting your decisions (That is something not self-confidence bs. but instead something you should have your own capabilities)
+- Code can be humbling
+- Starting trusting your decisions
 - Remember your roots
+- Start every day as your first day in acting, coding, learning something new ...
+
+## Watch this video of Mamooty
+
+{{< video https://www.youtube.com/embed/HPcD87gWJRk >}}
+
 
 ## AMA (Ask me anything)
+
+- Thanks for giving me this opportunity to speak :)
