@@ -129,6 +129,10 @@ Optimized for happiness - You are doing this project for joy of others and yours
 
 ## My Coding Journey
 
+{{< tweet kurianbenoy2 1770666354128941228 >}}
+
+## My Coding Journey
+
 {{< tweet kurianbenoy2 1783165053409309173 >}}
 
 ## My Coding Journey
@@ -148,7 +152,7 @@ Optimized for happiness - You are doing this project for joy of others and yours
 {{< tweet kurianbenoy2 1797319601010753554 >}}
 
 
-## Few strong principles
+## Few strong principles everyone should have IMO
 
 - Be opiniated, you can't please everyone in world.
 - Be a builder, work hard. 
@@ -159,9 +163,9 @@ Optimized for happiness - You are doing this project for joy of others and yours
 
 ## Watch this video of Mamooty
 
-{{< video https://www.youtube.com/embed/HPcD87gWJRk >}}
+{{< video https://www.youtube.com/embed/HPcD87gWJRk width=900 height=500 >}}
 
 
 ## AMA (Ask me anything)
 
-- Thanks for giving me this opportunity to speak :)
+- <span style="color:green">Thanks for giving me this opportunity to speak :)</span>
