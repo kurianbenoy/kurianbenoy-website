@@ -1,7 +1,7 @@
 ---
 title: Why having a good taste is all you need to build great open-source projects
 author: Kurian Benoy
-date: 2024-06-14
+date: 2024-06-22
 date-format: full
 comments: false
 format:
