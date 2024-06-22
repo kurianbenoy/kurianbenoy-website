@@ -151,6 +151,25 @@ Optimized for happiness - You are doing this project for joy of others and yours
 
 {{< tweet kurianbenoy2 1797319601010753554 >}}
 
+## How to contribute to open-source projects?
+
+1. Being part of existing open-source organizations or projects
+2. Building your own projects
+
+## Etiquette of contributing to open-source projects
+
+- [Read this PDF](http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf)
+- [Read book i want 2 do project. tell me wat 2 do](https://www.amazon.in/want-project-tell-wat-do/dp/9351741877)
+- Just because you came to a project, don't start recommending something completely different
+- Make good friends.
+
+## Go to lot of conferences and events
+
+- FOSSASIA partially sponsored my first trip to Singapore.
+
+![](https://miro.medium.com/v2/resize:fit:828/format:webp/1*-DEbsINPAHbsllZ3mG_AUA.jpeg)
+
+- Make more friends
 
 ## Few strong principles everyone should have IMO
 
