@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.4.557">
 
   <meta name="author" content="Kurian Benoy">
-  <title>Kurian Benoy - Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data</title>
+  <title>Kurian Benoy - ASR Survey - Whisper Style and Conformer Style</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -321,9 +321,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Kurian Benoy - Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data">
+<meta property="og:title" content="Kurian Benoy - ASR Survey - Whisper Style and Conformer Style">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data">
+<meta name="twitter:title" content="Kurian Benoy - ASR Survey - Whisper Style and Conformer Style">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
@@ -331,7 +331,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data</h1>
+  <h1 class="title">ASR Survey - Whisper Style and Conformer Style</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -341,21 +341,39 @@ Kurian Benoy
 </div>
 </div>
 
-  <p class="date">Saturday, May 11, 2024</p>
+  <p class="date">Friday, June 28, 2024</p>
 </section>
 <section id="whoami" class="slide level2">
-<h2>whoami</h2>
-
-<img data-src="https://kurianbenoy.com/posts/images/fossasia_summit_2019/my_lighting_talk.jpg" class="r-stretch"></section>
-<section id="whoami-1" class="slide level2">
-<h2>whoami</h2>
+<h2>$whoami</h2>
 <ul>
-<li>ML Engineer at Sarvam.ai</li>
-<li>Volunteer @ Swathanthra Malayalam Computing (SMC)</li>
-<li>Speaker in International conferences like FOSSASIA Summit, Pycon India, Tensorflow Usergroup India summit etc.</li>
-<li>Creator of <a href="http://indicsubtitler.in/">indicsubtitler.in</a> and Malayalam voice models like Vegam-whisper, MalWhisper etc.</li>
-<li>Maintains <a href="https://pypi.org/project/whisper-normalizer/">whisper_normalizer</a> a python packages with 217,000+ downloads.</li>
+<li>Kurian Benoy</li>
+<li>Dhruv Subhash Rathi</li>
+<li>Pechetti Sai Akhil</li>
 </ul>
+</section>
+<section id="two-predominant-styles-of-asr-models" class="slide level2">
+<h2>Two predominant Styles of ASR Models</h2>
+<ul>
+<li>Whisper Style Models. (Encoder only)</li>
+<li>Conformer Style models. (Encoder and Decoder models.)</li>
+</ul>
+</section>
+<section id="agenda-for-today" class="slide level2">
+<h2>Agenda for today</h2>
+<ul>
+<li><a href="https://cdn.openai.com/papers/whisper.pdf">Robust Speech Recognition via Large-Scale Weak Supervision</a></li>
+<li><a href="https://arxiv.org/abs/2309.13876">Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data</a></li>
+<li><a href="https://arxiv.org/abs/2305.15386">Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR</a></li>
+<li><a href="https://arxiv.org/abs/2005.08100">Conformer: Convolution-augmented Transformer for Speech Recognition</a> <!--
+- [NVIDIA NeMo Parakeet ASR Models](https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/)
+--></li>
+</ul>
+</section>
+<section id="robust-speech-recognition-via-large-scale-weak-supervision" class="slide level2">
+<h2>Robust Speech Recognition via Large-Scale Weak Supervision</h2>
+</section>
+<section id="reproducing-whisper-style-training-using-an-open-source-toolkit-and-publicly-available-data" class="slide level2">
+<h2>Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data</h2>
 </section>
 <section id="abstract-of-paper" class="slide level2">
 <h2>Abstract of paper</h2>
@@ -383,18 +401,174 @@ Kurian Benoy
 </section>
 <section id="data" class="slide level2">
 <h2>Data</h2>
+<ul>
+<li>OWSM v1: AISHELL-1, CoVoST2, GigaSpeech, LibriSpeech, MuST-C, SPGISpeech and TEDLIUM3.</li>
+<li>OWSM v2: all data in v1, GigaST, Multilingual LibriSpeech and WenetSpeech.</li>
+<li>OWSM v3: all data in v2, AIDATATANG, AMI, Babel, Common Voice, Fisher (Switchboard), Fisher Callhome Spanish, FLEURS, Googlei18n3, KsponSpeech, MagicData, ReazonSpeech, Russian Open STT, VCTK, VoxForge, VoxPopuli, and WSJ.</li>
+</ul>
 </section>
+<section id="about-dataset" class="slide level2">
+<h2>About dataset</h2>
+
+<img data-src="owsm_v1.png" class="r-stretch"></section>
 <section id="training-details" class="slide level2">
 <h2>Training Details</h2>
 </section>
-<section id="enlgish-speech-recognition" class="slide level2">
-<h2>Enlgish Speech recognition</h2>
+<section id="experiment-results-for-enlgish-speech-recognition" class="slide level2">
+<h2>Experiment results for Enlgish Speech recognition</h2>
 </section>
-<section id="multilingual-speech-recognition" class="slide level2">
-<h2>Multilingual Speech Recognition</h2>
+<section id="experiment-results-for-multilingual-speech-recognition" class="slide level2">
+<h2>Experiment results for Multilingual Speech Recognition</h2>
 </section>
-<section id="speech-translation" class="slide level2">
-<h2>Speech Translation</h2>
+<section id="experiment-results-for-speech-translation" class="slide level2">
+<h2>Experiment results for Speech Translation</h2>
+</section>
+<section id="whats-in-a-name" class="slide level2">
+<h2>What’s in a name</h2>
+<ul>
+<li>വിസ്താരം</li>
+<li>Vistaar(विस्तार) meaning broad in Hindi</li>
+<li>They propose collation of benchmarks across languages and domains/types of data. We call this Vistaar (meaning broad in Hindi) and it comprises of publicly available benchmarks across 12 languages, leading to 59 computed WER values across benchmarks and languages.</li>
+</ul>
+</section>
+<section id="abstract-of-paper-2" class="slide level2">
+<h2>Abstract of paper</h2>
+<ul>
+<li><p>The research emphasizes the need for bettering Automatic Speech Recognition (ASR) systems so that more individuals worldwide can utilize Language Model (LLM) based functionalities.</p></li>
+<li><p>The study zeroes in on Indian languages, positing that a broad array of benchmarks is crucial for gauging and improving ASR systems designed for these languages.</p></li>
+</ul>
+</section>
+<section id="abstract-of-paper-3" class="slide level2">
+<h2>Abstract of paper</h2>
+<ul>
+<li><p>In an effort to solve this issue, the researchers have compiled Vistaar - a collection of 59 benchmarks that span different language and domain combinations.</p></li>
+<li><p>The researchers also fine-tuned the IndicWhisper models using publicly available training datasets that included twelve different Indian languages, amounting to 10.7 thousand hours of data.</p></li>
+<li><p>The study demonstrated that using IndicWhisper greatly enhances the efficiency of the considered Automatic Speech Recognition (ASR) systems when tested using the Vistaar benchmarking tool.</p></li>
+</ul>
+</section>
+<section id="abstract-of-paper-4" class="slide level2">
+<h2>Abstract of paper</h2>
+<ul>
+<li><p>In fact, IndicWhisper scored the lowest Word Error Rate (WER) in 39 out of the 59 tested benchmarks, an average reduction of 4.1 WER, demonstrating its noteworthy precision in interpreting spoken words.</p></li>
+<li><p>Furthermore, in an effort to contribute to the broader research community, the team decided to make all datasets, computer codes, and models openly available and accessible via a GitHub link they provided: https://github.com/AI4Bharat/vistaar.</p></li>
+</ul>
+</section>
+<section id="interspeech-2023-conference" class="slide level2">
+<h2>Interspeech 2023 conference</h2>
+
+<img data-src="../ai4bharat_paper_reading/interspeech.png" class="r-stretch"></section>
+<section id="authors-of-paper-1" class="slide level2">
+<h2>Authors of paper</h2>
+<ul>
+<li>Kaushal Santosh Bhogale (PHD Scholar @ IIT Madras)</li>
+<li>Sai Sundaresan (BTECH Student @ IIT Kharagpur)</li>
+<li>Abhigyan Raman (Founding Engineer @ Sarvam.ai)</li>
+<li>Tahir Javed (PHD Scholar @ IIT Madras)</li>
+<li>Mitesh M. Khapra (Professor @ IIT Madras)</li>
+<li>Pratyush Kumar (Co-founder @ Sarvam.ai)</li>
+</ul>
+</section>
+<section id="vistaar-dataset-diversity" class="slide level2">
+<h2>Vistaar Dataset Diversity</h2>
+
+<img data-src="../ai4bharat_paper_reading/dataset_info.png" class="r-stretch"></section>
+<section id="vistaar-dataset-comprises-of" class="slide level2">
+<h2>Vistaar Dataset comprises of</h2>
+<ol type="1">
+<li>Traininig dataset</li>
+<li>Benchmarking set</li>
+</ol>
+</section>
+<section id="training-dataset" class="slide level2">
+<h2>Training Dataset</h2>
+<ol type="1">
+<li>Shrutlipi</li>
+<li>NPTEL</li>
+<li>IISc-MILE</li>
+<li>IIIB-MSR</li>
+<li>Vakyasancayah</li>
+<li>GoogleTTS</li>
+<li>IIIT IndicSpeech</li>
+</ol>
+</section>
+<section id="benchmarking-dataset" class="slide level2">
+<h2>Benchmarking Dataset</h2>
+<ol type="1">
+<li>Kathbath</li>
+<li>Kathbath-hard</li>
+<li>FLEURS</li>
+<li>CommonVoice</li>
+<li>IndicTTS</li>
+<li>MUCS</li>
+<li>GramVaani</li>
+</ol>
+</section>
+<section id="collated-dataset-diversity-across-languages-and-duration" class="slide level2">
+<h2>Collated dataset diversity across languages and duration</h2>
+
+<img data-src="../ai4bharat_paper_reading/dataset_table1.png" class="r-stretch"></section>
+<section id="indic-whisper" class="slide level2">
+<h2>Indic Whisper</h2>
+<ol type="1">
+<li><p>To illustrate the effectiveness of the improved Automatic Speech Recognition (ASR) models on the Vistaar-train dataset, the researchers had to make deliberate choices regarding the model architecture. They decided to settle on the Whisper models from OpenAI due to their noticeable enhanced performance.</p></li>
+<li><p>The researchers’ choice was guided by the satisfactory results from the Hindi language using portions of the training data. The Whisper models demonstrated a significant decrease in the Word Error Rate (WER), surpassing all other model architectures.</p></li>
+</ol>
+</section>
+<section id="indic-whisper-1" class="slide level2">
+<h2>Indic Whisper</h2>
+<ol start="3" type="1">
+<li>For each of the 12 languages, the researchers meticulously adjusted the ‘Whisper-medium’ model using the Vistaar-train. This methodical fine-tuning ensured the model was well-suited and effective for each language.</li>
+</ol>
+</section>
+<section id="asr-systems-compared" class="slide level2">
+<h2>ASR Systems Compared</h2>
+<ul>
+<li>IndicWav2Vec</li>
+<li>Nvidia-medium</li>
+<li>Nvidia-large</li>
+<li>Google STT</li>
+<li>Azure STT</li>
+</ul>
+</section>
+<section id="performance-of-indic-whisper-in-hindi" class="slide level2">
+<h2>Performance of Indic Whisper in hindi</h2>
+
+<img data-src="../ai4bharat_paper_reading/indic_whisper1.png" class="r-stretch"></section>
+<section id="indic-whisper-multiple-languages" class="slide level2">
+<h2>Indic Whisper Multiple languages</h2>
+
+<img data-src="../ai4bharat_paper_reading/indic_whisper2.png" class="r-stretch"></section>
+<section id="lets-look-the-source-code" class="slide level2">
+<h2>Let’s look the source code</h2>
+<ul>
+<li>training.py</li>
+<li>evaluation.py</li>
+<li>transcribe.py</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li><p>The researchers argue that to improve IndicASR, different ASR systems need to be tested on a varied set of benchmarks. These benchmarks should cover different languages and types of data.</p></li>
+<li><p>To demonstrate this, they use the Vistaar benchmark, a tool they created to compare the effectiveness of various ASR systems.</p></li>
+<li><p>The team also present their IndicWhisper models, which build upon OpenAI’s Whisper models. These were further developed using the Vistaar-training set, which includes over 10,000 hours of data in 12 Indian languages.</p></li>
+</ul>
+</section>
+<section id="conclusion-1" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li><p>The IndicWhisper models have achieved noticeably lower Word Error Rate (WER) across a wide range of benchmarks, showing their high level of performance.</p></li>
+<li><p>By sharing their findings, the goal is to contribute to the development of more advanced models for automatic speech recognition, particularly for languages spoken in India.</p></li>
+</ul>
+</section>
+<section id="parting-thoughts" class="slide level2">
+<h2>Parting thoughts</h2>
+<ul>
+<li>My MTech Final thesis story</li>
+</ul>
+</section>
+<section id="conformer-convolution-augmented-transformer-for-speech-recognition" class="slide level2">
+<h2>Conformer: Convolution-augmented Transformer for Speech Recognition</h2>
 </section>
 <section id="thank-you" class="slide level2">
 <h2>Thank you</h2>
