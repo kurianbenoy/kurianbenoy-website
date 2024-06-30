@@ -1,0 +1,87 @@
+---
+title: My Ongoing Journey after learning to Code.
+description: Blog version of my talk at CodeBloosom event.
+draft: true
+author: Kurian Benoy
+date: 2024-07-01
+date-format: full
+comments: false
+website:
+  title: ""
+---
+
+I have been wanting to get back to blogging for a while. It's been really hard to do that now but someone
+inspired me so much to write something even for the sake of writing. Someone in fast.ai community who
+has been following my work for a while, once asked me to write about my coding journey sometime in start of 
+May after I joined Sarvam.ai. Personally I didn't want to do that, as I felt my journey is something which is
+ongoing rather than something which has been achieved.
+
+Yet recently [Simrat Hanspal](), who is a GenAI leader at Hasura reached out to me and asked me to give a
+talk in Codebloosom evet. Simrat was my mentor at our [IndicSubtitler](indicsubtitler.in) and helped us with
+ideas when we where starting to build. One of the girls whom she was mentoring told her about our open-source project
+and she want to share  my experience. I gave a very bold title for my talk and titled as
+ Why having good taste is all you need to build great open-source projects.
+
+This blogpost is a written excrept of my coding journey which I shared there.
+
+## Timelines
+
+- 2016 to 2019: Python, fantastic first teacher
+- 2019 to 2020: Kaggle Expert, Pycon India first time Talk, FOSSASIA OpenNights Winner, Building TTS for Malayalam(failed)
+- 2020 to 2022: Got a job in AOT Technologies, SMC first contribution
+- 2022 to 2024: Got a job in AOT Technologies, Spoke in Pycon India thrice by then, FOSSASIA once more, started whisper_normalizer
+- 2024: indicsubtitler building, whisper_normalizer became popular, Got a job at sarvam.ai as ML Engineer
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1663197189294759936 >}}
+{{< tweet kurianbenoy2 1180913600421978112 >}}
+
+## My Coding Journey
+
+- [FOSSASIA Summit - Day 1](https://kurianbenoy.com/posts/2019/2019-03-13-FOSSASIA-Day1.html)
+- [FOSSASIA Summit - Day 2](https://kurianbenoy.com/posts/2019/2019-03-14-FOSSASIA-Day2.html)
+- [FOSSASIA Summit - Day 3](https://kurianbenoy.com/posts/2019/2019-03-15-FOSSASIA-Day3.html)
+- [FOSSASIA Summit - Day 4](https://kurianbenoy.com/posts/2019/2019-03-16-FOSSASIA-Day4.html)
+- [FOSSASIA Summit - Day 5](https://kurianbenoy.com/posts/2019/2019-03-17-FOSSASIA-Day5.html)
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1183427495342694401 >}}
+
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1538254895211433984 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1530809059691331585 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1675881593401901057 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1770666354128941228 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1783165053409309173 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1796457449551278450 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1799863654864892329 >}}
+
+## My Coding Journey
+
+{{< tweet mineralfury 1800173893233287245 >}}
+
+## My Coding Journey
+
+{{< tweet kurianbenoy2 1797319601010753554 >}}
