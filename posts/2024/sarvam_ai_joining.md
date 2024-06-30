@@ -1,5 +1,5 @@
 ---
-title: I am joining as ML Engineer to build Full-Stack GenAI @ Sarvam AI
+title: I am joining as ML Engineer to build Full-Stack GenAI at Sarvam AI
 date: 2024-04-25
 author: "Kurian Benoy"
 type: post
