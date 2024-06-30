@@ -10,7 +10,35 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.4.557</generator>
-<lastBuildDate>Tue, 23 Apr 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 25 Apr 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>I am joining as ML Engineer to build Full-Stack GenAI at Sarvam AI</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2024/sarvam_ai_joining.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m really excited to share with all of you that I have joined as an ML engineer at Sarvam AI today to build full-stack GenAI applications for Indian languages. I would like to first of all thank my parents (Benoy K Kuriakose and Dr.&nbsp;Anu Thomas), my sister and grandmother. You were there with me in all my ups and downs. I am really happy to make you proud.</p>
+<p>Secondly, I have to thank the people who got me interested in Malayalam computing. Santhosh Thottingal in his keynote at MEC.Conf in 2019, told us why working in Malayalam language is so valuable. Lot of people have helped and encouraged me to work in Malayalam language namely Dr.&nbsp;Kavya Manohar, Santhosh Thottingal, Dr.&nbsp;Manu Madhavan and Dr.&nbsp;Alex Strick van Linschoten. Members of Swathanthra Malayalam Computing was a constant suppport.</p>
+<p>A big thanks to my ML Guruji Jeremy Howard (fast.ai courses where so great), members of various communities I was involved like FOSS, Python etc. Similarly I am pursuing my master from IIIT Kottayam, my bachelors was from Govt Model Engineering College and I studied my school at St Peters. The list of teachers and folks who helped me in every place is immense, so not naming everyone. And last but not least, I would like to thank Almighty God for his grand plans for me.</p>
+<p>Also I am really thankful for the trust founders of Sarvam.ai Vivek Raghavan and Pratyush Kumar put in me to join their organization. Also special shout out to Saurabh Karn and Abhigyan Raman for make the whole interview process so special.</p>
+<p>The above message was posted originally in Linkedin <sup>1</sup></p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>https://www.linkedin.com/posts/kurianbenoy_im-really-excited-to-share-with-all-of-you-activity-7188928556209451008-IwLc↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://kurianbenoy.com/posts/2024/sarvam_ai_joining.html</guid>
+  <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>My journey with Sentient.io ends</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -377,9 +405,9 @@
 </section>
 <section id="tweets" class="level2">
 <h2 class="anchored" data-anchor-id="tweets">Tweets</h2>
-<p></p><div id="tweet-27233"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27233").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-87733"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-87733").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-77837"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-77837").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-35250"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-35250").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-12703"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-12703").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-13617"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-13617").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -486,7 +514,7 @@
 <figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-67207"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-67207").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-47715"></div><script>tweet={"url":"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208","author_name":"FOSS United Kochi","author_url":"https:\/\/twitter.com\/FOSSUnitedKochi","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; FOSS United Kochi (@FOSSUnitedKochi) \u003Ca href=\"https:\/\/twitter.com\/FOSSUnitedKochi\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-47715").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1154,46 +1182,6 @@ for their intended purposes.</code></pre>
   <guid>https://kurianbenoy.com/posts/2023/jeremy_habits/</guid>
   <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/posts/2023/jeremy_habits/jh-head.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>🐦Learning more about birds and bird calls with Merlin app</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/BirdCLEF2023/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I recently went for a bird watching adventure in <a href="https://en.wikipedia.org/wiki/Salim_Ali_Bird_Sanctuary">Salim Ali Bird Sanctuary</a>, Thattekad Kerala, India. During that time, my guide was very proficient in identifying birds by just hearing sounds. In Salim Ali bird sanctuary itself there are almost 300 species of land birds and another 100+ species of water birds.</p>
-<p>I was genuinely curious, how they learned about all these birds and memorized all these. This is when my guide talked about the Merlin app, which can help in learning more about various species of bird.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xmSUOLxyatY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Video Explaining functionality of Merlin</p>
-<p>You can download it from <a href="https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673">Apple App store</a> or <a href="https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app&amp;hl=en&amp;gl=US">Google Playstore</a> for your android phones. Learn more about Merlin app in this <a href="https://merlin.allaboutbirds.org/.">link</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2Fc0fa9ac858406ddcc9f644fc53054642%2FWhatsApp%20Image%202023-03-20%20at%209.25.36%20AM.jpeg?generation=1679301145365560&amp;alt=media" class="img-fluid figure-img" width="500"></p>
-<figcaption>A photo during my bird walking trek</figcaption>
-</figure>
-</div>
-<p><a href="https://en.wikipedia.org/wiki/Sri_Lanka_frogmouth">The below image is Ceylon Frogmouth which is a rare bird in my region</a></p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F1310697%2F2e84ee1ef3b246d9bcee2cd5757f4a05%2FWhatsApp%20Image%202023-03-20%20at%209.25.45%20AM.jpeg?generation=1679301247043893&amp;alt=media" class="img-fluid figure-img" width="300"></p>
-<figcaption>Ceylon Frogmouth</figcaption>
-</figure>
-</div>
-<p>Note: This article was originally published in <a href="https://www.kaggle.com/competitions/birdclef-2023/discussion/396029#2188836">Kaggle discussion here</a></p>
-
-
-
- ]]></description>
-  <category>kaggle</category>
-  <category>experience</category>
-  <category>Travel</category>
-  <guid>https://kurianbenoy.com/posts/2023/BirdCLEF2023/</guid>
-  <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.com/posts/images/bird.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
