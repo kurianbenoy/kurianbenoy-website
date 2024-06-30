@@ -4,6 +4,7 @@ date: 2024-04-23
 author: "Kurian Benoy"
 type: post
 image: /posts/images/sentient/IMG_20230411_170049706_MP_resize.jpg
+comments: false
 ---
 
 ![Selfie in front of Singapore sentient.io office with Zhang Qiao and Solomon Sim](/posts/images/sentient/IMG_20230411_170049706_MP_resize.jpg)

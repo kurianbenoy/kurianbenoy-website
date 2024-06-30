@@ -3,7 +3,7 @@ title: I am joining as ML Engineer to build Full-Stack GenAI @ Sarvam AI
 date: 2024-04-25
 author: "Kurian Benoy"
 type: post
-draft: true
+comments: false
 ---
 
 I'm really excited to share with all of you that I have joined as an ML engineer at Sarvam AI today to build full-stack GenAI applications for Indian languages. I would like to first of all thank my parents (Benoy K Kuriakose and Dr. Anu Thomas), my sister and grandmother. You were there with me in all my ups and downs. I am really happy to make you proud.

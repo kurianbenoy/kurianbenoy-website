@@ -4,6 +4,7 @@ date: 2024-03-18
 author: "Kurian Benoy"
 type: post
 image: /posts/images/grok_cover.png
+comments: false
 ---
 
 Hello everyone, this is Kurian posting about some interesting things which happend in the AI world in last week.
