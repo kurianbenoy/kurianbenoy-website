@@ -1,8 +1,9 @@
 ---
-title: I am joining as ML Engineer to build Full-Stack GenAI at Sarvam AI
+title: I am joining as ML Engineer to build Full-Stack GenAI at Sarvam.ai
 date: 2024-04-25
 author: "Kurian Benoy"
 type: post
+image: /posts/images/sarvam_joining.jpeg
 comments: false
 ---
 
@@ -21,5 +22,7 @@ A big thanks to my ML Guruji Jeremy Howard (fast.ai courses where so great), mem
 Also I am really thankful for the trust founders of Sarvam.ai Vivek Raghavan and Pratyush Kumar put in me to join their organization. Also special shout out to Saurabh Karn and Abhigyan Raman for make the whole interview process so special.
 
 The above message was posted originally in Linkedin [^1]
+
+<img src="/posts/images/sarvam_joining.jpeg" width="450" alt="Kurian Benoy smiling and posing in front of Sarvam.ai logo in bangalore office">
 
 [^1]: https://www.linkedin.com/posts/kurianbenoy_im-really-excited-to-share-with-all-of-you-activity-7188928556209451008-IwLc
