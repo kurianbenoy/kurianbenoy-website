@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.557">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kurian Benoy">
 <meta name="dcterms.date" content="2022-05-23">
 
-<title>Kurian Benoy - Quickly trying out a NLP model for Kaggle Competition</title>
+<title>Quickly trying out a NLP model for Kaggle Competition – Kurian Benoy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,10 +110,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Kurian Benoy - Quickly trying out a NLP model for Kaggle Competition">
+<meta property="og:title" content="Quickly trying out a NLP model for Kaggle Competition – Kurian Benoy">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - Quickly trying out a NLP model for Kaggle Competition">
+<meta name="twitter:title" content="Quickly trying out a NLP model for Kaggle Competition – Kurian Benoy">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -130,7 +130,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -169,7 +169,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -671,32 +671,7 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
   Instantaneous batch size per device = 8
   Total train batch size (w. parallel, distributed &amp; accumulation) = 8
   Gradient Accumulation steps = 1
-  Total optimization steps = 2142
-Saving model checkpoint to test-trainer/checkpoint-500
-Configuration saved in test-trainer/checkpoint-500/config.json
-Model weights saved in test-trainer/checkpoint-500/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-500/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-500/special_tokens_map.json
-Saving model checkpoint to test-trainer/checkpoint-1000
-Configuration saved in test-trainer/checkpoint-1000/config.json
-Model weights saved in test-trainer/checkpoint-1000/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-1000/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-1000/special_tokens_map.json
-Saving model checkpoint to test-trainer/checkpoint-1500
-Configuration saved in test-trainer/checkpoint-1500/config.json
-Model weights saved in test-trainer/checkpoint-1500/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-1500/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-1500/special_tokens_map.json
-Saving model checkpoint to test-trainer/checkpoint-2000
-Configuration saved in test-trainer/checkpoint-2000/config.json
-Model weights saved in test-trainer/checkpoint-2000/pytorch_model.bin
-tokenizer config file saved in test-trainer/checkpoint-2000/tokenizer_config.json
-Special tokens file saved in test-trainer/checkpoint-2000/special_tokens_map.json
-
-
-Training completed. Do not forget to share your model on huggingface.co/models =)
-
-</code></pre>
+  Total optimization steps = 2142</code></pre>
 </div>
 <div class="cell-output cell-output-display">
 
@@ -734,13 +709,40 @@ Training completed. Do not forget to share your model on huggingface.co/models =
 </table>
 <p>
 </p></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Saving model checkpoint to test-trainer/checkpoint-500
+Configuration saved in test-trainer/checkpoint-500/config.json
+Model weights saved in test-trainer/checkpoint-500/pytorch_model.bin
+tokenizer config file saved in test-trainer/checkpoint-500/tokenizer_config.json
+Special tokens file saved in test-trainer/checkpoint-500/special_tokens_map.json
+Saving model checkpoint to test-trainer/checkpoint-1000
+Configuration saved in test-trainer/checkpoint-1000/config.json
+Model weights saved in test-trainer/checkpoint-1000/pytorch_model.bin
+tokenizer config file saved in test-trainer/checkpoint-1000/tokenizer_config.json
+Special tokens file saved in test-trainer/checkpoint-1000/special_tokens_map.json
+Saving model checkpoint to test-trainer/checkpoint-1500
+Configuration saved in test-trainer/checkpoint-1500/config.json
+Model weights saved in test-trainer/checkpoint-1500/pytorch_model.bin
+tokenizer config file saved in test-trainer/checkpoint-1500/tokenizer_config.json
+Special tokens file saved in test-trainer/checkpoint-1500/special_tokens_map.json
+Saving model checkpoint to test-trainer/checkpoint-2000
+Configuration saved in test-trainer/checkpoint-2000/config.json
+Model weights saved in test-trainer/checkpoint-2000/pytorch_model.bin
+tokenizer config file saved in test-trainer/checkpoint-2000/tokenizer_config.json
+Special tokens file saved in test-trainer/checkpoint-2000/special_tokens_map.json
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+</code></pre>
+</div>
 <div class="cell-output cell-output-display" data-execution_count="33">
 <pre><code>TrainOutput(global_step=2142, training_loss=0.3674473464210717, metrics={'train_runtime': 184.9649, 'train_samples_per_second': 92.596, 'train_steps_per_second': 11.581, 'total_flos': 222000241127892.0, 'train_loss': 0.3674473464210717, 'epoch': 3.0})</code></pre>
 </div>
 </div>
 <div id="2bb02fcb-68d9-4c7b-8842-5ed26b1965f3" class="cell" data-execution_count="34">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>preds <span class="op">=</span> trainer.predict(eval_ds).predictions.astype(<span class="bu">float</span>)</span>
-<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>preds</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>preds <span class="op">=</span> trainer.predict(eval_ds).predictions.astype(<span class="bu">float</span>)</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>preds</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>The following columns in the test set don't have a corresponding argument in `DebertaV2ForSequenceClassification.forward` and have been ignored: location, text, id, input, keyword. If location, text, id, input, keyword are not expected by `DebertaV2ForSequenceClassification.forward`,  you can safely ignore this message.
 ***** Running Prediction *****
@@ -810,18 +812,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -853,7 +844,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/kurianbenoy\.com");
@@ -861,7 +874,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

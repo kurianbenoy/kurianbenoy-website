@@ -9,10 +9,10 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.557">
+  <meta name="generator" content="quarto-1.5.54">
 
   <meta name="author" content="Kurian Benoy">
-  <title>Kurian Benoy - OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue</title>
+  <title>Kurian Benoy – OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -71,7 +71,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -85,7 +85,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -388,10 +388,10 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Kurian Benoy - OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue">
+<meta property="og:title" content="OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue – Kurian Benoy">
 <meta property="og:description" content="📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Kurian Benoy - OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue">
+<meta name="twitter:title" content="OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated on my mother-tongue – Kurian Benoy">
 <meta name="twitter:description" content="📍 FOSS Meetup, Kochi @ KeyValue, Smart Kochi.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -559,7 +559,7 @@ Kurian Benoy
 <img data-src="../fossasia2023/fine_tune.png" width="300" class="r-stretch quarto-figure-center"><p class="caption">Picture from <a href="course.fast.ai/">fast.lesson</a> covering steps in finetuning a text classifier model</p></section>
 <section id="fine-tuning-is-still-relevant" class="slide level2">
 <h2>Fine tuning is still relevant</h2>
-<p></p><div id="tweet-85849"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-85849").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-93779"></div><script>tweet={"url":"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712","author_name":"Wayde Gilliam","author_url":"https:\/\/twitter.com\/waydegilliam","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E“Fine-tuning is the new training” should sound familiar to any \u003Ca href=\"https:\/\/twitter.com\/fastdotai?ref_src=twsrc%5Etfw\"\u003E@fastdotai\u003C\/a\u003E folks, we’ll, since forever.  Agreed. \u003Ca href=\"https:\/\/t.co\/FuqbSB8fNr\"\u003Ehttps:\/\/t.co\/FuqbSB8fNr\u003C\/a\u003E\u003C\/p\u003E&mdash; Wayde Gilliam (@waydegilliam) \u003Ca href=\"https:\/\/twitter.com\/waydegilliam\/status\/1641228571611123712?ref_src=twsrc%5Etfw\"\u003EMarch 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-93779").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="what-are-steps-for-fine-tuning-whisper" class="slide level2">
 <h2>What are steps for fine-tuning Whisper?</h2>
@@ -846,11 +846,11 @@ Kurian Benoy
 <img data-src="../iiit-kottayam-summit/cv_cer.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error Rate in Common Voice-9 test split</p></section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-80896"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDCBB","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDCBB (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-80896").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-49804"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDCBB","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDCBB (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-49804").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<p></p><div id="tweet-61741"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-61741").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-25797"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-25797").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="results-on-benechmarking-in-malayalam-speech-corpus-dataset" class="slide level2">
 <h2>Results on benechmarking in Malayalam Speech Corpus dataset</h2>
@@ -921,8 +921,7 @@ Kurian Benoy
 <li>Other members in <a href="https://smc.org.in/">SMC</a>.</li>
 <li><a href="cloud.jarvislabs.ai/">Jarvis Labs</a></li>
 </ol>
-</div>
-</div>
+</div></div>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -1178,18 +1177,7 @@ Kurian Benoy
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1221,7 +1209,29 @@ Kurian Benoy
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/kurianbenoy\.com");
@@ -1229,7 +1239,7 @@ Kurian Benoy
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
