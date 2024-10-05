@@ -6,7 +6,6 @@ author: Kurian Benoy
 date: 2024-07-31
 toc-location: right-body
 toc-title: Table Of Contents
-comments: false
 website:
   title: ""
 ---
@@ -37,20 +36,19 @@ This blogpost is a written excrept of my coding journey which I shared during my
 
 ## My Journey from 2016 to 2019
 
+Just like a lot of students
+
 {{< tweet kurianbenoy2 1663197189294759936 >}}
 
-## My Journey from 2019 to 2020
-
 {{< tweet kurianbenoy2 1180913600421978112 >}}
+
+{{< tweet kurianbenoy2 1183427495342694401 >}}
 
 - [FOSSASIA Summit - Day 1](https://kurianbenoy.com/posts/2019/2019-03-13-FOSSASIA-Day1.html)
 - [FOSSASIA Summit - Day 2](https://kurianbenoy.com/posts/2019/2019-03-14-FOSSASIA-Day2.html)
 - [FOSSASIA Summit - Day 3](https://kurianbenoy.com/posts/2019/2019-03-15-FOSSASIA-Day3.html)
 - [FOSSASIA Summit - Day 4](https://kurianbenoy.com/posts/2019/2019-03-16-FOSSASIA-Day4.html)
 - [FOSSASIA Summit - Day 5](https://kurianbenoy.com/posts/2019/2019-03-17-FOSSASIA-Day5.html)
-
-
-{{< tweet kurianbenoy2 1183427495342694401 >}}
 
 
 ## My Coding Journey from 2020 to 2022
