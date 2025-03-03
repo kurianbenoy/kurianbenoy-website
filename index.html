@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-822a40d90ee3680e0b550deac7cd713f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -193,8 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I am working as an ML Engineer building Full-Stack GenAI @ <a href="https://www.sarvam.ai/">Sarvam.ai</a>. I have multiple years of experience in Python and Machine learning experience. I have contributed to various open source organizations like Swathanthra Malayalam Computing, FOSSASIA, Keras, DVC, HuggingFace, fast.ai, CloudCV etc.</p>
 <p>I like to speak and interact with developer community. I am an active member of <a href="https://forums.fast.ai/u/kurianbenoy/summary">fast.ai community</a> and engage in lot of other communities based in Kerala. I have given talk thrice as expert in competence of Machine Learning and core Python in <a href="https://in.pycon.org">Pycon India</a>, which is the largest gathering of Pythonistas in India for the Python programming language.</p>
 <p>I believe in the old Malayalam proverb, “അണ്ണാൻ കുന്നിനും തന്നാലാവത്”. In English it translates to this meaning - “Even a squirrel does what it can do it’s best of abilities, similarly we should also strive to do everything to best of our abilities.”.</p>
-<p>Smash that donate button like a true superstar, your contribution to help my work by buying me a coffee would be absolutely pixel-perfect amazing. <a href="https://www.buymeacoffee.com/kurianbkk8"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-Donate-green.svg" class="img-fluid" alt="Buy me a coffee"></a></p>
-<p>I am quite easy to reach out via <a href="mailto:kurian.bkk@gmail.com">email</a>.</p>
+<p>I am quite easy to reach out via <a href="mailto:kurian.bkk@gmail.com">email</a> or via various social media handles.</p>
 
 
 </section>
@@ -276,8 +275,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -388,7 +385,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
