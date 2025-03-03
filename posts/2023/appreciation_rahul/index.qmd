@@ -2,17 +2,8 @@
 title: "I got a positive compliment"
 author: Kurian Benoy
 date: 2023-05-19
-draft: true
 categories: [myself]
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
-
-[HallaBol Image]
 
 I was supposed to write something before this article. Yet I stopped that and thought about writing an appreciating post to my Gym trainer Rahul. During my work-out session at the GYM, one day my
 trainer said Kurian your Calf(which is muscle in our legs) is excellent. Lot of people train very hard to achieve it, yet he said he hasn't seen anyone with excellent Calfs like mine.
