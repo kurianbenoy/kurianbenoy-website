@@ -6,12 +6,6 @@ date: 2023-04-15
 date-format: full
 categories: [myself, life]
 lang: en
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
 
 1. Experience with Oracle developers
