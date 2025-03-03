@@ -8,12 +8,6 @@ categories: [Malayalam, SMC, "Talk Page", meetup]
 lang: en
 comments: false
 image: https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
 
 ## Links to talk
