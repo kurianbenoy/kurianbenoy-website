@@ -41,7 +41,5 @@ in [Pycon India](https://in.pycon.org), which is the largest gathering of Python
 
 I believe in the old Malayalam proverb, "അണ്ണാൻ കുന്നിനും തന്നാലാവത്". In English it translates to this meaning - "Even a squirrel does what it can do it's best of abilities, similarly we should also strive to do everything to best of our abilities.".
 
-Smash that donate button like a true superstar, your contribution to help my work by buying me a coffee would be absolutely pixel-perfect amazing. [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Donate-green.svg)](https://www.buymeacoffee.com/kurianbkk8)
+I am quite easy to reach out via [email](mailto:kurian.bkk@gmail.com) or via various social media handles.
 
-I am quite easy to reach out via [email](mailto:kurian.bkk@gmail.com).
- 
