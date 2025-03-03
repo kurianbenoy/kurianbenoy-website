@@ -9,12 +9,6 @@ lang: en
 toc: true
 image: kurian_pycon_2023.jpeg
 comments: false
-format:
-  html:
-    highlight-style: a11y
-    theme:
-      light: flatly
-      dark: darkly
 ---
 
 ## Links to talk
