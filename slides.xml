@@ -9,7 +9,7 @@
 <link>https://kurianbenoy.com/slides.html</link>
 <atom:link href="https://kurianbenoy.com/slides.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.42</generator>
+<generator>quarto-1.6.43</generator>
 <lastBuildDate>Fri, 28 Jun 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title></title>
@@ -117,7 +117,7 @@
   <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
-  <pubDate>Mon, 03 Mar 2025 20:26:09 GMT</pubDate>
+  <pubDate>Sat, 05 Apr 2025 11:21:00 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -125,7 +125,7 @@
   <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
-  <pubDate>Mon, 03 Mar 2025 20:26:09 GMT</pubDate>
+  <pubDate>Sat, 05 Apr 2025 11:21:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
