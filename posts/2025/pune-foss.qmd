@@ -8,7 +8,7 @@ draft: false
 
 It's been a long time since, I published a blog post. It's almost been 1 year before I posted my [Sarvam joining blogpost](https://kurianbenoy.com/posts/2024/sarvam_ai_joining.html).
 But I just thought, let me write a blog post about [Pune FOSS 3.0  Conference event](https://fossunited.org/c/pune/punefoss3)
-as one of the panelist - Mukta Aphale, said having a blog is one of the ways to stand out. Yet it also for me a way to check point one of my 
+as one of the panelist - [Mukta Aphale](https://www.linkedin.com/in/muktaa/), said having a blog is one of the ways to stand out. Yet it also for me a way to check point one of my 
 goals for this year which is to travel a few cities in India. So this year till now, I have travelled 5 cities so far
 which is Mysore, Kozhikode, Ooty, Chennai and now Pune.
 
@@ -28,6 +28,31 @@ FOSS Community for a long time. I am so excited about what he will do in FOSS Un
 
 We had a nice lunch, with some small papads, roti, fruits, two variety of curries, butter milk etc. It's crazy how well FOSS United, which is 
 a non-profit organization is having such a nice event. This was followed by a panel discussion on Beyond the Buzzwords and Figuring Out Career Growth: Challenges, Choices & FOSS.
+
+The panel discussion on Beyond the Buzzword featured Vipul A M, Mukta Aphale, Aditya Godbole and was moderated by Chinmay Naik. There was lot of
+discussion of what AI tools are doing now. Also people where saying what previous buzzwords like Blockchain, Bitcoin, and how cloud panned out. One of the things, which was widely discussed for succeeding in career was like ⁠Be so good at what you are describing in your day to day job.
+If you can describe what you are working to your grandparents or someone in your family, you will be so good in it. Blogging was encouraged by
+folks like Mukta and Aditya. 
+
+Folks even described what they looked in a candidate for the interview. Some folks like Mukta looked into blogs, github profile etc. While Aditya
+told he never cared about github profile, and all he cares during hiring is a what he is described in Marathi as `Do you have the kida?`. He looks into the depth of candidate and Do you enjoy the jouney or khidey? Rest of things like how good you do the coding and talking also matters.
+
+Communication is very important and Vipul was saying for consulting companies, your bread and butter of consulting is communicating. How efficently
+you communicate and help client matter a lot. Almost 90% of skills in companies involve communicating. Articulate your work and take it properly to higher management is very important. Vipul said, sometime even 15-20% of his day is sometimes gone communicating properly, correcting gramatical
+mistakes in client communication. Even while writing code, communication is very important.
+
+Empathy is a must have skill. Especially in product companies, figuring out whom you are solving the problem and what does customer needs is also important. In team also, it’s very important. Being kind and emphatetic to your fellow team mates is very important. In the other panel, also similar topics where discussed. Just because you are active in FOSS projects, it might not directly help you get jobs. But FOSS project helps you show that you are really passionate about your coding which folks find very helpful when translating to real world jobs.
+
+Another interesting talk, which I found pretty cool was `Why I didn’t sell endoflife.date` by Nemo. So a bit about [endoflife.date website](https://endoflife.date/), which is an informational website about 400+ products which gives concise information about open-source and closed-source projects which are popular like Kubernetees, Apple watch, iphones etc. This website has per month about 9 million impression, 200K clicks and consumes almost 1TB bandwidth. He shared how it was manually done for like 1 year, but then he started automating project so release fixes are automatically mentioned in the project. So that he needn't always manually check for things in upstream website. Few folks, came to buy this website. But he didn't sell as he never trusted them to be someone like him who cares deeply about the project.
+
+Also he talked about how you should have proper guiding principles, contributor guidelines for open-source project. He also talked about  what folks 
+should do to build great open-source project.
+
+{{< video https://www.youtube.com/embed/hDMwW3qPp7o >}}
+
+The session was wrapped by organizers, by thanking everyone. It was nice talking to all the folks and coming to a new city for attending such a nice talk.
+
+
 
 
 
