@@ -1,6 +1,6 @@
 ---
 title: Attending Pune FOSS 3.0 Conference
-date: 2025-05-14
+date: 2025-04-14
 date-format: full
 lang: en
 toc: true
