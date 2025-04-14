@@ -17,7 +17,7 @@ I thought I’d write a post about the Pune FOSS 3.0 Conference. One of the pane
 
 ### My Experience at Pune FOSS 3.0
 
-The idea to attend this conference came from a conversation with [Rahul, CEO of FOSS United,]((https://fossunited.org/u/rahulporuri) who suggested that if I wanted to visit more cities, I should check out FOSS United events. He mentioned there would be several events this summer, and I saw that both PuneFOSS and MumbaiFOSS are happening in April 2025.
+The idea to attend this conference came from a conversation with [Rahul, CEO of FOSS United,](https://fossunited.org/u/rahulporuri) who suggested that if I wanted to visit more cities, I should check out FOSS United events. He mentioned there would be several events this summer, and I saw that both PuneFOSS and MumbaiFOSS are happening in April 2025.
 
 I arrived at the event a bit late—around 12 PM—but was greeted by the familiar face of [Vishal Arya](https://www.linkedin.com/in/wisharya/?originalSubdomain=in), Program Director at FOSS United. We chatted for a while. The first session I attended was by Aayushi and Aarathy from Red Hat, who spoke about web accessibility. It was an informative session titled The A11y Revolution: How Small Changes Lead to Big Impact.
 
