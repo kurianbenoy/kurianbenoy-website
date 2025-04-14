@@ -1,14 +1,21 @@
 ---
 title: Attending Pune FOSS 3.0 Conference
-date: 2025-04-05
+date: 2025-05-14
+date-format: full
+lang: en
+toc: true
 author: "Kurian Benoy"
 type: post
 draft: false
 ---
 
+### Why writing a blogpost after long time?
+
 It’s been a long time since I published a blog post. It’s been almost a year since I posted my [Sarvam joining blog post](https://kurianbenoy.com/posts/2024/sarvam_ai_joining.html).
 
 I thought I’d write a post about the Pune FOSS 3.0 Conference. One of the panelists, [Mukta Aphale](https://www.linkedin.com/in/muktaa/), mentioned that having a blog is a great way to stand out. For me, it’s also a way to check off one of my goals this year: to travel to a few cities in India. So far this year, I’ve traveled to Mysore, Kozhikode, Ooty, Chennai, and now Pune.
+
+### My Experience at Pune FOSS 3.0
 
 The idea to attend this conference came from a conversation with [Rahul, CEO of FOSS United,]((https://fossunited.org/u/rahulporuri) who suggested that if I wanted to visit more cities, I should check out FOSS United events. He mentioned there would be several events this summer, and I saw that both PuneFOSS and MumbaiFOSS are happening in April 2025.
 
