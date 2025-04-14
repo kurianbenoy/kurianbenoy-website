@@ -51,6 +51,43 @@ Until, next time. See you very soon.
 
 ### Pictures
 
+::: {layout-ncol=2}
+
+![ Group Photo during Pune FOSS](punefoss/1744563905666.jpeg)
+
+![Rahul trying to be RMS](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38%20(4).jpeg)
+
+![All the amazing speakers in Pune FOSS 3.0 event](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38%20(6).jpeg)
+
+![About Nemo](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38.jpeg)
+
+![Nemo's can answer anything from this word cloud](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38%20(1).jpeg)
+
+![From Nemo's talk saying how he improved Python upstream with his project](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38%20(2).jpeg)
+
+![This is Nemo folks](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37%20(6).jpeg)
+
+![Panel for the topic - Figuring Out Career Growth: Challenges, Choices & FOSS](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37%20(5).jpeg)
+
+![Panel discussing the topic - Beyond the Buzzwords](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37%20(4).jpeg)
+
+![Another round of group photos](punefoss/1744563906021.jpeg)
+
+![PuneFOSS organizers](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38%20(3).jpeg)
+
+![The conference ended with such a nice message in Marathi](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.38%20(5).jpeg)
+
+![Pictures from Shaniwar Wade](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37.jpeg)
+
+![At entrance of Shaniwar Wade](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37%20(1).jpeg)
+
+![Playing with Sachin's Bat](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37%20(2).jpeg)
+
+![At Lal Mahal](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.36.jpeg)
+
+![Mahatma gandhi's statue at Azam Khan palace, where he was in prison for close to 8-10 years](punefoss/WhatsApp%20Image%202025-04-14%20at%2010.01.37%20(3).jpeg)
+
+:::
 
 
 
