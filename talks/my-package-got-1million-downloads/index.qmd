@@ -1,0 +1,89 @@
+---
+title: "How I ended up maintaining a python pacakge with 1M+ downloads"
+author: Kurian Benoy
+comments: false
+date: 2025-04-26
+date-format: full
+format:
+  revealjs:
+    theme: solarized
+    slide-number: true
+    footer: "[Kurian Benoy](https://kurianbenoy.com/) || How I ended up maintaining a python pacakge with 1M+ downloads"
+    logo: "logo.jpg"
+---
+
+## Outline
+
+- Why I like to give talks?
+- Maintainig a python package with 1M+ downloads
+- What is whisper_normalizer and why I created it?
+- What does it do?
+- Caring about Malayalam and how it helped at identifying problems
+- Guiding principles and looking for contributor guide
+
+## $whoami
+
+- ML Engineer @ Sarvam
+- Volunteer @ Swathanthra Malayalam Computing(SMC)
+- FOSS enthusiast
+- I am looking for interns (Check with TTS team)
+
+## Ask me anything
+
+Create a word cloud like Nemo
+
+## Side deviation: Why I like to give talks?
+
+- Meet interesting people and share knowledge with folks
+
+
+## History
+
+- I was working on a project of benchmarking Whisper based models and fine-tuning whisper based models in my mother tongue Malayalam
+- Repeatedly encountering using  same class all the time from OpenAI whisper library
+- https://github.com/openai/whisper/tree/main/whisper/normalizers
+
+## History
+
+- I learned this awesome library called nbdev
+- nbdev is a opinated way to make python project, documentation and CI/CD
+
+![](https://nbdev.fast.ai/images/card.png)
+
+## What is whisper_normalizer?
+
+- Whisper Normalizer cheyanne
+- Needed to calculate metrics like WER, CER etc. properly for ASR systems
+
+## Why it became popular?
+
+- The whole field of voice agents and Speech in general exploeded in 2023, 2024 onwards
+- Seeing increasing better Speech to Text models, Text to Speech models and Speech to Speech models etc.
+
+
+## Explain EnglishNormalizer
+
+
+## Explain BasicTextNormalizer
+
+## How we identified an unexpected bug?
+
+My Mtech thesis
+
+- https://speakerdeck.com/kurianbenoy/project-review-report-4-robust-speech-recognition-in-malayalam?slide=28
+
+- https://speakerdeck.com/kurianbenoy/project-review-report-5-mtech-project
+
+## kavya manohar finding the bug
+
+- Finding bug
+- We both talked in public about this issue
+
+## kavya manohar publishing the work
+
+https://arxiv.org/pdf/2409.02449
+
+## Trying to fix bugs:
+
+## Guiding principles and looking for contributor guide
+
