@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kurian Benoy">
-<meta name="dcterms.date" content="2022-05-28">
 
 <title>Installing Python Packages &amp; setting up libraries for Data Science - the right way – Kurian Benoy</title>
 <style>
@@ -165,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 28, 2022</p>
+        <p class="date">Saturday, May 28, 2022</p>
       </div>
     </div>
     
@@ -313,11 +312,34 @@ Important
 <h3 class="anchored" data-anchor-id="installation-with-mamba">Installation with mamba</h3>
 <p>To follow this advice, this let’s go ahead and install python seperately with packaging manager called <a href="https://github.com/mamba-org/mamba">mamba</a> which is a Fast Cross-Platform Package Manager. It’s aka. faster version of conda.</p>
 <p>So go to the <a href="https://github.com/conda-forge/miniforge#mambaforge">mambaforge installer</a>. Based on your operating system, download the shell script to install with:</p>
-<pre class="{python}"><code>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
-
-bash Mambaforge-Linux-x86_64.sh</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh</p>
+<p>bash Mambaforge-Linux-x86_64.sh</p>
+</div>
+</div>
 <p>After downloading and installation is complete. To refresh terminal either close and reopen terminal or typing below command:</p>
-<pre class="{python}"><code>. ~/.bashrc</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>. ~/.bashrc</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -352,20 +374,52 @@ Note
 <li>Check if ipython, jupyter is installed. If yes, first uninstall it.</li>
 </ul>
 <p><strong>Note: You can uninstall via:</strong></p>
-<pre class="{python}"><code>pip uninstall jupyter
-
-pip uninstall ipython3</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>pip uninstall jupyter</p>
+<p>pip uninstall ipython3</p>
+</div>
+</div>
 <p><strong>You can check the path of program by typing the command, to see if was installed by system python or mamba</strong></p>
-<pre class="{python}"><code>(base) kurianbenoy@Lap-34:~/blog/ml-blog$ which jupyter
-
-/home/kurianbenoy/mambaforge/bin/jupyter</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>(base) kurianbenoy@Lap-34:~/blog/ml-blog$ which jupyter</p>
+<p>/home/kurianbenoy/mambaforge/bin/jupyter</p>
+</div>
+</div>
 <ul>
 <li>Then remove mamabaforge folder. In linux usually, mambaforge is installed in /home/username.</li>
 </ul>
 <p>So to delete the mambaforge package:</p>
-<pre class="{python}"><code>(base) kurianbenoy@Lap-34:~$ ls
-blog  downloads  mambaforge
-(base) kurianbenoy@Lap-34:~$ rm -rf mambaforge/</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>(base) kurianbenoy@Lap-34:~$ ls blog downloads mambaforge (base) kurianbenoy@Lap-34:~$ rm -rf mambaforge/</p>
+</div>
+</div>
 <ul>
 <li>Then delete conda package also.</li>
 </ul>
@@ -373,11 +427,33 @@ blog  downloads  mambaforge
 <section id="using-fastsetup" class="level3">
 <h3 class="anchored" data-anchor-id="using-fastsetup">Using fastsetup</h3>
 <p><a href="https://github.com/AnswerDotAI/fastsetup">Goto github repository</a> and download the <a href="https://raw.githubusercontent.com/AnswerDotAI/fastsetup/refs/heads/master/setup-conda.sh">setup-conda.sh file</a>.</p>
-<pre class="{python}"><code>wget https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>wget https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh</p>
+</div>
+</div>
 <p>This is a normal shell script, so just run the shellscript to install mamba as follows:</p>
-<pre class="{python}"><code>source setup-conda.sh
-. ~/.bashrc
-conda install -yq mamba</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>source setup-conda.sh . ~/.bashrc conda install -yq mamba</p>
+</div>
+</div>
 </section>
 <section id="my-question-to-jeremy" class="level3">
 <h3 class="anchored" data-anchor-id="my-question-to-jeremy">My question to Jeremy</h3>
@@ -414,7 +490,19 @@ Important
 </div>
 </div>
 <p><strong>Go ahead and install python packages in this manner, by just replacing conda with mamba.</strong></p>
-<pre><code>mamba install pytorch torchvision torchaudio cpuonly -c pytorch</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>mamba install pytorch torchvision torchaudio cpuonly -c pytorch</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -429,9 +517,33 @@ Note
 </div>
 </div>
 <p><strong>Now let’s install <code>jupyter lab</code> to do our experiments quickly:</strong></p>
-<pre><code>mamba install jupyterlab</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>mamba install jupyterlab</p>
+</div>
+</div>
 <p>Then run the jupyter lab, with the following command:</p>
-<pre class="{python}"><code>jupyter lab --no-browser</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>jupyter lab –no-browser</p>
+</div>
+</div>
 <p>This opens up jupyterlab in localhost:8888</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -444,13 +556,27 @@ Note
 <h3 class="anchored" data-anchor-id="installing-packages-with-fastchan">Installing packages with fastchan</h3>
 <p>Even though Jeremy didn’t cover this topic during walk-thrus. I came to know about <code>fastchan</code> when I wanted to install <code>pytorch and huggingface transformers</code> in a gpu based system. What is fastchan and the problem it solves is covered by <a href="https://wandb.ai/wandb_fc/pytorch-image-models/reports/A-faster-way-to-get-working-and-up-to-date-conda-environments-using-fastchan---Vmlldzo2ODIzNzA">detailed blogpost</a> by the <a href="https://wandb.ai/aarora">Aman Arora</a>.</p>
 <p>To install both <code>pytorch and huggingface transformers</code> in a GPU, I used the following command:</p>
-<pre class="{python}"><code>mamba install pytorch transformers cudatoolkit=11.4 -c fastchan</code></pre>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>mamba install pytorch transformers cudatoolkit=11.4 -c fastchan</p>
+</div>
+</div>
 </section>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>One of fastai students, during the start of lesson talked about the need of a quick setup, which just works as expected. One of biggest takeaways for me, personally is a quick and fastsetup to do my experiments in DataScience. Sometimes installing packages in data science can take hours of effort, and that’s why I really loved this setup.</p>
 <p>Thanks to <a href="twitter.com/jeremyphoward/">Jeremy Howard</a> for creating this quick setup and for starting the project <a href="https://www.fast.ai/2021/07/15/fastconda/">fastchan</a>.</p>
+<p>The full version of this blogpost is explained in this <a href="https://youtu.be/56sIyFjihEc?si=UZV1AArZ-tSbpAY6">video of Live coding lesson 1</a> in Jeremy Howard’s channel.</p>
+<p>This blogpost was last edited on: April 19, 2025</p>
 
 
 </section>
