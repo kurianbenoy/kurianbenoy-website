@@ -6,7 +6,7 @@ lang: en
 toc: true
 author: "Kurian Benoy"
 type: post
-draft: false
+categories: [Travel,meetup, Life]
 ---
 
 ### Why writing a blogpost after long time?

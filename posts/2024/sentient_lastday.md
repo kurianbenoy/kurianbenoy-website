@@ -4,6 +4,7 @@ date: 2024-04-23
 author: "Kurian Benoy"
 type: post
 image: /posts/images/sentient/IMG_20230411_170049706_MP_resize.jpg
+categories: [Life,work]
 comments: false
 ---
 
