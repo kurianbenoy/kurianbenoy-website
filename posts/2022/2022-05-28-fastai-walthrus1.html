@@ -313,10 +313,11 @@ Important
 <h3 class="anchored" data-anchor-id="installation-with-mamba">Installation with mamba</h3>
 <p>To follow this advice, this let’s go ahead and install python seperately with packaging manager called <a href="https://github.com/mamba-org/mamba">mamba</a> which is a Fast Cross-Platform Package Manager. It’s aka. faster version of conda.</p>
 <p>So go to the <a href="https://github.com/conda-forge/miniforge#mambaforge">mambaforge installer</a>. Based on your operating system, download the shell script to install with:</p>
-<pre><code>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+<pre class="{python}"><code>wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+
 bash Mambaforge-Linux-x86_64.sh</code></pre>
 <p>After downloading and installation is complete. To refresh terminal either close and reopen terminal or typing below command:</p>
-<pre><code>. ~/.bashrc</code></pre>
+<pre class="{python}"><code>. ~/.bashrc</code></pre>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -351,16 +352,18 @@ Note
 <li>Check if ipython, jupyter is installed. If yes, first uninstall it.</li>
 </ul>
 <p><strong>Note: You can uninstall via:</strong></p>
-<pre><code>pip uninstall jupyter
+<pre class="{python}"><code>pip uninstall jupyter
+
 pip uninstall ipython3</code></pre>
 <p><strong>You can check the path of program by typing the command, to see if was installed by system python or mamba</strong></p>
-<pre><code>(base) kurianbenoy@Lap-34:~/blog/ml-blog$ which jupyter
+<pre class="{python}"><code>(base) kurianbenoy@Lap-34:~/blog/ml-blog$ which jupyter
+
 /home/kurianbenoy/mambaforge/bin/jupyter</code></pre>
 <ul>
 <li>Then remove mamabaforge folder. In linux usually, mambaforge is installed in /home/username.</li>
 </ul>
 <p>So to delete the mambaforge package:</p>
-<pre><code>(base) kurianbenoy@Lap-34:~$ ls
+<pre class="{python}"><code>(base) kurianbenoy@Lap-34:~$ ls
 blog  downloads  mambaforge
 (base) kurianbenoy@Lap-34:~$ rm -rf mambaforge/</code></pre>
 <ul>
@@ -370,9 +373,9 @@ blog  downloads  mambaforge
 <section id="using-fastsetup" class="level3">
 <h3 class="anchored" data-anchor-id="using-fastsetup">Using fastsetup</h3>
 <p><a href="https://github.com/AnswerDotAI/fastsetup">Goto github repository</a> and download the <a href="https://raw.githubusercontent.com/AnswerDotAI/fastsetup/refs/heads/master/setup-conda.sh">setup-conda.sh file</a>.</p>
-<pre><code>wget https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh</code></pre>
+<pre class="{python}"><code>wget https://raw.githubusercontent.com/fastai/fastsetup/master/setup-conda.sh</code></pre>
 <p>This is a normal shell script, so just run the shellscript to install mamba as follows:</p>
-<pre><code>source setup-conda.sh
+<pre class="{python}"><code>source setup-conda.sh
 . ~/.bashrc
 conda install -yq mamba</code></pre>
 </section>
@@ -428,7 +431,7 @@ Note
 <p><strong>Now let’s install <code>jupyter lab</code> to do our experiments quickly:</strong></p>
 <pre><code>mamba install jupyterlab</code></pre>
 <p>Then run the jupyter lab, with the following command:</p>
-<pre><code>jupyter lab --no-browser</code></pre>
+<pre class="{python}"><code>jupyter lab --no-browser</code></pre>
 <p>This opens up jupyterlab in localhost:8888</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -441,7 +444,7 @@ Note
 <h3 class="anchored" data-anchor-id="installing-packages-with-fastchan">Installing packages with fastchan</h3>
 <p>Even though Jeremy didn’t cover this topic during walk-thrus. I came to know about <code>fastchan</code> when I wanted to install <code>pytorch and huggingface transformers</code> in a gpu based system. What is fastchan and the problem it solves is covered by <a href="https://wandb.ai/wandb_fc/pytorch-image-models/reports/A-faster-way-to-get-working-and-up-to-date-conda-environments-using-fastchan---Vmlldzo2ODIzNzA">detailed blogpost</a> by the <a href="https://wandb.ai/aarora">Aman Arora</a>.</p>
 <p>To install both <code>pytorch and huggingface transformers</code> in a GPU, I used the following command:</p>
-<pre><code>mamba install pytorch transformers cudatoolkit=11.4 -c fastchan</code></pre>
+<pre class="{python}"><code>mamba install pytorch transformers cudatoolkit=11.4 -c fastchan</code></pre>
 </section>
 </section>
 <section id="conclusion" class="level2">
