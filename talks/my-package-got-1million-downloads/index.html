@@ -10,7 +10,8 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <title>Kurian Benoy – OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</title>
+  <meta name="author" content="Kurian Benoy">
+  <title>Kurian Benoy – How I ended up maintaining a python pacakge with 1M+ downloads</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d58ca6e55452da357bd4996cb6e3aa10.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -121,11 +122,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam – Kurian Benoy">
-<meta property="og:description" content="Summit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)">
+<meta property="og:title" content="How I ended up maintaining a python pacakge with 1M+ downloads – Kurian Benoy">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam – Kurian Benoy">
-<meta name="twitter:description" content="Summit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)">
+<meta name="twitter:title" content="How I ended up maintaining a python pacakge with 1M+ downloads – Kurian Benoy">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
@@ -133,231 +132,116 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</h1>
-  <p class="subtitle">Summit 2023 @ Indian Institute of Information Technology, Kottayam (IIIT-K)</p>
+  <h1 class="title">How I ended up maintaining a python pacakge with 1M+ downloads</h1>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Kurian Benoy 
+</div>
+</div>
 </div>
 
-  <p class="date">Saturday, June 10, 2023</p>
+  <p class="date">Saturday, April 26, 2025</p>
 </section>
-<section id="openai-whisper" class="slide level2">
-<h2>OpenAI Whisper</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png" class="quarto-figure quarto-figure-center" width="500"></p>
-</figure>
-</div>
+<section id="outline" class="slide level2">
+<h2>Outline</h2>
 <ul>
-<li><span style="color:red">I think Whisper<sup>1</sup> is the most <code>under-rated model</code> released by OpenAI.</span></li>
-<li><span style="color:green">It was open-sourced on September 21, 2022 by releasing the inference code and pre-trained model weights.</span></li>
-</ul>
-<aside><ol class="aside-footnotes"><li id="fn1"><p><span style="color:black">According to <a href="https://cdn.openai.com/papers/whisper.pdf">research paper</a> p.2, the name Whisper is an abbrevation for WSPR: <code>Web-scale Supervised Pretraining for Speech Recognition</code>.</span></p></li></ol></aside></section>
-<section id="about-openai-whisper-model" class="slide level2">
-<h2>About OpenAI Whisper Model</h2>
-<ul>
-<li>Whisper is a computer program which can listen to people talking and write down what they say. <span style="color:red">(Automatic Speech Recognition Model)</span></li>
-<li>Whisper can understand people speaking different languages and can even translate what they say into English. <span style="color:green">(Supports transcription and translation to English)</span></li>
-</ul>
-
-<aside><div>
-<p><span style="color:black">Note: This was generated with GPT-4 with prompt: explain what is openai whisper to a 5 year old kid?</span></p>
-</div></aside></section>
-<section id="malayalam-is-a-complex-language" class="slide level2">
-<h2>Malayalam is a complex language</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../delft-fastai/morphology_ttr.png" width="800"></p>
-<figcaption>Comparison of Malayalam TTR with that of European Union Constitution Corpus and DoE-CIIL Corpus from K. Manohar et al.</figcaption>
-</figure>
-</div>
-
-<aside><div>
-<p><span style="color:black">Picture from <a href="https://link.springer.com/chapter/10.1007/978-3-030-58323-1_7">Quantitative Analysis of the Morphological Complexity of Malayalam Language by K. Manohar et al</a>. For more information check this paper.</span></p>
-</div></aside></section>
-<section id="whisper-event" class="slide level2">
-<h2>Whisper Event</h2>
-<ul>
-<li><span style="color:red">HuggingFace Team conducted a whisper fine tuning event for 2 weeks from 5th December 2022 to 19th December 2022. The results were out on 23rd December 2022.</span></li>
-<li><span style="color:blue">The goal was to to fine-tune the Whisper model to build state-of-the-art speech recognition systems in the languages of our choice 🗣 </span></li>
-</ul>
-
-<aside><div>
-<p><a href="https://huggingface.co/whisper-event">Whisper Event huggingface page</a></p>
-</div></aside></section>
-<section id="malayalam-models-produced-in-whisper-event" class="slide level2">
-<h2>Malayalam models produced in Whisper Event</h2>
-<ul>
-<li><span style="color:red">For the language Malayalam, the results are as follows:</span></li>
-</ul>
-
-<img data-src="malayalam_models.png" width="700" class="r-stretch quarto-figure-center"><p class="caption"><span style="color:black">Malayalam models performance in whisper event according <a href="https://huggingface.co/spaces/whisper-event/leaderboard?dataset=mozilla-foundation%2Fcommon_voice_11_0&amp;config=ml&amp;split=test">to leaderboard</a></span></p></section>
-<section id="winning-models-in-malayalam-in-whisper-event" class="slide level2 nonincremental">
-<h2>Winning models in Malayalam in Whisper Event</h2>
-<ul>
-<li><span style="color:red">The winning model for Common voice</span>: <code>thennal/whisper-medium-ml</code></li>
-<li><span style="color:blue">The winning model for Fleurs</span>: <code>parambharath/whisper-small-ml</code></li>
+<li>Why I like to give talks?</li>
+<li>Maintainig a python package with 1M+ downloads</li>
+<li>What is whisper_normalizer and why I created it?</li>
+<li>What does it do?</li>
+<li>Caring about Malayalam and how it helped at identifying problems</li>
+<li>Guiding principles and looking for contributor guide</li>
 </ul>
 </section>
-<section id="i-was-not-convinced" class="slide level2">
-<h2>I was not convinced</h2>
+<section id="whoami" class="slide level2">
+<h2>$whoami</h2>
 <ul>
-<li><span style="color:red">Didn’t trust the Hugging Face way of evaluating models.</span></li>
-</ul>
-
-<img data-src="../fossasia2023/thennal_model_card.png" class="r-stretch quarto-figure-center"><p class="caption"><span style="color:black">thennal/whisper-medium-ml model card readme</span></p></section>
-<section id="i-was-not-convinced-1" class="slide level2">
-<h2>I was not convinced</h2>
-<ul>
-<li><span style="color:red">Didn’t trust the Hugging Face way of evaluating models.</span></li>
-</ul>
-
-<img data-src="../fossasia2023/thennal_commit.png" class="r-stretch quarto-figure-center"><p class="caption"><span style="color:black">Last commit in thennal/whisper-medium-ml</span></p></section>
-<section id="objective-of-my-benchmarking" class="slide level2">
-<h2>Objective of my benchmarking</h2>
-<ul>
-<li><span style="color:red">To test whether 10% WER was possible in available academic datasets.</span></li>
-</ul>
-<p><strong>Datasets</strong></p>
-<ul>
-<li><span style="color:blue">Common Voice 11 malayalam subset</span></li>
-<li><span style="color:blue">SMC Malayalam Speech Corpus</span></li>
+<li>ML Engineer @ Sarvam</li>
+<li>Volunteer @ Swathanthra Malayalam Computing(SMC)</li>
+<li>FOSS enthusiast</li>
+<li>I am looking for interns (Check with TTS team)</li>
 </ul>
 </section>
-<section id="metrics-for-evaluating-asr-models" class="slide level2">
-<h2>Metrics for evaluating ASR models</h2>
+<section id="ask-me-anything" class="slide level2">
+<h2>Ask me anything</h2>
+<p>Create a word cloud like Nemo</p>
+</section>
+<section id="side-deviation-why-i-like-to-give-talks" class="slide level2">
+<h2>Side deviation: Why I like to give talks?</h2>
 <ul>
-<li>ASR evaulation relies on comparission between <span style="color:red">ground-truth</span> and <span style="color:red">ASR output</span>.</li>
-<li><span style="color:blue">Common metrics for ASR evaluation which are popular and good enough<sup>1</sup> are</span> :</li>
+<li>Meet interesting people and share knowledge with folks</li>
 </ul>
-<p><span style="color:green">1. Word Error Rate(WER)</span></p>
-<p><span style="color:green">2. Character Error Rate(CER)</span></p>
-
-<aside><div>
-<p><span style="color:black">To learn more about ASR evaluation check this <a href="https://aws.amazon.com/blogs/machine-learning/evaluating-an-automatic-speech-recognition-service/">blogpost by AWS</a></span></p>
-</div><ol class="aside-footnotes"><li id="fn2"><p><span style="color:black">According to Rethinking Evaluation in ASR: Are our models robust enough? by Likhomanenko T, Xu, Q., Pratap etc.</span></p></li></ol></aside></section>
-<section id="i-wanted-to-build-something-new" class="slide level2">
-<h2>I wanted to build something new</h2>
+</section>
+<section id="history" class="slide level2">
+<h2>History</h2>
 <ul>
-<li><span style="color:red">New github project for <a href="https://github.com/kurianbenoy/malayalam_asr_benchmarking">Malayalam ASR Benchmarking</a></span></li>
+<li>I was working on a project of benchmarking Whisper based models and fine-tuning whisper based models in my mother tongue Malayalam</li>
+<li>Repeatedly encountering using same class all the time from OpenAI whisper library</li>
+<li>https://github.com/openai/whisper/tree/main/whisper/normalizers</li>
 </ul>
-
-<img data-src="../fossasia2023/adventure_talk.jpg" class="r-stretch quarto-figure-center"><p class="caption">Time for a new adventure</p></section>
-<section id="methadology-for-benchmarking" class="slide level2">
-<h2>Methadology for benchmarking</h2>
-<ol type="1">
-<li><span style="color:red">Create as a python library so further whisper-based transformer models can be benchmark.</span></li>
-<li><span style="color:blue">Calculate WER, CER, model size and time taken to benchmark the model for the listed datasets.</span></li>
-<li><span style="color:green">Build a reproducible approach, so results of benchmarking is stored as dataset.</span></li>
-</ol>
 </section>
-<section id="benchmarked-models" class="slide level2">
-<h2>Benchmarked models</h2>
+<section id="history-1" class="slide level2">
+<h2>History</h2>
 <ul>
-<li><span style="color:red">Started with 6 fine-tuned models in Malayalam and compared it with <a href="https://github.com/openai/whisper">6 model versions released by OpenAI</a>.</span></li>
-</ul>
-<ol type="1">
-<li>thennal/whisper-medium-ml</li>
-<li>parambharat/whisper-tiny-ml</li>
-<li>parambharat/whisper-base-ml</li>
-<li>parambharat/whisper-small-ml</li>
-<li>anuragshas/whisper-large-v2-ml</li>
-<li>DrishtiSharma/whisper-large-v2-malayalam</li>
-</ol>
-</section>
-<section id="results-on-benechmarking-in-common-voice-dataset" class="slide level2">
-<h2>Results on benechmarking in Common Voice dataset</h2>
-
-<img data-src="cv_output.png" class="r-stretch quarto-figure-center"><p class="caption">Output from benchmarking tool</p></section>
-<section id="wer-in-common-voice-dataset" class="slide level2">
-<h2>WER in Common Voice dataset</h2>
-
-<img data-src="cv_wer.png" class="r-stretch quarto-figure-center"><p class="caption">Word Error Rate in Common Voice-9 test split</p></section>
-<section id="cer-in-common-voice-dataset" class="slide level2">
-<h2>CER in Common Voice dataset</h2>
-
-<img data-src="cv_cer.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error Rate in Common Voice-9 test split</p></section>
-<section id="section" class="slide level2">
-<h2></h2>
-<p></p><div id="tweet-26010"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536","author_name":"Kurian Benoy \uD83D\uDCBB","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EI have been working on benchmarking a few Malayalam ASR models. The results have been far better than expected. Check out the results of Malayalam based fine tuned Whisper models performance in Common voice dataset:\u003Ca href=\"https:\/\/t.co\/ajoYq6FBpT\"\u003Ehttps:\/\/t.co\/ajoYq6FBpT\u003C\/a\u003E\u003C\/p\u003E&mdash; Kurian Benoy \uD83D\uDCBB (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1633647128059969536?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-26010").innerHTML = tweet["html"];</script><p></p>
-</section>
-<section id="section-1" class="slide level2">
-<h2></h2>
-<p></p><div id="tweet-62229"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-62229").innerHTML = tweet["html"];</script><p></p>
-</section>
-<section id="results-on-benechmarking-in-malayalam-speech-corpus-dataset" class="slide level2">
-<h2>Results on benechmarking in Malayalam Speech Corpus dataset</h2>
-
-<img data-src="msc_output.png" class="r-stretch quarto-figure-center"><p class="caption">Output from benchmarking tool</p></section>
-<section id="wer-in-malayalam-speech-corpus" class="slide level2">
-<h2>WER in Malayalam Speech Corpus</h2>
-
-<img data-src="msc_wer.png" class="r-stretch quarto-figure-center"><p class="caption">Word Error Rate in MSC</p></section>
-<section id="cer-in-malayalam-speech-corpus" class="slide level2">
-<h2>CER in Malayalam Speech Corpus</h2>
-
-<img data-src="msc_cer.png" class="r-stretch quarto-figure-center"><p class="caption">Character Error rate in MSC</p></section>
-<section id="links-to-project" class="slide level2">
-<h2>Links to Project</h2>
-<p><span style="color:red">Github project</span></p>
-<p><span style="color:black">https://github.com/kurianbenoy/malayalam_asr_benchmarking</span></p>
-</section>
-<section id="links-to-project-1" class="slide level2">
-<h2>Links to Project</h2>
-<p><span style="color:blue">Benchmarking results</span></p>
-<ul>
-<li><span style="color:orange">Results on SMC Malayalam Speech corpus</span></li>
-</ul>
-<p>https://huggingface.co/datasets/kurianbenoy/malayalam_msc_benchmarking/tree/main</p>
-<ul>
-<li><span style="color:orange">Results on Common Voice 11</span></li>
-</ul>
-<p>https://huggingface.co/datasets/kurianbenoy/malayalam_common_voice_benchmarking</p>
-</section>
-<section id="future-ideas-for-benchmarking" class="slide level2">
-<h2>Future Ideas for Benchmarking</h2>
-<ul>
-<li><span style="color:red">Something very similar to OpenLLM Leaderboard with results of latest malayalam speech models.</span></li>
-<li><span style="color:blue">Should include results for Kaldi, Meta’s MMS, Wav2Vec etc.</span></li>
+<li>I learned this awesome library called nbdev</li>
+<li>nbdev is a opinated way to make python project, documentation and CI/CD</li>
 </ul>
 
-<img data-src="../delft-fastai/openllm.png" class="r-stretch quarto-figure-center"><p class="caption">Open LLM leaderboard in <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard">huggingface spaces</a></p></section>
-<section id="conclusion" class="slide level2">
-<h2>Conclusion</h2>
-<div>
+<img data-src="https://nbdev.fast.ai/images/card.png" class="r-stretch"></section>
+<section id="what-is-whisper_normalizer" class="slide level2">
+<h2>What is whisper_normalizer?</h2>
 <ul>
-<li class="fragment"><span style="color:red">In Malayalam we have achieved phenomenal results for fine tuned whisper models.</span></li>
-<li class="fragment"><span style="color:blue">The best model is: <code>thennal/whisper-medium-ml</code></span></li>
-<li class="fragment"><span style="color:green">I think their seems to be a good ASR model suitable for production use-cases.</span></li>
-<li class="fragment"><span style="color:orange">You can also do it in your own language especially if it is a low resource language.</span></li>
+<li>Whisper Normalizer cheyanne</li>
+<li>Needed to calculate metrics like WER, CER etc. properly for ASR systems</li>
 </ul>
-</div>
 </section>
-<section id="thanks-to" class="slide level2">
-<h2>Thanks to</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ol type="1">
-<li><a href="https://openai.com/">OpenAI team</a> - Alec Radford, <a href="https://github.com/jongwook">Jong Wook Kim</a>, <a href="https://www.linkedin.com/in/mcleavey">Christine McLeavey</a> etc. other authors of <a href="https://cdn.openai.com/papers/whisper.pdf">Whisper paper</a></li>
-<li><a href="https://huggingface.co/">HuggingFace team</a> - <a href="https://huggingface.co/sanchit-gandhi">Sanchit Gandhi</a>, <a href="https://huggingface.co/Narsil">Nicolas Patry</a>, <a href="https://github.com/Vaibhavs10">Vaibhav Srivastav</a> etc.</li>
-<li><a href="https://kavyamanohar.com/">Kavya Manohar</a></li>
-<li><a href="https://thottingal.in/">Santhosh Thottingal</a></li>
-</ol>
-</div><div class="column" style="width:30%;">
-<ol start="5" type="1">
-<li><a href="https://huggingface.co/thennal">Thennal D K</a></li>
-<li>Other members in <a href="https://smc.org.in/">Swathanthra Malayalam Computing community</a>.</li>
-<li><a href="cloud.jarvislabs.ai/">Jarvis Labs</a></li>
-</ol>
-</div></div>
+<section id="why-it-became-popular" class="slide level2">
+<h2>Why it became popular?</h2>
+<ul>
+<li>The whole field of voice agents and Speech in general exploeded in 2023, 2024 onwards</li>
+<li>Seeing increasing better Speech to Text models, Text to Speech models and Speech to Speech models etc.</li>
+</ul>
+</section>
+<section id="explain-englishnormalizer" class="slide level2">
+<h2>Explain EnglishNormalizer</h2>
+</section>
+<section id="explain-basictextnormalizer" class="slide level2">
+<h2>Explain BasicTextNormalizer</h2>
+</section>
+<section id="how-we-identified-an-unexpected-bug" class="slide level2">
+<h2>How we identified an unexpected bug?</h2>
+<p>My Mtech thesis</p>
+<ul>
+<li><p>https://speakerdeck.com/kurianbenoy/project-review-report-4-robust-speech-recognition-in-malayalam?slide=28</p></li>
+<li><p>https://speakerdeck.com/kurianbenoy/project-review-report-5-mtech-project</p></li>
+</ul>
+</section>
+<section id="kavya-manohar-finding-the-bug" class="slide level2">
+<h2>kavya manohar finding the bug</h2>
+<ul>
+<li>Finding bug</li>
+<li>We both talked in public about this issue</li>
+</ul>
+</section>
+<section id="kavya-manohar-publishing-the-work" class="slide level2">
+<h2>kavya manohar publishing the work</h2>
+<p>https://arxiv.org/pdf/2409.02449</p>
+</section>
+<section id="trying-to-fix-bugs" class="slide level2">
+<h2>Trying to fix bugs:</h2>
+</section>
+<section id="guiding-principles-and-looking-for-contributor-guide" class="slide level2">
+<h2>Guiding principles and looking for contributor guide</h2>
 
 
 </section>
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="logo.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://kurianbenoy.com/">Kurian Benoy</a> || OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam</p>
+<p><a href="https://kurianbenoy.com/">Kurian Benoy</a> || How I ended up maintaining a python pacakge with 1M+ downloads</p>
 </div>
 </div></div>
 
@@ -756,5 +640,4 @@
     </script>
     
 
-<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
