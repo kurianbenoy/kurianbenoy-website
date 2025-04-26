@@ -12,7 +12,7 @@ comments: false
 
 ## Links to Talk
 
-- [Slides](https://pypi.org/project/whisper-normalizer/)
+- [Slides](https://gamma.app/docs/How-I-ended-up-maintaining-building-a-python-package-with-1M-down-o87lazx9yprci5f)
 
 - [Talk Live Stream](https://www.youtube.com/live/3o2V9BmeoYw?t=372s)
 

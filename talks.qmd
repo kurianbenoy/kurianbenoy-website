@@ -43,6 +43,8 @@ comments: false
 
 These are the list of talks I have delivered:
 
+- [How I ended up maintaining a python package with 1M+ downloads?](https://www.youtube.com/watch?v=3o2V9BmeoYw&t=372s) | [Kochi FOSS Meetup](https://kochifoss.org/) | April 26, 2025 | [Slides](https://gamma.app/docs/How-I-ended-up-maintaining-building-a-python-package-with-1M-down-o87lazx9yprci5f), [Talk Page](./posts/2025/kochi-foss-april.qmd)
+
 - Why having a great taste is all you need to build great open-source projects | [Code Blossom Online Session](https://www.code-blossom.com/) | June 22, 2024 | [Slides](https://kurianbenoy.com/talks/code_blossom_great_open_source_projects/#/title-slide)
 
 - [Reproducing Whisper-style Training Using an open-source toolkit and publicly available Data](https://youtu.be/D54awjfoWwQ?si=kqUQCAL2dV7d_J4C) | AI4Bharat Paper Reading Group | May 11, 2024 | [Slides](https://kurianbenoy.com/talks/ai4bharat_reproducing_whisper/#/title-slide)
