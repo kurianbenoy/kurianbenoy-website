@@ -1,0 +1,42 @@
+---
+title: How I ended up maintaining a python package with 1M+ downloads?
+author: Kurian Benoy
+subtitle: Talk Page for my talk @ Kochi FOSS April Meetup
+date: 2025-04-26
+date-format: full
+categories: [meetup, Audio, "Talk Page", community]
+lang: en
+toc: true
+comments: false
+---
+
+## Links to Talk
+
+- [Slides](https://pypi.org/project/whisper-normalizer/)
+
+- [Talk Live Stream](https://www.youtube.com/live/3o2V9BmeoYw?t=372s)
+
+- Venue: [KeyValue Software Systems, SmartCity, Kochi](https://maps.app.goo.gl/h5t5gAMYqa5zKxY79?g_st=com.google.maps.preview.copy)
+
+- Scheduled Time: Saturday, April 26, 2025, 10:00AM IST
+
+- [Github](https://github.com/kurianbenoy/whisper_normalizer)
+
+- [Pypi page](https://pypi.org/project/whisper-normalizer/)
+
+- [Download stats from pypistats website](https://pypistats.org/packages/whisper-normalizer)
+
+## Talk in 30 seconds
+
+Talked about why frusturation of doing same thing again and again lead to whisper-normalizer python package creation.
+Since I was the first person to put it out in the world, got lot of traction with 1M+ downloads and SEO in google and LLMs
+like perplexity helped me. We, in the sense Kavya Manohar and me, identified some crucial bugs in Malayalam Text
+Normalizer, which was later fixed by us and is still needing more work to do. I talked in the end, an exlusive content
+about my speaking journey so far. How I started talking from a small meetup in Kochi and now have spoken in multiple
+International conferences so far, like speaking thrice in Pycon India by the age of 25.
+
+## Questions asked?
+
+1. How to add a normalizer to new language? What are the changes required to make?
+
+## Photos
