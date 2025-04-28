@@ -28,12 +28,11 @@ comments: false
 
 ## Talk in 30 seconds
 
-Talked about why frusturation of doing same thing again and again lead to whisper-normalizer python package creation.
-Since I was the first person to put it out in the world, got lot of traction with 1M+ downloads and SEO in google and LLMs
-like perplexity helped me. We, in the sense Kavya Manohar and me, identified some crucial bugs in Malayalam Text
-Normalizer, which was later fixed by us and is still needing more work to do. I talked in the end, an exlusive content
-about my speaking journey so far. How I started talking from a small meetup in Kochi and now have spoken in multiple
-International conferences so far, like speaking thrice in Pycon India by the age of 25.
+Talked about how the frustration of doing the same thing repeatedly led to the creation of the whisper-normalizer Python package.
+Since I was the first person to put it out in the world, it gained a lot of traction with over 1 million downloads, and factors 
+like Google SEO and LLMs like Perplexity helped. Kavya Manohar and I identified some crucial bugs in the Malayalam Text Normalizer,
+which we later fixed, although it still requires further work. Towards the end, I shared some exclusive content about my speaking journey so far.
+I discussed how I started speaking at a small meetup in Kochi and have now spoken at multiple international conferences, including presenting three times at Pycon India by the age of 25.
 
 ## Questions asked?
 
@@ -53,17 +52,17 @@ International conferences so far, like speaking thrice in Pycon India by the age
 
 ![From my talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (1).jpeg)
 
-![More me pictures](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (2).jpeg)
+![More pictures of me](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (2).jpeg)
 
-![I am explaining something in the slide](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55 (1).jpeg)
+![Explaining something from the slide](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55 (1).jpeg)
 
-![](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55.jpeg)
+![Another picture from the talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55.jpeg)
 
-![Folks asks questions during the talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.12.jpeg)
+![Folks ask questions during the talk](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.12.jpeg)
 
-![Picture of the crowd. Thanks to keyvalue for providing us snacks.](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.21.jpeg)
+![Picture of the crowd. Thanks to KeyValue for providing snacks.](/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.21.jpeg)
 
 ![Bits of wisdom from Andrew's talk on Nix](/posts/2025/kochifoss/andrew_talk.mp4)
 
-![Overview video about the Event](/posts/2025/kochifoss/event_video.mp4)
+![Overview video of the event](/posts/2025/kochifoss/event_video.mp4)
 :::
