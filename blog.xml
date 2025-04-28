@@ -35,7 +35,7 @@
 </section>
 <section id="talk-in-30-seconds" class="level2">
 <h2 class="anchored" data-anchor-id="talk-in-30-seconds">Talk in 30 seconds</h2>
-<p>Talked about why frusturation of doing same thing again and again lead to whisper-normalizer python package creation. Since I was the first person to put it out in the world, got lot of traction with 1M+ downloads and SEO in google and LLMs like perplexity helped me. We, in the sense Kavya Manohar and me, identified some crucial bugs in Malayalam Text Normalizer, which was later fixed by us and is still needing more work to do. I talked in the end, an exlusive content about my speaking journey so far. How I started talking from a small meetup in Kochi and now have spoken in multiple International conferences so far, like speaking thrice in Pycon India by the age of 25.</p>
+<p>Talked about how the frustration of doing the same thing repeatedly led to the creation of the whisper-normalizer Python package. Since I was the first person to put it out in the world, it gained a lot of traction with over 1 million downloads, and factors like Google SEO and LLMs like Perplexity helped. Kavya Manohar and I identified some crucial bugs in the Malayalam Text Normalizer, which we later fixed, although it still requires further work. Towards the end, I shared some exclusive content about my speaking journey so far. I discussed how I started speaking at a small meetup in Kochi and have now spoken at multiple international conferences, including presenting three times at Pycon India by the age of 25.</p>
 </section>
 <section id="questions-asked" class="level2">
 <h2 class="anchored" data-anchor-id="questions-asked">Questions asked?</h2>
@@ -43,8 +43,121 @@
 <li>How to add a normalizer to new language? What are the changes required to make?</li>
 </ol>
 </section>
-<section id="photos" class="level2">
-<h2 class="anchored" data-anchor-id="photos">Photos</h2>
+<section id="photos-and-videos" class="level2">
+<h2 class="anchored" data-anchor-id="photos-and-videos">Photos and Videos</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.56.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Group photo taken at end of talk</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.47.jpeg" class="img-fluid figure-img"></p>
+<figcaption>The photo of crowd</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.53.jpeg" class="img-fluid figure-img"></p>
+<figcaption>From Renjith’s talk on Wikidata</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Another picture featuring Renjith</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (1).jpeg" class="img-fluid figure-img"></p>
+<figcaption>From my talk</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.54 (2).jpeg" class="img-fluid figure-img"></p>
+<figcaption>More pictures of me</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55 (1).jpeg" class="img-fluid figure-img"></p>
+<figcaption>Explaining something from the slide</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.24.55.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Another picture from the talk</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.12.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Folks ask questions during the talk</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.com/posts/2025/kochifoss/WhatsApp Image 2025-04-28 at 07.25.21.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Picture of the crowd. Thanks to KeyValue for providing snacks.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><video src="../../posts/2025/kochifoss/andrew_talk.mp4" class="img-fluid" controls=""><a href="../../posts/2025/kochifoss/andrew_talk.mp4">Video</a></video></p>
+<figcaption>Bits of wisdom from Andrew’s talk on Nix</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><video src="../../posts/2025/kochifoss/event_video.mp4" class="img-fluid" controls=""><a href="../../posts/2025/kochifoss/event_video.mp4">Video</a></video></p>
+<figcaption>Overview video of the event</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -698,9 +811,9 @@
 </section>
 <section id="tweets" class="level2">
 <h2 class="anchored" data-anchor-id="tweets">Tweets</h2>
-<p></p><div id="tweet-73213"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-73213").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-35329"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-35329").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-43156"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-43156").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-22007"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-22007").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-19416"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-19416").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-19707"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-19707").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -807,7 +920,7 @@
 <figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-72418"></div><script>tweet={"url":"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/twitter.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-72418").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-10750"></div><script>tweet={"url":"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/twitter.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-10750").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
