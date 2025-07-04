@@ -6,7 +6,6 @@ date-format: full
 categories: [meetup, community, myself]
 lang: en
 toc: true
-comments: true
 ---
 
 This Tshirt brings back so much memories.
