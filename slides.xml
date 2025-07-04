@@ -9,7 +9,7 @@
 <link>https://kurianbenoy.com/slides.html</link>
 <atom:link href="https://kurianbenoy.com/slides.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.31</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Fri, 28 Jun 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title></title>
@@ -84,16 +84,16 @@
 </item>
 <item>
   <title></title>
-  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/</link>
+  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/</guid>
+  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</guid>
   <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title></title>
-  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</link>
+  <link>https://kurianbenoy.com/talks/iiit-kottayam-summit/</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/demo.html</guid>
+  <guid>https://kurianbenoy.com/talks/iiit-kottayam-summit/</guid>
   <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -114,18 +114,18 @@
 <item>
   <title></title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
+  <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
-  <pubDate>Sun, 08 Jun 2025 19:45:16 GMT</pubDate>
+  <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
+  <pubDate>Fri, 04 Jul 2025 03:48:50 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/talks/proposals/pyconind.html</link>
+  <link>https://kurianbenoy.com/talks/lt_talk_idea/</link>
   <description><![CDATA[ undefined ]]></description>
-  <guid>https://kurianbenoy.com/talks/proposals/pyconind.html</guid>
-  <pubDate>Sun, 08 Jun 2025 19:45:16 GMT</pubDate>
+  <guid>https://kurianbenoy.com/talks/lt_talk_idea/</guid>
+  <pubDate>Fri, 04 Jul 2025 03:48:50 GMT</pubDate>
 </item>
 </channel>
 </rss>

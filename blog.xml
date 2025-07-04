@@ -9,8 +9,34 @@
 <link>https://kurianbenoy.com/blog.html</link>
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
-<generator>quarto-1.7.31</generator>
-<lastBuildDate>Sat, 26 Apr 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Fri, 04 Jul 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Debconf Tshirt memories</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2025/debconf-tshirt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This Tshirt brings back so much memories.</p>
+<p>DebConf 2023 was one of the most enriching conferences I’ve attended—diverse, high-quality, and deeply impactful. But more than anything, it reminds me of my dear friend, the late Abraham Raji. He passed away on the outing day of DebConf, and his absence is still felt.</p>
+<p>Abraham designed this Tshirt with the unique Kerala impression.</p>
+<p>Abraham gave me an opportunity to speak in my college—at DebUtsav 2023. I still remember his words: “Kurian, you’ve grown into a confident public speaker. You’ve made it.”</p>
+<p>The journey wasn’t always smooth. My first talk didn’t go well, and I faced harsh criticism from an experienced speaker who told me I would never make it to speak at PyCon India. That criticism became fuel for my determination. By age 25, I had spoken at PyCon India three times.</p>
+<p>Sometimes the best response to doubt is simply proving them wrong. When someone tells you that you can’t do something, remember: you absolutely can. It’s about perseverance, learning from feedback, and never giving up on your goals.</p>
+
+
+
+ ]]></description>
+  <category>meetup</category>
+  <category>community</category>
+  <category>myself</category>
+  <guid>https://kurianbenoy.com/posts/2025/debconf-tshirt.html</guid>
+  <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>How I ended up maintaining a python package with 1M+ downloads?</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -805,9 +831,9 @@
 </section>
 <section id="tweets" class="level2">
 <h2 class="anchored" data-anchor-id="tweets">Tweets</h2>
-<p></p><div id="tweet-39186"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-39186").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-69987"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-69987").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-27287"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27287").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-69114"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-69114").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-55278"></div><script>tweet={"url":"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/twitter.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/twitter.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/twitter.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-55278").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-96496"></div><script>tweet={"url":"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/twitter.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/twitter.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-96496").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -914,7 +940,7 @@
 <figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-16601"></div><script>tweet={"url":"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/twitter.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-16601").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-69828"></div><script>tweet={"url":"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/twitter.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/twitter.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-69828").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1361,31 +1387,6 @@ for their intended purposes.</code></pre>
   <guid>https://kurianbenoy.com/posts/2023/delft-fastai-talk/</guid>
   <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
   <media:content url="https://i3.ytimg.com/vi/c69VyJ16Mx4/maxresdefault.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>I got a positive compliment</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/appreciation_rahul/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I was supposed to write something before this article. Yet I stopped that and thought about writing an appreciating post to my Gym trainer Rahul. During my work-out session at the GYM, one day my trainer said Kurian your Calf(which is muscle in our legs) is excellent. Lot of people train very hard to achieve it, yet he said he hasn’t seen anyone with excellent Calfs like mine.</p>
-<p>I believe in this famous quote from Servantetes:</p>
-<blockquote class="blockquote">
-<p>Journey is the inn</p>
-</blockquote>
-<p>I believe life is not one dimensional and being good in just one thing means nothing. Yet there are some dimensions like Weight loss which is not immediately in our control even when I try to follow my workout routine atleast 5 times a week.</p>
-<p>Young folks like Rahul who showed great dedication to his profession and most importantly not doing body shaming ever in the GYM. In fact I really appreciate his compliment and I am grateful that there are young people Rahul who are there in my place.</p>
-
-
-
- ]]></description>
-  <category>myself</category>
-  <guid>https://kurianbenoy.com/posts/2023/appreciation_rahul/</guid>
-  <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

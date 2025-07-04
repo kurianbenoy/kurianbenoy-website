@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-02-22">
+<meta name="author" content="Kurian Benoy">
 
-<title>Learning Vue.js Part 2 – Kurian Benoy</title>
+<title>Debconf Tshirt memories – Kurian Benoy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,15 +72,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Learning Vue.js Part 2 – Kurian Benoy">
-<meta property="og:description" content="Learning frontend is a superpower. Even Eugene Yan wrote in his blog post How to win a Data Hackathon in conclusion:">
+<meta property="og:title" content="Debconf Tshirt memories – Kurian Benoy">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Learning Vue.js Part 2 – Kurian Benoy">
-<meta name="twitter:description" content="Learning frontend is a superpower. Even Eugene Yan wrote in his blog post How to win a Data Hackathon in conclusion:">
+<meta name="twitter:title" content="Debconf Tshirt memories – Kurian Benoy">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -140,12 +140,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Learning Vue.js Part 2</h1>
+      <h1 class="title">Debconf Tshirt memories</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">javascript</div>
-                <div class="quarto-category">frontend</div>
-                <div class="quarto-category">coding</div>
-                <div class="quarto-category">Webdev</div>
+                <div class="quarto-category">meetup</div>
+                <div class="quarto-category">community</div>
+                <div class="quarto-category">myself</div>
               </div>
                   </div>
   </div>
@@ -153,11 +152,17 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Kurian Benoy </p>
+            </div>
+    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 22, 2021</p>
+        <p class="date">Friday, July 4, 2025</p>
       </div>
     </div>
     
@@ -168,7 +173,9 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -176,90 +183,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Learning frontend is a superpower. Even Eugene Yan wrote in his blog post <a href="https://eugeneyan.com/writing/how-to-win-data-hackathon/">How to win a Data Hackathon</a> in conclusion:</p>
-<pre><code>Training bespoke machine learning models wasn’t a differentiating factor at this hackathon. Instead, what made a difference was:
+<p>This Tshirt brings back so much memories.</p>
+<p>DebConf 2023 was one of the most enriching conferences I’ve attended—diverse, high-quality, and deeply impactful. But more than anything, it reminds me of my dear friend, the late Abraham Raji. He passed away on the outing day of DebConf, and his absence is still felt.</p>
+<p>Abraham designed this Tshirt with the unique Kerala impression.</p>
+<p>Abraham gave me an opportunity to speak in my college—at DebUtsav 2023. I still remember his words: “Kurian, you’ve grown into a confident public speaker. You’ve made it.”</p>
+<p>The journey wasn’t always smooth. My first talk didn’t go well, and I faced harsh criticism from an experienced speaker who told me I would never make it to speak at PyCon India. That criticism became fuel for my determination. By age 25, I had spoken at PyCon India three times.</p>
+<p>Sometimes the best response to doubt is simply proving them wrong. When someone tells you that you can’t do something, remember: you absolutely can. It’s about perseverance, learning from feedback, and never giving up on your goals.</p>
 
-- Using readily available data via public datasets or APIs
-- Using libraries / pre-trained models to speed up ML iteration
-- Building UIs to make machine learning and insights easy to consume
-- Deploying models and UIs so people can use them</code></pre>
-<p><img src="https://user-images.githubusercontent.com/24592806/108724626-889e3a00-754b-11eb-9a51-0c809b9f8867.png" class="img-fluid"></p>
-<blockquote class="blockquote">
-<p>Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.</p>
-</blockquote>
-</section>
-<section id="vue.js-getting-started-guide" class="level2">
-<h2 class="anchored" data-anchor-id="vue.js-getting-started-guide">Vue.js getting started guide</h2>
-<p>Last week we started by picking out a few basics of Javascript. I also recommended it would be a good idea to read Vue getting started guide.</p>
-<p>Let’s first look at Vue getting started guide:</p>
-<p><a href="https://vuejs.org/v2/guide/">Follow this link</a></p>
-<p>The core library is focused on the view layer only and is easy to pick up and integrate with other libraries or existing projects. If you have read the getting started guide, you may have realised the following features:</p>
-<ol type="1">
-<li>Declarative render - the property of adding data elements</li>
-<li>Then conditional statements using v-if and v-else</li>
-<li>v-for for declaring all elements in the todo list</li>
-<li>v-model to handle two-way input</li>
-<li>Functions to call on click which can return the necessary functions as appropriately</li>
-<li>Using components and using bind statements and passing prop</li>
-<li>Vue components are similar to web components and are inspired and modelled with Slot API</li>
-</ol>
-<p>The above points are a brief gist of the basic getting started guide about Vue.js. We made a small todo list with the above getting started guide:</p>
-</section>
-<section id="todo-list---based-on-vue.js" class="level2">
-<h2 class="anchored" data-anchor-id="todo-list---based-on-vue.js">TODO list - based on Vue.js</h2>
-<p><a href="https://codepen.io/kurianbenoy-aot/pen/poNWNpM">TODO list Code pen</a></p>
-If you look at the source code inside
-<script>
-<p>tag:</p>
-<pre><code>export default {
-  data() {
-  .....
-  },
-  methods: {
-  ....
-    functions to be used for various use cases
-  },
-  computed: {
-    ...
-  }</code></pre>
-<ul>
-<li><em>data</em>: used for deciding properties of vue.js application</li>
-<li><em>methods</em>: Used for various methods, like what functionality to occur when a button is to be clicked or calling APIs etc</li>
-<li><em>computed</em>: Used for calculating values based on predefined data. There are both getters and setters functionality with this method</li>
-</ul>
-<p>style - contains the functionality for using CSS to make your application look great</p>
-<p>template - is the special place where all the Vue.js magic comes in place. In generally most of the folks use Vue.js with templates, even though there is <a href="https://vuejs.org/v2/guide/render-function.html">Vue render functions</a> which I guess is mainly used React. In the case of templates, when you are using v-(suffix) it always is something special. It can be something like binding variables, methods, loops, etc.</p>
-<p>## Vue-cli to create Vue projects</p>
-<p>Vue-cli is the best to initialize and get started with learning any new project the first time. This can be the equivalent of create-react-app in React world and the equivalent of <a href="https://github.com/shreyashankar/create-ml-app">create-ml-app</a> build by Shreyas Shankar for ML projects.</p>
-<p>It has multiple features like supporting various features of Babel, typescript, ESlint, etc. It does not require users to eject. It’s very easy to customise and choose various features for our Vue project. Yet it’s a good idea to remember all these are built on top of legends which are taken for granted often.</p>
-<p><a href="https://cli.vuejs.org/">Check out Vue CLI website to learn more about the project</a></p>
-<p>The command to begin a project is:</p>
-<p><code>vue create &lt;project name&gt;</code></p>
-</section>
-<section id="side-note---about-npm-packaging" class="level2">
-<h2>Side Note - about NPM packaging</h2>
-<p><a href="https://dev.to/spartakyste/the-npm-guide-i-would-have-loved-as-a-beginner-4i07">Article Link</a></p>
-<p>It talks about the basic NPM commands, how NPM acts as the package manager. It also tells about npm init -y command to create a project, and how to manage dependencies and devDependencies.</p>
-<p>Dependencies are vital features, while Dev dependencies like linters help in managing things not vital and are removed when productionizing with npm build.</p>
-<p>He also talks about the concept of scripts, which are used for determining commands to run like npm start in the case of React. Tips on managing dependencies, uninstalling packages and package-lock.json is mentioned in the article.</p>
-<dl>
-<dt>I am signing off again, I will be back to share more of my learnings next week. Till then Bye.</dt>
-<dd>
-<p>Kurian</p>
-</dd>
-</dl>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Kurian Benoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Kurian Benoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6QmxvZw==">Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Jsb2cuaHRtbA==">/blog.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGFsa3M=">Talks</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3RhbGtzLmh0bWw=">/talks.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VElM">TIL</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly90aWwua3VyaWFuYmVub3kuY29tLw==">https://til.kurianbenoy.com/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9saW5rZWRpbi5jb20vaW4va3VyaWFuYmVub3k=">https://linkedin.com/in/kurianbenoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly90d2l0dGVyLmNvbS9rdXJpYW5iZW5veTI=">https://twitter.com/kurianbenoy2</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9naXRodWIuY29tL2t1cmlhbmJlbm95">https://github.com/kurianbenoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Jsb2cueG1s">/blog.xml</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Learning Vue.js Part 2 – Kurian Benoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Learning Vue.js Part 2 – Kurian Benoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Learning Vue.js Part 2 – Kurian Benoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Kurian Benoy</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
-</div>
-</section>
+
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -687,7 +621,7 @@ If you look at the source code inside
   }
   loadGiscus();
 </script>
-</section></main></div> <!-- /content -->
+</div> <!-- /content -->
 
 
 
