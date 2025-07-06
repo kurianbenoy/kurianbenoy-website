@@ -8,8 +8,6 @@ lang: en
 toc: true
 ---
 
-![](/posts/images/debconf.jpeg)
-
 This Tshirt brings back so much memories.
 
 DebConf 2023 was one of the most enriching conferences I’ve attended—diverse, high-quality, and deeply impactful. But more than anything, it reminds me of my dear friend, the late Abraham Raji. He passed away on the outing day of DebConf, and his absence is still felt.
@@ -24,6 +22,8 @@ That criticism became fuel for my determination. By age 25, I had spoken at PyCo
 Sometimes the best response to doubt is simply proving them wrong. When someone tells you that you can't do something, remember: you absolutely can. It's about perseverance, learning from feedback, and never giving up on your goals.
 
 ::: {layout-ncol=2}
+![](/posts/images/debconf.jpeg)
+
 ![](/posts/images/debconf1.jpeg)
 
 ![](/posts/images/debconf2.jpeg)
