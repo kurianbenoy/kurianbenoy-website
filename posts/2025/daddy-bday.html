@@ -8,7 +8,7 @@
 
 <meta name="author" content="Kurian Benoy">
 
-<title>Birthday Gift for my grandfather – Kurian Benoy</title>
+<title>Birthday Gift for my grandfather(Daddy) – Kurian Benoy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,12 +72,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Birthday Gift for my grandfather – Kurian Benoy">
+<meta property="og:title" content="Birthday Gift for my grandfather(Daddy) – Kurian Benoy">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://kurianbenoy.com/posts/images/daddy_gift.jpeg">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="Birthday Gift for my grandfather – Kurian Benoy">
+<meta name="twitter:title" content="Birthday Gift for my grandfather(Daddy) – Kurian Benoy">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://kurianbenoy.com/posts/images/daddy_gift.jpeg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Birthday Gift for my grandfather</h1>
+      <h1 class="title">Birthday Gift for my grandfather(Daddy)</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">myself</div>
               </div>
@@ -181,9 +183,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>A few weeks back, I mentioned working on one of my passion projects. I recently completed it. The project involved curating the speeches of a certain Christian preacher as a birthday gift for my grandfather, whom we affectionately call Daddy.</p>
-<p>He has long believed in the potential of speech-to-text technology to convert speeches into books. My mother, Dr.&nbsp;Anu Thomas, and I collaborated on this project and presented it to him a few days ago. He was obviously thrilled that his vision had been realized. I’m grateful to have played a small part in completing this project with help of gemini-2.5 pro and Saarika 2.5 models.</p>
+<p>A few weeks back, I mentioned working on one of my passion projects. I recently completed it. The project involved curating the speeches of a Christian preacher as a birthday gift for my grandfather, whom we affectionately call Daddy.</p>
+<p>He has long believed in the potential of speech-to-text technology to convert speeches into books. My mother, Dr.&nbsp;Anu Thomas, and I collaborated on this project and presented it to him a few days ago. He was obviously thrilled that his vision had been realized. I’m grateful to have played a small part in completing this project with the help of gemini-2.5 pro and Saarika 2.5 models.</p>
 <p>You can check out this book in this <a href="https://github.com/kurianbenoy/daddy-birthday-gift/tree/main/book">github repo</a></p>
+<p><img src="../../posts/images/daddy_gift.jpeg" class="img-fluid"></p>
 
 
 
@@ -587,6 +590,35 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "kurianbenoy/kurianbenoy-website";
+    script.dataset.repoId = "MDEwOlJlcG9zaXRvcnkxMDY1MzAxNzQ";
+    script.dataset.category = "Q&amp;A";
+    script.dataset.categoryId = "DIC_kwDOBlmFfs4CU-J4";
+    script.dataset.mapping = "url";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 
 
