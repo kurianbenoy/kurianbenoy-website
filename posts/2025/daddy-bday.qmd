@@ -1,19 +1,18 @@
 ---
-title: Birthday Gift for my grandfather
+title: Birthday Gift for my grandfather(Daddy)
 author: Kurian Benoy
 date: 2025-07-16
 date-format: full
 categories: [myself]
 lang: en
 toc: true
-comments: false
 ---
 
 
-A few weeks back, I mentioned working on one of my passion projects. I recently completed it. The project involved curating the speeches of a certain Christian preacher as a birthday gift for my grandfather, whom we affectionately call Daddy.
+A few weeks back, I mentioned working on one of my passion projects. I recently completed it. The project involved curating the speeches of a Christian preacher as a birthday gift for my grandfather, whom we affectionately call Daddy.
 
-He has long believed in the potential of speech-to-text technology to convert speeches into books. My mother, Dr. Anu Thomas, and I collaborated on this project and presented it to him a few days ago. He was obviously thrilled that his vision had been realized. I’m grateful to have played a small part in completing this project with help of gemini-2.5 pro and Saarika 2.5 models.
+He has long believed in the potential of speech-to-text technology to convert speeches into books. My mother, Dr. Anu Thomas, and I collaborated on this project and presented it to him a few days ago. He was obviously thrilled that his vision had been realized. I’m grateful to have played a small part in completing this project with the help of gemini-2.5 pro and Saarika 2.5 models.
 
 You can check out this book in this [github repo](https://github.com/kurianbenoy/daddy-birthday-gift/tree/main/book)
 
-
+![](/posts/images/daddy_gift.jpeg)
