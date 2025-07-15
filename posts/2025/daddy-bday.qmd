@@ -11,6 +11,8 @@ A few weeks back, I mentioned working on one of my passion projects. I recently 
 
 He has long believed in the potential of speech-to-text technology to convert speeches into books. My mother, Dr. Anu Thomas, and I collaborated on this project and presented it to him a few days ago. He was obviously thrilled that his vision had been realized. I’m grateful to have played a small part in completing this project, with the help of the Gemini 2.5 Pro and Saarika 2.5 models.
 
-You can check out this book in this [github repo](https://github.com/kurianbenoy/daddy-birthday-gift/tree/main/book)
+You can check out this book in this [github repo](https://github.com/kurianbenoy/daddy-birthday-gift/tree/main/book).
+
+(To some of my friends and few of colleagues at Sarvam, I send a bit more longer message which is not shared here.)
 
 ![](/posts/images/daddy_gift.jpeg)
