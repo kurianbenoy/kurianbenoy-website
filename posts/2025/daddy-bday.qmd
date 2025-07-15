@@ -5,9 +5,7 @@ date: 2025-07-16
 date-format: full
 categories: [myself]
 lang: en
-toc: true
 ---
-
 
 A few weeks back, I mentioned working on one of my passion projects. I recently completed it. The project involved curating the speeches of a Christian preacher as a birthday gift for my grandfather, whom we affectionately call Daddy.
 
