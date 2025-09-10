@@ -1,0 +1,32 @@
+---
+title: Building great datasets on your mother tongue with Open-Weight models
+author: Kurian Benoy
+subtitle: IndiaFOSS 2025
+date: 2025-09-21
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+    footer: "You can access slides @ [kurianbenoy.com/talks/fossasia2023.html](https://kurianbenoy.com/talks/fossasia2023.html)"
+---
+
+## Outline
+
+- Why even generate synthetic data?
+- Generating Synthethic data with Wan2.2 Text to video models for Onam Images
+- Generating Malayalam Speech Dataset
+- Conclusion
+
+## $whoami
+
+- An open-source developer who is the creator of "whisper_normalizer" and ML developer @Sarvam
+
+## Disclaimer
+
+![](https://img.itch.zone/aW1nLzgyNzQyMTUuZ2lm/original/G2YvUD.gif)
+
+## Why even Synthehtic data
+
+- The amount of real datasets is really low. 
+
