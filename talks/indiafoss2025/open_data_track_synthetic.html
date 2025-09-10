@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<link href="../../../favicon.ico" rel="icon">
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-html/tabby.min.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.34">
 
-  <meta name="author" content="Kurian Benoy | 2021MCS120014">
-  <title>Kurian Benoy – ASR for Malayalam</title>
+  <meta name="author" content="Kurian Benoy">
+  <title>Kurian Benoy – Building great datasets on your mother tongue with Open-Weight models</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -30,11 +30,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
-  <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -122,9 +122,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="ASR for Malayalam – Kurian Benoy">
+<meta property="og:title" content="Building great datasets on your mother tongue with Open-Weight models – Kurian Benoy">
+<meta property="og:description" content="IndiaFOSS 2025">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta name="twitter:title" content="ASR for Malayalam – Kurian Benoy">
+<meta name="twitter:title" content="Building great datasets on your mother tongue with Open-Weight models – Kurian Benoy">
+<meta name="twitter:description" content="IndiaFOSS 2025">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
@@ -132,147 +134,42 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">ASR for Malayalam</h1>
+  <h1 class="title">Building great datasets on your mother tongue with Open-Weight models</h1>
+  <p class="subtitle">IndiaFOSS 2025</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Kurian Benoy | 2021MCS120014 
+Kurian Benoy 
 </div>
 </div>
 </div>
 
-  <p class="date">Sunday, September 3, 2023</p>
+  <p class="date">Sunday, September 21, 2025</p>
 </section>
-<section id="automatic-speech-recognition" class="slide level2">
-<h2>Automatic Speech Recognition</h2>
+<section id="outline" class="slide level2">
+<h2>Outline</h2>
 <ul>
-<li>Automatic Speech Recognition(ASR) is the use of technology to process human speech into readable text.</li>
+<li>Why even generate synthetic data?</li>
+<li>Generating Synthethic data with Wan2.2 Text to video models for Onam Images</li>
+<li>Generating Malayalam Speech Dataset</li>
+<li>Conclusion</li>
 </ul>
+</section>
+<section id="whoami" class="slide level2">
+<h2>$whoami</h2>
+<ul>
+<li>An open-source developer who is the creator of “whisper_normalizer” and ML developer <span class="citation" data-cites="Sarvam">@Sarvam</span></li>
+</ul>
+</section>
+<section id="disclaimer" class="slide level2">
+<h2>Disclaimer</h2>
 
-<img data-src="s2t.png" class="r-stretch"></section>
-<section id="about-malayalam" class="slide level2">
-<h2>About Malayalam</h2>
+<img data-src="https://img.itch.zone/aW1nLzgyNzQyMTUuZ2lm/original/G2YvUD.gif" class="r-stretch"></section>
+<section id="why-even-synthehtic-data" class="slide level2">
+<h2>Why even Synthehtic data</h2>
 <ul>
-<li>Malayalam is a dravidian language which has 38 million+ speakers(2011 census).</li>
-<li>Malayalam is morphologically complex language which has complex morphology compared to languages like Finnish, Estonian, English, Tamil, Hindi etc.[3]</li>
-</ul>
-</section>
-<section id="literature-review" class="slide level2">
-<h2>Literature Review</h2>
-<ul>
-<li>Using HMM, [1] showed Malayalam speech recognition of numbers was possible when trained in a corpus of 420 sentences which contained 21 speakers. Similarly using HMM and ANN[4] demonstrated malayalam speech recognition. [1] and [4] demonstrated their resuts in internal test sets and claims to have word recongition accuracy of 91% and 86.67% respectively.</li>
-</ul>
-</section>
-<section id="literature-review-1" class="slide level2">
-<h2>Literature Review</h2>
-<ul>
-<li>Kavya Manohar et.al[2] proposed a open vocabulary speech recognition in Malayalam. It involves building a hybrid ASR model with acoustic model ASR and that builds using language model and prounciation lexion. The study examined WER in medium and large OOV test which are open source and concluded it can give 10 to 7% improvement over simply using acoustic ASR.</li>
-</ul>
-</section>
-<section id="literature-review-2" class="slide level2">
-<h2>Literature Review</h2>
-<ul>
-<li>There are ASR’s which is originally trained for multiple languages supporting Malayalam as well.</li>
-<li>Whisper [5] which use a encoder-decoder based model which supports speech recognition in 99+ languages. For Malayalam in Common Voice 9 dataset for malayalam subset it reported a WER of 103.2 with largev2 model.</li>
-<li>MMS [6] which uses a CTC model supports speech recognition in 1000+ languages. For Malayalam subset in Fleurs dataset it reported a WER of 39.7 with MMS L-1107 no LM checkpoint.</li>
-</ul>
-</section>
-<section id="challenges" class="slide level2">
-<h2>Challenges</h2>
-<ul>
-<li>A number of existing techniques are available for Malayalam speech to text, yet there is no comparission on how well one existing models perform over another as most of analysis is done in private datasets.</li>
-<li>Doesn’t support speech transcription of long-form audios with time-stamps</li>
-<li>Open research methadology is not followed which makes it challenging to identify datasets and models.</li>
-</ul>
-</section>
-<section id="project-objectives" class="slide level2">
-<h2>Project Objectives</h2>
-<ol type="1">
-<li>Build an open-source based ASR model</li>
-</ol>
-<ul>
-<li>Achieve a WER of less than 0.15</li>
-</ul>
-<ol start="2" type="1">
-<li><p>Benchmark ASR models in datasets</p></li>
-<li><p>Support Malayalam long form audio speech transcription</p></li>
-</ol>
-</section>
-<section id="expected-outcome" class="slide level2">
-<h2>Expected Outcome</h2>
-<ol type="1">
-<li>Fine-tuned ASR model weights which are open source and can be tested in approporiate web app UI.</li>
-<li>An ASR system which is able to support long form transcription.</li>
-<li>A leaderboard of best ASR models available in Malayalam</li>
-</ol>
-</section>
-<section id="proposed-methodology" class="slide level2">
-<h2>Proposed Methodology</h2>
-<ol type="1">
-<li>Build an open-source based ASR model</li>
-</ol>
-<ul>
-<li>Collect dataset for training ASR model</li>
-<li>Select appropriate base architecture</li>
-<li>Then fine-tune models</li>
-<li>Evaluate</li>
-</ul>
-</section>
-<section id="proposed-methodology-1" class="slide level2">
-<h2>Proposed Methodology</h2>
-<ol start="2" type="1">
-<li>Benchmark ASR models in datasets</li>
-</ol>
-<ul>
-<li>Using appropriate selected datasets</li>
-<li>Evaluate the performance of ASR model</li>
-<li>The proposed metrics are WER, CER, time taken, model size etc.</li>
-</ul>
-</section>
-<section id="proposed-methodology-2" class="slide level2">
-<h2>Proposed Methodology</h2>
-<ol start="3" type="1">
-<li>Support Malayalam long form audio speech transcription</li>
-</ol>
-<ul>
-<li>Using hypothesised approach proposed in [7] for languages like English, French we hope to build similar models which can support long form audio.</li>
-</ul>
-</section>
-<section id="project-plan" class="slide level2">
-<h2>Project Plan</h2>
-<p>Semester 1:</p>
-<ol type="1">
-<li><p>Build an open-source based ASR model</p></li>
-<li><p>Benchmark ASR models in datasets</p></li>
-</ol>
-<p>Semester 2:</p>
-<ol start="3" type="1">
-<li>Support Malayalam long form audio speech transcription</li>
-</ol>
-</section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
-<ul>
-<li>Build open-source Malayalam ASR model which support long-form audio transcription.</li>
-</ul>
-</section>
-<section id="references" class="slide level2">
-<h2>References</h2>
-<ul>
-<li>[1] Speech Recognition of Malayalam Numbers,Cini Kurian, Kannan Balakrishnan<br>
-</li>
-<li>[2] Syllable Subword Tokens for Open Vocabulary Speech Recognition in Malayalam by Kavya Manohar, A.R Jayan, Rajeev Rajan</li>
-<li>[3] Quantitative Analysis of the Morphological Complexity of Malayalam Language</li>
-<li>[4] HMM/ANN hybrid model for continuous Malayalam speech recognition, Anuj Mohammed &amp; K.N Ramachandran Nair</li>
-</ul>
-</section>
-<section id="references-1" class="slide level2">
-<h2>References</h2>
-<ul>
-<li>[5] Robust Speech Recognition via Large-Scale Weak Supervision, Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine Mcleavey, Ilya Sutskever</li>
-<li>[6] Scaling Speech Technology to 1,000+ Languages, Vineel Pratap, Andros Tjandra, Bowen Shi, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli</li>
-<li>[7] WhisperX: Time-Accurate Speech Transcription of Long-Form Audio, Max Bain</li>
+<li>The amount of real datasets is really low.</li>
 </ul>
 
 
@@ -280,24 +177,24 @@ Kurian Benoy | 2021MCS120014
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-
+<p>You can access slides @ <a href="https://kurianbenoy.com/talks/fossasia2023.html">kurianbenoy.com/talks/fossasia2023.html</a></p>
 </div>
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../../../site_libs/revealjs/dist/reveal.js"></script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="../../../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

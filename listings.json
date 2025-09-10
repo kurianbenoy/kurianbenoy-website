@@ -1,5 +1,26 @@
 [
   {
+    "listing": "/slides.html",
+    "items": [
+      "/talks/proposals/pyconind.html",
+      "/talks/lt_talk_idea/index.html",
+      "/talks/indiafoss2025/open_data_track_synthetic.html",
+      "/talks/sarvam_talk_asr/index.html",
+      "/talks/code_blossom_great_open_source_projects/index.html",
+      "/talks/ai4bharat_reproducing_whisper/index.html",
+      "/talks/ai4bharat_paper_reading/index.html",
+      "/talks/nitc-fossmeet-2024/llm-101.html",
+      "/talks/pyconindia-2023/pyconind.html",
+      "/talks/iiit-project/review-1/index.html",
+      "/talks/foss-united/kochi.html",
+      "/talks/mec/debutsav.html",
+      "/talks/iiit-kottayam-summit/demo.html",
+      "/talks/iiit-kottayam-summit/index.html",
+      "/talks/delft-fastai/index.html",
+      "/talks/fossasia2023.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/2025/daddy-bday.html",
@@ -18,8 +39,8 @@
       "/posts/2023/chess.html",
       "/posts/2023/fossunited/kochi.html",
       "/posts/2023/debutsav_talk/index.html",
-      "/posts/2023/summit23_iiit/demo.html",
       "/posts/2023/summit23_iiit/oral.html",
+      "/posts/2023/summit23_iiit/demo.html",
       "/posts/2023/malayalam_fonts/index.html",
       "/posts/2023/first_python_teacher/index.html",
       "/posts/2023/delft-fastai-talk/index.html",
@@ -100,8 +121,8 @@
       "/posts/2020/2020-08-09-Mindmaster.html",
       "/posts/2020/2020-07-09-TWTW_week1.html",
       "/posts/2020/2020-06-09-CS229_lessonnotes.html",
-      "/posts/2020/2020-06-01-ideasforMLcomputing.html",
       "/posts/2020/2020-06-01-Books_read.html",
+      "/posts/2020/2020-06-01-ideasforMLcomputing.html",
       "/posts/2020/2020-05-21-deoldify.html",
       "/posts/2020/2020-03-21-BengaliAI_experience.html",
       "/posts/2020/2020-03-14-swift0.html",
@@ -141,26 +162,6 @@
       "/posts/2019/2019-03-13-FOSSASIA-Day1.html",
       "/posts/2019/2019-03-01-Contributing_to_Open_Source_With_CloudCV.html",
       "/posts/2019/2019-02-11-SVD_NMF.html"
-    ]
-  },
-  {
-    "listing": "/slides.html",
-    "items": [
-      "/talks/lt_talk_idea/index.html",
-      "/talks/proposals/pyconind.html",
-      "/talks/sarvam_talk_asr/index.html",
-      "/talks/code_blossom_great_open_source_projects/index.html",
-      "/talks/ai4bharat_reproducing_whisper/index.html",
-      "/talks/ai4bharat_paper_reading/index.html",
-      "/talks/nitc-fossmeet-2024/llm-101.html",
-      "/talks/pyconindia-2023/pyconind.html",
-      "/talks/iiit-project/review-1/index.html",
-      "/talks/foss-united/kochi.html",
-      "/talks/mec/debutsav.html",
-      "/talks/iiit-kottayam-summit/index.html",
-      "/talks/iiit-kottayam-summit/demo.html",
-      "/talks/delft-fastai/index.html",
-      "/talks/fossasia2023.html"
     ]
   }
 ]
