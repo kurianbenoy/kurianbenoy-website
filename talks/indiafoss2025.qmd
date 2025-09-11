@@ -1,0 +1,86 @@
+---
+title: Building great datasets on your mother tongue with Open-Weight models
+author: Kurian Benoy
+subtitle: IndiaFOSS 2025
+date: 2025-09-21
+date-format: full
+comments: false
+format:
+  revealjs:
+    slide-number: true
+---
+
+## Outline
+
+- Why even generate synthetic data?
+- Generating Synthethic data with Wan2.2 Text to video models for Onam Images
+- Generating Malayalam Speech Dataset
+- Conclusion
+
+## $whoami - Kurian Benoy
+
+- An open-source developer who is the creator of "whisper_normalizer"
+- ML Engineer @ Sarvam
+- I love home food and watching birds
+- GOATs in various sport are: Leo Messi(Football), Roger Fedrer(Tennis), Virat Kohli(Cricket), Mary Kom(Boxing)
+- GOATs in chess IMO: Judith Polgar(Chess), D Gukesh(Chess)
+
+## $whoami - <IIIT Kottayam Student>
+
+## Why I do FOSS?
+
+## Disclaimer
+
+![](https://img.itch.zone/aW1nLzgyNzQyMTUuZ2lm/original/G2YvUD.gif)
+
+## Why even Synthetic data?
+
+- The amount of real datasets is really low. 
+
+## Providence of Synthic data
+
+## Cost aspect?
+
+## Proposed Method for Synthethic Speech Dataset
+
+**Input Source (Malayalam Text)**
+  - Directly start with text (from dataset, Wikipedia, government docs, OER, etc.).
+  - No speech-to-text conversion needed.
+**Text Preprocessing**
+  - Clean the text: remove special characters, normalize spellings, handle punctuation.
+**Malayalam Text Processing**
+  - Tokenize words, handle grammar-specific features, normalize Unicode characters.
+**Grapheme-to-Phoneme (G2P) Conversion**
+  - Convert Malayalam letters (graphemes) into their sounds (phonemes).
+  - Example: "കേരളം" → /keːɾɐɭɐm/
+**Speech Synthesis (TTS)**
+  - Map phonemes to synthetic speech representation.
+  - Uses models like IndicTTS, IndicF5, XTTS.
+**Generate Spectrogram (Acoustic Model)**
+  - Convert phoneme sequence into a spectrogram (visual sound representation).
+**Vocoder → Convert to Speech**
+  - Convert spectrogram into natural audio waveforms.
+
+## Proposed Model for Synthethic Speech Dataset
+  - IndicF5: Open-source Indic TTS, supports Indian scripts.
+  - XTTS-v2 – Multilingual, high-quality cross-lingual TTS.
+  - FreeVC24 / Voice Cloning – Generate diverse speakers.
+
+## Domains
+  - News Websities
+  - Wikipedia
+  - Literature and Books
+  - OpenSubtitles.org
+  - Crowdsourced Text Datasets
+
+## Creating Synthethic image dataset with Wan 2.2
+
+## What is WAN2.2 model
+
+## How well is it performing for Malayalam language
+
+## Thank you
+
+## Question and Answer
+
+
