@@ -4235,11 +4235,18 @@
     "text": "Cost aspect?"
   },
   {
-    "objectID": "talks/indiafoss2025.html#proposed-method-for-synthethic-speech-dataset",
-    "href": "talks/indiafoss2025.html#proposed-method-for-synthethic-speech-dataset",
+    "objectID": "talks/indiafoss2025.html#proposed-method-for-synthethic-speech-dataset-12",
+    "href": "talks/indiafoss2025.html#proposed-method-for-synthethic-speech-dataset-12",
     "title": "Building great datasets on your mother tongue with Open-Weight models",
-    "section": "Proposed Method for Synthethic Speech Dataset",
-    "text": "Proposed Method for Synthethic Speech Dataset\nInput Source (Malayalam Text) - Directly start with text (from dataset, Wikipedia, government docs, OER, etc.). - No speech-to-text conversion needed. Text Preprocessing - Clean the text: remove special characters, normalize spellings, handle punctuation. Malayalam Text Processing - Tokenize words, handle grammar-specific features, normalize Unicode characters. Grapheme-to-Phoneme (G2P) Conversion - Convert Malayalam letters (graphemes) into their sounds (phonemes). - Example: “കേരളം” → /keːɾɐɭɐm/ Speech Synthesis (TTS) - Map phonemes to synthetic speech representation. - Uses models like IndicTTS, IndicF5, XTTS. Generate Spectrogram (Acoustic Model) - Convert phoneme sequence into a spectrogram (visual sound representation). Vocoder → Convert to Speech - Convert spectrogram into natural audio waveforms."
+    "section": "Proposed Method for Synthethic Speech Dataset (1/2)",
+    "text": "Proposed Method for Synthethic Speech Dataset (1/2)\nInput Source (Malayalam Text) - Directly start with text (from dataset, Wikipedia, government docs, OER, etc.). - No speech-to-text conversion needed. Text Preprocessing - Clean the text: remove special characters, normalize spellings, handle punctuation. Malayalam Text Processing - Tokenize words, handle grammar-specific features, normalize Unicode characters. Grapheme-to-Phoneme (G2P) Conversion - Convert Malayalam letters (graphemes) into their sounds (phonemes). - Example: “കേരളം” → /keːɾɐɭɐm/"
+  },
+  {
+    "objectID": "talks/indiafoss2025.html#proposed-method-for-synthethic-speech-dataset-22",
+    "href": "talks/indiafoss2025.html#proposed-method-for-synthethic-speech-dataset-22",
+    "title": "Building great datasets on your mother tongue with Open-Weight models",
+    "section": "Proposed Method for Synthethic Speech Dataset (2/2)",
+    "text": "Proposed Method for Synthethic Speech Dataset (2/2)\nSpeech Synthesis (TTS) - Map phonemes to synthetic speech representation. - Uses models like IndicTTS, IndicF5, XTTS. Generate Spectrogram (Acoustic Model) - Convert phoneme sequence into a spectrogram (visual sound representation). Vocoder → Convert to Speech - Convert spectrogram into natural audio waveforms."
   },
   {
     "objectID": "talks/indiafoss2025.html#proposed-model-for-synthethic-speech-dataset",
@@ -4249,11 +4256,18 @@
     "text": "Proposed Model for Synthethic Speech Dataset\n\nIndicF5: Open-source Indic TTS, supports Indian scripts.\nXTTS-v2 – Multilingual, high-quality cross-lingual TTS.\nFreeVC24 / Voice Cloning – Generate diverse speakers."
   },
   {
-    "objectID": "talks/indiafoss2025.html#domains",
-    "href": "talks/indiafoss2025.html#domains",
+    "objectID": "talks/indiafoss2025.html#domains-used-for-text-data",
+    "href": "talks/indiafoss2025.html#domains-used-for-text-data",
     "title": "Building great datasets on your mother tongue with Open-Weight models",
-    "section": "Domains",
-    "text": "Domains\n\nNews Websities\nWikipedia\nLiterature and Books\nOpenSubtitles.org\nCrowdsourced Text Datasets"
+    "section": "Domains used for Text Data",
+    "text": "Domains used for Text Data\n\nNews Websities\nWikipedia\nLiterature and Books\nOpenSubtitles.org\nCrowdsourced Text Datasets"
+  },
+  {
+    "objectID": "talks/indiafoss2025.html#public-dataset-created",
+    "href": "talks/indiafoss2025.html#public-dataset-created",
+    "title": "Building great datasets on your mother tongue with Open-Weight models",
+    "section": "Public Dataset created",
+    "text": "Public Dataset created"
   },
   {
     "objectID": "talks/indiafoss2025.html#creating-synthethic-image-dataset-with-wan-2.2",

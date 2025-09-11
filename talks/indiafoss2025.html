@@ -188,9 +188,13 @@ Kurian Benoy
 <section id="cost-aspect" class="slide level2">
 <h2>Cost aspect?</h2>
 </section>
-<section id="proposed-method-for-synthethic-speech-dataset" class="slide level2">
-<h2>Proposed Method for Synthethic Speech Dataset</h2>
-<p><strong>Input Source (Malayalam Text)</strong> - Directly start with text (from dataset, Wikipedia, government docs, OER, etc.). - No speech-to-text conversion needed. <strong>Text Preprocessing</strong> - Clean the text: remove special characters, normalize spellings, handle punctuation. <strong>Malayalam Text Processing</strong> - Tokenize words, handle grammar-specific features, normalize Unicode characters. <strong>Grapheme-to-Phoneme (G2P) Conversion</strong> - Convert Malayalam letters (graphemes) into their sounds (phonemes). - Example: “കേരളം” → /keːɾɐɭɐm/ <strong>Speech Synthesis (TTS)</strong> - Map phonemes to synthetic speech representation. - Uses models like IndicTTS, IndicF5, XTTS. <strong>Generate Spectrogram (Acoustic Model)</strong> - Convert phoneme sequence into a spectrogram (visual sound representation). <strong>Vocoder → Convert to Speech</strong> - Convert spectrogram into natural audio waveforms.</p>
+<section id="proposed-method-for-synthethic-speech-dataset-12" class="slide level2">
+<h2>Proposed Method for Synthethic Speech Dataset (1/2)</h2>
+<p><strong>Input Source (Malayalam Text)</strong> - Directly start with text (from dataset, Wikipedia, government docs, OER, etc.). - No speech-to-text conversion needed. <strong>Text Preprocessing</strong> - Clean the text: remove special characters, normalize spellings, handle punctuation. <strong>Malayalam Text Processing</strong> - Tokenize words, handle grammar-specific features, normalize Unicode characters. <strong>Grapheme-to-Phoneme (G2P) Conversion</strong> - Convert Malayalam letters (graphemes) into their sounds (phonemes). - Example: “കേരളം” → /keːɾɐɭɐm/</p>
+</section>
+<section id="proposed-method-for-synthethic-speech-dataset-22" class="slide level2">
+<h2>Proposed Method for Synthethic Speech Dataset (2/2)</h2>
+<p><strong>Speech Synthesis (TTS)</strong> - Map phonemes to synthetic speech representation. - Uses models like IndicTTS, IndicF5, XTTS. <strong>Generate Spectrogram (Acoustic Model)</strong> - Convert phoneme sequence into a spectrogram (visual sound representation). <strong>Vocoder → Convert to Speech</strong> - Convert spectrogram into natural audio waveforms.</p>
 </section>
 <section id="proposed-model-for-synthethic-speech-dataset" class="slide level2">
 <h2>Proposed Model for Synthethic Speech Dataset</h2>
@@ -200,14 +204,21 @@ Kurian Benoy
 <li>FreeVC24 / Voice Cloning – Generate diverse speakers.</li>
 </ul>
 </section>
-<section id="domains" class="slide level2">
-<h2>Domains</h2>
+<section id="domains-used-for-text-data" class="slide level2">
+<h2>Domains used for Text Data</h2>
 <ul>
 <li>News Websities</li>
 <li>Wikipedia</li>
 <li>Literature and Books</li>
 <li>OpenSubtitles.org</li>
 <li>Crowdsourced Text Datasets</li>
+</ul>
+</section>
+<section id="public-dataset-created" class="slide level2">
+<h2>Public Dataset created</h2>
+<ul>
+<li><give code="" open-source=""></give></li>
+<li><give dataset="" open-source=""></give></li>
 </ul>
 </section>
 <section id="creating-synthethic-image-dataset-with-wan-2.2" class="slide level2">
