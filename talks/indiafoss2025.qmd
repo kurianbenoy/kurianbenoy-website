@@ -41,7 +41,7 @@ format:
 
 ## Cost aspect?
 
-## Proposed Method for Synthethic Speech Dataset
+## Proposed Method for Synthethic Speech Dataset (1/2)
 
 **Input Source (Malayalam Text)**
   - Directly start with text (from dataset, Wikipedia, government docs, OER, etc.).
@@ -53,6 +53,9 @@ format:
 **Grapheme-to-Phoneme (G2P) Conversion**
   - Convert Malayalam letters (graphemes) into their sounds (phonemes).
   - Example: "കേരളം" → /keːɾɐɭɐm/
+
+## Proposed Method for Synthethic Speech Dataset (2/2)
+
 **Speech Synthesis (TTS)**
   - Map phonemes to synthetic speech representation.
   - Uses models like IndicTTS, IndicF5, XTTS.
@@ -66,12 +69,17 @@ format:
   - XTTS-v2 – Multilingual, high-quality cross-lingual TTS.
   - FreeVC24 / Voice Cloning – Generate diverse speakers.
 
-## Domains
+## Domains used for Text Data
   - News Websities
   - Wikipedia
   - Literature and Books
   - OpenSubtitles.org
   - Crowdsourced Text Datasets
+
+## Public Dataset created
+
+- <Give code open-source>
+- <Give dataset open-source>
 
 ## Creating Synthethic image dataset with Wan 2.2
 
