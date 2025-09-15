@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,7 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -70,14 +70,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-189dad2d3a62ffbea4300b42194f67b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9f95a34453db601798e5e104d2555aeb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,10 +106,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
-<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -133,6 +134,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Kurian Benoy</span>
     </a>
@@ -237,9 +240,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <div id="cell-2" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:298,&quot;referenced_widgets&quot;:[&quot;8494d4fdf5a04849ad71f08443f9b11c&quot;,&quot;7ec21d1daaf846dca667118a53cb479c&quot;,&quot;a27d65c6a2444f6d8c3635bd21338899&quot;,&quot;d0cdf2f94a3642549278087136f7c61b&quot;,&quot;1f722a9fad44405b9351808995df2707&quot;,&quot;faa74e8574934e138e99725534c31c94&quot;,&quot;af352d39cffc48399e56ab203d4f5c8e&quot;,&quot;b0a3d3e5b00f4993bca9b9d4a4eddd49&quot;,&quot;704e2792475c4ad3bd864ea189364535&quot;,&quot;b7b29787f7614ceebabba8d7b39e1f7f&quot;,&quot;1d7be152c55b4040b7ce5b749da7ba81&quot;,&quot;98dc44df7e91440f9bfd5eaeaae26018&quot;,&quot;4261c9cc11c843f6aa46c36316f720cf&quot;,&quot;637089ded73b4b67853038761948723e&quot;,&quot;768e0f4b79704308a583f397b324b8c4&quot;,&quot;c0ccd8cf76564cb1ab0dea3888f9f718&quot;,&quot;e8cb1e3798134d4daba3b6165278fbe5&quot;,&quot;40aced3a50c84804acb4ee1cae35c3d4&quot;,&quot;9e9b3d5cd60c4f209b17660a9c2c497f&quot;,&quot;d0039a2642d84b9786f3cf08aab16842&quot;,&quot;b7fda9585f9a442dafa46728c1718cf8&quot;,&quot;9a15e1fc260045c8be91f9f714ddbd89&quot;,&quot;01b9c1a0719240ba88bac79c85d7783d&quot;,&quot;b53107588c9149c484186bcd2712cce7&quot;,&quot;240cf77268764e648b01e3a414ffc3f4&quot;,&quot;3995506eeb554e43a8ad811bd0609851&quot;,&quot;8428f311f02b4dc6a64c7c8a6d10051e&quot;,&quot;8ffcb399002d4b18b5c3995ce4f30fca&quot;,&quot;d84df1ebaad3423a87cd149b9966574b&quot;,&quot;e3ba2f46cbf54d748856f9281f595d09&quot;,&quot;22e08ffe1bcf4940b542f29c4d481db2&quot;,&quot;c22721921bf34135ba7fd67756534be9&quot;,&quot;9b17e23a9bae45bea0b76d63ef814291&quot;,&quot;022d46dc5a0048429aa69ba207bef81c&quot;,&quot;c7bdaab8d1034196a2e33267f1cbb5be&quot;,&quot;0647ae9d1791492f8fd5ca40a7793166&quot;,&quot;8f83e16e852547f58420bc3e38044bcb&quot;,&quot;d0567b7accf2463f80344d32a000480f&quot;,&quot;fa90076bd4dd471688b7fa4ca2169250&quot;,&quot;c719e4dea5d24b2c99b5ec132db87a1d&quot;,&quot;b0afedc514824ab3b1bd96914be5d6b2&quot;,&quot;37df2e7633e44b99b40da18898715bd2&quot;,&quot;8bf16927782048ffa901ca793e041789&quot;,&quot;3a53db74812346ca8b0e68f61826de6b&quot;,&quot;edd5b02fabe0452691e2108d2ff179fd&quot;,&quot;1cb5b2443f414c61808a5e717dd4a2b6&quot;,&quot;8162df835e8a47ff9bf09405ccee48d3&quot;,&quot;8539655319d0444781acdf5d69a8e335&quot;,&quot;c1dc2c18d6814cf69726e649566633f1&quot;,&quot;fd4b29963fce4dfc83c98a129ef211c8&quot;,&quot;0fb62901962c4a77a5702d58918496aa&quot;,&quot;6a6e2b3baa49408b966acd22e60137ea&quot;,&quot;38a85b45a17a4829b22fb965c896656a&quot;,&quot;dabd820338cd49e8b2be9d8e453b06c3&quot;,&quot;d846bcee36a44abf8edccb0d863eef30&quot;,&quot;870fb10131594b549e1d1785a2ad7f85&quot;,&quot;eb273cabd1f3449d8ae17de1f7eb291a&quot;,&quot;2f040bcece104951b474274b715863f6&quot;,&quot;d471181237b141febc3ffcbc1bc95bd1&quot;,&quot;16fb52bbefd14bfd878b805f36cf4bc5&quot;,&quot;dd226d240ae34134873c6e6acfea633b&quot;,&quot;eb205475a60344deacaaa199abfb3c05&quot;,&quot;33d799e5b2be4a86962887846085bc79&quot;,&quot;34f8e0dc20954da5b1ff2fbfe4ed044f&quot;,&quot;452af854c1484cde8b86956ac579ad26&quot;,&quot;843cd25a9eed42859ef19d8932c8d007&quot;,&quot;9ea6660694bf47de909418f76b31af05&quot;,&quot;47cf03ef51c14712b7b39d640a0c40c8&quot;,&quot;c7bb1818f306430fa15276cec98e968f&quot;,&quot;f973ef60740f4968b7ec827a19ff8f77&quot;,&quot;b9f4939510104b628ec41dcc40a9c1b5&quot;,&quot;c2b61573204a4ea78bd8cb809c4c763d&quot;,&quot;e3692aca8d3f474ea2ef72d99027feb3&quot;,&quot;31e9b38a26a14b9ca1347afe6dfa7979&quot;,&quot;65079517829647bd98d5d8d6cebb8b4b&quot;,&quot;52322515bd4a4fda8e0d9f820d6ce806&quot;,&quot;56b2f3c191ba44fc8a625aa9429ed855&quot;,&quot;b65dd23616eb4d668b153339400f2899&quot;,&quot;1e6f868b035549c1bfaa10bb101547a9&quot;,&quot;095e2719528549049181e339d5a946f5&quot;,&quot;591a2bba67a34c56b61a67ca3fe5987f&quot;,&quot;898f33aa9fcf4a139a584ca490c1bf4e&quot;,&quot;f40fcd665712422eb73c24d3df792eb8&quot;,&quot;410fdd1f60df4c419e4ef0319b1c189a&quot;,&quot;257259ca35c44a829b2c6c69db37dfe6&quot;,&quot;d9965c9629bc450c8ca9ca53baf76ce6&quot;,&quot;8243db6bcc5447048b0efef419204055&quot;,&quot;4fae5146956b4d53a6cf9dc72ec396c7&quot;,&quot;3d90195a8ef2404582cb65e989f20393&quot;,&quot;37c74e7c3b7748eeb0966599cdd5ae12&quot;,&quot;cebd6cf63ffd417a9f56a67475f9eb07&quot;,&quot;a1b3f198ebeb41c8a7868721264af6c1&quot;,&quot;a64d5e7ba25746c6a534ad622671d575&quot;,&quot;f763bb56b7f04674b9997ace833c91a1&quot;,&quot;e8b6003305e44424a75c5339fddbb8e3&quot;,&quot;badd476aa4104aeabe2585d596520ec6&quot;,&quot;4cfc12c064ea4ab6bceeebd04f557461&quot;,&quot;839d241626494da7b353102a4ff7491f&quot;,&quot;a1ae5c6a26c842a7a6debde4e2884e89&quot;]}}" data-outputid="8f66b7de-84e2-4050-c574-090fc185ffc5">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_dataset</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>raw_datasets <span class="op">=</span> load_dataset(<span class="st">"squad"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>raw_datasets <span class="op">=</span> load_dataset(<span class="st">"squad"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"8494d4fdf5a04849ad71f08443f9b11c","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -293,7 +296,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div id="cell-3" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="2d23e9e0-ab29-4df9-a82c-f39ed3e5d355">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>raw_datasets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>raw_datasets</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="4">
 <pre><code>DatasetDict({
     train: Dataset({
@@ -315,12 +318,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p><img src="../../posts/images/tweet_indigo.png" class="img-fluid"></p>
 <div id="cell-5" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:309,&quot;referenced_widgets&quot;:[&quot;0813a6fa1b2c4975b2216c1fc88ebbff&quot;,&quot;6f62ba423154455f867ac5f59a521db4&quot;,&quot;62b4a8713f41403cb9e68c2fa101f513&quot;,&quot;1af077ff6f0a493cb3e59de78cb49edb&quot;,&quot;038febec6c2b4197a7237733d58792e9&quot;,&quot;7d3bfc32343f4e52920a7b3f0a295199&quot;,&quot;a8848c94d3d944fbadb0f0e8af30b785&quot;,&quot;a8d87eb7565b40a0828195dce89d2626&quot;,&quot;7e98cbd909494da19e7f2abf4a3aaedf&quot;,&quot;cdab19ffb72441dba0165d41a9d633ee&quot;,&quot;44e7a6221bfc4f15b2df8a489b70e21b&quot;,&quot;39c9bb16383c41bba0d8bcdd06b348ad&quot;,&quot;dc8a6a59a341490b9035097291d6d656&quot;,&quot;c64d78abe3914ffbbbcdbd245a84a97c&quot;,&quot;8eff03b0537145cda7f302dcb6357f43&quot;,&quot;4f2be1582a4c450ca19b5b995482b9ed&quot;,&quot;2e930811b1274fe4a6f0d329e0883eba&quot;,&quot;5a5e4b1f1fab400ca0e3e35b53c531a3&quot;,&quot;1afdf9966144460b84866476f78ed21a&quot;,&quot;7aaaf53ccafb46dfb66f3b20de178f2e&quot;,&quot;be217ae780c044b9b600e69492d7138a&quot;,&quot;c90941e5cd78464888c99e35fd6b2f07&quot;,&quot;c5093c84be3448a6bf91264ee92a2f74&quot;,&quot;834aee547103486e821bd11a6f73fd74&quot;,&quot;4d359cc614b94338b082223b659cfc26&quot;,&quot;a3e2c91d633e4f8282e5716c789d422d&quot;,&quot;b25ce7efff264be39bc1ea31f98e380d&quot;,&quot;359d36fc5ba44bdcb49200d194004203&quot;,&quot;f8c5ecba8f304e5c8d4b3a7cd242691d&quot;,&quot;1521cfe916ba4c579d961fe87f8c70d1&quot;,&quot;f25a786f19334d81915754e63c682c4a&quot;,&quot;814b660f899641f59c0f0044ab24559f&quot;,&quot;1bbdf106194447a2bb16853d4e50f8ab&quot;,&quot;430cccbf5052489aaf0b4b7ae37af1db&quot;,&quot;a88c137988b04b10b3e1c2c07ef282a0&quot;,&quot;92779fce4e5f4ce8bab1e46627c9611e&quot;,&quot;94179fb61d81492488f2d84138585987&quot;,&quot;19fffe5aa66843c298be6d5d9a5e6b52&quot;,&quot;fd1098a334a24d70800f25d86c65b415&quot;,&quot;db9227156a494b5091438bb806396d4c&quot;,&quot;bdd47e3112c0405383dc076db0ecf890&quot;,&quot;893ddcbe0a47444a95e2a6c7dabe0986&quot;,&quot;f518e410ec0a4f5997f5c3420732fa55&quot;,&quot;f9a3fc48b2e14c3e9abee23da1a124f0&quot;,&quot;c506361a67464b65a196919510877757&quot;,&quot;2fd942b236b14c2991b743549cfc2615&quot;,&quot;232f0d96ea9d442e8e9c8fad4edc8c34&quot;,&quot;6882ca50cdec479388a9e61170878fa4&quot;,&quot;39bee7d1004c448fb9bf5fabcd0a4e4d&quot;,&quot;f84f7143ebb54cb4a2b41a1cb13b04cf&quot;,&quot;e75693db235b46af9fc555145bcce931&quot;,&quot;939dfe2df75649bcacf59f3faea4d7b1&quot;,&quot;4f86fa8b6b5e41e6be343857cca388f1&quot;,&quot;a19bdb397fbd45528d0cf69c055aacc5&quot;,&quot;566df2cb3eff48cbae57d644e1c4639a&quot;]}}" data-outputid="f27458bb-047b-4995-fd06-c6429561cf60">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> pipeline</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>classifier <span class="op">=</span> pipeline(<span class="st">"sentiment-analysis"</span>, model<span class="op">=</span><span class="st">"distilbert-base-uncased"</span>)</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>classifier(</span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Thank you for sending my baggage to Hyd and flying me to Calcutta at the same time. Brilliant service.#DieIndigo"</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"0813a6fa1b2c4975b2216c1fc88ebbff","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -358,13 +361,13 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 </div>
 </div>
 <div id="cell-6" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:196,&quot;referenced_widgets&quot;:[&quot;6a9e95976fc14b87b176eec93700ddec&quot;,&quot;10bfff858b5a4344a37344911a4276e6&quot;,&quot;2b31ad62afde453ba884b648e3abd249&quot;,&quot;a99aed38117042c9b0038ce5b4fffdba&quot;,&quot;0fb85305d7004336830ecb0f0ba9cc9e&quot;,&quot;afd11cd02f8245c9811b1307f79a9503&quot;,&quot;ed4949d81d974ec2b4d72a7e3139fc90&quot;,&quot;ac9b82ebd2ad437a84dce267fe25ac2c&quot;,&quot;4ed7ba999f3b4651bc38b891903399a7&quot;,&quot;b98df3cc600a4c59a5e0821944102e5e&quot;,&quot;2195a43d8b0c491a8c4c1e4f33cc0ad1&quot;,&quot;8ca377bda7014c80932f2595d0b4cac5&quot;,&quot;b940056753934682a01adc0a62cb9fdb&quot;,&quot;efb890e385674f5e9479d64557be2025&quot;,&quot;4a540c7003184f70ac2dc72ad53ee20a&quot;,&quot;9ab25ccb1d864be19f786cd82a50f06a&quot;,&quot;8e13bc0f086b464390dd94d4f5642906&quot;,&quot;045b345dce934e4c99f4557ffbca4dc7&quot;,&quot;7eb5ba8f48ce416ca67a40756823f938&quot;,&quot;1667dd0a6e6b47fd860dfd7dc22f64aa&quot;,&quot;978b271efdd94bd18ac7118942d3b4ab&quot;,&quot;0686dbec277c437c9d3e8e1fa4d4af0d&quot;,&quot;ce6fbbee1c834963b42d958f18babf8b&quot;,&quot;7d272db63291491aad85cf43d891cd5b&quot;,&quot;fdc94091c0434cc8a7b277efd190e5cc&quot;,&quot;da8b7851687843429f81cd7a1841a673&quot;,&quot;f319ff5b640d43a6bcb84dda091dd753&quot;,&quot;cb6c8ae8ac654181aa752803f3c48b9a&quot;,&quot;e23e82a013ee4a1c8a3d78abf622f36e&quot;,&quot;b17de57da7bb4dd485f7e5d52cf1b682&quot;,&quot;6b98c64b9a2f4f378cc436393aab21fd&quot;,&quot;06a7a56e6ef3433e911fa2a0b67e2c5e&quot;,&quot;db8d3c7149c9482fac6941e82659af61&quot;,&quot;a65c6f90e70f4f2b866b8c20e86308e9&quot;,&quot;ead6ff16c7704499bbb666413cb53d5c&quot;,&quot;b215ea1369174e06bc68bf8541518fa9&quot;,&quot;3198f1745aca47d8962669d5e470bfef&quot;,&quot;9baa360f534b49d89791aaf597646c49&quot;,&quot;163a01f68cc64eb78f96133d12a4fc47&quot;,&quot;b73ea6ded4574af985149d36dd54151f&quot;,&quot;7039e2de513c4a43adc43030ca5eabe7&quot;,&quot;ab419c6d16944514ac92b2af17197ed8&quot;,&quot;3eca800cdd394cc79b686aaeb67ea247&quot;,&quot;1b89d92b54f445ffb762abcd32097959&quot;,&quot;df2a9e9ac31c4db5bf863fc1136b3927&quot;,&quot;4896ce1efed64bb3918e10ae5eab69a8&quot;,&quot;f62593847eb6460bab220c6c3ddf9740&quot;,&quot;6e8f91b341144149b4169a30e539d810&quot;,&quot;bedf1650c0f14198a1cf72c46a3ebcdf&quot;,&quot;521ae7bab6554bc792ef6c0a87c368c2&quot;,&quot;4c4c8df1f5b44343944eba48e8d337de&quot;,&quot;e1a88e0a577a406ab6de3d9440d12e4a&quot;,&quot;6f4d1845496b458b8773e07c40c1072c&quot;,&quot;144143eecf7348a6876bc1389a55d22a&quot;,&quot;a8e264bad15c4d249a2ff48f8a2ec4d0&quot;]}}" data-outputid="b03e4ff4-57f7-4418-d2e7-346e52027503">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>checkpoint <span class="op">=</span> <span class="st">"cardiffnlp/twitter-roberta-base-sentiment"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>checkpoint <span class="op">=</span> <span class="st">"cardiffnlp/twitter-roberta-base-sentiment"</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>classifier <span class="op">=</span> pipeline(<span class="st">"sentiment-analysis"</span>, model<span class="op">=</span>checkpoint)</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>classifier(</span>
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Thank you for sending my baggage to Hyd and flying me to Calcutta at the same time. Brilliant service.#DieIndigo"</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"6a9e95976fc14b87b176eec93700ddec","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -395,13 +398,13 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 </div>
 </div>
 <div id="cell-7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:278,&quot;referenced_widgets&quot;:[&quot;cb9963d1b3184a3f9f84acac3d24448b&quot;,&quot;eaa8f19f43a343b1967f92a772b95c34&quot;,&quot;f711cb1ba4e8429c90b936dbdfdb3f86&quot;,&quot;963e9c5ea1a8433e9734466e54d7ef75&quot;,&quot;307b59cdc1604e86832c9706af5d5793&quot;,&quot;ea57704cbbad4e0bacd081dadce9bb49&quot;,&quot;324ef4fdd5f04769a68c7875d711d4be&quot;,&quot;288d0dadb3c4468bac43491087a3e9f6&quot;,&quot;985a732eb8864d53a3bdf45e656c98df&quot;,&quot;2a091f4f1f0f443ba066e8cd025ce578&quot;,&quot;5545449958e1456fba76eb6a3da6b103&quot;,&quot;36955d9c97894198b2662e19f49672ca&quot;,&quot;6584ca6cea0a43de8a24bbf59b7b91c2&quot;,&quot;36891dea4b414e91984c55bafa4f42a1&quot;,&quot;c0a386d0fbdb4bbabccb8afe0b5b4e63&quot;,&quot;6cb50e9b18354d60be4c720cb1c0b1cc&quot;,&quot;ef82edd6877e4d29ab5ec4ce0c9add0d&quot;,&quot;a9535e815b584fd7b059233ce23c7430&quot;,&quot;930189aa55684df0a6594f2bfbd56a6a&quot;,&quot;2af2992739a847f091a1bb384a032c57&quot;,&quot;6781316c38e64b55882ac7142234950a&quot;,&quot;1a35b9fb2a604a13b14e42e9b9717e1c&quot;,&quot;0e9061a48997400886c619081c22d7dd&quot;,&quot;0dfad8efd5cd47eb96fd97de1907bbd9&quot;,&quot;59701810e99c4b509cad22c1ec9673bb&quot;,&quot;a344c64179534963a4869db6ba6e6991&quot;,&quot;fe87a7048ab94ad2b9e0d0dc10d2c146&quot;,&quot;820898e7fc384cb598a9c14f72f36438&quot;,&quot;aeaa77450a7f4632acf7e264023d2a0b&quot;,&quot;3a8f37a9791942339c4be9c1d43c9067&quot;,&quot;6a070520b6a04fc9826a331c0f22193d&quot;,&quot;0c21d81fa43b4bd284db97689415bafc&quot;,&quot;fe76751644294f818ce02ceef5acd602&quot;,&quot;a6b752bf26a84a65ba2dd74e207da171&quot;,&quot;885d6b131ec24da6b951606180ce0a05&quot;,&quot;8b289bb692674c48a3a030c3cc37c48f&quot;,&quot;d6d7ca238a7848b48d3905502282a4b6&quot;,&quot;26501e2f4b9f4d479f69551050944ef6&quot;,&quot;73e6b091e16f4db388ae17bd939afd83&quot;,&quot;9001ecb03ee34ee0829eec8299c2544f&quot;,&quot;462191de8fe145f2a3b80df64ecc558c&quot;,&quot;c4c3978ea4e14e93baa601b898dcb7b8&quot;,&quot;e3305213612245e2889dec3b45568c5e&quot;,&quot;9d1b399cbb144bbaa4c0c993c7121da3&quot;,&quot;0fbc92b432ba478cb2548cdd627d560c&quot;,&quot;28d0a58b12434102a15e76fe060c947d&quot;,&quot;7d7f4c34ff6e41a383fed4e9cc388cab&quot;,&quot;19f9595551794b148e571123cea516f2&quot;,&quot;2c65a5afaf33474aab9dd6eabecfd92d&quot;,&quot;4b183ec340fa46c78d1793cda2703b2f&quot;,&quot;5ed2abae6dad4b80bbadae0c1e24a78f&quot;,&quot;b391f83334194ad5a2109ee44cd28434&quot;,&quot;a93a18945ad84eadbc3f43e49284a5ae&quot;,&quot;c85ca58d804549869c0fb6adab29de86&quot;,&quot;2e113d4d8a7e4357a0011780ccf6d23f&quot;,&quot;d1546e0c2ffa4234a98e1bee5f0f6d29&quot;,&quot;cb3f36ebe18141a4a61ee6729cbec7e8&quot;,&quot;9f3b60032fb54ef2a964fa8f63f21075&quot;,&quot;7632c4cffa254382860831662b1c2eca&quot;,&quot;9386cdea58a1426dafd978b6aa03be0f&quot;,&quot;296e4192a7c2488e8212b98d7fa93942&quot;,&quot;9c65472b89df490fb8580188b69374bc&quot;,&quot;c2e4448c4869467d98f3a6c5ef481d59&quot;,&quot;f6ee38ab41884734aa466ac447bd0c56&quot;,&quot;ece859406cae48e399eba5755040b83c&quot;,&quot;d34a5b63cbbb4508bb1016eb4cbec85a&quot;,&quot;390baeafb7d841a5b21b1ba01deed3b0&quot;,&quot;fc99f4cc5e0e4028bc33a8286b8cae10&quot;,&quot;2bfabe4af3c44dee933c68a738f3c97f&quot;,&quot;c1ad1bcd14ac4d3c9374d940a6bbf0d7&quot;,&quot;b9a18fa02b1544f98dc8f706c91c96ae&quot;,&quot;bf508edc800b4525965e797dc6764d3d&quot;,&quot;221a7de51a784650afd8662b8bfbc7a9&quot;,&quot;a4cc4b36c0ca4f53bf93cd45514b0316&quot;,&quot;6a72785168044fbe857cf305dde26673&quot;,&quot;cbe244dba3c3469e9ca8efef478ac212&quot;,&quot;544ff6ed040b492686fb999d46f940dd&quot;]}}" data-outputid="2528fe35-92b5-4275-ae2a-a5a87c72d366">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>checkpoint <span class="op">=</span> <span class="st">"finiteautomata/bertweet-base-sentiment-analysis"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>checkpoint <span class="op">=</span> <span class="st">"finiteautomata/bertweet-base-sentiment-analysis"</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>classifier <span class="op">=</span> pipeline(<span class="st">"sentiment-analysis"</span>, model<span class="op">=</span>checkpoint)</span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>classifier(</span>
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Thank you for sending my baggage to Hyd and flying me to Calcutta at the same time. Brilliant service.#DieIndigo"</span></span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"cb9963d1b3184a3f9f84acac3d24448b","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -445,11 +448,11 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 </div>
 </div>
 <div id="cell-8" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:214,&quot;referenced_widgets&quot;:[&quot;600d31fcbb514f02b8764f034b371e89&quot;,&quot;2e8704a7d192440abd03849fa5a9c679&quot;,&quot;3562a7a0b8d84cfea3d1c6f7fa83166a&quot;,&quot;8e99ca74a6a744cbb9ceba91cec736d1&quot;,&quot;0ea7c15a4cc9437997294b2ac76d630a&quot;,&quot;891d52bf3cef40338ff857279feedeed&quot;,&quot;d5e94f792b124a22919e9985c5bc5e26&quot;,&quot;ab92a39e1a5f49db8a6d61bd067a3bbd&quot;,&quot;9673b0ed89e642a098de99bbf077ca13&quot;,&quot;91505ef5408647de8c95303e31ab27f9&quot;,&quot;974b936e45554191ae5ccc0ec5a0f8a8&quot;,&quot;947c07293b2a40468cec9a96773cc76e&quot;,&quot;d702934a4ad04351ac5ee26cc3bec458&quot;,&quot;a627371b947e476597c71a4089ca3d54&quot;,&quot;c40f5df5eb4e458a8a3c5f7ad1738244&quot;,&quot;27241751c5914005b1e3a16a9b73f2eb&quot;,&quot;d3da56f452334d889b40925893773ec0&quot;,&quot;24b5a1b88b2443dc80103a99465c4234&quot;,&quot;b1fc0829bbe34185ba60291bf0b0c683&quot;,&quot;e3ae543aa1d5470c80c721dd6ed9d2fa&quot;,&quot;878d82f5aea840f6ad4aeb2f12639b34&quot;,&quot;6583aab7ba674dfa8933bfff42b67493&quot;,&quot;db49853588ea4848b2dd3a360470c2c7&quot;,&quot;8cec95b791264b4ab7ac900d831a2a17&quot;,&quot;27dd6f380c324091af17f3a8cfa10575&quot;,&quot;cb12f45321394a42ae35fe9a75b39b36&quot;,&quot;521e92cc741b4c028e20522831816138&quot;,&quot;8428dc155ab54209952cef8da87d955b&quot;,&quot;d4ac2a67f57e4fbfbd6d1b12c69ae2a0&quot;,&quot;0e3885e5d53a4aaaa3e78f0d1000cd5b&quot;,&quot;01d14bffaf8349c08d29c3e2a04a0b08&quot;,&quot;ae7c4cdfd18f4cc5b7a81088c907d48d&quot;,&quot;b0209d4f2d364e0792dad684e6d77a5a&quot;,&quot;0c93d03f194f4b39bc0b2b2ee6974a62&quot;,&quot;b0551df3927c47149c083acaf02b50b3&quot;,&quot;35da1bef3faa470a83ca8f849672157f&quot;,&quot;75cee79813484c3bb7a8a847624d1d59&quot;,&quot;15d92e33e7f943448cf2136b64eee34a&quot;,&quot;2ea3d1a865ef4cc5ac527c27e8a57333&quot;,&quot;6358a8bb31694580804747708dd2e310&quot;,&quot;4ac0a426182d40a5b4a512bc32510f7b&quot;,&quot;c5aea5e86d2f4006827f52216d167f86&quot;,&quot;320bb8cbe70247c5b06fa87b08b5438d&quot;,&quot;7552fd4ac3364c4f9b5038eb01e70ec7&quot;,&quot;db6595e30cc1428688694379a2120aef&quot;,&quot;84ff2fa168de4843a3f9752db50f49ac&quot;,&quot;13af2e7bcfaa42a782410e49bbd729dd&quot;,&quot;79d581e17e1e4956b0634b3fe494dd39&quot;,&quot;5d09a5c827104e22995d3ec02851f28b&quot;,&quot;453d0cf9ff184853973ad4b388942be0&quot;,&quot;e2a470a2e84147e0b3af6b1198058477&quot;,&quot;e1d0eefb91bb40bcaa2cf2862a91f717&quot;,&quot;4c17126002394936a316f769f9195693&quot;,&quot;8d369df3b79e45e5b8071bb73fd025ec&quot;,&quot;ba948c2992794f879794470da757e090&quot;]}}" data-outputid="baf91ab2-d51c-402d-dc9e-a746d993be75">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>question_answerer <span class="op">=</span> pipeline(<span class="st">"question-answering"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>question_answerer <span class="op">=</span> pipeline(<span class="st">"question-answering"</span>)</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>question_answerer(</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    question<span class="op">=</span><span class="st">"Where do I work?"</span>,</span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    context<span class="op">=</span><span class="st">"My name is Sylvain and I work at Hugging Face in Brooklyn"</span>,</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>No model was supplied, defaulted to distilbert-base-cased-distilled-squad (https://huggingface.co/distilbert-base-cased-distilled-squad)</code></pre>
 </div>
@@ -483,11 +486,11 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 </div>
 </div>
 <div id="cell-9" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="93d685a7-61e6-4962-e0d2-96bd404177cd">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>question_answerer <span class="op">=</span> pipeline(<span class="st">"question-answering"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>question_answerer <span class="op">=</span> pipeline(<span class="st">"question-answering"</span>)</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>question_answerer(</span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    question<span class="op">=</span><span class="st">"What was feedback?"</span>,</span>
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    context<span class="op">=</span><span class="st">"Thank you for sending my baggage to Hyd and flying me to Calcutta at the same time. Brilliant service.#DieIndigo"</span>,</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>No model was supplied, defaulted to distilbert-base-cased-distilled-squad (https://huggingface.co/distilbert-base-cased-distilled-squad)</code></pre>
 </div>
@@ -505,9 +508,9 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 <p>If you’re interested in this type of generative question answering, we recommend checking out our demo based on the ELI5 dataset. Using Lonformer model.</p>
 <p>[1] https://yjernite.github.io/lfqa.html</p>
 <div id="cell-11" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="634f8af3-f1e2-49ba-cf39-752c27347c7b">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Context: "</span>, raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"context"</span>])</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Context: "</span>, raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"context"</span>])</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Question: "</span>, raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"question"</span>])</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Answer: "</span>, raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"answers"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Answer: "</span>, raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"answers"</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Context:  Architecturally, the school has a Catholic character. Atop the Main Building's gold dome is a golden statue of the Virgin Mary. Immediately in front of the Main Building and facing it, is a copper statue of Christ with arms upraised with the legend "Venite Ad Me Omnes". Next to the Main Building is the Basilica of the Sacred Heart. Immediately behind the basilica is the Grotto, a Marian place of prayer and reflection. It is a replica of the grotto at Lourdes, France where the Virgin Mary reputedly appeared to Saint Bernadette Soubirous in 1858. At the end of the main drive (and in a direct line that connects through 3 statues and the Gold Dome), is a simple, modern stone statue of Mary.
 Question:  To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?
@@ -515,7 +518,7 @@ Answer:  {'text': ['Saint Bernadette Soubirous'], 'answer_start': [515]}</code><
 </div>
 </div>
 <div id="cell-12" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:124,&quot;referenced_widgets&quot;:[&quot;339c4a6e83d0436e8f596b30cef5d2a6&quot;,&quot;0dbedc7df3ee40f4bef0502710d6c32a&quot;,&quot;aeca5383fe1f4943b38ac61e65a6f42c&quot;,&quot;d157dd40f5e741e09162002972742a5f&quot;,&quot;721750ac3c9e44bca619fa7a8e524595&quot;,&quot;44537e337a1d4dcaaee23595c7e18213&quot;,&quot;e99115336bcc4d45a5e8eb6a1382d875&quot;,&quot;66752c8bf93442a38bcb5653287fe93e&quot;,&quot;14ac80a13e224801bfaa8193ef9415b9&quot;,&quot;9bb05b662ad646038268a32d139e169d&quot;,&quot;b3ae2f4ee46d4327ac131b7124b515fd&quot;]}}" data-outputid="96e8b4b7-596d-46aa-9214-99aa6bcc55e3">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>raw_datasets[<span class="st">"train"</span>].<span class="bu">filter</span>(<span class="kw">lambda</span> x: <span class="bu">len</span>(x[<span class="st">"answers"</span>][<span class="st">"text"</span>]) <span class="op">!=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>raw_datasets[<span class="st">"train"</span>].<span class="bu">filter</span>(<span class="kw">lambda</span> x: <span class="bu">len</span>(x[<span class="st">"answers"</span>][<span class="st">"text"</span>]) <span class="op">!=</span> <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"339c4a6e83d0436e8f596b30cef5d2a6","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -529,26 +532,26 @@ Answer:  {'text': ['Saint Bernadette Soubirous'], 'answer_start': [515]}</code><
 </div>
 </div>
 <div id="cell-13" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="ee12ee21-58ac-42fe-e904-01c53dd92bf8">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">0</span>][<span class="st">"answers"</span>])</span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">2</span>][<span class="st">"answers"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">0</span>][<span class="st">"answers"</span>])</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">2</span>][<span class="st">"answers"</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{'text': ['Denver Broncos', 'Denver Broncos', 'Denver Broncos'], 'answer_start': [177, 177, 177]}
 {'text': ['Santa Clara, California', "Levi's Stadium", "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California."], 'answer_start': [403, 355, 355]}</code></pre>
 </div>
 </div>
 <div id="cell-14" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="e5169ddf-5447-454d-d332-2bd5942205d6">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">2</span>][<span class="st">"context"</span>])</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">2</span>][<span class="st">"question"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">2</span>][<span class="st">"context"</span>])</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(raw_datasets[<span class="st">"validation"</span>][<span class="dv">2</span>][<span class="st">"question"</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo could prominently feature the Arabic numerals 50.
 Where did Super Bowl 50 take place?</code></pre>
 </div>
 </div>
 <div id="cell-15" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:145,&quot;referenced_widgets&quot;:[&quot;25d8ce55fd1f42ef8bfb1c5dbe2a9e56&quot;,&quot;82a59bc2436f4ff0a8e8cf31bcd0c4ab&quot;,&quot;d206ce9e384a420aa3a3b9f16e44c765&quot;,&quot;5515df2c8e7949b0aa8a91c50de0d98f&quot;,&quot;bf7ebc3ae45e458ba5583c2908cb6300&quot;,&quot;09874bfae8294127b162811a8373e6d4&quot;,&quot;891edb5672744a07b1478dda3b2c0fd6&quot;,&quot;9a137dab4eac4e2a8fafc5f9583891c7&quot;,&quot;c5b150b3a07e4f17a3634b653a4cfa18&quot;,&quot;98f0dc046d3c430ea2de93145016f25c&quot;,&quot;54166fcaae3f42daac6a7ce5213e4296&quot;,&quot;e9fb7e331ad44334b1ae9b93ee543dd6&quot;,&quot;b0e01e216d044bf09c79750353e083ac&quot;,&quot;e5dcd5b62c5f4f32962c35f4f09faf98&quot;,&quot;d043c4157f5b408996dcd8eb5451eeaf&quot;,&quot;58393a3dd10348d9bbb0b925ce27f8f9&quot;,&quot;7d8c45944a5846c186fa5402e67b758a&quot;,&quot;e8bae0e598924b9f996c1a663d338165&quot;,&quot;0d17d517f5f848c3bcd42f54f40d0d28&quot;,&quot;7a2eaeebad4a48d4b86163ce63552a72&quot;,&quot;d4df2ebeb2f54c4c91653f949833c504&quot;,&quot;ca1ffe7a40504088ab1aafca2404cafd&quot;,&quot;e4c507f1fb884f2b9b1a1cf55e28b676&quot;,&quot;4157e21d788a454aab268890efd14c28&quot;,&quot;e5ac6890c49a4e269d1815ce191cf389&quot;,&quot;33c16d34bc4f4fdc9405d883efa25d3b&quot;,&quot;790a434068ba403e8918a69fc2caadad&quot;,&quot;60868ba961c34f42afb89cd3794c5344&quot;,&quot;66622f28866f43728971b9f1a6ec8a93&quot;,&quot;2cb456b286f04642a8dfa97c9478bf2a&quot;,&quot;75ffe5175b274c24a9ab1f1e2c47646b&quot;,&quot;e7a8e855c15048feb4cfec7d2470d584&quot;,&quot;9d771dfbc2e84bb4b8651c49098ed6a6&quot;,&quot;7d1c8479ce0f4a9eb6b51603262ba4c1&quot;,&quot;3ad6325d1dc84f4a83f89e6da41b249d&quot;,&quot;3a384cc10e0347ae8c55ac767e9ae82f&quot;,&quot;0a7c215623f24c9c87292e8eb098b82d&quot;,&quot;ad01809b596b482db227dd2d63a1fc55&quot;,&quot;b7576726e68845fbaed710c5820988dc&quot;,&quot;c701ca7027294ca88473daaac34a75d9&quot;,&quot;b8413a31c8064ffeb0b00d6e205b433e&quot;,&quot;c8217a2f58154760bbca9ed7e35fe5f4&quot;,&quot;0982548ef46544b7abc8ccea16815116&quot;,&quot;100e29aedcd84e71a1900bbe51cbac46&quot;]}}" data-outputid="593153e1-d128-4563-f15f-b60c67279297">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> AutoTokenizer</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> AutoTokenizer</span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>model_checkpoint <span class="op">=</span> <span class="st">"bert-base-cased"</span></span>
-<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_checkpoint)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_checkpoint)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"25d8ce55fd1f42ef8bfb1c5dbe2a9e56","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -571,17 +574,17 @@ Where did Super Bowl 50 take place?</code></pre>
 </div>
 </div>
 <div id="cell-16" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:130}}" data-outputid="3efb76ec-9662-42b5-af51-bc286b3bf72c">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>context <span class="op">=</span> raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"context"</span>]</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>context <span class="op">=</span> raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"context"</span>]</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>question <span class="op">=</span> raw_datasets[<span class="st">"train"</span>][<span class="dv">0</span>][<span class="st">"question"</span>]</span>
 <span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(question, context)</span>
-<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>tokenizer.decode(inputs[<span class="st">"input_ids"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>tokenizer.decode(inputs[<span class="st">"input_ids"</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="15">
 <pre><code>'[CLS] To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France? [SEP] Architecturally, the school has a Catholic character. Atop the Main Building\'s gold dome is a golden statue of the Virgin Mary. Immediately in front of the Main Building and facing it, is a copper statue of Christ with arms upraised with the legend " Venite Ad Me Omnes ". Next to the Main Building is the Basilica of the Sacred Heart. Immediately behind the basilica is the Grotto, a Marian place of prayer and reflection. It is a replica of the grotto at Lourdes, France where the Virgin Mary reputedly appeared to Saint Bernadette Soubirous in 1858. At the end of the main drive ( and in a direct line that connects through 3 statues and the Gold Dome ), is a simple, modern stone statue of Mary. [SEP]'</code></pre>
 </div>
 </div>
 <div id="cell-17" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="2e948c44-ba8f-4ce0-c842-171025a5bf5a">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(</span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>    question,</span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    context,</span>
 <span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    max_length<span class="op">=</span><span class="dv">100</span>,</span>
@@ -591,7 +594,7 @@ Where did Super Bowl 50 take place?</code></pre>
 <span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ids <span class="kw">in</span> inputs[<span class="st">"input_ids"</span>]:</span>
-<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(tokenizer.decode(ids))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(tokenizer.decode(ids))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[CLS] To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France? [SEP] Architecturally, the school has a Catholic character. Atop the Main Building's gold dome is a golden statue of the Virgin Mary. Immediately in front of the Main Building and facing it, is a copper statue of Christ with arms upraised with the legend " Venite Ad Me Omnes ". Next to the Main Building is the Basilica of the Sacred Heart. Immediately behind the basi [SEP]
 [CLS] To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France? [SEP] the Main Building and facing it, is a copper statue of Christ with arms upraised with the legend " Venite Ad Me Omnes ". Next to the Main Building is the Basilica of the Sacred Heart. Immediately behind the basilica is the Grotto, a Marian place of prayer and reflection. It is a replica of the grotto at Lourdes, France where the Virgin [SEP]
@@ -600,7 +603,7 @@ Where did Super Bowl 50 take place?</code></pre>
 </div>
 </div>
 <div id="cell-18" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="08d0fd86-8831-40ad-c8a4-7f72ba5ad41d">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(</span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    question,</span>
 <span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    context,</span>
 <span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    max_length<span class="op">=</span><span class="dv">100</span>,</span>
@@ -609,19 +612,19 @@ Where did Super Bowl 50 take place?</code></pre>
 <span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    return_overflowing_tokens<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    return_offsets_mapping<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>inputs.keys()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>inputs.keys()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="17">
 <pre><code>dict_keys(['input_ids', 'token_type_ids', 'attention_mask', 'offset_mapping', 'overflow_to_sample_mapping'])</code></pre>
 </div>
 </div>
 <div id="cell-19" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="3e1b8fc1-836d-4bd2-e581-df9ce216497d">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>inputs[<span class="st">"overflow_to_sample_mapping"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>inputs[<span class="st">"overflow_to_sample_mapping"</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="18">
 <pre><code>[0, 0, 0, 0]</code></pre>
 </div>
 </div>
 <div id="cell-20" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="22ad8127-f124-446e-c012-d97f9fce1e2f">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(</span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>    raw_datasets[<span class="st">"train"</span>][<span class="dv">2</span>:<span class="dv">6</span>][<span class="st">"question"</span>],</span>
 <span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    raw_datasets[<span class="st">"train"</span>][<span class="dv">2</span>:<span class="dv">6</span>][<span class="st">"context"</span>],</span>
 <span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    max_length<span class="op">=</span><span class="dv">100</span>,</span>
@@ -632,7 +635,7 @@ Where did Super Bowl 50 take place?</code></pre>
 <span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"The 4 examples gave </span><span class="sc">{</span><span class="bu">len</span>(inputs[<span class="st">'input_ids'</span>])<span class="sc">}</span><span class="ss"> features."</span>)</span>
-<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Here is where each comes from: </span><span class="sc">{</span>inputs[<span class="st">'overflow_to_sample_mapping'</span>]<span class="sc">}</span><span class="ss">."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Here is where each comes from: </span><span class="sc">{</span>inputs[<span class="st">'overflow_to_sample_mapping'</span>]<span class="sc">}</span><span class="ss">."</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>The 4 examples gave 19 features.
 Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3].</code></pre>
@@ -640,7 +643,7 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 </div>
 <p>Once we have those token indices, we look at the corresponding offsets, which are tuples of two integers representing the span of characters inside the original context. We can thus detect if the chunk of the context in this feature starts after the answer or ends before the answer begins (in which case the label is (0, 0)). If that’s not the case, we loop to find the first and last token of the answer:</p>
 <div id="cell-22" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="6fff1bed-f230-4c26-ed1e-fa2ad8476291">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>answers <span class="op">=</span> raw_datasets[<span class="st">"train"</span>][<span class="dv">2</span>:<span class="dv">6</span>][<span class="st">"answers"</span>]</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>answers <span class="op">=</span> raw_datasets[<span class="st">"train"</span>][<span class="dv">2</span>:<span class="dv">6</span>][<span class="st">"answers"</span>]</span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>start_positions <span class="op">=</span> []</span>
 <span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>end_positions <span class="op">=</span> []</span>
 <span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -676,14 +679,14 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb39-34"><a href="#cb39-34" aria-hidden="true" tabindex="-1"></a>            idx <span class="op">-=</span> <span class="dv">1</span></span>
 <span id="cb39-35"><a href="#cb39-35" aria-hidden="true" tabindex="-1"></a>        end_positions.append(idx <span class="op">+</span> <span class="dv">1</span>)</span>
 <span id="cb39-36"><a href="#cb39-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb39-37"><a href="#cb39-37" aria-hidden="true" tabindex="-1"></a>start_positions, end_positions</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb39-37"><a href="#cb39-37" aria-hidden="true" tabindex="-1"></a>start_positions, end_positions</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="20">
 <pre><code>([83, 51, 19, 0, 0, 64, 27, 0, 34, 0, 0, 0, 67, 34, 0, 0, 0, 0, 0],
  [85, 53, 21, 0, 0, 70, 33, 0, 40, 0, 0, 0, 68, 35, 0, 0, 0, 0, 0])</code></pre>
 </div>
 </div>
 <div id="cell-23" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="5552d33d-0448-450d-f75a-3808a4226727">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>idx <span class="op">=</span> <span class="dv">0</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>idx <span class="op">=</span> <span class="dv">0</span></span>
 <span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>sample_idx <span class="op">=</span> inputs[<span class="st">"overflow_to_sample_mapping"</span>][idx]</span>
 <span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>answer <span class="op">=</span> answers[sample_idx][<span class="st">"text"</span>][<span class="dv">0</span>]</span>
 <span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -691,24 +694,24 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>end <span class="op">=</span> end_positions[idx]</span>
 <span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>labeled_answer <span class="op">=</span> tokenizer.decode(inputs[<span class="st">"input_ids"</span>][idx][start : end <span class="op">+</span> <span class="dv">1</span>])</span>
 <span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Theoretical answer: </span><span class="sc">{</span>answer<span class="sc">}</span><span class="ss">, labels give: </span><span class="sc">{</span>labeled_answer<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Theoretical answer: </span><span class="sc">{</span>answer<span class="sc">}</span><span class="ss">, labels give: </span><span class="sc">{</span>labeled_answer<span class="sc">}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Theoretical answer: the Main Building, labels give: the Main Building</code></pre>
 </div>
 </div>
 <div id="cell-24" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="19192565-58a1-47f9-b613-3bfe323be173">
-<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>idx <span class="op">=</span> <span class="dv">4</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>idx <span class="op">=</span> <span class="dv">4</span></span>
 <span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>sample_idx <span class="op">=</span> inputs[<span class="st">"overflow_to_sample_mapping"</span>][idx]</span>
 <span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>answer <span class="op">=</span> answers[sample_idx][<span class="st">"text"</span>][<span class="dv">0</span>]</span>
 <span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>decoded_example <span class="op">=</span> tokenizer.decode(inputs[<span class="st">"input_ids"</span>][idx])</span>
-<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Theoretical answer: </span><span class="sc">{</span>answer<span class="sc">}</span><span class="ss">, decoded example: </span><span class="sc">{</span>decoded_example<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Theoretical answer: </span><span class="sc">{</span>answer<span class="sc">}</span><span class="ss">, decoded example: </span><span class="sc">{</span>decoded_example<span class="sc">}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Theoretical answer: a Marian place of prayer and reflection, decoded example: [CLS] What is the Grotto at Notre Dame? [SEP] Architecturally, the school has a Catholic character. Atop the Main Building's gold dome is a golden statue of the Virgin Mary. Immediately in front of the Main Building and facing it, is a copper statue of Christ with arms upraised with the legend " Venite Ad Me Omnes ". Next to the Main Building is the Basilica of the Sacred Heart. Immediately behind the basilica is the Grot [SEP]</code></pre>
 </div>
 </div>
 <div id="cell-25" class="cell">
-<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>max_length <span class="op">=</span> <span class="dv">384</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>max_length <span class="op">=</span> <span class="dv">384</span></span>
 <span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>stride <span class="op">=</span> <span class="dv">128</span></span>
 <span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -765,15 +768,15 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb45-55"><a href="#cb45-55" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb45-56"><a href="#cb45-56" aria-hidden="true" tabindex="-1"></a>    inputs[<span class="st">"start_positions"</span>] <span class="op">=</span> start_positions</span>
 <span id="cb45-57"><a href="#cb45-57" aria-hidden="true" tabindex="-1"></a>    inputs[<span class="st">"end_positions"</span>] <span class="op">=</span> end_positions</span>
-<span id="cb45-58"><a href="#cb45-58" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> inputs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb45-58"><a href="#cb45-58" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> inputs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-26" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:68,&quot;referenced_widgets&quot;:[&quot;cb7afaed43744a7e8fb5c64a5deb8d65&quot;,&quot;b8bc7b816bec42c787c0eec5766197cb&quot;,&quot;320dea6020604547a66e32d676f4e72a&quot;,&quot;a33949dc89344d26967ff82eb1c5cfc6&quot;,&quot;0281c241e0274864a8dbba7b54df922e&quot;,&quot;b27d8287f6854db9b9ac2e341d776e72&quot;,&quot;36f653c7315641d7aa1d5856b3bc951d&quot;,&quot;afd3f71c85054553bb16c26c12c74b6e&quot;,&quot;831233cc32e1464390aa6d0c853a7403&quot;,&quot;ab14dd742a8e40cdb101fc2dd73eb6a1&quot;,&quot;c6dd00d682d74ecbbff504388b63ec97&quot;]}}" data-outputid="4c2e56d6-0436-4f79-89e3-d5d134ee36b4">
-<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> raw_datasets[<span class="st">"train"</span>].<span class="bu">map</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> raw_datasets[<span class="st">"train"</span>].<span class="bu">map</span>(</span>
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>    preprocess_training_examples,</span>
 <span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>    batched<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>    remove_columns<span class="op">=</span>raw_datasets[<span class="st">"train"</span>].column_names,</span>
 <span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(raw_datasets[<span class="st">"train"</span>]), <span class="bu">len</span>(train_dataset)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(raw_datasets[<span class="st">"train"</span>]), <span class="bu">len</span>(train_dataset)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"cb7afaed43744a7e8fb5c64a5deb8d65","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -788,7 +791,7 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <p>✏️ Your turn! When using the XLNet architecture, padding is applied on the left and the question and context are switched. Adapt all the code we just saw to the XLNet architecture (and add padding=True). Be aware that the [CLS] token may not be at the 0 position with padding applied.</p>
 <p>Now that we have seen step by step how to preprocess our training data, we can group it in a function we will apply on the whole training dataset. We’ll pad every feature to the maximum length we set, as most of the contexts will be long (and the corresponding samples will be split into several features), so there is no real benefit to applying dynamic padding here:</p>
 <div id="cell-28" class="cell">
-<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_validation_examples(examples):</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_validation_examples(examples):</span>
 <span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>    questions <span class="op">=</span> [q.strip() <span class="cf">for</span> q <span class="kw">in</span> examples[<span class="st">"question"</span>]]</span>
 <span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    inputs <span class="op">=</span> tokenizer(</span>
 <span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>        questions,</span>
@@ -815,15 +818,15 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb48-25"><a href="#cb48-25" aria-hidden="true" tabindex="-1"></a>        ]</span>
 <span id="cb48-26"><a href="#cb48-26" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-27"><a href="#cb48-27" aria-hidden="true" tabindex="-1"></a>    inputs[<span class="st">"example_id"</span>] <span class="op">=</span> example_ids</span>
-<span id="cb48-28"><a href="#cb48-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> inputs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb48-28"><a href="#cb48-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> inputs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-29" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:68,&quot;referenced_widgets&quot;:[&quot;98244783072b44fa931e0b3de02898b3&quot;,&quot;7a0a8d3d50e44e03a5ed00bfcda1eb06&quot;,&quot;e5ce3ba777614cb8ac6defa3a52c03da&quot;,&quot;bb7c334fd136491491374e767b9aa6a8&quot;,&quot;8dddf322daf14b62abf4ec61cd1e1c28&quot;,&quot;10233083b3b84adfbd53fdd530dff94a&quot;,&quot;c296a19f51bd473680618244e398ee41&quot;,&quot;c166f79e00c7435988915127a11efa2d&quot;,&quot;1779495a67a24f969b98433028fbf6fb&quot;,&quot;2ebde33d217c4b9f9d341012a6426813&quot;,&quot;286c053c8504439bb9d0f98b61d13a42&quot;]}}" data-outputid="2a62a75b-d373-4c95-a8b2-909ab5d4a3fa">
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>validation_dataset <span class="op">=</span> raw_datasets[<span class="st">"validation"</span>].<span class="bu">map</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>validation_dataset <span class="op">=</span> raw_datasets[<span class="st">"validation"</span>].<span class="bu">map</span>(</span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>    preprocess_validation_examples,</span>
 <span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    batched<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>    remove_columns<span class="op">=</span>raw_datasets[<span class="st">"validation"</span>].column_names,</span>
 <span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(raw_datasets[<span class="st">"validation"</span>]), <span class="bu">len</span>(validation_dataset)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(raw_datasets[<span class="st">"validation"</span>]), <span class="bu">len</span>(validation_dataset)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"98244783072b44fa931e0b3de02898b3","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -834,7 +837,7 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 </div>
 </div>
 <div id="cell-30" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:49,&quot;referenced_widgets&quot;:[&quot;b1073af7d827444f8d713fc7670afb4a&quot;,&quot;7c11dac1de88477baa03326cee14f25c&quot;,&quot;e7352dc282a44cad96a9064a943f2259&quot;,&quot;2b23a5cb55954c07bd6880d730d86fad&quot;,&quot;15f68523571d4bb08c73514ca77ae11d&quot;,&quot;cb63a7d66d6d4019b64461da9e349369&quot;,&quot;b5b34bdb8de842e8ac14fe60bcefbd11&quot;,&quot;3fa9e8ae9a034919b154315ec843f3cd&quot;,&quot;c4d3e347275e4c26981d96ba65040c5a&quot;,&quot;37bf53433d074b95a4157cf0162fa358&quot;,&quot;bc4f3e8a40ea416295b6846b1a5f101b&quot;]}}" data-outputid="9cbf215d-ccd4-485b-8997-8c045e92de5a">
-<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>small_eval_set <span class="op">=</span> raw_datasets[<span class="st">"validation"</span>].select(<span class="bu">range</span>(<span class="dv">100</span>))</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>small_eval_set <span class="op">=</span> raw_datasets[<span class="st">"validation"</span>].select(<span class="bu">range</span>(<span class="dv">100</span>))</span>
 <span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>trained_checkpoint <span class="op">=</span> <span class="st">"distilbert-base-cased-distilled-squad"</span></span>
 <span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(trained_checkpoint)</span>
@@ -842,7 +845,7 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    preprocess_validation_examples,</span>
 <span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>    batched<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    remove_columns<span class="op">=</span>raw_datasets[<span class="st">"validation"</span>].column_names,</span>
-<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"b1073af7d827444f8d713fc7670afb4a","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -850,10 +853,10 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 </div>
 </div>
 <div id="cell-31" class="cell">
-<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_checkpoint)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_checkpoint)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-32" class="cell">
-<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb53"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
 <span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> AutoModelForQuestionAnswering</span>
 <span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>eval_set_for_model <span class="op">=</span> eval_set.remove_columns([<span class="st">"example_id"</span>, <span class="st">"offset_mapping"</span>])</span>
@@ -866,21 +869,21 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> torch.no_grad():</span>
-<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a>    outputs <span class="op">=</span> trained_model(<span class="op">**</span>batch)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a>    outputs <span class="op">=</span> trained_model(<span class="op">**</span>batch)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-33" class="cell">
-<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>start_logits <span class="op">=</span> outputs.start_logits.cpu().numpy()</span>
-<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>end_logits <span class="op">=</span> outputs.end_logits.cpu().numpy()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>start_logits <span class="op">=</span> outputs.start_logits.cpu().numpy()</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>end_logits <span class="op">=</span> outputs.end_logits.cpu().numpy()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-34" class="cell">
-<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> collections</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb55"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> collections</span>
 <span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>example_to_features <span class="op">=</span> collections.defaultdict(<span class="bu">list</span>)</span>
 <span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, feature <span class="kw">in</span> <span class="bu">enumerate</span>(eval_set):</span>
-<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>    example_to_features[feature[<span class="st">"example_id"</span>]].append(idx)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>    example_to_features[feature[<span class="st">"example_id"</span>]].append(idx)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-35" class="cell">
-<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>n_best <span class="op">=</span> <span class="dv">20</span></span>
 <span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>max_answer_length <span class="op">=</span> <span class="dv">30</span></span>
@@ -920,12 +923,12 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 <span id="cb56-38"><a href="#cb56-38" aria-hidden="true" tabindex="-1"></a>                )</span>
 <span id="cb56-39"><a href="#cb56-39" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb56-40"><a href="#cb56-40" aria-hidden="true" tabindex="-1"></a>    best_answer <span class="op">=</span> <span class="bu">max</span>(answers, key<span class="op">=</span><span class="kw">lambda</span> x: x[<span class="st">"logit_score"</span>])</span>
-<span id="cb56-41"><a href="#cb56-41" aria-hidden="true" tabindex="-1"></a>    predicted_answers.append({<span class="st">"id"</span>: example_id, <span class="st">"prediction_text"</span>: best_answer[<span class="st">"text"</span>]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb56-41"><a href="#cb56-41" aria-hidden="true" tabindex="-1"></a>    predicted_answers.append({<span class="st">"id"</span>: example_id, <span class="st">"prediction_text"</span>: best_answer[<span class="st">"text"</span>]})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-36" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:81,&quot;referenced_widgets&quot;:[&quot;5fb14d95917e44189b5117ca30592f1e&quot;,&quot;a4351734e51d41caa008bb93731d5199&quot;,&quot;b4dea21bfb394b9fbcff0adfe45c7aa3&quot;,&quot;d549c5113fb142b7b01f732d6fe32884&quot;,&quot;b5970c7e836b46119c12662aa9891534&quot;,&quot;e133032c2b024f4199148a77d006c928&quot;,&quot;23599d680a814ee4a628c261b52b8f56&quot;,&quot;6dc792cfeb334e2aaca750ce0f87bd41&quot;,&quot;29a19a15d09848a4a5f8a7f6027347ef&quot;,&quot;3d1afa1f722e41a981a13969009242f6&quot;,&quot;548cb9ea4b00437c99b00a8be3badaa5&quot;,&quot;fd7d2839aecb4cf3bb64d0fb9a29340f&quot;,&quot;38c994deff4041d4ba33111e455e8992&quot;,&quot;11b74109cf64467a81499899c8e00564&quot;,&quot;24db048636de42d182a9f7e46d4b4f28&quot;,&quot;d2d2188d2ea944b489b567006494abb4&quot;,&quot;656daf5abe4b4e189594936edca3e81e&quot;,&quot;0986cebe24d146f482479ef1957a6fdc&quot;,&quot;0ba1fb8d9117447da9d8870e7cd0a290&quot;,&quot;5fae3686030a4e90841ebc4d541ea9aa&quot;,&quot;fe9dd55b2daa4a18a20059911c3c544d&quot;,&quot;72eb159665704f04851949c4881fbe70&quot;]}}" data-outputid="30fc7178-7dfc-4318-aa52-77f3c4a801ae">
-<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_metric</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> load_metric</span>
 <span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>metric <span class="op">=</span> load_metric(<span class="st">"squad"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>metric <span class="op">=</span> load_metric(<span class="st">"squad"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"5fb14d95917e44189b5117ca30592f1e","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -938,7 +941,7 @@ Here is where each comes from: [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 
 </div>
 </div>
 <div id="cell-37" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="ba2b6d2f-e41e-49f8-8efe-a33281691ac7">
-<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>metric</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb58"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>metric</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="34">
 <pre><code>Metric(name: "squad", features: {'predictions': {'id': Value(dtype='string', id=None), 'prediction_text': Value(dtype='string', id=None)}, 'references': {'id': Value(dtype='string', id=None), 'answers': Sequence(feature={'text': Value(dtype='string', id=None), 'answer_start': Value(dtype='int32', id=None)}, length=-1, id=None)}}, usage: """
 Computes SQuAD scores (F1 and EM).
@@ -969,25 +972,25 @@ Examples:
 </div>
 </div>
 <div id="cell-38" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="e6229541-5198-4ea8-905e-6eedf95ff192">
-<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>theoretical_answers <span class="op">=</span> [</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb60"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>theoretical_answers <span class="op">=</span> [</span>
 <span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>    {<span class="st">"id"</span>: ex[<span class="st">"id"</span>], <span class="st">"answers"</span>: ex[<span class="st">"answers"</span>]} <span class="cf">for</span> ex <span class="kw">in</span> small_eval_set</span>
 <span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>]</span>
 <span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predicted_answers[<span class="dv">0</span>])</span>
-<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(theoretical_answers[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(theoretical_answers[<span class="dv">0</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{'id': '56be4db0acb8001400a502ec', 'prediction_text': 'Denver Broncos'}
 {'id': '56be4db0acb8001400a502ec', 'answers': {'text': ['Denver Broncos', 'Denver Broncos', 'Denver Broncos'], 'answer_start': [177, 177, 177]}}</code></pre>
 </div>
 </div>
 <div id="cell-39" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="2d25d35e-03f0-4450-e371-f5b1cbcf1ef6">
-<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>metric.compute(predictions<span class="op">=</span>predicted_answers, references<span class="op">=</span>theoretical_answers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb62"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>metric.compute(predictions<span class="op">=</span>predicted_answers, references<span class="op">=</span>theoretical_answers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="36">
 <pre><code>{'exact_match': 83.0, 'f1': 88.25000000000004}</code></pre>
 </div>
 </div>
 <div id="cell-40" class="cell">
-<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm.auto <span class="im">import</span> tqdm</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb64"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm.auto <span class="im">import</span> tqdm</span>
 <span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> compute_metrics(start_logits, end_logits, features, examples):</span>
@@ -1041,10 +1044,10 @@ Examples:
 <span id="cb64-52"><a href="#cb64-52" aria-hidden="true" tabindex="-1"></a>    theoretical_answers <span class="op">=</span> [</span>
 <span id="cb64-53"><a href="#cb64-53" aria-hidden="true" tabindex="-1"></a>        {<span class="st">"id"</span>: ex[<span class="st">"id"</span>], <span class="st">"answers"</span>: ex[<span class="st">"answers"</span>]} <span class="cf">for</span> ex <span class="kw">in</span> examples</span>
 <span id="cb64-54"><a href="#cb64-54" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb64-55"><a href="#cb64-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> metric.compute(predictions<span class="op">=</span>predicted_answers, references<span class="op">=</span>theoretical_answers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb64-55"><a href="#cb64-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> metric.compute(predictions<span class="op">=</span>predicted_answers, references<span class="op">=</span>theoretical_answers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-41" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:68,&quot;referenced_widgets&quot;:[&quot;be36063eba61464b8b74800d6b64807e&quot;,&quot;edeb3812cd4c444997c70dc3c79a720d&quot;,&quot;57d03a021cd249dba81a8683eeda0a9f&quot;,&quot;e605d2aa669547bd9f5c2ed563f04d0b&quot;,&quot;95c9a9e228e144db8198c684c5ba7b64&quot;,&quot;f1f40719d4f347e2a3cec5062465d02c&quot;,&quot;479ba65224034503925c36945d533b5a&quot;,&quot;758537a0b7374008b3745936a9fdc81f&quot;,&quot;782e70818df04be39e3d38389a412345&quot;,&quot;0a32790ff2224fdd830f246ca6cd6921&quot;,&quot;ef53be8955ae406f84398dab9e08dc68&quot;]}}" data-outputid="b4c6a8d2-dd5e-47d4-c420-eb30b7f54200">
-<div class="sourceCode cell-code" id="cb65"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>compute_metrics(start_logits, end_logits, eval_set, small_eval_set)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb65"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>compute_metrics(start_logits, end_logits, eval_set, small_eval_set)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"be36063eba61464b8b74800d6b64807e","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -1055,7 +1058,7 @@ Examples:
 </div>
 </div>
 <div id="cell-42" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:163,&quot;referenced_widgets&quot;:[&quot;0e6d436f67594528b1f3050d5c614364&quot;,&quot;13399abbe87a44e5acb80069bf5cb88c&quot;,&quot;427010310a2c4533a3709fe9cdbb5e68&quot;,&quot;d0973335626a4f03b3c21963a6854469&quot;,&quot;cbe9a18bc24b4670995dc1fd7bfb1a93&quot;,&quot;daefc5c5e8cc48fcaed3f926f009b825&quot;,&quot;f873fe7694e848f8aef99fdce6215814&quot;,&quot;885b9ab3d6694037bc78185e5db622a4&quot;,&quot;c23310f8f86f49de8e5492f05e130dc5&quot;,&quot;3a169ea5054541cca4e462070f7b01f3&quot;,&quot;27cbc5a0def44ef1997a48428649e62c&quot;]}}" data-outputid="753b44e6-53bd-4361-a1fe-6acac941e2dd">
-<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> AutoModelForQuestionAnswering.from_pretrained(model_checkpoint)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb67"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> AutoModelForQuestionAnswering.from_pretrained(model_checkpoint)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"0e6d436f67594528b1f3050d5c614364","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -1070,9 +1073,9 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 </div>
 </div>
 <div id="cell-43" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:415}}" data-outputid="999d6157-8b14-4127-a99b-c7419a05fd56">
-<div class="sourceCode cell-code" id="cb69"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> notebook_login</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb69"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> huggingface_hub <span class="im">import</span> notebook_login</span>
 <span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>notebook_login()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>notebook_login()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <div class="ansi-escaped-output">
 <pre>Login successful
@@ -1091,8 +1094,8 @@ git config --global credential.helper store</span>
 </div>
 </div>
 <div id="cell-44" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="feb91050-9467-403a-99f2-2af0e253ed65">
-<div class="sourceCode cell-code" id="cb70"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> sudo apt install git<span class="op">-</span>lfs</span>
-<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> git<span class="op">-</span>lfs install</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb70"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> sudo apt install git<span class="op">-</span>lfs</span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> git<span class="op">-</span>lfs install</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Reading package lists... Done
 Building dependency tree       
@@ -1107,7 +1110,7 @@ Git LFS initialized.</code></pre>
 </div>
 </div>
 <div id="cell-45" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}}" data-outputid="4944310d-4d62-4860-d29e-e47f1f6267d4">
-<div class="sourceCode cell-code" id="cb72"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> TrainingArguments</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb72"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> TrainingArguments</span>
 <span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb72-3"><a href="#cb72-3" aria-hidden="true" tabindex="-1"></a>args <span class="op">=</span> TrainingArguments(</span>
 <span id="cb72-4"><a href="#cb72-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"bert-finetuned-squad"</span>,</span>
@@ -1118,14 +1121,14 @@ Git LFS initialized.</code></pre>
 <span id="cb72-9"><a href="#cb72-9" aria-hidden="true" tabindex="-1"></a>    weight_decay<span class="op">=</span><span class="fl">0.01</span>,</span>
 <span id="cb72-10"><a href="#cb72-10" aria-hidden="true" tabindex="-1"></a>    fp16<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb72-11"><a href="#cb72-11" aria-hidden="true" tabindex="-1"></a>    push_to_hub<span class="op">=</span><span class="va">True</span>,</span>
-<span id="cb72-12"><a href="#cb72-12" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb72-12"><a href="#cb72-12" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>PyTorch: setting up devices
 The default value for the training argument `--report_to` will change in v5 (from all installed integrations to none). In v5, you will need to use `--report_to all` to get the same behavior as now. You should start updating your code and make this info disappear :-).</code></pre>
 </div>
 </div>
 <div id="cell-46" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;colab&quot;,&quot;value&quot;:{&quot;background_save&quot;:true,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:520}}" data-outputid="6cf80d3a-2db4-4b29-bffb-ec432946c3fe">
-<div class="sourceCode cell-code" id="cb74"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> Trainer</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb74"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> Trainer</span>
 <span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a>trainer <span class="op">=</span> Trainer(</span>
 <span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span>model,</span>
@@ -1134,7 +1137,7 @@ The default value for the training argument `--report_to` will change in v5 (fro
 <span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a>    eval_dataset<span class="op">=</span>validation_dataset,</span>
 <span id="cb74-8"><a href="#cb74-8" aria-hidden="true" tabindex="-1"></a>    tokenizer<span class="op">=</span>tokenizer,</span>
 <span id="cb74-9"><a href="#cb74-9" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a>trainer.train()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a>trainer.train()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>/content/bert-finetuned-squad is already a clone of https://huggingface.co/kurianbenoy/bert-finetuned-squad. Make sure you pull the latest changes with `repo.git_pull()`.
 Using amp half precision backend
@@ -1155,7 +1158,7 @@ Using amp half precision backend
       [ 4154/11092 2:29:47 &lt; 4:10:18, 0.46 it/s, Epoch 0.37/1]
     </div>
     
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">Step</th>
@@ -1201,14 +1204,14 @@ Using amp half precision backend
 </p></div>
 </div>
 <div id="cell-47" class="cell">
-<div class="sourceCode cell-code" id="cb76"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a>predictions, _ <span class="op">=</span> trainer.predict(validation_dataset)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb76"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a>predictions, _ <span class="op">=</span> trainer.predict(validation_dataset)</span>
 <span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>start_logits, end_logits <span class="op">=</span> predictions</span>
 <span id="cb76-3"><a href="#cb76-3" aria-hidden="true" tabindex="-1"></a>compute_metrics(</span>
 <span id="cb76-4"><a href="#cb76-4" aria-hidden="true" tabindex="-1"></a>    start_logits, end_logits, validation_dataset, raw_datasets[<span class="st">"validation"</span>]</span>
-<span id="cb76-5"><a href="#cb76-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb76-5"><a href="#cb76-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="cell-48" class="cell">
-<div class="sourceCode cell-code" id="cb77"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>trainer.push_to_hub(commit_message<span class="op">=</span><span class="st">"Training complete"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb77"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>trainer.push_to_hub(commit_message<span class="op">=</span><span class="st">"Training complete"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 
@@ -1269,13 +1272,14 @@ Using amp half precision backend
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
