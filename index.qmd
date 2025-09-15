@@ -1,7 +1,5 @@
 ---
 title: "Kurian Benoy"
-image: /posts/images/fossasia_summit_2019/my_lighting_talk.jpg
-image-alt: Image of Kurian Benoy speaking in FOSS ASIA Summit, 2019 at Singapore.
 about:
   template: trestles
   links:
