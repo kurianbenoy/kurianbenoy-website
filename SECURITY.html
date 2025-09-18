@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Kurian Benoy">
-<meta name="dcterms.date" content="2022-07-26">
-<meta name="description" content="When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …">
 
-<title>A strange bug when using fastai library with Weights &amp; Biases – Kurian Benoy</title>
+<title>security – Kurian Benoy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,63 +20,28 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../favicon.ico" rel="icon">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9f95a34453db601798e5e104d2555aeb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9f95a34453db601798e5e104d2555aeb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -109,31 +71,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="A strange bug when using fastai library with Weights &amp; Biases – Kurian Benoy">
-<meta property="og:description" content="When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …">
-<meta property="og:image" content="https://kurianbenoy.com/posts/images/wblogo.png">
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Kurian Benoy">
 <meta property="og:site_name" content="Kurian Benoy">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="A strange bug when using fastai library with Weights &amp; Biases – Kurian Benoy">
-<meta name="twitter:description" content="When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …">
-<meta name="twitter:image" content="https://kurianbenoy.com/posts/images/wblogo.png">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kurian Benoy">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kurian Benoy</span>
     </a>
   </div>
@@ -144,11 +98,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks.html"> 
+    <a class="nav-link" href="./talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -171,7 +125,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../blog.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -183,116 +137,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">A strange bug when using fastai library with Weights &amp; Biases</h1>
-                  <div>
-        <div class="description">
-          When I was using fastai library along with weights &amp; biases callback to track my model training, I noticed a strange error when inferencing the same models created with fast.ai library. Let’s figure out the issue …
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">fastai</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Kurian Benoy </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">July 26, 2022</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-
-<p>After attending an introduction to using weights &amp; biases along with fastai session conducted by <a href="https://twitter.com/capetorch">Thomas Capaballe</a>. I was excited to use weights and biases library along with a few of my hobby projects. I was working on training an Image classification models on the Kaggle competition dataset <a href="https://www.kaggle.com/competitions/tpu-getting-started">Petal to Metal</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../posts/images/wblogo.png" class="img-fluid figure-img"></p>
-<figcaption>image info</figcaption>
-</figure>
-</div>
-<p>In general, whenever I am passing a code to any fastai learner objects with callback. I usually directly pass it along with <code>vision_learner</code> as shown in below code.</p>
-<div id="1d38d565-d9ae-4059-9ebe-5f8eaa7301a9" class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>arch <span class="op">=</span> <span class="st">"convnext_tiny_in22k"</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    data,</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    arch,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    metrics<span class="op">=</span>error_rate,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    cbs<span class="op">=</span>[</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        WandbCallback(log_preds<span class="op">=</span><span class="va">False</span>, log_model<span class="op">=</span><span class="va">True</span>),</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        SaveModelCallback(monitor<span class="op">=</span><span class="st">"accuracy"</span>),</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    ],</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>I exported this model, as I was trying to create a <a href="https://huggingface.co/spaces/kurianbenoy/Identify_which_flower">hugging face spaces to identify various flowers species</a>.</p>
-<div id="f2109a59-685d-43a1-a60c-18706289085e" class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>learn.export()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Now I went ahead creating the inference code with requirements for this model. This is when I noticed that the model exported requires <code>wandb</code> library to run the inference code. I was totally surprised, why it was happening at first.</p>
-<p><strong>Why this annoying behaviour?</strong></p>
-<p>It’s because when passing the callbacks to <code>Learner</code> class or it’s variants like in case of computer vision fastai uses <code>vision_learner</code> class makes it stick around. In my case, I don’t want the callback to hang around the <code>Learner</code> class forever, as it’s just for training job monitoring only.</p>
-<p>After a bit of googling, I found this solution from one of the forum posts written by <a href="twitter.com/waydegilliam">Wayde Gilliam</a>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Instead of adding your callback to <code>Learner</code> … if it is simply used for training, just include it in your call(s) to <code>fit or fit_one_cycle</code>. As the callback is no longer associated to your Learner, they won’t interfere with your call to <code>get_preds()</code>.</p>
-</div>
-</div>
-<p><a href="https://forums.fast.ai/t/is-there-anyway-to-call-learn-get-preds-without-triggering-any-of-the-callbacks/64753/10">Original answer</a>.</p>
-<p>So inorder to fix it, I just passed the callbacks I am using directly with <code>fine_tune</code> method directly. Let’s check the code to pass callbacks this way.</p>
-<div id="9d3d965f-c438-4fb9-9173-8e8b0bd2b8c0" class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>arch <span class="op">=</span> <span class="st">"convnext_tiny_in22k"</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>learn <span class="op">=</span> vision_learner(data, arch, metrics<span class="op">=</span>[accuracy, error_rate])</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    cbs<span class="op">=</span>[</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        WandbCallback(log_preds<span class="op">=</span><span class="va">False</span>, log_model<span class="op">=</span><span class="va">True</span>),</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        SaveModelCallback(monitor<span class="op">=</span><span class="st">"accuracy"</span>),</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    ],</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Hence I learned this valuable lesson, which fixed my bug in inferencing code for <a href="https://twitter.com/kurianbenoy2/status/1543985447441145856">huggingface spaces which I was creating</a>.</p>
-<p></p><div id="tweet-76121"></div><script>tweet={"url":"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856","author_name":"Kurian Benoy","author_url":"https:\/\/twitter.com\/kurianbenoy2","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\u003Ca href=\"https:\/\/twitter.com\/hashtag\/TIL?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#TIL\u003C\/a\u003E: It’s better to pass callbacks to fine_tune() and fit_one_cycle() method instead of passing directly to the learner object, to avoid unwanted effects when using your models for inference.\u003C\/p\u003E&mdash; Kurian Benoy (@kurianbenoy2) \u003Ca href=\"https:\/\/twitter.com\/kurianbenoy2\/status\/1543985447441145856?ref_src=twsrc%5Etfw\"\u003EJuly 4, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-76121").innerHTML = tweet["html"];</script><p></p>
-<p><a href="https://twitter.com/TheZachMueller">Zach Mueller</a> also confirmed this is the case.</p>
-<p></p><div id="tweet-97929"></div><script>tweet={"url":"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309","author_name":"Zach Mueller","author_url":"https:\/\/twitter.com\/TheZachMueller","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EYup! Unless it&#39;s a callback designed to hang around, you should almost never tie it directly to the Learner\u003C\/p\u003E&mdash; Zach Mueller (@TheZachMueller) \u003Ca href=\"https:\/\/twitter.com\/TheZachMueller\/status\/1544297503771746309?ref_src=twsrc%5Etfw\"\u003EJuly 5, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-97929").innerHTML = tweet["html"];</script><p></p>
+<section id="security-policy" class="level1">
+<h1>Security Policy</h1>
+<section id="supported-versions" class="level2">
+<h2 class="anchored" data-anchor-id="supported-versions">Supported Versions</h2>
+<p>Use this section to tell people about which versions of your project are currently being supported with security updates.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Supported</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5.1.x</td>
+<td>:white_check_mark:</td>
+</tr>
+<tr class="even">
+<td>5.0.x</td>
+<td>:x:</td>
+</tr>
+<tr class="odd">
+<td>4.0.x</td>
+<td>:white_check_mark:</td>
+</tr>
+<tr class="even">
+<td>&lt; 4.0</td>
+<td>:x:</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="reporting-a-vulnerability" class="level2">
+<h2 class="anchored" data-anchor-id="reporting-a-vulnerability">Reporting a Vulnerability</h2>
+<p>Use this section to tell people how to report a vulnerability.</p>
+<p>Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -729,5 +623,4 @@ Important
 
 
 
-<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
