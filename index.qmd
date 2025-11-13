@@ -26,6 +26,7 @@ about:
     - text: Blog
       url: "blog.html"
 page-layout: full
+image: /posts/images/kurian_2025.jpeg
 comments: false
 ---
 
