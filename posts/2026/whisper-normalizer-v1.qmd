@@ -1,0 +1,21 @@
+---
+title: Getting whisper_normalizer ready for 1.0
+description: A small update on returning to blogging and the next chapter for whisper_normalizer.
+author: Kurian Benoy
+date: 2026-07-26
+categories: [open source, python, speech]
+---
+
+I have been meaning to get back to blogging for a while. A few posts have been sitting in my head, waiting for the right amount of time and energy. Rather than wait for a perfect long-form piece, I want to start with a small update on something I have been enjoying working on again: [`whisper_normalizer`](https://github.com/kurianbenoy/whisper_normalizer).
+
+The package began as a way to use Whisper-style text normalization outside the Whisper codebase. It is especially useful when evaluating ASR systems: formatting, punctuation, script conventions, and number forms should not accidentally become speech-recognition errors.
+
+Over the last couple of weeks, I have been giving the project some attention again. Recent releases added `preserve_marks=True` to `BasicTextNormalizer`, which matters for scripts where Unicode marks carry meaning. I also added normalizers for French, Spanish, Arabic, Chinese, and Russian, with language-specific handling for written numbers, punctuation, diacritics, and orthographic variants. The project has also moved to nbdev v3 and received CI/CD fixes.
+
+Those changes are useful on their own, but they have made me think more seriously about what a 1.0 release should mean. I do not want 1.0 to promise perfect normalization for every language. I want it to promise something more practical: choosing and using a supported normalizer should be stable, explicit, and predictable.
+
+The [v1.0 release plan](https://github.com/kurianbenoy/whisper_normalizer/blob/codex/v1-release-plan/V1_RELEASE_PLAN.md) sketches that out. The central idea is a small, documented API for selecting a normalizer by language, clear errors for unsupported languages, and no quiet fallback to a generic normalizer. Alongside that, I want every supported language to have a documented behaviour policy, regression tests, and a trustworthy release process.
+
+There is also an evaluation direction I am excited about: keeping the normalizer lightweight while offering optional integrations for ASR evaluation—such as OIWER and Sarvam LLM-based evaluation. The aim is to make it easier to compare raw WER/CER with normalized and language-aware measurements without making the base package depend on APIs or credentials.
+
+This is the beginning of that work, not a release announcement yet. I am looking forward to getting feedback from people who work with ASR and from language contributors who can help make the normalizers more useful in real-world evaluation. And hopefully, it is also the beginning of me writing here a little more often.

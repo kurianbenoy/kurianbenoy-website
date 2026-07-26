@@ -37,3 +37,4 @@ win_configuration.bat
 
 .vscode/
 
+**/*.quarto_ipynb
