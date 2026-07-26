@@ -10,7 +10,34 @@
 <atom:link href="https://kurianbenoy.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 05 Nov 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Getting whisper_normalizer ready for 1.0</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.com/posts/2026/whisper-normalizer-v1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I have been meaning to get back to blogging for a while. A few posts have been sitting in my head, waiting for the right amount of time and energy. Rather than wait for a perfect long-form piece, I want to start with a small update on something I have been enjoying working on again: <a href="https://github.com/kurianbenoy/whisper_normalizer"><code>whisper_normalizer</code></a>.</p>
+<p>The package began as a way to use Whisper-style text normalization outside the Whisper codebase. It is especially useful when evaluating ASR systems: formatting, punctuation, script conventions, and number forms should not accidentally become speech-recognition errors.</p>
+<p>Over the last couple of weeks, I have been giving the project some attention again. Recent releases added <code>preserve_marks=True</code> to <code>BasicTextNormalizer</code>, which matters for scripts where Unicode marks carry meaning. I also added normalizers for French, Spanish, Arabic, Chinese, and Russian, with language-specific handling for written numbers, punctuation, diacritics, and orthographic variants. The project has also moved to nbdev v3 and received CI/CD fixes.</p>
+<p>Those changes are useful on their own, but they have made me think more seriously about what a 1.0 release should mean. I do not want 1.0 to promise perfect normalization for every language. I want it to promise something more practical: choosing and using a supported normalizer should be stable, explicit, and predictable.</p>
+<p>The <a href="https://github.com/kurianbenoy/whisper_normalizer/blob/codex/v1-release-plan/V1_RELEASE_PLAN.md">v1.0 release plan</a> sketches that out. The central idea is a small, documented API for selecting a normalizer by language, clear errors for unsupported languages, and no quiet fallback to a generic normalizer. Alongside that, I want every supported language to have a documented behaviour policy, regression tests, and a trustworthy release process.</p>
+<p>There is also an evaluation direction I am excited about: keeping the normalizer lightweight while offering optional integrations for ASR evaluation—such as OIWER and Sarvam LLM-based evaluation. The aim is to make it easier to compare raw WER/CER with normalized and language-aware measurements without making the base package depend on APIs or credentials.</p>
+<p>This is the beginning of that work, not a release announcement yet. I am looking forward to getting feedback from people who work with ASR and from language contributors who can help make the normalizers more useful in real-world evaluation. And hopefully, it is also the beginning of me writing here a little more often.</p>
+
+
+
+ ]]></description>
+  <category>open source</category>
+  <category>python</category>
+  <category>speech</category>
+  <guid>https://kurianbenoy.com/posts/2026/whisper-normalizer-v1.html</guid>
+  <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The NumPy story that inspired me to contribute to Open Source</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -960,9 +987,9 @@
 </section>
 <section id="tweets" class="level2">
 <h2 class="anchored" data-anchor-id="tweets">Tweets</h2>
-<p></p><div id="tweet-22890"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-22890").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-51984"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-51984").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-83560"></div><script>tweet={"url":"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/x.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-83560").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-79100"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-79100").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-63751"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-63751").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-12716"></div><script>tweet={"url":"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/x.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-12716").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1069,7 +1096,7 @@
 <figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-67526"></div><script>tweet={"url":"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/x.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-67526").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-76915"></div><script>tweet={"url":"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/x.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-76915").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1374,86 +1401,6 @@
   <guid>https://kurianbenoy.com/posts/2023/summit23_iiit/demo.html</guid>
   <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
   <media:content url="https://kurianbenoy.com/talks/iiit-kottayam-summit/huggingface.png" medium="image" type="image/png" height="46" width="144"/>
-</item>
-<item>
-  <title>Learning how to install malayalam fonts</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.com/posts/2023/malayalam_fonts/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I was working on Malayalam Speech to text models and the malayalam letters where not getting rendered properly. I was a bit irritated by it and I asked my friend <a href="https://thottingal.in/">Santhosh Thottingal</a> why <code>?</code> comes this way.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font2.jpg" class="img-fluid figure-img"></p>
-<figcaption>Malayalam rendered in Nirmala font.</figcaption>
-</figure>
-</div>
-<p>Santhosh told me basically malayalam letters take 3 bytes compared to 1 byte for latin and if the text is broken in the middle of those 3 byte clusters, you will get invalid character and will be displayed as <code>?</code>.</p>
-<p>Then he told me I was using one of the worst Malayalam fonts ie Nirmala by Microsoft which is the reason why I am seeing lot of rendering mistakes.</p>
-<p>So I stopped working on Mayalam ASR models and thought of studying how to install Malayalam fonts.</p>
-<p>I found personally two ways to install fonts and I want to share that here. There maybe another thousand different ways to install fonts which won’t be covered in this blogpost.</p>
-<ol type="1">
-<li>Installing with Malayalam Fonts - firefox plugins</li>
-</ol>
-<ul>
-<li>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/malayalam-fonts/">plugin</a></li>
-<li>Choose the fonts you want to use by selecting it firefox.</li>
-</ul>
-<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/firefox_plugin.png" class="img-fluid"></p>
-<ol start="2" type="1">
-<li>Installing on Microsoft Windows</li>
-</ol>
-<p>I just asked ChatGPT and it gave me the following steps to install fonts by SMC in Windows.</p>
-<pre><code>To download SMC (Swathanthra Malayalam Computing) fonts for your Windows operating system, follow these steps:
-
-1. Visit the SMC website: Go to the SMC website at https://smc.org.in/fonts/
-using your web browser.
-
-2. Choose the font: Browse through the available fonts and select the one you
-want to download. SMC offers a variety of fonts for different purposes.
-
-3. Download the font: Click on the download link or button associated with the
-selected font. The font file will be downloaded to your computer as a
-compressed (ZIP) file.
-
-4. Extract the font: Locate the downloaded ZIP file and extract its contents.
-Right-click on the file and select "Extract All" or use a third-party compression
-tool like WinRAR or 7-Zip to extract the font files.
-
-5. Install the font: After extracting the font files, double-click on the font file
-with the extension ".ttf" or ".otf." A preview of the font will appear, and a dialog
-box will open. Click on the "Install" button to install the font on your Windows system.
-
-6. Font installation completion: Once the font is installed, you can start using it
-in various applications such as word processors, graphic design software, or
-web browsers. The font will be available for selection in the font menu
-of compatible applications.
-
-By following these steps, you should be able to download and install SMC fonts on your Windows
-operating system. Remember to respect font licensing terms and only use the fonts
-for their intended purposes.</code></pre>
-<p><img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font3.jpg" class="img-fluid" alt="Malayalam rendered in Manjari font."> <img src="https://kurianbenoy.com/posts/2023/malayalam_fonts/malayalam_font1.jpg" class="img-fluid" alt="Malayalam rendered in Manjari font."></p>
-<p>After all this I asked Santhosh whether I have installed Manjari font correctly and he said it’s correct. It’s not every day you get to ask the person who built that font whether I have installed the font correctly or not.</p>
-<blockquote class="blockquote">
-<p>Note: For linux, all these fonts are preinstalled by default as it’s packaged as part of linux distros.</p>
-</blockquote>
-<p>I am glad to have friends like <a href="https://thottingal.in/">Santhosh Thottingal</a> to ask questions like this. Santhosh has written lot of popular fonts in Malayalam like <a href="https://smc.org.in/fonts/manjari">Manjari</a>, <a href="https://smc.org.in/fonts/gayathri">Gayathri</a> and with his latest font <a href="https://smc.org.in/fonts/nupuram">Nupuram</a> he has created almost 100+ fonts.</p>
-<p>In my opinion SMC creates the best fonts in Malayalam and check their website section on <a href="https://smc.org.in/fonts">fonts to learn more</a>. If you are interested to learn more about Malayalam Computing I had previously written a <a href="../../../posts/2019/2019-07-30-Malayalam_computing.html">blogpost</a> which is just a highlight of talk given by Santhosh on this topic.</p>
-
-
-
- ]]></description>
-  <category>Malayalam</category>
-  <category>myself</category>
-  <category>SMC</category>
-  <category>TIL</category>
-  <category>malayalamtextmodels</category>
-  <guid>https://kurianbenoy.com/posts/2023/malayalam_fonts/</guid>
-  <pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
