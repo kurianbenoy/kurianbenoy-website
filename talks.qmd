@@ -43,7 +43,10 @@ comments: false
 
 These are the list of talks I have delivered:
 
+- Mental Models for the four years that matter | Govt. Model Engineering College, Thrikkakara, Kochi| August 19, 2026 | [Slides](https://speakerdeck.com/kurianbenoy/mental-models-for-the-four-years-that-matter)
+
 - Beyond English: Advancing Indic Language AI with Sarvam-M and Bulbul-v2 | [AI Converge Meetup sponsored by Weights and Biases](https://lu.ma/hrmt0kne) | May 31, 2025 | [Slides](https://gamma.app/docs/Beyond-English-Advancing-Indic-Language-AI-with-Sarvam-M-and-Bulb-40zwt6k8bji827k)
+
 - [How I ended up maintaining a python package with 1M+ downloads?](https://www.youtube.com/watch?v=3o2V9BmeoYw&t=372s) | [Kochi FOSS Meetup](https://kochifoss.org/) | April 26, 2025 | [Slides](https://gamma.app/docs/How-I-ended-up-maintaining-building-a-python-package-with-1M-down-o87lazx9yprci5f), [Talk Page](./posts/2025/kochi-foss-april.qmd)
 
 - Why having a great taste is all you need to build great open-source projects | [Code Blossom Online Session](https://www.code-blossom.com/) | June 22, 2024 | [Slides](https://kurianbenoy.com/talks/code_blossom_great_open_source_projects/#/title-slide)
@@ -56,9 +59,9 @@ These are the list of talks I have delivered:
 
 - OpenAI Whisper and it's amazing power to do finetuning demonstrated on my Mother tongue | Pycon India, 2023 - Jawaharlal Nehru Technological University, Hyderabad, India. | October 1, 2023 | [Slides](./talks/pyconindia-2023/pyconind.qmd), [Talk Page](./posts/2023/pycon_india2023_talk/index.qmd)
 
-- [OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue](https://youtu.be/t_uoI6yOOZg) | FOSS Meetup Kochi - KeyValue, Smart Kochi. | June 24, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/pycon_india2023_talk/) 
+- [OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue](https://youtu.be/t_uoI6yOOZg) | FOSS Meetup Kochi - KeyValue, Smart Kochi, Kochi. | June 24, 2023 | [Slides](./talks/foss-united/kochi.qmd),  [Talk Page](./posts/2023/pycon_india2023_talk/) 
 
-- AI with Malayalam Computing | DebUtsav - Govt. Model Engineering College, Thrikkakara. | June 17, 2023 | [Slides](./talks/mec/debutsav.qmd),  [Talk Page](./posts/2023/debutsav_talk/index.qmd) 
+- AI with Malayalam Computing | DebUtsav - Govt. Model Engineering College, Thrikkakara, Kochi. | June 17, 2023 | [Slides](./talks/mec/debutsav.qmd),  [Talk Page](./posts/2023/debutsav_talk/index.qmd) 
 
 - OpenAI Whisper’s amazing power to do fine-tuning demonstrated on Malayalam (Oral Presentation) | Summit 23 - IIIT Kottayam | June 10, 2023 | [Slides](./talks/iiit-kottayam-summit/index.qmd),  [Talk Page](./posts/2023/summit23_iiit/oral.qmd) 
 
@@ -78,7 +81,7 @@ These are the list of talks I have delivered:
 
 - [Pitfalls, Glamour and Valuable advice from an AI/ML Expert](https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80NmRkNzdhMC9wb2RjYXN0L3Jzcw&ep=14) | Innovate At MEC Podcast | 7th January, 2021
 
-- Introduction to Datascience and ML (Human Library)| [Kochi FOSS](https://indiafoss.net/Kochi/2022) | Govt. Model Engineering College | October 15, 2022
+- Introduction to Datascience and ML (Human Library)| [Kochi FOSS](https://indiafoss.net/Kochi/2022) | Govt. Model Engineering College, Thrikkakara, Kochi | October 15, 2022
 
 - Expert Interaction Sessions | St Peters VHSS, Kolenchery, Kolenchery | 2022 | [Joy of Programming Slides](https://speakerdeck.com/kurianbenoy/joy-of-programming), [ML and Learning CS in real-world](https://speakerdeck.com/kurianbenoy/expert-interaction-on-ml)
 
