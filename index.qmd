@@ -6,21 +6,12 @@ about:
     - text: LinkedIn
       icon: linkedin 
       url: "https://linkedin.com/in/kurianbenoy"
-    - text: Twitter
-      icon: twitter
-      url: "https://twitter.com/kurianbenoy2"
     - text: GitHub
       icon: github
       url: "https://github.com/kurianbenoy"
-    - text: Youtube
-      icon: youtube
-      url: "https://www.youtube.com/@kurianbenoy2"
     - text: Kaggle
       icon: clipboard-data
       url: "https://www.kaggle.com/kurianbenoy"
-    - text: fastai forums
-      icon: file-post-fill
-      href: "https://forums.fast.ai/u/kurianbenoy/summary"
     - text: Email
       url: "mailto:kurian.bkk@gmail.com"
     - text: Blog
