@@ -8,7 +8,14 @@ website:
   twitter-card: true
   favicon: favicon.ico
   open-graph: true
-  site-url: https://kurianbenoy.com
+  site-url: https://kurianbenoy.org
+  google-analytics:
+    tracking-id: "G-ZWSTZ2WRFT"
+    anonymize-ip: true
+  cookie-consent:
+    type: implied   # or "express" for an explicit opt-in banner
+    style: headline
+    palette: light
   navbar:
     right:
       - text: "Blog"
@@ -19,8 +26,8 @@ website:
         href: https://til.kurianbenoy.com/
       - icon: linkedin 
         href: "https://linkedin.com/in/kurianbenoy"
-      - icon: twitter
-        href: https://twitter.com/kurianbenoy2
+      # - icon: twitter
+      #   href: https://twitter.com/kurianbenoy2
       - icon: github
         href: https://github.com/kurianbenoy
       - icon: rss
