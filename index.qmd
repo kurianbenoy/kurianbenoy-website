@@ -29,6 +29,6 @@ I'm the creator of [whisper-normalizer](https://github.com/kurianbenoy/whisper-n
 
 I've given talks on machine learning and Python at events including PyCon India. You can find my past talks on the [talks page](talks.qmd).
 
-I believe in the Malayalam proverb, “അണ്ണാൻ കുന്നിനും തന്നാലാവത്” — even a squirrel does what it can; we should each strive to do our best.
+I believe in the Malayalam proverb, “അണ്ണാൻ കുഞ്ഞിനും തന്നാലാവത്” — even a squirrel does what it can; we should each strive to do our best.
 
 Feel free to reach out by [email](mailto:kurian.bkk@gmail.com) or through any of the social links above.
