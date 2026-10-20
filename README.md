@@ -7,5 +7,5 @@ I have been writing in this repository October 11, 2017 and has been a home to m
 lot of migration using the web technologies I felt using over the period of years. Right now this repositorary houses my
 previous [Machine learning blogs](https://github.com/kurianbenoy/ml-blog) as well.
 
-https://kurianbenoy.com
+https://kurianbenoy.org
 
