@@ -25,7 +25,7 @@ comments: false
 
 I'm an ML Engineer who works on machine learning, data, and Python. I enjoy building practical tools and exploring how data-driven systems can solve useful problems.
 
-I'm the creator of [whisper-normalizer](https://github.com/kurianbenoy/whisper-normalizer), an open-source text-normalization library with more than 7 million downloads so far. I've also contributed to projects including Swathanthra Malayalam Computing, FOSSASIA, Keras, DVC, Hugging Face, fast.ai, and CloudCV.
+I'm the creator of [whisper-normalizer](https://github.com/kurianbenoy/whisper_normalizer), an open-source text-normalization library with more than 7 million downloads so far. I've also contributed to projects including Swathanthra Malayalam Computing, FOSSASIA, Keras, DVC, Hugging Face, fast.ai, and CloudCV.
 
 I've given talks on machine learning and Python at events including PyCon India. You can find my past talks on the [talks page](talks.qmd).
 
