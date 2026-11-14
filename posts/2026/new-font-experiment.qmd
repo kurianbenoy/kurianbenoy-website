@@ -1,0 +1,65 @@
+---
+title: What I Learned Trying to Vibe-Code a Font
+author: Kurian Benoy
+date: 2026-07-26
+categories: [open source, python, Malayalam]
+draft: true
+---
+I began with a question: could I build a Malayalam font much faster in the age of coding agents? I had heard how long designing a font can take. In a 2017 post, Santhosh Thottingal wrote that Chilanka took him about two months and Manjari about a year and a half—not as uninterrupted full-time work, but as projects refined over time ([thottingal.in](https://thottingal.in/blog/2017/09/14/how-to-design-a-new-malayalam-font/))
+
+I wanted to see what a coding agent could help me make. Andrej Karpathy’s **HackerTube** was one inspiration: a personal project where he gave an agent a clear idea, then shared the working result and how it was made. The appeal wasn’t just speed. It was the directness of the experiment: start with a question, build something you can try, and show your process. ([karpathy.bearblog.dev](https://karpathy.bearblog.dev/hacker-tube/?full=1))
+
+My experiment became **Kallar**, a multiscript typeface project that began with Malayalam and now includes Devanagari, Tamil, Telugu, and Kannada. It has a variable `APER` axis and colour-font versions. But this is not a story about inventing this Malayalam font on my own, or claiming the idea of an aperture axis as my own. I began with existing work and references—including **Manjari** and **Nupuram**—and used prompts to guide an agent in exploring and implementing transformations in that context. Manjari supplies the underlying design foundation; Nupuram was an important reference for expressive variable Malayalam type and programmatic font-making. ([github.com](https://github.com/kurianbenoy/kallar))
+
+![Kallar script](https://raw.githubusercontent.com/kurianbenoy/kallar/master/proofs/kallar_multiscript.png)
+
+## What the experiment produced
+
+The Kallar repository contains variable fonts, static instances, colour builds, specimens, and tests. The `APER` axis moves between round and more pointed counter shapes. For scripts beyond Malayalam, Kallar uses Noto Sans as a source for script-specific letters, while Manjari remains the shared base described in the project. ([github.com](https://github.com/kurianbenoy/kallar)).
+
+So yes, I could build a font in 2-3 days. And it looked fun.
+
+That’s a real technical result—but a working font file is not automatically a successful type design. Santhosh reviewed the work and pointed out swollen strokes, distorted curves, cuts, and inconsistencies between forms. His feedback made me confront the gap between getting an agent to implement a transformation and developing a coherent visual system.
+
+## What I learned from the feedback
+
+The most useful question is not simply “How quickly can an agent make a font?” It is “What part of type design can code and agents help with, and what still needs a designer’s eye?”
+
+Nupuram offers one answer: its glyphs are defined parametrically, so design characteristics can be adjusted through code. But the code serves a design approach; it doesn’t make the visual decisions by itself. ([fonts.thottingal.in](https://fonts.thottingal.in/nupuram/))
+
+OpenCode’s font project offers a different kind of inspiration. It takes six letters from the OpenCode wordmark and presents their construction, rules, and specimens in detail. It shows how a constrained idea can become a compelling project when the process is made visible. ([opencode.ai](https://opencode.ai/font))
+
+Kallar is still an experiment, not proof that coding agents can replace the long, careful work of type design. It did help me build and test a complex artifact, and it showed me where automation runs into the harder questions of consistency, form, and judgment. My next step is to use code and agents more deliberately: to explore design possibilities, speed up iteration, and make the work inspectable—without confusing a generated result with a finished design.
+
+**Kallar is the record of that attempt: what I asked an agent to help build, what worked technically, and what critique taught me to look at more carefully.** ([github.com](https://github.com/kurianbenoy/kallar))
+
+
+# From Manjari to Kallar: What I Learned Trying to Make a Font with Code
+
+I began with a question: could I use code to make Malayalam letters bloom?
+
+My first experiment explored the loops in Manjari, a Malayalam typeface by Santhosh Thottingal and Swathanthra Malayalam Computing. I imagined the round counters—the spaces inside letters—lifting into petal-like forms. Nupuram, Santhosh’s expressive variable Malayalam typeface, was another inspiration. Its technical approach also informed the shaping engine in an early, from-scratch draft of my project. ([fonts.thottingal.in](https://fonts.thottingal.in/nupuram/))
+
+The experiment grew into **Kallar**: a family of variable, colour fonts with an `APER` axis that moves from round counters to pointed, gateway-like forms. What began with Malayalam now extends to Devanagari, Tamil, Telugu, and Kannada. Manjari provides the shared base; for the four scripts it doesn’t cover, Kallar uses Noto Sans as a source for script-specific letters. The Nupuram-derived shaping engine belongs to the older draft, not the current production family. ([github.com](https://github.com/kurianbenoy/kallar))
+
+There is a working font here, not just a sketch: variable outlines, static instances, colour builds, specimens, and tests for shaping and character coverage. The tests help show that the font behaves as intended technically. They cannot tell me whether every curve feels right.
+
+## The critique I needed
+
+When I shared the work with Santhosh, he pointed out problems I needed to take seriously: swollen-looking strokes, cuts and distorted curves, and a lack of consistency between forms. He also challenged the premise. If the aim is to speed up type design, is it more meaningful to modify an existing font, or to use code to help create a design from the start?
+
+That feedback made me separate **a working font build** from **a finished type design**. My tools could move points, interpolate outlines, generate colour fonts, and run tests. Those achievements don’t, by themselves, make the result visually coherent. In Kallar, the letter skeletons are inherited, and the new aperture treatment is an experiment—not a claim that I have drawn a new typeface from scratch.
+
+For now, I see Kallar as both a usable technical artifact and a record of exploration. The design critique is part of that record, not something I want to hide behind a feature list.
+
+## What code—and AI—can contribute
+
+Santhosh’s work offers a different model. Nupuram is built around a defined visual idea and multiple variable axes. In his later Cocolata project, glyphs are described parametrically in code, while he uses coding agents to help with non-design work and assemble functional letterforms. He reviews the results and adjusts the proportions until they work visually. The important distinction is that automation supports the process; it doesn’t replace the designer’s judgment. ([fonts.thottingal.in](https://fonts.thottingal.in/nupuram/))
+
+OpenCode’s recently published font offers another useful lesson—not necessarily as a model for Malayalam design, but for how to present a project. It turns six letters from the OpenCode wordmark into a tightly constrained typeface, then makes its construction, measurements, and specimens part of the experience. The page shows what the project is and how it was made, instead of relying on a vague claim that it was AI-made or innovative. ([opencode.ai](https://opencode.ai/font))
+
+## What comes next
+
+I want to keep exploring how code can make type design more iterative: generate variations, build and preview them quickly, and test how a consistent set of rules behaves across glyphs. But the next step should start with a clearer design problem and a small set of forms—not simply a stronger transformation applied to an existing typeface. I’ll need to inspect the results closely and ask Malayalam readers and type designers for feedback as the work develops.
+
+Kallar is the result so far: a multiscript, variable, colour-font experiment built on credited foundations. It taught me how much can be automated—and how much still depends on looking carefully, making design decisions, and being willing to revise. ([github.com](https://github.com/kurianbenoy/kallar))
