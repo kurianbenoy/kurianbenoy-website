@@ -10,7 +10,77 @@
 <atom:link href="https://kurianbenoy.org/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Recent posts on kurianbenoy.com</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Sun, 26 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>What I learned trying to vibe-code a Malayalam font</title>
+  <dc:creator>Kurian Benoy</dc:creator>
+  <link>https://kurianbenoy.org/posts/2026/new-font-experiment.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Could I build a Malayalam font with coding agents?</p>
+<p>I knew font design could take a long time. In a <a href="https://thottingal.in/blog/2017/09/14/how-to-design-a-new-malayalam-font/">2017 post</a>, <a href="https://thottingal.in/">Santhosh Thottingal</a> wrote that Chilanka took him about two months and Manjari about a year and a half. Not full-time, but a project refined in the few hours left after work.</p>
+<p>Around then I came across Andrej Karpathy’s <a href="https://karpathy.bearblog.dev/hacker-tube/?full=1">HackerTube</a>. He built it in about two hours on a Saturday. The speed is the headline, but what I liked was the format: he had an idea, gave it to a coding agent, and then showed the working thing along with how it was made. I wanted to try the same with a font.</p>
+<section id="what-a-few-days-of-prompting-got-me" class="level1">
+<h1>What a few days of prompting got me</h1>
+<p>I gave the agent a few prompts, including a direction to explore a Malayalam font in conversation with existing work such as Manjari and Nupuram. The result became Kallar. I don’t claim the Malayalam loop forms or the APER idea as inventions of my own; this project is an experiment in applying them to a font built on existing designs.</p>
+<p>After a few days my experiment became Kallar, which is a working family, more or less. The repo has variable fonts, static Round and Petal instances, Spectrum builds, seven styles for each script, interactive specimens and tests. The Malayalam family has 918 glyphs in Regular. The tests run HarfBuzz shaping at <code>APER</code> 0, 50 and 100 for every script, check character coverage and colour tables, and FontBakery reports zero FAIL results for the eight multiscript Regular/Bold variable fonts, with documented exclusions.</p>
+<p>Getting there took two or three days of prompting. That part is fun, and I won’t pretend otherwise.</p>
+<p>At <code>APER 0</code> the counter is a classic round loop. At <code>APER 100</code>, which is the default, its crown lifts into a soft point, so the negative space reads like a lotus petal or a temple doorway. The axis has five stops in all, and the outer silhouette follows with a gentler version of the same gesture. Nothing is pasted on top; the outlines themselves change.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.org/posts/2026/kallar_aper.gif" class="img-fluid figure-img"></p>
+<figcaption>Kallar iterating across APER</figcaption>
+</figure>
+</div>
+<p>There is also colour. Kallar Spectrum carries a blue-to-orange gradient inside the font with COLRv1, blue at the crown and orange near the baseline, so a paragraph reads as one continuous field instead of separately coloured letters.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kurianbenoy.org/posts/2026/kallar_multiscript.png" class="img-fluid figure-img"></p>
+<figcaption>Kallar across five scripts</figcaption>
+</figure>
+</div>
+<p>I did not draw these letters from scratch. Every family sits on <a href="https://fonts.thottingal.in/manjari/">Manjari</a>’s skeleton. Manjari also supplies the Latin, digits, punctuation, spacing and metrics. For the four scripts Manjari has no letters for, Noto Sans donates only those script-specific letters. The aperture engine, the axis, the metrics, the Spectrum builds and the specimens are the new work here. I want that to be clear, because it is easy to show a font and let people assume you drew all of it.</p>
+<p>The code and proofs are on <a href="https://github.com/kurianbenoy/kallar">GitHub</a>.</p>
+<section id="the-critique-that-changed-the-question" class="level2">
+<h2 class="anchored" data-anchor-id="the-critique-that-changed-the-question">The critique that changed the question</h2>
+<p>But a font that builds is not the same as a type design that works. I sent it to Santhosh, and he was kind enough to look at it. He told me that the output is aesthetically bad: you can clearly see ink bloats and cuts, distorted curves and not having a uniform design. He also asked the harder question:</p>
+<blockquote class="blockquote">
+<p>If the aim is to speed up type design, is it more meaningful to modify an existing font, or to use code to help create a design from the start?</p>
+</blockquote>
+<p>That question stayed with me.</p>
+</section>
+<section id="a-working-build-is-not-a-finished-design" class="level2">
+<h2 class="anchored" data-anchor-id="a-working-build-is-not-a-finished-design">A working build is not a finished design</h2>
+<p>The gap between the two is where most of my learning happened. My tools could move points, interpolate outlines, generate colour fonts and run tests. None of that makes the result visually coherent. The tests tell me the font behaves as intended; they cannot tell me if a curve feels right.</p>
+<p>In Kallar the letter skeletons are inherited. The counter treatment is an experiment on top of Manjari, not a new Malayalam typeface.</p>
+</section>
+<section id="what-code-and-agents-are-good-at" class="level2">
+<h2 class="anchored" data-anchor-id="what-code-and-agents-are-good-at">What code and agents are good at</h2>
+<p>Santhosh’s own work is the better model here. Nupuram is built around a clear visual idea and four variable axes, and every glyph starts as a MetaPost program. In his newer <a href="https://fonts.thottingal.in/cocolata/">Cocolata</a> project, he takes that further: give a coding agent a base design and components, and it can assemble a functional letter in code. He reviews the result and adjusts the ratios until it looks right. Cocolata is still in beta. The automation helps the process, but it does not make the design decisions.</p>
+<p>I also liked <a href="https://opencode.ai/font">OpenCode’s font project</a>, though for a different reason. It takes six letters from the wordmark and turns them into a small, tightly constrained typeface, then shows the construction, measurements and specimens on the page. It is a good example of how to present a project: show the thing and show how it was made, instead of just saying AI made it.</p>
+<p>I am lucky that Santhosh took the time to review it. It is not every day that the person who designed lot of popular fonts in Malayalam looks at the work.</p>
+</section>
+<section id="whats-coming-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-coming-next">What’s coming next?</h2>
+<p>I don’t have a next step yet. I treated Kallar as an experiment in building a font, and it isn’t nearly good enough to call a finished typeface. I want to learn more about type design and find a distinct design idea before continuing. I started with an engineering question—could I build a font?—but I’ve learned that the design needs to come first.</p>
+<p>I feel it’s better to understand more about type design, come up with a unique idea and then design a font. Instead of trying to vibe code a unique font with a engineering mindset.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>open source</category>
+  <category>fonts</category>
+  <category>Malayalam</category>
+  <category>AI</category>
+  <guid>https://kurianbenoy.org/posts/2026/new-font-experiment.html</guid>
+  <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Getting whisper_normalizer ready for 1.0</title>
   <dc:creator>Kurian Benoy</dc:creator>
@@ -987,9 +1057,9 @@
 </section>
 <section id="tweets" class="level2">
 <h2 class="anchored" data-anchor-id="tweets">Tweets</h2>
-<p></p><div id="tweet-61762"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-61762").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-41172"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-41172").innerHTML = tweet["html"];</script><p></p>
-<p></p><div id="tweet-16385"></div><script>tweet={"url":"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/x.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-16385").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-92002"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1708369432903553187","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAn engaging talk that left us all spellbound at \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E by our Speaker Kurian Benoy (\u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E) on &quot;OpenAI Whisper and it’s amazing power to do fine-tuning demonstrated in my mother-tongue&quot;. It was an exploration of the thrilling fusion of Python and innovation \uD83D\uDD25 \u003Ca href=\"https:\/\/t.co\/3deZLjJNiw\"\u003Epic.twitter.com\/3deZLjJNiw\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1708369432903553187?ref_src=twsrc%5Etfw\"\u003EOctober 1, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-92002").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-43508"></div><script>tweet={"url":"https:\/\/x.com\/pyconindia\/status\/1714265134917702040","author_name":"PyCon India","author_url":"https:\/\/x.com\/pyconindia","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EA massive thank you to all the brilliant speakers of \u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia2023?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia2023\u003C\/a\u003E! \uD83C\uDFA4 Your insights, knowledge and passion for Python has truly enriched our event \uD83D\uDE03\u003Ca href=\"https:\/\/x.com\/hashtag\/PyConIndia?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PyConIndia\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/PythonForAll?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#PythonForAll\u003C\/a\u003E \u003Ca href=\"https:\/\/x.com\/hashtag\/CodeCollaborateCelebrate?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#CodeCollaborateCelebrate\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/TZSMJBT6Kp\"\u003Epic.twitter.com\/TZSMJBT6Kp\u003C\/a\u003E\u003C\/p\u003E&mdash; PyCon India (@pyconindia) \u003Ca href=\"https:\/\/x.com\/pyconindia\/status\/1714265134917702040?ref_src=twsrc%5Etfw\"\u003EOctober 17, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-43508").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-98350"></div><script>tweet={"url":"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372","author_name":"Kavya Manohar (കാവ്യ)","author_url":"https:\/\/x.com\/kavya_manohar","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EThere has never been a benchmark for comparing Malayalam ASR models. Thank you \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/Ay84OGzxWn\"\u003Ehttps:\/\/t.co\/Ay84OGzxWn\u003C\/a\u003E\u003C\/p\u003E&mdash; Kavya Manohar (കാവ്യ) (@kavya_manohar) \u003Ca href=\"https:\/\/x.com\/kavya_manohar\/status\/1633755478818959372?ref_src=twsrc%5Etfw\"\u003EMarch 9, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-98350").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1096,7 +1166,7 @@
 <figcaption>This talk is not generated :D</figcaption>
 </figure>
 </div>
-<p></p><div id="tweet-82645"></div><script>tweet={"url":"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/x.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-82645").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-50166"></div><script>tweet={"url":"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208","author_name":"Kochi FOSS Meetups","author_url":"https:\/\/x.com\/KochiFOSS","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBack to the talks again with \u003Ca href=\"https:\/\/x.com\/kurianbenoy2?ref_src=twsrc%5Etfw\"\u003E@kurianbenoy2\u003C\/a\u003E talking about fine-tuning OpenAI Whisper capabilities in his mother-tongue aka Malayalam \uD83E\uDD29 \u003Ca href=\"https:\/\/t.co\/m91FruuzqS\"\u003Epic.twitter.com\/m91FruuzqS\u003C\/a\u003E\u003C\/p\u003E&mdash; Kochi FOSS Meetups (@KochiFOSS) \u003Ca href=\"https:\/\/x.com\/KochiFOSS\/status\/1672490010770014208?ref_src=twsrc%5Etfw\"\u003EJune 24, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.x.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"X","provider_url":"https:\/\/x.com","version":"1.0"};document.getElementById("tweet-50166").innerHTML = tweet["html"];</script><p></p>
 
 
 </section>
@@ -1281,126 +1351,6 @@
   <category>SMC</category>
   <guid>https://kurianbenoy.org/posts/2023/summit23_iiit/oral.html</guid>
   <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Releasing Vegam Whisper Family of Models and demoing Malayalam Speech to Text</title>
-  <dc:creator>Kurian Benoy</dc:creator>
-  <link>https://kurianbenoy.org/posts/2023/summit23_iiit/demo.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li><a href="../../../talks/iiit-kottayam-summit/demo.html">Slides</a></li>
-<li>Scheduled Time: Saturday, June 10, 2023. 2:00 PM IST</li>
-<li>Venue: AA 127, IIIT Kottayam.</li>
-<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">Pallakku a Malayalam speech to text demo</a></li>
-</ul>
-</section>
-<section id="vegam-whisper-family-of-models" class="level2">
-<h2 class="anchored" data-anchor-id="vegam-whisper-family-of-models">Vegam Whisper Family of Models</h2>
-<p>Inspired by <a href="https://github.com/guillaumekln/faster-whisper">faster-whisper</a> which is a reimplementation of OpenAI’s Whisper model using CTranslate2 speeds upto 4 times faster than <code>openai/whisper</code> for the same accuracy while using less memory.</p>
-<p>CTranslate2 supports various quantization formats and we have trained models for the following quantization formats:</p>
-<ul>
-<li>float16</li>
-<li>int16</li>
-<li>float8</li>
-<li>int8_float8</li>
-<li>No quantization</li>
-</ul>
-<p>For Malayalam, I used the best model in my benchmarking study ie <a href="https://huggingface.co/thennal/whisper-medium-ml">thennal/whisper-medium-ml</a> and converted into all possible quantization weights.</p>
-<ol type="1">
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml">kurianbenoy/vegam-whisper-medium-ml</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp16">kurianbenoy/vegam-whisper-medium-ml-fp16</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int16">kurianbenoy/vegam-whisper-medium-ml-int16</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-fp8">kurianbenoy/vegam-whisper-medium-ml-fp8</a></li>
-<li><a href="https://huggingface.co/kurianbenoy/vegam-whisper-medium-ml-int8_float8">kurianbenoy/vegam-whisper-medium-ml-int8_float8</a></li>
-</ol>
-</section>
-<section id="code-to-run-faster-whisper-code" class="level2">
-<h2 class="anchored" data-anchor-id="code-to-run-faster-whisper-code">Code to run faster-whisper code</h2>
-<p><img src="https://kurianbenoy.org/talks/iiit-kottayam-summit/faster-whisper.png" class="img-fluid"></p>
-</section>
-<section id="demo-video--1-and-its-associated-output" class="level2">
-<h2 class="anchored" data-anchor-id="demo-video--1-and-its-associated-output">Demo Video -1 and it’s associated Output</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zm1gU8hRHxA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>Oru Thai Nadam sang by Venugopal and Sreya, Lyrics by Sugathakumari</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.org/talks/iiit-kottayam-summit/25s_audio.png" class="img-fluid figure-img"></p>
-<figcaption>Output of clip from Video 1</figcaption>
-</figure>
-</div>
-</section>
-<section id="demo-video--2-and-its-associated-output" class="level2">
-<h2 class="anchored" data-anchor-id="demo-video--2-and-its-associated-output">Demo Video -2 and it’s associated Output</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fZZFCOkWquY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<blockquote class="blockquote">
-<p>Sang by Sithara Krishna Kumar, Lyrics by BK Hari Narayanan. This was a song created spontaneously at MBIFL 2023</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://kurianbenoy.org/talks/iiit-kottayam-summit/10s_audio.png" class="img-fluid figure-img"></p>
-<figcaption>Output of clip from Video 2</figcaption>
-</figure>
-</div>
-</section>
-<section id="pallakku" class="level2">
-<h2 class="anchored" data-anchor-id="pallakku">Pallakku</h2>
-<ul>
-<li>Pallakku is a Malayalam speech to text demo leveraging the model-weights of whisper family of models. It might be the first huggingface 🤗 spaces for Malayalam speech to text.</li>
-</ul>
-<p>Two options to try it out:</p>
-<ol type="1">
-<li><a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">🤗 spaces</a></li>
-</ol>
-<p><img src="https://kurianbenoy.org/talks/delft-fastai/pallakku.png" class="img-fluid"></p>
-<p>You can try it out in <a href="https://huggingface.co/spaces/kurianbenoy/Pallakku">the below link</a>.</p>
-<ol start="2" type="1">
-<li>GPU-based microservice (coming soon.)</li>
-</ol>
-</section>
-<section id="what-is-behind-the-name-of-vegam-and-pallakku" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-behind-the-name-of-vegam-and-pallakku">What is behind the name of Vegam and Pallakku?</h2>
-<ul>
-<li>Vegam is a Malayalam word which means speed.</li>
-<li>Pallakku is a Malayalam word which means a palanquin. It is a vehicle which is carried by people.</li>
-</ul>
-<p>As an author of these work, I just wanted to say the meaning of these words doesn’t really have anything to do with the package. Vegam might not be the fastest Malayalam ASR model and Pallakku is named not to refer to the old colonial times. I just named it for the sake of naming it.</p>
-</section>
-<section id="thanks-to" class="level2">
-<h2 class="anchored" data-anchor-id="thanks-to">Thanks to</h2>
-<ul>
-<li><a href="https://twitter.com/santhoshtr/">Santhosh Thottingal</a> for his support and guidance. Santhosh told me about faster-whisper and the utility to convert the model weights to various quantization formats.</li>
-<li>Organizers of IIIT Summit 23 for giving me an opportunity to present my work.</li>
-</ul>
-</section>
-<section id="how-was-the-expereince-presenting-demos" class="level2">
-<h2 class="anchored" data-anchor-id="how-was-the-expereince-presenting-demos">How was the expereince presenting demos?</h2>
-<p>Demo presentations are events where you can interact with people during the scheduled time. There was an evaluation panel with one of chief guests of the event <a href="https://www.linkedin.com/in/dr-t-ramalingeswara-rao-784a903a/">Dr.&nbsp;T Ramalingeswara Rao</a> from TCS and one of the professors.</p>
-<p>These sessions brought a hacker kind of vibe back to me. I was really happy to receive lot of curious questions and smiles received from folks who came to visit my demo presentation. I set up the demo in such a way that there was a wireless microphone and I would play a few audio files. They used to rate the output of the model.</p>
-<p>Some of my professors who taught me in previous semesters like <a href="https://www.iiitkottayam.ac.in/#!/faculty/keshab">Dr.&nbsp;Keshab Nath</a> visited to see my demo and gave me suggestions. It was a nice vibe to interact with a bunch of BTech students in their second semester from Andhra Pradhesh. Even though they were not able to understand Malayalam, they just hung around and asked me questions :D.</p>
-
-
-</section>
-
- ]]></description>
-  <category>academic</category>
-  <category>life</category>
-  <category>conference</category>
-  <category>Malayalam</category>
-  <category>Audio</category>
-  <category>Talk Page</category>
-  <category>SMC</category>
-  <guid>https://kurianbenoy.org/posts/2023/summit23_iiit/demo.html</guid>
-  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://kurianbenoy.org/talks/iiit-kottayam-summit/huggingface.png" medium="image" type="image/png" height="46" width="144"/>
 </item>
 </channel>
 </rss>

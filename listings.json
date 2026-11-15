@@ -22,6 +22,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2026/new-font-experiment.html",
       "/posts/2026/whisper-normalizer-v1.html",
       "/posts/2025/numpy-oss-story.html",
       "/posts/2025/daddy-bday.html",
