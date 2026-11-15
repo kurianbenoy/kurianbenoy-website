@@ -9,6 +9,8 @@ lang: en
 toc: true
 ---
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IYGMyfzJH5foldkpda3-E7Xoh8hd9rQ_f2Ha4tZ3FAJ-arj1cRvgzxY&s=10)
+
 In a packed auditorium at PyCon India 2018 in Hyderabad International Convention Centre, [Travis Oliphant](https://en.wikipedia.org/wiki/Travis_Oliphant) stood before hundreds of developers and made a confession that excited me a lot. Here was the creator of NumPy—a library that powers everything from physics simulations to machine learning models used by millions—and he said this: “I’m actually more proud of my daughter than all the other work I’ve done.”
 
 He had just spent twenty minutes walking us through his impact on scientific computing. SciPy. NumPy. Anaconda. Tools that literally changed the course of human events, as he put it. And yet, when his daughter wrote him a letter saying “Dad, I really appreciate you,” that moment meant more to him than any of it.
